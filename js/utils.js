@@ -2,8 +2,8 @@
  * Utility functions for the Old World Atlas
  */
 
-// Image bounds from tilemapresource.xml
-const IMAGE_BOUNDS = [-4.79269114725315, 40.30062386071874, 13.73066378234685, 58.82397879031875];
+// Image bounds for the full Old World map (from map-manager.js tile extent)
+const IMAGE_BOUNDS = [-19.045, 31.949, 18.457, 69.451];
 
 /**
  * Check if a coordinate is within the image bounds
