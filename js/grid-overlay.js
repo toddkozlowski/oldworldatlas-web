@@ -9,18 +9,19 @@ class GridOverlay {
         this.gridLayer = null;
         this.gridSource = null;
         this.gridType = 'off'; // 'off' or 'square'
-        this.gridSizeKm = 100; // Default grid size in kilometers
+        this.gridSize = 100; // Default grid size
+        this.gridUnit = 'miles'; // 'miles' or 'kilometers'
         
         // Map extent from the base map tiles
         this.mapExtent = [-19.045, 31.949, 18.457, 69.451]; // [minX, minY, maxX, maxY]
         
-        // Conversion factor: map units to kilometers
+        // Conversion factors: map units to distance
         // From measurement-tool.js: length * 100 * 83.5 = miles
-        // So: map_units * 8350 = miles
-        // And: miles * 1.60934 = kilometers
-        // Therefore: map_units * 8350 * 1.60934 ≈ map_units * 13437.989 = kilometers
-        // Adjusted by factor of 100 to correct grid scale
-        this.MAP_UNITS_TO_KM = 134.37989;
+        // Adjusted by factor of 100 to correct grid scale: map_units * 83.5 = miles
+        this.MAP_UNITS_TO_MILES = 83.5;
+        // km = miles * 1.60934
+        this.MAP_UNITS_TO_KM = 83.5 * 1.60934; // 134.37989
+        this.MILES_TO_KM = 1.60934;
     }
 
     /**
@@ -41,11 +42,13 @@ class GridOverlay {
     /**
      * Update the grid based on current settings
      * @param {string} gridType - 'off' or 'square'
-     * @param {number} gridSizeKm - Grid size in kilometers
+     * @param {number} gridSize - Grid size in the specified unit
+     * @param {string} gridUnit - 'miles' or 'kilometers'
      */
-    updateGrid(gridType, gridSizeKm) {
+    updateGrid(gridType, gridSize, gridUnit) {
         this.gridType = gridType;
-        this.gridSizeKm = gridSizeKm;
+        this.gridSize = gridSize;
+        this.gridUnit = gridUnit;
         
         // Clear existing grid
         this.gridSource.clear();
@@ -64,13 +67,18 @@ class GridOverlay {
     }
 
     /**
-     * Convert kilometers to map units
+     * Convert miles or kilometers to map units
      * @private
-     * @param {number} km - Distance in kilometers
+     * @param {number} distance - Distance in miles or kilometers
+     * @param {string} unit - 'miles' or 'kilometers'
      * @returns {number} Distance in map units
      */
-    kmToMapUnits(km) {
-        return km / this.MAP_UNITS_TO_KM;
+    distanceToMapUnits(distance, unit) {
+        if (unit === 'miles') {
+            return distance / this.MAP_UNITS_TO_MILES;
+        } else {
+            return distance / this.MAP_UNITS_TO_KM;
+        }
     }
 
     /**
@@ -78,7 +86,7 @@ class GridOverlay {
      * @private
      */
     generateSquareGrid() {
-        const cellSize = this.kmToMapUnits(this.gridSizeKm);
+        const cellSize = this.distanceToMapUnits(this.gridSize, this.gridUnit);
         const [minX, minY, maxX, maxY] = this.mapExtent;
         
         const features = [];

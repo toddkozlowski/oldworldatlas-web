@@ -188,12 +188,14 @@ class UIControls {
         const gridOffBtn = document.getElementById('grid-off');
         const gridSquareBtn = document.getElementById('grid-square');
         const gridSizeInput = document.getElementById('grid-size');
+        const gridUnitLabel = document.getElementById('grid-unit-label');
         
         const mobileGridOffBtn = document.getElementById('mobile-grid-off');
         const mobileGridSquareBtn = document.getElementById('mobile-grid-square');
         const mobileGridSizeInput = document.getElementById('mobile-grid-size');
+        const mobileGridUnitLabel = document.getElementById('mobile-grid-unit-label');
         
-        // Load saved preferences or use defaults
+        // Load saved preferences or use defaults (default to miles)
         let currentGridType = localStorage.getItem('grid_type') || 'off';
         // Reset to 'off' if saved type was 'hex' (no longer supported)
         if (currentGridType === 'hex') {
@@ -204,6 +206,19 @@ class UIControls {
         // Clamp grid size to valid range
         if (currentGridSize < 5) currentGridSize = 5;
         if (currentGridSize > 1000) currentGridSize = 1000;
+        
+        // Get current units
+        const getCurrentUnit = () => {
+            return window.getCurrentUnits ? window.getCurrentUnits() : 'miles';
+        };
+        
+        // Update unit labels
+        const updateUnitLabels = () => {
+            const units = getCurrentUnit();
+            const label = units === 'kilometers' ? 'km' : 'mi';
+            if (gridUnitLabel) gridUnitLabel.textContent = label;
+            if (mobileGridUnitLabel) mobileGridUnitLabel.textContent = label;
+        };
         
         // Update UI to reflect current state
         const updateGridUI = () => {
@@ -216,6 +231,9 @@ class UIControls {
             if (mobileGridOffBtn) mobileGridOffBtn.classList.toggle('active', currentGridType === 'off');
             if (mobileGridSquareBtn) mobileGridSquareBtn.classList.toggle('active', currentGridType === 'square');
             if (mobileGridSizeInput) mobileGridSizeInput.value = currentGridSize;
+            
+            // Update unit labels
+            updateUnitLabels();
         };
         
         // Update grid overlay
@@ -224,9 +242,10 @@ class UIControls {
             localStorage.setItem('grid_size', currentGridSize.toString());
             updateGridUI();
             
-            // Update the grid overlay
+            // Update the grid overlay with current unit
             if (typeof gridOverlay !== 'undefined') {
-                gridOverlay.updateGrid(currentGridType, currentGridSize);
+                const units = getCurrentUnit();
+                gridOverlay.updateGrid(currentGridType, currentGridSize, units);
             }
         };
         
@@ -290,6 +309,13 @@ class UIControls {
                 }
             });
         }
+        
+        // Listen for unit changes and update grid
+        window.addEventListener('unitsChanged', () => {
+            updateUnitLabels();
+            // Update the grid with new units (size stays the same, just different interpretation)
+            updateGrid();
+        });
         
         // Initialize UI
         updateGridUI();

@@ -72,10 +72,11 @@ async function initializeApp() {
             mapManager.getGridSource()
         );
         
-        // Load saved grid settings
+        // Load saved grid settings (default to miles)
         const savedGridType = localStorage.getItem('grid_type') || 'off';
         const savedGridSize = parseInt(localStorage.getItem('grid_size')) || 100;
-        gridOverlay.updateGrid(savedGridType, savedGridSize);
+        const currentUnits = window.getCurrentUnits ? window.getCurrentUnits() : 'miles';
+        gridOverlay.updateGrid(savedGridType, savedGridSize, currentUnits);
         
         // Initialize search functionality
         searchManager.initialize();
