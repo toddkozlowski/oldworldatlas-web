@@ -24,6 +24,7 @@ class UIControls {
         this.initializeRegionToggle();
         this.initializeWaterToggle();
         this.initializePublishedCanonOnlyToggle();
+        this.initializeGridControls();
         this.initializePopup(map);
         this.initializeMeasurementButton();
     }
@@ -176,6 +177,152 @@ class UIControls {
         if (mobileCheckbox) {
             mobileCheckbox.addEventListener('change', handleToggle);
         }
+    }
+
+    /**
+     * Initialize grid overlay controls
+     * @private
+     */
+    initializeGridControls() {
+        // Get all grid control elements
+        const gridOffBtn = document.getElementById('grid-off');
+        const gridSquareBtn = document.getElementById('grid-square');
+        const gridSizeInput = document.getElementById('grid-size');
+        const gridUnitLabel = document.getElementById('grid-unit-label');
+        
+        const mobileGridOffBtn = document.getElementById('mobile-grid-off');
+        const mobileGridSquareBtn = document.getElementById('mobile-grid-square');
+        const mobileGridSizeInput = document.getElementById('mobile-grid-size');
+        const mobileGridUnitLabel = document.getElementById('mobile-grid-unit-label');
+        
+        // Load saved preferences or use defaults (default to miles)
+        let currentGridType = localStorage.getItem('grid_type') || 'off';
+        // Reset to 'off' if saved type was 'hex' (no longer supported)
+        if (currentGridType === 'hex') {
+            currentGridType = 'off';
+        }
+        let currentGridSize = parseInt(localStorage.getItem('grid_size')) || 100;
+        
+        // Clamp grid size to valid range
+        if (currentGridSize < 5) currentGridSize = 5;
+        if (currentGridSize > 1000) currentGridSize = 1000;
+        
+        // Get current units
+        const getCurrentUnit = () => {
+            return window.getCurrentUnits ? window.getCurrentUnits() : 'miles';
+        };
+        
+        // Update unit labels
+        const updateUnitLabels = () => {
+            const units = getCurrentUnit();
+            const label = units === 'kilometers' ? 'km' : 'mi';
+            if (gridUnitLabel) gridUnitLabel.textContent = label;
+            if (mobileGridUnitLabel) mobileGridUnitLabel.textContent = label;
+        };
+        
+        // Update UI to reflect current state
+        const updateGridUI = () => {
+            // Desktop buttons
+            if (gridOffBtn) gridOffBtn.classList.toggle('active', currentGridType === 'off');
+            if (gridSquareBtn) gridSquareBtn.classList.toggle('active', currentGridType === 'square');
+            if (gridSizeInput) gridSizeInput.value = currentGridSize;
+            
+            // Mobile buttons
+            if (mobileGridOffBtn) mobileGridOffBtn.classList.toggle('active', currentGridType === 'off');
+            if (mobileGridSquareBtn) mobileGridSquareBtn.classList.toggle('active', currentGridType === 'square');
+            if (mobileGridSizeInput) mobileGridSizeInput.value = currentGridSize;
+            
+            // Update unit labels
+            updateUnitLabels();
+        };
+        
+        // Update grid overlay
+        const updateGrid = () => {
+            localStorage.setItem('grid_type', currentGridType);
+            localStorage.setItem('grid_size', currentGridSize.toString());
+            updateGridUI();
+            
+            // Update the grid overlay with current unit
+            if (typeof gridOverlay !== 'undefined') {
+                const units = getCurrentUnit();
+                gridOverlay.updateGrid(currentGridType, currentGridSize, units);
+            }
+        };
+        
+        // Set grid type
+        const setGridType = (type) => {
+            currentGridType = type;
+            updateGrid();
+        };
+        
+        // Set grid size
+        const setGridSize = (size) => {
+            // Clamp to valid range
+            if (size < 5) size = 5;
+            if (size > 1000) size = 1000;
+            currentGridSize = size;
+            updateGrid();
+        };
+        
+        // Desktop button event listeners
+        if (gridOffBtn) {
+            gridOffBtn.addEventListener('click', () => setGridType('off'));
+        }
+        if (gridSquareBtn) {
+            gridSquareBtn.addEventListener('click', () => setGridType('square'));
+        }
+        if (gridSizeInput) {
+            gridSizeInput.addEventListener('change', (e) => {
+                const value = parseInt(e.target.value);
+                if (!isNaN(value)) {
+                    setGridSize(value);
+                }
+            });
+            // Also update on input for real-time feedback
+            gridSizeInput.addEventListener('input', (e) => {
+                const value = parseInt(e.target.value);
+                if (!isNaN(value) && value >= 5 && value <= 1000) {
+                    setGridSize(value);
+                }
+            });
+        }
+        
+        // Mobile button event listeners
+        if (mobileGridOffBtn) {
+            mobileGridOffBtn.addEventListener('click', () => setGridType('off'));
+        }
+        if (mobileGridSquareBtn) {
+            mobileGridSquareBtn.addEventListener('click', () => setGridType('square'));
+        }
+        if (mobileGridSizeInput) {
+            mobileGridSizeInput.addEventListener('change', (e) => {
+                const value = parseInt(e.target.value);
+                if (!isNaN(value)) {
+                    setGridSize(value);
+                }
+            });
+            // Also update on input for real-time feedback
+            mobileGridSizeInput.addEventListener('input', (e) => {
+                const value = parseInt(e.target.value);
+                if (!isNaN(value) && value >= 5 && value <= 1000) {
+                    setGridSize(value);
+                }
+            });
+        }
+        
+        // Listen for unit changes and update grid
+        window.addEventListener('unitsChanged', () => {
+            updateUnitLabels();
+            // Update the grid with new units (size stays the same, just different interpretation)
+            updateGrid();
+        });
+        
+        // Initialize UI
+        updateGridUI();
+        
+        // Expose method to get current grid settings
+        window.getCurrentGridType = () => currentGridType;
+        window.getCurrentGridSize = () => currentGridSize;
     }
 
     /**

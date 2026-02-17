@@ -6,6 +6,8 @@ class MapManager {
     constructor(targetElementId = 'map') {
         this.map = null;
         this.targetElementId = targetElementId;
+        this.gridVectorLayer = null;  // Grid overlay layer
+        this.gridSource = null;
         this.settlementVectorLayer = null;
         this.settlementSource = null;
         this.settlementMarkersOnlyLayer = null;  // Marker-only layer (no declutter)
@@ -54,6 +56,7 @@ class MapManager {
             coordinateFormat: coordinateFormat
         });
 
+        this.gridSource = new ol.source.Vector();  // Grid overlay
         this.settlementSource = new ol.source.Vector();
         this.settlementMarkersOnlySource = new ol.source.Vector();  // Markers only (no labels)
         this.dwarfSettlementSource = new ol.source.Vector();  // Dwarf settlements
@@ -72,6 +75,7 @@ class MapManager {
                         this.createTileLayer(),
                     ]
                 }),
+                this.createGridLayer(),                        // Grid overlay (above basemap, below everything else)
                 this.createProvinceLayer(),
                 this.createWaterLayer(),
                 this.createSettlementMarkersOnlyLayer(),  // Markers only, always visible
@@ -92,13 +96,14 @@ class MapManager {
         });
 
         // Store references to layers for visibility control
-        this.provinceVectorLayer = this.map.getLayers().item(1);
-        this.waterVectorLayer = this.map.getLayers().item(2);
-        this.settlementMarkersOnlyLayer = this.map.getLayers().item(3);
-        this.settlementVectorLayer = this.map.getLayers().item(4);
-        this.dwarfSettlementMarkersOnlyLayer = this.map.getLayers().item(5);
-        this.dwarfSettlementVectorLayer = this.map.getLayers().item(6);
-        this.poiVectorLayer = this.map.getLayers().item(7);
+        this.gridVectorLayer = this.map.getLayers().item(1);
+        this.provinceVectorLayer = this.map.getLayers().item(2);
+        this.waterVectorLayer = this.map.getLayers().item(3);
+        this.settlementMarkersOnlyLayer = this.map.getLayers().item(4);
+        this.settlementVectorLayer = this.map.getLayers().item(5);
+        this.dwarfSettlementMarkersOnlyLayer = this.map.getLayers().item(6);
+        this.dwarfSettlementVectorLayer = this.map.getLayers().item(7);
+        this.poiVectorLayer = this.map.getLayers().item(8);
         
         // POI layer starts hidden (unchecked)
         this.poiVectorLayer.setVisible(false);
@@ -336,6 +341,21 @@ class MapManager {
     }
 
     /**
+     * Create grid overlay vector layer
+     * @private
+     * @returns {ol.layer.Vector}
+     */
+    createGridLayer() {
+        return new ol.layer.Vector({
+            title: 'Grid Overlay',
+            source: this.gridSource,
+            updateWhileAnimating: false,  // Performance: don't update during animation
+            updateWhileInteracting: false, // Performance: don't update while panning/zooming
+            style: GridOverlay.createGridStyle()
+        });
+    }
+
+    /**
      * Add features to settlement layer
      * @param {array} features - Array of ol.Feature objects
      */
@@ -502,6 +522,22 @@ class MapManager {
      */
     getDwarfSettlementMarkersOnlyLayer() {
         return this.dwarfSettlementMarkersOnlyLayer;
+    }
+    
+    /**
+     * Get grid layer
+     * @returns {ol.layer.Vector}
+     */
+    getGridLayer() {
+        return this.gridVectorLayer;
+    }
+    
+    /**
+     * Get grid source
+     * @returns {ol.source.Vector}
+     */
+    getGridSource() {
+        return this.gridSource;
     }
 }
 

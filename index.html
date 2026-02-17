@@ -1269,6 +1269,69 @@
             border-color: rgba(24, 19, 150, 0.9);
         }
         
+        /* Grid toggle */
+        .grid-toggle {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+        }
+        
+        .grid-toggle button {
+            flex: 1;
+            padding: 8px 10px;
+            border: 2px solid #ddd;
+            background: white;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 13px;
+            font-weight: 600;
+            transition: all 0.2s ease;
+        }
+        
+        .grid-toggle button:hover {
+            border-color: #999;
+        }
+        
+        .grid-toggle button.active {
+            background: rgba(24, 19, 150, 0.9);
+            color: white;
+            border-color: rgba(24, 19, 150, 0.9);
+        }
+        
+        .grid-size-control {
+            margin-top: 8px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .grid-size-control label {
+            font-size: 12px;
+            color: #666;
+            white-space: nowrap;
+        }
+        
+        .grid-size-control input {
+            flex: 1;
+            padding: 6px 8px;
+            border: 2px solid #ddd;
+            border-radius: 4px;
+            font-size: 13px;
+            width: 80px;
+        }
+        
+        .grid-size-control input:focus {
+            outline: none;
+            border-color: rgba(24, 19, 150, 0.9);
+        }
+        
+        .grid-size-control span {
+            font-size: 12px;
+            color: #666;
+            font-weight: 600;
+            min-width: 20px;
+        }
+        
         /* Search bar container */
         .search-container {
             position: absolute;
@@ -1665,6 +1728,18 @@
                 <button id="mobile-units-kilometers">Kilometers</button>
             </div>
         </div>
+        <div class="mobile-dropdown-item" style="padding: 16px;">
+            <div style="margin-bottom: 8px; font-size: 13px; font-weight: 600; color: #666;">Grid Overlay</div>
+            <div class="grid-toggle">
+                <button id="mobile-grid-off" class="active">Off</button>
+                <button id="mobile-grid-square">Square</button>
+            </div>
+            <div class="grid-size-control">
+                <label for="mobile-grid-size">Size:</label>
+                <input type="number" id="mobile-grid-size" min="5" max="1000" value="100">
+                <span id="mobile-grid-unit-label">mi</span>
+            </div>
+        </div>
         <div class="mobile-dropdown-item">
             <button id="mobile-about-button">About</button>
         </div>
@@ -1716,6 +1791,18 @@
                 <div class="units-toggle">
                     <button id="units-miles" class="active">Miles</button>
                     <button id="units-kilometers">Kilometers</button>
+                </div>
+            </div>
+            <div style="padding: 8px 0; margin-top: 12px;">
+                <div style="margin-bottom: 8px; font-size: 13px; font-weight: 600;">Grid Overlay</div>
+                <div class="grid-toggle">
+                    <button id="grid-off" class="active">Off</button>
+                    <button id="grid-square">Square</button>
+                </div>
+                <div class="grid-size-control">
+                    <label for="grid-size">Size:</label>
+                    <input type="number" id="grid-size" min="5" max="1000" value="100">
+                    <span id="grid-unit-label">mi</span>
                 </div>
             </div>
         </div>

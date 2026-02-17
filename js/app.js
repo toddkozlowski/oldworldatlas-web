@@ -65,6 +65,19 @@ async function initializeApp() {
         const scaleControl = new ScaleControl();
         scaleControl.initialize(mapManager.getMap());
         
+        // Initialize grid overlay
+        gridOverlay.initialize(
+            mapManager.getMap(),
+            mapManager.getGridLayer(),
+            mapManager.getGridSource()
+        );
+        
+        // Load saved grid settings (default to miles)
+        const savedGridType = localStorage.getItem('grid_type') || 'off';
+        const savedGridSize = parseInt(localStorage.getItem('grid_size')) || 100;
+        const currentUnits = window.getCurrentUnits ? window.getCurrentUnits() : 'miles';
+        gridOverlay.updateGrid(savedGridType, savedGridSize, currentUnits);
+        
         // Initialize search functionality
         searchManager.initialize();
         
