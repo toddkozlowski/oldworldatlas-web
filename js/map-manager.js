@@ -85,6 +85,7 @@ class MapManager {
                 resolution: this.isMobilePortrait() ? 0.0075 : 0.018, // Resolution for desktop: 0.075015, for mobile portrait: 0.020
                 maxResolution: 0.0375075,
                 minResolution: 0.00029302734375,
+                extent: [-37.796, 13.198, 37.208, 88.202],  // Full map extent + 50% buffer in all directions
                 enableRotation: false,  // Disable rotation for better mobile performance
                 constrainRotation: false
             })
@@ -108,10 +109,16 @@ class MapManager {
     /**
      * Create tile layer for base map
      * @private
-     * @returns {ol.layer.Tile}
+     * @returns {ol.layer.Tile|ol.layer.Group}
      */
     createTileLayer() {
-        const TILE_VERSION = '7'; // Increment this when you update the base map tiles
+        // ========== TILE CONFIGURATION TOGGLE ==========
+        // Set to true to use new quadrant-based tiles (old-world-tiles-v2)
+        // Set to false to use legacy single-directory tiles (old-world-tiles)
+        const USE_QUADRANT_TILES = true;
+        // ================================================
+        
+        const TILE_VERSION = '10'; // Increment this when you update the base map tiles
         
         // Scale adjustment factor for fine-tuning map/vector alignment
         // Values > 1.0 make map smaller (increase resolution), < 1.0 make map larger
@@ -124,29 +131,95 @@ class MapManager {
         // Apply scale adjustment to all resolutions
         const adjustedResolutions = baseResolutions.map(r => r * SCALE_ADJUSTMENT);
         
-        return new ol.layer.Tile({
-            title: 'Map Tiles',
-            source: new ol.source.TileImage({
-                attributions: '',
-                tileGrid: new ol.tilegrid.TileGrid({
-                    //For the Empire-only map tiles:
-                    //extent: [-4.7926911472531506, 40.3006238607187441, 13.7306637823468485, 58.8239787903187477],
-                    //origin: [-4.7926911472531506, 40.3006238607187441],
-                    //resolutions: [0.0740934197183999999, 0.0370467098591999999, 0.0185233549296, 0.00926167746479999998, 0.00463083873239999999, 0.0023154193662, 0.0011577096831, 0.000578854841549999999],
-                    //For the full Old World map tiles:
-                    extent: [-19.045, 31.949, 18.457, 69.451],
-                    origin: [-19.045, 31.949],
-                    resolutions: adjustedResolutions,
-                    tileSize: [256, 256]
-                }),
-                tileUrlFunction: function(tileCoord) {
-                    return ('https://raw.githubusercontent.com/toddkozlowski/oldworldatlas-repository/main/old-world-tiles/{z}/{x}/{y}.png?v=' + TILE_VERSION)
-                        .replace('{z}', String(tileCoord[0]))
-                        .replace('{x}', String(tileCoord[1]))
-                        .replace('{y}', String(-1 - tileCoord[2]));
+        // Full map extent
+        const fullExtent = [-19.045, 31.949, 18.457, 69.451]; // [minX, minY, maxX, maxY]
+        const centerX = (fullExtent[0] + fullExtent[2]) / 2; // -0.294
+        const centerY = (fullExtent[1] + fullExtent[3]) / 2; // 50.7
+        
+        if (USE_QUADRANT_TILES) {
+            // Create four separate tile layers, one for each quadrant
+            // Each quadrant is 1/4 of the full map extent
+            // Divide resolutions by 4 to account for each quadrant being 1/4 the area
+            const quadrantResolutions = adjustedResolutions.map(r => r / 1.56222);
+            
+            const quadrants = [
+                {
+                    name: 'SW',
+                    extent: [fullExtent[0], fullExtent[1], centerX, centerY],
+                    origin: [fullExtent[0], fullExtent[1]]
                 },
-            })
-        });
+                {
+                    name: 'SE',
+                    extent: [centerX, fullExtent[1], fullExtent[2], centerY],
+                    origin: [centerX, fullExtent[1]]
+                },
+                {
+                    name: 'NW',
+                    extent: [fullExtent[0], centerY, centerX, fullExtent[3]],
+                    origin: [fullExtent[0], centerY]
+                },
+                {
+                    name: 'NE',
+                    extent: [centerX, centerY, fullExtent[2], fullExtent[3]],
+                    origin: [centerX, centerY]
+                }
+            ];
+            
+            const quadrantLayers = quadrants.map(quad => {
+                return new ol.layer.Tile({
+                    title: `Map Tiles ${quad.name}`,
+                    source: new ol.source.TileImage({
+                        attributions: '',
+                        tileGrid: new ol.tilegrid.TileGrid({
+                            extent: quad.extent,
+                            origin: quad.origin,
+                            resolutions: quadrantResolutions,
+                            tileSize: [256, 256]
+                        }),
+                        tileUrlFunction: function(tileCoord) {
+                            const z = tileCoord[0];
+                            const x = tileCoord[1];
+                            const y = -1 - tileCoord[2];
+                            return `https://raw.githubusercontent.com/toddkozlowski/oldworldatlas-repository/main/old-world-tiles-v2/${quad.name}/${z}/${x}/${y}.png?v=${TILE_VERSION}`;
+                        }
+                    })
+                });
+            });
+            
+            // Return a layer group containing all four quadrant layers
+            return new ol.layer.Group({
+                title: 'Map Tiles',
+                layers: quadrantLayers
+            });
+            
+        } else {
+            // Legacy single-layer implementation
+            const getLegacyTileUrl = function(tileCoord) {
+                return ('https://raw.githubusercontent.com/toddkozlowski/oldworldatlas-repository/main/old-world-tiles/{z}/{x}/{y}.png?v=' + TILE_VERSION)
+                    .replace('{z}', String(tileCoord[0]))
+                    .replace('{x}', String(tileCoord[1]))
+                    .replace('{y}', String(-1 - tileCoord[2]));
+            };
+            
+            return new ol.layer.Tile({
+                title: 'Map Tiles',
+                source: new ol.source.TileImage({
+                    attributions: '',
+                    tileGrid: new ol.tilegrid.TileGrid({
+                        //For the Empire-only map tiles:
+                        //extent: [-4.7926911472531506, 40.3006238607187441, 13.7306637823468485, 58.8239787903187477],
+                        //origin: [-4.7926911472531506, 40.3006238607187441],
+                        //resolutions: [0.0740934197183999999, 0.0370467098591999999, 0.0185233549296, 0.00926167746479999998, 0.00463083873239999999, 0.0023154193662, 0.0011577096831, 0.000578854841549999999],
+                        //For the full Old World map tiles:
+                        extent: fullExtent,
+                        origin: [fullExtent[0], fullExtent[1]],
+                        resolutions: adjustedResolutions,
+                        tileSize: [256, 256]
+                    }),
+                    tileUrlFunction: getLegacyTileUrl
+                })
+            });
+        }
     }
 
     /**

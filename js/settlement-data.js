@@ -6,6 +6,8 @@
 const SOURCE_TAG_MAP = {
     '2eSH': 'WFRP2e Sigmar\'s Heirs',
     '4eAotE1': 'WFRP4e Archives of the Empire Vol. 1',
+    '4eAotE2': 'WFRP4e Archives of the Empire Vol. 2',
+    '4eAotE3': 'WFRP4e Archives of the Empire Vol. 3',
     '4eEiS': 'WFRP4e Enemy in Shadows',
     '4ePBtTC': 'WFRP4e Power Behind the Throne Companion',
     '4eSCoSaS': 'WFRP4e Salzenmund: City of Salt and Silver',
@@ -25,6 +27,10 @@ const SOURCE_TAG_MAP = {
     '2eKAAotDC': 'WFRP2e Karaz Azgal: Adventures of the Dragon Crag',
     'AndyLaw': 'Andy Law (LawHammer)',
     'MA': 'MadAlfred',
+    'MadAlfred': 'MadAlfred',
+    '4eStarter': 'WFRP4e Starter Set',
+    '4eUA1': 'WFRP4e Ubersreik Adventures 1',
+    '4eUA2': 'WFRP4e Ubersreik Adventures 2'
 };
 
 class SettlementDataManager {
@@ -109,9 +115,13 @@ class SettlementDataManager {
         // Check Published Canon Only filter
         if (this.publishedCanonOnly) {
             const source = this.getSourceFromTags(props.tags);
-            // Hide settlements without a source tag, or with 'AndyLaw' source
-            if (!source || source === 'AndyLaw') {
-                return false;
+            // Hide settlements without a source tag, or with 'AndyLaw' or 'MadAlfred' as the only source (since they are mostly fan creations and not official canon)
+            if (!source || source === 'AndyLaw' || source === 'MadAlfred') {
+                    return false;
+                    
+
+            //if (!source || source === 'AndyLaw') {
+            //    return false;
             }
         }
 
