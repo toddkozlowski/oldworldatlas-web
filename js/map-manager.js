@@ -123,7 +123,7 @@ class MapManager {
         const USE_QUADRANT_TILES = true;
         // ================================================
         
-        const TILE_VERSION = '10'; // Increment this when you update the base map tiles
+        const TILE_VERSION = '7'; // Increment this when you update the base map tiles
         
         // Scale adjustment factor for fine-tuning map/vector alignment
         // Values > 1.0 make map smaller (increase resolution), < 1.0 make map larger
