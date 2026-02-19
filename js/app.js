@@ -15,7 +15,8 @@ async function initializeApp() {
         // Load settlements data from multiple sources
         const features = await settlementData.loadSettlements([
             'data/empire_settlements.geojson',
-            'data/westerland_settlements.geojson'
+            'data/westerland_settlements.geojson',
+            'data/bretonnia_settlements.geojson'
         ]);
         console.log(`Loaded ${features.length} settlements`);
 

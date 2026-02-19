@@ -145,7 +145,7 @@ class MapManager {
             // Create four separate tile layers, one for each quadrant
             // Each quadrant is 1/4 of the full map extent
             // Divide resolutions by 4 to account for each quadrant being 1/4 the area
-            const quadrantResolutions = adjustedResolutions.map(r => r / 1.56222);
+            const quadrantResolutions = adjustedResolutions.map(r => r / 1.56221);
             
             const quadrants = [
                 {
@@ -156,7 +156,7 @@ class MapManager {
                 {
                     name: 'SE',
                     extent: [centerX, fullExtent[1], fullExtent[2], centerY],
-                    origin: [centerX, fullExtent[1]]
+                    origin: [centerX - 0.0015, fullExtent[1] + 0.0006] // Slight offset to prevent tile seam issues
                 },
                 {
                     name: 'NW',
