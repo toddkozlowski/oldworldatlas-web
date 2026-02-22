@@ -6,8 +6,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          3.1302154927083796,
-          52.88025431386064
+          3.1508593896032004,
+          52.884770181392
         ]
       },
       "properties": {
@@ -16,8 +16,8 @@
         "formal_title": "Imperial County and City-State of Talabheim",
         "part_of": "Talabecland",
         "inkscape_coordinates": [
-          607.44989,
-          327.25494
+          608.5379633,
+          326.55371449999996
         ],
         "info": {
           "wiki_url": "https://warhammerfantasy.fandom.com/wiki/Talabheim",
@@ -32,8 +32,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          0.9886367944939929,
-          55.27671545597281
+          1.0097961905632005,
+          55.28151605883199
         ]
       },
       "properties": {
@@ -42,8 +42,8 @@
         "formal_title": "Imperial County and City-State of Middenheim",
         "part_of": "Middenland",
         "inkscape_coordinates": [
-          485.13138,
-          190.32933
+          486.2194533,
+          189.6281045
         ],
         "info": {
           "wiki_url": "https://warhammerfantasy.fandom.com/wiki/Middenheim",
@@ -58,8 +58,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.2714134424168497,
-          47.94499388358863
+          1.2907303144032005,
+          47.94973618139199
         ]
       },
       "properties": {
@@ -68,8 +68,8 @@
         "formal_title": "Imperial County and City-State of Nuln",
         "part_of": "Wissenland",
         "inkscape_coordinates": [
-          501.18109,
-          609.19244
+          502.2691633,
+          608.4912145000001
         ],
         "info": {
           "wiki_url": "https://warhammerfantasy.fandom.com/wiki/Nuln",
@@ -84,8 +84,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          3.6926544851907375,
-          56.928777338604476
+          3.714346232163201,
+          56.93323223518399
         ]
       },
       "properties": {
@@ -94,8 +94,8 @@
         "formal_title": "Margraveate of the Northern March",
         "part_of": "Ostland",
         "inkscape_coordinates": [
-          639.64178,
-          95.967117
+          640.7298533000001,
+          95.2658915
         ],
         "info": {
           "wiki_url": "https://warhammerfantasy.fandom.com/wiki/Ostland#Northern_March",
@@ -110,8 +110,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          7.423861547995053,
-          49.477572933061175
+          7.4438265400032,
+          49.48152207387199
         ]
       },
       "properties": {
@@ -120,8 +120,8 @@
         "formal_title": "County of Sylvania",
         "part_of": "Stirland",
         "inkscape_coordinates": [
-          852.70624,
-          521.68182
+          853.7943133,
+          520.9805945
         ],
         "info": {
           "wiki_url": "https://warhammerfantasy.fandom.com/wiki/Sylvania",
@@ -136,8 +136,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          3.656703102954716,
-          43.46571649033247
+          3.6749879630432,
+          43.47013630683199
         ]
       },
       "properties": {
@@ -146,8 +146,8 @@
         "formal_title": "Barony of the Vennland Marches",
         "part_of": "Wissenland",
         "inkscape_coordinates": [
-          637.39325,
-          865.11108
+          638.4813233,
+          864.4098545
         ],
         "info": {
           "wiki_url": null,
@@ -162,8 +162,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          3.862527904369606,
-          47.72250491518915
+          3.8818981960032,
+          47.72691061147199
         ]
       },
       "properties": {
@@ -172,8 +172,8 @@
         "formal_title": "County of Averheim",
         "part_of": "Averland",
         "inkscape_coordinates": [
-          649.21399,
-          621.92242
+          650.3020633,
+          621.2211945
         ],
         "info": {
           "wiki_url": "https://warhammerfantasy.fandom.com/wiki/Averheim",
@@ -188,8 +188,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.0675404725638575,
-          54.816308400041066
+          -1.0465845819167994,
+          54.821374232592
         ]
       },
       "properties": {
@@ -198,8 +198,8 @@
         "formal_title": "Barony of the Westermark",
         "part_of": "Middenland",
         "inkscape_coordinates": [
-          367.65076,
-          216.61714
+          368.7388333,
+          215.9159145
         ],
         "info": {
           "wiki_url": null,
@@ -214,8 +214,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.6837083863602347,
-          51.575709203037306
+          -0.6635559275167987,
+          51.580715704911995
         ]
       },
       "properties": {
@@ -224,8 +224,8 @@
         "formal_title": "Imperial Free City of Carroburg",
         "part_of": "Middenland",
         "inkscape_coordinates": [
-          389.53311,
-          401.75531
+          390.62118330000004,
+          401.0540845
         ],
         "info": {
           "wiki_url": "https://warhammerfantasy.fandom.com/wiki/Carroburg",
@@ -240,8 +240,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.05947079698304947,
-          53.71420129395098
+          -0.03875099759679903,
+          53.719133174351995
         ]
       },
       "properties": {
@@ -250,8 +250,8 @@
         "formal_title": "County of the Drakwald",
         "part_of": "Middenland",
         "inkscape_coordinates": [
-          425.22809,
-          279.58795
+          426.3161633,
+          278.88672449999996
         ],
         "info": {
           "wiki_url": "https://warhammerfantasy.fandom.com/wiki/Drakwald",
@@ -266,8 +266,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.07574910321883088,
-          51.46207905220903
+          -0.055599647836798965,
+          51.467006395152
         ]
       },
       "properties": {
@@ -276,8 +276,8 @@
         "formal_title": "Principality of Altdorf",
         "part_of": "Reikland",
         "inkscape_coordinates": [
-          424.26553,
-          408.2515
+          425.35360330000003,
+          407.5502745
         ],
         "info": {
           "wiki_url": "https://warhammerfantasy.fandom.com/wiki/Altdorf",
@@ -292,8 +292,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          0.17652083444817634,
-          49.19911379965586
+          0.19610857232320117,
+          49.20400175515199
         ]
       },
       "properties": {
@@ -302,8 +302,8 @@
         "formal_title": "Archduchy of the Upper Teufel",
         "part_of": "Reikland",
         "inkscape_coordinates": [
-          438.64557,
-          537.5365
+          439.73364330000004,
+          536.8352745000001
         ],
         "info": {
           "wiki_url": null,
@@ -318,8 +318,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          5.229659988095691,
-          53.277500831223605
+          5.2504932462432015,
+          53.281745672911995
         ]
       },
       "properties": {
@@ -328,8 +328,8 @@
         "formal_title": "Barony of the Dunkelküste",
         "part_of": "Talabecland",
         "inkscape_coordinates": [
-          727.40155,
-          304.57581
+          728.4896233000001,
+          303.87458449999997
         ],
         "info": {
           "wiki_url": null,
@@ -344,8 +344,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          3.6325792845315794,
-          49.958731579728465
+          3.652505475363201,
+          49.963173690511994
         ]
       },
       "properties": {
@@ -354,8 +354,8 @@
         "formal_title": "Barony of Wurtbad",
         "part_of": "Stirland",
         "inkscape_coordinates": [
-          636.10883,
-          494.16516
+          637.1969033,
+          493.4639345
         ],
         "info": {
           "wiki_url": "https://warhammerfantasy.fandom.com/wiki/Wurtbad",
@@ -370,8 +370,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -4.660333314567033,
-          41.08059130333841
+          -4.643003857756799,
+          41.086082404752
         ]
       },
       "properties": {
@@ -380,8 +380,8 @@
         "formal_title": "Mighty Principality of Miragliano",
         "part_of": "Tilea",
         "inkscape_coordinates": [
-          162.18805,
-          1001.3116
+          163.2761233,
+          1000.6103745
         ],
         "info": {
           "wiki_url": null,
@@ -396,8 +396,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -8.046187256204714,
-          40.50378756037963
+          -8.029147038972798,
+          40.509715943952
         ]
       },
       "properties": {
@@ -406,8 +406,8 @@
         "formal_title": "Principality of Tobaro",
         "part_of": "Tilea",
         "inkscape_coordinates": [
-          -31.261629,
-          1034.2393
+          -30.173555699999998,
+          1033.5380745
         ],
         "info": {
           "wiki_url": null,
@@ -422,8 +422,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.4023728227069583,
-          39.14207834745103
+          -3.3854804395167992,
+          39.147400628751996
         ]
       },
       "properties": {
@@ -432,8 +432,8 @@
         "formal_title": "Principality of Trantio",
         "part_of": "Tilea",
         "inkscape_coordinates": [
-          234.03011,
-          1112.0681
+          235.1181833,
+          1111.3668745
         ],
         "info": {
           "wiki_url": null,
@@ -448,8 +448,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -5.124604648102732,
-          38.19216433642171
+          -5.108025449116799,
+          38.197707105552
         ]
       },
       "properties": {
@@ -458,8 +458,8 @@
         "formal_title": "Republic of Remas",
         "part_of": "Tilea",
         "inkscape_coordinates": [
-          135.62146,
-          1166.3239
+          136.7095333,
+          1165.6226745000001
         ],
         "info": {
           "wiki_url": null,
@@ -474,8 +474,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.8341693413579683,
-          37.327788881059476
+          -3.8177541473567995,
+          37.333161790351994
         ]
       },
       "properties": {
@@ -484,8 +484,8 @@
         "formal_title": "Principality of Pavona",
         "part_of": "Tilea",
         "inkscape_coordinates": [
-          209.3344,
-          1215.7152
+          210.42247329999998,
+          1215.0139745000001
         ],
         "info": {
           "wiki_url": null,
@@ -500,8 +500,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -5.156854167759082,
-          36.22728769285715
+          -5.140773332636798,
+          36.232828843152
         ]
       },
       "properties": {
@@ -510,8 +510,8 @@
         "formal_title": "Serene Republic of Verezzo",
         "part_of": "Tilea",
         "inkscape_coordinates": [
-          133.75058,
-          1278.577
+          134.8386533,
+          1277.8757745
         ],
         "info": {
           "wiki_url": null,
@@ -526,8 +526,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -5.889879637844189,
-          34.255770214662306
+          -5.874328514076799,
+          34.261400583951996
         ]
       },
       "properties": {
@@ -536,8 +536,8 @@
         "formal_title": "Ancient Principality of Luccini",
         "part_of": "Tilea",
         "inkscape_coordinates": [
-          91.84272,
-          1391.2043
+          92.9307933,
+          1390.5030745000001
         ],
         "info": {
           "wiki_url": null,
@@ -552,8 +552,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -8.463627510689072,
-          33.7183716278584
+          -8.448321278332799,
+          33.724334103951996
         ]
       },
       "properties": {
@@ -562,8 +562,8 @@
         "formal_title": "Decadent Pirate Principality of Sartosa",
         "part_of": "Tilea",
         "inkscape_coordinates": [
-          -55.208969,
-          1421.8868
+          -54.120895700000005,
+          1421.1855745
         ],
         "info": {
           "wiki_url": null,
@@ -578,8 +578,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.39992403404169075,
-          56.45379007693593
+          -0.37852569263679947,
+          56.458774184911995
         ]
       },
       "properties": {
@@ -588,8 +588,8 @@
         "formal_title": "The Woodland Kingdom of Laurelorn",
         "part_of": "",
         "inkscape_coordinates": [
-          405.81683,
-          123.07281
+          406.9049033,
+          122.3715845
         ],
         "info": {
           "wiki_url": "https://warhammerfantasy.fandom.com/wiki/Laurelorn_Forest",
@@ -604,8 +604,320 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          7.931523664233693,
-          56.77473409375467
+          -0.46763383055679963,
+          44.059600310671996
+        ]
+      },
+      "properties": {
+        "name": "TALSYN",
+        "province_type": "Province",
+        "formal_title": "High Realm of Talsyn, the Grove of Eternity",
+        "part_of": "Athel Loren",
+        "inkscape_coordinates": [
+          401.8141733,
+          830.7338945
+        ],
+        "info": {
+          "wiki_url": "https://warhammerfantasy.fandom.com/wiki/Talsyn",
+          "image": null,
+          "description": "Talsyn, the Grove of Eternity, is a High Realm of the magical forest of Athel Loren, ruled by the Highborn Araloth the Bold. It is the largest and most prosperous of all Athel Loren's High Realms, and its warriors have ever formed the backbone of the great forest's Asrai armies."
+        },
+        "population": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.43621111536320045,
+          42.605588891151996
+        ]
+      },
+      "properties": {
+        "name": "CYTHRAL",
+        "province_type": "Province",
+        "formal_title": "High Realm of Cythral, the Wildwood",
+        "part_of": "Athel Loren",
+        "inkscape_coordinates": [
+          453.4506533,
+          913.8012745000001
+        ],
+        "info": {
+          "wiki_url": "https://warhammerfantasy.fandom.com/wiki/Cythral",
+          "image": null,
+          "description": "Cythral, the Wildwood, is a High Realm of Athel Loren, ruled by Lady Draya the Nighthawk. Not all the spirits of Athel Loren dwell in harmony with the Elves. Even now, thousands of years after the first great council, there are those beings who actively seek the Elves' destruction. Some revel in malevolence purely for its own sake, others would war against the Elves with all the cunning and might at their command, were they free to do so."
+        },
+        "population": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5868280187167991,
+          42.669228884111995
+        ]
+      },
+      "properties": {
+        "name": "ATYLWYTH",
+        "province_type": "Province",
+        "formal_title": "High Realm of Atylwyth, the Winterheart",
+        "part_of": "Athel Loren",
+        "inkscape_coordinates": [
+          395.0046333,
+          910.1655345
+        ],
+        "info": {
+          "wiki_url": "https://warhammerfantasy.fandom.com/wiki/Atylwyth",
+          "image": null,
+          "description": "Atylwyth, the Winterheart, is a High Realm of Athel Loren, ruled by Sceolan of the Hooked Blade. It is a realm locked in the icy embrace of winter; its boughs are ever covered in a thick rime of frost, its glades always heavy with snow. Pale statues line every path, and mark the entrance to every hall. Some of these works are exquisite ice sculptures, shaped by an artisan's patient touch. Others are frost-caged mischievous naiads or spiteful kelpies, imprisoned by Elven magics in punishment for past misdeeds or to prevent future ones. These statues flow and reform when the eye does not rest upon them, the creatures inside ever seeking to escape."
+        },
+        "population": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.683886142556799,
+          43.340562421711994
+        ]
+      },
+      "properties": {
+        "name": "MODRYN",
+        "province_type": "Province",
+        "formal_title": "High Realm of Modryn, the Night Glens",
+        "part_of": "Athel Loren",
+        "inkscape_coordinates": [
+          332.3299233,
+          871.8123845
+        ],
+        "info": {
+          "wiki_url": "https://warhammerfantasy.fandom.com/wiki/Modryn",
+          "image": null,
+          "description": "Modryn, also called the Night Glens, are collectively a High Realm of Athel Loren, ruled by Lady Morlanna and Glade Lord Arlas. It is a land that lies ever in shadow. Sunlight never reaches these glades, and the only light is that emitted by the flickering spite-creatures that quarrel and frolic as they flit through the upper branches of the trees. Shaped by the perpetual gloom, the Wood Elves and nature spirits of the Night Glens are spiteful even by the standards of Athel Loren. They practise magics and customs that are forbidden in other realms, and worship gods most other Wood Elves shun."
+        },
+        "population": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.480848669596799,
+          42.45800356507199
+        ]
+      },
+      "properties": {
+        "name": "CAVAROC",
+        "province_type": "Province",
+        "formal_title": "High Realm of Cavaroc, the Skymark Reaches",
+        "part_of": "Athel Loren",
+        "inkscape_coordinates": [
+          343.9294133,
+          922.2327945000001
+        ],
+        "info": {
+          "wiki_url": "https://warhammerfantasy.fandom.com/wiki/Cavaroc",
+          "image": null,
+          "description": "Cavaroc, the Skymark Reaches, is a High Realm of Athel Loren, ruled by Lord Edrael of Equos. It is the land of the meadow glades, the sparsely-wooded grassland plains that lie on Athel Loren's south border. The Elves of Cavaroc are horsemasters as fine as any in the world, and the first to march when the war-horns are sounded. They are swift to act, and swift to anger as well — if ever the Elves of Athel Loren overreach themselves in some matter of war, it is all but a certainty that the Glade Riders of the Skymark Reaches will be found at the head of that mad charge."
+        },
+        "population": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.1259380907167995,
+          44.748670826512
+        ]
+      },
+      "properties": {
+        "name": "TORGOVANN",
+        "province_type": "Province",
+        "formal_title": "High Realm of Torgovann, the Forge of Starlight",
+        "part_of": "Athel Loren",
+        "inkscape_coordinates": [
+          364.2053833,
+          791.3674345000001
+        ],
+        "info": {
+          "wiki_url": "https://warhammerfantasy.fandom.com/wiki/Torgovann",
+          "image": null,
+          "description": "Torgovann, the Forge of Starlight, is a High Realm of Athel Loren, ruled by the Highborn Daith. The Forge of Starlight is the domain of makers and craftsmen, of the artisans and smiths who create all Athel Loren's many tools of wonder and war. In the very centre of the realm lies Vaul's Anvil, the shrine to Vaul, the god of craftsmen, and every night, the beech trees of that glade bask in the light and warmth of the mighty forge-temple. Inevitably, the rippling heat from Vaul's Anvil draws forest spirits from the nearby groves, who watch the striking of hammer upon anvil with childlike fascination. Such creatures love the flame for the warmth and life it gives, but are also wary of it for the harm it can wreak if left untended."
+        },
+        "population": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.994991211036799,
+          46.048822436112
+        ]
+      },
+      "properties": {
+        "name": "ANMYR",
+        "province_type": "Province",
+        "formal_title": "High Realm of Anmyr, the Witherhold",
+        "part_of": "Athel Loren",
+        "inkscape_coordinates": [
+          314.5565533,
+          717.0900345
+        ],
+        "info": {
+          "wiki_url": "https://warhammerfantasy.fandom.com/wiki/Anmyr",
+          "image": null,
+          "description": "Anmyr, the Witherhold, is a High Realm of Athel Loren, ruled by Lady Tevaril and Lady Delynna. It is a realm in desperate decline. Many years ago, the foul Beastlord Morghur was slain in the heart of the region, and his blood corrupted the land for many leagues around. Indeed, Addaivoch, the mighty elm tree that once served as the halls of Anmyr's rulers, was reduced to a blighted and atrophied husk during that battle, and its shadow falls now only on barren and lifeless soil."
+        },
+        "population": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.029574291043201105,
+          45.654576518351995
+        ]
+      },
+      "properties": {
+        "name": "WYDRIOTH",
+        "province_type": "Province",
+        "formal_title": "High Realm of Wydrioth, the Pine Crags",
+        "part_of": "Athel Loren",
+        "inkscape_coordinates": [
+          430.21957330000004,
+          739.6132245
+        ],
+        "info": {
+          "wiki_url": "https://warhammerfantasy.fandom.com/wiki/Wydrioth",
+          "image": null,
+          "description": "Wydrioth, the Pine Crags, is a High Realm of Athel Loren, ruled by the Glade Lord Findol and Lady Evelyne. It is an embattled region, ever beset by the Dwarfs and Greenskins of the Grey Mountains. From the outside, its steep slopes appear to be no more defensible than any other part of Athel Loren. It is only when an invader is drawn beneath the eaves that he discovers that the Pine Crags are in fact a sprawling fortress. Here, the Elves have shaped citadels and strongholds from skycrown oaks, and endless leagues of gnarled and tangled walls from rockbriar."
+        },
+        "population": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.7490290097567988,
+          47.49540025691199
+        ]
+      },
+      "properties": {
+        "name": "ARRANOC",
+        "province_type": "Province",
+        "formal_title": "High Realm of Arranoc, the Summerstrand",
+        "part_of": "Athel Loren",
+        "inkscape_coordinates": [
+          385.73812330000004,
+          634.4473345
+        ],
+        "info": {
+          "wiki_url": "https://warhammerfantasy.fandom.com/wiki/Arranoc",
+          "image": null,
+          "description": "Arranoc, the Summerstrand, is a High Realm of Athel Loren, ruled by the Glade Lord Amadri Ironbark. Winter never comes to the verdant reaches of the Summerstrand. Here, the glades are ever dappled by brilliant sunshine all year round. Likewise, night seldom falls in this part of the forest and, even when it does, the hours of darkness are few and fleeting."
+        },
+        "population": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.4618790404767993,
+          46.730373758671995
+        ]
+      },
+      "properties": {
+        "name": "ARGWYLON",
+        "province_type": "Province",
+        "formal_title": "High Realm of Argwylon, the Moonspring Glades",
+        "part_of": "Athel Loren",
+        "inkscape_coordinates": [
+          402.1429433,
+          678.1531445
+        ],
+        "info": {
+          "wiki_url": "https://warhammerfantasy.fandom.com/wiki/Argwylon",
+          "image": null,
+          "description": "Argwylon, the Moonspring Glades, is a High Realm of Athel Loren, ruled by the Glade Lord Thalandor Doomstar. Argwylon is a land of light and wonder, where the rivers are alive with naiads, and the waterfalls sing with ghostly voices. This is a realm of mages and magic, of daily deeds that would be thought miraculous in other corners of the forest. This is the only corner of Athel Loren in which many of the old traditions of Ulthuan endure and detailed historical records are maintained."
+        },
+        "population": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.8201264260767995,
+          47.30165320699199
+        ]
+      },
+      "properties": {
+        "name": "TIRSYTH",
+        "province_type": "Province",
+        "formal_title": "High Realm of Tirsyth, the Ashenhall",
+        "part_of": "Athel Loren",
+        "inkscape_coordinates": [
+          324.5465433,
+          645.5160645000001
+        ],
+        "info": {
+          "wiki_url": "https://warhammerfantasy.fandom.com/wiki/Tirsyth",
+          "image": null,
+          "description": "Tirsyth, the Ashenhall, is a High Realm of Athel Loren, ruled by Lady Arda of the Parted Veil. The Wood Elves of Athel Loren's other realms consider the Ashenhall to be a drab and sombre place. As proof, they point to the lugubrious character of its inhabitants and the cinereal colourings of their raiment. There is no joyful song in Ashenhall, they say, just the dirges of Elves who live ever under the shadow of death."
+        },
+        "population": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.9357039185567995,
+          45.87960076571199
+        ]
+      },
+      "properties": {
+        "name": "FYR DARRIC",
+        "province_type": "Province",
+        "formal_title": "High Realm of Fyr Darric, the Trickster's Wood",
+        "part_of": "Athel Loren",
+        "inkscape_coordinates": [
+          375.0734233,
+          726.7576345
+        ],
+        "info": {
+          "wiki_url": "https://warhammerfantasy.fandom.com/wiki/Fyr_Darric",
+          "image": null,
+          "description": "Fyr Darric, the Trickster's Wood, is a High Realm of Athel Loren, ruled by Lady Heggria of the Masque. Fyr Darric is the Elven god Loec the Trickster's holy ground within Athel Loren, the site of many shrines to his anarchic glory. Here too can be found the Feast Halls of the Wardance — the closest thing that the nomadic Wardancers of Athel Loren have to a home. As a result, the glades of Fyr Darric always resound to the sound of laughter, though much of it is mean-spirited. Every deception requires a victim, and the consequences can range from wounded pride to a slow death."
+        },
+        "population": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.9533559022432,
+          56.778638955152
         ]
       },
       "properties": {
@@ -614,8 +926,8 @@
         "formal_title": "Tsardom of Kislev",
         "part_of": "",
         "inkscape_coordinates": [
-          881.81555,
-          104.799
+          882.9036233,
+          104.0977745
         ],
         "info": {
           "wiki_url": "https://warhammerfantasy.fandom.com/wiki/Kislev",
@@ -630,8 +942,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.003914981374186,
-          51.97168722173879
+          4.024366052643201,
+          51.97608712987199
         ]
       },
       "properties": {
@@ -640,8 +952,8 @@
         "formal_title": "The Empire of Man",
         "part_of": "",
         "inkscape_coordinates": [
-          657.35315,
-          379.16782
+          658.4412233,
+          378.4665945
         ],
         "info": {
           "wiki_url": "https://warhammerfantasy.fandom.com/wiki/The_Empire",
@@ -656,8 +968,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.217841550372474,
-          40.517453593021585
+          3.5539054433632002,
+          39.87471108315199
         ]
       },
       "properties": {
@@ -666,8 +978,8 @@
         "formal_title": "The Border Principalities",
         "part_of": "",
         "inkscape_coordinates": [
-          669.40973,
-          1033.5494
+          631.5639033,
+          1069.8157745
         ],
         "info": {
           "wiki_url": "https://warhammerfantasy.fandom.com/wiki/Border_Princes",
@@ -682,8 +994,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -5.023713113561452,
-          48.131129326692076
+          -5.0046156679967995,
+          48.136688353551996
         ]
       },
       "properties": {
@@ -692,8 +1004,8 @@
         "formal_title": "The Royarchy of Bretonnia",
         "part_of": "",
         "inkscape_coordinates": [
-          141.52924,
-          598.5119
+          142.61731329999998,
+          597.8106745
         ],
         "info": {
           "wiki_url": "https://warhammerfantasy.fandom.com/wiki/Bretonnia",
@@ -708,8 +1020,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.8564239984800563,
-          45.32304331381401
+          -0.8378604094367991,
+          45.328053751632
         ]
       },
       "properties": {
@@ -718,8 +1030,8 @@
         "formal_title": "The Woodland Realm of Athel Loren",
         "part_of": "",
         "inkscape_coordinates": [
-          379.57513,
-          758.96863
+          380.6632033,
+          758.2674045
         ],
         "info": {
           "wiki_url": "https://warhammerfantasy.fandom.com/wiki/Athel_Loren",
@@ -734,8 +1046,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.8513055498976083,
-          53.920450331178465
+          -2.8306517755167993,
+          53.92574478907199
         ]
       },
       "properties": {
@@ -744,8 +1056,8 @@
         "formal_title": "Sovereign Barony of the Westerland",
         "part_of": "",
         "inkscape_coordinates": [
-          265.72736,
-          267.78427
+          266.8154333,
+          267.08304449999997
         ],
         "info": {
           "wiki_url": "https://warhammerfantasy.fandom.com/wiki/The_Wasteland",
@@ -760,8 +1072,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -11.375356741305383,
-          43.388409901972175
+          -11.357727826076799,
+          43.394778436112
         ]
       },
       "properties": {
@@ -770,8 +1082,8 @@
         "formal_title": "Kingdoms of Estalia",
         "part_of": "",
         "inkscape_coordinates": [
-          -221.42278,
-          869.41626
+          -220.3347067,
+          868.7150345
         ],
         "info": {
           "wiki_url": "https://warhammerfantasy.fandom.com/wiki/Estalia",
@@ -786,8 +1098,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.9384308676170567,
-          37.86165816317799
+          -2.9218427143967993,
+          37.86691651355199
         ]
       },
       "properties": {
@@ -796,8 +1108,8 @@
         "formal_title": "City-States of Tilea",
         "part_of": "",
         "inkscape_coordinates": [
-          260.51764,
-          1185.2219
+          261.6057133,
+          1184.5206745
         ],
         "info": {
           "wiki_url": "https://warhammerfantasy.fandom.com/wiki/Tilea",
@@ -812,8 +1124,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.1372121723960644,
-          63.14327311572545
+          -1.114152997596799,
+          63.148372561551994
         ]
       },
       "properties": {
@@ -822,8 +1134,8 @@
         "formal_title": "Tribes of Norsca",
         "part_of": "",
         "inkscape_coordinates": [
-          363.79059,
-          -259.1026
+          364.8786633,
+          -259.8038255
         ],
         "info": {
           "wiki_url": "https://warhammerfantasy.fandom.com/wiki/Norsca",
@@ -838,8 +1150,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -14.825602564527012,
-          58.18893968164168
+          -14.8043760513568,
+          58.19579923847999
         ]
       },
       "properties": {
@@ -848,8 +1160,8 @@
         "formal_title": "Isle of Great Albion",
         "part_of": "",
         "inkscape_coordinates": [
-          -418.3291,
-          23.836918
+          -417.24102669999996,
+          23.1356925
         ],
         "info": {
           "wiki_url": "https://warhammerfantasy.fandom.com/wiki/Albion",
@@ -864,8 +1176,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.662830178979124,
-          67.77657421381905
+          14.687730211043197,
+          67.779638819792
         ]
       },
       "properties": {
@@ -874,8 +1186,8 @@
         "formal_title": "The Chaos Wastes",
         "part_of": "",
         "inkscape_coordinates": [
-          1266.549,
-          -523.68591
+          1267.6370732999999,
+          -524.3871355
         ],
         "info": {
           "wiki_url": "https://warhammerfantasy.fandom.com/wiki/Chaos_Wastes",
@@ -890,8 +1202,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.797903972066468,
-          47.640033586370166
+          15.817758694243196,
+          47.642891586512
         ]
       },
       "properties": {
@@ -900,8 +1212,8 @@
         "formal_title": "The Despotic Hegemony of Zharr-Naggrund",
         "part_of": "",
         "inkscape_coordinates": [
-          1331.1073,
-          626.72241
+          1332.1953732999998,
+          626.0211845
         ],
         "info": {
           "wiki_url": "https://warhammerfantasy.fandom.com/wiki/Dark_Lands",
@@ -916,8 +1228,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          5.034292944582112,
-          35.0526797458068
+          5.050508120803201,
+          35.05689611995199
         ]
       },
       "properties": {
@@ -926,8 +1238,8 @@
         "formal_title": "The Badlands",
         "part_of": "",
         "inkscape_coordinates": [
-          715.97644,
-          1345.7578
+          717.0645133,
+          1345.0565745000001
         ],
         "info": {
           "wiki_url": "https://warhammerfantasy.fandom.com/wiki/Badlands",
@@ -942,8 +1254,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.4332569490563047,
-          56.533047577282524
+          1.4547529467232008,
+          56.53779424251199
         ]
       },
       "properties": {
@@ -952,8 +1264,8 @@
         "formal_title": "Grand Barony of Nordland",
         "part_of": "The Empire",
         "inkscape_coordinates": [
-          510.55167,
-          118.55841
+          511.6397433,
+          117.85718449999999
         ],
         "info": {
           "wiki_url": "https://warhammerfantasy.fandom.com/wiki/Nordland",
@@ -968,8 +1280,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.9629181013088415,
-          55.19892366684122
+          4.9842260740832005,
+          55.20320876411199
         ]
       },
       "properties": {
@@ -978,8 +1290,8 @@
         "formal_title": "Grand Principality of Ostland",
         "part_of": "The Empire",
         "inkscape_coordinates": [
-          712.18976,
-          194.80301
+          713.2778333,
+          194.1017845
         ],
         "info": {
           "wiki_url": "https://warhammerfantasy.fandom.com/wiki/Ostland",
@@ -994,8 +1306,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          7.644194541510994,
-          51.74306629107669
+          7.7168357190912005,
+          51.6785257306304
         ]
       },
       "properties": {
@@ -1004,8 +1316,8 @@
         "formal_title": "League of Ostermark",
         "part_of": "The Empire",
         "inkscape_coordinates": [
-          865.32709,
-          392.25589
+          869.3912728,
+          395.4662174
         ],
         "info": {
           "wiki_url": "https://warhammerfantasy.fandom.com/wiki/Ostermark",
@@ -1020,8 +1332,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.857464553711734,
-          49.26106363145288
+          4.9293599523712,
+          49.1968770512704
         ]
       },
       "properties": {
@@ -1030,8 +1342,8 @@
         "formal_title": "Grand County of Stirland",
         "part_of": "The Empire",
         "inkscape_coordinates": [
-          706.07916,
-          534.03198
+          710.1433428,
+          537.2423074
         ],
         "info": {
           "wiki_url": "https://warhammerfantasy.fandom.com/wiki/Stirland",
@@ -1046,8 +1358,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          0.3195048141176313,
-          53.07082856860504
+          0.3400779220832012,
+          53.075709414672
         ]
       },
       "properties": {
@@ -1056,8 +1368,8 @@
         "formal_title": "Grand Duchies of Middenland and Middenheim",
         "part_of": "The Empire",
         "inkscape_coordinates": [
-          446.87051,
-          316.34662
+          447.95858330000004,
+          315.64539449999995
         ],
         "info": {
           "wiki_url": "https://warhammerfantasy.fandom.com/wiki/Middenland",
@@ -1072,8 +1384,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          2.75806312579435,
-          54.247680671982316
+          2.779037146083201,
+          54.252248826511995
         ]
       },
       "properties": {
@@ -1082,8 +1394,8 @@
         "formal_title": "Grand Barony of Hochland",
         "part_of": "The Empire",
         "inkscape_coordinates": [
-          586.20776,
-          249.13116
+          587.2958333,
+          248.4299345
         ],
         "info": {
           "wiki_url": "https://warhammerfantasy.fandom.com/wiki/Hochland",
@@ -1098,8 +1410,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          3.421640217641655,
-          51.33700013045097
+          3.4419060993632,
+          51.341473658511994
         ]
       },
       "properties": {
@@ -1108,8 +1420,8 @@
         "formal_title": "Grand Duchy of Talabecland",
         "part_of": "The Empire",
         "inkscape_coordinates": [
-          624.07733,
-          415.42316
+          625.1654033,
+          414.7219345
         ],
         "info": {
           "wiki_url": "https://warhammerfantasy.fandom.com/wiki/Talabecland",
@@ -1124,8 +1436,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.6224256797659988,
-          50.526822626442254
+          -0.6025359332767996,
+          50.53181808667199
         ]
       },
       "properties": {
@@ -1134,8 +1446,8 @@
         "formal_title": "Grand Principality of the Reikland",
         "part_of": "The Empire",
         "inkscape_coordinates": [
-          393.01917,
-          461.67862
+          394.1072433,
+          460.9773945
         ],
         "info": {
           "wiki_url": "https://warhammerfantasy.fandom.com/wiki/Reikland",
@@ -1150,8 +1462,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          3.740286587779747,
-          46.65177919845133
+          3.811474694131201,
+          46.587729761030396
         ]
       },
       "properties": {
@@ -1160,8 +1472,8 @@
         "formal_title": "Grand County of Averland",
         "part_of": "The Empire",
         "inkscape_coordinates": [
-          642.2146,
-          683.09204
+          646.2787828,
+          686.3023674
         ],
         "info": {
           "wiki_url": "https://warhammerfantasy.fandom.com/wiki/Averland",
@@ -1176,8 +1488,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          2.4299959252285097,
-          45.04291699684282
+          2.5007216118912012,
+          44.97903269287039
         ]
       },
       "properties": {
@@ -1186,8 +1498,8 @@
         "formal_title": "Grand County of Wissenland",
         "part_of": "The Empire",
         "inkscape_coordinates": [
-          567.33154,
-          774.99658
+          571.3957228,
+          778.2069074
         ],
         "info": {
           "wiki_url": "https://warhammerfantasy.fandom.com/wiki/Wissenland",
@@ -1202,8 +1514,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          5.329580662328445,
-          47.96766690464533
+          5.3490750740832,
+          47.971883117392
         ]
       },
       "properties": {
@@ -1212,8 +1524,8 @@
         "formal_title": "Grand County of the Mootland",
         "part_of": "The Empire",
         "inkscape_coordinates": [
-          733.03351,
-          607.92719
+          734.1215833,
+          607.2259645
         ],
         "info": {
           "wiki_url": "https://warhammerfantasy.fandom.com/wiki/Mootland",
@@ -1228,8 +1540,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -5.19020762382875,
-          55.18490992732623
+          -5.169333034076799,
+          55.190511362512
         ]
       },
       "properties": {
@@ -1238,8 +1550,8 @@
         "formal_title": "Duchy of Couronne",
         "part_of": "Bretonnia",
         "inkscape_coordinates": [
-          132.11897,
-          195.52841
+          133.20704329999998,
+          194.82718450000002
         ],
         "info": {
           "wiki_url": "https://warhammerfantasy.fandom.com/wiki/Couronne",
@@ -1254,8 +1566,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -7.213659029183216,
-          52.92241507008562
+          -7.193442381916799,
+          52.928272172431996
         ]
       },
       "properties": {
@@ -1264,8 +1576,8 @@
         "formal_title": "Duchy of Artois",
         "part_of": "Bretonnia",
         "inkscape_coordinates": [
-          16.48201,
-          324.76968
+          17.5700833,
+          324.0684545
         ],
         "info": {
           "wiki_url": "https://warhammerfantasy.fandom.com/wiki/Artois",
@@ -1280,8 +1592,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -9.51163889952317,
-          53.386470100038125
+          -9.491402159836799,
+          53.39262651131199
         ]
       },
       "properties": {
@@ -1290,8 +1602,8 @@
         "formal_title": "Duchy of Lyonesse",
         "part_of": "Bretonnia",
         "inkscape_coordinates": [
-          -114.79997,
-          298.24121
+          -113.7118967,
+          297.5399845
         ],
         "info": {
           "wiki_url": "https://warhammerfantasy.fandom.com/wiki/Lyonesse",
@@ -1306,8 +1618,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -7.2974241040071846,
-          54.58931203581356
+          -7.276789375804799,
+          54.59518491899199
         ]
       },
       "properties": {
@@ -1316,8 +1628,8 @@
         "formal_title": "Duchy of L'Anguille",
         "part_of": "Bretonnia",
         "inkscape_coordinates": [
-          11.720413,
-          229.53929
+          12.8084863,
+          228.8380645
         ],
         "info": {
           "wiki_url": "https://warhammerfantasy.fandom.com/wiki/L%27Anguille",
@@ -1332,8 +1644,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -7.737042096938963,
-          51.017308321499904
+          -7.717329487676799,
+          51.02322765819199
         ]
       },
       "properties": {
@@ -1342,8 +1654,8 @@
         "formal_title": "Duchy of Mousillon",
         "part_of": "Bretonnia",
         "inkscape_coordinates": [
-          -13.447555,
-          433.60449
+          -12.3594817,
+          432.9032645
         ],
         "info": {
           "wiki_url": "https://warhammerfantasy.fandom.com/wiki/Mousillon",
@@ -1358,8 +1670,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -5.486690641507694,
-          50.56515330207161
+          -5.466997131036799,
+          50.57077954011199
         ]
       },
       "properties": {
@@ -1368,8 +1680,8 @@
         "formal_title": "Duchy of Bastonne",
         "part_of": "Bretonnia",
         "inkscape_coordinates": [
-          115.11348,
-          459.45276
+          116.2015533,
+          458.7515345
         ],
         "info": {
           "wiki_url": "https://warhammerfantasy.fandom.com/wiki/Bastonne",
@@ -1384,8 +1696,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -7.045967498715271,
-          48.933761344137345
+          -7.026752647612799,
+          48.93958493083199
         ]
       },
       "properties": {
@@ -1394,8 +1706,8 @@
         "formal_title": "Duchy of Bordeleaux",
         "part_of": "Bretonnia",
         "inkscape_coordinates": [
-          26.004961,
-          552.64258
+          27.093034300000003,
+          551.9413545
         ],
         "info": {
           "wiki_url": "https://warhammerfantasy.fandom.com/wiki/Bordeleaux",
@@ -1410,8 +1722,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -6.771734197210829,
-          47.374047019442976
+          -6.7529022525408,
+          47.379830446991996
         ]
       },
       "properties": {
@@ -1420,8 +1732,8 @@
         "formal_title": "Duchy of Aquitaine",
         "part_of": "Bretonnia",
         "inkscape_coordinates": [
-          41.649979,
-          641.75104
+          42.7380523,
+          641.0498145
         ],
         "info": {
           "wiki_url": "https://warhammerfantasy.fandom.com/wiki/Aquitaine",
@@ -1436,8 +1748,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -6.818947951531288,
-          45.7547579896749
+          -6.800527590844799,
+          45.760542758671996
         ]
       },
       "properties": {
@@ -1446,8 +1758,8 @@
         "formal_title": "Duchy of Brionne",
         "part_of": "Bretonnia",
         "inkscape_coordinates": [
-          38.929153,
-          734.26062
+          40.0172263,
+          733.5593945
         ],
         "info": {
           "wiki_url": "https://warhammerfantasy.fandom.com/wiki/Brionne",
@@ -1462,8 +1774,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -4.830214624685077,
-          44.06429406066552
+          -4.812137658076799,
+          44.06981599515199
         ]
       },
       "properties": {
@@ -1472,8 +1784,8 @@
         "formal_title": "Duchy of Carcassone",
         "part_of": "Bretonnia",
         "inkscape_coordinates": [
-          152.52547,
-          830.8515
+          153.6135433,
+          830.1502745
         ],
         "info": {
           "wiki_url": "https://warhammerfantasy.fandom.com/wiki/Carcassonne",
@@ -1488,8 +1800,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.93778627113155,
-          46.13613945690528
+          -3.9191474676767992,
+          46.141551801552
         ]
       },
       "properties": {
@@ -1498,8 +1810,8 @@
         "formal_title": "Duchy of Quenelles",
         "part_of": "Bretonnia",
         "inkscape_coordinates": [
-          203.54182,
-          712.49365
+          204.6298933,
+          711.7924245
         ],
         "info": {
           "wiki_url": "https://warhammerfantasy.fandom.com/wiki/Quenelles",
@@ -1514,8 +1826,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.5210869356691781,
-          47.43438940831106
+          -1.3448656948767987,
+          48.448979318031995
         ]
       },
       "properties": {
@@ -1524,8 +1836,8 @@
         "formal_title": "Duchy of Parravon",
         "part_of": "Bretonnia",
         "inkscape_coordinates": [
-          398.76419,
-          638.34998
+          351.69809330000004,
+          579.9695545000001
         ],
         "info": {
           "wiki_url": "https://warhammerfantasy.fandom.com/wiki/Parravon",
@@ -1540,8 +1852,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -5.106122364573681,
-          52.24401823066404
+          -5.085988088156799,
+          52.249600082831996
         ]
       },
       "properties": {
@@ -1550,8 +1862,8 @@
         "formal_title": "Duchy of Gisoreux",
         "part_of": "Bretonnia",
         "inkscape_coordinates": [
-          136.88045,
-          363.54208
+          137.9685233,
+          362.8408545
         ],
         "info": {
           "wiki_url": "https://warhammerfantasy.fandom.com/wiki/Gisoreux",
@@ -1566,8 +1878,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.2481962807360114,
-          49.92249339888658
+          -3.2285705575967993,
+          49.927827513231996
         ]
       },
       "properties": {
@@ -1576,8 +1888,8 @@
         "formal_title": "Duchy of Montfort",
         "part_of": "Bretonnia",
         "inkscape_coordinates": [
-          242.99434,
-          496.18448
+          244.08241329999998,
+          495.4832545
         ],
         "info": {
           "wiki_url": "https://warhammerfantasy.fandom.com/wiki/Montfort",
@@ -1592,18 +1904,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          5.453420397472143,
-          58.2912840297409
+          8.3942912894432,
+          54.776564342671996
         ]
       },
       "properties": {
-        "name": "PRIMORYE OBLAST\n(Western Oblast)",
+        "name": "POLYANYA OBLAST (Southern Oblast)",
         "province_type": "Grand-Province",
         "formal_title": "",
         "part_of": "",
         "inkscape_coordinates": [
-          740.25793,
-          18.140196
+          908.0941733,
+          218.4758945
         ],
         "info": {
           "wiki_url": null,
@@ -1618,18 +1930,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.37294675503086,
-          54.77272262261919
+          9.708801780323201,
+          57.85002826817599
         ]
       },
       "properties": {
-        "name": "POLYANYA OBLAST\n(Southern Oblast)",
+        "name": "UNGOLSK OBLAST (Eastern Oblast)",
         "province_type": "Grand-Province",
         "formal_title": "",
         "part_of": "",
         "inkscape_coordinates": [
-          907.0061,
-          219.17712
+          983.1918933000001,
+          42.8895185
         ],
         "info": {
           "wiki_url": null,
@@ -1644,18 +1956,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.686624183709462,
-          57.84634779687781
+          4.6300861963232,
+          60.72610217627199
         ]
       },
       "properties": {
-        "name": "UNGOLSK OBLAST\n(Eastern Oblast)",
+        "name": "KAMENNAYA ZIMA (Troll Country)",
         "province_type": "Grand-Province",
         "formal_title": "",
         "part_of": "",
         "inkscape_coordinates": [
-          982.10382,
-          43.590744
+          693.0458933,
+          -121.4200055
         ],
         "info": {
           "wiki_url": null,
@@ -1670,18 +1982,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.607396322402308,
-          60.72175468196761
+          8.9586564827232,
+          60.02684375479999
         ]
       },
       "properties": {
-        "name": "KAMENNAYA ZIMA\n(Troll Country)",
+        "name": "SEVERYNA OBLAST (Northern Oblast)",
         "province_type": "Grand-Province",
         "formal_title": "",
         "part_of": "",
         "inkscape_coordinates": [
-          691.95782,
-          -120.71878
+          940.3362433,
+          -81.4715125
         ],
         "info": {
           "wiki_url": null,
@@ -1696,34 +2008,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.935960085484972,
-          60.023059532559266
-        ]
-      },
-      "properties": {
-        "name": "SEVERYNA OBLAST\n(Northern Oblast)",
-        "province_type": "Grand-Province",
-        "formal_title": "",
-        "part_of": "",
-        "inkscape_coordinates": [
-          939.24817,
-          -80.770287
-        ],
-        "info": {
-          "wiki_url": null,
-          "image": null,
-          "description": null
-        },
-        "population": 0
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -13.126515162978073,
-          45.94845265030099
+          -13.1083128433568,
+          45.95505578363199
         ]
       },
       "properties": {
@@ -1732,8 +2018,8 @@
         "formal_title": "Crown of Bilbali",
         "part_of": "Estalia",
         "inkscape_coordinates": [
-          -321.43335,
-          723.14813
+          -320.3452767,
+          722.4469045000001
         ],
         "info": {
           "wiki_url": "https://warhammerfantasy.fandom.com/wiki/Bilbali",
@@ -1748,8 +2034,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -12.19001285544224,
-          41.89159697072261
+          -12.1727970350368,
+          41.898066708752
         ]
       },
       "properties": {
@@ -1758,13 +2044,39 @@
         "formal_title": "Crown of Magritta",
         "part_of": "Estalia",
         "inkscape_coordinates": [
-          -267.98752,
-          954.9231
+          -266.8994467,
+          954.2218745
         ],
         "info": {
           "wiki_url": "https://warhammerfantasy.fandom.com/wiki/Magritta",
           "image": null,
           "description": "Magritta, formally the Kingdom of Magritta, is the largest and one of the most important cities in Estalia. Built by natural deep-water harbours within the sheltered Bay of Quietude, its reputation as a friendly port with ready markets for all manner of cargoes draws traders from many ports across the world of Mallus. Its quays are usually crowded, and, among the assortment of Old Worlder merchantmen, one can occasionally catch a glimpse of a strangely rigged craft from Araby or even further afield."
+        },
+        "population": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.979611844643201,
+          58.26649985492799
+        ]
+      },
+      "properties": {
+        "name": "PRIMORYE OBLAST (Western Oblast)",
+        "province_type": "Grand-Province",
+        "formal_title": "",
+        "part_of": "",
+        "inkscape_coordinates": [
+          713.0142233,
+          19.0965805
+        ],
+        "info": {
+          "wiki_url": null,
+          "image": null,
+          "description": null
         },
         "population": 0
       }

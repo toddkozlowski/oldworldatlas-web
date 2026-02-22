@@ -75,6 +75,58 @@ async function loadStylesConfig() {
 }
 
 /**
+ * Format a label name for map display.
+ * If the name contains a parenthetical (e.g. "LABEL NAME (\"Other Name\")"),
+ * the parenthetical is moved to a new line.
+ * @param {string} name - Raw feature name
+ * @returns {string} Display-ready label text
+ */
+function formatLabelText(name) {
+    if (!name) return name;
+    return name.replace(/\s*(\([^)]+\))/, '\n$1');
+}
+
+/**
+ * Format a water label name for map display.
+ * If the name contains a parenthetical, delegates to formatLabelText.
+ * Otherwise, if the name has 11+ non-space characters, inserts a line break
+ * at the space closest to the string's midpoint to best balance the two lines.
+ * @param {string} name - Raw feature name
+ * @returns {string} Display-ready label text
+ */
+function formatWaterLabelText(name) {
+    if (!name) return name;
+    // If it has a parenthetical, use the standard handler (no further splitting)
+    if (/\(/.test(name)) {
+        return formatLabelText(name);
+    }
+    // Count non-space characters
+    const nonSpaceCount = name.replace(/ /g, '').length;
+    if (nonSpaceCount >= 11) {
+        // Collect indices of all spaces
+        const spaces = [];
+        for (let i = 0; i < name.length; i++) {
+            if (name[i] === ' ') spaces.push(i);
+        }
+        if (spaces.length > 0) {
+            const mid = name.length / 2;
+            // Pick the space whose index is closest to the midpoint
+            let bestSpace = spaces[0];
+            let bestDist = Math.abs(spaces[0] - mid);
+            for (let i = 1; i < spaces.length; i++) {
+                const dist = Math.abs(spaces[i] - mid);
+                if (dist < bestDist) {
+                    bestDist = dist;
+                    bestSpace = spaces[i];
+                }
+            }
+            return name.slice(0, bestSpace) + '\n' + name.slice(bestSpace + 1);
+        }
+    }
+    return name;
+}
+
+/**
  * Linear interpolation helper
  * @param {number} value - Current value
  * @param {number} minIn - Minimum input value
@@ -269,7 +321,7 @@ function createPOIStyle(feature, currentResolution) {
     if (showLabel) {
         const fontConfig = isHighlighted ? 'bold ' + config.textFont : config.textFont;
         style.setText(new ol.style.Text({
-            text: feature.get('name'),
+            text: formatLabelText(feature.get('name')),
             offsetY: config.textOffsetY,
             font: constructFontString(fontConfig, fontSize),
             fill: new ol.style.Fill({ color: isHighlighted ? '#d32f2f' : config.textFillColor }),
@@ -363,7 +415,7 @@ function createSettlementStyle(feature, currentResolution) {
     if (showLabel) {
         const fontConfig = isHighlighted ? 'bold ' + config.textFont : config.textFont;
         style.setText(new ol.style.Text({
-            text: feature.get('name'),
+            text: formatLabelText(feature.get('name')),
             offsetY: config.textOffsetY,
             font: constructFontString(fontConfig, fontSize),
             fill: new ol.style.Fill({ color: isHighlighted ? '#d32f2f' : config.textFillColor }),
@@ -478,7 +530,7 @@ function createProvinceStyle(feature, currentResolution) {
     // The font size calculation is lightweight, so we create fresh styles
     return new ol.style.Style({
         text: new ol.style.Text({
-            text: feature.get('name'),
+            text: formatLabelText(feature.get('name')),
             font: constructFontString(config.textFont, fontSize),
             fill: new ol.style.Fill({ color: config.textFillColor }),
             stroke: new ol.style.Stroke({ 
@@ -520,7 +572,7 @@ function createWaterStyle(feature, currentResolution) {
     // The font size calculation is lightweight, so we create fresh styles
     return new ol.style.Style({
         text: new ol.style.Text({
-            text: feature.get('name'),
+            text: formatWaterLabelText(feature.get('name')),
             font: constructFontString(config.textFont, fontSize),
             fill: new ol.style.Fill({ color: config.textFillColor }),
             stroke: new ol.style.Stroke({ 
@@ -610,7 +662,7 @@ function createDwarfSettlementStyle(feature, currentResolution) {
     if (showLabel) {
         const fontConfig = isHighlighted ? 'bold ' + config.textFont : config.textFont;
         style.setText(new ol.style.Text({
-            text: feature.get('name'),
+            text: formatLabelText(feature.get('name')),
             offsetY: config.textOffsetY,
             font: constructFontString(fontConfig, fontSize),
             fill: new ol.style.Fill({ color: isHighlighted ? '#d32f2f' : config.textFillColor }),

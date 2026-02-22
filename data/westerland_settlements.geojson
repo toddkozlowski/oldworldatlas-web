@@ -6,20 +6,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.7160665291904245,
-          51.82950728643307
+          -2.7130014611615993,
+          51.8236917185952
         ]
       },
       "properties": {
         "name": "Erlach",
         "province": "Westerland",
-        "population": 345,
+        "population": 128,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
-          273.42365,
-          387.24078
+          273.5367721,
+          387.1729137
         ],
         "wiki": {
           "title": null,
@@ -34,20 +34,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.499816367139138,
-          52.091692307974306
+          -2.4966758266015994,
+          52.08584947667519
         ]
       },
       "properties": {
         "name": "Siert",
         "province": "Westerland",
-        "population": 197,
+        "population": 62,
         "tags": [],
         "notes": [],
         "size_category": 1,
         "inkscape_coordinates": [
-          285.78229,
-          372.26376
+          285.8954121,
+          372.1958937
         ],
         "wiki": {
           "title": null,
@@ -62,20 +62,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.6598199136888,
-          51.97317911005251
+          -2.656716123881599,
+          51.967356673795194
         ]
       },
       "properties": {
         "name": "Ammerhuis",
         "province": "Westerland",
-        "population": 104,
+        "population": 543,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
-          276.63922,
-          379.03323
+          276.7523421,
+          378.9653637
         ],
         "wiki": {
           "title": null,
@@ -90,8 +90,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.5475791020521417,
-          53.26611352866645
+          -2.5557218947615996,
+          53.264911740035195
         ]
       },
       "properties": {
@@ -104,8 +104,8 @@
         "notes": [],
         "size_category": 3,
         "inkscape_coordinates": [
-          283.07047,
-          305.16876
+          282.5221221,
+          304.83630370000003
         ],
         "wiki": {
           "title": null,
@@ -120,8 +120,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.4761191338647537,
-          52.46361839930325
+          -2.472883514601599,
+          52.457773593475196
         ]
       },
       "properties": {
@@ -134,8 +134,8 @@
         "notes": [],
         "size_category": 4,
         "inkscape_coordinates": [
-          287.14154,
-          351.01581
+          287.2546621,
+          350.9479437
         ],
         "wiki": {
           "title": null,
@@ -150,20 +150,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.8973410778016087,
-          52.89292758767051
+          -2.8940147011615993,
+          52.88713866163519
         ]
       },
       "properties": {
         "name": "Grimpengratz",
         "province": "Westerland",
-        "population": 440,
+        "population": 223,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
-          263.0824,
-          326.48627
+          263.1955221,
+          326.4184037
         ],
         "wiki": {
           "title": null,
@@ -178,20 +178,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.3391218961904876,
-          52.60282078391195
+          -3.3358876026015993,
+          52.59708827955519
         ]
       },
       "properties": {
         "name": "Lemmbourg",
         "province": "Westerland",
-        "population": 94,
+        "population": 21,
         "tags": [],
         "notes": [],
         "size_category": 1,
         "inkscape_coordinates": [
-          237.83829,
-          343.05679
+          237.9514121,
+          342.9889237
         ],
         "wiki": {
           "title": null,
@@ -206,8 +206,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.9132542100309067,
-          52.975452965046756
+          -2.909907633001599,
+          52.9696663457952
         ]
       },
       "properties": {
@@ -220,8 +220,8 @@
         "notes": [],
         "size_category": 4,
         "inkscape_coordinates": [
-          262.17444,
-          321.77148
+          262.2875621,
+          321.7036137
         ],
         "wiki": {
           "title": null,
@@ -236,8 +236,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.6945320639653083,
-          52.978136146704124
+          -2.691175548521599,
+          52.972321177475195
         ]
       },
       "properties": {
@@ -250,8 +250,8 @@
         "notes": [],
         "size_category": 4,
         "inkscape_coordinates": [
-          274.67056,
-          321.61981
+          274.7836821,
+          321.5519437
         ],
         "wiki": {
           "title": null,
@@ -266,20 +266,104 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.3977116237004097,
-          52.786278721575805
+          -3.3944334064415993,
+          52.780554355075196
         ]
       },
       "properties": {
         "name": "Keterveen",
+        "province": "Westerland",
+        "population": 100,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "inkscape_coordinates": [
+          234.6067021,
+          332.5075437
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.001520768361599,
+          52.766531025475196
+        ]
+      },
+      "properties": {
+        "name": "Maasten",
+        "province": "Westerland",
+        "population": 191,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "inkscape_coordinates": [
+          257.0537221,
+          333.3086937
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1958414243615993,
+          52.704764485635195
+        ]
+      },
+      "properties": {
+        "name": "Teskerdorp",
+        "province": "Westerland",
+        "population": 66,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "inkscape_coordinates": [
+          245.9522221,
+          336.8374037
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.893718883561599,
+          52.84012291763519
+        ]
+      },
+      "properties": {
+        "name": "Koorst",
         "province": "Westerland",
         "population": 782,
         "tags": [],
         "notes": [],
         "size_category": 2,
         "inkscape_coordinates": [
-          234.49358,
-          332.57541
+          263.2124221,
+          329.10440370000003
         ],
         "wiki": {
           "title": null,
@@ -294,104 +378,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.005391650002008,
-          52.77520110150533
-        ]
-      },
-      "properties": {
-        "name": "Maasten",
-        "province": "Westerland",
-        "population": 117,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "inkscape_coordinates": [
-          256.90753,
-          333.21118
-        ],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -3.1991088857579193,
-          52.710514825145296
-        ]
-      },
-      "properties": {
-        "name": "Teskerdorp",
-        "province": "Westerland",
-        "population": 121,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "inkscape_coordinates": [
-          245.8391,
-          336.90527
-        ],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.8981916036664144,
-          52.84880650011754
-        ]
-      },
-      "properties": {
-        "name": "Koorst",
-        "province": "Westerland",
-        "population": 30,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "inkscape_coordinates": [
-          263.03317,
-          329.0069
-        ],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.7260548610413355,
-          53.16202609031101
+          -2.7226531667615994,
+          53.156215750915194
         ]
       },
       "properties": {
         "name": "Vesterecht",
         "province": "Westerland",
-        "population": 97,
+        "population": 163,
         "tags": [],
         "notes": [],
         "size_category": 1,
         "inkscape_coordinates": [
-          272.87225,
-          311.11395
+          272.9853721,
+          311.0460837
         ],
         "wiki": {
           "title": null,
@@ -406,20 +406,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.3047908295798587,
-          53.03342966357407
+          -2.3019828605215995,
+          53.024669690115196
         ]
       },
       "properties": {
         "name": "Moerasstad",
         "province": "Westerland",
-        "population": 147,
+        "population": 52,
         "tags": [],
         "notes": [],
         "size_category": 1,
         "inkscape_coordinates": [
-          296.93814,
-          318.46378
+          297.0181821,
+          318.5612837
         ],
         "wiki": {
           "title": null,
@@ -434,20 +434,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.6310917578177184,
-          53.02689776908739
+          -2.6277202227615994,
+          53.0210747185952
         ]
       },
       "properties": {
         "name": "Rijkersfort",
         "province": "Westerland",
-        "population": 164,
+        "population": 149,
         "tags": [],
         "notes": [],
         "size_category": 1,
         "inkscape_coordinates": [
-          278.29575,
-          318.83453
+          278.4088721,
+          318.7666637
         ],
         "wiki": {
           "title": null,
@@ -462,8 +462,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.1445788038356257,
-          54.26932008507488
+          -3.1420726371615992,
+          54.24967347699519
         ]
       },
       "properties": {
@@ -476,8 +476,8 @@
         "notes": [],
         "size_category": 3,
         "inkscape_coordinates": [
-          248.97705,
-          247.85118
+          249.0240221,
+          248.5770637
         ],
         "wiki": {
           "title": "Broekwater",
@@ -492,20 +492,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.256423697849157,
-          54.702994960578145
+          -3.2526546822815994,
+          54.6972579336352
         ]
       },
       "properties": {
         "name": "Almshoven",
         "province": "Westerland",
-        "population": 263,
+        "population": 358,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
-          242.59337,
-          223.07452
+          242.7064921,
+          223.00665370000002
         ],
         "wiki": {
           "title": null,
@@ -520,20 +520,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.3027638422922987,
-          54.34869283057915
+          -1.2990017350815992,
+          54.342701460675194
         ]
       },
       "properties": {
         "name": "Randstaad",
         "province": "Westerland",
-        "population": 141,
+        "population": 264,
         "tags": [],
         "notes": [],
         "size_category": 1,
         "inkscape_coordinates": [
-          354.20517,
-          243.33026
+          354.3182921,
+          243.26239370000002
         ],
         "wiki": {
           "title": null,
@@ -548,20 +548,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.4016408405817895,
-          56.46987883552233
+          -1.397346383721599,
+          56.46390654675519
         ]
       },
       "properties": {
         "name": "Loenen",
         "province": "Westerland",
-        "population": 124,
+        "population": 38,
         "tags": [],
         "notes": [],
         "size_category": 1,
         "inkscape_coordinates": [
-          348.58676,
-          122.14624
+          348.6998821,
+          122.0783737
         ],
         "wiki": {
           "title": null,
@@ -576,20 +576,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.379046510026325,
-          56.23776155603749
+          -1.374809808681599,
+          56.23178565267519
         ]
       },
       "properties": {
         "name": "Oostwald",
         "province": "Westerland",
-        "population": 61,
+        "population": 53,
         "tags": [],
         "notes": [],
         "size_category": 1,
         "inkscape_coordinates": [
-          349.87427,
-          135.40726
+          349.9873921,
+          135.33939370000002
         ],
         "wiki": {
           "title": null,
@@ -604,20 +604,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.4344404024848494,
-          56.099075142499515
+          -1.4302411258015992,
+          56.09310601171519
         ]
       },
       "properties": {
         "name": "Stedum",
         "province": "Westerland",
-        "population": 151,
+        "population": 470,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
-          346.70749,
-          143.33
+          346.8206121,
+          143.26213370000002
         ],
         "wiki": {
           "title": null,
@@ -632,8 +632,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.8143321826654875,
-          57.40974509998783
+          -1.8098174662815991,
+          57.403829092099194
         ]
       },
       "properties": {
@@ -646,8 +646,8 @@
         "notes": [],
         "size_category": 4,
         "inkscape_coordinates": [
-          325.02237,
-          68.448654
+          325.1354921,
+          68.3807877
         ],
         "wiki": {
           "title": "Aarnau",
@@ -662,8 +662,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.914052918534371,
-          57.274578287081354
+          -1.9095766131615994,
+          57.268674809251195
         ]
       },
       "properties": {
@@ -676,8 +676,8 @@
         "notes": [],
         "size_category": 2,
         "inkscape_coordinates": [
-          319.32315,
-          76.169991
+          319.4362721,
+          76.10212469999999
         ],
         "wiki": {
           "title": null,
@@ -692,20 +692,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.6387564993042094,
-          56.84864753797976
+          -1.634376274601599,
+          56.84270710995519
         ]
       },
       "properties": {
         "name": "Haarskamp",
         "province": "Westerland",
-        "population": 138,
+        "population": 215,
         "tags": [],
         "notes": [],
         "size_category": 1,
         "inkscape_coordinates": [
-          335.04529,
-          100.50544
+          335.1584121,
+          100.43757369999999
         ],
         "wiki": {
           "title": null,
@@ -720,20 +720,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.236698213345055,
-          54.682530397273865
+          -1.2328488678815996,
+          54.67653144723519
         ]
       },
       "properties": {
         "name": "Vasse",
         "province": "Westerland",
-        "population": 782,
+        "population": 83,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
-          357.98447,
-          224.25862
+          358.0975921,
+          224.19075370000002
         ],
         "wiki": {
           "title": null,
@@ -748,8 +748,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.722333621263328,
-          52.5404083305973
+          -2.7165307926815996,
+          52.54001963827519
         ]
       },
       "properties": {
@@ -762,8 +762,8 @@
         "notes": [],
         "size_category": 4,
         "inkscape_coordinates": [
-          273.07587,
-          346.62698
+          273.3351421,
+          346.2492437
         ],
         "wiki": {
           "title": null,
@@ -778,20 +778,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.71189215383595,
-          52.51589785527269
+          -2.7086532925215994,
+          52.51008377235519
         ]
       },
       "properties": {
         "name": "Ruttenkoop",
         "province": "Westerland",
-        "population": 292,
+        "population": 198,
         "tags": [],
         "notes": [],
         "size_category": 1,
         "inkscape_coordinates": [
-          273.67206,
-          348.02734
+          273.7851821,
+          347.9594737
         ],
         "wiki": {
           "title": null,
@@ -806,20 +806,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.173890993964327,
-          52.207135347664085
+          -3.174223284201599,
+          52.217589831875195
         ]
       },
       "properties": {
         "name": "Heuveldorp",
         "province": "Westerland",
-        "population": 262,
+        "population": 130,
         "tags": [],
         "notes": [],
         "size_category": 1,
         "inkscape_coordinates": [
-          247.27258,
-          365.66351
+          247.1872621,
+          364.6695937
         ],
         "wiki": {
           "title": null,
@@ -834,20 +834,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.1471584675232016,
-          53.97326829588257
+          -3.143569404201599,
+          53.967514948355195
         ]
       },
       "properties": {
         "name": "Heppeldorp",
         "province": "Westerland",
-        "population": 49,
+        "population": 80,
         "tags": [],
         "notes": [],
         "size_category": 1,
         "inkscape_coordinates": [
-          248.82539,
-          264.76459
+          248.9385121,
+          264.6967237
         ],
         "wiki": {
           "title": null,
@@ -862,20 +862,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.81363794834136,
-          52.55329380402326
+          -3.8104362710815995,
+          52.547622675715196
         ]
       },
       "properties": {
-        "name": "Fort Bergbes",
+        "name": "Fort Bergbres",
         "province": "Westerland",
-        "population": 58,
+        "population": 218,
         "tags": [],
         "notes": [],
         "size_category": 1,
         "inkscape_coordinates": [
-          210.72742,
-          345.88275
+          210.8405421,
+          345.8148837
         ],
         "wiki": {
           "title": null,
@@ -890,20 +890,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.122690111814671,
-          52.37945225365431
+          -3.1148719462815997,
+          52.36848061331519
         ]
       },
       "properties": {
         "name": "Kleindorpje",
         "province": "Westerland",
-        "population": 49,
+        "population": 449,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
-          250.20029,
-          355.81943
+          250.5779921,
+          356.0492337
         ],
         "wiki": {
           "title": null,
@@ -918,20 +918,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.159382687160372,
-          54.27649152976979
+          -1.1556327725215998,
+          54.2704813569952
         ]
       },
       "properties": {
         "name": "Grensstad",
         "province": "Westerland",
-        "population": 199,
+        "population": 307,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
-          362.39581,
-          247.45618
+          362.5089321,
+          247.3883137
         ],
         "wiki": {
           "title": null,
@@ -946,20 +946,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.1778796611083555,
-          54.2185792439786
+          -1.1741451779616,
+          54.21257129843519
         ]
       },
       "properties": {
         "name": "Wouduin",
         "province": "Westerland",
-        "population": 170,
+        "population": 130,
         "tags": [],
         "notes": [],
         "size_category": 1,
         "inkscape_coordinates": [
-          361.3382,
-          250.76457
+          361.45132209999997,
+          250.6967037
         ],
         "wiki": {
           "title": null,
@@ -974,8 +974,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.2461560960376072,
-          54.158659627835604
+          -1.2424396595615992,
+          54.15266035763519
         ]
       },
       "properties": {
@@ -988,8 +988,8 @@
         "notes": [],
         "size_category": 3,
         "inkscape_coordinates": [
-          357.43655,
-          254.18727
+          357.5496721,
+          254.11940370000002
         ],
         "wiki": {
           "title": null,
@@ -1004,20 +1004,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.2466524369045073,
-          54.488548425853274
+          -1.2428525789215994,
+          54.48255019379519
         ]
       },
       "properties": {
         "name": "Gieten",
         "province": "Westerland",
-        "population": 64,
+        "population": 72,
         "tags": [],
         "notes": [],
         "size_category": 1,
         "inkscape_coordinates": [
-          357.41296,
-          235.34073
+          357.5260821,
+          235.27286370000002
         ],
         "wiki": {
           "title": null,
@@ -1032,20 +1032,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.7114708439891189,
-          56.948419787955764
+          -1.7070684611615992,
+          56.94248908205119
         ]
       },
       "properties": {
         "name": "Diever",
         "province": "Westerland",
-        "population": 352,
+        "population": 224,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
-          330.8924,
-          94.804916
+          331.0055221,
+          94.7370497
         ],
         "wiki": {
           "title": null,
@@ -1060,20 +1060,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.087861361751476,
-          55.545869385625686
+          -3.0798198362015996,
+          55.54011299219519
         ]
       },
       "properties": {
         "name": "Rotsachhaven",
         "province": "Westerland",
-        "population": 104,
+        "population": 144,
         "tags": [],
         "notes": [],
         "size_category": 1,
         "inkscape_coordinates": [
-          252.23589,
-          174.92238
+          252.5805121,
+          174.8545137
         ],
         "wiki": {
           "title": null,
@@ -1088,8 +1088,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.051825315462203,
-          55.82342156361396
+          -3.058763574441599,
+          55.82055577875519
         ]
       },
       "properties": {
@@ -1102,8 +1102,8 @@
         "notes": [],
         "size_category": 3,
         "inkscape_coordinates": [
-          254.29872,
-          159.0661
+          253.7834521,
+          158.83287370000002
         ],
         "wiki": {
           "title": "Fort Solace",
@@ -1118,22 +1118,22 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.5687837173732744,
-          53.16692623158116
+          -2.588530167081599,
+          53.1234662920352
         ]
       },
       "properties": {
         "name": "Marienburg",
         "province": "Westerland",
-        "population": 352550,
+        "population": 288437,
         "tags": [
           "source:1eMSDtR"
         ],
         "notes": [],
         "size_category": 6,
         "inkscape_coordinates": [
-          281.85757,
-          310.83517
+          280.6477921,
+          312.9170537
         ],
         "wiki": {
           "title": "Marienburg",
@@ -1148,20 +1148,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.9758207550550662,
-          52.97946213230927
+          -1.9724334771615997,
+          52.97355398419519
         ]
       },
       "properties": {
         "name": "Smerigwaard",
         "province": "Westerland",
-        "population": 166,
+        "population": 60,
         "tags": [],
         "notes": [],
         "size_category": 1,
         "inkscape_coordinates": [
-          315.73215,
-          321.54938
+          315.8452721,
+          321.4815137
         ],
         "wiki": {
           "title": null,
@@ -1176,20 +1176,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.0837838071377774,
-          53.009812408867234
+          -2.0803934230815995,
+          53.001602743875196
         ]
       },
       "properties": {
         "name": "Klauperdorf",
         "province": "Westerland",
-        "population": 288,
+        "population": 103,
         "tags": [],
         "notes": [],
         "size_category": 1,
         "inkscape_coordinates": [
-          309.56442,
-          319.81467
+          309.6775421,
+          319.8790937
         ],
         "wiki": {
           "title": null,
@@ -1204,20 +1204,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.881445224719462,
-          51.66837827900571
+          -2.878427914281599,
+          51.6625836773152
         ]
       },
       "properties": {
         "name": "Fessel",
         "province": "Westerland",
-        "population": 45,
+        "population": 68,
         "tags": [],
         "notes": [],
         "size_category": 1,
         "inkscape_coordinates": [
-          263.97287,
-          396.44485
+          264.0859921,
+          396.3769837
         ],
         "wiki": {
           "title": null,
@@ -1232,8 +1232,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.900524615632637,
-          52.69864875192332
+          -2.898984261801599,
+          52.6957544766752
         ]
       },
       "properties": {
@@ -1246,8 +1246,8 @@
         "notes": [],
         "size_category": 2,
         "inkscape_coordinates": [
-          262.89771,
-          337.58539
+          262.9116121,
+          337.3521437
         ],
         "wiki": {
           "title": null,
@@ -1262,20 +1262,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.6748235368481,
-          53.15239610885257
+          -2.6714221094816,
+          53.1465790987552
         ]
       },
       "properties": {
         "name": "Middeldijk",
         "province": "Westerland",
-        "population": 127,
+        "population": 271,
         "tags": [],
         "notes": [],
         "size_category": 1,
         "inkscape_coordinates": [
-          275.79907,
-          311.66449
+          275.91219209999997,
+          311.5966237
         ],
         "wiki": {
           "title": null,
@@ -1290,20 +1290,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.648506219294778,
-          52.965086794195216
+          -2.645151056041599,
+          52.95926581907519
         ]
       },
       "properties": {
         "name": "Havenrijk",
         "province": "Westerland",
-        "population": 95,
+        "population": 413,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
-          277.29993,
-          322.36566
+          277.4130521,
+          322.2977937
         ],
         "wiki": {
           "title": null,
@@ -1318,20 +1318,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.5248386738261823,
-          53.12071415390315
+          -2.519123131241599,
+          53.1171933835552
         ]
       },
       "properties": {
         "name": "Kloosterdam",
         "province": "Westerland",
-        "population": 284,
+        "population": 117,
         "tags": [],
         "notes": [],
         "size_category": 1,
         "inkscape_coordinates": [
-          284.36758,
-          313.47559
+          284.6130021,
+          313.27542370000003
         ],
         "wiki": {
           "title": null,
@@ -1346,20 +1346,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.7054427362515714,
-          53.19134017443535
+          -2.702032754601599,
+          53.18552724915519
         ]
       },
       "properties": {
         "name": "Driewegen",
         "province": "Westerland",
-        "population": 103,
+        "population": 174,
         "tags": [],
         "notes": [],
         "size_category": 1,
         "inkscape_coordinates": [
-          274.05029,
-          309.43939
+          274.1634121,
+          309.3715237
         ],
         "wiki": {
           "title": null,
@@ -1374,20 +1374,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.6797611252720035,
-          52.90502564496798
+          -2.6764224771615996,
+          52.8992085448352
         ]
       },
       "properties": {
         "name": "Oudegracht",
         "province": "Westerland",
-        "population": 39,
+        "population": 104,
         "tags": [],
         "notes": [],
         "size_category": 1,
         "inkscape_coordinates": [
-          275.5134,
-          325.79672
+          275.6265221,
+          325.7288537
         ],
         "wiki": {
           "title": null,
@@ -1402,48 +1402,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.7221789652057424,
-          52.82857550193544
+          -2.7188614502815995,
+          52.822763675715194
         ]
       },
       "properties": {
         "name": "Kranedam",
-        "province": "Westerland",
-        "population": 48,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "inkscape_coordinates": [
-          273.08887,
-          330.164
-        ],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.7305754741926984,
-          52.67848908386243
-        ]
-      },
-      "properties": {
-        "name": "Zwanedam",
         "province": "Westerland",
         "population": 77,
         "tags": [],
         "notes": [],
         "size_category": 1,
         "inkscape_coordinates": [
-          272.60699,
-          338.73837
+          273.2019921,
+          330.0961337
         ],
         "wiki": {
           "title": null,
@@ -1458,20 +1430,216 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.727703960847659,
-          52.65385842518826
+          -2.7272962778015994,
+          52.67267790323519
+        ]
+      },
+      "properties": {
+        "name": "Zwanedam",
+        "province": "Westerland",
+        "population": 55,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "inkscape_coordinates": [
+          272.7201121,
+          338.6705037
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.7244308730015994,
+          52.648046799555196
         ]
       },
       "properties": {
         "name": "Zwaneveerboot",
+        "province": "Westerland",
+        "population": 126,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "inkscape_coordinates": [
+          272.8838121,
+          340.0776737
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.6245504234015997,
+          52.98297271155519
+        ]
+      },
+      "properties": {
+        "name": "Zijlpoort",
+        "province": "Westerland",
+        "population": 186,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "inkscape_coordinates": [
+          278.5899621,
+          320.9434237
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.761338932201599,
+          53.14204013651519
+        ]
+      },
+      "properties": {
+        "name": "Stillebroek",
+        "province": "Westerland",
+        "population": 101,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "inkscape_coordinates": [
+          270.7752621,
+          311.85593370000004
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.8767020198816,
+          53.02354943411519
+        ]
+      },
+      "properties": {
+        "name": "Slangenmeer",
+        "province": "Westerland",
+        "population": 50,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "inkscape_coordinates": [
+          264.1845921,
+          318.6252837
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.9654513066015997,
+          53.37496008819519
+        ]
+      },
+      "properties": {
+        "name": "Gieterveen",
+        "province": "Westerland",
+        "population": 92,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "inkscape_coordinates": [
+          316.2441621,
+          298.5492637
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.944789604201599,
+          52.98588922803519
+        ]
+      },
+      "properties": {
+        "name": "Blekersdijk",
+        "province": "Westerland",
+        "population": 176,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "inkscape_coordinates": [
+          260.2947621,
+          320.7768037
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.362072536361599,
+          52.66232708787519
+        ]
+      },
+      "properties": {
+        "name": "Molenwaard",
         "province": "Westerland",
         "population": 45,
         "tags": [],
         "notes": [],
         "size_category": 1,
         "inkscape_coordinates": [
-          272.77069,
-          340.14554
+          236.4554721,
+          339.2618437
         ],
         "wiki": {
           "title": null,
@@ -1486,188 +1654,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.6279124556146902,
-          52.98879628672304
-        ]
-      },
-      "properties": {
-        "name": "Zijlpoort",
-        "province": "Westerland",
-        "population": 782,
-        "tags": [],
-        "notes": [],
-        "size_category": 2,
-        "inkscape_coordinates": [
-          278.47684,
-          321.01129
-        ],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.764735402061527,
-          53.14784550273711
-        ]
-      },
-      "properties": {
-        "name": "Stillebroek",
-        "province": "Westerland",
-        "population": 147,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "inkscape_coordinates": [
-          270.66214,
-          311.9238
-        ],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.88006363236258,
-          53.02934019754351
-        ]
-      },
-      "properties": {
-        "name": "Slangenmeer",
-        "province": "Westerland",
-        "population": 146,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "inkscape_coordinates": [
-          264.07147,
-          318.69315
-        ],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.9689404079085122,
-          53.380867943464544
-        ]
-      },
-      "properties": {
-        "name": "Gieterveen",
-        "province": "Westerland",
-        "population": 164,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "inkscape_coordinates": [
-          316.13104,
-          298.61713
-        ],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.948138806653306,
-          52.99167127653322
-        ]
-      },
-      "properties": {
-        "name": "Blekersdijk",
-        "province": "Westerland",
-        "population": 451,
-        "tags": [],
-        "notes": [],
-        "size_category": 2,
-        "inkscape_coordinates": [
-          260.18164,
-          320.84467
-        ],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -3.365322221429457,
-          52.668056002725116
-        ]
-      },
-      "properties": {
-        "name": "Molenwaard",
-        "province": "Westerland",
-        "population": 266,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "inkscape_coordinates": [
-          236.34235,
-          339.32971
-        ],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.8394466946706576,
-          53.08776594141014
+          -2.836068584361599,
+          53.0819700843552
         ]
       },
       "properties": {
         "name": "Kranegracht",
         "province": "Westerland",
-        "population": 89,
+        "population": 203,
         "tags": [],
         "notes": [],
         "size_category": 1,
         "inkscape_coordinates": [
-          266.39285,
-          315.35559
+          266.5059721,
+          315.2877237
         ],
         "wiki": {
           "title": null,
@@ -1682,20 +1682,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.9680870617111905,
-          53.179244274230946
+          -1.9646489232415998,
+          53.17333571315519
         ]
       },
       "properties": {
         "name": "Zilvermeer",
         "province": "Westerland",
-        "population": 308,
+        "population": 62,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
-          316.17688,
-          310.13589
+          316.2900021,
+          310.0680237
         ],
         "wiki": {
           "title": null,
@@ -1710,20 +1710,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.52062966076008,
-          52.498572564256804
+          -2.5173870845215993,
+          52.4927336325152
         ]
       },
       "properties": {
         "name": "Torenbroek",
         "province": "Westerland",
-        "population": 416,
+        "population": 114,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
-          284.59906,
-          349.01855
+          284.7121821,
+          348.9506837
         ],
         "wiki": {
           "title": null,
@@ -1738,20 +1738,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.6993371055259896,
-          52.59286749458277
+          -2.6908678282015996,
+          52.58299983507519
         ]
       },
       "properties": {
         "name": "Weteringh",
         "province": "Westerland",
-        "population": 208,
+        "population": 48,
         "tags": [],
         "notes": [],
         "size_category": 1,
         "inkscape_coordinates": [
-          274.39047,
-          343.63016
+          274.8012621,
+          343.7937937
         ],
         "wiki": {
           "title": null,
@@ -1766,20 +1766,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.0619115478188403,
-          54.1569603558925
+          -3.0582724122015996,
+          54.15119649811519
         ]
       },
       "properties": {
         "name": "Swartenmeer",
         "province": "Westerland",
-        "population": 188,
+        "population": 79,
         "tags": [],
         "notes": [],
         "size_category": 1,
         "inkscape_coordinates": [
-          253.69839,
-          254.2709
+          253.8115121,
+          254.20303370000002
         ],
         "wiki": {
           "title": null,
@@ -1794,20 +1794,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.4009091970132417,
-          53.23380187698287
+          -2.397475582441599,
+          53.227949593475195
         ]
       },
       "properties": {
         "name": "Veldendam",
         "province": "Westerland",
-        "population": 70,
+        "population": 163,
         "tags": [],
         "notes": [],
         "size_category": 1,
         "inkscape_coordinates": [
-          291.44958,
-          307.01581
+          291.5627021,
+          306.9479437
         ],
         "wiki": {
           "title": null,
@@ -1822,20 +1822,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.0254047006290445,
-          52.82848385123701
+          -3.0186265523615994,
+          52.820395559555195
         ]
       },
       "properties": {
         "name": "Polderwoude",
         "province": "Westerland",
-        "population": 56,
+        "population": 141,
         "tags": [],
         "notes": [],
         "size_category": 1,
         "inkscape_coordinates": [
-          255.76491,
-          330.16699
+          256.0764721,
+          330.2314237
         ],
         "wiki": {
           "title": null,
@@ -1850,20 +1850,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.731384733555555,
-          52.71480494565996
+          -2.7304119898015995,
+          52.708993977155195
         ]
       },
       "properties": {
         "name": "Kruiswaard",
         "province": "Westerland",
-        "population": 130,
+        "population": 313,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
-          272.56128,
-          336.66364
+          272.5421121,
+          336.5957737
         ],
         "wiki": {
           "title": null,
@@ -1878,20 +1878,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.7826964448746736,
-          53.58635518630841
+          -1.7791474826015994,
+          53.58042379059519
         ]
       },
       "properties": {
         "name": "Slangenbroek",
         "province": "Westerland",
-        "population": 85,
+        "population": 83,
         "tags": [],
         "notes": [],
         "size_category": 1,
         "inkscape_coordinates": [
-          326.77454,
-          286.87903
+          326.8876621,
+          286.8111637
         ],
         "wiki": {
           "title": null,
@@ -1906,20 +1906,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.9245826361037253,
-          52.78986080797153
+          -2.9212834826015994,
+          52.7840751096352
         ]
       },
       "properties": {
         "name": "Vlietdam",
         "province": "Westerland",
-        "population": 285,
+        "population": 667,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
-          261.52454,
-          332.37427
+          261.6376621,
+          332.30640370000003
         ],
         "wiki": {
           "title": null,
@@ -1934,20 +1934,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.0368565464618325,
-          52.55093941167172
+          -3.0347804688415994,
+          52.542272753155196
         ]
       },
       "properties": {
         "name": "Spaarwoude",
         "province": "Westerland",
-        "population": 57,
+        "population": 236,
         "tags": [],
         "notes": [],
         "size_category": 1,
         "inkscape_coordinates": [
-          255.10663,
-          346.02301
+          255.1536021,
+          346.12052370000004
         ],
         "wiki": {
           "title": null,
@@ -1962,20 +1962,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.538821135939328,
-          52.115147267748
+          -2.5356763139616,
+          52.1093095627552
         ]
       },
       "properties": {
         "name": "Vossenmeer",
         "province": "Westerland",
-        "population": 569,
+        "population": 352,
         "tags": [],
         "notes": [],
         "size_category": 2,
         "inkscape_coordinates": [
-          283.5542,
-          370.92349
+          283.6673221,
+          370.8556237
         ],
         "wiki": {
           "title": null,
@@ -1990,20 +1990,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.914841390643737,
-          53.06258828925207
+          -2.9114728406815997,
+          53.056802132995195
         ]
       },
       "properties": {
         "name": "Wijkersdijk",
         "province": "Westerland",
-        "population": 682,
+        "population": 61,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
-          262.08502,
-          316.79343
+          262.1981421,
+          316.7255637
         ],
         "wiki": {
           "title": null,
@@ -2018,20 +2018,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.7548810764673544,
-          52.86830662505996
+          -2.7515548963615997,
+          52.86249915603519
         ]
       },
       "properties": {
         "name": "Modderbroek",
         "province": "Westerland",
-        "population": 257,
+        "population": 94,
         "tags": [],
         "notes": [],
         "size_category": 1,
         "inkscape_coordinates": [
-          271.2211,
-          327.89392
+          271.3342221,
+          327.8260537
         ],
         "wiki": {
           "title": null,
@@ -2046,20 +2046,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.705360523200336,
-          52.93619213185957
+          -2.702015075561599,
+          52.93037844275519
         ]
       },
       "properties": {
         "name": "Rietwaard",
         "province": "Westerland",
-        "population": 292,
+        "population": 159,
         "tags": [],
         "notes": [],
         "size_category": 1,
         "inkscape_coordinates": [
-          274.0513,
-          324.01599
+          274.1644221,
+          323.9481237
         ],
         "wiki": {
           "title": null,
@@ -2074,20 +2074,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.6413429029021893,
-          52.75290363599603
+          -2.6380411062815994,
+          52.747081105795196
         ]
       },
       "properties": {
         "name": "Zompveen",
         "province": "Westerland",
-        "population": 131,
+        "population": 80,
         "tags": [],
         "notes": [],
         "size_category": 1,
         "inkscape_coordinates": [
-          277.70612,
-          334.48773
+          277.8192421,
+          334.4198637
         ],
         "wiki": {
           "title": null,
@@ -2102,20 +2102,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.6188767992707405,
-          53.05266376441069
+          -2.6154982298015996,
+          53.046839206275195
         ]
       },
       "properties": {
         "name": "Moerwijk",
         "province": "Westerland",
-        "population": 320,
+        "population": 129,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
-          278.99399,
-          317.36261
+          279.1071121,
+          317.2947437
         ],
         "wiki": {
           "title": null,
@@ -2130,20 +2130,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.1721133202313547,
-          55.74075327017255
+          -1.1679935722015995,
+          55.73474907027519
         ]
       },
       "properties": {
         "name": "Weckenfast",
         "province": "Westerland",
-        "population": 96,
+        "population": 80,
         "tags": [],
         "notes": [],
         "size_category": 1,
         "inkscape_coordinates": [
-          361.68964,
-          163.80286
+          361.8027621,
+          163.73499370000002
         ],
         "wiki": {
           "title": null,
@@ -2158,8 +2158,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.0502280529149637,
-          53.37747306795706
+          -3.0467855872415996,
+          53.371705394435196
         ]
       },
       "properties": {
@@ -2172,8 +2172,8 @@
         "notes": [],
         "size_category": 2,
         "inkscape_coordinates": [
-          254.35463,
-          298.80307
+          254.46775209999998,
+          298.7352037
         ],
         "wiki": {
           "title": null,
@@ -2188,20 +2188,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.8740480066650758,
-          52.590183017502135
+          -2.876007461161599,
+          52.5820745736352
         ]
       },
       "properties": {
         "name": "Frederichsdorp",
         "province": "Westerland",
-        "population": 121,
+        "population": 19,
         "tags": [],
         "notes": [],
         "size_category": 1,
         "inkscape_coordinates": [
-          264.40881,
-          343.78223
+          264.2242721,
+          343.8466537
         ],
         "wiki": {
           "title": null,
@@ -2216,20 +2216,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.4307442647041757,
-          53.07073315158684
+          -2.427353160041599,
+          53.0648842549152
         ]
       },
       "properties": {
         "name": "Rutten",
         "province": "Westerland",
-        "population": 121,
+        "population": 46,
         "tags": [],
         "notes": [],
         "size_category": 1,
         "inkscape_coordinates": [
-          289.74268,
-          316.3317
+          289.8558021,
+          316.2638337
         ],
         "wiki": {
           "title": null,
@@ -2244,664 +2244,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.2709532686409597,
-          52.99433810689565
+          -2.267574722601599,
+          52.98846826739519
         ]
       },
       "properties": {
         "name": "Calden",
-        "province": "Westerland",
-        "population": 291,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "inkscape_coordinates": [
-          298.87079,
-          320.69733
-        ],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.728209026981923,
-          52.74766481944038
-        ]
-      },
-      "properties": {
-        "name": "Didern",
-        "province": "Westerland",
-        "population": 199,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "inkscape_coordinates": [
-          272.74319,
-          334.78638
-        ],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.9586725508627705,
-          52.953516152528046
-        ]
-      },
-      "properties": {
-        "name": "Stapelhugel",
-        "province": "Westerland",
-        "population": 110,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "inkscape_coordinates": [
-          316.71149,
-          323.0318
-        ],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.4794734503129865,
-          53.197817576343276
-        ]
-      },
-      "properties": {
-        "name": "Niddesdorf",
-        "province": "Westerland",
-        "population": 47,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "inkscape_coordinates": [
-          286.96051,
-          309.07101
-        ],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.0476835015347357,
-          53.42637185077485
-        ]
-      },
-      "properties": {
-        "name": "Kleibroek aan Zee",
-        "province": "Westerland",
-        "population": 124,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "inkscape_coordinates": [
-          311.63293,
-          296.01691
-        ],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -3.059545425238058,
-          53.596299045348495
-        ]
-      },
-      "properties": {
-        "name": "Brakwaterdam",
-        "province": "Westerland",
-        "population": 89,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "inkscape_coordinates": [
-          253.82547,
-          286.30148
-        ],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.525724404490692,
-          53.242077314736996
-        ]
-      },
-      "properties": {
-        "name": "Verdronkenhoek",
-        "province": "Westerland",
-        "population": 185,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "inkscape_coordinates": [
-          284.31873,
-          306.54211
-        ],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.8091145851659052,
-          54.44078564407571
-        ]
-      },
-      "properties": {
-        "name": "Oud Torenburg",
-        "province": "Westerland",
-        "population": 94,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "inkscape_coordinates": [
-          325.27756,
-          238.06525
-        ],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.820596776226795,
-          54.522653972594576
-        ]
-      },
-      "properties": {
-        "name": "Hoogkamp",
-        "province": "Westerland",
-        "population": 73,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "inkscape_coordinates": [
-          324.62274,
-          233.38803
-        ],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.930385483453846,
-          54.868130394878634
-        ]
-      },
-      "properties": {
-        "name": "Zwartweteren",
-        "province": "Westerland",
-        "population": 782,
-        "tags": [],
-        "notes": [],
-        "size_category": 2,
-        "inkscape_coordinates": [
-          318.35526,
-          213.65016
-        ],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.5585856556276783,
-          54.372047563272304
-        ]
-      },
-      "properties": {
-        "name": "Heidestein",
-        "province": "Westerland",
-        "population": 86,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "inkscape_coordinates": [
-          339.58984,
-          241.99411
-        ],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.8170798475177303,
-          53.56559734712495
-        ]
-      },
-      "properties": {
-        "name": "Gelderham",
-        "province": "Westerland",
-        "population": 374,
-        "tags": [],
-        "notes": [],
-        "size_category": 2,
-        "inkscape_coordinates": [
-          324.80984,
-          288.06467
-        ],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.9138127444706265,
-          54.08218268343683
-        ]
-      },
-      "properties": {
-        "name": "Hogedam",
-        "province": "Westerland",
-        "population": 354,
-        "tags": [],
-        "notes": [],
-        "size_category": 2,
-        "inkscape_coordinates": [
-          319.29074,
-          258.55145
-        ],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.7332271536886275,
-          55.42364218181002
-        ]
-      },
-      "properties": {
-        "name": "Middenveld",
-        "province": "Westerland",
-        "population": 139,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "inkscape_coordinates": [
-          329.62738,
-          181.91525
-        ],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.8064636656712976,
-          55.288827305768365
-        ]
-      },
-      "properties": {
-        "name": "Kromdijk aan Zee",
-        "province": "Westerland",
-        "population": 131,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "inkscape_coordinates": [
-          268.30905,
-          189.60927
-        ],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.971858535788419,
-          55.385412078225094
-        ]
-      },
-      "properties": {
-        "name": "Driftstrand",
-        "province": "Westerland",
-        "population": 18,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "inkscape_coordinates": [
-          258.86107000000004,
-          184.09016
-        ],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -3.0489153060816827,
-          55.789838690596724
-        ]
-      },
-      "properties": {
-        "name": "Noordwindhaven",
-        "province": "Westerland",
-        "population": 87,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "inkscape_coordinates": [
-          254.46449,
-          160.98471
-        ],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -3.016132779095029,
-          55.647389332949686
-        ]
-      },
-      "properties": {
-        "name": "Kaap Tuinder",
-        "province": "Westerland",
-        "population": 401,
-        "tags": [],
-        "notes": [],
-        "size_category": 2,
-        "inkscape_coordinates": [
-          256.33537,
-          169.12308
-        ],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.7261726221539115,
-          55.04486575841592
-        ]
-      },
-      "properties": {
-        "name": "Zeemond",
-        "province": "Westerland",
-        "population": 379,
-        "tags": [],
-        "notes": [],
-        "size_category": 2,
-        "inkscape_coordinates": [
-          272.89273,
-          203.54738
-        ],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.052620184677542,
-          57.09708887464773
-        ]
-      },
-      "properties": {
-        "name": "Laagvliet Haven",
-        "province": "Westerland",
-        "population": 450,
-        "tags": [],
-        "notes": [],
-        "size_category": 2,
-        "inkscape_coordinates": [
-          311.40393,
-          86.308929
-        ],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.37365775890487,
-          53.11442253123592
-        ]
-      },
-      "properties": {
-        "name": "Rijpendijk",
-        "province": "Westerland",
-        "population": 671,
-        "tags": [],
-        "notes": [],
-        "size_category": 2,
-        "inkscape_coordinates": [
-          293.00479,
-          313.83615
-        ],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.9974562699712575,
-          55.695283380203804
-        ]
-      },
-      "properties": {
-        "name": "Brugwalde",
-        "province": "Westerland",
-        "population": 475,
-        "tags": [],
-        "notes": [],
-        "size_category": 2,
-        "inkscape_coordinates": [
-          314.53531,
-          166.39444
-        ],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.8703761946393191,
-          56.274744260531655
-        ]
-      },
-      "properties": {
-        "name": "Dreumelholt",
-        "province": "Westerland",
-        "population": 177,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "inkscape_coordinates": [
-          321.80405,
-          133.2908
-        ],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.903665836989454,
-          56.485193065943996
-        ]
-      },
-      "properties": {
-        "name": "Grootveen",
         "province": "Westerland",
         "population": 675,
         "tags": [],
         "notes": [],
         "size_category": 2,
         "inkscape_coordinates": [
-          319.90518,
-          121.26762
+          298.9839121,
+          320.62946370000003
         ],
         "wiki": {
           "title": null,
@@ -2916,20 +2272,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.8972844814484722,
-          56.54532993306691
+          -2.7278068694816,
+          52.741274503875196
         ]
       },
       "properties": {
-        "name": "Peelwijk",
+        "name": "Didern",
         "province": "Westerland",
-        "population": 128,
+        "population": 245,
         "tags": [],
         "notes": [],
         "size_category": 1,
         "inkscape_coordinates": [
-          320.27063,
-          117.83205
+          272.6909421,
+          334.7515937
         ],
         "wiki": {
           "title": null,
@@ -2944,20 +2300,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.735593818523112,
-          54.47975271579617
+          -1.955291109801599,
+          52.9476057045152
         ]
       },
       "properties": {
-        "name": "Vloedwijk",
+        "name": "Stapelhugel",
         "province": "Westerland",
-        "population": 44,
+        "population": 148,
         "tags": [],
         "notes": [],
         "size_category": 1,
         "inkscape_coordinates": [
-          272.34631,
-          235.8322
+          316.8246121,
+          322.9639337
         ],
         "wiki": {
           "title": null,
@@ -2972,20 +2328,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.80495474337164,
-          54.064088314440305
+          -2.4760522637215994,
+          53.19197537267519
         ]
       },
       "properties": {
-        "name": "Middelplaat",
+        "name": "Niddesdorf",
         "province": "Westerland",
-        "population": 78,
+        "population": 223,
         "tags": [],
         "notes": [],
         "size_category": 1,
         "inkscape_coordinates": [
-          268.37756,
-          259.57858
+          287.0736321,
+          309.0031437
         ],
         "wiki": {
           "title": null,
@@ -3000,188 +2356,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.5710893453280823,
-          54.07801221955866
+          -2.0441862240415998,
+          53.4204743390752
         ]
       },
       "properties": {
-        "name": "Oosterplaat",
-        "province": "Westerland",
-        "population": 51,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "inkscape_coordinates": [
-          281.73901,
-          258.78484000000003
-        ],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.7691754792982266,
-          54.50637799365161
-        ]
-      },
-      "properties": {
-        "name": "Zandvoorde",
-        "province": "Westerland",
-        "population": 70,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "inkscape_coordinates": [
-          270.4281,
-          234.31085
-        ],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.6700728266762503,
-          56.346156109694746
-        ]
-      },
-      "properties": {
-        "name": "Noordwijker",
-        "province": "Westerland",
-        "population": 141,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "inkscape_coordinates": [
-          276.11664,
-          129.20512
-        ],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.8384485098319008,
-          54.973097389218076
-        ]
-      },
-      "properties": {
-        "name": "Woltersum",
-        "province": "Westerland",
-        "population": 47,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "inkscape_coordinates": [
-          323.60934,
-          207.65408
-        ],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.9402798748403205,
-          54.76699339906869
-        ]
-      },
-      "properties": {
-        "name": "Heerenwerf",
-        "province": "Westerland",
-        "population": 372,
-        "tags": [],
-        "notes": [],
-        "size_category": 2,
-        "inkscape_coordinates": [
-          317.78851,
-          219.42804
-        ],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.4691810251025235,
-          53.871386369025466
-        ]
-      },
-      "properties": {
-        "name": "Zegveld",
-        "province": "Westerland",
-        "population": 124,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "inkscape_coordinates": [
-          344.69049,
-          270.59753
-        ],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.2028250956344966,
-          53.70755966783052
-        ]
-      },
-      "properties": {
-        "name": "Rijpermeer",
+        "name": "Kleibroek aan Zee",
         "province": "Westerland",
         "population": 123,
         "tags": [],
         "notes": [],
         "size_category": 1,
         "inkscape_coordinates": [
-          302.77341,
-          279.95151
+          311.7460521,
+          295.9490437
         ],
         "wiki": {
           "title": null,
@@ -3196,20 +2384,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.9018889761789781,
-          54.03641788095651
+          -3.0560480038815996,
+          53.59053322579519
         ]
       },
       "properties": {
-        "name": "Bovenkarspel",
+        "name": "Brakwaterdam",
         "province": "Westerland",
-        "population": 280,
+        "population": 176,
         "tags": [],
         "notes": [],
         "size_category": 1,
         "inkscape_coordinates": [
-          319.97131,
-          261.16608
+          253.9385921,
+          286.23361370000003
         ],
         "wiki": {
           "title": null,
@@ -3224,20 +2412,636 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.9437310627510263,
-          53.44811373168773
+          -2.5298201757215995,
+          53.2333464267552
         ]
       },
       "properties": {
-        "name": "Schoonhoven",
+        "name": "Verdronkenhoek",
+        "province": "Westerland",
+        "population": 114,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "inkscape_coordinates": [
+          284.0018821,
+          306.6396237
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.8053506205215994,
+          54.43486019571519
+        ]
+      },
+      "properties": {
+        "name": "Oud Torenburg",
+        "province": "Westerland",
+        "population": 91,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "inkscape_coordinates": [
+          325.3906821,
+          237.9973837
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.816812589801599,
+          54.51673025459519
+        ]
+      },
+      "properties": {
+        "name": "Hoogkamp",
+        "province": "Westerland",
+        "population": 174,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "inkscape_coordinates": [
+          324.7358621,
+          233.3201637
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.9265185597215997,
+          54.8622219310752
+        ]
+      },
+      "properties": {
+        "name": "Zwartweteren",
+        "province": "Westerland",
+        "population": 144,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "inkscape_coordinates": [
+          318.4683821,
+          213.5822937
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.5548284714015999,
+          54.36608943027519
+        ]
+      },
+      "properties": {
+        "name": "Heidestein",
+        "province": "Westerland",
+        "population": 72,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "inkscape_coordinates": [
+          339.7029621,
+          241.92624370000001
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.8135375914015992,
+          53.5596703480352
+        ]
+      },
+      "properties": {
+        "name": "Gelderham",
+        "province": "Westerland",
+        "population": 193,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "inkscape_coordinates": [
+          324.9229621,
+          287.9968037
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.9101439178015989,
+          54.076269750915195
+        ]
+      },
+      "properties": {
+        "name": "Hogedam",
+        "province": "Westerland",
+        "population": 100,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "inkscape_coordinates": [
+          319.4038621,
+          258.4835837
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.729211371241599,
+          55.41770979571519
+        ]
+      },
+      "properties": {
+        "name": "Middenveld",
+        "province": "Westerland",
+        "population": 97,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "inkscape_coordinates": [
+          329.7405021,
+          181.8473837
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.8696806403615995,
+          55.3154524779552
+        ]
+      },
+      "properties": {
+        "name": "Kromdijk aan Zee",
+        "province": "Westerland",
+        "population": 185,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "inkscape_coordinates": [
+          264.5857221,
+          187.68932370000002
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.9644313677215997,
+          55.35648360435519
+        ]
+      },
+      "properties": {
+        "name": "Driftstrand",
+        "province": "Westerland",
+        "population": 310,
+        "tags": [],
+        "notes": [],
+        "size_category": 2,
+        "inkscape_coordinates": [
+          259.1726321,
+          185.34522370000002
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.050072663401599,
+          55.77771001267519
+        ]
+      },
+      "properties": {
+        "name": "Noordwindhaven",
+        "province": "Westerland",
+        "population": 221,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "inkscape_coordinates": [
+          254.2799621,
+          161.2806437
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.0150091757215995,
+          55.65146538835519
+        ]
+      },
+      "properties": {
+        "name": "Kaap Tuinder",
+        "province": "Westerland",
+        "population": 69,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "inkscape_coordinates": [
+          256.2831321,
+          168.49297370000002
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.7222946848415996,
+          55.03674538803519
+        ]
+      },
+      "properties": {
+        "name": "Zeemond",
+        "province": "Westerland",
+        "population": 122,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "inkscape_coordinates": [
+          273.00585209999997,
+          203.6118037
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.0481946400415993,
+          57.09120283849919
+        ]
+      },
+      "properties": {
+        "name": "Laagvliet Haven",
+        "province": "Westerland",
+        "population": 116,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "inkscape_coordinates": [
+          311.5170521,
+          86.2410627
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.370253186601599,
+          53.1085663621152
+        ]
+      },
+      "properties": {
+        "name": "Rijpendijk",
+        "province": "Westerland",
+        "population": 171,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "inkscape_coordinates": [
+          293.1179121,
+          313.7682837
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.9933829645215997,
+          55.68938605395519
+        ]
+      },
+      "properties": {
+        "name": "Brugwalde",
+        "province": "Westerland",
+        "population": 68,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "inkscape_coordinates": [
+          314.6484321,
+          166.3265737
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.8661509395615992,
+          56.268832168515196
+        ]
+      },
+      "properties": {
+        "name": "Dreumelholt",
+        "province": "Westerland",
+        "population": 119,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "inkscape_coordinates": [
+          321.9171721,
+          133.2229337
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.8993887600416,
+          56.47928591123519
+        ]
+      },
+      "properties": {
+        "name": "Grootveen",
+        "province": "Westerland",
+        "population": 202,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "inkscape_coordinates": [
+          320.01830209999997,
+          121.19975369999999
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.8929919232415997,
+          56.53942212851519
+        ]
+      },
+      "properties": {
+        "name": "Peelwijk",
+        "province": "Westerland",
+        "population": 135,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "inkscape_coordinates": [
+          320.3837521,
+          117.76418369999999
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.7335957923615997,
+          54.471053041475194
+        ]
+      },
+      "properties": {
+        "name": "Vloedwijk",
+        "province": "Westerland",
+        "population": 294,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "inkscape_coordinates": [
+          272.3602221,
+          235.9296937
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.8065384611615993,
+          54.05134387987519
+        ]
+      },
+      "properties": {
+        "name": "Middelplaat",
+        "province": "Westerland",
+        "population": 57,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "inkscape_coordinates": [
+          268.1930221,
+          259.9075937
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5674493997215992,
+          54.07044792051519
+        ]
+      },
+      "properties": {
+        "name": "Oosterplaat",
+        "province": "Westerland",
+        "population": 81,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "inkscape_coordinates": [
+          281.8521321,
+          258.8161837
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.771803523561599,
+          54.491893478915195
+        ]
+      },
+      "properties": {
+        "name": "Zandvoorde",
         "province": "Westerland",
         "population": 156,
         "tags": [],
         "notes": [],
         "size_category": 1,
         "inkscape_coordinates": [
-          260.44006,
-          294.76816
+          270.1774221,
+          234.7390837
         ],
         "wiki": {
           "title": null,
@@ -3252,20 +3056,160 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.86959779860197,
-          53.30571209481096
+          -2.665863364201599,
+          56.34034791123519
         ]
       },
       "properties": {
-        "name": "Kreekhuizen",
+        "name": "Noordwijker",
+        "province": "Westerland",
+        "population": 574,
+        "tags": [],
+        "notes": [],
+        "size_category": 2,
+        "inkscape_coordinates": [
+          276.2297621,
+          129.1372537
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.8345511434016,
+          54.9671773153952
+        ]
+      },
+      "properties": {
+        "name": "Woltersum",
+        "province": "Westerland",
+        "population": 86,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "inkscape_coordinates": [
+          323.7224621,
+          207.5862137
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.9364389517215999,
+          54.7610859195552
+        ]
+      },
+      "properties": {
+        "name": "Heerenwerf",
+        "province": "Westerland",
+        "population": 101,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "inkscape_coordinates": [
+          317.9016321,
+          219.36017370000002
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.4655466938015993,
+          53.86541516659519
+        ]
+      },
+      "properties": {
+        "name": "Zegveld",
+        "province": "Westerland",
+        "population": 161,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "inkscape_coordinates": [
+          344.8036121,
+          270.5296637
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.1992632621215993,
+          53.7016831006752
+        ]
+      },
+      "properties": {
+        "name": "Rijpermeer",
+        "province": "Westerland",
+        "population": 330,
+        "tags": [],
+        "notes": [],
+        "size_category": 2,
+        "inkscape_coordinates": [
+          302.8865321,
+          279.8836437
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.8982312205215992,
+          54.03050326739519
+        ]
+      },
+      "properties": {
+        "name": "Bovenkarspel",
         "province": "Westerland",
         "population": 211,
         "tags": [],
         "notes": [],
         "size_category": 1,
         "inkscape_coordinates": [
-          264.6734,
-          302.90411
+          320.0844321,
+          261.09821370000003
         ],
         "wiki": {
           "title": null,
@@ -3280,20 +3224,76 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.7051996288990203,
-          53.32425871311596
+          -2.940266220521599,
+          53.44233245907519
+        ]
+      },
+      "properties": {
+        "name": "Schoonhoven",
+        "province": "Westerland",
+        "population": 183,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "inkscape_coordinates": [
+          260.5531821,
+          294.70029370000003
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.8661658371615992,
+          53.299920790275195
+        ]
+      },
+      "properties": {
+        "name": "Kreekhuizen",
+        "province": "Westerland",
+        "population": 71,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "inkscape_coordinates": [
+          264.7865221,
+          302.8362437
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.7017560163615992,
+          53.3184461486752
         ]
       },
       "properties": {
         "name": "Buitenkaag",
         "province": "Westerland",
-        "population": 133,
+        "population": 131,
         "tags": [],
         "notes": [],
         "size_category": 1,
         "inkscape_coordinates": [
-          274.0661,
-          301.84576
+          274.1792221,
+          301.7778937
         ],
         "wiki": {
           "title": null,
@@ -3308,20 +3308,20 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.303964994593172,
-          52.91912321174407
+          -2.300606871081599,
+          52.91325743027519
         ]
       },
       "properties": {
         "name": "Fauligmere",
         "province": "Westerland",
-        "population": 79,
+        "population": 51,
         "tags": [],
         "notes": [],
         "size_category": 1,
         "inkscape_coordinates": [
-          296.98367,
-          324.99411
+          297.0967921,
+          324.9262437
         ],
         "wiki": {
           "title": null,

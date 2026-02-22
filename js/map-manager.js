@@ -120,7 +120,7 @@ class MapManager {
         // ========== TILE CONFIGURATION TOGGLE ==========
         // Set to true to use new quadrant-based tiles (old-world-tiles-v2)
         // Set to false to use legacy single-directory tiles (old-world-tiles)
-        const USE_QUADRANT_TILES = true;
+        const USE_QUADRANT_TILES = false;
         // ================================================
         
         const TILE_VERSION = '11'; // Increment this when you update the base map tiles
@@ -128,7 +128,8 @@ class MapManager {
         // Scale adjustment factor for fine-tuning map/vector alignment
         // Values > 1.0 make map smaller (increase resolution), < 1.0 make map larger
         // Adjust this value to align map features with vector labels
-        const SCALE_ADJUSTMENT = 0.9997; // Current adjustment: +0.03%
+        // const SCALE_ADJUSTMENT = 0.9997; // Current adjustment: +0.03%
+        const SCALE_ADJUSTMENT = 0.96335; // For test_tiles
         
         // Base resolutions (before scaling adjustment)
         const baseResolutions = [0.15003, 0.075015, 0.0375075, 0.01875375, 0.009376875, 0.0046884375, 0.00234421875, 0.001172109375, 0.0005860546875, 0.00029302734375];
@@ -137,7 +138,8 @@ class MapManager {
         const adjustedResolutions = baseResolutions.map(r => r * SCALE_ADJUSTMENT);
         
         // Full map extent
-        const fullExtent = [-19.045, 31.949, 18.457, 69.451]; // [minX, minY, maxX, maxY]
+        // const fullExtent = [-19.045, 31.949, 18.457, 69.451]; // [minX, minY, maxX, maxY]
+        const fullExtent = [-19, 32, 18, 69];
         const centerX = (fullExtent[0] + fullExtent[2]) / 2; // -0.294
         const centerY = (fullExtent[1] + fullExtent[3]) / 2; // 50.7
         
@@ -200,7 +202,7 @@ class MapManager {
         } else {
             // Legacy single-layer implementation
             const getLegacyTileUrl = function(tileCoord) {
-                return ('https://raw.githubusercontent.com/toddkozlowski/oldworldatlas-repository/main/old-world-tiles/{z}/{x}/{y}.png?v=' + TILE_VERSION)
+                return ('https://raw.githubusercontent.com/toddkozlowski/oldworldatlas-repository/main/test_tiles/{z}/{x}/{y}.png?v=' + TILE_VERSION)
                     .replace('{z}', String(tileCoord[0]))
                     .replace('{x}', String(tileCoord[1]))
                     .replace('{y}', String(-1 - tileCoord[2]));

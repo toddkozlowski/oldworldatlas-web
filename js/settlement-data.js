@@ -14,7 +14,6 @@ const SOURCE_TAG_MAP = {
     '4eCRB': 'WFRP4e Core Rulebook',
     '4eDotRC': 'WFRP4e Death on the Reik Companion',
     'NCC': 'WFB Nemesis Crown Campaign',
-    'WFB8e': 'WFB 8th Edition',
     'AmbChron': 'The Ambassor Chronicles (Black Library)',
     'G&FT': 'Gotrek & Felix (Black Library)',
     'TOW': 'Warhammer: The Old World',
@@ -30,7 +29,22 @@ const SOURCE_TAG_MAP = {
     'MadAlfred': 'MadAlfred',
     '4eStarter': 'WFRP4e Starter Set',
     '4eUA1': 'WFRP4e Ubersreik Adventures 1',
-    '4eUA2': 'WFRP4e Ubersreik Adventures 2'
+    '4eUA2': 'WFRP4e Ubersreik Adventures 2',
+    '2eKotG': 'WFRP2e Knights of the Grail',
+    'BretProj': 'Brettonia Project (Fan)',
+    '1eCRB': 'WFRP1e Core Rulebook',
+    'MoWC': 'Man o\' War: Corsair (WFB)',
+    '1eDDS': 'WFRP1e Death\'s Dark Shadow',
+    'TVS': 'The Voyage South (Black Library)',
+    'WDM': 'White Dwarf Magazine',
+    'BrainCraig': 'Brain Craig (Black Library)',
+    'WHMonthly': 'Warhammer Monthly (Black Library)',
+    'WFB6e': 'Warhammer Fantasy Battles 6th Edition',
+    'WFB7e': 'Warhammer Fantasy Battles 7th Edition',
+    'WFB8e': 'Warhammer Fantasy Battles 8th Edition',
+    'Archaon': 'Archaon: Everchosen (Black Library)',
+    'RedDuke': 'Red Duke (Black Library)',
+    'KniErrant': 'The Knight Errant (Black Library)',
 };
 
 class SettlementDataManager {

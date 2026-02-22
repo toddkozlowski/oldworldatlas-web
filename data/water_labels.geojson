@@ -6,16 +6,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.4108647145523792,
-          56.19520520330721
+          1.418400195446721,
+          56.1942679011488
         ]
       },
       "properties": {
         "name": "Messersee",
         "waterbody_type": "Lake",
         "inkscape_coordinates": [
-          509.26747,
-          137.859168
+          509.56291793,
+          137.48277530000001
         ]
       }
     },
@@ -24,16 +24,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          2.4339738458822042,
-          56.27454897668272
+          2.44157271000672,
+          56.273479259964795
         ]
       },
       "properties": {
         "name": "Öbelsee",
         "waterbody_type": "Lake",
         "inkscape_coordinates": [
-          567.72111,
-          133.333839
+          568.01655793,
+          132.95744630000002
         ]
       }
     },
@@ -42,16 +42,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          3.5554058223710614,
-          56.240251101039966
+          3.5630434876067194,
+          56.23903588649279
         ]
       },
       "properties": {
         "name": "Barmsee",
         "waterbody_type": "Lake",
         "inkscape_coordinates": [
-          631.79051,
-          135.301582
+          632.08595793,
+          134.9251893
         ]
       }
     },
@@ -60,16 +60,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          3.5880347968196125,
-          56.70281913354883
+          3.59579084600672,
+          56.70160105401279
         ]
       },
       "properties": {
         "name": "Kaltsee",
         "waterbody_type": "Lake",
         "inkscape_coordinates": [
-          633.6613600000001,
-          108.87532700000001
+          633.95680793,
+          108.49893430000002
         ]
       }
     },
@@ -78,16 +78,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          3.1298677666173242,
-          55.57541316036544
+          3.137319251446721,
+          55.5742511554208
         ]
       },
       "properties": {
         "name": "Wolfsee",
         "waterbody_type": "Lake",
         "inkscape_coordinates": [
-          607.46897,
-          173.28060000000002
+          607.76441793,
+          172.90420730000002
         ]
       }
     },
@@ -96,16 +96,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.4190578530651896,
-          49.29382716528756
+          -1.4133878224732797,
+          49.29323639798079
         ]
       },
       "properties": {
         "name": "Bögensee",
         "waterbody_type": "Lake",
         "inkscape_coordinates": [
-          347.48799,
-          532.11371
+          347.78343793,
+          531.7373173
         ]
       }
     },
@@ -114,16 +114,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.5655379963925551,
-          48.928987329888876
+          -0.5599241146332793,
+          48.92828482454079
         ]
       },
       "properties": {
         "name": "Frugelsee",
         "waterbody_type": "Lake",
         "inkscape_coordinates": [
-          396.24620000000004,
-          552.9633200000001
+          396.54164793,
+          552.5869273000001
         ]
       }
     },
@@ -132,16 +132,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.6686061285532308,
-          48.69584272992989
+          -0.5821797267987705,
+          48.7256485468689
         ]
       },
       "properties": {
         "name": "Gargrimvarn",
         "waterbody_type": "Lake",
         "inkscape_coordinates": [
-          390.35432000000003,
-          566.2821
+          395.27018928251994,
+          564.16349709387
         ]
       }
     },
@@ -150,16 +150,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          0.6118658568002067,
-          46.8236567282876
+          0.616997059446721,
+          46.822795354780794
         ]
       },
       "properties": {
         "name": "Glanzsee",
         "waterbody_type": "Lake",
         "inkscape_coordinates": [
-          463.48347,
-          673.24951
+          463.77891793000003,
+          672.8731173
         ]
       }
     },
@@ -168,16 +168,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.304549960578025,
-          49.79196308590856
+          6.31067297368672,
+          49.7903724031008
         ]
       },
       "properties": {
         "name": "Svarsee",
         "waterbody_type": "Lake",
         "inkscape_coordinates": [
-          788.7620300000001,
-          503.71243000000004
+          789.05747793,
+          503.33603730000004
         ]
       }
     },
@@ -186,16 +186,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          7.324488056747909,
-          49.24560280193515
+          7.330516052406719,
+          49.2438782687008
         ]
       },
       "properties": {
         "name": "Helsee",
         "waterbody_type": "Lake",
         "inkscape_coordinates": [
-          847.0254600000001,
-          534.93353
+          847.32090793,
+          534.5571373
         ]
       }
     },
@@ -204,16 +204,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          0.6254418529498542,
-          54.23677862859493
+          0.6324487154467208,
+          54.23593737753279
         ]
       },
       "properties": {
         "name": "Delbsee",
         "waterbody_type": "Lake",
         "inkscape_coordinates": [
-          464.36622,
-          249.738197
+          464.66166793,
+          249.36180430000002
         ]
       }
     },
@@ -222,16 +222,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.3005161786498496,
-          53.85594570252445
+          1.307455292406721,
+          53.8550158021408
         ]
       },
       "properties": {
         "name": "Untzensee",
         "waterbody_type": "Lake",
         "inkscape_coordinates": [
-          502.92921,
-          271.50017
+          503.22465793000003,
+          271.12377730000003
         ]
       }
     },
@@ -240,16 +240,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.8330221894621586,
-          54.121733010653394
+          1.8400510757667212,
+          54.12073485404479
         ]
       },
       "properties": {
         "name": "Ulfensee",
         "waterbody_type": "Lake",
         "inkscape_coordinates": [
-          533.3563,
-          256.319694
+          533.65174793,
+          255.94330130000003
         ]
       }
     },
@@ -258,16 +258,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.5222450892186856,
-          52.182007795965
+          -1.515848886793279,
+          52.18143893270079
         ]
       },
       "properties": {
         "name": "Myrkelmere",
         "waterbody_type": "Lake",
         "inkscape_coordinates": [
-          341.63441,
-          367.11128
+          341.92985793,
+          366.7348873
         ]
       }
     },
@@ -276,16 +276,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.2391144401955723,
-          52.68636248748158
+          -1.2325786791132796,
+          52.68575840438079
         ]
       },
       "properties": {
         "name": "Glimmersee",
         "waterbody_type": "Lake",
         "inkscape_coordinates": [
-          357.81758,
-          338.29961000000003
+          358.11302793,
+          337.92321730000003
         ]
       }
     },
@@ -294,16 +294,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.108881569054204,
-          52.43012734520771
+          -1.1024051069532792,
+          52.429505620700795
         ]
       },
       "properties": {
         "name": "Spiegelsee",
         "waterbody_type": "Lake",
         "inkscape_coordinates": [
-          365.25437,
-          352.93928000000005
+          365.54981793,
+          352.56288730000006
         ]
       }
     },
@@ -312,16 +312,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.0113758721506798,
-          52.096111966007705
+          -1.0049797683932797,
+          52.0954766136608
         ]
       },
       "properties": {
         "name": "Dornsee",
         "waterbody_type": "Lake",
         "inkscape_coordinates": [
-          370.82026,
-          372.02229
+          371.11570793,
+          371.6458973
         ]
       }
     },
@@ -330,16 +330,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.3781465567461417,
-          52.128812200223024
+          -1.371757709193279,
+          52.128224497180796
         ]
       },
       "properties": {
         "name": "Brachsee",
         "waterbody_type": "Lake",
         "inkscape_coordinates": [
-          349.86631,
-          370.15141000000006
+          350.16175793,
+          369.77501730000006
         ]
       }
     },
@@ -348,16 +348,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.3831081617243157,
-          52.32447996847121
+          -1.3766700317532792,
+          52.3238934863008
         ]
       },
       "properties": {
         "name": "Riedsee",
         "waterbody_type": "Lake",
         "inkscape_coordinates": [
-          349.58567,
-          358.97288000000003
+          349.88111793,
+          358.59648730000004
         ]
       }
     },
@@ -366,16 +366,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.7650580152664341,
-          52.491574023047015
+          -0.7585514547932799,
+          52.4909079023008
         ]
       },
       "properties": {
         "name": "Nomensee",
         "waterbody_type": "Lake",
         "inkscape_coordinates": [
-          384.89866,
-          349.43138
+          385.19410793,
+          349.0549873
         ]
       }
     },
@@ -384,16 +384,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.7716745084475862,
-          52.75764998361845
+          -0.7651009264732788,
+          52.75698550614079
         ]
       },
       "properties": {
         "name": "Ehrlersee",
         "waterbody_type": "Lake",
         "inkscape_coordinates": [
-          384.52449,
-          334.23042
+          384.81993793000004,
+          333.8540273
         ]
       }
     },
@@ -402,16 +402,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          0.328444161291336,
-          53.561142276430054
+          0.34771710789682836,
+          53.58184234323672
         ]
       },
       "properties": {
         "name": "Wyrmsee",
         "waterbody_type": "Lake",
         "inkscape_coordinates": [
-          447.38832,
-          288.33508
+          448.39500844931604,
+          286.7301220728559
         ]
       }
     },
@@ -420,16 +420,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.450973133137145,
-          50.55117212213001
+          -2.414873687507099,
+          50.5554975637579
         ]
       },
       "properties": {
         "name": "Maissee",
         "waterbody_type": "Lake",
         "inkscape_coordinates": [
-          288.550551,
-          460.27399
+          290.5687518563129,
+          459.6245907359513
         ]
       }
     },
@@ -438,16 +438,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.4242255972970552,
-          54.9550309548041
+          -0.4170812858466185,
+          54.95432791606079
         ]
       },
       "properties": {
         "name": "SCHADENSUMPF",
         "waterbody_type": "Large Marsh",
         "inkscape_coordinates": [
-          404.40677,
-          208.69669
+          404.702230013333,
+          208.3202973
         ]
       }
     },
@@ -456,16 +456,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.603051493816415,
-          53.45854666992736
+          -2.596377946966618,
+          53.458121704220794
         ]
       },
       "properties": {
         "name": "CURSED MARSHES",
         "waterbody_type": "Large Marsh",
         "inkscape_coordinates": [
-          279.90399,
-          294.17465
+          280.19945001333303,
+          293.7982573
         ]
       }
     },
@@ -474,16 +474,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.2592203310538457,
-          51.98701798155774
+          -1.2528621028066187,
+          51.9864144408608
         ]
       },
       "properties": {
         "name": "MIDDEN MARSHES",
         "waterbody_type": "Large Marsh",
         "inkscape_coordinates": [
-          356.65878,
-          378.25299
+          356.954240013333,
+          377.8765973
         ]
       }
     },
@@ -492,16 +492,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.31088232205163,
-          48.201577216575814
+          6.3166035403933805,
+          48.19998101814079
         ]
       },
       "properties": {
         "name": "BYLORHOF MARSH",
         "waterbody_type": "Large Marsh",
         "inkscape_coordinates": [
-          789.10083,
-          594.57117
+          789.396290013333,
+          594.1947773
         ]
       }
     },
@@ -510,16 +510,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          5.594070742559912,
-          57.208544832448275
+          5.602039848873382,
+          57.20706815794879
         ]
       },
       "properties": {
         "name": "CZARNEBŁOTA (The Blight)",
         "waterbody_type": "Large Marsh",
         "inkscape_coordinates": [
-          748.27795,
-          79.998093
+          748.573410013333,
+          79.6217003
         ]
       }
     },
@@ -528,16 +528,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.1161119406921838,
-          52.586327266688514
+          -1.109596063766618,
+          52.585706940700796
         ]
       },
       "properties": {
         "name": "MIRROR MOORS",
         "waterbody_type": "Small Marsh",
         "inkscape_coordinates": [
-          364.84354,
-          344.01553
+          365.13900001333303,
+          343.6391373
         ]
       }
     },
@@ -546,16 +546,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          7.3272815335090735,
-          49.27553106489223
+          7.3333174290333805,
+          49.273806257820794
         ]
       },
       "properties": {
         "name": "GRIMMOOR",
         "waterbody_type": "Small Marsh",
         "inkscape_coordinates": [
-          847.18549,
-          533.22375
+          847.480950013333,
+          532.8473573
         ]
       }
     },
@@ -564,16 +564,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          7.94533709546186,
-          49.3194874692571
+          7.951410275113382,
+          49.3176826594208
         ]
       },
       "properties": {
         "name": "DUNKELMOOR",
         "waterbody_type": "Small Marsh",
         "inkscape_coordinates": [
-          882.49701,
-          530.7171
+          882.7924700133331,
+          530.3407073
         ]
       }
     },
@@ -582,16 +582,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.3031459084345185,
-          49.737751250456085
+          6.30925536119338,
+          49.73616058966079
         ]
       },
       "properties": {
         "name": "MORRSFENN",
         "waterbody_type": "Small Marsh",
         "inkscape_coordinates": [
-          788.68103,
-          506.80954
+          788.976490013333,
+          506.43314730000003
         ]
       }
     },
@@ -600,16 +600,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.651373446755133,
-          50.43520393675336
+          6.657674056553382,
+          50.43357018614079
         ]
       },
       "properties": {
         "name": "TOTENSÜMPFE",
         "waterbody_type": "Small Marsh",
         "inkscape_coordinates": [
-          808.58612,
-          466.96667
+          808.8815800133331,
+          466.5902773
         ]
       }
     },
@@ -618,16 +618,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          7.689000500149542,
-          50.29095102322884
+          7.69530855095338,
+          50.28918231574079
         ]
       },
       "properties": {
         "name": "HEL FENN",
         "waterbody_type": "Small Marsh",
         "inkscape_coordinates": [
-          867.86597,
-          475.21552
+          868.161430013333,
+          474.83912730000003
         ]
       }
     },
@@ -636,16 +636,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.390050620894129,
-          47.399495654677025
+          6.395572311273381,
+          47.3978868242208
         ]
       },
       "properties": {
         "name": "ALBENMOOR",
         "waterbody_type": "Small Marsh",
         "inkscape_coordinates": [
-          793.6123,
-          640.39465
+          793.907760013333,
+          640.0182573
         ]
       }
     },
@@ -654,16 +654,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.3919891030897436,
-          51.83075270024192
+          -2.385718357206618,
+          51.83029556470079
         ]
       },
       "properties": {
         "name": "GROOTSCHER MARSH",
         "waterbody_type": "Small Marsh",
         "inkscape_coordinates": [
-          291.93893,
-          387.17203
+          292.23439001333304,
+          386.7956373
         ]
       }
     },
@@ -672,16 +672,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.9469546087063296,
-          51.477822504199686
+          -2.9407966282466185,
+          51.47743627958079
         ]
       },
       "properties": {
         "name": "UHLAND BOGS",
         "waterbody_type": "Small Marsh",
         "inkscape_coordinates": [
-          260.22742,
-          407.33081
+          260.522880013333,
+          406.9544173
         ]
       }
     },
@@ -690,16 +690,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.615499370368263,
-          51.65236135976689
+          -0.6091985383266184,
+          51.6516733711008
         ]
       },
       "properties": {
         "name": "THE FURDIENST",
         "waterbody_type": "Small Marsh",
         "inkscape_coordinates": [
-          393.43115,
-          397.37668
+          393.726610013333,
+          397.0002873
         ]
       }
     },
@@ -708,16 +708,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.07758078127849188,
-          51.50898607050353
+          -0.0712934416866183,
+          51.50822791606079
         ]
       },
       "properties": {
         "name": "ALTDORF FLATS",
         "waterbody_type": "Small Marsh",
         "inkscape_coordinates": [
-          424.16156,
-          405.57169
+          424.457020013333,
+          405.1952973
         ]
       }
     },
@@ -726,16 +726,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          0.5448842088763302,
-          50.84151939715418
+          0.5510290709533815,
+          50.840678568220795
         ]
       },
       "properties": {
         "name": "REIKER MARSHES",
         "waterbody_type": "Small Marsh",
         "inkscape_coordinates": [
-          459.71472,
-          443.70865
+          460.010180013333,
+          443.3322573
         ]
       }
     },
@@ -744,16 +744,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.7707736827284792,
-          51.541347116386696
+          -0.7645075044066184,
+          51.5406789317408
         ]
       },
       "properties": {
         "name": "DRAKON MARSH",
         "waterbody_type": "Small Marsh",
         "inkscape_coordinates": [
-          384.55838,
-          403.71777
+          384.853840013333,
+          403.3413773
         ]
       }
     },
@@ -762,16 +762,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          0.3199616949694306,
-          49.518518540375446
+          0.32576239319338157,
+          49.517702967900796
         ]
       },
       "properties": {
         "name": "THE OBERSLECHT",
         "waterbody_type": "Small Marsh",
         "inkscape_coordinates": [
-          446.84528,
-          519.28998
+          447.140740013333,
+          518.9135873
         ]
       }
     },
@@ -780,16 +780,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.1403281158383782,
-          57.51182547043999
+          1.148185382633381,
+          57.510927130556794
         ]
       },
       "properties": {
         "name": "TEUFELSUMPF",
         "waterbody_type": "Small Marsh",
         "inkscape_coordinates": [
-          493.83014,
-          62.638691
+          494.125600013333,
+          62.262298300000005
         ]
       }
     },
@@ -798,16 +798,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          0.153150490544677,
-          57.209193825515975
+          0.160889416553382,
+          57.20842258246079
         ]
       },
       "properties": {
         "name": "HARGENSUMPF",
         "waterbody_type": "Small Marsh",
         "inkscape_coordinates": [
-          437.42612,
-          79.920715
+          437.72158001333304,
+          79.5443223
         ]
       }
     },
@@ -816,16 +816,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.2828430393418033,
-          49.11031132454304
+          -0.2545939293666185,
+          49.097415824220796
         ]
       },
       "properties": {
-        "name": "THE ORTSCHLAMM",
+        "name": "ORTSCHLAMM",
         "waterbody_type": "Small Marsh",
         "inkscape_coordinates": [
-          412.39981,
-          542.60638
+          413.985100013333,
+          542.9245073
         ]
       }
     },
@@ -834,16 +834,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          0.22281938025469028,
-          57.503428738684946
+          0.23063546840672078,
+          57.50264933142079
         ]
       },
       "properties": {
         "name": "EIGER BAY",
         "waterbody_type": "Small Sea",
         "inkscape_coordinates": [
-          441.41071,
-          63.11160000000007
+          441.70615793,
+          62.73520730000007
         ]
       }
     },
@@ -852,16 +852,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.672889026835576,
-          57.673355453569464
+          1.6808094860067213,
+          57.6723885425888
         ]
       },
       "properties": {
         "name": "DROSSELSPULE BAY",
         "waterbody_type": "Small Sea",
         "inkscape_coordinates": [
-          524.25886,
-          53.41443300000003
+          524.55430793,
+          53.038040300000034
         ]
       }
     },
@@ -870,16 +870,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          2.2032073590997774,
-          57.4337568592401
+          2.2110896652067193,
+          57.432720483836796
         ]
       },
       "properties": {
         "name": "KREIDEKLIPPE BIGHT",
         "waterbody_type": "Small Sea",
         "inkscape_coordinates": [
-          554.5536599999999,
-          67.10662100000002
+          554.84910793,
+          66.73022830000002
         ]
       }
     },
@@ -888,16 +888,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.6997510944091809,
-          57.6118708359126
+          -0.6919466343132802,
+          57.61121136242879
         ]
       },
       "properties": {
         "name": "KLARWASSER BAY",
         "waterbody_type": "Small Sea",
         "inkscape_coordinates": [
-          388.70377999999994,
-          56.90947300000005
+          388.99922792999996,
+          56.53308030000005
         ]
       }
     },
@@ -906,16 +906,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.188798661131776,
-          57.3518091202245
+          4.1967443004067215,
+          57.350515065820794
         ]
       },
       "properties": {
         "name": "STARIVODA BAY (Altwasser)",
         "waterbody_type": "Small Sea",
         "inkscape_coordinates": [
-          667.9937100000001,
-          71.803
+          668.2891579300001,
+          71.4266073
         ]
       }
     },
@@ -924,16 +924,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -9.962404400481637,
-          61.562847774589436
+          -9.953992714633277,
+          61.5634008911008
         ]
       },
       "properties": {
         "name": "TROLL FJORD",
         "waterbody_type": "Small Sea",
         "inkscape_coordinates": [
-          -140.43504999999993,
-          -168.87832000000003
+          -140.1396020699999,
+          -169.25471270000003
         ]
       }
     },
@@ -942,16 +942,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -10.047954832830914,
-          61.07192392357809
+          -10.03967094375328,
+          61.0724866827808
         ]
       },
       "properties": {
         "name": "CLAWFJORD",
         "waterbody_type": "Small Sea",
         "inkscape_coordinates": [
-          -145.32983000000002,
-          -140.83249
+          -145.03438207,
+          -141.2088827
         ]
       }
     },
@@ -960,16 +960,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -10.175630551035908,
-          62.34087098271469
+          -10.167031097993277,
+          62.341454041180796
         ]
       },
       "properties": {
         "name": "MIDFJORD",
         "waterbody_type": "Small Sea",
         "inkscape_coordinates": [
-          -152.60588999999993,
-          -213.32834000000003
+          -152.3104420699999,
+          -213.70473270000002
         ]
       }
     },
@@ -978,16 +978,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -9.805255202053708,
-          62.77857214824746
+          -9.796529356233279,
+          62.7791084786208
         ]
       },
       "properties": {
         "name": "AMFJORD",
         "waterbody_type": "Small Sea",
         "inkscape_coordinates": [
-          -131.43920000000003,
-          -238.33145000000002
+          -131.14375207,
+          -238.70784270000001
         ]
       }
     },
@@ -996,16 +996,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -7.674256310002451,
-          59.99650377910005
+          -7.6661439472732775,
+          59.996755607580795
         ]
       },
       "properties": {
         "name": "PACK ICE BAY",
         "waterbody_type": "Small Sea",
         "inkscape_coordinates": [
-          -9.730709999999931,
-          -79.37619000000007
+          -9.435262069999908,
+          -79.75258270000006
         ]
       }
     },
@@ -1014,16 +1014,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -5.706241253134051,
-          59.55054496004949
+          -5.69815837479328,
+          59.5505403138208
         ]
       },
       "properties": {
         "name": "ICEDRAKE FJORD",
         "waterbody_type": "Small Sea",
         "inkscape_coordinates": [
-          102.69990999999993,
-          -53.884000000000015
+          102.99535792999995,
+          -54.26039270000001
         ]
       }
     },
@@ -1032,16 +1032,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          0.6399597499215224,
-          61.08432224463446
+          0.6486992540067215,
+          61.083499324380796
         ]
       },
       "properties": {
         "name": "FJAERGARDFJORD",
         "waterbody_type": "Small Sea",
         "inkscape_coordinates": [
-          465.29461000000003,
-          -141.46164
+          465.59005793000006,
+          -141.83803269999999
         ]
       }
     },
@@ -1050,16 +1050,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          0.7997492353753133,
-          61.75366698977688
+          0.8086648092067205,
+          61.752825328220794
         ]
       },
       "properties": {
         "name": "BAY OF BLADES",
         "waterbody_type": "Small Sea",
         "inkscape_coordinates": [
-          474.43341,
-          -179.70010000000002
+          474.72885793,
+          -180.07649270000002
         ]
       }
     },
@@ -1068,16 +1068,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          2.3068751926310105,
-          61.141367382747376
+          2.315699695606722,
+          61.1403285109408
         ]
       },
       "properties": {
         "name": "DYPVANNFJORD",
         "waterbody_type": "Small Sea",
         "inkscape_coordinates": [
-          560.5300100000001,
-          -144.70828000000006
+          560.8254579300001,
+          -145.08467270000006
         ]
       }
     },
@@ -1086,16 +1086,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.508654903239947,
-          63.22814808487065
+          9.51831213080672,
+          63.22618164342079
         ]
       },
       "properties": {
         "name": "DRAKFJORD",
         "waterbody_type": "Small Sea",
         "inkscape_coordinates": [
-          972.01381,
-          -263.87265
+          972.3092579300001,
+          -264.2490427
         ]
       }
     },
@@ -1104,16 +1104,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          11.178751058857284,
-          62.14189751935714
+          11.18820423320672,
+          62.13971133910079
         ]
       },
       "properties": {
         "name": "URSFJORD",
         "waterbody_type": "Small Sea",
         "inkscape_coordinates": [
-          1067.4144099999999,
-          -201.80282
+          1067.70985793,
+          -202.1792127
         ]
       }
     },
@@ -1122,34 +1122,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          3.882250396731153,
-          68.32597935610391
-        ]
-      },
-      "properties": {
-        "name": "BLOODFJORD",
-        "waterbody_type": "Small Sea",
-        "inkscape_coordinates": [
-          650.6385100000001,
-          -555.15326
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.484381585273521,
-          57.40616202295664
+          -2.4767044992866185,
+          57.40573332425279
         ]
       },
       "properties": {
         "name": "BAY OF AARNAU",
         "waterbody_type": "Medium Sea",
         "inkscape_coordinates": [
-          286.74091,
-          68.648392
+          287.036370013333,
+          68.2719993
         ]
       }
     },
@@ -1158,16 +1140,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.393253743681694,
-          46.77138130835148
+          8.39870136471338,
+          46.769510903260795
         ]
       },
       "properties": {
-        "name": "VARN DRAZH\n(Black Water)",
+        "name": "VARN DRAZH (Black Water)",
         "waterbody_type": "Medium Sea",
         "inkscape_coordinates": [
-          908.05066,
-          676.29364
+          908.346120013333,
+          675.9172473
         ]
       }
     },
@@ -1176,16 +1158,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -4.73707905434827,
-          40.60270430931529
+          -4.733747838473279,
+          40.60251807702079
         ]
       },
       "properties": {
         "name": "BAY OF PEARLS",
         "waterbody_type": "Medium Sea",
         "inkscape_coordinates": [
-          157.79649,
-          1028.6127
+          158.09193793,
+          1028.2363073
         ]
       }
     },
@@ -1194,16 +1176,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.2369537606703176,
-          55.035116175246124
+          -3.229908482313279,
+          55.034778050460794
         ]
       },
       "properties": {
         "name": "MANANNSPOORT SEA",
         "waterbody_type": "Medium Sea",
         "inkscape_coordinates": [
-          243.71053,
-          204.10059
+          244.00597793,
+          203.72419730000001
         ]
       }
     },
@@ -1212,16 +1194,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -9.252038345221479,
-          46.67906112344019
+          -9.247361310793279,
+          46.67947820406079
         ]
       },
       "properties": {
         "name": "GULF OF BIDOUZE",
         "waterbody_type": "Medium Sea",
         "inkscape_coordinates": [
-          -100.06534,
-          681.43719
+          -99.76989207000001,
+          681.0607973
         ]
       }
     },
@@ -1230,16 +1212,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -5.889346066805086,
-          39.08265907546938
+          -5.886448115113279,
+          39.08261775062079
         ]
       },
       "properties": {
         "name": "BAIA DI REMAS",
         "waterbody_type": "Medium Sea",
         "inkscape_coordinates": [
-          91.942955,
-          1115.4443
+          92.23840292999999,
+          1115.0679073000001
         ]
       }
     },
@@ -1248,16 +1230,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -6.702582153091006,
-          36.49444084218199
+          -6.7003732976412795,
+          36.494497315420794
         ]
       },
       "properties": {
         "name": "BAIA DI VEREZZO",
         "waterbody_type": "Medium Sea",
         "inkscape_coordinates": [
-          45.443573,
-          1263.3031
+          45.73902093,
+          1262.9267073
         ]
       }
     },
@@ -1266,16 +1248,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -8.702886179824617,
-          50.31070518885468
+          -8.697267303753279,
+          50.3110617906208
         ]
       },
       "properties": {
         "name": "MOUSSILLE BAY",
         "waterbody_type": "Medium Sea",
         "inkscape_coordinates": [
-          -68.63858,
-          473.96555
+          -68.34313207000001,
+          473.5891573
         ]
       }
     },
@@ -1284,16 +1266,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -8.594926932159447,
-          56.30958728866409
+          -8.58778612020128,
+          56.309947601180795
         ]
       },
       "properties": {
         "name": "BAY OF L'ANGUILLE",
         "waterbody_type": "Medium Sea",
         "inkscape_coordinates": [
-          -62.383942,
-          131.25041
+          -62.088494069999996,
+          130.8740173
         ]
       }
     },
@@ -1302,16 +1284,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -15.840567177704251,
-          45.576152542788414
+          -15.836448043593277,
+          45.5774205877408
         ]
       },
       "properties": {
         "name": "BAHÍA DE MUROS",
         "waterbody_type": "Medium Sea",
         "inkscape_coordinates": [
-          -476.49854,
-          744.39752
+          -476.20309206999997,
+          744.0211273
         ]
       }
     },
@@ -1320,16 +1302,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -15.751463655060864,
-          41.40038804882713
+          -15.748396972233278,
+          41.40163221494079
         ]
       },
       "properties": {
         "name": "GULFO NARANJA",
         "waterbody_type": "Medium Sea",
         "inkscape_coordinates": [
-          -471.4682,
-          982.95947
+          -471.17275207,
+          982.5830773
         ]
       }
     },
@@ -1338,16 +1320,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -10.814709938217542,
-          38.579914482011915
+          -10.812147669513278,
+          38.5805102594208
         ]
       },
       "properties": {
         "name": "BAHÍA DE LAS ÁGUILAS",
         "waterbody_type": "Medium Sea",
         "inkscape_coordinates": [
-          -189.46127,
-          1144.1296
+          -189.16582207000002,
+          1143.7532073
         ]
       }
     },
@@ -1356,16 +1338,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -5.4796625782720065,
-          40.242399530195556
+          -5.476453936073279,
+          40.242308512220795
         ]
       },
       "properties": {
         "name": "GOLFO DI MIRAGLIANO",
         "waterbody_type": "Medium Sea",
         "inkscape_coordinates": [
-          115.36584,
-          1049.1914
+          115.66128793,
+          1048.8150073
         ]
       }
     },
@@ -1374,16 +1356,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -5.83446875617514,
-          37.33396748997481
+          -5.83201079764128,
+          37.33391388822079
         ]
       },
       "properties": {
         "name": "BAIA DI OLESI",
         "waterbody_type": "Medium Sea",
         "inkscape_coordinates": [
-          95.052948,
-          1215.3474
+          95.34839593,
+          1214.9710073
         ]
       }
     },
@@ -1392,16 +1374,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -11.27564219404496,
-          53.605835601501894
+          -11.269298762313278,
+          53.60653549462079
         ]
       },
       "properties": {
         "name": "LYONEN BAY",
         "waterbody_type": "Medium Sea",
         "inkscape_coordinates": [
-          -215.57822,
-          285.6958
+          -215.28277207,
+          285.3194073
         ]
       }
     },
@@ -1410,16 +1392,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -7.972582525156806,
-          34.2477704440049
+          -7.970995711753279,
+          34.247984944220796
         ]
       },
       "properties": {
         "name": "PIRATE'S CURRENT",
         "waterbody_type": "Medium Sea",
         "inkscape_coordinates": [
-          -27.14683,
-          1391.6459
+          -26.85138207,
+          1391.2695073
         ]
       }
     },
@@ -1428,16 +1410,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -7.5756363916473495,
-          40.99533143115285
+          -7.572326036079678,
+          40.9955143842208
         ]
       },
       "properties": {
         "name": "GOLFO DI FODORE",
         "waterbody_type": "Medium Sea",
         "inkscape_coordinates": [
-          -4.3709116,
-          1006.1609
+          -4.07546367,
+          1005.7845073
         ]
       }
     },
@@ -1446,16 +1428,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -12.67612089948549,
-          41.13594870988352
+          -12.672990907913277,
+          41.13679336918079
         ]
       },
       "properties": {
         "name": "BAHÍA DE LA QUIETUD",
         "waterbody_type": "Medium Sea",
         "inkscape_coordinates": [
-          -295.77087,
-          998.08966
+          -295.47542207,
+          997.7132673
         ]
       }
     },
@@ -1464,16 +1446,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -13.208277865632898,
-          47.705106971969236
+          -13.203508791433277,
+          47.70604001814079
         ]
       },
       "properties": {
         "name": "BAHÍA DE BILBALI",
         "waterbody_type": "Medium Sea",
         "inkscape_coordinates": [
-          -326.07925,
-          622.78992
+          -325.78380207,
+          622.4135273
         ]
       }
     },
@@ -1482,16 +1464,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.347862755132879,
-          36.07048055502227
+          -1.345534441673279,
+          36.0698415234208
         ]
       },
       "properties": {
         "name": "LAGUNA DE LA LAGRIME",
         "waterbody_type": "Medium Sea",
         "inkscape_coordinates": [
-          351.36444,
-          1287.5636
+          351.65988793,
+          1287.1872073
         ]
       }
     },
@@ -1500,16 +1482,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.2658882023651001,
-          60.954188200273364
+          1.2746212892067206,
+          60.95328374262079
         ]
       },
       "properties": {
-        "name": "GULF OF THE\nMAELSTROM",
+        "name": "GULF OF THE MAELSTROM",
         "waterbody_type": "Medium Sea",
         "inkscape_coordinates": [
-          501.05341,
-          -134.02245
+          501.34885793,
+          -134.3988427
         ]
       }
     },
@@ -1518,16 +1500,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -10.145928765972121,
-          60.07320753795141
+          -10.13790164135328,
+          60.073780051644796
         ]
       },
       "properties": {
-        "name": "BAY OF\nTAAKETSKOG",
+        "name": "BAY OF TAAKETSKOG",
         "waterbody_type": "Medium Sea",
         "inkscape_coordinates": [
-          -150.94173,
-          -83.776581
+          -150.64628207,
+          -84.15297369999999
         ]
       }
     },
@@ -1536,16 +1518,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.3459181914607665,
-          59.96415258276777
+          -0.3375037623132789,
+          59.96345417756479
         ]
       },
       "properties": {
-        "name": "SEA OF\nSOERLIGSLETTE",
+        "name": "SEA OF SOERLIGSLETTE",
         "waterbody_type": "Medium Sea",
         "inkscape_coordinates": [
-          408.95303,
-          -77.473686
+          409.24847793000004,
+          -77.8500787
         ]
       }
     },
@@ -1554,16 +1536,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -4.405224982430022,
-          65.62130277033145
+          -4.395551479113279,
+          65.62114736406079
         ]
       },
       "properties": {
         "name": "VARG SEA",
         "waterbody_type": "Medium Sea",
         "inkscape_coordinates": [
-          177.11758,
-          -400.69656
+          177.41302793,
+          -401.0729527
         ]
       }
     },
@@ -1572,34 +1554,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          0.9016929279591794,
-          66.98122579898367
+          -4.5524953187932775,
+          57.02004654742079
         ]
       },
       "properties": {
-        "name": "NORDLIG SEA",
-        "waterbody_type": "Medium Sea",
-        "inkscape_coordinates": [
-          480.33322,
-          -478.34961
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -3.9116403137850893,
-          57.16438077680885
-        ]
-      },
-      "properties": {
-        "name": "SEA OF\nCOURONNE",
+        "name": "SEA OF COURONNE",
         "waterbody_type": "Large Sea",
         "inkscape_coordinates": [
-          205.19495999999992,
-          82.45077499999991
+          168.44685793000008,
+          90.30620729999998
         ]
       }
     },
@@ -1608,16 +1572,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -11.099132585984945,
-          57.44132364455316
+          -11.091811528073277,
+          57.44201197462079
         ]
       },
       "properties": {
         "name": "MIDDLE SEA",
         "waterbody_type": "Large Sea",
         "inkscape_coordinates": [
-          -205.43840999999998,
-          66.57579999999996
+          -205.14296206999995,
+          66.19940729999996
         ]
       }
     },
@@ -1626,16 +1590,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -9.781584663545374,
-          48.2530873570078
+          -9.776531911433278,
+          48.2535777410208
         ]
       },
       "properties": {
         "name": "THE SILENT SEA",
         "waterbody_type": "Large Sea",
         "inkscape_coordinates": [
-          -130.29674999999997,
-          591.5091999999999
+          -130.00130206999995,
+          591.1328072999999
         ]
       }
     },
@@ -1644,16 +1608,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.8533131154116482,
-          34.05462707500943
+          -1.851516093193279,
+          34.05404762582079
         ]
       },
       "properties": {
         "name": "THE BLACK GULF",
         "waterbody_type": "Large Sea",
         "inkscape_coordinates": [
-          322.45781,
-          1402.7255
+          322.75325793,
+          1402.3491073
         ]
       }
     },
@@ -1662,16 +1626,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.761601218359317,
-          67.94939391258694
+          -1.7512269251932806,
+          67.94890262582079
         ]
       },
       "properties": {
         "name": "KRAKEN SEA",
         "waterbody_type": "Large Sea",
         "inkscape_coordinates": [
-          328.1873099999999,
-          -533.68075
+          328.48275792999993,
+          -534.0571427
         ]
       }
     },
@@ -1680,16 +1644,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          7.748205948299661,
-          67.20397460944103
+          9.324163014006722,
+          66.4890333176608
         ]
       },
       "properties": {
         "name": "THE FROZEN SEA",
         "waterbody_type": "Large Sea",
         "inkscape_coordinates": [
-          871.49291,
-          -491.02453
+          961.2175579300001,
+          -450.65510270000004
         ]
       }
     },
@@ -1698,16 +1662,34 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.3301228532909413,
-          58.69723040214007
+          2.4948741404067225,
+          58.42820833942079
+        ]
+      },
+      "properties": {
+        "name": "GULF OF KISLEV",
+        "waterbody_type": "Large Sea",
+        "inkscape_coordinates": [
+          571.0616579300001,
+          9.858207300000004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.42899582759328,
+          58.5068468098208
         ]
       },
       "properties": {
         "name": "SEA OF CLAWS",
         "waterbody_type": "Major Sea",
         "inkscape_coordinates": [
-          295.57271000000003,
-          -5.109160000000088
+          232.63215792999995,
+          5.365607299999965
         ]
       }
     },
@@ -1716,16 +1698,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -7.2353134554936185,
-          37.79112027734113
+          -7.232799169673278,
+          37.79124964822079
         ]
       },
       "properties": {
         "name": "TILEAN SEA",
         "waterbody_type": "Major Sea",
         "inkscape_coordinates": [
-          15.026190000000042,
-          1189.2199
+          15.321637930000065,
+          1188.8435073
         ]
       }
     },
@@ -1734,16 +1716,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -13.571134462560394,
-          63.10472629867434
+          -11.876704191113278,
+          65.6436855144608
         ]
       },
       "properties": {
         "name": "SEA OF CHAOS",
         "waterbody_type": "Major Sea",
         "inkscape_coordinates": [
-          -346.58752000000004,
-          -256.99252
+          -249.98372207,
+          -402.3605527000001
         ]
       }
     },
@@ -1752,16 +1734,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -14.939867443508437,
-          34.07546458809466
+          -17.938746184073278,
+          34.0769708642208
         ]
       },
       "properties": {
         "name": "THE SOUTHERN SEA",
         "waterbody_type": "Ocean",
         "inkscape_coordinates": [
-          -596.60241,
-          1401.4159
+          -596.3069620699999,
+          1401.0395073
         ]
       }
     },
@@ -1770,16 +1752,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -15.145909115239064,
-          51.692696263990484
+          -18.14034045223328,
+          51.69428125782079
         ]
       },
       "properties": {
         "name": "THE GREAT OCEAN",
         "waterbody_type": "Ocean",
         "inkscape_coordinates": [
-          -608.11945,
-          394.9425
+          -607.82400207,
+          394.5661073
         ]
       }
     }
