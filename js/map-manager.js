@@ -16,6 +16,10 @@ class MapManager {
         this.dwarfSettlementSource = null;
         this.dwarfSettlementMarkersOnlyLayer = null;  // Dwarf marker-only layer
         this.dwarfSettlementMarkersOnlySource = null;
+        this.woodElfSettlementVectorLayer = null;  // Wood Elf settlement layer
+        this.woodElfSettlementSource = null;
+        this.woodElfSettlementMarkersOnlyLayer = null;  // Wood Elf marker-only layer
+        this.woodElfSettlementMarkersOnlySource = null;
         this.poiVectorLayer = null;
         this.poiSource = null;
         this.provinceVectorLayer = null;
@@ -61,6 +65,8 @@ class MapManager {
         this.settlementMarkersOnlySource = new ol.source.Vector();  // Markers only (no labels)
         this.dwarfSettlementSource = new ol.source.Vector();  // Dwarf settlements
         this.dwarfSettlementMarkersOnlySource = new ol.source.Vector();  // Dwarf markers only
+        this.woodElfSettlementSource = new ol.source.Vector();  // Wood Elf settlements
+        this.woodElfSettlementMarkersOnlySource = new ol.source.Vector();  // Wood Elf markers only
         this.poiSource = new ol.source.Vector();
         this.provinceSource = new ol.source.Vector();
         this.waterSource = new ol.source.Vector();
@@ -82,6 +88,8 @@ class MapManager {
                 this.createSettlementLayer(),              // Labels + markers, can be decluttered
                 this.createDwarfSettlementMarkersOnlyLayer(),  // Dwarf markers only
                 this.createDwarfSettlementLayer(),              // Dwarf labels + markers
+                this.createWoodElfSettlementMarkersOnlyLayer(),  // Wood Elf markers only
+                this.createWoodElfSettlementLayer(),             // Wood Elf labels + markers
                 this.createPOILayer()
             ],
             view: new ol.View({
@@ -103,10 +111,13 @@ class MapManager {
         this.settlementVectorLayer = this.map.getLayers().item(5);
         this.dwarfSettlementMarkersOnlyLayer = this.map.getLayers().item(6);
         this.dwarfSettlementVectorLayer = this.map.getLayers().item(7);
-        this.poiVectorLayer = this.map.getLayers().item(8);
+        this.woodElfSettlementMarkersOnlyLayer = this.map.getLayers().item(8);
+        this.woodElfSettlementVectorLayer = this.map.getLayers().item(9);
+        this.poiVectorLayer = this.map.getLayers().item(10);
         
         // POI layer starts hidden (unchecked)
         this.poiVectorLayer.setVisible(false);
+
 
         return this.map;
     }
@@ -296,6 +307,39 @@ class MapManager {
     }
 
     /**
+     * Create wood elf settlement vector layer
+     * @private
+     * @returns {ol.layer.Vector}
+     */
+    createWoodElfSettlementLayer() {
+        return new ol.layer.Vector({
+            title: 'Wood Elf Settlements',
+            source: this.woodElfSettlementSource,
+            declutter: true,
+            updateWhileAnimating: false,
+            updateWhileInteracting: false,
+            renderBuffer: 100,
+            style: (feature) => createWoodElfSettlementStyle(feature, this.map.getView().getResolution())
+        });
+    }
+
+    /**
+     * Create wood elf settlement marker-only layer
+     * @private
+     * @returns {ol.layer.Vector}
+     */
+    createWoodElfSettlementMarkersOnlyLayer() {
+        return new ol.layer.Vector({
+            title: 'Wood Elf Settlement Markers',
+            source: this.woodElfSettlementMarkersOnlySource,
+            updateWhileAnimating: false,
+            updateWhileInteracting: false,
+            renderBuffer: 100,
+            style: (feature) => createWoodElfSettlementMarkerOnlyStyle(feature, this.map.getView().getResolution())
+        });
+    }
+
+    /**
      * Create POI vector layer
      * @private
      * @returns {ol.layer.Vector}
@@ -375,6 +419,16 @@ class MapManager {
         this.dwarfSettlementSource.addFeatures(features);
         // Also add to marker-only layer for always-visible markers
         this.dwarfSettlementMarkersOnlySource.addFeatures(features);
+    }
+
+    /**
+     * Add features to wood elf settlement layer
+     * @param {array} features - Array of ol.Feature objects
+     */
+    addWoodElfSettlementFeatures(features) {
+        this.woodElfSettlementSource.addFeatures(features);
+        // Also add to marker-only layer for always-visible markers
+        this.woodElfSettlementMarkersOnlySource.addFeatures(features);
     }
 
     /**
@@ -524,6 +578,30 @@ class MapManager {
      */
     getDwarfSettlementMarkersOnlyLayer() {
         return this.dwarfSettlementMarkersOnlyLayer;
+    }
+
+    /**
+     * Get wood elf settlement source
+     * @returns {ol.source.Vector}
+     */
+    getWoodElfSettlementSource() {
+        return this.woodElfSettlementSource;
+    }
+
+    /**
+     * Get wood elf settlement layer
+     * @returns {ol.layer.Vector}
+     */
+    getWoodElfSettlementLayer() {
+        return this.woodElfSettlementVectorLayer;
+    }
+
+    /**
+     * Get wood elf settlement markers only layer
+     * @returns {ol.layer.Vector}
+     */
+    getWoodElfSettlementMarkersOnlyLayer() {
+        return this.woodElfSettlementMarkersOnlyLayer;
     }
     
     /**

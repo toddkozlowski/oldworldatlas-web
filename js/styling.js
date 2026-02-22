@@ -677,6 +677,154 @@ function createDwarfSettlementStyle(feature, currentResolution) {
 }
 
 /**
+ * Create an OpenLayers Style object for a wood elf settlement
+ * @param {OL.Feature} feature - OpenLayers feature
+ * @param {number} currentResolution - Current map resolution
+ * @returns {OL.style.Style}
+ */
+function createWoodElfSettlementStyle(feature, currentResolution) {
+    if (!STYLES_CONFIG) {
+        console.warn('Styles configuration not loaded yet');
+        return null;
+    }
+
+    const config = STYLES_CONFIG.woodElfSettlements['default'];
+
+    if (!config) {
+        return null;
+    }
+
+    // Early exit for performance
+    if (currentResolution > config.minZoomLevel * 2) {
+        return null;
+    }
+
+    // Check visibility
+    const showLabel = shouldShowLabel(config, currentResolution);
+    const showDotVisible = shouldShowDot(config, currentResolution);
+
+    if (!showLabel && !showDotVisible) {
+        return null;
+    }
+
+    // Get interpolated values
+    const fontSize = getInterpolatedFontSize(config, currentResolution);
+    const radius = getInterpolatedRadius(config, currentResolution);
+
+    // Check if this feature is highlighted (from search)
+    const isHighlighted = feature.get('highlighted') === true;
+
+    let imageStyle = null;
+    if (showDotVisible) {
+        if (isHighlighted) {
+            imageStyle = new ol.style.Circle({
+                radius: radius * 1.3,
+                fill: new ol.style.Fill({ color: '#f44336' }),
+                stroke: new ol.style.Stroke({
+                    color: '#d32f2f',
+                    width: config.strokeWidth * 1.5
+                })
+            });
+        } else {
+            const imageCacheKey = `woodelf_img_${currentResolution.toFixed(4)}`;
+            imageStyle = getCachedStyle(STYLE_CACHE.settlements, imageCacheKey, () => {
+                return new ol.style.Circle({
+                    radius: radius,
+                    fill: new ol.style.Fill({ color: config.color }),
+                    stroke: new ol.style.Stroke({
+                        color: config.strokeColor,
+                        width: config.strokeWidth
+                    })
+                });
+            });
+        }
+    }
+
+    const style = new ol.style.Style({
+        image: imageStyle,
+        zIndex: isHighlighted ? 9999 : (config.zIndex || 3)
+    });
+
+    if (showLabel) {
+        const fontConfig = isHighlighted ? 'bold ' + config.textFont : config.textFont;
+        style.setText(new ol.style.Text({
+            text: formatLabelText(feature.get('name')),
+            offsetY: config.textOffsetY,
+            font: constructFontString(fontConfig, fontSize),
+            fill: new ol.style.Fill({ color: isHighlighted ? '#d32f2f' : config.textFillColor }),
+            stroke: new ol.style.Stroke({
+                color: config.textStrokeColor,
+                width: isHighlighted ? config.textStrokeWidth * 1.3 : config.textStrokeWidth
+            })
+        }));
+    }
+
+    return style;
+}
+
+/**
+ * Create an OpenLayers Style object for a wood elf settlement marker only (no label)
+ * Used for the always-visible marker layer underneath the decluttered label layer
+ * @param {OL.Feature} feature - OpenLayers feature
+ * @param {number} currentResolution - Current map resolution
+ * @returns {OL.style.Style}
+ */
+function createWoodElfSettlementMarkerOnlyStyle(feature, currentResolution) {
+    if (!STYLES_CONFIG) {
+        return null;
+    }
+
+    const config = STYLES_CONFIG.woodElfSettlements['default'];
+
+    if (!config) {
+        return null;
+    }
+
+    // Early exit for performance
+    if (currentResolution > config.minZoomLevel * 2) {
+        return null;
+    }
+
+    const showDotVisible = shouldShowDot(config, currentResolution);
+
+    if (!showDotVisible) {
+        return null;
+    }
+
+    const radius = getInterpolatedRadius(config, currentResolution);
+    const isHighlighted = feature.get('highlighted') === true;
+
+    let imageStyle = null;
+    if (isHighlighted) {
+        imageStyle = new ol.style.Circle({
+            radius: radius * 1.3,
+            fill: new ol.style.Fill({ color: '#f44336' }),
+            stroke: new ol.style.Stroke({
+                color: '#d32f2f',
+                width: config.strokeWidth * 1.5
+            })
+        });
+    } else {
+        const imageCacheKey = `woodelf_marker_${currentResolution.toFixed(4)}`;
+        imageStyle = getCachedStyle(STYLE_CACHE.settlements, imageCacheKey, () => {
+            return new ol.style.Circle({
+                radius: radius,
+                fill: new ol.style.Fill({ color: config.color }),
+                stroke: new ol.style.Stroke({
+                    color: config.strokeColor,
+                    width: config.strokeWidth
+                })
+            });
+        });
+    }
+
+    return new ol.style.Style({
+        image: imageStyle,
+        zIndex: isHighlighted ? 9999 : 0
+    });
+}
+
+/**
  * Create an OpenLayers Style object for a dwarf settlement marker only (no label)
  * Used for the always-visible marker layer underneath the decluttered label layer
  * @param {OL.Feature} feature - OpenLayers feature

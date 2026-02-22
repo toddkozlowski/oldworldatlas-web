@@ -1770,6 +1770,88 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          0.35827050843840014,
+          56.982138687747195
+        ]
+      },
+      "properties": {
+        "name": "Pillar of the Azure Man",
+        "settlement_type": "POI",
+        "tags": [
+          "source:4eAotE1"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          448.9979221,
+          92.4718757
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.1486555765984001,
+          56.6008492657952
+        ]
+      },
+      "properties": {
+        "name": "Broken Wheel Inn",
+        "settlement_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          494.1524621,
+          114.2548637
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.17861837947840034,
+          56.70850656755519
+        ]
+      },
+      "properties": {
+        "name": "Ruins of Kor Immarmor",
+        "settlement_type": "POI",
+        "tags": [
+          "source:4eAotE1"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          438.7344321,
+          108.1044237
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -1.816564733161599,
           57.45796486816319
         ]

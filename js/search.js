@@ -104,6 +104,28 @@ class SearchManager {
             });
         }
 
+        // Get wood elf settlement features
+        const woodElfSettlementSource = mapManager.getWoodElfSettlementSource();
+
+        if (woodElfSettlementSource) {
+            const woodElfSettlements = woodElfSettlementSource.getFeatures();
+            woodElfSettlements.forEach(feature => {
+                const name = feature.get('name');
+                const settlementType = feature.get('settlementType');
+                const coord = feature.getGeometry().getCoordinates();
+                if (name) {
+                    this.allFeatures.push({
+                        feature: feature,
+                        name: name,
+                        normalizedName: this.normalizeString(name),
+                        type: 'Wood Elf Settlement',
+                        details: settlementType || 'Settlement',
+                        coordinate: coord
+                    });
+                }
+            });
+        }
+
         // Get POI features
         const poiSource = mapManager.getPOISource();
         
@@ -256,12 +278,16 @@ class SearchManager {
         const settlementMarkersLayer = mapManager.getSettlementMarkersOnlyLayer();
         const dwarfSettlementLayer = mapManager.getDwarfSettlementLayer();
         const dwarfSettlementMarkersLayer = mapManager.getDwarfSettlementMarkersOnlyLayer();
+        const woodElfSettlementLayer = mapManager.getWoodElfSettlementLayer();
+        const woodElfSettlementMarkersLayer = mapManager.getWoodElfSettlementMarkersOnlyLayer();
         const poiLayer = mapManager.getPOILayer();
         
         if (settlementLayer) settlementLayer.changed();
         if (settlementMarkersLayer) settlementMarkersLayer.changed();
         if (dwarfSettlementLayer) dwarfSettlementLayer.changed();
         if (dwarfSettlementMarkersLayer) dwarfSettlementMarkersLayer.changed();
+        if (woodElfSettlementLayer) woodElfSettlementLayer.changed();
+        if (woodElfSettlementMarkersLayer) woodElfSettlementMarkersLayer.changed();
         if (poiLayer) poiLayer.changed();
         
         // Show feature through UI controls (zoom, center, popup)

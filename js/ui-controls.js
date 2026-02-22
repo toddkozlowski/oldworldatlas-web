@@ -460,7 +460,48 @@ class UIControls {
             this.popupElement.style.display = 'block';
             return;
         }
-        
+
+        // Handle wood elf settlement features
+        if (featureType === 'woodelf') {
+            const settlementType = feature.get('settlementType');
+            const sourceTag = feature.get('sourceTag');
+            const wikiTitle = feature.get('wikiTitle');
+            const wikiUrl = feature.get('wikiUrl');
+            const wikiDescription = feature.get('wikiDescription');
+
+            const hasWiki = wikiTitle && wikiTitle.trim() !== '';
+
+            let html = `<div class="settlement-popup">
+                <div class="settlement-popup-header">
+                    <h2 class="settlement-popup-title">${this.escapeHtml(name)}</h2>
+                    <p class="settlement-popup-subtitle">${this.escapeHtml(settlementType || 'Wood Elf Settlement')}</p>
+                </div>`;
+
+            if (hasWiki) {
+                html += `<div class="settlement-popup-wiki">`;
+                html += `<div class="settlement-popup-wiki-title">${this.escapeHtml(wikiTitle)}</div>`;
+                if (wikiDescription && wikiDescription.trim() !== '') {
+                    html += `<div class="settlement-popup-wiki-description">${this.escapeHtml(wikiDescription)}</div>`;
+                }
+                if (wikiUrl && wikiUrl.trim() !== '') {
+                    html += `<a href="${this.escapeHtml(wikiUrl)}" target="_blank" class="settlement-popup-wiki-link">Read on Wiki</a>`;
+                }
+                html += `</div>`;
+            }
+
+            if (sourceTag) {
+                const fullSourceName = settlementData.getFullSourceName(sourceTag);
+                html += `<div class="settlement-popup-source">Source: ${this.escapeHtml(fullSourceName)}</div>`;
+            }
+
+            html += '</div>';
+
+            this.popupElement.innerHTML = html;
+            this.popupOverlay.setPosition(coordinate);
+            this.popupElement.style.display = 'block';
+            return;
+        }
+
         // Handle POI features
         if (featureType === 'poi') {
             const poiType = feature.get('type');

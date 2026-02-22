@@ -265,6 +265,34 @@
       }
     }
   },
+  "woodElfSettlements": {
+    "default": {
+      "label": "Wood Elf Settlement",
+      "color": "rgba(34, 139, 34, 1)",
+      "strokeColor": "rgba(255, 255, 255, 1)",
+      "strokeWidth": 1,
+      "zIndex": 3,
+      "textFont": "Arial, sans-serif",
+      "textFillColor": "#228B22",
+      "textStrokeColor": "#fff",
+      "textStrokeWidth": 3,
+      "textOffsetY": -12,
+      "enableDecluttering": true,
+      "minFontSize": 6,
+      "maxFontSize": 14,
+      "minFontZoom": 0.020,
+      "maxFontZoom": 0.0005,
+      "minZoomLevel": 0.017,
+      "maxZoomLevel": 0.00001,
+      "marker": {
+        "type": "circle",
+        "minRadius": 3,
+        "maxRadius": 5,
+        "minRadiusZoom": 0.020,
+        "maxRadiusZoom": 0.0005
+      }
+    }
+  },
   "poi": {
     "default": {
       "color": "rgba(148, 0, 211, 0.7)",

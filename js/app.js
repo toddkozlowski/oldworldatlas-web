@@ -31,7 +31,15 @@ async function initializeApp() {
         // Add dwarf settlements to map
         const olDwarfFeatures = dwarfSettlementData.getOLFeatures();
         mapManager.addDwarfSettlementFeatures(olDwarfFeatures);
-        
+
+        // Load wood elf settlements
+        const woodElfFeatures = await woodElfSettlementData.loadWoodElfSettlements('data/wood_elves.geojson');
+        console.log(`Loaded ${woodElfFeatures.length} wood elf settlements`);
+
+        // Add wood elf settlements to map
+        const olWoodElfFeatures = woodElfSettlementData.getOLFeatures();
+        mapManager.addWoodElfSettlementFeatures(olWoodElfFeatures);
+
         // Load POI data
         const poiFeatures = await poiData.loadPOIs('data/points_of_interest.geojson');
         console.log(`Loaded ${poiFeatures.length} points of interest`);

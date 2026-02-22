@@ -906,24 +906,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.1486555843001591,
-          56.60084916549728
-        ]
-      },
-      "properties": {
-        "name": "Broken Wheel Inn",
-        "type": "Taverns and Inns",
-        "inkscape_coordinates": [
-          494.15246253999993,
-          114.25486943000001
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -2.20592269497984,
           51.82453736956768
         ]
@@ -6082,42 +6064,6 @@
         "inkscape_coordinates": [
           104.61865821872252,
           706.9038003133871
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          0.3582705161401593,
-          56.98213858744928
-        ]
-      },
-      "properties": {
-        "name": "Pillar of the Azure Man",
-        "type": "Other",
-        "inkscape_coordinates": [
-          448.99792253999993,
-          92.47188143000001
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          0.17861838718015946,
-          56.70850646725727
-        ]
-      },
-      "properties": {
-        "name": "Ruins of Kor Immarmor",
-        "type": "Other",
-        "inkscape_coordinates": [
-          438.73443253999994,
-          108.10442943000001
         ]
       }
     }
