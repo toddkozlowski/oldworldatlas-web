@@ -1,0 +1,1993 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5303678374815993,
+          56.70195044435519
+        ]
+      },
+      "properties": {
+        "name": "Tor Lithanel",
+        "settlement_type": "Hall",
+        "tags": [
+          "source:4eAotE1"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          398.2301921,
+          108.4789737
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.6293769571615997,
+          47.92918842483519
+        ]
+      },
+      "properties": {
+        "name": "Tower of the Eternal Wood",
+        "settlement_type": "Hall",
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          335.4440221,
+          609.6651037
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.08459451972159994,
+          43.010765195715194
+        ]
+      },
+      "properties": {
+        "name": "Tal Drost",
+        "settlement_type": "Hall",
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          423.6971321,
+          890.6536337
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0027153587615994417,
+          43.19421429235519
+        ]
+      },
+      "properties": {
+        "name": "Tal Cullon",
+        "settlement_type": "Hall",
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          428.3748721,
+          880.1732237
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.8180712832415994,
+          43.1751750165152
+        ]
+      },
+      "properties": {
+        "name": "Tal Mora",
+        "settlement_type": "Hall",
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          381.7937521,
+          881.2609337
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.9002761936415993,
+          42.317233435395195
+        ]
+      },
+      "properties": {
+        "name": "Tal Amara",
+        "settlement_type": "Hall",
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          377.0974021,
+          930.2749637000001
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.2259766416415996,
+          42.68541887283519
+        ]
+      },
+      "properties": {
+        "name": "Tal Stornos",
+        "settlement_type": "Hall",
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          301.3604021,
+          909.2406037000001
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.8751577978015994,
+          42.7363625144352
+        ]
+      },
+      "properties": {
+        "name": "Talrennic",
+        "settlement_type": "POI",
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          321.4026121,
+          906.3302037
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.2387125520415996,
+          43.582726424835194
+        ]
+      },
+      "properties": {
+        "name": "Glade of Eternal Midnight",
+        "settlement_type": "Glade",
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          300.6328021,
+          857.9776037
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.9886239770015997,
+          44.7567529624352
+        ]
+      },
+      "properties": {
+        "name": "Tal Dovar",
+        "settlement_type": "Hall",
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          314.9203121,
+          790.9057037
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.2236608624415997,
+          44.7810667185952
+        ]
+      },
+      "properties": {
+        "name": "Ystin Morai-Heg",
+        "settlement_type": "Temple",
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          301.4927021,
+          789.5166637
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.7373778624415999,
+          44.8980060414752
+        ]
+      },
+      "properties": {
+        "name": "Vaul's Anvil",
+        "settlement_type": "Temple",
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          329.2739521,
+          782.8359437
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.1229305936415996,
+          45.34260816659519
+        ]
+      },
+      "properties": {
+        "name": "Tal Brianda",
+        "settlement_type": "Hall",
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          307.2474021,
+          757.4359137
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.0549973946015996,
+          45.89617951827519
+        ]
+      },
+      "properties": {
+        "name": "Halls of Anaereth",
+        "settlement_type": "Hall",
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          311.1284121,
+          725.8104937
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.7292733354015999,
+          46.48653044979519
+        ]
+      },
+      "properties": {
+        "name": "Tal Hakan",
+        "settlement_type": "Hall",
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          329.73696209999997,
+          692.0838637
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.40122297540159946,
+          46.80984910931519
+        ]
+      },
+      "properties": {
+        "name": "Waterfall Palace of the Naiad Court",
+        "settlement_type": "Hall",
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          405.6082121,
+          673.6127337
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.0168848659615994,
+          46.824586076995196
+        ]
+      },
+      "properties": {
+        "name": "Tal Silvoch",
+        "settlement_type": "Hall",
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          370.4355721,
+          672.7708137
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.3460026006815997,
+          46.62318645331519
+        ]
+      },
+      "properties": {
+        "name": "Feast Halls of the Wardance",
+        "settlement_type": "Hall",
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          351.6331421,
+          684.2767337
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.7254278624416,
+          46.8000255144352
+        ]
+      },
+      "properties": {
+        "name": "Ystin Eldrazor",
+        "settlement_type": "Temple",
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          387.0864521,
+          674.1739537
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.13760153284159984,
+          46.1090416363552
+        ]
+      },
+      "properties": {
+        "name": "Tal Varigan",
+        "settlement_type": "Hall",
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          420.6688521,
+          713.6497237
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5240277136415992,
+          45.999336016515194
+        ]
+      },
+      "properties": {
+        "name": "Threllock",
+        "settlement_type": "Hall",
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          398.5924021,
+          719.9171837
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5600505955616,
+          45.560512836995194
+        ]
+      },
+      "properties": {
+        "name": "Ystin Khaine",
+        "settlement_type": "Temple",
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          396.5344221,
+          744.9870637
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.06719291812159911,
+          45.270693682755194
+        ]
+      },
+      "properties": {
+        "name": "Crag Halls of Findol",
+        "settlement_type": "Hall",
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          424.6912821,
+          761.5443737
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.27174823643840046,
+          45.28215495187519
+        ]
+      },
+      "properties": {
+        "name": "Ystin Estreuth",
+        "settlement_type": "Temple",
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          444.0549221,
+          760.8895937
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.4027402956384001,
+          45.0185329841952
+        ]
+      },
+      "properties": {
+        "name": "Tal Jul-finel",
+        "settlement_type": "Hall",
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          451.5384721,
+          775.9502637
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.39139833028159926,
+          44.658305740355196
+        ]
+      },
+      "properties": {
+        "name": "The Sylamel Tree",
+        "settlement_type": "POI",
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          406.1694921,
+          796.5299737
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.7319775091615993,
+          45.33782607379519
+        ]
+      },
+      "properties": {
+        "name": "Tal Govorn",
+        "settlement_type": "Hall",
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          386.7122721,
+          757.7091137
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.49291715428159955,
+          44.9333889771552
+        ]
+      },
+      "properties": {
+        "name": "Tal Merion",
+        "settlement_type": "Hall",
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          400.3697421,
+          780.8145237
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.7471657491615993,
+          43.7118889659552
+        ]
+      },
+      "properties": {
+        "name": "The Cromlech of Cadai",
+        "settlement_type": "POI",
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          328.7147721,
+          850.5985737
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.2968806003615996,
+          43.75937329203519
+        ]
+      },
+      "properties": {
+        "name": "Ystin Drakira",
+        "settlement_type": "Temple",
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          354.4394721,
+          847.8858037
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.0234345126815998,
+          43.37458443539519
+        ]
+      },
+      "properties": {
+        "name": "Drune Fell",
+        "settlement_type": "POI",
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          370.0613921,
+          869.8687137000001
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.0945012778015994,
+          44.00344626739519
+        ]
+      },
+      "properties": {
+        "name": "Yn Edri Eternos (The Oak of Ages)",
+        "settlement_type": "POI",
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          366.0013621,
+          833.9419637
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.531029157801599,
+          44.03772995187519
+        ]
+      },
+      "properties": {
+        "name": "Myrgan Stones",
+        "settlement_type": "POI",
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          341.0626121,
+          831.9833437
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.784374157801599,
+          43.61036909171519
+        ]
+      },
+      "properties": {
+        "name": "Tal Eth Ayr",
+        "settlement_type": "Hall",
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          383.7188621,
+          856.3983837
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.48636750756159913,
+          43.4842898801952
+        ]
+      },
+      "properties": {
+        "name": "Yn Edryl Koiran (The King's Glade)",
+        "settlement_type": "POI",
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          400.7439221,
+          863.6012637
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0032144713184007485,
+          43.62183158611519
+        ]
+      },
+      "properties": {
+        "name": "Ystin Asuryan",
+        "settlement_type": "Temple",
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          428.7136421,
+          855.7435337000001
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.27174823643840046,
+          44.21457023827519
+        ]
+      },
+      "properties": {
+        "name": "Ystin Hoeth",
+        "settlement_type": "Temple",
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          444.0549221,
+          821.8804937
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.3487064978784006,
+          44.3291880056352
+        ]
+      },
+      "properties": {
+        "name": "Tears of Isha",
+        "settlement_type": "POI",
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          448.4515321,
+          815.3324037
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.49619215268159933,
+          44.4929289985952
+        ]
+      },
+      "properties": {
+        "name": "Druthandor Gate",
+        "settlement_type": "POI",
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          400.1826421,
+          805.9779137
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5027417994015997,
+          45.36075088755519
+        ]
+      },
+      "properties": {
+        "name": "Bridge of Birds",
+        "settlement_type": "POI",
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          399.8084621,
+          756.3994237
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.4306958605215997,
+          46.35137751475519
+        ]
+      },
+      "properties": {
+        "name": "Council of Beasts",
+        "settlement_type": "POI",
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          403.9244321,
+          699.8051237
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.03772020804159944,
+          46.87534487635519
+        ]
+      },
+      "properties": {
+        "name": "The Summer Tree",
+        "settlement_type": "POI",
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          426.3750521,
+          669.8709737
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.2684737631584003,
+          46.64283451827519
+        ]
+      },
+      "properties": {
+        "name": "The Vaults of Winter",
+        "settlement_type": "POI",
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          443.8678521,
+          683.1542437
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.11959009188159947,
+          47.07838339955519
+        ]
+      },
+      "properties": {
+        "name": "Tal Esth",
+        "settlement_type": "Hall",
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          421.6978421,
+          658.2714237
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5518632746015991,
+          47.6252743496352
+        ]
+      },
+      "properties": {
+        "name": "Ystin Lileath",
+        "settlement_type": "Temple",
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          397.0021621,
+          627.0276537
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.0741943622816,
+          47.358377908675195
+        ]
+      },
+      "properties": {
+        "name": "Tal Enda Varian",
+        "settlement_type": "Hall",
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          367.1614921,
+          642.2753937
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.7799136326815994,
+          47.4517097617952
+        ]
+      },
+      "properties": {
+        "name": "Delliandra",
+        "settlement_type": "Hall",
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          326.8438921,
+          636.9433637
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.3137059894815994,
+          46.84259751795519
+        ]
+      },
+      "properties": {
+        "name": "Tal Valerin",
+        "settlement_type": "Hall",
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          296.3484421,
+          671.7418237
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.0566347187616,
+          47.08984466867519
+        ]
+      },
+      "properties": {
+        "name": "Addaivoch (Tree of Woe)",
+        "settlement_type": "POI",
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          311.0348721,
+          657.6166437
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.166339638441599,
+          47.4058632849952
+        ]
+      },
+      "properties": {
+        "name": "Tal Rond",
+        "settlement_type": "Hall",
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          304.7674521,
+          639.5625637
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.0811951062815996,
+          47.5663287544352
+        ]
+      },
+      "properties": {
+        "name": "Ystin Hukon",
+        "settlement_type": "Temple",
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          309.6317421,
+          630.3952037
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.8015174195615993,
+          47.9432255825952
+        ]
+      },
+      "properties": {
+        "name": "Tal Driacha",
+        "settlement_type": "Hall",
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          325.6096721,
+          608.8631637
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.4945548285216,
+          42.76874666483519
+        ]
+      },
+      "properties": {
+        "name": "Coeth-mara",
+        "settlement_type": "Hall",
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          400.27618209999997,
+          904.4801037
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.20309800004159906,
+          42.1972939269152
+        ]
+      },
+      "properties": {
+        "name": "Tal Amere",
+        "settlement_type": "Hall",
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          416.9270521,
+          937.1270837
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1702295874784007,
+          42.2873502565152
+        ]
+      },
+      "properties": {
+        "name": "Tyr Edrell",
+        "settlement_type": "Hall",
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          438.2551821,
+          931.9821837000001
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.47969855707840026,
+          42.85389172211519
+        ]
+      },
+      "properties": {
+        "name": "Tyr Vanna",
+        "settlement_type": "Hall",
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          455.9350821,
+          899.6157837
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.4731489103584008,
+          45.77337478003519
+        ]
+      },
+      "properties": {
+        "name": "Eyrie of the Hawk Lords",
+        "settlement_type": "POI",
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          455.5609021,
+          732.8263037
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.31104629179840054,
+          46.783650697475196
+        ]
+      },
+      "properties": {
+        "name": "Chasm Glade of Beithir Seun",
+        "settlement_type": "Glade",
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          446.3000121,
+          675.1094437
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.5336022458015999,
+          47.0191267582752
+        ]
+      },
+      "properties": {
+        "name": "Glade of Eternal Moonlight",
+        "settlement_type": "Glade",
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          340.9156121,
+          661.6567437
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.8795628352416,
+          56.35088987027519
+        ]
+      },
+      "properties": {
+        "name": "Fountain of Lebin",
+        "settlement_type": "POI",
+        "tags": [
+          "source:4eAotE1"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          378.2807521,
+          128.5349937
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.49046151812159966,
+          55.8695832574752
+        ]
+      },
+      "properties": {
+        "name": "Pass of Stone",
+        "settlement_type": "Hall",
+        "tags": [
+          "source:4eAotE1"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          400.5100321,
+          156.0319437
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.4102287834015994,
+          56.12829237747519
+        ]
+      },
+      "properties": {
+        "name": "Rainbow Falls",
+        "settlement_type": "POI",
+        "tags": [
+          "source:4eAotE1"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          405.0937121,
+          141.2519437
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.9546640973215992,
+          57.396458752835194
+        ]
+      },
+      "properties": {
+        "name": "Farinar's Rock",
+        "settlement_type": "POI",
+        "tags": [
+          "source:4eAotE1"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          373.9902321,
+          68.8018537
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.816564733161599,
+          57.45796486816319
+        ]
+      },
+      "properties": {
+        "name": "Tower of Se-Athil",
+        "settlement_type": "Hall",
+        "tags": [
+          "source:4eAotE1"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          324.7500221,
+          65.2880217
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.7845049126815993,
+          55.43713415955519
+        ]
+      },
+      "properties": {
+        "name": "Drachenhohle",
+        "settlement_type": "POI",
+        "tags": [
+          "source:4eAotE1"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          383.7113921,
+          180.73767370000002
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.6905336384415992,
+          46.8946383102752
+        ]
+      },
+      "properties": {
+        "name": "Locrimere",
+        "settlement_type": "Ruin",
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          389.0799521,
+          668.7687437
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.3516051059615994,
+          45.246561443075194
+        ]
+      },
+      "properties": {
+        "name": "The Chains of Vaul",
+        "settlement_type": "POI",
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          351.3130721,
+          762.9230437
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.1195857350815992,
+          43.664779575555194
+        ]
+      },
+      "properties": {
+        "name": "Cerura Carn",
+        "settlement_type": "POI",
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          364.5682921,
+          853.2899237
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.1048541936415992,
+          47.6625109589152
+        ]
+      },
+      "properties": {
+        "name": "Glade of the Lost",
+        "settlement_type": "Glade",
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          365.4099021,
+          624.9003337
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.1637800093215993,
+          43.0294871240352
+        ]
+      },
+      "properties": {
+        "name": "Halls of Equos",
+        "settlement_type": "Hall",
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          362.0434821,
+          889.5840537
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.47140428667840073,
+          46.4416475681952
+        ]
+      },
+      "properties": {
+        "name": "Eomain Tarn",
+        "settlement_type": "POI",
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          455.4612321,
+          694.6480137
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    }
+  ]
+}

@@ -258,10 +258,10 @@
           948.6960008
         ],
         "wiki": {
-          "title": "Grimhold",
-          "url": "https://warhammerfantasy.fandom.com/wiki/Grimhold",
-          "description": "Grimhold is a declining Grey Dwarf hold located in the southern Grey Mountains.",
-          "image": "https://static.wikia.nocookie.net/warhammerfb/images/2/2b/The_Vaults_Map_Nagash_pp.69.png/revision/latest?cb=20220423104235"
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
         }
       }
     },
@@ -326,8 +326,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.278493001670402,
-          44.2092966839168
+          6.211563481990401,
+          44.046231870476795
         ]
       },
       "properties": {
@@ -338,8 +338,8 @@
         ],
         "notes": [],
         "inkscape_coordinates": [
-          787.2190426000001,
-          822.1817708
+          783.3953726000001,
+          831.4976307999999
         ],
         "wiki": {
           "title": null,
@@ -678,10 +678,10 @@
           186.7350908
         ],
         "wiki": {
-          "title": "Karak Skygg",
-          "url": "https://warhammerfantasy.fandom.com/wiki/Karak_Skygg",
-          "description": "Karak Skygg is an abandoned Dwarf hold that stands high in the Middle Mountains in the old Dwarfen realm of Karaz Ghumzul. For centuries this hold was home to the mountain folk but was never a major settlement -- perhaps the equivalent of a small Human town or fortress. At some point in the past, for unknown reasons, the Dwarfs of the Middle Mountains abandoned and sealed their holds to return to the Worlds Edge Mountains.",
-          "image": "https://static.wikia.nocookie.net/warhammerfb/images/6/68/Horned_Rat_Companion_Middle_Mountains%E2%80%99.png/revision/latest?cb=20230916114706"
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
         }
       }
     },
@@ -708,8 +708,8 @@
           191.3187508
         ],
         "wiki": {
-          "title": "Karak Kazarak",
-          "url": "https://warhammerfantasy.fandom.com/wiki/Karak_Kazarak",
+          "title": null,
+          "url": null,
           "description": null,
           "image": null
         }
@@ -738,10 +738,10 @@
           675.9251807999999
         ],
         "wiki": {
-          "title": "Karak Varn",
-          "url": "https://warhammerfantasy.fandom.com/wiki/Karak_Varn",
-          "description": "Karak-Varn (in Khazalid, lit. \"Stronghold of lake enclosed by mountains\"), nowadays sometimes called Cragmere, was once a flourishing hold of the Dwarfs. Today, it is a ruin, given up to the Skaven and other enemies of the Dwarfs. It is one of two Dwarf holds which overlook the Black Water Lake, at the junction of the Black Mountains and the Worlds Edge Mountains.",
-          "image": "https://static.wikia.nocookie.net/warhammerfb/images/c/c8/Dwarf_Button.png/revision/latest?cb=20150606013001"
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
         }
       }
     },
@@ -904,10 +904,10 @@
           967.1538208
         ],
         "wiki": {
-          "title": "Kazad Frukund",
-          "url": "https://warhammerfantasy.fandom.com/wiki/Kazad_Frukund",
-          "description": "Kazad Frukund is large Dwarf fort and the westernmost Dwarf stronghold of the Irrana Mountains on the Novalone Pass, with a garrison of about 230 adult Dwarfs. The fort is under the influence of Karak Eksfilaz a Dwarf hold in the the Vaults.",
-          "image": "https://static.wikia.nocookie.net/warhammerfb/images/6/6b/Western_Dwarf_Realms.png/revision/latest?cb=20210727083944"
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
         }
       }
     },
@@ -932,10 +932,10 @@
           984.2221807999999
         ],
         "wiki": {
-          "title": "Grung Mizpal",
-          "url": "https://warhammerfantasy.fandom.com/wiki/Grung_Mizpal",
-          "description": "Grung Mizpal is a small mining outpost with about 57 adult Dwarfs located in The Vaults. It is under the influence of Karak Eksfilaz.",
-          "image": "https://static.wikia.nocookie.net/warhammerfb/images/6/6b/Western_Dwarf_Realms.png/revision/latest?cb=20210727083944"
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
         }
       }
     },
@@ -960,10 +960,10 @@
           977.5808807999999
         ],
         "wiki": {
-          "title": "Karak Kaferkammaz",
-          "url": "https://warhammerfantasy.fandom.com/wiki/Karak_Kaferkammaz",
-          "description": "Karak Kaferkammaz (\" Marble Layers Hold \" in Khazalid ) is the highest Dwarf hold in The Vaults. The hold is ruled by King Skalf Redbeard, and earns a moderate amount of wealth from trade, ore mining and metalworking. Approximately 2,500 able-bodied adult Dwarfs live there.",
-          "image": "https://static.wikia.nocookie.net/warhammerfb/images/6/6b/Western_Dwarf_Realms.png/revision/latest?cb=20210727083944"
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
         }
       }
     },
@@ -988,10 +988,10 @@
           1004.1686808
         ],
         "wiki": {
-          "title": "Karak Eksfilaz",
-          "url": "https://warhammerfantasy.fandom.com/wiki/Karak_Eksfilaz",
-          "description": "Karak Eksfilaz is a Dwarf hold located in The Vaults. The westernmost of all the holds of the Karaz Ankor, Karak Eksfilaz (\"Whispering Aspen Mountain\" in Khazalid ), takes its name from the heavily forested, aspen-covered peak upon which it stands. Much of the hold's trade is conducted with northern Tilea, particularly through the towns of Campogrotta and Toscania.",
-          "image": "https://static.wikia.nocookie.net/warhammerfb/images/6/6b/Western_Dwarf_Realms.png/revision/latest?cb=20210727083944"
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
         }
       }
     },
@@ -1016,10 +1016,10 @@
           963.7705808
         ],
         "wiki": {
-          "title": "Grung Byrn",
-          "url": "https://warhammerfantasy.fandom.com/wiki/Grung_Byrn",
-          "description": "Grung Byrn is a mining outpost located in The Vaults that is home to about 52 adult Dwarfs.",
-          "image": "https://static.wikia.nocookie.net/warhammerfb/images/6/6b/Western_Dwarf_Realms.png/revision/latest?cb=20210727083944"
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
         }
       }
     },
@@ -1098,10 +1098,10 @@
           980.2693608
         ],
         "wiki": {
-          "title": "Grung Wyruvalk",
-          "url": "https://warhammerfantasy.fandom.com/wiki/Grung_Wyruvalk",
-          "description": "Grung Wyruvalk is a Dwarf silver mine located in The Vaults that is owned by Karak Kaferkammaz.",
-          "image": "https://static.wikia.nocookie.net/warhammerfb/images/6/6b/Western_Dwarf_Realms.png/revision/latest?cb=20210727083944"
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
         }
       }
     },
@@ -1152,10 +1152,10 @@
           1014.1066807999999
         ],
         "wiki": {
-          "title": "Khazid Nekewukaz",
-          "url": "https://warhammerfantasy.fandom.com/wiki/Khazid_Nekewukaz",
-          "description": "Khazid Nekewukaz is a small village in The Vaults housing about 75 adult Dwarfs.",
-          "image": "https://static.wikia.nocookie.net/warhammerfb/images/6/6b/Western_Dwarf_Realms.png/revision/latest?cb=20210727083944"
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
         }
       }
     },
@@ -1190,8 +1190,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.4103724824895998,
-          39.90011452807679
+          -0.9903351400895998,
+          39.58173777287679
         ]
       },
       "properties": {
@@ -1202,14 +1202,14 @@
         ],
         "notes": [],
         "inkscape_coordinates": [
-          405.0855026,
-          1068.3644808000001
+          371.9523526,
+          1086.5532808
         ],
         "wiki": {
-          "title": "Khazid Urbaz",
-          "url": "https://warhammerfantasy.fandom.com/wiki/Khazid_Urbaz",
-          "description": "Khazid Urbaz, meaning \"trading post town\" in Khazalid, is a village of Karak Grom with a population of about 90 Dwarfs. Situated upon the banks of the River Skiros, the small Dwarf hold of Khazid Urbaz serves as the main trade centre for the Dwarfs of The Vaults and the Apuccini Mountains with the Men of the Border Princes and Tilea.",
-          "image": "https://static.wikia.nocookie.net/warhammerfb/images/6/6b/Western_Dwarf_Realms.png/revision/latest?cb=20210727083944"
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
         }
       }
     },
@@ -1234,10 +1234,10 @@
           1075.4895808
         ],
         "wiki": {
-          "title": "Kazad Sedazund",
-          "url": "https://warhammerfantasy.fandom.com/wiki/Kazad_Sedazund",
-          "description": "Kazad Sedazund is a Dwarf fort situated in the Apuccini Mountains in the land of Tilea. It is the southernmost Dwarf outpost in the Apuccini Mountains. Kazad Sedazund is considered a subsidiary settlement of Karak Grom, a Dwarf hold to the north in The Vaults.",
-          "image": "https://static.wikia.nocookie.net/warhammerfb/images/6/6b/Western_Dwarf_Realms.png/revision/latest?cb=20210727083944"
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
         }
       }
     },
@@ -1246,8 +1246,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.761756969350401,
-          36.2360442176768
+          9.735593915590401,
+          36.232392883276795
         ]
       },
       "properties": {
@@ -1258,14 +1258,14 @@
         ],
         "notes": [],
         "inkscape_coordinates": [
-          986.2172126,
-          1277.6920808
+          984.7225226,
+          1277.9006808000001
         ],
         "wiki": {
-          "title": "Karak Eight Peaks",
-          "url": "https://warhammerfantasy.fandom.com/wiki/Karak_Eight_Peaks",
-          "description": "Karak Eight Peaks, now called the City of Pillars by the Skaven who currently rule it, is the Dwarf hold originally known as Vala-Azril-Ungol, \"Queen of the Silver Depths\" in Khazalid, the Dwarf tongue. Karaz Eight Peaks was once one of the greatest kingdoms ever created by the Dwarfs of the Golden Age, rivaling even their capital city of Karaz-a-Karak in terms of sheer power, wealth, and beauty.",
-          "image": "https://static.wikia.nocookie.net/warhammerfb/images/4/4e/K8P_inside.png/revision/latest?cb=20200326031012"
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
         }
       }
     },
@@ -1292,8 +1292,8 @@
           1232.3726808000001
         ],
         "wiki": {
-          "title": "Karak Drazh",
-          "url": "https://warhammerfantasy.fandom.com/wiki/Karak_Drazh",
+          "title": null,
+          "url": null,
           "description": null,
           "image": null
         }
@@ -1322,8 +1322,8 @@
           171.3507808
         ],
         "wiki": {
-          "title": "Keep of the First Slayer",
-          "url": "https://warhammerfantasy.fandom.com/wiki/Keep_of_the_First_Slayer",
+          "title": null,
+          "url": null,
           "description": null,
           "image": null
         }
@@ -1350,10 +1350,10 @@
           489.33039080000003
         ],
         "wiki": {
-          "title": "Karak Ziflin",
-          "url": "https://warhammerfantasy.fandom.com/wiki/Karak_Ziflin",
-          "description": "Karak Ziflin (\" Windswept Hold \" in Khazalid ) is the smallest of the Grey Dwarf holds of the Grey Mountains. Karak Ziflin sits north of Axe Bite Pass that divides the lands of Bretonnia and the Empire, located more on the Bretonnian side of the divide. Winds from the western Sea of Claws frequently blow through the kingdom.",
-          "image": "https://static.wikia.nocookie.net/warhammerfb/images/9/9a/Karak_Ziflin_banner_Total_War.png/revision/latest?cb=20171118185626"
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
         }
       }
     },
@@ -1378,10 +1378,10 @@
           561.8740307999999
         ],
         "wiki": {
-          "title": "Karak Azgaraz",
-          "url": "https://warhammerfantasy.fandom.com/wiki/Karak_Azgaraz",
-          "description": "Karak Azgaraz ( Khazalid for \" Hold of the Fearless Axe \") is one of the major Dwarf holds, located not too far from the Imperial trading city of Übersreik. There are many Dwarf strongholds scattered throughout the Grey Mountains, though none are as wealthy or as magnificent as the surviving karaks of the Worlds Edge Mountains far to the east. The Dwarfs of this region are called \" Grey Dwarfs \" by their eastern kin, which is a reference not only to their location, but also to their dour outlook and the relative austerity of their holds.",
-          "image": "https://static.wikia.nocookie.net/warhammerfb/images/7/78/Karak_Azgaraz_map_1.png/revision/latest?cb=20161014163730"
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
         }
       }
     },
@@ -1406,10 +1406,10 @@
           789.5166707999999
         ],
         "wiki": {
-          "title": "Karak Norn",
-          "url": "https://warhammerfantasy.fandom.com/wiki/Karak_Norn",
-          "description": "Karak Norn (\" Barren Earth Hold \" in Khazalid ) is a Dwarf hold built on a forested and valley-ringed mountain amongst the Grey Mountains. It is believed to be the first hold to have been ruled by a Dwarf queen, Hadora Ironpick, who led her people there following the fall of Mount Silverspear in -1367 IC.",
-          "image": "https://static.wikia.nocookie.net/warhammerfb/images/e/ee/Karak_Norn-Rune.png/revision/latest?cb=20211116192926"
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
         }
       }
     },
@@ -1462,10 +1462,10 @@
           1034.1899808
         ],
         "wiki": {
-          "title": "Karak Izor",
-          "url": "https://warhammerfantasy.fandom.com/wiki/Karak_Izor",
-          "description": "Karak Izor (\" Copper Hold \" in Khazalid ), called \" Copper Mountain\" by Humans, is the first and largest Dwarf hold outside the Worlds Edge Mountains. Its age and prestige is such that Dwarf settlements across The Vaults and as far afield as the eastern Irrana and northern Apuccini Mountains look to Karak Izor for protection and guidance.",
-          "image": "https://static.wikia.nocookie.net/warhammerfb/images/6/6b/Western_Dwarf_Realms.png/revision/latest?cb=20210727083944"
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
         }
       }
     },
@@ -1490,10 +1490,10 @@
           954.1522308
         ],
         "wiki": {
-          "title": "Karak Hirn",
-          "url": "https://warhammerfantasy.fandom.com/wiki/Karak_Hirn",
-          "description": "Karak Hirn, (\" Hornhold \" in Khazalid ), is the biggest and most important Dwarf hold in the Black Mountains between the northern Border Princes and the southern borders of the Empire. The hold is currently ruled by King Alrik Ranulfsson of Clan Drazhkarak and his wife, Queen Winnifer Falxenheir.",
-          "image": "https://static.wikia.nocookie.net/warhammerfb/images/7/73/Karak_Hirn_banner.png/revision/latest?cb=20210325232846"
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
         }
       }
     },
@@ -1518,10 +1518,10 @@
           891.9919507999999
         ],
         "wiki": {
-          "title": "Karak Gantuk",
-          "url": "https://warhammerfantasy.fandom.com/wiki/Karak_Gantuk",
-          "description": "Karak Gantuk (\" Gap Hold \" in Khazalid ) is a small Dwarf hold located in the central Black Mountains.",
-          "image": "https://static.wikia.nocookie.net/warhammerfb/images/a/ad/Warhammer_Black_Mountains.png/revision/latest?cb=20170408202909"
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
         }
       }
     },
@@ -1574,10 +1574,10 @@
           623.5197307999999
         ],
         "wiki": {
-          "title": "Zhufbar",
-          "url": "https://warhammerfantasy.fandom.com/wiki/Zhufbar",
-          "description": "Zhufbar ( Khazalid for \"Torrent-gate\") is a Dwarf hold of the Karaz Ankor and the twin of neighbouring Karak Varn where the metals, gromril in particular, mined out from beneath Karak Varn are smelted and forged into the weapons and armour which make the Dwarfs famous.",
-          "image": "https://static.wikia.nocookie.net/warhammerfb/images/1/19/Dwarf_zhufbar.jpg/revision/latest?cb=20140805132000"
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
         }
       }
     },
@@ -1602,10 +1602,10 @@
           823.3833108
         ],
         "wiki": {
-          "title": "Karaz-a-Karak",
-          "url": "https://warhammerfantasy.fandom.com/wiki/Karaz-a-Karak",
-          "description": "Karaz-a-Karak, also spelled Caraz-a-Carak, which translates roughly as \" Everpeak \", or the \" Pinnacle of Mountains \" in the Dwarf tongue Khazalid, is the greatest city of the Dwarf people and the seat of power for High King Thorgrim Grudgebearer of the Karaz Ankor. Karaz-a-Karak is the mightiest and most populous of all Dwarf holds, the capital of the Dwarf empire of Karaz Ankor and the capital hold of the Dwarf high king.",
-          "image": "https://static.wikia.nocookie.net/warhammerfb/images/5/5e/Karaz-a-Karak_Gates_6th_Edition.jpg/revision/latest?cb=20151214230954"
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
         }
       }
     },
@@ -1630,10 +1630,10 @@
           407.8552108
         ],
         "wiki": {
-          "title": "Karak Kadrin",
-          "url": "https://warhammerfantasy.fandom.com/wiki/Karak_Kadrin",
-          "description": "Karak Kadrin, which means \" Hold of the Mountain Pass \" in Khazalid, also known as \" Slayers Keep,\" is a Dwarf hold which guards a region of mountainous passes known simply as Peak Pass, an important trading route which runs through the Worlds Edge Mountains from the distant east to the Old World.",
-          "image": "https://static.wikia.nocookie.net/warhammerfb/images/9/98/Dwarf_KadrinValley01.jpg/revision/latest?cb=20140805185213"
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
         }
       }
     },
@@ -1658,10 +1658,10 @@
           1107.8453808000002
         ],
         "wiki": {
-          "title": "Barak Varr",
-          "url": "https://warhammerfantasy.fandom.com/wiki/Barak_Varr",
-          "description": "Barak Varr, which means the \" Gate to the Sea \" in Khazalid, is unique amongst the Dwarf holds of the Karaz Ankor for being the only hold built to serve as a great harbour. Approaching from the land there is no indication at all of the busy port that lies ahead. In fact, even standing on the cliff edge it seems to the unsuspecting eye that the ships are destined to smash themselves into the cliff face.",
-          "image": "https://static.wikia.nocookie.net/warhammerfb/images/6/6b/Western_Dwarf_Realms.png/revision/latest?cb=20210727083944"
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
         }
       }
     },
@@ -1688,10 +1688,10 @@
           1432.7186808000001
         ],
         "wiki": {
-          "title": "Ekrund",
-          "url": "https://warhammerfantasy.fandom.com/wiki/Ekrund",
-          "description": "Ekrund, now called Mount Bloodhorn, is a fallen Dwarf hold. In -1498 IC, the Badlands were overrun by Greenskins. Ekrund fell to the Orcs after many months of intense fighting by the vastly outnumbered Dwarfs.",
-          "image": "https://static.wikia.nocookie.net/warhammerfb/images/d/df/Warhammer_Gates_of_Ekrund_by_Lanefenu.jpg/revision/latest?cb=20200326022136"
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
         }
       }
     },
@@ -1716,10 +1716,10 @@
           1329.9941808
         ],
         "wiki": {
-          "title": "Karak Azul",
-          "url": "https://warhammerfantasy.fandom.com/wiki/Karak_Azul",
-          "description": "Karak Azul (\" Iron Peak \" in Khazalid ) is a Dwarf hold located in the southern Worlds Edge Mountains. It is the only southern karak still ruled by the Dwarfs. The territories of the High Elves of Ulthuan and the Dwarfs of the Karaz Ankor in the Old World at the dawn of the War of the Beard.",
-          "image": "https://static.wikia.nocookie.net/warhammerfb/images/3/32/Karak_Azul.PNG/revision/latest?cb=20151004194357"
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
         }
       }
     },
@@ -1728,8 +1728,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.8569979837504,
-          34.894471142476796
+          9.8983723635904,
+          34.545220832076794
         ]
       },
       "properties": {
@@ -1742,14 +1742,14 @@
           "fallen"
         ],
         "inkscape_coordinates": [
-          991.6583126,
-          1354.3358808
+          994.0220226,
+          1374.2884808000001
         ],
         "wiki": {
-          "title": "Karak Azgal",
-          "url": "https://warhammerfantasy.fandom.com/wiki/Karak_Azgal",
-          "description": "Karak Azgal, which means \" Hoard Peak \" in Reikspiel and Khazalid, formerly called Karak Izril, meaning the \" City of Jewels \", and known today as the \" Dragon Crag \", was once an extremely wealthy Dwarf Hold that has since fallen under the control of the Greenskins and the Skaven.",
-          "image": "https://static.wikia.nocookie.net/warhammerfb/images/d/d0/Karak_Azgal_Sigil.png/revision/latest?cb=20200407212131"
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
         }
       }
     },
@@ -1774,10 +1774,10 @@
           1003.9177808
         ],
         "wiki": {
-          "title": "Karak Bhufdar",
-          "url": "https://warhammerfantasy.fandom.com/wiki/Karak_Bhufdar",
-          "description": "Karak Bhufdar ( Khazalid for \"Grey Fir Hold\") is a Dwarf hold located in the mountainous region known as The Vaults in the Old World. The hold is located at the end of a mountain valley surrounded by a mixed forest of grey fir trees and broadleaf trees like Bretonnian oaks. Besides the usual products of ore and stone produced by most Dwarf cities, Karak Bhufdar trades in timber.",
-          "image": "https://static.wikia.nocookie.net/warhammerfb/images/2/2b/The_Vaults_Map_Nagash_pp.69.png/revision/latest?cb=20220423104235"
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
         }
       }
     },
@@ -1804,8 +1804,8 @@
           859.5788708
         ],
         "wiki": {
-          "title": "Karag Agilwutraz",
-          "url": "https://warhammerfantasy.fandom.com/wiki/Karag_Agilwutraz",
+          "title": null,
+          "url": null,
           "description": null,
           "image": null
         }
@@ -1832,10 +1832,10 @@
           -276.7224592
         ],
         "wiki": {
-          "title": "Kraka Drak",
-          "url": "https://warhammerfantasy.fandom.com/wiki/Kraka_Drak",
-          "description": "Kraka Drak (\" Dragon Hold \" in Khazalid ) was a Dwarf hold and the former capital of the Norse Dwarfs of Norsca and their last Great King Silverbeard. Kraka Drak was completely destroyed during the War in the Mountains (2302-2390 IC ) by the Chaos hordes commanded by Valmir Aesling, who spent ninety years slaughtering the Dwarfs in the hold that they were trapped in by an avalanche engineered by the Great King Silverbeard. Kraka Drak was later resettled by Norse Dwarf refugees, who hope to clear the halls and rebuild the hold back to its former glory.",
-          "image": "https://static.wikia.nocookie.net/warhammerfb/images/8/80/Kraka_Drak_Total_War_Warhammer.png/revision/latest?cb=20171107164314"
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
         }
       }
     },
@@ -1860,10 +1860,10 @@
           -188.1176492
         ],
         "wiki": {
-          "title": "Kraka Ravnsvake",
-          "url": "https://warhammerfantasy.fandom.com/wiki/Kraka_Ravnsvake",
-          "description": "Kraka Ravnsvake, meaning \" Raven's Roost Hold \" in Khazalid, is a Dwarf Hold that lies in the mountains south-west of Kraka Drak, at the far end of Draksfjord. Beneath the stronghold are extensive deposits of okrinaduraz, a hard, bluish-grey stone used by Dwarf artisans to carve the likenesses of their revered ancestors and fashion works of art.",
-          "image": "https://static.wikia.nocookie.net/warhammerfb/images/8/86/Kraka_Ravnvake_Map.png/revision/latest?cb=20180506200319"
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
         }
       }
     },
@@ -1916,10 +1916,10 @@
           -323.4544592
         ],
         "wiki": {
-          "title": "Kraka Dorden",
-          "url": "https://warhammerfantasy.fandom.com/wiki/Kraka_Dorden",
-          "description": "The second largest Norse Dwarf hold is Kraka Dorden (\" Thunder Hold \" in Khazalid ), located north-west of Kraka Drak in the mountains above Taldursfjord. It is ruled by King Logamir Ulfarson and Queen Friga Alaricdottir of Clan Zhargrun. Kraka Dorden is well known in Norsca for its furs, its metalwork, and its deposits of iron, tin, and quartz.",
-          "image": "https://static.wikia.nocookie.net/warhammerfb/images/6/6a/Kraka_Dorden_Map.png/revision/latest?cb=20180506200832"
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
         }
       }
     },
@@ -1944,10 +1944,10 @@
           -340.7833392
         ],
         "wiki": {
-          "title": "Kraka Ornsmotek",
-          "url": "https://warhammerfantasy.fandom.com/wiki/Kraka_Ornsmotek",
-          "description": "Kraka Ornsmotek (\" Eagle's Peak Hold \" in Khazalid ) is the northernmost Norse Dwarf hold, and also the most heavily fortified. Located in the Jagged Tooth Mountains, this region of Norsca has a higher population of Giants, Trolls and the forces of Chaos than anywhere else in the Known World, and Kraka Ornsmotek is home to more Slayers and Norse Dwarf Berserkers than the other Norse Dwarf holds combined.",
-          "image": "https://static.wikia.nocookie.net/warhammerfb/images/6/6e/Kraka_Ornsmotek_Map.png/revision/latest?cb=20180506200637"
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
         }
       }
     },
@@ -1972,10 +1972,10 @@
           1055.2361808
         ],
         "wiki": {
-          "title": "Karak Grom",
-          "url": "https://warhammerfantasy.fandom.com/wiki/Karak_Grom",
-          "description": "Karak Grom (\" Defiant Hold \" in Khazalid ) is the southernmost of the Dwarf holds of the Karaz Ankor, situated near where The Vaults give way to the Apuccini Mountains. The wealthy Dwarf stronghold is carved into the steep eastern face of Cleaved Mountain ( Karaz Mar ) and gazes out over a wide mountain valley, where the western fork of the River Skiros winds its way below.",
-          "image": "https://static.wikia.nocookie.net/warhammerfb/images/6/6b/Western_Dwarf_Realms.png/revision/latest?cb=20210727083944"
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
         }
       }
     },
@@ -2000,10 +2000,10 @@
           1046.8238808
         ],
         "wiki": {
-          "title": "Domatburg",
-          "url": "https://warhammerfantasy.fandom.com/wiki/Domatburg",
-          "description": "Domatburg is a subsidiary settlement of Karak Grom and the largest settlement of Men in The Vaults. It also maintains a population of about 210 Dwarfs.",
-          "image": "https://static.wikia.nocookie.net/warhammerfb/images/6/6b/Western_Dwarf_Realms.png/revision/latest?cb=20210727083944"
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
         }
       }
     },
@@ -2262,8 +2262,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.850051521350402,
-          35.0241460256768
+          9.7368802845504,
+          34.665159990476795
         ]
       },
       "properties": {
@@ -2274,8 +2274,8 @@
         ],
         "notes": [],
         "inkscape_coordinates": [
-          991.2614626000001,
-          1346.9275808
+          984.7960126,
+          1367.4363808
         ],
         "wiki": {
           "title": null,
@@ -2290,8 +2290,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          0.5697547203904008,
-          41.7126230960768
+          0.5165371341504001,
+          41.732525494156796
         ]
       },
       "properties": {
@@ -2302,8 +2302,8 @@
         ],
         "notes": [],
         "inkscape_coordinates": [
-          461.0799726,
-          964.8162308
+          458.0396626,
+          963.6792108
         ],
         "wiki": {
           "title": null,
@@ -2334,10 +2334,10 @@
           1039.7451808
         ],
         "wiki": {
-          "title": "Hochstadt",
-          "url": "https://warhammerfantasy.fandom.com/wiki/Hochstadt",
-          "description": "Hochstadt is a small Human farming village located in The Vaults which is also home to about 180 Dwarfs.",
-          "image": "https://static.wikia.nocookie.net/warhammerfb/images/6/6b/Western_Dwarf_Realms.png/revision/latest?cb=20210727083944"
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
         }
       }
     },
@@ -2422,10 +2422,10 @@
           45.243747799999994
         ],
         "wiki": {
-          "title": "Karak Vlag",
-          "url": "https://warhammerfantasy.fandom.com/wiki/Karak_Vlag",
-          "description": "Although the most northerly of the major Dwarf realms is Karak Kadrin, there used to be another hold situated on the southern side of the High Pass. Karak Vlag, which means \" Desolation Hold \" in Khazalid, was famed for its quality of stone-masonry. It had vast qualities of iron ore in the rocks below its walls.",
-          "image": "https://static.wikia.nocookie.net/warhammerfb/images/c/c8/Dwarf_Button.png/revision/latest?cb=20150606013001"
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
         }
       }
     },
@@ -2446,6 +2446,2892 @@
         "inkscape_coordinates": [
           248.9031526,
           471.0140808
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.599127362950398,
+          58.069466861356794
+        ]
+      },
+      "properties": {
+        "name": "Grung Azulduraz",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          1148.3156126,
+          30.3530358
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3599124477504,
+          57.059263830572796
+        ]
+      },
+      "properties": {
+        "name": "Grung Agril-Ril",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          1134.6493126,
+          88.06573180000001
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.552661244550396,
+          56.4706965741568
+        ]
+      },
+      "properties": {
+        "name": "Grung Karagzan",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          1145.6610125999998,
+          121.69046080000001
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.537170204550396,
+          53.094180750476795
+        ]
+      },
+      "properties": {
+        "name": "Grung Drazhungor",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          1144.7760125999998,
+          314.5901308
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.763775218950396,
+          51.999087800716794
+        ]
+      },
+      "properties": {
+        "name": "Grung Kolduraz",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          1100.5921125999998,
+          377.1525708
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.6320593501504,
+          46.4877459783168
+        ]
+      },
+      "properties": {
+        "name": "Grung Galaz-Ril",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          1035.9374126,
+          692.0144207999999
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.950593797190402,
+          45.963262773836796
+        ]
+      },
+      "properties": {
+        "name": "Grung Mhonarduk",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          997.0054226000001,
+          721.9780407999999
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6141451738304005,
+          45.65538614311679
+        ]
+      },
+      "properties": {
+        "name": "Grung Girtazul",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          863.5245826,
+          739.5669707999999
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.652745577350396,
+          51.6388866378368
+        ]
+      },
+      "properties": {
+        "name": "Grung Kadrinzan",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          1037.1192125999999,
+          397.7307908
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.415603428230401,
+          46.382447515596795
+        ]
+      },
+      "properties": {
+        "name": "Grung Varnizor",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          852.1819326000001,
+          698.0301007999999
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3790915421504,
+          45.201869755916796
+        ]
+      },
+      "properties": {
+        "name": "Grung Undrinzan",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          1021.4854126,
+          765.4762708
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.752537631750396,
+          44.6391179063168
+        ]
+      },
+      "properties": {
+        "name": "Grung Karagbryn",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          1042.8203125999999,
+          797.6261708
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6973440381504,
+          44.2054377520768
+        ]
+      },
+      "properties": {
+        "name": "Grung Konkril",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          1096.7969126,
+          822.4022308
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.409819852550397,
+          43.2657932752768
+        ]
+      },
+      "properties": {
+        "name": "Grung Bruzungor",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          1137.5005125999999,
+          876.0839308
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.2549357085504,
+          43.5463113290368
+        ]
+      },
+      "properties": {
+        "name": "Grung Skreeduraz",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          1128.6520126,
+          860.0579908
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8575178717504,
+          43.6857075837568
+        ]
+      },
+      "properties": {
+        "name": "Grung Zintungor",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          1048.8178126,
+          852.0943107999999
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.900540953350397,
+          44.081529386636795
+        ]
+      },
+      "properties": {
+        "name": "Grung  Rikgalbaraz",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          1051.2757126,
+          829.4810908
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3790915421504,
+          44.592652838156795
+        ]
+      },
+      "properties": {
+        "name": "Grung Rikghazagil",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          1021.4854126,
+          800.2807108
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.475079977350399,
+          43.9943171069568
+        ]
+      },
+      "properties": {
+        "name": "Kazad Mingoldrazh",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          1026.9692126,
+          834.4635108
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8316312061504,
+          43.8957480570368
+        ]
+      },
+      "properties": {
+        "name": "Kazad Grom-Und",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          1047.3389126,
+          840.0947408
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6534597597504,
+          44.5797427629568
+        ]
+      },
+      "properties": {
+        "name": "Kazad Grim-Bar",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          1094.2898126,
+          801.0182607999999
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1761422701504,
+          45.43936280263679
+        ]
+      },
+      "properties": {
+        "name": "Kazad Migdhalazul",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          952.7611626,
+          751.9083407999999
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.651375481670401,
+          47.089761225356796
+        ]
+      },
+      "properties": {
+        "name": "Kazad Bar-Karin",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          865.6515426000001,
+          657.6214107999999
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3758971987904,
+          47.82288755879679
+        ]
+      },
+      "properties": {
+        "name": "Kazad Vengrynaz",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          907.0433226,
+          615.7380508
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.5266127866304005,
+          40.890875936076796
+        ]
+      },
+      "properties": {
+        "name": "Kazad Drakkgrim",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          458.6152826,
+          1011.7624807999999
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.280997375750399,
+          42.061125110476794
+        ]
+      },
+      "properties": {
+        "name": "Kazad Urkdrengi",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          1015.8813126,
+          944.9063808
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.633667986950396,
+          42.455223644556796
+        ]
+      },
+      "properties": {
+        "name": "Kazad Grobithag",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          1093.1591125999998,
+          922.3916108
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.442643334150398,
+          42.0800563866368
+        ]
+      },
+      "properties": {
+        "name": "Kazad Raki-Und",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          1082.2459125999999,
+          943.8248408
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.265385577350397,
+          44.1159476768768
+        ]
+      },
+      "properties": {
+        "name": "Kazad Gorm-Mingol",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          1072.1192125999999,
+          827.5147807999999
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.580445305350397,
+          44.23297259431679
+        ]
+      },
+      "properties": {
+        "name": "Kazad Rik-Bar",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          1032.9887125999999,
+          820.8291707999999
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4034330912704,
+          45.1536845696768
+        ]
+      },
+      "properties": {
+        "name": "Kazad Gov-Kazak",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          908.6164426,
+          768.2290807999999
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.0845605245504,
+          51.6847161357568
+        ]
+      },
+      "properties": {
+        "name": "Kazad Kadrin-Bar",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          1118.9185126,
+          395.1125608
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.6240875824704,
+          39.190568883276796
+        ]
+      },
+      "properties": {
+        "name": "Kazad Varr-Mingol",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          749.8329926,
+          1108.9006808000001
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0275185277504,
+          43.828548275596795
+        ]
+      },
+      "properties": {
+        "name": "Kazad Grongbarag",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          1229.9193126,
+          843.9338508
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.649406145030401,
+          45.7198798061568
+        ]
+      },
+      "properties": {
+        "name": "Kazad Grundazul",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          979.7986326,
+          735.8824608
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.4706741629504005,
+          46.8298956160768
+        ]
+      },
+      "properties": {
+        "name": "Kazad Gromril",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          855.3281126,
+          672.4674808
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8545716967104005,
+          44.1830630890368
+        ]
+      },
+      "properties": {
+        "name": "Kazad Thryngund",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          820.1303026,
+          823.6804907999999
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9402477079104,
+          46.86603612487679
+        ]
+      },
+      "properties": {
+        "name": "Kazad Valayabarr",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          996.4143526,
+          670.4027808
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.805889823750396,
+          50.98944972903679
+        ]
+      },
+      "properties": {
+        "name": "Kazad Grimniraz",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          1045.8683125999999,
+          434.8329908
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.168763535750399,
+          51.917044277196794
+        ]
+      },
+      "properties": {
+        "name": "Kazad Dalbar",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          1180.8588126,
+          381.8397008
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.45512075832960003,
+          41.43396064135679
+        ]
+      },
+      "properties": {
+        "name": "Kazad Debmigdhal",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          402.52904259999997,
+          980.7361608
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.1344433157695994,
+          40.467739491276795
+        ]
+      },
+      "properties": {
+        "name": "Kazad Agrilmingdol",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          306.5896826,
+          1035.9361808
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3766415287104006,
+          41.680794522636795
+        ]
+      },
+      "properties": {
+        "name": "Kazad Zan-Kazak",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          564.3070526,
+          966.6345908
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5799622620095995,
+          40.23174706247679
+        ]
+      },
+      "properties": {
+        "name": "Khazid Urbazdrazh",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          395.3968726,
+          1049.4183808
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.065754207750397,
+          44.477346988556796
+        ]
+      },
+      "properties": {
+        "name": "Khazid Vithangdal",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          1060.7143125999999,
+          806.8681108
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.459977526150398,
+          45.34126828615679
+        ]
+      },
+      "properties": {
+        "name": "Khazid Gorogtrogg",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          1026.1064125999999,
+          757.5124608
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.022356598150399,
+          43.5824516627968
+        ]
+      },
+      "properties": {
+        "name": "Khazid Zornwyr",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          1229.6244126,
+          857.9933007999999
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.678299666950398,
+          44.5139350746368
+        ]
+      },
+      "properties": {
+        "name": "Khazid Ongadrindal",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          1038.5791126,
+          804.7778407999999
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.498199260550399,
+          35.4322062752768
+        ]
+      },
+      "properties": {
+        "name": "Khazid Skarrenawizorn",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          1028.2900126,
+          1323.6151808
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.2998439325504,
+          35.319037664076795
+        ]
+      },
+      "properties": {
+        "name": "Khazid Azul-Vithang",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          1016.9580126000001,
+          1330.0804808
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.864487964550397,
+          35.96034396487679
+        ]
+      },
+      "properties": {
+        "name": "Khazid Wyrstromez",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          1049.2160125999999,
+          1293.4427808
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5787229117504,
+          35.060272531276794
+        ]
+      },
+      "properties": {
+        "name": "Khazid Narvorn",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          1032.8903126,
+          1344.8636808
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.686029589190401,
+          34.5332708512768
+        ]
+      },
+      "properties": {
+        "name": "Khazid Yarurbaz",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          981.8909226000001,
+          1374.9711808
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9262565856704,
+          34.96126465607679
+        ]
+      },
+      "properties": {
+        "name": "Khazid Lokagril",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          995.6150426,
+          1350.5199808
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4029890339904,
+          35.22046388807679
+        ]
+      },
+      "properties": {
+        "name": "Kazad Brandund",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          965.7208726,
+          1335.7119808
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4869557219904,
+          34.750742297676794
+        ]
+      },
+      "properties": {
+        "name": "Khazid Azulokrid",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          970.5178726,
+          1362.5470808
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.2481229191104,
+          36.88985187527679
+        ]
+      },
+      "properties": {
+        "name": "Grung Rhynaz (Red Axe Mines)",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          956.8734026000001,
+          1240.3401808
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.642521646790401,
+          35.88460940807679
+        ]
+      },
+      "properties": {
+        "name": "Grung Ghuzhur",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          979.4053226000001,
+          1297.7694808
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.537543682310401,
+          36.060144771276796
+        ]
+      },
+      "properties": {
+        "name": "Kazad Morzundbar (Morzund's Gate)",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          973.4079526,
+          1287.7411808000002
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.844115739910402,
+          36.36252987207679
+        ]
+      },
+      "properties": {
+        "name": "Kazad Rikbar (King's Gate)",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          990.9223526000001,
+          1270.4659808000001
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9974455287104,
+          36.315675164876794
+        ]
+      },
+      "properties": {
+        "name": "Und-Uzgar",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          999.6820526,
+          1273.1427808
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.128752854150399,
+          37.166341558476795
+        ]
+      },
+      "properties": {
+        "name": "Grung Uzkul",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          1064.3134126,
+          1224.5443808
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.3411673757504,
+          37.4856215200768
+        ]
+      },
+      "properties": {
+        "name": "Grung Angazungstromez (Ironfont Mines)",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          1019.3188126,
+          1206.3039808
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.712542742150399,
+          37.5788303200768
+        ]
+      },
+      "properties": {
+        "name": "Grung Duraz-zharr (Flamestone Mine)",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          1040.5354126,
+          1200.9789808
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.5295469799104,
+          36.200068246476796
+        ]
+      },
+      "properties": {
+        "name": "West Gate",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          972.9511026,
+          1279.7473808
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.9530286035904,
+          36.198851718476796
+        ]
+      },
+      "properties": {
+        "name": "East Gate",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          997.1445226000001,
+          1279.8168808
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.035776838150401,
+          36.0455236800768
+        ]
+      },
+      "properties": {
+        "name": "Grung Brynduraz (Diamondhelm Mines)",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          1001.8719126000001,
+          1288.5764808000001
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.8289044138304,
+          36.2682183200768
+        ]
+      },
+      "properties": {
+        "name": "Kazad-Vala-Azril-Ungol (The Citadel)",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          990.0533326000001,
+          1275.8539808
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.1795844317504,
+          38.49530125127679
+        ]
+      },
+      "properties": {
+        "name": "Grung Angazduraz (Iron Rock)",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          952.9578126,
+          1148.6211808
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.431269215750401,
+          37.7516193056768
+        ]
+      },
+      "properties": {
+        "name": "Karag Dron (Thunder Mountain)",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          1024.4663126,
+          1191.1075808
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.6717776573504,
+          36.422409305676794
+        ]
+      },
+      "properties": {
+        "name": "Kazad Uzkulbar (Death's Gate)",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          981.0767126000001,
+          1267.0450808
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.904107374150401,
+          35.30120458887679
+        ]
+      },
+      "properties": {
+        "name": "Khazid Skratidal",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          994.3496626000001,
+          1331.0992808
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5856072349504,
+          35.65916664007679
+        ]
+      },
+      "properties": {
+        "name": "Khazid Krutivorn",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          1033.2836126,
+          1310.6489808000001
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.2001131421504,
+          35.20827410247679
+        ]
+      },
+      "properties": {
+        "name": "Khazid Hrukizorn",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          1011.2604126,
+          1336.4083808
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.325865359750402,
+          34.249700800076795
+        ]
+      },
+      "properties": {
+        "name": "Khazid Ziekstikdal",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          961.3148126000001,
+          1391.1714808000002
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.146886259590401,
+          34.160213350476795
+        ]
+      },
+      "properties": {
+        "name": "Khazid Angfluk-Gazan",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          951.0897726000001,
+          1396.2838808000001
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.752537631750396,
+          35.4801864896768
+        ]
+      },
+      "properties": {
+        "name": "Khazid Grummaldal",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          1042.8203125999999,
+          1320.8740808
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.967658290950398,
+          35.67981610887679
+        ]
+      },
+      "properties": {
+        "name": "Khazid Rikurbaz",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          1055.1101125999999,
+          1309.4692808
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7129558365504,
+          36.04121594567679
+        ]
+      },
+      "properties": {
+        "name": "Khazid Kalangrom",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          1040.5590126,
+          1288.8225808
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.351555999750401,
+          35.5163217472768
+        ]
+      },
+      "properties": {
+        "name": "Khazid Varrvornal",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          1019.9123126000001,
+          1318.8096808
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.681979007750398,
+          36.388850636876796
+        ]
+      },
+      "properties": {
+        "name": "Khazid Agrilizorkund",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          1038.7893126,
+          1268.9622808000001
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4397866621504,
+          37.64696288967679
+        ]
+      },
+      "properties": {
+        "name": "Khazid Zhufkarazkar",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          1024.9529126,
+          1197.0865808
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.404789183750399,
+          43.7387676339968
+        ]
+      },
+      "properties": {
+        "name": "Khazid Grombarkagrul",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          1080.0833126,
+          849.0630007999999
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.001069945350398,
+          43.5489330781568
+        ]
+      },
+      "properties": {
+        "name": "Khazid Ungordrazhbar",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          1114.1487126,
+          859.9082107999999
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.855797228550399,
+          44.379253347276794
+        ]
+      },
+      "properties": {
+        "name": "Khazid Kadrindukazak",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          1048.7195126,
+          812.4721807999999
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.998759729030402,
+          44.9282383008768
+        ]
+      },
+      "properties": {
+        "name": "Khazid Throngkarazaz",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          999.7571326000001,
+          781.1087808
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5563510493504,
+          44.843910680396796
+        ]
+      },
+      "properties": {
+        "name": "Grung Rhunthryngrom",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          1031.6122126,
+          785.9264007999999
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.134978969350401,
+          47.6778749706368
+        ]
+      },
+      "properties": {
+        "name": "Khazid Gormizorvorn",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          893.2797126,
+          624.0225908
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.0610403421504,
+          47.43206139751679
+        ]
+      },
+      "properties": {
+        "name": "Khazid Barkaringrom",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          946.1854126000001,
+          638.0658708
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.973441166470401,
+          39.24563646727679
+        ]
+      },
+      "properties": {
+        "name": "Khazid Varrurbazdal",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          769.7914926000001,
+          1105.7546808
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.395806188550399,
+          43.768314210956795
+        ]
+      },
+      "properties": {
+        "name": "Khazid Agrilvarnen",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          1250.9595126,
+          847.3750107999999
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.129179990150398,
+          44.2794376624768
+        ]
+      },
+      "properties": {
+        "name": "Khazid Grimkadrinund",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          1178.5974125999999,
+          818.1746307999999
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.5590629655104005,
+          41.703165859916794
+        ]
+      },
+      "properties": {
+        "name": "Khazid Wyrstromezrhun",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          574.7287526,
+          965.3565208
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.875843245689599,
+          41.5534417200768
+        ]
+      },
+      "properties": {
+        "name": "Khazid Kadrindgrombar",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          321.3634526,
+          973.9102307999999
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.603485607110402,
+          45.861041164236795
+        ]
+      },
+      "properties": {
+        "name": "Khazid Urbazzanvarr",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          920.0454026000001,
+          727.8179408
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.4164717512896,
+          39.866904188876795
+        ]
+      },
+      "properties": {
+        "name": "Khazid Rhundurazgrom",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          404.73705259999997,
+          1070.2617808
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.09637374375040023,
+          40.40212049607679
+        ]
+      },
+      "properties": {
+        "name": "Khazid Azulagrilurbaz",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          434.0358126,
+          1039.6849808
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.26158542279040037,
+          41.235067415436795
+        ]
+      },
+      "properties": {
+        "name": "Khazid Agrilkadrinaz",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          443.4743226,
+          992.0988907999999
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.19102609863040002,
+          41.5207424976768
+        ]
+      },
+      "properties": {
+        "name": "Khazid Gromungorduk",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          439.4432826,
+          975.7783307999999
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.47670476568960013,
+          41.278086996236794
+        ]
+      },
+      "properties": {
+        "name": "Khazid Drazhvarnen",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          401.29595259999996,
+          989.6411908
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.2719112074303999,
+          40.575936966476796
+        ]
+      },
+      "properties": {
+        "name": "Khazid Wyrvarnaz",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          444.06423259999997,
+          1029.7548808000001
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.523558707910401,
+          41.579987236236796
+        ]
+      },
+      "properties": {
+        "name": "Khazid Barkarinit",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          515.5706026,
+          972.3936908
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.1634907312704004,
+          41.021667574476794
+        ]
+      },
+      "properties": {
+        "name": "Khazid Grimmhonarduk",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          437.8701926,
+          1004.2903808
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.17725858648959997,
+          41.0750180160768
+        ]
+      },
+      "properties": {
+        "name": "Khazid Zanvarrund",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          418.4032526,
+          1001.2424808
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.2270425232703999,
+          33.11731102727679
+        ]
+      },
+      "properties": {
+        "name": "Kazad Ekrundkadrin",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          498.6306926,
+          1455.8646808
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.7520447021504001,
+          33.6336282656768
+        ]
+      },
+      "properties": {
+        "name": "Grung Bryngandaz (Gold-finder Mine)",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          471.4941626,
+          1426.3675808
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.6625684551104001,
+          33.754062787276794
+        ]
+      },
+      "properties": {
+        "name": "Grung Grundrhyn (Redhammer Mine)",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          466.3824026,
+          1419.4871808
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.123443094790401,
+          44.3301814083968
+        ]
+      },
+      "properties": {
+        "name": "Dok-a-Dum",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          778.3610726,
+          815.2756508
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.2743382522304,
+          44.20727322151679
+        ]
+      },
+      "properties": {
+        "name": "Vithang Dum",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          786.9816826,
+          822.2973708
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.5140672599104015,
+          44.2498676301568
+        ]
+      },
+      "properties": {
+        "name": "Zan Mingol",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          800.6773526000001,
+          819.8639608
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.478777270470401,
+          44.1841537632768
+        ]
+      },
+      "properties": {
+        "name": "Grung Mingol",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          798.6612426,
+          823.6181808
         ],
         "wiki": {
           "title": null,

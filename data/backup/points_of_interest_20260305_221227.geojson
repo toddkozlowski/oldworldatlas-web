@@ -2724,96 +2724,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -6.775407394947839,
-          54.90892911228767
-        ]
-      },
-      "properties": {
-        "name": "Monastery of Verena Iudex",
-        "type": "Monasteries and Temples",
-        "inkscape_coordinates": [
-          41.45233804,
-          210.91392183
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -8.26275341456384,
-          53.38148631228768
-        ]
-      },
-      "properties": {
-        "name": "Monastery of Combecreuse",
-        "type": "Monasteries and Temples",
-        "inkscape_coordinates": [
-          -43.519440960000004,
-          298.17642183
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -7.992601649699838,
-          49.08765271388767
-        ]
-      },
-      "properties": {
-        "name": "Hermitage of Saint-Clottard",
-        "type": "Monasteries and Temples",
-        "inkscape_coordinates": [
-          -28.085724959999997,
-          543.4822718300001
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.228096840380161,
-          44.28880683548768
-        ]
-      },
-      "properties": {
-        "name": "Temple of Sigmar Victorius",
-        "type": "Monasteries and Temples",
-        "inkscape_coordinates": [
-          784.33992004,
-          817.6393718300001
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.37534013830016,
-          44.22066043772768
-        ]
-      },
-      "properties": {
-        "name": "Shrine of the Divine Comet",
-        "type": "Monasteries and Temples",
-        "inkscape_coordinates": [
-          792.75190004,
-          821.5325618300001
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -2.26398416313984,
           53.34157999292767
         ]
@@ -4110,7 +4020,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          5.74257228870016,
+          5.7401385325401595,
           44.85468367420768
         ]
       },
@@ -4118,7 +4028,7 @@
         "name": "Fort Blackfire",
         "type": "Forts and Castles",
         "inkscape_coordinates": [
-          756.60200004,
+          756.46296004,
           785.31094183
         ]
       }
@@ -5424,150 +5334,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -10.37103300441984,
-          56.00999075100768
-        ]
-      },
-      "properties": {
-        "name": "Fort Henaff",
-        "type": "Forts and Castles",
-        "inkscape_coordinates": [
-          -163.96502995999998,
-          148.01049182999998
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -11.073496880899839,
-          54.221406125087675
-        ]
-      },
-      "properties": {
-        "name": "Château Pendrach",
-        "type": "Forts and Castles",
-        "inkscape_coordinates": [
-          -204.09664996,
-          250.19197183
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -9.29919079289984,
-          52.54777394300767
-        ]
-      },
-      "properties": {
-        "name": "Château Planquet",
-        "type": "Forts and Castles",
-        "inkscape_coordinates": [
-          -102.73089995999999,
-          345.80624183
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -7.258996546851839,
-          50.318276159967674
-        ]
-      },
-      "properties": {
-        "name": "Château Roux",
-        "type": "Forts and Castles",
-        "inkscape_coordinates": [
-          13.82498704,
-          473.17700183
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -8.27005858643584,
-          48.625715502367676
-        ]
-      },
-      "properties": {
-        "name": "Château Bugnaud",
-        "type": "Forts and Castles",
-        "inkscape_coordinates": [
-          -43.93678396,
-          569.87265183
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -7.446581114026239,
-          48.82706488956767
-        ]
-      },
-      "properties": {
-        "name": "Château Eponine",
-        "type": "Forts and Castles",
-        "inkscape_coordinates": [
-          3.1083184399999997,
-          558.3696018300001
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -7.114436052003839,
-          48.412316186527676
-        ]
-      },
-      "properties": {
-        "name": "Château",
-        "type": "Forts and Castles",
-        "inkscape_coordinates": [
-          22.083699040000003,
-          582.06411183
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          6.0090542349401606,
-          44.38372630140768
-        ]
-      },
-      "properties": {
-        "name": "Black Fire Keep",
-        "type": "Forts and Castles",
-        "inkscape_coordinates": [
-          771.82606004,
-          812.2166418300001
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -2.61253168793984,
           53.13041698812768
         ]
@@ -6090,16 +5856,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.88317639622016,
-          36.33817653884768
+          9.8880444784704,
+          36.33391783367681
         ]
       },
       "properties": {
         "name": "Karag Lhune (Crescent Mountain)",
         "type": "Other",
         "inkscape_coordinates": [
-          993.15388004,
-          1271.85728183
+          993.4319926000001,
+          1272.1005807999998
         ]
       }
     },
@@ -6352,42 +6118,6 @@
         "inkscape_coordinates": [
           438.73443253999994,
           108.10442943000001
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -4.338249679499481,
-          54.90139314171447
-        ]
-      },
-      "properties": {
-        "name": "Landrel's Barrow",
-        "type": "Other",
-        "inkscape_coordinates": [
-          180.6866682187225,
-          211.344450313387
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.80943396966016,
-          36.096022702047684
-        ]
-      },
-      "properties": {
-        "name": "Karag Mhonar (Shadow Mountain)",
-        "type": "Other",
-        "inkscape_coordinates": [
-          988.9409900400001,
-          1285.69148183
         ]
       }
     }

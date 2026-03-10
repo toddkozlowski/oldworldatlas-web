@@ -1,0 +1,2459 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.8271529658304005,
+          44.649430737996795
+        ]
+      },
+      "properties": {
+        "name": "Khazid Ank",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          475.7850826,
+          797.0370008
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.9209362471104007,
+          44.74321454439679
+        ]
+      },
+      "properties": {
+        "name": "Khazid Thran",
+        "hold_type": "Khazid (Town)",
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          481.1429026,
+          791.6791508
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.6858993616704004,
+          44.679533942156795
+        ]
+      },
+      "properties": {
+        "name": "Khazid Rhek",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          467.7152926,
+          795.3172108
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.0191746464704,
+          45.094540304076794
+        ]
+      },
+      "properties": {
+        "name": "Khazid Grimaz",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          486.7552426,
+          771.6079808
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.9200538298304,
+          47.087077512076796
+        ]
+      },
+      "properties": {
+        "name": "Kolaz Ungor",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          881.0010826,
+          657.7747307999999
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.9885636106304005,
+          47.5215728275968
+        ]
+      },
+      "properties": {
+        "name": "Skraklaz Ungor",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          884.9150326,
+          632.9521007999999
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.9323383527104001,
+          45.28326493127679
+        ]
+      },
+      "properties": {
+        "name": "Kazad Skom",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          481.7943026,
+          760.8261808
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.0168588672704002,
+          44.9903367165568
+        ]
+      },
+      "properties": {
+        "name": "Kazad Almon",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          486.6229426,
+          777.5611107999999
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.9872349138784003,
+          44.1307006974752
+        ]
+      },
+      "properties": {
+        "name": "Kazad Thurgaraz",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          484.9305321,
+          826.6719436999999
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.9418818835904006,
+          41.994791601996795
+        ]
+      },
+      "properties": {
+        "name": "Karak Skivark (Grimhold)",
+        "hold_type": "Karak (Great Hold)",
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          482.3395226,
+          948.6960008
+        ],
+        "wiki": {
+          "title": "Grimhold",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Grimhold",
+          "description": "Grimhold is a declining Grey Dwarf hold located in the southern Grey Mountains.",
+          "image": "https://static.wikia.nocookie.net/warhammerfb/images/2/2b/The_Vaults_Map_Nagash_pp.69.png/revision/latest?cb=20220423104235"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.395934145030401,
+          43.564160332876796
+        ]
+      },
+      "properties": {
+        "name": "Grung Tepskaf",
+        "hold_type": "Grung (Mining Settlement)",
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          736.7986326,
+          859.0382807999999
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.4974540192704,
+          43.914565032076794
+        ]
+      },
+      "properties": {
+        "name": "Kazad Nardak",
+        "hold_type": "Kazad (Fortress)",
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          742.5984426,
+          839.0197307999999
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.278493001670402,
+          44.2092966839168
+        ]
+      },
+      "properties": {
+        "name": "Migdhal Vongalbavak",
+        "hold_type": "Kazad (Fortress)",
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          787.2190426000001,
+          822.1817708
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.727875080710401,
+          43.148260916876794
+        ]
+      },
+      "properties": {
+        "name": "Khazid Hafak",
+        "hold_type": "Khazid (Town)",
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          698.6325526,
+          882.7985308
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.729512929990401,
+          42.8879144727168
+        ]
+      },
+      "properties": {
+        "name": "Kazad Zhum",
+        "hold_type": "Kazad (Fortress)",
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          698.7261226,
+          897.6720707999999
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.665653961990402,
+          43.0287317021568
+        ]
+      },
+      "properties": {
+        "name": "Grung Trag",
+        "hold_type": "Grung (Mining Settlement)",
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          695.0778726000001,
+          889.6272108
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.248576682630401,
+          41.8691653939968
+        ]
+      },
+      "properties": {
+        "name": "Khazid Grentaz",
+        "hold_type": "Khazid (Town)",
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          614.1205326,
+          955.8730008
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.618296345670402,
+          42.008476229196795
+        ]
+      },
+      "properties": {
+        "name": "Khazid Svarkungor",
+        "hold_type": "Khazid (Town)",
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          635.2425426000001,
+          947.9142008
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.575146360070402,
+          41.8268797559168
+        ]
+      },
+      "properties": {
+        "name": "Grung Rakadem",
+        "hold_type": "Grung (Mining Settlement)",
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          632.7773926000001,
+          958.2887708
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0684611053504005,
+          39.163276646476795
+        ]
+      },
+      "properties": {
+        "name": "Dok Karaz",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          775.2199626,
+          1110.4598808
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.252216697030401,
+          39.386834233676794
+        ]
+      },
+      "properties": {
+        "name": "Khazid Varrwyndak",
+        "hold_type": "Khazid (Town)",
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          785.7178826,
+          1097.6880808
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.6886433727295997,
+          48.8627879459968
+        ]
+      },
+      "properties": {
+        "name": "Grimbringrungaz",
+        "hold_type": "Grung (Mining Settlement)",
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          389.1879426,
+          556.3287508
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.7714168514495996,
+          49.98113215911679
+        ]
+      },
+      "properties": {
+        "name": "Kazad Elgazund",
+        "hold_type": "Kazad (Fortress)",
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          270.1995126,
+          492.4379708
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.9531682351295996,
+          50.11048654407679
+        ]
+      },
+      "properties": {
+        "name": "Grung Ardzufak",
+        "hold_type": "Grung (Mining Settlement)",
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          259.8160926,
+          485.0479808
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.6184536682304012,
+          55.3321553706368
+        ]
+      },
+      "properties": {
+        "name": "Karak Skygg",
+        "hold_type": "Karak (Great Hold)",
+        "tags": [
+          "source:4eTHRC"
+        ],
+        "notes": [
+          "fallen"
+        ],
+        "inkscape_coordinates": [
+          520.9919326,
+          186.7350908
+        ],
+        "wiki": {
+          "title": "Karak Skygg",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Karak_Skygg",
+          "description": "Karak Skygg is an abandoned Dwarf hold that stands high in the Middle Mountains in the old Dwarfen realm of Karaz Ghumzul. For centuries this hold was home to the mountain folk but was never a major settlement -- perhaps the equivalent of a small Human town or fortress. At some point in the past, for unknown reasons, the Dwarfs of the Middle Mountains abandoned and sealed their holds to return to the Worlds Edge Mountains.",
+          "image": "https://static.wikia.nocookie.net/warhammerfb/images/6/68/Horned_Rat_Companion_Middle_Mountains%E2%80%99.png/revision/latest?cb=20230916114706"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.8018418509504017,
+          55.25192298599679
+        ]
+      },
+      "properties": {
+        "name": "Karak Kazarak",
+        "hold_type": "Karak (Great Hold)",
+        "tags": [
+          "source:4eMCotWW"
+        ],
+        "notes": [
+          "fallen"
+        ],
+        "inkscape_coordinates": [
+          531.4688626000001,
+          191.3187508
+        ],
+        "wiki": {
+          "title": "Karak Kazarak",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Karak_Kazarak",
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.4549660733504,
+          46.769372035276795
+        ]
+      },
+      "properties": {
+        "name": "Karak Varn (Cragmere)",
+        "hold_type": "Karak (Great Hold)",
+        "tags": [
+          "source:1eDSaS"
+        ],
+        "notes": [
+          "fallen"
+        ],
+        "inkscape_coordinates": [
+          854.4307126,
+          675.9251807999999
+        ],
+        "wiki": {
+          "title": "Karak Varn",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Karak_Varn",
+          "description": "Karak-Varn (in Khazalid, lit. \"Stronghold of lake enclosed by mountains\"), nowadays sometimes called Cragmere, was once a flourishing hold of the Dwarfs. Today, it is a ruin, given up to the Skaven and other enemies of the Dwarfs. It is one of two Dwarf holds which overlook the Black Water Lake, at the junction of the Black Mountains and the Worlds Edge Mountains.",
+          "image": "https://static.wikia.nocookie.net/warhammerfb/images/c/c8/Dwarf_Button.png/revision/latest?cb=20150606013001"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.789367798150398,
+          51.377436741516796
+        ]
+      },
+      "properties": {
+        "name": "Khazid Rhyn",
+        "hold_type": "Khazid (Town)",
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          1044.9244125999999,
+          412.6673708
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.594963142150398,
+          53.873039784716795
+        ]
+      },
+      "properties": {
+        "name": "Karak Ungor (Red-Eye Mountain)",
+        "hold_type": "Karak (Great Hold)",
+        "tags": [
+          "source:1eDSaS"
+        ],
+        "notes": [
+          "fallen"
+        ],
+        "inkscape_coordinates": [
+          1090.9479125999999,
+          270.0940708
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3023908029504,
+          53.056779603596794
+        ]
+      },
+      "properties": {
+        "name": "Karak Raziak",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          1131.3631126,
+          316.7268508
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.371858927750399,
+          53.73526002439679
+        ]
+      },
+      "properties": {
+        "name": "Khazid Irkulaz",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          1135.3318126,
+          277.9654008
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.222087625350401,
+          47.8181269959168
+        ]
+      },
+      "properties": {
+        "name": "Oakenhammer",
+        "hold_type": "Khazid (Town)",
+        "tags": [
+          "source:TWW3"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          898.2562126,
+          616.0100207999999
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.519848663289599,
+          41.6717059207168
+        ]
+      },
+      "properties": {
+        "name": "Kazad Frukund",
+        "hold_type": "Kazad (Fortress)",
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          284.5715526,
+          967.1538208
+        ],
+        "wiki": {
+          "title": "Kazad Frukund",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Kazad_Frukund",
+          "description": "Kazad Frukund is large Dwarf fort and the westernmost Dwarf stronghold of the Irrana Mountains on the Novalone Pass, with a garrison of about 230 adult Dwarfs. The fort is under the influence of Karak Eksfilaz a Dwarf hold in the the Vaults.",
+          "image": "https://static.wikia.nocookie.net/warhammerfb/images/6/6b/Western_Dwarf_Realms.png/revision/latest?cb=20210727083944"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.5068223423295992,
+          41.37294134727679
+        ]
+      },
+      "properties": {
+        "name": "Grung Mizpal",
+        "hold_type": "Grung (Mining Settlement)",
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          342.4455426,
+          984.2221807999999
+        ],
+        "wiki": {
+          "title": "Grung Mizpal",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Grung_Mizpal",
+          "description": "Grung Mizpal is a small mining outpost with about 57 adult Dwarfs located in The Vaults. It is under the influence of Karak Eksfilaz.",
+          "image": "https://static.wikia.nocookie.net/warhammerfb/images/6/6b/Western_Dwarf_Realms.png/revision/latest?cb=20210727083944"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.26422275047040017,
+          41.4891906624768
+        ]
+      },
+      "properties": {
+        "name": "Karak Kaferkammaz",
+        "hold_type": "Karak (Great Hold)",
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          443.6249926,
+          977.5808807999999
+        ],
+        "wiki": {
+          "title": "Karak Kaferkammaz",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Karak_Kaferkammaz",
+          "description": "Karak Kaferkammaz (\" Marble Layers Hold \" in Khazalid ) is the highest Dwarf hold in The Vaults. The hold is ruled by King Skalf Redbeard, and earns a moderate amount of wealth from trade, ore mining and metalworking. Approximately 2,500 able-bodied adult Dwarfs live there.",
+          "image": "https://static.wikia.nocookie.net/warhammerfb/images/6/6b/Western_Dwarf_Realms.png/revision/latest?cb=20210727083944"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.5658197493695996,
+          41.02379781127679
+        ]
+      },
+      "properties": {
+        "name": "Karak Eksfilaz",
+        "hold_type": "Karak (Great Hold)",
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          339.0750326,
+          1004.1686808
+        ],
+        "wiki": {
+          "title": "Karak Eksfilaz",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Karak_Eksfilaz",
+          "description": "Karak Eksfilaz is a Dwarf hold located in The Vaults. The westernmost of all the holds of the Karaz Ankor, Karak Eksfilaz (\"Whispering Aspen Mountain\" in Khazalid ), takes its name from the heavily forested, aspen-covered peak upon which it stands. Much of the hold's trade is conducted with northern Tilea, particularly through the towns of Campogrotta and Toscania.",
+          "image": "https://static.wikia.nocookie.net/warhammerfb/images/6/6b/Western_Dwarf_Realms.png/revision/latest?cb=20210727083944"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.5344507469504005,
+          41.7309261536768
+        ]
+      },
+      "properties": {
+        "name": "Grung Byrn",
+        "hold_type": "Grung (Mining Settlement)",
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          516.1928626,
+          963.7705808
+        ],
+        "wiki": {
+          "title": "Grung Byrn",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Grung_Byrn",
+          "description": "Grung Byrn is a mining outpost located in The Vaults that is home to about 52 adult Dwarfs.",
+          "image": "https://static.wikia.nocookie.net/warhammerfb/images/6/6b/Western_Dwarf_Realms.png/revision/latest?cb=20210727083944"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.7143881719104007,
+          41.4526109783168
+        ]
+      },
+      "properties": {
+        "name": "Khazid Algikarag",
+        "hold_type": "Khazid (Town)",
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          469.3428526,
+          979.6706707999999
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.5942795747904005,
+          41.33769721831679
+        ]
+      },
+      "properties": {
+        "name": "Grung Ikree",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          462.4810726,
+          986.2356708
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.4714865642304,
+          41.4421315085568
+        ]
+      },
+      "properties": {
+        "name": "Grung Wyruvalk",
+        "hold_type": "Grung (Mining Settlement)",
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          455.4659326,
+          980.2693608
+        ],
+        "wiki": {
+          "title": "Grung Wyruvalk",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Grung_Wyruvalk",
+          "description": "Grung Wyruvalk is a Dwarf silver mine located in The Vaults that is owned by Karak Kaferkammaz.",
+          "image": "https://static.wikia.nocookie.net/warhammerfb/images/6/6b/Western_Dwarf_Realms.png/revision/latest?cb=20210727083944"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.15627601656959977,
+          40.41525374727679
+        ]
+      },
+      "properties": {
+        "name": "Khazid Wyrwarn",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          419.6019826,
+          1038.9346808
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.1177221664703998,
+          40.84984305927679
+        ]
+      },
+      "properties": {
+        "name": "Khazid Nekewukaz",
+        "hold_type": "Khazid (Town)",
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          492.38524259999997,
+          1014.1066807999999
+        ],
+        "wiki": {
+          "title": "Khazid Nekewukaz",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Khazid_Nekewukaz",
+          "description": "Khazid Nekewukaz is a small village in The Vaults housing about 75 adult Dwarfs.",
+          "image": "https://static.wikia.nocookie.net/warhammerfb/images/6/6b/Western_Dwarf_Realms.png/revision/latest?cb=20210727083944"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.8661966880704001,
+          41.101367662476804
+        ]
+      },
+      "properties": {
+        "name": "Grung Agrilebaz",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          478.0156426,
+          999.7371307999999
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.4103724824895998,
+          39.90011452807679
+        ]
+      },
+      "properties": {
+        "name": "Khazid Urbaz",
+        "hold_type": "Khazid (Town)",
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          405.0855026,
+          1068.3644808000001
+        ],
+        "wiki": {
+          "title": "Khazid Urbaz",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Khazid_Urbaz",
+          "description": "Khazid Urbaz, meaning \"trading post town\" in Khazalid, is a village of Karak Grom with a population of about 90 Dwarfs. Situated upon the banks of the River Skiros, the small Dwarf hold of Khazid Urbaz serves as the main trade centre for the Dwarfs of The Vaults and the Apuccini Mountains with the Men of the Border Princes and Tilea.",
+          "image": "https://static.wikia.nocookie.net/warhammerfb/images/6/6b/Western_Dwarf_Realms.png/revision/latest?cb=20210727083944"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.8087626472895998,
+          39.7753967776768
+        ]
+      },
+      "properties": {
+        "name": "Kazad Sedazund",
+        "hold_type": "Kazad (Fortress)",
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          382.3255526,
+          1075.4895808
+        ],
+        "wiki": {
+          "title": "Kazad Sedazund",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Kazad_Sedazund",
+          "description": "Kazad Sedazund is a Dwarf fort situated in the Apuccini Mountains in the land of Tilea. It is the southernmost Dwarf outpost in the Apuccini Mountains. Kazad Sedazund is considered a subsidiary settlement of Karak Grom, a Dwarf hold to the north in The Vaults.",
+          "image": "https://static.wikia.nocookie.net/warhammerfb/images/6/6b/Western_Dwarf_Realms.png/revision/latest?cb=20210727083944"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.761756969350401,
+          36.2360442176768
+        ]
+      },
+      "properties": {
+        "name": "Karak Eight Peaks",
+        "hold_type": "Karak (Great Hold)",
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          986.2172126,
+          1277.6920808
+        ],
+        "wiki": {
+          "title": "Karak Eight Peaks",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Karak_Eight_Peaks",
+          "description": "Karak Eight Peaks, now called the City of Pillars by the Skaven who currently rule it, is the Dwarf hold originally known as Vala-Azril-Ungol, \"Queen of the Silver Depths\" in Khazalid, the Dwarf tongue. Karaz Eight Peaks was once one of the greatest kingdoms ever created by the Dwarfs of the Golden Age, rivaling even their capital city of Karaz-a-Karak in terms of sheer power, wealth, and beauty.",
+          "image": "https://static.wikia.nocookie.net/warhammerfb/images/4/4e/K8P_inside.png/revision/latest?cb=20200326031012"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.3033560909504,
+          37.02931499527679
+        ]
+      },
+      "properties": {
+        "name": "Karak Drazh (Black Crag)",
+        "hold_type": "Karak (Great Hold)",
+        "tags": [
+          "source:1eDSaS"
+        ],
+        "notes": [
+          "fallen"
+        ],
+        "inkscape_coordinates": [
+          960.0288626,
+          1232.3726808000001
+        ],
+        "wiki": {
+          "title": "Karak Drazh",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Karak_Drazh",
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.6443788618304014,
+          55.60144233287679
+        ]
+      },
+      "properties": {
+        "name": "Kazad Drengi (Keep of the First Slayer)",
+        "hold_type": "Kazad (Fortress)",
+        "tags": [
+          "source:4eTHRC"
+        ],
+        "notes": [
+          "fallen"
+        ],
+        "inkscape_coordinates": [
+          579.6028326,
+          171.3507808
+        ],
+        "wiki": {
+          "title": "Keep of the First Slayer",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Keep_of_the_First_Slayer",
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.856504145529599,
+          50.03552723943679
+        ]
+      },
+      "properties": {
+        "name": "Karak Ziflin",
+        "hold_type": "Karak (Great Hold)",
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          265.3384926,
+          489.33039080000003
+        ],
+        "wiki": {
+          "title": "Karak Ziflin",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Karak_Ziflin",
+          "description": "Karak Ziflin (\" Windswept Hold \" in Khazalid ) is the smallest of the Grey Dwarf holds of the Grey Mountains. Karak Ziflin sits north of Axe Bite Pass that divides the lands of Bretonnia and the Empire, located more on the Bretonnian side of the divide. Winds from the western Sea of Claws frequently blow through the kingdom.",
+          "image": "https://static.wikia.nocookie.net/warhammerfb/images/9/9a/Karak_Ziflin_banner_Total_War.png/revision/latest?cb=20171118185626"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.6763058533695999,
+          48.76572336487679
+        ]
+      },
+      "properties": {
+        "name": "Karak Azgaraz",
+        "hold_type": "Karak (Great Hold)",
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          389.8927826,
+          561.8740307999999
+        ],
+        "wiki": {
+          "title": "Karak Azgaraz",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Karak_Azgaraz",
+          "description": "Karak Azgaraz ( Khazalid for \" Hold of the Fearless Axe \") is one of the major Dwarf holds, located not too far from the Imperial trading city of Übersreik. There are many Dwarf strongholds scattered throughout the Grey Mountains, though none are as wealthy or as magnificent as the surviving karaks of the Worlds Edge Mountains far to the east. The Dwarfs of this region are called \" Grey Dwarfs \" by their eastern kin, which is a reference not only to their location, but also to their dour outlook and the relative austerity of their holds.",
+          "image": "https://static.wikia.nocookie.net/warhammerfb/images/7/78/Karak_Azgaraz_map_1.png/revision/latest?cb=20161014163730"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.7866621879104,
+          44.78106659431679
+        ]
+      },
+      "properties": {
+        "name": "Karak Norn",
+        "hold_type": "Karak (Great Hold)",
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          473.4718526,
+          789.5166707999999
+        ],
+        "wiki": {
+          "title": "Karak Norn",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Karak_Norn",
+          "description": "Karak Norn (\" Barren Earth Hold \" in Khazalid ) is a Dwarf hold built on a forested and valley-ringed mountain amongst the Grey Mountains. It is believed to be the first hold to have been ruled by a Dwarf queen, Hadora Ironpick, who led her people there following the fall of Mount Silverspear in -1367 IC.",
+          "image": "https://static.wikia.nocookie.net/warhammerfb/images/e/ee/Karak_Norn-Rune.png/revision/latest?cb=20211116192926"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.8385347597888,
+          44.88287278148479
+        ]
+      },
+      "properties": {
+        "name": "Bergheim",
+        "hold_type": "Umgalkhazid (Human Town)",
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          476.4353222,
+          783.7005038
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.28764327751040014,
+          40.49830497607679
+        ]
+      },
+      "properties": {
+        "name": "Karak Izor",
+        "hold_type": "Karak (Great Hold)",
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          444.9630026,
+          1034.1899808
+        ],
+        "wiki": {
+          "title": "Karak Izor",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Karak_Izor",
+          "description": "Karak Izor (\" Copper Hold \" in Khazalid ), called \" Copper Mountain\" by Humans, is the first and largest Dwarf hold outside the Worlds Edge Mountains. Its age and prestige is such that Dwarf settlements across The Vaults and as far afield as the eastern Irrana and northern Apuccini Mountains look to Karak Izor for protection and guidance.",
+          "image": "https://static.wikia.nocookie.net/warhammerfb/images/6/6b/Western_Dwarf_Realms.png/revision/latest?cb=20210727083944"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.5088867184704005,
+          41.8992857520768
+        ]
+      },
+      "properties": {
+        "name": "Karak Hirn",
+        "hold_type": "Karak (Great Hold)",
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          628.9919926,
+          954.1522308
+        ],
+        "wiki": {
+          "title": "Karak Hirn",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Karak_Hirn",
+          "description": "Karak Hirn, (\" Hornhold \" in Khazalid ), is the biggest and most important Dwarf hold in the Black Mountains between the northern Border Princes and the southern borders of the Empire. The hold is currently ruled by King Alrik Ranulfsson of Clan Drazhkarak and his wife, Queen Winnifer Falxenheir.",
+          "image": "https://static.wikia.nocookie.net/warhammerfb/images/7/73/Karak_Hirn_banner.png/revision/latest?cb=20210325232846"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.8016164570304,
+          42.9873392931968
+        ]
+      },
+      "properties": {
+        "name": "Karak Gantuk",
+        "hold_type": "Karak (Great Hold)",
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          702.8453826,
+          891.9919507999999
+        ],
+        "wiki": {
+          "title": "Karak Gantuk",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Karak_Gantuk",
+          "description": "Karak Gantuk (\" Gap Hold \" in Khazalid ) is a small Dwarf hold located in the central Black Mountains.",
+          "image": "https://static.wikia.nocookie.net/warhammerfb/images/a/ad/Warhammer_Black_Mountains.png/revision/latest?cb=20170408202909"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.5179792096704015,
+          43.7339942931968
+        ]
+      },
+      "properties": {
+        "name": "Karak Angazbar",
+        "hold_type": "Karak (Great Hold)",
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          743.7710426000001,
+          849.3357007999999
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.3031943347904,
+          47.686677032076794
+        ]
+      },
+      "properties": {
+        "name": "Zhufbar",
+        "hold_type": "Karak (Great Hold)",
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          902.8898226,
+          623.5197307999999
+        ],
+        "wiki": {
+          "title": "Zhufbar",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Zhufbar",
+          "description": "Zhufbar ( Khazalid for \"Torrent-gate\") is a Dwarf hold of the Karaz Ankor and the twin of neighbouring Karak Varn where the metals, gromril in particular, mined out from beneath Karak Varn are smelted and forged into the weapons and armour which make the Dwarfs famous.",
+          "image": "https://static.wikia.nocookie.net/warhammerfb/images/1/19/Dwarf_zhufbar.jpg/revision/latest?cb=20140805132000"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.689467218950396,
+          44.1882649277568
+        ]
+      },
+      "properties": {
+        "name": "Karaz-a-Karak",
+        "hold_type": "Karak (Great Hold)",
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          1039.2171125999998,
+          823.3833108
+        ],
+        "wiki": {
+          "title": "Karaz-a-Karak",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Karaz-a-Karak",
+          "description": "Karaz-a-Karak, also spelled Caraz-a-Carak, which translates roughly as \" Everpeak \", or the \" Pinnacle of Mountains \" in the Dwarf tongue Khazalid, is the greatest city of the Dwarf people and the seat of power for High King Thorgrim Grudgebearer of the Karaz Ankor. Karaz-a-Karak is the mightiest and most populous of all Dwarf holds, the capital of the Dwarf empire of Karaz Ankor and the capital hold of the Dwarf high king.",
+          "image": "https://static.wikia.nocookie.net/warhammerfb/images/5/5e/Karaz-a-Karak_Gates_6th_Edition.jpg/revision/latest?cb=20151214230954"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4139087485504,
+          51.4616687901568
+        ]
+      },
+      "properties": {
+        "name": "Karak Kadrin",
+        "hold_type": "Karak (Great Hold)",
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          1023.4745126,
+          407.8552108
+        ],
+        "wiki": {
+          "title": "Karak Kadrin",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Karak_Kadrin",
+          "description": "Karak Kadrin, which means \" Hold of the Mountain Pass \" in Khazalid, also known as \" Slayers Keep,\" is a Dwarf hold which guards a region of mountainous passes known simply as Peak Pass, an important trading route which runs through the Worlds Edge Mountains from the distant east to the Old World.",
+          "image": "https://static.wikia.nocookie.net/warhammerfb/images/9/98/Dwarf_KadrinValley01.jpg/revision/latest?cb=20140805185213"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.137733535430401,
+          39.2090408544768
+        ]
+      },
+      "properties": {
+        "name": "Barak Varr",
+        "hold_type": "Karak (Great Hold)",
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          779.1774826000001,
+          1107.8453808000002
+        ],
+        "wiki": {
+          "title": "Barak Varr",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Barak_Varr",
+          "description": "Barak Varr, which means the \" Gate to the Sea \" in Khazalid, is unique amongst the Dwarf holds of the Karaz Ankor for being the only hold built to serve as a great harbour. Approaching from the land there is no indication at all of the busy port that lies ahead. In fact, even standing on the cliff edge it seems to the unsuspecting eye that the ships are destined to smash themselves into the cliff face.",
+          "image": "https://static.wikia.nocookie.net/warhammerfb/images/6/6b/Western_Dwarf_Realms.png/revision/latest?cb=20210727083944"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.9371785587904001,
+          33.5224586112768
+        ]
+      },
+      "properties": {
+        "name": "Ekrund",
+        "hold_type": "Karak (Great Hold)",
+        "tags": [
+          "source:1eDSaS"
+        ],
+        "notes": [
+          "fallen"
+        ],
+        "inkscape_coordinates": [
+          482.0708226,
+          1432.7186808000001
+        ],
+        "wiki": {
+          "title": "Ekrund",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Ekrund",
+          "description": "Ekrund, now called Mount Bloodhorn, is a fallen Dwarf hold. In -1498 IC, the Badlands were overrun by Greenskins. Ekrund fell to the Orcs after many months of intense fighting by the vastly outnumbered Dwarfs.",
+          "image": "https://static.wikia.nocookie.net/warhammerfb/images/d/df/Warhammer_Gates_of_Ekrund_by_Lanefenu.jpg/revision/latest?cb=20200326022136"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.497271548550398,
+          35.32054825927679
+        ]
+      },
+      "properties": {
+        "name": "Karak Azul",
+        "hold_type": "Karak (Great Hold)",
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          1028.2370125999998,
+          1329.9941808
+        ],
+        "wiki": {
+          "title": "Karak Azul",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Karak_Azul",
+          "description": "Karak Azul (\" Iron Peak \" in Khazalid ) is a Dwarf hold located in the southern Worlds Edge Mountains. It is the only southern karak still ruled by the Dwarfs. The territories of the High Elves of Ulthuan and the Dwarfs of the Karaz Ankor in the Old World at the dawn of the War of the Beard.",
+          "image": "https://static.wikia.nocookie.net/warhammerfb/images/3/32/Karak_Azul.PNG/revision/latest?cb=20151004194357"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.8569979837504,
+          34.894471142476796
+        ]
+      },
+      "properties": {
+        "name": "Karak Azgal",
+        "hold_type": "Karak (Great Hold)",
+        "tags": [
+          "source:2eKAAotDC"
+        ],
+        "notes": [
+          "fallen"
+        ],
+        "inkscape_coordinates": [
+          991.6583126,
+          1354.3358808
+        ],
+        "wiki": {
+          "title": "Karak Azgal",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Karak_Azgal",
+          "description": "Karak Azgal, which means \" Hoard Peak \" in Reikspiel and Khazalid, formerly called Karak Izril, meaning the \" City of Jewels \", and known today as the \" Dragon Crag \", was once an extremely wealthy Dwarf Hold that has since fallen under the control of the Greenskins and the Skaven.",
+          "image": "https://static.wikia.nocookie.net/warhammerfb/images/d/d0/Karak_Azgal_Sigil.png/revision/latest?cb=20200407212131"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.6877678226495995,
+          41.0281895648768
+        ]
+      },
+      "properties": {
+        "name": "Karak Bhufdar",
+        "hold_type": "Karak (Great Hold)",
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          389.2379626,
+          1003.9177808
+        ],
+        "wiki": {
+          "title": "Karak Bhufdar",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Karak_Bhufdar",
+          "description": "Karak Bhufdar ( Khazalid for \"Grey Fir Hold\") is a Dwarf hold located in the mountainous region known as The Vaults in the Old World. The hold is located at the end of a mountain valley surrounded by a mixed forest of grey fir trees and broadleaf trees like Bretonnian oaks. Besides the usual products of ore and stone produced by most Dwarf cities, Karak Bhufdar trades in timber.",
+          "image": "https://static.wikia.nocookie.net/warhammerfb/images/2/2b/The_Vaults_Map_Nagash_pp.69.png/revision/latest?cb=20220423104235"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.161812716550399,
+          43.55469784551679
+        ]
+      },
+      "properties": {
+        "name": "Karag Agilwutraz (Mount Silverspear)",
+        "hold_type": "Karak (Great Hold)",
+        "tags": [
+          "source:1eDSaS"
+        ],
+        "notes": [
+          "fallen"
+        ],
+        "inkscape_coordinates": [
+          1237.5915126,
+          859.5788708
+        ],
+        "wiki": {
+          "title": "Karag Agilwutraz",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Karag_Agilwutraz",
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.267309209350401,
+          63.44451632583679
+        ]
+      },
+      "properties": {
+        "name": "Kraka Drak",
+        "hold_type": "Karak (Great Hold)",
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          900.8397126000001,
+          -276.7224592
+        ],
+        "wiki": {
+          "title": "Kraka Drak",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Kraka_Drak",
+          "description": "Kraka Drak (\" Dragon Hold \" in Khazalid ) was a Dwarf hold and the former capital of the Norse Dwarfs of Norsca and their last Great King Silverbeard. Kraka Drak was completely destroyed during the War in the Mountains (2302-2390 IC ) by the Chaos hordes commanded by Valmir Aesling, who spent ninety years slaughtering the Dwarfs in the hold that they were trapped in by an avalanche engineered by the Great King Silverbeard. Kraka Drak was later resettled by Norse Dwarf refugees, who hope to clear the halls and rebuild the hold back to its former glory.",
+          "image": "https://static.wikia.nocookie.net/warhammerfb/images/8/80/Kraka_Drak_Total_War_Warhammer.png/revision/latest?cb=20171107164314"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.302744112710402,
+          61.89357773159679
+        ]
+      },
+      "properties": {
+        "name": "Kraka Ravnsvake",
+        "hold_type": "Karak (Great Hold)",
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          845.7343026000001,
+          -188.1176492
+        ],
+        "wiki": {
+          "title": "Kraka Ravnsvake",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Kraka_Ravnsvake",
+          "description": "Kraka Ravnsvake, meaning \" Raven's Roost Hold \" in Khazalid, is a Dwarf Hold that lies in the mountains south-west of Kraka Drak, at the far end of Draksfjord. Beneath the stronghold are extensive deposits of okrinaduraz, a hard, bluish-grey stone used by Dwarf artisans to carve the likenesses of their revered ancestors and fashion works of art.",
+          "image": "https://static.wikia.nocookie.net/warhammerfb/images/8/86/Kraka_Ravnvake_Map.png/revision/latest?cb=20180506200319"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.9335937181504,
+          62.694266004236795
+        ]
+      },
+      "properties": {
+        "name": "Sjoktraken",
+        "hold_type": "Khazid (Town)",
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          938.9044126,
+          -233.8608092
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4503459117504,
+          64.26251325383679
+        ]
+      },
+      "properties": {
+        "name": "Kraka Dorden",
+        "hold_type": "Karak (Great Hold)",
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          911.2965626,
+          -323.4544592
+        ],
+        "wiki": {
+          "title": "Kraka Dorden",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Kraka_Dorden",
+          "description": "The second largest Norse Dwarf hold is Kraka Dorden (\" Thunder Hold \" in Khazalid ), located north-west of Kraka Drak in the mountains above Taldursfjord. It is ruled by King Logamir Ulfarson and Queen Friga Alaricdottir of Clan Zhargrun. Kraka Dorden is well known in Norsca for its furs, its metalwork, and its deposits of iron, tin, and quartz.",
+          "image": "https://static.wikia.nocookie.net/warhammerfb/images/6/6a/Kraka_Dorden_Map.png/revision/latest?cb=20180506200832"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.085538571270401,
+          64.56583796935679
+        ]
+      },
+      "properties": {
+        "name": "Kraka Ornsmotek",
+        "hold_type": "Karak (Great Hold)",
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          890.4551926,
+          -340.7833392
+        ],
+        "wiki": {
+          "title": "Kraka Ornsmotek",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Kraka_Ornsmotek",
+          "description": "Kraka Ornsmotek (\" Eagle's Peak Hold \" in Khazalid ) is the northernmost Norse Dwarf hold, and also the most heavily fortified. Located in the Jagged Tooth Mountains, this region of Norsca has a higher population of Giants, Trolls and the forces of Chaos than anywhere else in the Known World, and Kraka Ornsmotek is home to more Slayers and Norse Dwarf Berserkers than the other Norse Dwarf holds combined.",
+          "image": "https://static.wikia.nocookie.net/warhammerfb/images/6/6e/Kraka_Ornsmotek_Map.png/revision/latest?cb=20180506200637"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3646728642495995,
+          40.129912291276796
+        ]
+      },
+      "properties": {
+        "name": "Karak Grom",
+        "hold_type": "Karak (Great Hold)",
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          407.6963126,
+          1055.2361808
+        ],
+        "wiki": {
+          "title": "Karak Grom",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Karak_Grom",
+          "description": "Karak Grom (\" Defiant Hold \" in Khazalid ) is the southernmost of the Dwarf holds of the Karaz Ankor, situated near where The Vaults give way to the Apuccini Mountains. The wealthy Dwarf stronghold is carved into the steep eastern face of Cleaved Mountain ( Karaz Mar ) and gazes out over a wide mountain valley, where the western fork of the River Skiros winds its way below.",
+          "image": "https://static.wikia.nocookie.net/warhammerfb/images/6/6b/Western_Dwarf_Realms.png/revision/latest?cb=20210727083944"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.03176577959040046,
+          40.2771611904768
+        ]
+      },
+      "properties": {
+        "name": "Domatburg",
+        "hold_type": "Umgalkhazid (Human Town)",
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          430.3447726,
+          1046.8238808
+        ],
+        "wiki": {
+          "title": "Domatburg",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Domatburg",
+          "description": "Domatburg is a subsidiary settlement of Karak Grom and the largest settlement of Men in The Vaults. It also maintains a population of about 210 Dwarfs.",
+          "image": "https://static.wikia.nocookie.net/warhammerfb/images/6/6b/Western_Dwarf_Realms.png/revision/latest?cb=20210727083944"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8529107613504,
+          64.4331846055168
+        ]
+      },
+      "properties": {
+        "name": "Grung Diratduraz",
+        "hold_type": "Grung (Mining Settlement)",
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          877.1652126,
+          -333.2048792
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8938449155904005,
+          64.54780359815679
+        ]
+      },
+      "properties": {
+        "name": "Kazad Dumund",
+        "hold_type": "Kazad (Fortress)",
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          879.5037726,
+          -339.7530392
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.386703643270401,
+          64.13517813031679
+        ]
+      },
+      "properties": {
+        "name": "Grung Trakekarag",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          907.6606926000001,
+          -316.1798292
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.0547627075904,
+          64.0729573616768
+        ]
+      },
+      "properties": {
+        "name": "Khazid Fneldurk",
+        "hold_type": "Khazid (Town)",
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          945.8267726,
+          -312.6251692
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.836987216710401,
+          64.03365948135679
+        ]
+      },
+      "properties": {
+        "name": "Grung Dobekzhuf",
+        "hold_type": "Grung (Mining Settlement)",
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          933.3853026,
+          -310.3800892
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6486867114304,
+          61.95743652455679
+        ]
+      },
+      "properties": {
+        "name": "Grung Stekbrud",
+        "hold_type": "Grung (Mining Settlement)",
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          922.6277326000001,
+          -191.7658892
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.871373474630401,
+          61.790421408396796
+        ]
+      },
+      "properties": {
+        "name": "Khazid Bordkarag",
+        "hold_type": "Khazid (Town)",
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          935.3497826,
+          -182.2243492
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.7207326503104,
+          63.3574136211968
+        ]
+      },
+      "properties": {
+        "name": "Khazid Ravik",
+        "hold_type": "Khazid (Town)",
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          926.7437026,
+          -271.7462992
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4620230051904,
+          63.2640810679168
+        ]
+      },
+      "properties": {
+        "name": "Grung Kuldungor",
+        "hold_type": "Grung (Mining Settlement)",
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          911.9636726,
+          -266.4142292
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.850051521350402,
+          35.0241460256768
+        ]
+      },
+      "properties": {
+        "name": "Kazad Migdhal",
+        "hold_type": "Kazad (Fortress)",
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          991.2614626000001,
+          1346.9275808
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.5697547203904008,
+          41.7126230960768
+        ]
+      },
+      "properties": {
+        "name": "Mont Grace",
+        "hold_type": "Umgalkhazid (Human Town)",
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          461.0799726,
+          964.8162308
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.4551374781504004,
+          40.401066755276794
+        ]
+      },
+      "properties": {
+        "name": "Hochstadt",
+        "hold_type": "Khazid (Town)",
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          454.5319126,
+          1039.7451808
+        ],
+        "wiki": {
+          "title": "Hochstadt",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Hochstadt",
+          "description": "Hochstadt is a small Human farming village located in The Vaults which is also home to about 180 Dwarfs.",
+          "image": "https://static.wikia.nocookie.net/warhammerfb/images/6/6b/Western_Dwarf_Realms.png/revision/latest?cb=20210727083944"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.775669167750397,
+          46.454533888716796
+        ]
+      },
+      "properties": {
+        "name": "Karag Gunbad",
+        "hold_type": "Khazid (Town)",
+        "tags": [
+          "source:1eDSaS"
+        ],
+        "notes": [
+          "fallen"
+        ],
+        "inkscape_coordinates": [
+          1044.1418125999999,
+          693.9118208
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.6007500627904,
+          45.865068834636794
+        ]
+      },
+      "properties": {
+        "name": "Karag Dromar",
+        "hold_type": "Grung (Mining Settlement)",
+        "tags": [
+          "source:TWW3"
+        ],
+        "notes": [],
+        "inkscape_coordinates": [
+          862.7593226,
+          727.5878408
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.533868950150397,
+          57.80881983850879
+        ]
+      },
+      "properties": {
+        "name": "Karak Vlag",
+        "hold_type": "Karak (Great Hold)",
+        "tags": [
+          "source:1eDSaS"
+        ],
+        "notes": [
+          "fallen"
+        ],
+        "inkscape_coordinates": [
+          1144.5874125999999,
+          45.243747799999994
+        ],
+        "wiki": {
+          "title": "Karak Vlag",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Karak_Vlag",
+          "description": "Although the most northerly of the major Dwarf realms is Karak Kadrin, there used to be another hold situated on the southern side of the High Pass. Karak Vlag, which means \" Desolation Hold \" in Khazalid, was famed for its quality of stone-masonry. It had vast qualities of iron ore in the rocks below its walls.",
+          "image": "https://static.wikia.nocookie.net/warhammerfb/images/c/c8/Dwarf_Button.png/revision/latest?cb=20150606013001"
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1441883368895995,
+          50.356135929676796
+        ]
+      },
+      "properties": {
+        "name": "Karak Tzor",
+        "hold_type": "",
+        "tags": [],
+        "notes": [],
+        "inkscape_coordinates": [
+          248.9031526,
+          471.0140808
+        ],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    }
+  ]
+}
