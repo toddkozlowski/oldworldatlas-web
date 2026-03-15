@@ -48,7 +48,7 @@ class AboutModal {
      */
     async loadContent() {
         try {
-            const response = await fetch('about-content.html?v=7');
+            const response = await fetch('about-content.html?v=12');
             if (!response.ok) {
                 throw new Error('Failed to load about content');
             }

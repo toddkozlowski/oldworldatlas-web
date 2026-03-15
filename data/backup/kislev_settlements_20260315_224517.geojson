@@ -149,7 +149,7 @@
       "properties": {
         "name": "Jakova",
         "province": "Kislev",
-        "population": 71,
+        "population": 128,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -207,7 +207,7 @@
       "properties": {
         "name": "Mirka",
         "province": "Kislev",
-        "population": 57,
+        "population": 115,
         "tags": [
           "source:RotIQ"
         ],
@@ -267,7 +267,7 @@
       "properties": {
         "name": "Belava",
         "province": "Kislev",
-        "population": 179,
+        "population": 95,
         "tags": [
           "source:RotIQ"
         ],
@@ -297,12 +297,12 @@
       "properties": {
         "name": "Kyrnoka",
         "province": "Kislev",
-        "population": 461,
+        "population": 60,
         "tags": [
           "source:TOW"
         ],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           951.88823221,
           148.38866939
@@ -327,7 +327,7 @@
       "properties": {
         "name": "Igerov",
         "province": "Kislev",
-        "population": 600,
+        "population": 379,
         "tags": [
           "source:TWW3"
         ],
@@ -357,7 +357,7 @@
       "properties": {
         "name": "Resov",
         "province": "Kislev",
-        "population": 111,
+        "population": 69,
         "tags": [
           "source:RotIQ"
         ],
@@ -387,7 +387,7 @@
       "properties": {
         "name": "Smonya",
         "province": "Kislev",
-        "population": 343,
+        "population": 302,
         "tags": [
           "source:RotIQ"
         ],
@@ -417,12 +417,12 @@
       "properties": {
         "name": "Volchara",
         "province": "Kislev",
-        "population": 275,
+        "population": 432,
         "tags": [
           "source:RotIQ"
         ],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           971.66771221,
           223.63832939
@@ -477,7 +477,7 @@
       "properties": {
         "name": "Kalinora",
         "province": "Kislev",
-        "population": 163,
+        "population": 60,
         "tags": [
           "source:RotIQ"
         ],
@@ -507,7 +507,7 @@
       "properties": {
         "name": "Resvynhaf",
         "province": "Kislev",
-        "population": 17,
+        "population": 71,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -565,10 +565,10 @@
       "properties": {
         "name": "Svatinevo",
         "province": "Kislev",
-        "population": 782,
+        "population": 256,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           841.07091221,
           187.73007939000001
@@ -593,7 +593,7 @@
       "properties": {
         "name": "Sava",
         "province": "Kislev",
-        "population": 80,
+        "population": 112,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -621,10 +621,10 @@
       "properties": {
         "name": "Inkodevna",
         "province": "Kislev",
-        "population": 515,
+        "population": 96,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           867.97814221,
           163.92485939
@@ -649,7 +649,7 @@
       "properties": {
         "name": "Ptorsk",
         "province": "Kislev",
-        "population": 49,
+        "population": 98,
         "tags": [
           "source:RotIQ"
         ],
@@ -679,7 +679,7 @@
       "properties": {
         "name": "Kamysh",
         "province": "Kislev",
-        "population": 127,
+        "population": 204,
         "tags": [
           "source:RotIQ"
         ],
@@ -709,7 +709,7 @@
       "properties": {
         "name": "Zhanyka",
         "province": "Kislev",
-        "population": 48,
+        "population": 199,
         "tags": [
           "source:TOW"
         ],
@@ -739,7 +739,7 @@
       "properties": {
         "name": "Baiyn",
         "province": "Kislev",
-        "population": 36,
+        "population": 123,
         "tags": [
           "source:TOW"
         ],
@@ -769,12 +769,12 @@
       "properties": {
         "name": "Choika",
         "province": "Kislev",
-        "population": 422,
+        "population": 297,
         "tags": [
           "source:WFB6e"
         ],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           804.2510822099999,
           82.24950039000001
@@ -799,7 +799,7 @@
       "properties": {
         "name": "Zhedevka",
         "province": "Kislev",
-        "population": 111,
+        "population": 124,
         "tags": [
           "source:WFB6e"
         ],
@@ -829,10 +829,10 @@
       "properties": {
         "name": "Gorovny",
         "province": "Kislev",
-        "population": 96,
+        "population": 365,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           787.41100221,
           121.45858939
@@ -857,7 +857,7 @@
       "properties": {
         "name": "Chzovich",
         "province": "Kislev",
-        "population": 109,
+        "population": 184,
         "tags": [
           "source:RotIQ"
         ],
@@ -887,12 +887,12 @@
       "properties": {
         "name": "Krakjunov",
         "province": "Kislev",
-        "population": 184,
+        "population": 370,
         "tags": [
           "source:WFB6e"
         ],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           732.05284221,
           99.42242039
@@ -947,12 +947,12 @@
       "properties": {
         "name": "Vitzy",
         "province": "Kislev",
-        "population": 277,
+        "population": 306,
         "tags": [
           "source:TOW"
         ],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           765.65367221,
           86.63537939
@@ -977,10 +977,10 @@
       "properties": {
         "name": "Goranitch",
         "province": "Kislev",
-        "population": 385,
+        "population": 177,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           794.3609522099999,
           25.11975239
@@ -1005,7 +1005,7 @@
       "properties": {
         "name": "Dagnyper",
         "province": "Kislev",
-        "population": 88,
+        "population": 66,
         "tags": [
           "source:RotIQ"
         ],
@@ -1035,7 +1035,7 @@
       "properties": {
         "name": "Krasicyno",
         "province": "Kislev",
-        "population": 38,
+        "population": 251,
         "tags": [
           "source:RotIQ"
         ],
@@ -1065,7 +1065,7 @@
       "properties": {
         "name": "Yvegka",
         "province": "Kislev",
-        "population": 183,
+        "population": 267,
         "tags": [
           "source:RotIQ"
         ],
@@ -1095,7 +1095,7 @@
       "properties": {
         "name": "Gutaidra",
         "province": "Kislev",
-        "population": 42,
+        "population": 59,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -1123,7 +1123,7 @@
       "properties": {
         "name": "Uskovic",
         "province": "Kislev",
-        "population": 287,
+        "population": 65,
         "tags": [
           "source:RotIQ"
         ],
@@ -1153,7 +1153,7 @@
       "properties": {
         "name": "Chaglev",
         "province": "Kislev",
-        "population": 180,
+        "population": 267,
         "tags": [
           "source:RotIQ"
         ],
@@ -1183,12 +1183,12 @@
       "properties": {
         "name": "Plesk",
         "province": "Kislev",
-        "population": 318,
+        "population": 115,
         "tags": [
           "source:TWW3"
         ],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           1043.78297221,
           40.442073390000004
@@ -1243,7 +1243,7 @@
       "properties": {
         "name": "Medok",
         "province": "Kislev",
-        "population": 237,
+        "population": 227,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -1271,7 +1271,7 @@
       "properties": {
         "name": "Deghov",
         "province": "Kislev",
-        "population": 216,
+        "population": 128,
         "tags": [
           "source:RotIQ"
         ],
@@ -1301,7 +1301,7 @@
       "properties": {
         "name": "Sanyza",
         "province": "Kislev",
-        "population": 63,
+        "population": 89,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -1389,7 +1389,7 @@
       "properties": {
         "name": "Sepukzy",
         "province": "Kislev",
-        "population": 106,
+        "population": 131,
         "tags": [
           "source:RotIQ"
         ],
@@ -1419,7 +1419,7 @@
       "properties": {
         "name": "Ramaejk",
         "province": "Kislev",
-        "population": 193,
+        "population": 41,
         "tags": [
           "source:RotIQ"
         ],
@@ -1509,7 +1509,7 @@
       "properties": {
         "name": "Kacirk",
         "province": "Kislev",
-        "population": 127,
+        "population": 76,
         "tags": [
           "source:RotIQ"
         ],
@@ -1599,7 +1599,7 @@
       "properties": {
         "name": "Kzarla",
         "province": "Kislev",
-        "population": 258,
+        "population": 56,
         "tags": [
           "source:RotIQ"
         ],
@@ -1629,7 +1629,7 @@
       "properties": {
         "name": "Fort Straghov",
         "province": "Kislev",
-        "population": 274,
+        "population": 224,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -1657,7 +1657,7 @@
       "properties": {
         "name": "Dhazhyn",
         "province": "Kislev",
-        "population": 113,
+        "population": 170,
         "tags": [
           "source:TWW3, source:TOW"
         ],
@@ -1777,7 +1777,7 @@
       "properties": {
         "name": "Ungalya",
         "province": "Kislev",
-        "population": 141,
+        "population": 282,
         "tags": [
           "source:TOW"
         ],
@@ -1837,12 +1837,12 @@
       "properties": {
         "name": "Dushyka",
         "province": "Kislev",
-        "population": 160,
+        "population": 319,
         "tags": [
           "source:TWW3"
         ],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           876.44792221,
           -33.61774861
@@ -1867,12 +1867,12 @@
       "properties": {
         "name": "Iaryn",
         "province": "Kislev",
-        "population": 336,
+        "population": 298,
         "tags": [
           "source:RotIQ"
         ],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           833.71770221,
           -63.11878561
@@ -1927,7 +1927,7 @@
       "properties": {
         "name": "Zauberstedt",
         "province": "Kislev",
-        "population": 246,
+        "population": 230,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -1955,7 +1955,7 @@
       "properties": {
         "name": "Miskau",
         "province": "Kislev",
-        "population": 42,
+        "population": 99,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -1983,7 +1983,7 @@
       "properties": {
         "name": "Pemnitz",
         "province": "Kislev",
-        "population": 74,
+        "population": 73,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -2011,10 +2011,10 @@
       "properties": {
         "name": "Tarnovetz",
         "province": "Kislev",
-        "population": 477,
+        "population": 255,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           744.64079221,
           165.56990939
@@ -2039,10 +2039,10 @@
       "properties": {
         "name": "Vilenska",
         "province": "Kislev",
-        "population": 499,
+        "population": 29,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           694.4854622099999,
           96.31325139
@@ -2067,10 +2067,10 @@
       "properties": {
         "name": "Kernoau",
         "province": "Kislev",
-        "population": 428,
+        "population": 84,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           707.88188221,
           120.27274939
@@ -2095,12 +2095,12 @@
       "properties": {
         "name": "Vdovya",
         "province": "Kislev",
-        "population": 365,
+        "population": 204,
         "tags": [
           "source:RotIQ"
         ],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           894.31438221,
           108.26653939
@@ -2125,7 +2125,7 @@
       "properties": {
         "name": "Ardkha",
         "province": "Kislev",
-        "population": 122,
+        "population": 65,
         "tags": [
           "source:RotIQ"
         ],
@@ -2155,12 +2155,12 @@
       "properties": {
         "name": "Slavyanaska",
         "province": "Kislev",
-        "population": 782,
+        "population": 75,
         "tags": [
           "source:TOW"
         ],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           799.33507221,
           235.95108939
@@ -2185,12 +2185,12 @@
       "properties": {
         "name": "Chernigov",
         "province": "Kislev",
-        "population": 111,
+        "population": 366,
         "tags": [
           "source:TOW"
         ],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           995.97527221,
           232.22110939
@@ -2245,7 +2245,7 @@
       "properties": {
         "name": "Bilohirya",
         "province": "Kislev",
-        "population": 226,
+        "population": 164,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -2273,10 +2273,10 @@
       "properties": {
         "name": "Chornobrik",
         "province": "Kislev",
-        "population": 86,
+        "population": 323,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           892.357099230321,
           191.00779197961813
@@ -2301,10 +2301,10 @@
       "properties": {
         "name": "Novodazh",
         "province": "Kislev",
-        "population": 101,
+        "population": 323,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           938.738223377809,
           250.31300492684912
@@ -2329,10 +2329,10 @@
       "properties": {
         "name": "Starouhun",
         "province": "Kislev",
-        "population": 782,
+        "population": 106,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           963.01677221,
           210.92154939
@@ -2357,7 +2357,7 @@
       "properties": {
         "name": "Vedmezha",
         "province": "Kislev",
-        "population": 74,
+        "population": 116,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -2385,7 +2385,7 @@
       "properties": {
         "name": "Zelenivka",
         "province": "Kislev",
-        "population": 176,
+        "population": 164,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -2413,10 +2413,10 @@
       "properties": {
         "name": "Kamyanka",
         "province": "Kislev",
-        "population": 132,
+        "population": 481,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           909.867226852968,
           198.61628985509313
@@ -2441,10 +2441,10 @@
       "properties": {
         "name": "Solntsehrad",
         "province": "Kislev",
-        "population": 296,
+        "population": 538,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           898.506582871264,
           203.6192862823589
@@ -2469,7 +2469,7 @@
       "properties": {
         "name": "Torovytsia",
         "province": "Kislev",
-        "population": 154,
+        "population": 192,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -2497,7 +2497,7 @@
       "properties": {
         "name": "Ursyniv",
         "province": "Kislev",
-        "population": 199,
+        "population": 223,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -2525,7 +2525,7 @@
       "properties": {
         "name": "Ropivka",
         "province": "Kislev",
-        "population": 142,
+        "population": 134,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -2553,7 +2553,7 @@
       "properties": {
         "name": "Dibrova",
         "province": "Kislev",
-        "population": 144,
+        "population": 48,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -2581,10 +2581,10 @@
       "properties": {
         "name": "Poltorya",
         "province": "Kislev",
-        "population": 63,
+        "population": 782,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           936.53728221,
           171.90946939
@@ -2609,10 +2609,10 @@
       "properties": {
         "name": "Medova",
         "province": "Kislev",
-        "population": 396,
+        "population": 29,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           950.5158024718259,
           193.92611284531907
@@ -2637,7 +2637,7 @@
       "properties": {
         "name": "Zoryany",
         "province": "Kislev",
-        "population": 118,
+        "population": 234,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -2665,7 +2665,7 @@
       "properties": {
         "name": "Lysychansk",
         "province": "Kislev",
-        "population": 272,
+        "population": 146,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -2693,7 +2693,7 @@
       "properties": {
         "name": "Borshchiv",
         "province": "Kislev",
-        "population": 265,
+        "population": 28,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -2721,10 +2721,10 @@
       "properties": {
         "name": "Krasnoluh",
         "province": "Kislev",
-        "population": 26,
+        "population": 320,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           833.79106221,
           212.42905939
@@ -2749,7 +2749,7 @@
       "properties": {
         "name": "Horodenka",
         "province": "Kislev",
-        "population": 82,
+        "population": 135,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -2777,7 +2777,7 @@
       "properties": {
         "name": "Vovchansk",
         "province": "Kislev",
-        "population": 147,
+        "population": 91,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -2805,7 +2805,7 @@
       "properties": {
         "name": "Slobidka",
         "province": "Kislev",
-        "population": 206,
+        "population": 92,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -2833,7 +2833,7 @@
       "properties": {
         "name": "Dazhpolya",
         "province": "Kislev",
-        "population": 91,
+        "population": 93,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -2861,7 +2861,7 @@
       "properties": {
         "name": "Berehove",
         "province": "Kislev",
-        "population": 228,
+        "population": 21,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -2889,10 +2889,10 @@
       "properties": {
         "name": "Kropyvne",
         "province": "Kislev",
-        "population": 55,
+        "population": 604,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           808.350038452938,
           190.27821738620494
@@ -2917,10 +2917,10 @@
       "properties": {
         "name": "Nadirska",
         "province": "Kislev",
-        "population": 195,
+        "population": 534,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           849.34404221,
           204.23929939
@@ -2945,10 +2945,10 @@
       "properties": {
         "name": "Ursivka",
         "province": "Kislev",
-        "population": 498,
+        "population": 147,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           928.6523322099999,
           190.93930939
@@ -2973,10 +2973,10 @@
       "properties": {
         "name": "Stepova",
         "province": "Kislev",
-        "population": 164,
+        "population": 301,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           907.2615904524649,
           197.26141380743096
@@ -3001,10 +3001,10 @@
       "properties": {
         "name": "Hromivka",
         "province": "Kislev",
-        "population": 365,
+        "population": 94,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           907.66588221,
           190.42969939
@@ -3029,7 +3029,7 @@
       "properties": {
         "name": "Velykyi Bor",
         "province": "Kislev",
-        "population": 25,
+        "population": 199,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3057,7 +3057,7 @@
       "properties": {
         "name": "Malyi Luh",
         "province": "Kislev",
-        "population": 182,
+        "population": 62,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3085,7 +3085,7 @@
       "properties": {
         "name": "Zymohir",
         "province": "Kislev",
-        "population": 151,
+        "population": 142,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3113,10 +3113,10 @@
       "properties": {
         "name": "Medvediv",
         "province": "Kislev",
-        "population": 456,
+        "population": 219,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           842.4323527628829,
           269.3865548754861
@@ -3141,10 +3141,10 @@
       "properties": {
         "name": "Bilovody",
         "province": "Kislev",
-        "population": 753,
+        "population": 164,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           842.328147099866,
           272.721788361451
@@ -3169,7 +3169,7 @@
       "properties": {
         "name": "Chervonosad",
         "province": "Kislev",
-        "population": 75,
+        "population": 122,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3197,10 +3197,10 @@
       "properties": {
         "name": "Pryberezne",
         "province": "Kislev",
-        "population": 83,
+        "population": 447,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           1008.54617221,
           238.89008939
@@ -3225,7 +3225,7 @@
       "properties": {
         "name": "Ursunivka",
         "province": "Kislev",
-        "population": 122,
+        "population": 152,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3253,10 +3253,10 @@
       "properties": {
         "name": "Veselivka",
         "province": "Kislev",
-        "population": 235,
+        "population": 343,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           881.91649221,
           182.38106939
@@ -3281,7 +3281,7 @@
       "properties": {
         "name": "Zlatohor",
         "province": "Kislev",
-        "population": 86,
+        "population": 183,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3309,10 +3309,10 @@
       "properties": {
         "name": "Kalinivka",
         "province": "Kislev",
-        "population": 409,
+        "population": 83,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           836.4991922099999,
           193.51700939
@@ -3337,7 +3337,7 @@
       "properties": {
         "name": "Torhrad",
         "province": "Kislev",
-        "population": 127,
+        "population": 93,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3365,10 +3365,10 @@
       "properties": {
         "name": "Dazhychi",
         "province": "Kislev",
-        "population": 596,
+        "population": 65,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           858.170669225555,
           212.99966279395588
@@ -3393,7 +3393,7 @@
       "properties": {
         "name": "Vedmezhe",
         "province": "Kislev",
-        "population": 201,
+        "population": 74,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3421,7 +3421,7 @@
       "properties": {
         "name": "Zelenopil",
         "province": "Kislev",
-        "population": 56,
+        "population": 207,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3449,7 +3449,7 @@
       "properties": {
         "name": "Horodysche",
         "province": "Kislev",
-        "population": 129,
+        "population": 144,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3477,7 +3477,7 @@
       "properties": {
         "name": "Solodke",
         "province": "Kislev",
-        "population": 170,
+        "population": 162,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3505,7 +3505,7 @@
       "properties": {
         "name": "Medunytsia",
         "province": "Kislev",
-        "population": 163,
+        "population": 138,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3533,7 +3533,7 @@
       "properties": {
         "name": "Krasnodar",
         "province": "Kislev",
-        "population": 153,
+        "population": 104,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3561,10 +3561,10 @@
       "properties": {
         "name": "Zymivnyk",
         "province": "Kislev",
-        "population": 202,
+        "population": 627,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           992.8320060796909,
           273.55563609402793
@@ -3589,7 +3589,7 @@
       "properties": {
         "name": "Stepanivka",
         "province": "Kislev",
-        "population": 169,
+        "population": 223,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3617,10 +3617,10 @@
       "properties": {
         "name": "Bilokryn",
         "province": "Kislev",
-        "population": 418,
+        "population": 151,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           1010.759046322602,
           288.77276679727197
@@ -3645,10 +3645,10 @@
       "properties": {
         "name": "Chornoluh",
         "province": "Kislev",
-        "population": 200,
+        "population": 305,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           826.35558221,
           197.50923939
@@ -3673,10 +3673,10 @@
       "properties": {
         "name": "Vovkiv",
         "province": "Kislev",
-        "population": 445,
+        "population": 118,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           849.415594168207,
           170.8920054644191
@@ -3701,7 +3701,7 @@
       "properties": {
         "name": "Medvezhyn",
         "province": "Kislev",
-        "population": 85,
+        "population": 35,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3729,7 +3729,7 @@
       "properties": {
         "name": "Kamyanytsia",
         "province": "Kislev",
-        "population": 194,
+        "population": 122,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3757,7 +3757,7 @@
       "properties": {
         "name": "Zlatopol",
         "province": "Kislev",
-        "population": 48,
+        "population": 120,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3785,7 +3785,7 @@
       "properties": {
         "name": "Velyka Dolyna",
         "province": "Kislev",
-        "population": 62,
+        "population": 170,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3813,7 +3813,7 @@
       "properties": {
         "name": "Mala Rika",
         "province": "Kislev",
-        "population": 47,
+        "population": 126,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3841,7 +3841,7 @@
       "properties": {
         "name": "Vedmezivka",
         "province": "Kislev",
-        "population": 87,
+        "population": 122,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3869,10 +3869,10 @@
       "properties": {
         "name": "Stepohir",
         "province": "Kislev",
-        "population": 516,
+        "population": 25,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           935.715651864993,
           228.32106663636412
@@ -3897,7 +3897,7 @@
       "properties": {
         "name": "Ungrad",
         "province": "Kislev",
-        "population": 222,
+        "population": 53,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3925,7 +3925,7 @@
       "properties": {
         "name": "Zeleny Yar",
         "province": "Kislev",
-        "population": 222,
+        "population": 103,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3953,7 +3953,7 @@
       "properties": {
         "name": "Bilozirka",
         "province": "Kislev",
-        "population": 725,
+        "population": 431,
         "tags": [],
         "notes": [],
         "size_category": 2,
@@ -3981,10 +3981,10 @@
       "properties": {
         "name": "Chornytsia",
         "province": "Kislev",
-        "population": 141,
+        "population": 354,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           789.79680221,
           250.17395939
@@ -4009,7 +4009,7 @@
       "properties": {
         "name": "Novoselytsia",
         "province": "Kislev",
-        "population": 163,
+        "population": 145,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4037,7 +4037,7 @@
       "properties": {
         "name": "Starodubiv",
         "province": "Kislev",
-        "population": 220,
+        "population": 258,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4065,7 +4065,7 @@
       "properties": {
         "name": "Krasnopil",
         "province": "Kislev",
-        "population": 77,
+        "population": 164,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4093,7 +4093,7 @@
       "properties": {
         "name": "Dolyna",
         "province": "Kislev",
-        "population": 297,
+        "population": 164,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4121,7 +4121,7 @@
       "properties": {
         "name": "Velykyi Yar",
         "province": "Kislev",
-        "population": 288,
+        "population": 116,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4149,7 +4149,7 @@
       "properties": {
         "name": "Kalynivka",
         "province": "Kislev",
-        "population": 79,
+        "population": 271,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4177,7 +4177,7 @@
       "properties": {
         "name": "Lysychiv",
         "province": "Kislev",
-        "population": 36,
+        "population": 64,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4205,7 +4205,7 @@
       "properties": {
         "name": "Prylisne",
         "province": "Kislev",
-        "population": 231,
+        "population": 140,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4233,7 +4233,7 @@
       "properties": {
         "name": "Ozeriany",
         "province": "Kislev",
-        "population": 173,
+        "population": 101,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4261,7 +4261,7 @@
       "properties": {
         "name": "Dubrivka",
         "province": "Kislev",
-        "population": 148,
+        "population": 110,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4289,7 +4289,7 @@
       "properties": {
         "name": "Sosnivka",
         "province": "Kislev",
-        "population": 137,
+        "population": 267,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4317,7 +4317,7 @@
       "properties": {
         "name": "Verkhivka",
         "province": "Kislev",
-        "population": 80,
+        "population": 283,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4345,7 +4345,7 @@
       "properties": {
         "name": "Nyzhne Pole",
         "province": "Kislev",
-        "population": 311,
+        "population": 467,
         "tags": [],
         "notes": [],
         "size_category": 2,
@@ -4373,10 +4373,10 @@
       "properties": {
         "name": "Hlyniany",
         "province": "Kislev",
-        "population": 34,
+        "population": 329,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           791.46495221,
           248.60735939
@@ -4401,10 +4401,10 @@
       "properties": {
         "name": "Mostove",
         "province": "Kislev",
-        "population": 307,
+        "population": 288,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           932.00652221,
           188.26096939
@@ -4429,7 +4429,7 @@
       "properties": {
         "name": "Kvitneve",
         "province": "Kislev",
-        "population": 156,
+        "population": 83,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4457,7 +4457,7 @@
       "properties": {
         "name": "Tykhe",
         "province": "Kislev",
-        "population": 51,
+        "population": 71,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4485,7 +4485,7 @@
       "properties": {
         "name": "Berezivka",
         "province": "Kislev",
-        "population": 143,
+        "population": 259,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4513,7 +4513,7 @@
       "properties": {
         "name": "Luhanske",
         "province": "Kislev",
-        "population": 170,
+        "population": 261,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4541,7 +4541,7 @@
       "properties": {
         "name": "Krynychky",
         "province": "Kislev",
-        "population": 78,
+        "population": 150,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4569,7 +4569,7 @@
       "properties": {
         "name": "Poliske",
         "province": "Kislev",
-        "population": 51,
+        "population": 170,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4597,7 +4597,7 @@
       "properties": {
         "name": "Zahradne",
         "province": "Kislev",
-        "population": 93,
+        "population": 247,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4625,10 +4625,10 @@
       "properties": {
         "name": "Mykhailivka",
         "province": "Kislev",
-        "population": 171,
+        "population": 557,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           896.96904221,
           273.37181939
@@ -4653,10 +4653,10 @@
       "properties": {
         "name": "Rudneve",
         "province": "Kislev",
-        "population": 47,
+        "population": 301,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           1043.9844722100001,
           233.77699939000001
@@ -4681,7 +4681,7 @@
       "properties": {
         "name": "Vyshneve",
         "province": "Kislev",
-        "population": 70,
+        "population": 53,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4709,7 +4709,7 @@
       "properties": {
         "name": "Tereshky",
         "province": "Kislev",
-        "population": 180,
+        "population": 103,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4737,7 +4737,7 @@
       "properties": {
         "name": "Yabluniv",
         "province": "Kislev",
-        "population": 48,
+        "population": 217,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4765,7 +4765,7 @@
       "properties": {
         "name": "Savyntsi",
         "province": "Kislev",
-        "population": 116,
+        "population": 267,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4793,7 +4793,7 @@
       "properties": {
         "name": "Ostriv",
         "province": "Kislev",
-        "population": 82,
+        "population": 201,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4821,10 +4821,10 @@
       "properties": {
         "name": "Zelenyi Hai",
         "province": "Kislev",
-        "population": 373,
+        "population": 137,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           982.55821221,
           193.19650939000002
@@ -4849,10 +4849,10 @@
       "properties": {
         "name": "Kamyshany",
         "province": "Kislev",
-        "population": 782,
+        "population": 196,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           739.4454822099999,
           102.07580939
@@ -4877,10 +4877,10 @@
       "properties": {
         "name": "Verbivka",
         "province": "Kislev",
-        "population": 739,
+        "population": 266,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           762.34129221,
           95.88489939
@@ -4905,7 +4905,7 @@
       "properties": {
         "name": "Nadvirne",
         "province": "Kislev",
-        "population": 146,
+        "population": 190,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4933,10 +4933,10 @@
       "properties": {
         "name": "Horokhiv",
         "province": "Kislev",
-        "population": 309,
+        "population": 271,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           752.79704221,
           131.75461939
@@ -4961,7 +4961,7 @@
       "properties": {
         "name": "Chornychi",
         "province": "Kislev",
-        "population": 78,
+        "population": 108,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4989,7 +4989,7 @@
       "properties": {
         "name": "Zelenodol",
         "province": "Kislev",
-        "population": 16,
+        "population": 59,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5017,7 +5017,7 @@
       "properties": {
         "name": "Lukashivka",
         "province": "Kislev",
-        "population": 214,
+        "population": 87,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5045,10 +5045,10 @@
       "properties": {
         "name": "Medvyn",
         "province": "Kislev",
-        "population": 212,
+        "population": 374,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           712.06212221,
           81.91627839
@@ -5073,10 +5073,10 @@
       "properties": {
         "name": "Volytsia",
         "province": "Kislev",
-        "population": 280,
+        "population": 658,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           699.2090322099999,
           79.09206039
@@ -5101,7 +5101,7 @@
       "properties": {
         "name": "Vysoke",
         "province": "Kislev",
-        "population": 92,
+        "population": 39,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5129,10 +5129,10 @@
       "properties": {
         "name": "Zarichne",
         "province": "Kislev",
-        "population": 52,
+        "population": 462,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           714.5725022099999,
           92.41524839
@@ -5157,7 +5157,7 @@
       "properties": {
         "name": "Berezanka",
         "province": "Kislev",
-        "population": 28,
+        "population": 251,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5185,7 +5185,7 @@
       "properties": {
         "name": "Myrove",
         "province": "Kislev",
-        "population": 217,
+        "population": 113,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5213,10 +5213,10 @@
       "properties": {
         "name": "Zahorody",
         "province": "Kislev",
-        "population": 57,
+        "population": 782,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           770.0465622099999,
           108.72048939
@@ -5241,7 +5241,7 @@
       "properties": {
         "name": "Poliany",
         "province": "Kislev",
-        "population": 209,
+        "population": 88,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5269,7 +5269,7 @@
       "properties": {
         "name": "Horyany",
         "province": "Kislev",
-        "population": 146,
+        "population": 143,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5297,7 +5297,7 @@
       "properties": {
         "name": "Druzhne",
         "province": "Kislev",
-        "population": 73,
+        "population": 169,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5325,7 +5325,7 @@
       "properties": {
         "name": "Korshiv",
         "province": "Kislev",
-        "population": 221,
+        "population": 80,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5353,10 +5353,10 @@
       "properties": {
         "name": "Olenivka",
         "province": "Kislev",
-        "population": 761,
+        "population": 185,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           694.7615822099999,
           66.41317339
@@ -5381,10 +5381,10 @@
       "properties": {
         "name": "Yasne",
         "province": "Kislev",
-        "population": 567,
+        "population": 227,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           707.9794222099999,
           68.38460139
@@ -5409,10 +5409,10 @@
       "properties": {
         "name": "Zahradivka",
         "province": "Kislev",
-        "population": 63,
+        "population": 782,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           679.54442221,
           64.65031039
@@ -5437,7 +5437,7 @@
       "properties": {
         "name": "Vodyane",
         "province": "Kislev",
-        "population": 99,
+        "population": 130,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5465,10 +5465,10 @@
       "properties": {
         "name": "Lisnyky",
         "province": "Kislev",
-        "population": 118,
+        "population": 317,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           678.18681221,
           58.26561739
@@ -5493,7 +5493,7 @@
       "properties": {
         "name": "Rokytne",
         "province": "Kislev",
-        "population": 128,
+        "population": 91,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5521,7 +5521,7 @@
       "properties": {
         "name": "Ternivka",
         "province": "Kislev",
-        "population": 88,
+        "population": 62,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5549,7 +5549,7 @@
       "properties": {
         "name": "Zhytniv",
         "province": "Kislev",
-        "population": 66,
+        "population": 72,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5577,10 +5577,10 @@
       "properties": {
         "name": "Kryve",
         "province": "Kislev",
-        "population": 376,
+        "population": 253,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           803.45140221,
           79.79745839
@@ -5605,10 +5605,10 @@
       "properties": {
         "name": "Solone",
         "province": "Kislev",
-        "population": 782,
+        "population": 51,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           687.72026221,
           74.25411539000001
@@ -5633,7 +5633,7 @@
       "properties": {
         "name": "Vyshhorod",
         "province": "Kislev",
-        "population": 60,
+        "population": 188,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5661,7 +5661,7 @@
       "properties": {
         "name": "Kamianets",
         "province": "Kislev",
-        "population": 93,
+        "population": 106,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5689,10 +5689,10 @@
       "properties": {
         "name": "Lypivka",
         "province": "Kislev",
-        "population": 400,
+        "population": 22,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           726.89665221,
           93.19066939
@@ -5717,7 +5717,7 @@
       "properties": {
         "name": "Zorivka",
         "province": "Kislev",
-        "population": 79,
+        "population": 139,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5745,10 +5745,10 @@
       "properties": {
         "name": "Medvezhgrad",
         "province": "Kislev",
-        "population": 375,
+        "population": 243,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           746.2378422099999,
           -35.89011761
@@ -5773,7 +5773,7 @@
       "properties": {
         "name": "Novoursunsk",
         "province": "Kislev",
-        "population": 30,
+        "population": 139,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5801,7 +5801,7 @@
       "properties": {
         "name": "Starotorov",
         "province": "Kislev",
-        "population": 210,
+        "population": 61,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5829,7 +5829,7 @@
       "properties": {
         "name": "Dazhgorod",
         "province": "Kislev",
-        "population": 158,
+        "population": 105,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5857,7 +5857,7 @@
       "properties": {
         "name": "Ungolskaya",
         "province": "Kislev",
-        "population": 148,
+        "population": 260,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5885,10 +5885,10 @@
       "properties": {
         "name": "Zimny Bor",
         "province": "Kislev",
-        "population": 35,
+        "population": 782,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           944.3788322099999,
           -122.34912061
@@ -5913,7 +5913,7 @@
       "properties": {
         "name": "Krasnoozero",
         "province": "Kislev",
-        "population": 127,
+        "population": 173,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5941,10 +5941,10 @@
       "properties": {
         "name": "Belogorsk",
         "province": "Kislev",
-        "population": 413,
+        "population": 193,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           644.75346221,
           -55.34680561
@@ -5969,7 +5969,7 @@
       "properties": {
         "name": "Chernolesk",
         "province": "Kislev",
-        "population": 94,
+        "population": 81,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5997,7 +5997,7 @@
       "properties": {
         "name": "Solntsevo",
         "province": "Kislev",
-        "population": 195,
+        "population": 151,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -6025,7 +6025,7 @@
       "properties": {
         "name": "Zlatorechye",
         "province": "Kislev",
-        "population": 166,
+        "population": 222,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -6053,10 +6053,10 @@
       "properties": {
         "name": "Zelenograd",
         "province": "Kislev",
-        "population": 357,
+        "population": 84,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           732.01390221,
           -27.85689361
@@ -6081,7 +6081,7 @@
       "properties": {
         "name": "Kamenetsky",
         "province": "Kislev",
-        "population": 130,
+        "population": 99,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -6109,10 +6109,10 @@
       "properties": {
         "name": "Borovsk",
         "province": "Kislev",
-        "population": 782,
+        "population": 112,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           699.22435221,
           55.14772039
@@ -6137,7 +6137,7 @@
       "properties": {
         "name": "Nizhniy",
         "province": "Kislev",
-        "population": 196,
+        "population": 83,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -6165,7 +6165,7 @@
       "properties": {
         "name": "Vyshnevo",
         "province": "Kislev",
-        "population": 245,
+        "population": 118,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -6193,7 +6193,7 @@
       "properties": {
         "name": "Torogorsk",
         "province": "Kislev",
-        "population": 736,
+        "population": 396,
         "tags": [],
         "notes": [],
         "size_category": 2,
@@ -6221,10 +6221,10 @@
       "properties": {
         "name": "Beloretsk",
         "province": "Kislev",
-        "population": 294,
+        "population": 312,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           668.04253221,
           -8.915981610000001
@@ -6249,7 +6249,7 @@
       "properties": {
         "name": "Chernogorod",
         "province": "Kislev",
-        "population": 92,
+        "population": 68,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -6277,7 +6277,7 @@
       "properties": {
         "name": "Solntsegorsk",
         "province": "Kislev",
-        "population": 58,
+        "population": 227,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -6305,10 +6305,10 @@
       "properties": {
         "name": "Zimovka",
         "province": "Kislev",
-        "population": 466,
+        "population": 167,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           823.3587522099999,
           -120.94388061
@@ -6333,7 +6333,7 @@
       "properties": {
         "name": "Krasnoyar",
         "province": "Kislev",
-        "population": 210,
+        "population": 130,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -6361,7 +6361,7 @@
       "properties": {
         "name": "Dazhrad",
         "province": "Kislev",
-        "population": 132,
+        "population": 149,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -6389,7 +6389,7 @@
       "properties": {
         "name": "Belograd",
         "province": "Kislev",
-        "population": 154,
+        "population": 212,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -6417,7 +6417,7 @@
       "properties": {
         "name": "Zeleny Dol",
         "province": "Kislev",
-        "population": 123,
+        "population": 156,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -6445,10 +6445,10 @@
       "properties": {
         "name": "Belolug",
         "province": "Kislev",
-        "population": 418,
+        "population": 128,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           933.58238221,
           -82.68938861
@@ -6473,7 +6473,7 @@
       "properties": {
         "name": "Chernorechensk",
         "province": "Kislev",
-        "population": 144,
+        "population": 300,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -6501,10 +6501,10 @@
       "properties": {
         "name": "Solntsedar",
         "province": "Kislev",
-        "population": 599,
+        "population": 66,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           908.8721222099999,
           -36.08893561
@@ -6529,10 +6529,10 @@
       "properties": {
         "name": "Zimnegorsk",
         "province": "Kislev",
-        "population": 315,
+        "population": 186,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           1039.52577221,
           -98.63932061
@@ -6557,7 +6557,7 @@
       "properties": {
         "name": "Krasnobor",
         "province": "Kislev",
-        "population": 242,
+        "population": 32,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -6585,7 +6585,7 @@
       "properties": {
         "name": "Beloyar",
         "province": "Kislev",
-        "population": 88,
+        "population": 90,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -6613,7 +6613,7 @@
       "properties": {
         "name": "Chernopolye",
         "province": "Kislev",
-        "population": 73,
+        "population": 186,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -6641,7 +6641,7 @@
       "properties": {
         "name": "Kamenny",
         "province": "Kislev",
-        "population": 143,
+        "population": 97,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -6669,10 +6669,10 @@
       "properties": {
         "name": "Krasnograd",
         "province": "Kislev",
-        "population": 126,
+        "population": 638,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           914.05211221,
           -38.347492609999996
@@ -6697,7 +6697,7 @@
       "properties": {
         "name": "Irjisara",
         "province": "Kislev",
-        "population": 69,
+        "population": 88,
         "tags": [
           "source:RotIQ"
         ],
@@ -6727,7 +6727,7 @@
       "properties": {
         "name": "Novoborovo",
         "province": "Kislev",
-        "population": 123,
+        "population": 68,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -6755,10 +6755,10 @@
       "properties": {
         "name": "Starorechensk",
         "province": "Kislev",
-        "population": 480,
+        "population": 97,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           980.74071221,
           -70.55059460999999
@@ -6783,7 +6783,7 @@
       "properties": {
         "name": "Arsenkovo",
         "province": "Kislev",
-        "population": 131,
+        "population": 234,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -6811,7 +6811,7 @@
       "properties": {
         "name": "Demyanskoye",
         "province": "Kislev",
-        "population": 125,
+        "population": 114,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -6839,7 +6839,7 @@
       "properties": {
         "name": "Ilyashevo",
         "province": "Kislev",
-        "population": 49,
+        "population": 121,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -6867,10 +6867,10 @@
       "properties": {
         "name": "Spasskoye",
         "province": "Kislev",
-        "population": 131,
+        "population": 335,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           633.25566221,
           -44.07133861
@@ -6895,7 +6895,7 @@
       "properties": {
         "name": "Karpovsk",
         "province": "Kislev",
-        "population": 195,
+        "population": 117,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -6923,10 +6923,10 @@
       "properties": {
         "name": "Kasparovka",
         "province": "Kislev",
-        "population": 208,
+        "population": 368,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           699.06938221,
           6.33918009
@@ -6951,10 +6951,10 @@
       "properties": {
         "name": "Botvinniki",
         "province": "Kislev",
-        "population": 76,
+        "population": 507,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           675.6329822099999,
           -8.842883610000001
@@ -6979,7 +6979,7 @@
       "properties": {
         "name": "Talgrad",
         "province": "Kislev",
-        "population": 132,
+        "population": 101,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -7007,7 +7007,7 @@
       "properties": {
         "name": "Petrosyansk",
         "province": "Kislev",
-        "population": 60,
+        "population": 166,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -7035,7 +7035,7 @@
       "properties": {
         "name": "Nekrasovo",
         "province": "Kislev",
-        "population": 94,
+        "population": 150,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -7063,10 +7063,10 @@
       "properties": {
         "name": "Fateyevo",
         "province": "Kislev",
-        "population": 680,
+        "population": 232,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           937.19280221,
           -92.49191660999999
@@ -7091,10 +7091,10 @@
       "properties": {
         "name": "Vasilyevskoye",
         "province": "Kislev",
-        "population": 453,
+        "population": 79,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           939.40379221,
           -104.87347061
@@ -7119,10 +7119,10 @@
       "properties": {
         "name": "Onufriyevo",
         "province": "Kislev",
-        "population": 192,
+        "population": 362,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           919.21013221,
           -75.24625060999999
@@ -7147,10 +7147,10 @@
       "properties": {
         "name": "Rybinskoye",
         "province": "Kislev",
-        "population": 341,
+        "population": 243,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           929.08586221,
           -40.45997661
@@ -7175,7 +7175,7 @@
       "properties": {
         "name": "Olkhovka",
         "province": "Kislev",
-        "population": 267,
+        "population": 254,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -7203,7 +7203,7 @@
       "properties": {
         "name": "Rucheyok",
         "province": "Kislev",
-        "population": 71,
+        "population": 106,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -7231,7 +7231,7 @@
       "properties": {
         "name": "Topolevo",
         "province": "Kislev",
-        "population": 44,
+        "population": 145,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -7259,7 +7259,7 @@
       "properties": {
         "name": "Krutoyar",
         "province": "Kislev",
-        "population": 465,
+        "population": 319,
         "tags": [],
         "notes": [],
         "size_category": 2,
@@ -7287,7 +7287,7 @@
       "properties": {
         "name": "Akbulak",
         "province": "Kislev",
-        "population": 124,
+        "population": 97,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -7315,10 +7315,10 @@
       "properties": {
         "name": "Karasu",
         "province": "Kislev",
-        "population": 165,
+        "population": 636,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           1107.0116722100001,
           -76.59576061
@@ -7343,7 +7343,7 @@
       "properties": {
         "name": "Kyzylorda",
         "province": "Kislev",
-        "population": 56,
+        "population": 137,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -7371,7 +7371,7 @@
       "properties": {
         "name": "Karaganda",
         "province": "Kislev",
-        "population": 122,
+        "population": 221,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -7399,7 +7399,7 @@
       "properties": {
         "name": "Aksu",
         "province": "Kislev",
-        "population": 96,
+        "population": 43,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -7427,7 +7427,7 @@
       "properties": {
         "name": "Zhetysu",
         "province": "Kislev",
-        "population": 72,
+        "population": 129,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -7455,7 +7455,7 @@
       "properties": {
         "name": "Temirtau",
         "province": "Kislev",
-        "population": 185,
+        "population": 45,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -7483,7 +7483,7 @@
       "properties": {
         "name": "Sarybulak",
         "province": "Kislev",
-        "population": 296,
+        "population": 112,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -7511,10 +7511,10 @@
       "properties": {
         "name": "Akorda",
         "province": "Kislev",
-        "population": 395,
+        "population": 65,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           1028.3224722100001,
           82.39721239
@@ -7539,7 +7539,7 @@
       "properties": {
         "name": "Kokchetau",
         "province": "Kislev",
-        "population": 218,
+        "population": 123,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -7567,7 +7567,7 @@
       "properties": {
         "name": "Zhanakent",
         "province": "Kislev",
-        "population": 63,
+        "population": 70,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -7595,7 +7595,7 @@
       "properties": {
         "name": "Tasqala",
         "province": "Kislev",
-        "population": 228,
+        "population": 156,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -7651,7 +7651,7 @@
       "properties": {
         "name": "Kozlovsk",
         "province": "Kislev",
-        "population": 61,
+        "population": 71,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -7679,7 +7679,7 @@
       "properties": {
         "name": "Saurinsk",
         "province": "Kislev",
-        "population": 81,
+        "population": 144,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -7707,10 +7707,10 @@
       "properties": {
         "name": "Wladimsk",
         "province": "Kislev",
-        "population": 162,
+        "population": 395,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           787.52043221,
           128.09638938999998
@@ -7735,7 +7735,7 @@
       "properties": {
         "name": "Marborye",
         "province": "Kislev",
-        "population": 49,
+        "population": 65,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -7763,10 +7763,10 @@
       "properties": {
         "name": "Saminsk",
         "province": "Kislev",
-        "population": 200,
+        "population": 615,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           810.8506922099999,
           136.39203939
@@ -7791,10 +7791,10 @@
       "properties": {
         "name": "Berezovets",
         "province": "Kislev",
-        "population": 164,
+        "population": 727,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           911.98760221,
           58.07640039
@@ -7819,7 +7819,7 @@
       "properties": {
         "name": "Lesnaya Dolina",
         "province": "Kislev",
-        "population": 112,
+        "population": 134,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -7847,7 +7847,7 @@
       "properties": {
         "name": "Cherny Bor",
         "province": "Kislev",
-        "population": 36,
+        "population": 146,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -7875,10 +7875,10 @@
       "properties": {
         "name": "Sosnovichi",
         "province": "Kislev",
-        "population": 9,
+        "population": 540,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           953.77519221,
           69.86822839
@@ -7903,7 +7903,7 @@
       "properties": {
         "name": "Tikhorechye",
         "province": "Kislev",
-        "population": 92,
+        "population": 148,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -7931,7 +7931,7 @@
       "properties": {
         "name": "Mokry Les",
         "province": "Kislev",
-        "population": 171,
+        "population": 215,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -7959,10 +7959,10 @@
       "properties": {
         "name": "Rogozino",
         "province": "Kislev",
-        "population": 34,
+        "population": 378,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           707.8396522099999,
           65.15151239
@@ -7987,7 +7987,7 @@
       "properties": {
         "name": "Klenovka",
         "province": "Kislev",
-        "population": 27,
+        "population": 221,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -8015,7 +8015,7 @@
       "properties": {
         "name": "Vereski",
         "province": "Kislev",
-        "population": 298,
+        "population": 71,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -8043,7 +8043,7 @@
       "properties": {
         "name": "Gorodishche",
         "province": "Kislev",
-        "population": 145,
+        "population": 243,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -8071,10 +8071,10 @@
       "properties": {
         "name": "Chernoluzhye",
         "province": "Kislev",
-        "population": 395,
+        "population": 153,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           898.72167221,
           59.18182739
@@ -8099,7 +8099,7 @@
       "properties": {
         "name": "Staraya Dubrava",
         "province": "Kislev",
-        "population": 99,
+        "population": 84,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -8127,7 +8127,7 @@
       "properties": {
         "name": "Beloglinka",
         "province": "Kislev",
-        "population": 298,
+        "population": 265,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -8155,7 +8155,7 @@
       "properties": {
         "name": "Chernovtsy",
         "province": "Kislev",
-        "population": 93,
+        "population": 61,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -8183,7 +8183,7 @@
       "properties": {
         "name": "Daryevo",
         "province": "Kislev",
-        "population": 170,
+        "population": 104,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -8211,7 +8211,7 @@
       "properties": {
         "name": "Frolintsy",
         "province": "Kislev",
-        "population": 109,
+        "population": 197,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -8239,10 +8239,10 @@
       "properties": {
         "name": "Gorbatovo",
         "province": "Kislev",
-        "population": 394,
+        "population": 75,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           854.9440822099999,
           156.17052939
@@ -8267,7 +8267,7 @@
       "properties": {
         "name": "Ilyanovka",
         "province": "Kislev",
-        "population": 75,
+        "population": 205,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -8295,7 +8295,7 @@
       "properties": {
         "name": "Kostenevo",
         "province": "Kislev",
-        "population": 669,
+        "population": 784,
         "tags": [],
         "notes": [],
         "size_category": 2,
@@ -8323,7 +8323,7 @@
       "properties": {
         "name": "Malygino",
         "province": "Kislev",
-        "population": 235,
+        "population": 141,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -8351,7 +8351,7 @@
       "properties": {
         "name": "Novintsy",
         "province": "Kislev",
-        "population": 105,
+        "population": 255,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -8379,7 +8379,7 @@
       "properties": {
         "name": "Pavlovichi",
         "province": "Kislev",
-        "population": 158,
+        "population": 62,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -8407,7 +8407,7 @@
       "properties": {
         "name": "Rakitino",
         "province": "Kislev",
-        "population": 102,
+        "population": 44,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -8435,7 +8435,7 @@
       "properties": {
         "name": "Selintsy",
         "province": "Kislev",
-        "population": 168,
+        "population": 186,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -8463,7 +8463,7 @@
       "properties": {
         "name": "Tarasovka",
         "province": "Kislev",
-        "population": 215,
+        "population": 275,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -8491,7 +8491,7 @@
       "properties": {
         "name": "Ulyanovo",
         "province": "Kislev",
-        "population": 75,
+        "population": 157,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -8519,7 +8519,7 @@
       "properties": {
         "name": "Veselino",
         "province": "Kislev",
-        "population": 210,
+        "population": 56,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -8547,7 +8547,7 @@
       "properties": {
         "name": "Yarintsy",
         "province": "Kislev",
-        "population": 86,
+        "population": 131,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -8575,10 +8575,10 @@
       "properties": {
         "name": "Zarevino",
         "province": "Kislev",
-        "population": 183,
+        "population": 395,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           748.66924221,
           181.44948939
@@ -8603,10 +8603,10 @@
       "properties": {
         "name": "Belomorsk",
         "province": "Kislev",
-        "population": 101,
+        "population": 340,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           637.5302622099999,
           -2.7258031099999998
@@ -8631,7 +8631,7 @@
       "properties": {
         "name": "Rybatsk",
         "province": "Kislev",
-        "population": 254,
+        "population": 299,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -8659,7 +8659,7 @@
       "properties": {
         "name": "Chernaya Bukhta",
         "province": "Kislev",
-        "population": 58,
+        "population": 238,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -8687,7 +8687,7 @@
       "properties": {
         "name": "Tumanovo",
         "province": "Kislev",
-        "population": 130,
+        "population": 298,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -8715,7 +8715,7 @@
       "properties": {
         "name": "Vetrograd",
         "province": "Kislev",
-        "population": 177,
+        "population": 29,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -8743,10 +8743,10 @@
       "properties": {
         "name": "Neretsk",
         "province": "Kislev",
-        "population": 113,
+        "population": 694,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           632.81346221,
           29.77573339
@@ -8771,7 +8771,7 @@
       "properties": {
         "name": "Yantarovo",
         "province": "Kislev",
-        "population": 389,
+        "population": 393,
         "tags": [],
         "notes": [],
         "size_category": 2,
@@ -8799,7 +8799,7 @@
       "properties": {
         "name": "Port Velin",
         "province": "Kislev",
-        "population": 137,
+        "population": 146,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -8827,7 +8827,7 @@
       "properties": {
         "name": "Uvarino",
         "province": "Kislev",
-        "population": 65,
+        "population": 224,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -8855,7 +8855,7 @@
       "properties": {
         "name": "Vernesk",
         "province": "Kislev",
-        "population": 51,
+        "population": 113,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -8883,7 +8883,7 @@
       "properties": {
         "name": "Yartsevo",
         "province": "Kislev",
-        "population": 134,
+        "population": 72,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -8911,10 +8911,10 @@
       "properties": {
         "name": "Zorinovo",
         "province": "Kislev",
-        "population": 83,
+        "population": 751,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           838.7732422099999,
           272.67909939
@@ -8939,10 +8939,10 @@
       "properties": {
         "name": "Belyarov",
         "province": "Kislev",
-        "population": 97,
+        "population": 730,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           892.09563221,
           276.73372938999995
@@ -8967,7 +8967,7 @@
       "properties": {
         "name": "Chastino",
         "province": "Kislev",
-        "population": 81,
+        "population": 134,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -8995,7 +8995,7 @@
       "properties": {
         "name": "Domarinsk",
         "province": "Kislev",
-        "population": 88,
+        "population": 292,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -9023,7 +9023,7 @@
       "properties": {
         "name": "Klimovo",
         "province": "Kislev",
-        "population": 38,
+        "population": 277,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -9051,7 +9051,7 @@
       "properties": {
         "name": "Turovets",
         "province": "Kislev",
-        "population": 166,
+        "population": 225,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -9079,7 +9079,7 @@
       "properties": {
         "name": "Selgora",
         "province": "Kislev",
-        "population": 119,
+        "population": 124,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -9107,7 +9107,7 @@
       "properties": {
         "name": "Radinovo",
         "province": "Kislev",
-        "population": 158,
+        "population": 138,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -9135,7 +9135,7 @@
       "properties": {
         "name": "Pavshino",
         "province": "Kislev",
-        "population": 212,
+        "population": 187,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -9163,7 +9163,7 @@
       "properties": {
         "name": "Novy Yarinsk",
         "province": "Kislev",
-        "population": 83,
+        "population": 164,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -9191,7 +9191,7 @@
       "properties": {
         "name": "Mirovka",
         "province": "Kislev",
-        "population": 156,
+        "population": 172,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -9219,7 +9219,7 @@
       "properties": {
         "name": "Ladinsk",
         "province": "Kislev",
-        "population": 59,
+        "population": 130,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -9247,10 +9247,10 @@
       "properties": {
         "name": "Karshevo",
         "province": "Kislev",
-        "population": 342,
+        "population": 102,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           795.2687822099999,
           257.76435939
@@ -9275,7 +9275,7 @@
       "properties": {
         "name": "Ilyarov",
         "province": "Kislev",
-        "population": 74,
+        "population": 75,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -9303,7 +9303,7 @@
       "properties": {
         "name": "Gorlenka",
         "province": "Kislev",
-        "population": 268,
+        "population": 50,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -9331,10 +9331,10 @@
       "properties": {
         "name": "Fedorinsk",
         "province": "Kislev",
-        "population": 722,
+        "population": 132,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           891.47032221,
           55.30342439
@@ -9359,7 +9359,7 @@
       "properties": {
         "name": "Eltsovo",
         "province": "Kislev",
-        "population": 205,
+        "population": 264,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -9387,10 +9387,10 @@
       "properties": {
         "name": "Druzhinovo",
         "province": "Kislev",
-        "population": 375,
+        "population": 45,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           786.55083221,
           108.70797939
@@ -9415,7 +9415,7 @@
       "properties": {
         "name": "Chernovodsk",
         "province": "Kislev",
-        "population": 153,
+        "population": 22,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -9443,7 +9443,7 @@
       "properties": {
         "name": "Belotino",
         "province": "Kislev",
-        "population": 782,
+        "population": 310,
         "tags": [],
         "notes": [],
         "size_category": 2,
@@ -9471,10 +9471,10 @@
       "properties": {
         "name": "Lynskinsk",
         "province": "Kislev",
-        "population": 311,
+        "population": 40,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           848.1640522099999,
           66.50792639
@@ -9499,7 +9499,7 @@
       "properties": {
         "name": "Urskoynoye",
         "province": "Kislev",
-        "population": 207,
+        "population": 170,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -9593,7 +9593,7 @@
       "properties": {
         "name": "Enisov",
         "province": "Kislev",
-        "population": 266,
+        "population": 56,
         "tags": [
           "source:RotIQ"
         ],
@@ -9625,12 +9625,12 @@
       "properties": {
         "name": "Mazhorod",
         "province": "Kislev",
-        "population": 111,
+        "population": 439,
         "tags": [
           "source:WFB6e"
         ],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           764.13823221,
           98.58578139000001
@@ -9655,7 +9655,7 @@
       "properties": {
         "name": "Nekoltra",
         "province": "Kislev",
-        "population": 36,
+        "population": 148,
         "tags": [
           "source:RotIQ"
         ],
@@ -9685,12 +9685,12 @@
       "properties": {
         "name": "Vitkal",
         "province": "Kislev",
-        "population": 183,
+        "population": 349,
         "tags": [
           "source:RotIQ"
         ],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           811.5275122099999,
           -115.79655061
@@ -9715,12 +9715,12 @@
       "properties": {
         "name": "Urszebya",
         "province": "Kislev",
-        "population": 388,
+        "population": 240,
         "tags": [
           "source:WFB6e"
         ],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           923.6590422099999,
           193.51172939
@@ -10267,7 +10267,7 @@
       "properties": {
         "name": "Chernozavtra",
         "province": "Kislev",
-        "population": 109,
+        "population": 44,
         "tags": [
           "source:1eSRiK"
         ],
@@ -10297,7 +10297,7 @@
       "properties": {
         "name": "Grovodin",
         "province": "Kislev",
-        "population": 45,
+        "population": 56,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -10325,10 +10325,10 @@
       "properties": {
         "name": "Kromatov",
         "province": "Kislev",
-        "population": 515,
+        "population": 29,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           664.68968221,
           60.63499439
@@ -10353,7 +10353,7 @@
       "properties": {
         "name": "Ursangrad",
         "province": "Kislev",
-        "population": 164,
+        "population": 162,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -10381,7 +10381,7 @@
       "properties": {
         "name": "Mazagrod",
         "province": "Kislev",
-        "population": 96,
+        "population": 179,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -10409,7 +10409,7 @@
       "properties": {
         "name": "Boralov",
         "province": "Kislev",
-        "population": 202,
+        "population": 86,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -10437,7 +10437,7 @@
       "properties": {
         "name": "Krovas",
         "province": "Kislev",
-        "population": 75,
+        "population": 57,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -10465,7 +10465,7 @@
       "properties": {
         "name": "Izborak",
         "province": "Kislev",
-        "population": 73,
+        "population": 71,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -10493,7 +10493,7 @@
       "properties": {
         "name": "Drutsk",
         "province": "Kislev",
-        "population": 110,
+        "population": 122,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -10521,7 +10521,7 @@
       "properties": {
         "name": "Nereditsa",
         "province": "Kislev",
-        "population": 112,
+        "population": 71,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -10549,7 +10549,7 @@
       "properties": {
         "name": "Amatov",
         "province": "Kislev",
-        "population": 255,
+        "population": 42,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -10577,7 +10577,7 @@
       "properties": {
         "name": "Pomezna",
         "province": "Kislev",
-        "population": 324,
+        "population": 782,
         "tags": [],
         "notes": [],
         "size_category": 2,
@@ -10638,7 +10638,7 @@
       "properties": {
         "name": "Plovce",
         "province": "Kislev",
-        "population": 73,
+        "population": 85,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -10666,7 +10666,7 @@
       "properties": {
         "name": "Wojtaszyce",
         "province": "Kislev",
-        "population": 763,
+        "population": 559,
         "tags": [],
         "notes": [],
         "size_category": 2,
@@ -10694,7 +10694,7 @@
       "properties": {
         "name": "Czorna",
         "province": "Kislev",
-        "population": 29,
+        "population": 93,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -10722,7 +10722,7 @@
       "properties": {
         "name": "Rzepin",
         "province": "Kislev",
-        "population": 385,
+        "population": 387,
         "tags": [],
         "notes": [],
         "size_category": 2,
@@ -10750,10 +10750,10 @@
       "properties": {
         "name": "Brzesc",
         "province": "Kislev",
-        "population": 214,
+        "population": 717,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           738.59490221,
           134.17572939000001
@@ -10778,7 +10778,7 @@
       "properties": {
         "name": "Lisow",
         "province": "Kislev",
-        "population": 174,
+        "population": 105,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -10806,7 +10806,7 @@
       "properties": {
         "name": "Wizna",
         "province": "Kislev",
-        "population": 117,
+        "population": 150,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -10834,7 +10834,7 @@
       "properties": {
         "name": "Blotno",
         "province": "Kislev",
-        "population": 100,
+        "population": 64,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -10862,7 +10862,7 @@
       "properties": {
         "name": "Zabowo",
         "province": "Kislev",
-        "population": 273,
+        "population": 168,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -10890,7 +10890,7 @@
       "properties": {
         "name": "Ösel",
         "province": "Kislev",
-        "population": 160,
+        "population": 51,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -10918,10 +10918,10 @@
       "properties": {
         "name": "Ryazansk",
         "province": "Kislev",
-        "population": 568,
+        "population": 268,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           819.79570221,
           268.49077939
@@ -10946,7 +10946,7 @@
       "properties": {
         "name": "Kukonosy",
         "province": "Kislev",
-        "population": 220,
+        "population": 100,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -10974,10 +10974,10 @@
       "properties": {
         "name": "Merya",
         "province": "Kislev",
-        "population": 67,
+        "population": 488,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           952.44231221,
           204.67027939
@@ -11002,7 +11002,7 @@
       "properties": {
         "name": "Selkovo",
         "province": "Kislev",
-        "population": 49,
+        "population": 93,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -11030,10 +11030,10 @@
       "properties": {
         "name": "Vitebsk",
         "province": "Kislev",
-        "population": 44,
+        "population": 782,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           959.04686221,
           286.84435938999997
@@ -11058,7 +11058,7 @@
       "properties": {
         "name": "Polotsk",
         "province": "Kislev",
-        "population": 112,
+        "population": 39,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -11086,7 +11086,7 @@
       "properties": {
         "name": "Murom",
         "province": "Kislev",
-        "population": 59,
+        "population": 107,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -11114,7 +11114,7 @@
       "properties": {
         "name": "Ustyug",
         "province": "Kislev",
-        "population": 214,
+        "population": 171,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -11142,7 +11142,7 @@
       "properties": {
         "name": "Turov",
         "province": "Kislev",
-        "population": 83,
+        "population": 213,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -11170,7 +11170,7 @@
       "properties": {
         "name": "Suzdal",
         "province": "Kislev",
-        "population": 139,
+        "population": 156,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -11198,10 +11198,10 @@
       "properties": {
         "name": "Perejaslavl",
         "province": "Kislev",
-        "population": 340,
+        "population": 145,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           909.94371221,
           216.27229939
@@ -11226,7 +11226,7 @@
       "properties": {
         "name": "Rasina",
         "province": "Kislev",
-        "population": 215,
+        "population": 88,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -11254,7 +11254,7 @@
       "properties": {
         "name": "Mekhorin",
         "province": "Kislev",
-        "population": 289,
+        "population": 66,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -11282,7 +11282,7 @@
       "properties": {
         "name": "Maysky",
         "province": "Kislev",
-        "population": 103,
+        "population": 88,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -11310,7 +11310,7 @@
       "properties": {
         "name": "Volnoye",
         "province": "Kislev",
-        "population": 111,
+        "population": 49,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -11338,7 +11338,7 @@
       "properties": {
         "name": "Verkhnenazarovskoye",
         "province": "Kislev",
-        "population": 100,
+        "population": 279,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -11366,7 +11366,7 @@
       "properties": {
         "name": "Fadovoye",
         "province": "Kislev",
-        "population": 115,
+        "population": 46,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -11394,10 +11394,10 @@
       "properties": {
         "name": "Katyrbovo",
         "province": "Kislev",
-        "population": 532,
+        "population": 44,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           801.54820221,
           -97.06697061
@@ -11422,7 +11422,7 @@
       "properties": {
         "name": "Dzhamoye",
         "province": "Kislev",
-        "population": 35,
+        "population": 137,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -11450,10 +11450,10 @@
       "properties": {
         "name": "Oktyabrsky",
         "province": "Kislev",
-        "population": 452,
+        "population": 195,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           709.12938221,
           5.4785984899999995
@@ -11478,7 +11478,7 @@
       "properties": {
         "name": "Kalinin",
         "province": "Kislev",
-        "population": 41,
+        "population": 122,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -11506,7 +11506,7 @@
       "properties": {
         "name": "Krasny Nost",
         "province": "Kislev",
-        "population": 123,
+        "population": 292,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -11534,7 +11534,7 @@
       "properties": {
         "name": "Novoshoikovo",
         "province": "Kislev",
-        "population": 83,
+        "population": 54,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -11562,7 +11562,7 @@
       "properties": {
         "name": "Shoikasgrad",
         "province": "Kislev",
-        "population": 43,
+        "population": 141,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -11590,7 +11590,7 @@
       "properties": {
         "name": "Aleksandrovsk",
         "province": "Kislev",
-        "population": 114,
+        "population": 159,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -11618,7 +11618,7 @@
       "properties": {
         "name": "Gospodarskaya",
         "province": "Kislev",
-        "population": 36,
+        "population": 64,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -11646,7 +11646,7 @@
       "properties": {
         "name": "Pavlovgrad",
         "province": "Kislev",
-        "population": 262,
+        "population": 53,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -11674,7 +11674,7 @@
       "properties": {
         "name": "Tairinsk",
         "province": "Kislev",
-        "population": 74,
+        "population": 218,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -11702,10 +11702,10 @@
       "properties": {
         "name": "Zykovsk",
         "province": "Kislev",
-        "population": 230,
+        "population": 351,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           904.26408221,
           -34.13520861
@@ -11730,7 +11730,7 @@
       "properties": {
         "name": "Vassilino",
         "province": "Kislev",
-        "population": 80,
+        "population": 124,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -11758,7 +11758,7 @@
       "properties": {
         "name": "Romanovgrad",
         "province": "Kislev",
-        "population": 105,
+        "population": 102,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -11786,7 +11786,7 @@
       "properties": {
         "name": "Aleksinovo",
         "province": "Kislev",
-        "population": 179,
+        "population": 14,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -11814,7 +11814,7 @@
       "properties": {
         "name": "Novopavelgrad",
         "province": "Kislev",
-        "population": 192,
+        "population": 137,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -11842,7 +11842,7 @@
       "properties": {
         "name": "Bokhagrad",
         "province": "Kislev",
-        "population": 160,
+        "population": 123,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -11870,7 +11870,7 @@
       "properties": {
         "name": "Vladimirovo",
         "province": "Kislev",
-        "population": 126,
+        "population": 231,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -11898,7 +11898,7 @@
       "properties": {
         "name": "Borsinsk",
         "province": "Kislev",
-        "population": 213,
+        "population": 81,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -11926,10 +11926,10 @@
       "properties": {
         "name": "Ersatzheim",
         "province": "Kislev",
-        "population": 360,
+        "population": 137,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           770.85137221,
           195.72966939
@@ -11954,10 +11954,10 @@
       "properties": {
         "name": "Rheiden",
         "province": "Kislev",
-        "population": 416,
+        "population": 129,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           775.99700221,
           194.32918939
@@ -11982,7 +11982,7 @@
       "properties": {
         "name": "Pskoi",
         "province": "Kislev",
-        "population": 99,
+        "population": 134,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -12010,7 +12010,7 @@
       "properties": {
         "name": "Skolverket",
         "province": "Kislev",
-        "population": 48,
+        "population": 157,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -12038,7 +12038,7 @@
       "properties": {
         "name": "Kulm",
         "province": "Kislev",
-        "population": 135,
+        "population": 243,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -12066,7 +12066,7 @@
       "properties": {
         "name": "Uscat",
         "province": "Kislev",
-        "population": 782,
+        "population": 320,
         "tags": [],
         "notes": [],
         "size_category": 2,
@@ -12094,10 +12094,10 @@
       "properties": {
         "name": "Rensen",
         "province": "Kislev",
-        "population": 157,
+        "population": 435,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           797.30919221,
           222.98303939000002
@@ -12122,10 +12122,10 @@
       "properties": {
         "name": "Osilia",
         "province": "Kislev",
-        "population": 349,
+        "population": 127,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           797.10277221,
           231.63744939
@@ -12150,7 +12150,7 @@
       "properties": {
         "name": "Tsaritsysyn",
         "province": "Kislev",
-        "population": 230,
+        "population": 247,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -12178,7 +12178,7 @@
       "properties": {
         "name": "Plisk",
         "province": "Kislev",
-        "population": 105,
+        "population": 269,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -12206,7 +12206,7 @@
       "properties": {
         "name": "Voropovno",
         "province": "Kislev",
-        "population": 86,
+        "population": 194,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -12234,10 +12234,10 @@
       "properties": {
         "name": "Stetovsk",
         "province": "Kislev",
-        "population": 329,
+        "population": 85,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           873.52678221,
           29.51979239
@@ -12262,7 +12262,7 @@
       "properties": {
         "name": "Ustrody",
         "province": "Kislev",
-        "population": 52,
+        "population": 109,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -12290,10 +12290,10 @@
       "properties": {
         "name": "Pomorye",
         "province": "Kislev",
-        "population": 89,
+        "population": 362,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           815.35106221,
           84.96032339

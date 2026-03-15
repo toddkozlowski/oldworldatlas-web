@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Imperial Demographics | Atlas of the Old World</title>
+    <style>
+        :root {
+            color-scheme: light;
+        }
+
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            background: #f5f6f7;
+            color: #333;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        }
+
+        .page-shell {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 22px 18px 30px;
+        }
+
+        .page-header {
+            margin: 0 0 14px 0;
+            font-size: 15px;
+        }
+
+        .page-header a {
+            color: #34495e;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .page-header a:hover {
+            text-decoration: underline;
+        }
+
+        .page-card {
+            background: #fff;
+            border: 1px solid #e0e0e0;
+            border-radius: 10px;
+            padding: 28px;
+        }
+
+        .page-loading {
+            margin: 0;
+            color: #666;
+        }
+
+        @media (max-width: 768px) {
+            .page-shell {
+                padding: 14px 10px 18px;
+            }
+
+            .page-card {
+                padding: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main class="page-shell">
+        <div class="page-header">
+            <a href="../index.html">← Atlas of the Old World</a>
+        </div>
+
+        <article id="article-content" class="page-card">
+            <p class="page-loading">Loading imperial demographics…</p>
+        </article>
+    </main>
+
+    <script>
+        (async function loadArticle() {
+            const articleContent = document.getElementById('article-content');
+
+            try {
+                const response = await fetch('../page_content/imperial-demographics.html?v=1');
+                if (!response.ok) {
+                    throw new Error('Failed to load article content.');
+                }
+
+                const html = await response.text();
+                articleContent.innerHTML = html;
+            } catch (error) {
+                articleContent.innerHTML = '<p class="page-loading">Failed to load imperial demographics content.</p>';
+                console.error(error);
+            }
+        })();
+    </script>
+</body>
+</html>

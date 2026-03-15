@@ -203,10 +203,10 @@
       "properties": {
         "name": "Roba",
         "province": "Tilea",
-        "population": 327,
+        "population": 50,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           -66.78083769999999,
           1388.2117689
@@ -231,10 +231,10 @@
       "properties": {
         "name": "Caprio",
         "province": "Tilea",
-        "population": 358,
+        "population": 133,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           -92.7587657,
           1423.6372689
@@ -259,10 +259,10 @@
       "properties": {
         "name": "Ossomunte",
         "province": "Tilea",
-        "population": 425,
+        "population": 77,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           -87.6138227,
           1420.1762689
@@ -287,7 +287,7 @@
       "properties": {
         "name": "Senelite",
         "province": "Tilea",
-        "population": 95,
+        "population": 207,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -315,7 +315,7 @@
       "properties": {
         "name": "Caragio",
         "province": "Tilea",
-        "population": 94,
+        "population": 166,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -343,10 +343,10 @@
       "properties": {
         "name": "Beffardo",
         "province": "Tilea",
-        "population": 331,
+        "population": 48,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           -39.9062117,
           1445.7136689
@@ -371,7 +371,7 @@
       "properties": {
         "name": "Vermunte",
         "province": "Tilea",
-        "population": 261,
+        "population": 76,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -399,7 +399,7 @@
       "properties": {
         "name": "Verenzo",
         "province": "Tilea",
-        "population": 117,
+        "population": 165,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -427,7 +427,7 @@
       "properties": {
         "name": "Ragilia",
         "province": "Tilea",
-        "population": 36,
+        "population": 104,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -487,7 +487,7 @@
       "properties": {
         "name": "Vedona",
         "province": "Tilea",
-        "population": 111,
+        "population": 213,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -515,7 +515,7 @@
       "properties": {
         "name": "Barzo",
         "province": "Tilea",
-        "population": 38,
+        "population": 79,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -543,7 +543,7 @@
       "properties": {
         "name": "Gerosa",
         "province": "Tilea",
-        "population": 73,
+        "population": 50,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -571,10 +571,10 @@
       "properties": {
         "name": "Peghera",
         "province": "Tilea",
-        "population": 45,
+        "population": 386,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           137.06269029999999,
           953.5465289
@@ -599,7 +599,7 @@
       "properties": {
         "name": "Blanco",
         "province": "Tilea",
-        "population": 124,
+        "population": 136,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -627,7 +627,7 @@
       "properties": {
         "name": "Fraggo",
         "province": "Tilea",
-        "population": 211,
+        "population": 253,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -655,7 +655,7 @@
       "properties": {
         "name": "Velaris",
         "province": "Tilea",
-        "population": 168,
+        "population": 127,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -683,7 +683,7 @@
       "properties": {
         "name": "Belunno",
         "province": "Tilea",
-        "population": 51,
+        "population": 288,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -711,10 +711,10 @@
       "properties": {
         "name": "Ornica",
         "province": "Tilea",
-        "population": 566,
+        "population": 193,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           221.8356203,
           1033.5527688999998
@@ -739,10 +739,10 @@
       "properties": {
         "name": "Padula",
         "province": "Tilea",
-        "population": 62,
+        "population": 769,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           181.3239103,
           995.9880589
@@ -767,7 +767,7 @@
       "properties": {
         "name": "Dubino",
         "province": "Tilea",
-        "population": 44,
+        "population": 118,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -795,10 +795,10 @@
       "properties": {
         "name": "Olino",
         "province": "Tilea",
-        "population": 125,
+        "population": 321,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           96.6041873,
           1026.9762689
@@ -823,7 +823,7 @@
       "properties": {
         "name": "Lazatta",
         "province": "Tilea",
-        "population": 133,
+        "population": 147,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -851,10 +851,10 @@
       "properties": {
         "name": "Turate",
         "province": "Tilea",
-        "population": 345,
+        "population": 98,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           179.09743029999998,
           1027.3734688999998
@@ -879,10 +879,10 @@
       "properties": {
         "name": "Meda",
         "province": "Tilea",
-        "population": 94,
+        "population": 782,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           165.5274603,
           1008.3011689
@@ -969,7 +969,7 @@
       "properties": {
         "name": "Branzi",
         "province": "Tilea",
-        "population": 223,
+        "population": 26,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -997,10 +997,10 @@
       "properties": {
         "name": "Seregno",
         "province": "Tilea",
-        "population": 538,
+        "population": 56,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           181.0870903,
           981.0142989
@@ -1025,7 +1025,7 @@
       "properties": {
         "name": "Urio",
         "province": "Tilea",
-        "population": 52,
+        "population": 142,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -1053,7 +1053,7 @@
       "properties": {
         "name": "Pangata",
         "province": "Tilea",
-        "population": 261,
+        "population": 98,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -1081,7 +1081,7 @@
       "properties": {
         "name": "Liporno",
         "province": "Tilea",
-        "population": 22,
+        "population": 279,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -1109,7 +1109,7 @@
       "properties": {
         "name": "Curcio",
         "province": "Tilea",
-        "population": 36,
+        "population": 85,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -1197,10 +1197,10 @@
       "properties": {
         "name": "Talamona",
         "province": "Tilea",
-        "population": 66,
+        "population": 585,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           182.67873029999998,
           1010.4922689
@@ -1257,7 +1257,7 @@
       "properties": {
         "name": "Pusiano",
         "province": "Tilea",
-        "population": 288,
+        "population": 294,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -1285,7 +1285,7 @@
       "properties": {
         "name": "Forte",
         "province": "Tilea",
-        "population": 168,
+        "population": 22,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -1343,7 +1343,7 @@
       "properties": {
         "name": "Frera",
         "province": "Tilea",
-        "population": 68,
+        "population": 237,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -1371,7 +1371,7 @@
       "properties": {
         "name": "Risollo",
         "province": "Tilea",
-        "population": 101,
+        "population": 57,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -1399,7 +1399,7 @@
       "properties": {
         "name": "Bonomia",
         "province": "Tilea",
-        "population": 173,
+        "population": 84,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -1427,7 +1427,7 @@
       "properties": {
         "name": "Sazzo",
         "province": "Tilea",
-        "population": 189,
+        "population": 250,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -1455,7 +1455,7 @@
       "properties": {
         "name": "Satarena",
         "province": "Tilea",
-        "population": 218,
+        "population": 63,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -1483,10 +1483,10 @@
       "properties": {
         "name": "Zelbo",
         "province": "Tilea",
-        "population": 782,
+        "population": 211,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           170.7793303,
           1036.1812688999998
@@ -1511,10 +1511,10 @@
       "properties": {
         "name": "Torro",
         "province": "Tilea",
-        "population": 385,
+        "population": 154,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           136.1159003,
           1145.1160688999998
@@ -1539,10 +1539,10 @@
       "properties": {
         "name": "Polo",
         "province": "Tilea",
-        "population": 394,
+        "population": 232,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           139.32450029999998,
           1137.8572688999998
@@ -1597,7 +1597,7 @@
       "properties": {
         "name": "Perugia",
         "province": "Tilea",
-        "population": 131,
+        "population": 106,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -1657,7 +1657,7 @@
       "properties": {
         "name": "Atto",
         "province": "Tilea",
-        "population": 255,
+        "population": 67,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -1685,7 +1685,7 @@
       "properties": {
         "name": "Ranco",
         "province": "Tilea",
-        "population": 205,
+        "population": 76,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -1713,7 +1713,7 @@
       "properties": {
         "name": "Vonmano",
         "province": "Tilea",
-        "population": 86,
+        "population": 228,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -1741,10 +1741,10 @@
       "properties": {
         "name": "Degna",
         "province": "Tilea",
-        "population": 154,
+        "population": 529,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           162.0477403,
           1046.5961688999998
@@ -1769,7 +1769,7 @@
       "properties": {
         "name": "Matte",
         "province": "Tilea",
-        "population": 134,
+        "population": 264,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -1797,10 +1797,10 @@
       "properties": {
         "name": "Corvo",
         "province": "Tilea",
-        "population": 782,
+        "population": 149,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           157.3137103,
           1059.5357689
@@ -1825,7 +1825,7 @@
       "properties": {
         "name": "Lirone",
         "province": "Tilea",
-        "population": 166,
+        "population": 170,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -1853,10 +1853,10 @@
       "properties": {
         "name": "Dosso",
         "province": "Tilea",
-        "population": 202,
+        "population": 473,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           181.61497029999998,
           1067.6361688999998
@@ -1911,10 +1911,10 @@
       "properties": {
         "name": "Rezzo",
         "province": "Tilea",
-        "population": 340,
+        "population": 159,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           149.89712029999998,
           1073.0012688999998
@@ -1939,7 +1939,7 @@
       "properties": {
         "name": "Pico",
         "province": "Tilea",
-        "population": 78,
+        "population": 190,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -1997,7 +1997,7 @@
       "properties": {
         "name": "Padulle",
         "province": "Tilea",
-        "population": 40,
+        "population": 246,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -2025,7 +2025,7 @@
       "properties": {
         "name": "Casiado",
         "province": "Tilea",
-        "population": 174,
+        "population": 209,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -2053,7 +2053,7 @@
       "properties": {
         "name": "Malacappa",
         "province": "Tilea",
-        "population": 84,
+        "population": 113,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -2081,10 +2081,10 @@
       "properties": {
         "name": "Maciera",
         "province": "Tilea",
-        "population": 151,
+        "population": 362,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           191.45119029999998,
           1121.6038689
@@ -2109,10 +2109,10 @@
       "properties": {
         "name": "Staggiana",
         "province": "Tilea",
-        "population": 185,
+        "population": 318,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           98.9802173,
           1143.1698689
@@ -2137,7 +2137,7 @@
       "properties": {
         "name": "Alta",
         "province": "Tilea",
-        "population": 99,
+        "population": 84,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -2165,7 +2165,7 @@
       "properties": {
         "name": "Balante",
         "province": "Tilea",
-        "population": 59,
+        "population": 25,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -2225,7 +2225,7 @@
       "properties": {
         "name": "Santomenna",
         "province": "Tilea",
-        "population": 131,
+        "population": 126,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -2253,7 +2253,7 @@
       "properties": {
         "name": "Rapone",
         "province": "Tilea",
-        "population": 142,
+        "population": 139,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -2281,7 +2281,7 @@
       "properties": {
         "name": "Parino",
         "province": "Tilea",
-        "population": 116,
+        "population": 80,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -2309,10 +2309,10 @@
       "properties": {
         "name": "Ginestre",
         "province": "Tilea",
-        "population": 558,
+        "population": 72,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           131.8026803,
           1185.7759689
@@ -2337,7 +2337,7 @@
       "properties": {
         "name": "Caro",
         "province": "Tilea",
-        "population": 298,
+        "population": 154,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -2365,10 +2365,10 @@
       "properties": {
         "name": "Casalle",
         "province": "Tilea",
-        "population": 59,
+        "population": 671,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           109.88969030000001,
           1186.4661689
@@ -2393,7 +2393,7 @@
       "properties": {
         "name": "Arputino",
         "province": "Tilea",
-        "population": 94,
+        "population": 36,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -2421,7 +2421,7 @@
       "properties": {
         "name": "Pierno",
         "province": "Tilea",
-        "population": 290,
+        "population": 245,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -2479,10 +2479,10 @@
       "properties": {
         "name": "Appio",
         "province": "Tilea",
-        "population": 146,
+        "population": 782,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           132.6442803,
           1230.5386689
@@ -2507,7 +2507,7 @@
       "properties": {
         "name": "Incarico",
         "province": "Tilea",
-        "population": 172,
+        "population": 122,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -2535,7 +2535,7 @@
       "properties": {
         "name": "Senarico",
         "province": "Tilea",
-        "population": 153,
+        "population": 114,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -2563,7 +2563,7 @@
       "properties": {
         "name": "Maleno",
         "province": "Tilea",
-        "population": 291,
+        "population": 79,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -2591,7 +2591,7 @@
       "properties": {
         "name": "Brezza",
         "province": "Tilea",
-        "population": 216,
+        "population": 148,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -2619,10 +2619,10 @@
       "properties": {
         "name": "Fontanelle",
         "province": "Tilea",
-        "population": 536,
+        "population": 284,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           105.1870303,
           1243.3729689
@@ -2647,10 +2647,10 @@
       "properties": {
         "name": "Valema",
         "province": "Tilea",
-        "population": 39,
+        "population": 322,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           96.24501830000001,
           1240.4800688999999
@@ -2675,10 +2675,10 @@
       "properties": {
         "name": "Ninio",
         "province": "Tilea",
-        "population": 346,
+        "population": 90,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           75.7572863,
           1231.2749689
@@ -2733,7 +2733,7 @@
       "properties": {
         "name": "Scauri",
         "province": "Tilea",
-        "population": 237,
+        "population": 158,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -2793,7 +2793,7 @@
       "properties": {
         "name": "Fossa",
         "province": "Tilea",
-        "population": 88,
+        "population": 132,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -2821,7 +2821,7 @@
       "properties": {
         "name": "Calia",
         "province": "Tilea",
-        "population": 40,
+        "population": 66,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -2849,7 +2849,7 @@
       "properties": {
         "name": "Magno",
         "province": "Tilea",
-        "population": 138,
+        "population": 212,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -2877,10 +2877,10 @@
       "properties": {
         "name": "Trullo",
         "province": "Tilea",
-        "population": 54,
+        "population": 324,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           132.0656803,
           1273.7626688999999
@@ -2905,10 +2905,10 @@
       "properties": {
         "name": "Pantone",
         "province": "Tilea",
-        "population": 134,
+        "population": 358,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           117.61398030000001,
           1273.9915689
@@ -2933,7 +2933,7 @@
       "properties": {
         "name": "Moscufo",
         "province": "Tilea",
-        "population": 246,
+        "population": 295,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -2961,10 +2961,10 @@
       "properties": {
         "name": "Elice",
         "province": "Tilea",
-        "population": 423,
+        "population": 25,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           120.1254703,
           1288.5564688999998
@@ -3019,7 +3019,7 @@
       "properties": {
         "name": "Galianni",
         "province": "Tilea",
-        "population": 166,
+        "population": 217,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3047,10 +3047,10 @@
       "properties": {
         "name": "Morte",
         "province": "Tilea",
-        "population": 162,
+        "population": 782,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           121.6508603,
           1298.3926689
@@ -3075,7 +3075,7 @@
       "properties": {
         "name": "Borgio",
         "province": "Tilea",
-        "population": 86,
+        "population": 97,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3103,7 +3103,7 @@
       "properties": {
         "name": "Casoli",
         "province": "Tilea",
-        "population": 249,
+        "population": 110,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3131,10 +3131,10 @@
       "properties": {
         "name": "Verdi",
         "province": "Tilea",
-        "population": 318,
+        "population": 154,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           147.0758603,
           1320.8109688999998
@@ -3159,7 +3159,7 @@
       "properties": {
         "name": "Cirqa",
         "province": "Tilea",
-        "population": 49,
+        "population": 283,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3187,7 +3187,7 @@
       "properties": {
         "name": "Luna",
         "province": "Tilea",
-        "population": 150,
+        "population": 54,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3215,7 +3215,7 @@
       "properties": {
         "name": "Conserta",
         "province": "Tilea",
-        "population": 23,
+        "population": 248,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3243,7 +3243,7 @@
       "properties": {
         "name": "Morro d'Oro",
         "province": "Tilea",
-        "population": 154,
+        "population": 69,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3271,7 +3271,7 @@
       "properties": {
         "name": "Tufino",
         "province": "Tilea",
-        "population": 113,
+        "population": 258,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3299,7 +3299,7 @@
       "properties": {
         "name": "Literno",
         "province": "Tilea",
-        "population": 12,
+        "population": 50,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3327,7 +3327,7 @@
       "properties": {
         "name": "Azzano",
         "province": "Tilea",
-        "population": 42,
+        "population": 173,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3355,10 +3355,10 @@
       "properties": {
         "name": "Caprafico",
         "province": "Tilea",
-        "population": 661,
+        "population": 95,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           9.2444678,
           1343.9970689
@@ -3383,10 +3383,10 @@
       "properties": {
         "name": "Sangria",
         "province": "Tilea",
-        "population": 89,
+        "population": 441,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           7.6138669,
           1322.8517688999998
@@ -3411,10 +3411,10 @@
       "properties": {
         "name": "Nardis",
         "province": "Tilea",
-        "population": 782,
+        "population": 122,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           20.7638933,
           1305.7041688999998
@@ -3439,7 +3439,7 @@
       "properties": {
         "name": "Frisca",
         "province": "Tilea",
-        "population": 82,
+        "population": 236,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3467,10 +3467,10 @@
       "properties": {
         "name": "Surbo",
         "province": "Tilea",
-        "population": 204,
+        "population": 311,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           24.8666973,
           1345.5223689
@@ -3495,10 +3495,10 @@
       "properties": {
         "name": "Urta",
         "province": "Tilea",
-        "population": 74,
+        "population": 457,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           58.793754299999996,
           1354.4644689
@@ -3523,10 +3523,10 @@
       "properties": {
         "name": "Peri",
         "province": "Tilea",
-        "population": 387,
+        "population": 110,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           12.084869300000001,
           1367.7196689
@@ -3551,7 +3551,7 @@
       "properties": {
         "name": "Trepuzzi",
         "province": "Tilea",
-        "population": 56,
+        "population": 32,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3579,7 +3579,7 @@
       "properties": {
         "name": "Forino",
         "province": "Tilea",
-        "population": 219,
+        "population": 171,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3607,7 +3607,7 @@
       "properties": {
         "name": "Retignano",
         "province": "Tilea",
-        "population": 152,
+        "population": 50,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3635,7 +3635,7 @@
       "properties": {
         "name": "Celzi",
         "province": "Tilea",
-        "population": 205,
+        "population": 92,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3663,10 +3663,10 @@
       "properties": {
         "name": "Orzalle",
         "province": "Tilea",
-        "population": 398,
+        "population": 196,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           58.5833593,
           1397.1757688999999
@@ -3691,7 +3691,7 @@
       "properties": {
         "name": "Limitti",
         "province": "Tilea",
-        "population": 130,
+        "population": 118,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3719,7 +3719,7 @@
       "properties": {
         "name": "Basati",
         "province": "Tilea",
-        "population": 76,
+        "population": 113,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3777,10 +3777,10 @@
       "properties": {
         "name": "Irpina",
         "province": "Tilea",
-        "population": 145,
+        "population": 354,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           73.6795733,
           1438.3088688999999
@@ -3835,7 +3835,7 @@
       "properties": {
         "name": "Lanzara",
         "province": "Tilea",
-        "population": 109,
+        "population": 160,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3863,7 +3863,7 @@
       "properties": {
         "name": "Gallo",
         "province": "Tilea",
-        "population": 206,
+        "population": 178,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3891,7 +3891,7 @@
       "properties": {
         "name": "Forno",
         "province": "Tilea",
-        "population": 177,
+        "population": 54,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3919,7 +3919,7 @@
       "properties": {
         "name": "Torini",
         "province": "Tilea",
-        "population": 203,
+        "population": 65,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3947,7 +3947,7 @@
       "properties": {
         "name": "Cundera",
         "province": "Tilea",
-        "population": 194,
+        "population": 152,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3975,7 +3975,7 @@
       "properties": {
         "name": "Denci",
         "province": "Tilea",
-        "population": 78,
+        "population": 175,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4003,10 +4003,10 @@
       "properties": {
         "name": "Nusco",
         "province": "Tilea",
-        "population": 535,
+        "population": 67,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           128.8044803,
           1388.2337688999999
@@ -4031,7 +4031,7 @@
       "properties": {
         "name": "Secli",
         "province": "Tilea",
-        "population": 230,
+        "population": 142,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4059,10 +4059,10 @@
       "properties": {
         "name": "Neretti",
         "province": "Tilea",
-        "population": 578,
+        "population": 104,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           113.6556503,
           1372.2432689
@@ -4117,7 +4117,7 @@
       "properties": {
         "name": "Lando",
         "province": "Tilea",
-        "population": 349,
+        "population": 692,
         "tags": [],
         "notes": [],
         "size_category": 2,
@@ -4145,10 +4145,10 @@
       "properties": {
         "name": "Novoli",
         "province": "Tilea",
-        "population": 56,
+        "population": 504,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           72.20677930000001,
           1378.3449689
@@ -4173,7 +4173,7 @@
       "properties": {
         "name": "Selva",
         "province": "Tilea",
-        "population": 98,
+        "population": 69,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4201,7 +4201,7 @@
       "properties": {
         "name": "Dragoni",
         "province": "Tilea",
-        "population": 782,
+        "population": 315,
         "tags": [],
         "notes": [],
         "size_category": 2,
@@ -4229,7 +4229,7 @@
       "properties": {
         "name": "Acaya",
         "province": "Tilea",
-        "population": 45,
+        "population": 199,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4257,7 +4257,7 @@
       "properties": {
         "name": "Fiume",
         "province": "Tilea",
-        "population": 210,
+        "population": 74,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4285,7 +4285,7 @@
       "properties": {
         "name": "Cenari",
         "province": "Tilea",
-        "population": 47,
+        "population": 108,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4313,7 +4313,7 @@
       "properties": {
         "name": "Colle",
         "province": "Tilea",
-        "population": 41,
+        "population": 25,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4341,7 +4341,7 @@
       "properties": {
         "name": "Polonezze",
         "province": "Tilea",
-        "population": 198,
+        "population": 148,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4369,7 +4369,7 @@
       "properties": {
         "name": "Alboretto",
         "province": "Tilea",
-        "population": 39,
+        "population": 106,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4397,7 +4397,7 @@
       "properties": {
         "name": "Arielli",
         "province": "Tilea",
-        "population": 201,
+        "population": 290,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4425,10 +4425,10 @@
       "properties": {
         "name": "Duplo",
         "province": "Tilea",
-        "population": 338,
+        "population": 88,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           54.0597463,
           1294.3950688999998
@@ -4453,10 +4453,10 @@
       "properties": {
         "name": "Ulmeta",
         "province": "Tilea",
-        "population": 77,
+        "population": 445,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           84.3048023,
           1268.6736689
@@ -4481,10 +4481,10 @@
       "properties": {
         "name": "Pronto",
         "province": "Tilea",
-        "population": 353,
+        "population": 109,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           167.6233403,
           1263.5714689
@@ -4509,7 +4509,7 @@
       "properties": {
         "name": "Celada",
         "province": "Tilea",
-        "population": 114,
+        "population": 125,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4537,7 +4537,7 @@
       "properties": {
         "name": "Menio",
         "province": "Tilea",
-        "population": 273,
+        "population": 127,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4595,7 +4595,7 @@
       "properties": {
         "name": "Corsi",
         "province": "Tilea",
-        "population": 32,
+        "population": 285,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4623,7 +4623,7 @@
       "properties": {
         "name": "Picolo",
         "province": "Tilea",
-        "population": 137,
+        "population": 109,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4651,7 +4651,7 @@
       "properties": {
         "name": "Albo",
         "province": "Tilea",
-        "population": 103,
+        "population": 184,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4679,7 +4679,7 @@
       "properties": {
         "name": "Orno",
         "province": "Tilea",
-        "population": 37,
+        "population": 277,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4707,7 +4707,7 @@
       "properties": {
         "name": "Atella",
         "province": "Tilea",
-        "population": 62,
+        "population": 73,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4735,7 +4735,7 @@
       "properties": {
         "name": "Venosa",
         "province": "Tilea",
-        "population": 167,
+        "population": 20,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4763,7 +4763,7 @@
       "properties": {
         "name": "Olivia",
         "province": "Tilea",
-        "population": 119,
+        "population": 168,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4823,7 +4823,7 @@
       "properties": {
         "name": "Aquin",
         "province": "Tilea",
-        "population": 162,
+        "population": 82,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4851,7 +4851,7 @@
       "properties": {
         "name": "Nuncio",
         "province": "Tilea",
-        "population": 98,
+        "population": 199,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4879,7 +4879,7 @@
       "properties": {
         "name": "Barberi",
         "province": "Tilea",
-        "population": 225,
+        "population": 130,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4907,7 +4907,7 @@
       "properties": {
         "name": "Ausonia",
         "province": "Tilea",
-        "population": 174,
+        "population": 267,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4935,10 +4935,10 @@
       "properties": {
         "name": "Rucco",
         "province": "Tilea",
-        "population": 391,
+        "population": 108,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           238.68606029999998,
           1201.8189688999998
@@ -4963,7 +4963,7 @@
       "properties": {
         "name": "Cese",
         "province": "Tilea",
-        "population": 144,
+        "population": 115,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4991,7 +4991,7 @@
       "properties": {
         "name": "Mirenze",
         "province": "Tilea",
-        "population": 63,
+        "population": 46,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5019,7 +5019,7 @@
       "properties": {
         "name": "Varche",
         "province": "Tilea",
-        "population": 75,
+        "population": 61,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5047,10 +5047,10 @@
       "properties": {
         "name": "Palissa",
         "province": "Tilea",
-        "population": 444,
+        "population": 150,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           258.3059003,
           1182.4620688999998
@@ -5075,10 +5075,10 @@
       "properties": {
         "name": "Zuccea",
         "province": "Tilea",
-        "population": 429,
+        "population": 156,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           248.3958403,
           1168.6846689
@@ -5103,7 +5103,7 @@
       "properties": {
         "name": "Castel d'Avolo",
         "province": "Tilea",
-        "population": 114,
+        "population": 195,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5131,7 +5131,7 @@
       "properties": {
         "name": "Luppa",
         "province": "Tilea",
-        "population": 16,
+        "population": 43,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5159,7 +5159,7 @@
       "properties": {
         "name": "Gabbiano",
         "province": "Tilea",
-        "population": 51,
+        "population": 143,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5187,7 +5187,7 @@
       "properties": {
         "name": "Falco",
         "province": "Tilea",
-        "population": 97,
+        "population": 149,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5215,7 +5215,7 @@
       "properties": {
         "name": "Ezio",
         "province": "Tilea",
-        "population": 224,
+        "population": 173,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5243,10 +5243,10 @@
       "properties": {
         "name": "Stalliano",
         "province": "Tilea",
-        "population": 407,
+        "population": 202,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           186.2437703,
           1152.0066688999998
@@ -5271,7 +5271,7 @@
       "properties": {
         "name": "Val",
         "province": "Tilea",
-        "population": 98,
+        "population": 42,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5299,7 +5299,7 @@
       "properties": {
         "name": "Prato",
         "province": "Tilea",
-        "population": 576,
+        "population": 741,
         "tags": [],
         "notes": [],
         "size_category": 2,
@@ -5327,10 +5327,10 @@
       "properties": {
         "name": "Ronti",
         "province": "Tilea",
-        "population": 197,
+        "population": 355,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           201.7739503,
           1163.8153688999998
@@ -5355,10 +5355,10 @@
       "properties": {
         "name": "Severo",
         "province": "Tilea",
-        "population": 75,
+        "population": 304,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           151.2647203,
           1157.5296689
@@ -5383,7 +5383,7 @@
       "properties": {
         "name": "Fonaco",
         "province": "Tilea",
-        "population": 209,
+        "population": 50,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5411,7 +5411,7 @@
       "properties": {
         "name": "Morra",
         "province": "Tilea",
-        "population": 139,
+        "population": 228,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5439,10 +5439,10 @@
       "properties": {
         "name": "Icaria",
         "province": "Tilea",
-        "population": 245,
+        "population": 478,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           224.7996603,
           1107.8225688999999
@@ -5467,7 +5467,7 @@
       "properties": {
         "name": "Farna",
         "province": "Tilea",
-        "population": 547,
+        "population": 316,
         "tags": [],
         "notes": [],
         "size_category": 2,
@@ -5495,10 +5495,10 @@
       "properties": {
         "name": "Ghazzi",
         "province": "Tilea",
-        "population": 335,
+        "population": 124,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           214.4900303,
           1082.4166688999999
@@ -5523,7 +5523,7 @@
       "properties": {
         "name": "Sorbara",
         "province": "Tilea",
-        "population": 37,
+        "population": 29,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5583,7 +5583,7 @@
       "properties": {
         "name": "Corlo",
         "province": "Tilea",
-        "population": 210,
+        "population": 150,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5611,7 +5611,7 @@
       "properties": {
         "name": "Veleso",
         "province": "Tilea",
-        "population": 144,
+        "population": 253,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5639,7 +5639,7 @@
       "properties": {
         "name": "Prado",
         "province": "Tilea",
-        "population": 94,
+        "population": 206,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5667,10 +5667,10 @@
       "properties": {
         "name": "Asso",
         "province": "Tilea",
-        "population": 417,
+        "population": 44,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           208.28321029999998,
           1056.4849688999998
@@ -5695,10 +5695,10 @@
       "properties": {
         "name": "Onno",
         "province": "Tilea",
-        "population": 53,
+        "population": 469,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           193.60780029999998,
           1042.3355689
@@ -5723,10 +5723,10 @@
       "properties": {
         "name": "Valle",
         "province": "Tilea",
-        "population": 221,
+        "population": 360,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           201.8134103,
           1041.3886688999999
@@ -5751,7 +5751,7 @@
       "properties": {
         "name": "Fusine",
         "province": "Tilea",
-        "population": 41,
+        "population": 51,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5779,7 +5779,7 @@
       "properties": {
         "name": "Ambria",
         "province": "Tilea",
-        "population": 96,
+        "population": 88,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5807,7 +5807,7 @@
       "properties": {
         "name": "Prosto",
         "province": "Tilea",
-        "population": 53,
+        "population": 168,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5835,7 +5835,7 @@
       "properties": {
         "name": "Codera",
         "province": "Tilea",
-        "population": 89,
+        "population": 111,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5863,7 +5863,7 @@
       "properties": {
         "name": "Malonno",
         "province": "Tilea",
-        "population": 127,
+        "population": 231,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5891,7 +5891,7 @@
       "properties": {
         "name": "Pastilla",
         "province": "Tilea",
-        "population": 196,
+        "population": 48,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5919,10 +5919,10 @@
       "properties": {
         "name": "Grezo",
         "province": "Tilea",
-        "population": 474,
+        "population": 214,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           253.9927103,
           1055.1698689
@@ -5947,7 +5947,7 @@
       "properties": {
         "name": "Erba",
         "province": "Tilea",
-        "population": 108,
+        "population": 78,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5975,7 +5975,7 @@
       "properties": {
         "name": "Nadro",
         "province": "Tilea",
-        "population": 80,
+        "population": 146,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -6003,7 +6003,7 @@
       "properties": {
         "name": "Ceto",
         "province": "Tilea",
-        "population": 248,
+        "population": 125,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -6031,7 +6031,7 @@
       "properties": {
         "name": "Uno",
         "province": "Tilea",
-        "population": 91,
+        "population": 55,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -6059,7 +6059,7 @@
       "properties": {
         "name": "Sante",
         "province": "Tilea",
-        "population": 173,
+        "population": 50,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -6087,7 +6087,7 @@
       "properties": {
         "name": "Buche",
         "province": "Tilea",
-        "population": 143,
+        "population": 104,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -6115,10 +6115,10 @@
       "properties": {
         "name": "Limidi",
         "province": "Tilea",
-        "population": 88,
+        "population": 308,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           248.7327003,
           1075.6838688999999
@@ -6143,7 +6143,7 @@
       "properties": {
         "name": "Saletto",
         "province": "Tilea",
-        "population": 94,
+        "population": 66,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -6171,7 +6171,7 @@
       "properties": {
         "name": "Ostenia",
         "province": "Tilea",
-        "population": 203,
+        "population": 98,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -6199,7 +6199,7 @@
       "properties": {
         "name": "Biadoli",
         "province": "Tilea",
-        "population": 157,
+        "population": 49,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -6227,7 +6227,7 @@
       "properties": {
         "name": "Bella",
         "province": "Tilea",
-        "population": 79,
+        "population": 84,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -6255,7 +6255,7 @@
       "properties": {
         "name": "Ronta",
         "province": "Tilea",
-        "population": 173,
+        "population": 96,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -6283,7 +6283,7 @@
       "properties": {
         "name": "Porza",
         "province": "Tilea",
-        "population": 70,
+        "population": 49,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -6311,7 +6311,7 @@
       "properties": {
         "name": "Nado",
         "province": "Tilea",
-        "population": 158,
+        "population": 155,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -6339,7 +6339,7 @@
       "properties": {
         "name": "Gateo",
         "province": "Tilea",
-        "population": 34,
+        "population": 143,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -6367,10 +6367,10 @@
       "properties": {
         "name": "Breno",
         "province": "Tilea",
-        "population": 85,
+        "population": 782,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           353.3016903,
           1055.3276689
@@ -6395,7 +6395,7 @@
       "properties": {
         "name": "Braone",
         "province": "Tilea",
-        "population": 12,
+        "population": 90,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -6423,7 +6423,7 @@
       "properties": {
         "name": "Cundo",
         "province": "Tilea",
-        "population": 56,
+        "population": 106,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -6451,7 +6451,7 @@
       "properties": {
         "name": "Doro",
         "province": "Tilea",
-        "population": 92,
+        "population": 84,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -6479,10 +6479,10 @@
       "properties": {
         "name": "Dema",
         "province": "Tilea",
-        "population": 365,
+        "population": 243,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           384.33572030000005,
           1026.2398689
@@ -6539,10 +6539,10 @@
       "properties": {
         "name": "Cetno",
         "province": "Tilea",
-        "population": 125,
+        "population": 382,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           343.3076403,
           1024.8196689
@@ -6567,7 +6567,7 @@
       "properties": {
         "name": "Geroni",
         "province": "Tilea",
-        "population": 128,
+        "population": 230,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -6595,7 +6595,7 @@
       "properties": {
         "name": "Lapide",
         "province": "Tilea",
-        "population": 99,
+        "population": 73,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -6623,7 +6623,7 @@
       "properties": {
         "name": "Bonimonte",
         "province": "Tilea",
-        "population": 143,
+        "population": 170,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -6651,7 +6651,7 @@
       "properties": {
         "name": "Tamarisa",
         "province": "Tilea",
-        "population": 47,
+        "population": 89,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -6679,7 +6679,7 @@
       "properties": {
         "name": "Samatea",
         "province": "Tilea",
-        "population": 169,
+        "population": 213,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -6707,10 +6707,10 @@
       "properties": {
         "name": "Esterzilli",
         "province": "Tilea",
-        "population": 98,
+        "population": 792,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           170.9015703,
           1435.1940688999998
@@ -6735,7 +6735,7 @@
       "properties": {
         "name": "Nutronia",
         "province": "Tilea",
-        "population": 72,
+        "population": 263,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -6763,10 +6763,10 @@
       "properties": {
         "name": "Serro",
         "province": "Tilea",
-        "population": 483,
+        "population": 279,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           160.1525503,
           1391.7887689
@@ -6821,7 +6821,7 @@
       "properties": {
         "name": "Marcadazio",
         "province": "Tilea",
-        "population": 69,
+        "population": 53,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -6849,7 +6849,7 @@
       "properties": {
         "name": "Longoria",
         "province": "Tilea",
-        "population": 213,
+        "population": 112,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -6877,10 +6877,10 @@
       "properties": {
         "name": "Brevis",
         "province": "Tilea",
-        "population": 101,
+        "population": 332,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           198.9829603,
           1410.3856689
@@ -6905,7 +6905,7 @@
       "properties": {
         "name": "Assollo",
         "province": "Tilea",
-        "population": 154,
+        "population": 97,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -6933,7 +6933,7 @@
       "properties": {
         "name": "Cobraverde",
         "province": "Tilea",
-        "population": 531,
+        "population": 356,
         "tags": [],
         "notes": [],
         "size_category": 2,
@@ -6993,7 +6993,7 @@
       "properties": {
         "name": "Mogorella",
         "province": "Tilea",
-        "population": 45,
+        "population": 204,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -7021,7 +7021,7 @@
       "properties": {
         "name": "Ruinas",
         "province": "Tilea",
-        "population": 185,
+        "population": 52,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -7049,7 +7049,7 @@
       "properties": {
         "name": "Zorroni",
         "province": "Tilea",
-        "population": 78,
+        "population": 244,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -7077,7 +7077,7 @@
       "properties": {
         "name": "Tiria",
         "province": "Tilea",
-        "population": 94,
+        "population": 39,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -7105,7 +7105,7 @@
       "properties": {
         "name": "Stradivia",
         "province": "Tilea",
-        "population": 220,
+        "population": 128,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -7133,7 +7133,7 @@
       "properties": {
         "name": "Stavola",
         "province": "Tilea",
-        "population": 144,
+        "population": 125,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -7161,7 +7161,7 @@
       "properties": {
         "name": "Fusea",
         "province": "Tilea",
-        "population": 183,
+        "population": 78,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -7189,7 +7189,7 @@
       "properties": {
         "name": "Nongruella",
         "province": "Tilea",
-        "population": 79,
+        "population": 137,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -7217,10 +7217,10 @@
       "properties": {
         "name": "Salzo",
         "province": "Tilea",
-        "population": 650,
+        "population": 80,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           -25.4715957,
           988.8412089
@@ -7245,7 +7245,7 @@
       "properties": {
         "name": "Porzus",
         "province": "Tilea",
-        "population": 95,
+        "population": 173,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -7273,7 +7273,7 @@
       "properties": {
         "name": "Paderno",
         "province": "Tilea",
-        "population": 29,
+        "population": 167,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -7301,7 +7301,7 @@
       "properties": {
         "name": "Ipplos",
         "province": "Tilea",
-        "population": 158,
+        "population": 61,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -7329,7 +7329,7 @@
       "properties": {
         "name": "Nesso",
         "province": "Tilea",
-        "population": 97,
+        "population": 120,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -7357,7 +7357,7 @@
       "properties": {
         "name": "Mirabello",
         "province": "Tilea",
-        "population": 135,
+        "population": 156,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -7385,10 +7385,10 @@
       "properties": {
         "name": "Torri",
         "province": "Tilea",
-        "population": 318,
+        "population": 181,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           183.7334703,
           1093.7169689
@@ -7473,7 +7473,7 @@
       "properties": {
         "name": "Sundora",
         "province": "Tilea",
-        "population": 24,
+        "population": 227,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -7501,10 +7501,10 @@
       "properties": {
         "name": "Tuno",
         "province": "Tilea",
-        "population": 448,
+        "population": 292,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           237.9621503,
           1193.5453688999999
@@ -7529,10 +7529,10 @@
       "properties": {
         "name": "Selerro",
         "province": "Tilea",
-        "population": 292,
+        "population": 457,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           271.14034030000005,
           1048.1740688999998
@@ -7557,7 +7557,7 @@
       "properties": {
         "name": "Avello",
         "province": "Tilea",
-        "population": 199,
+        "population": 197,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -7585,7 +7585,7 @@
       "properties": {
         "name": "Pruno",
         "province": "Tilea",
-        "population": 173,
+        "population": 97,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -7613,10 +7613,10 @@
       "properties": {
         "name": "Foggario",
         "province": "Tilea",
-        "population": 336,
+        "population": 100,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           161.5480303,
           1296.3676689
@@ -7671,7 +7671,7 @@
       "properties": {
         "name": "Spada",
         "province": "Tilea",
-        "population": 349,
+        "population": 340,
         "tags": [],
         "notes": [],
         "size_category": 2,
@@ -7699,7 +7699,7 @@
       "properties": {
         "name": "Vivalda",
         "province": "Tilea",
-        "population": 161,
+        "population": 238,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -7727,7 +7727,7 @@
       "properties": {
         "name": "Busachi",
         "province": "Tilea",
-        "population": 67,
+        "population": 61,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -7755,7 +7755,7 @@
       "properties": {
         "name": "Nureci",
         "province": "Tilea",
-        "population": 203,
+        "population": 231,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -7783,7 +7783,7 @@
       "properties": {
         "name": "Progressi",
         "province": "Tilea",
-        "population": 50,
+        "population": 275,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -7811,7 +7811,7 @@
       "properties": {
         "name": "Justitio",
         "province": "Tilea",
-        "population": 130,
+        "population": 199,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -7839,7 +7839,7 @@
       "properties": {
         "name": "Marcso",
         "province": "Tilea",
-        "population": 100,
+        "population": 139,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -7867,7 +7867,7 @@
       "properties": {
         "name": "Manifesto",
         "province": "Tilea",
-        "population": 275,
+        "population": 126,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -7895,7 +7895,7 @@
       "properties": {
         "name": "Troccino",
         "province": "Tilea",
-        "population": 14,
+        "population": 37,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -7923,7 +7923,7 @@
       "properties": {
         "name": "Crisio",
         "province": "Tilea",
-        "population": 59,
+        "population": 73,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -7951,10 +7951,10 @@
       "properties": {
         "name": "Cominterni",
         "province": "Tilea",
-        "population": 100,
+        "population": 466,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           -14.1099667,
           1439.9395688999998
@@ -7979,7 +7979,7 @@
       "properties": {
         "name": "Angelso",
         "province": "Tilea",
-        "population": 93,
+        "population": 185,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -8007,7 +8007,7 @@
       "properties": {
         "name": "Comitato",
         "province": "Tilea",
-        "population": 125,
+        "population": 126,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -8281,7 +8281,7 @@
       "properties": {
         "name": "Aquilla",
         "province": "Tilea",
-        "population": 218,
+        "population": 279,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -8309,7 +8309,7 @@
       "properties": {
         "name": "Punto",
         "province": "Tilea",
-        "population": 159,
+        "population": 121,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -8337,7 +8337,7 @@
       "properties": {
         "name": "Funo",
         "province": "Tilea",
-        "population": 170,
+        "population": 222,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -8365,7 +8365,7 @@
       "properties": {
         "name": "Samore",
         "province": "Tilea",
-        "population": 267,
+        "population": 133,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -8393,10 +8393,10 @@
       "properties": {
         "name": "Godo",
         "province": "Tilea",
-        "population": 370,
+        "population": 152,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           282.96676030000003,
           1095.5022689
@@ -8421,10 +8421,10 @@
       "properties": {
         "name": "Mensa",
         "province": "Tilea",
-        "population": 237,
+        "population": 493,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           303.9288603,
           1121.6994688999998
@@ -8449,10 +8449,10 @@
       "properties": {
         "name": "Calibro",
         "province": "Tilea",
-        "population": 346,
+        "population": 114,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           290.8518603,
           1128.5303689
@@ -8477,7 +8477,7 @@
       "properties": {
         "name": "Arsito",
         "province": "Tilea",
-        "population": 31,
+        "population": 32,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -8505,7 +8505,7 @@
       "properties": {
         "name": "Bruccolia",
         "province": "Tilea",
-        "population": 40,
+        "population": 52,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -8533,10 +8533,10 @@
       "properties": {
         "name": "Rugazzi",
         "province": "Tilea",
-        "population": 450,
+        "population": 235,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           172.1289703,
           1136.4154689
@@ -8683,10 +8683,10 @@
       "properties": {
         "name": "Dumio",
         "province": "Tilea",
-        "population": 782,
+        "population": 270,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           160.0037803,
           1119.4550688999998
@@ -9149,7 +9149,7 @@
       "properties": {
         "name": "Portomaggiore di Miragliano",
         "province": "Tilea",
-        "population": 52,
+        "population": 21,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -9587,7 +9587,7 @@
       "properties": {
         "name": "Novalone",
         "province": "Tilea",
-        "population": 171,
+        "population": 37,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -9615,7 +9615,7 @@
       "properties": {
         "name": "Cavento",
         "province": "Tilea",
-        "population": 131,
+        "population": 98,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -9643,10 +9643,10 @@
       "properties": {
         "name": "Lorasso",
         "province": "Tilea",
-        "population": 392,
+        "population": 65,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           198.35772029999998,
           1025.3757689
@@ -9671,7 +9671,7 @@
       "properties": {
         "name": "Trevalo",
         "province": "Tilea",
-        "population": 115,
+        "population": 273,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -9699,7 +9699,7 @@
       "properties": {
         "name": "Brisano",
         "province": "Tilea",
-        "population": 143,
+        "population": 49,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -9727,7 +9727,7 @@
       "properties": {
         "name": "Selvarno",
         "province": "Tilea",
-        "population": 37,
+        "population": 173,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -9755,10 +9755,10 @@
       "properties": {
         "name": "Marengo",
         "province": "Tilea",
-        "population": 93,
+        "population": 321,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           176.31159029999998,
           1010.3619689
@@ -9783,7 +9783,7 @@
       "properties": {
         "name": "Valerra",
         "province": "Tilea",
-        "population": 92,
+        "population": 47,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -9811,7 +9811,7 @@
       "properties": {
         "name": "Corvello",
         "province": "Tilea",
-        "population": 72,
+        "population": 221,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -9839,7 +9839,7 @@
       "properties": {
         "name": "Trevino",
         "province": "Tilea",
-        "population": 201,
+        "population": 261,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -9867,7 +9867,7 @@
       "properties": {
         "name": "Bressaro",
         "province": "Tilea",
-        "population": 118,
+        "population": 229,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -9895,7 +9895,7 @@
       "properties": {
         "name": "Lorento",
         "province": "Tilea",
-        "population": 170,
+        "population": 155,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -9923,7 +9923,7 @@
       "properties": {
         "name": "Valdaro",
         "province": "Tilea",
-        "population": 294,
+        "population": 70,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -9951,7 +9951,7 @@
       "properties": {
         "name": "Cremora",
         "province": "Tilea",
-        "population": 666,
+        "population": 544,
         "tags": [],
         "notes": [],
         "size_category": 2,
@@ -9979,7 +9979,7 @@
       "properties": {
         "name": "Solengo",
         "province": "Tilea",
-        "population": 127,
+        "population": 69,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -10007,10 +10007,10 @@
       "properties": {
         "name": "Ferazzo",
         "province": "Tilea",
-        "population": 325,
+        "population": 72,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           186.6645603,
           1051.5404689
@@ -10035,7 +10035,7 @@
       "properties": {
         "name": "Ravento",
         "province": "Tilea",
-        "population": 47,
+        "population": 163,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -10063,7 +10063,7 @@
       "properties": {
         "name": "Belloro",
         "province": "Tilea",
-        "population": 195,
+        "population": 293,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -10091,10 +10091,10 @@
       "properties": {
         "name": "Trivara",
         "province": "Tilea",
-        "population": 338,
+        "population": 79,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           188.0321603,
           1069.1088688999998
@@ -10119,10 +10119,10 @@
       "properties": {
         "name": "Calvero",
         "province": "Tilea",
-        "population": 291,
+        "population": 362,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           203.70702029999998,
           1093.0419688999998
@@ -10147,10 +10147,10 @@
       "properties": {
         "name": "Montevarigo",
         "province": "Tilea",
-        "population": 134,
+        "population": 337,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           201.2347903,
           1102.4047689
@@ -10175,7 +10175,7 @@
       "properties": {
         "name": "Castellavero",
         "province": "Tilea",
-        "population": 157,
+        "population": 100,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -10203,7 +10203,7 @@
       "properties": {
         "name": "Roccavigno",
         "province": "Tilea",
-        "population": 163,
+        "population": 263,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -10231,7 +10231,7 @@
       "properties": {
         "name": "Borgolario",
         "province": "Tilea",
-        "population": 187,
+        "population": 226,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -10259,7 +10259,7 @@
       "properties": {
         "name": "Montespera",
         "province": "Tilea",
-        "population": 319,
+        "population": 345,
         "tags": [],
         "notes": [],
         "size_category": 2,
@@ -10287,7 +10287,7 @@
       "properties": {
         "name": "Castellorino",
         "province": "Tilea",
-        "population": 299,
+        "population": 92,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -10315,7 +10315,7 @@
       "properties": {
         "name": "Valtriano",
         "province": "Tilea",
-        "population": 223,
+        "population": 164,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -10343,7 +10343,7 @@
       "properties": {
         "name": "Seravello",
         "province": "Tilea",
-        "population": 130,
+        "population": 52,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -10371,7 +10371,7 @@
       "properties": {
         "name": "Calderano",
         "province": "Tilea",
-        "population": 77,
+        "population": 169,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -10399,7 +10399,7 @@
       "properties": {
         "name": "Trivessaro",
         "province": "Tilea",
-        "population": 36,
+        "population": 234,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -10427,7 +10427,7 @@
       "properties": {
         "name": "Ravelligo",
         "province": "Tilea",
-        "population": 247,
+        "population": 52,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -10455,10 +10455,10 @@
       "properties": {
         "name": "Montesara",
         "province": "Tilea",
-        "population": 65,
+        "population": 348,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           172.72555029999998,
           1119.2367688999998
@@ -10483,7 +10483,7 @@
       "properties": {
         "name": "Brevellano",
         "province": "Tilea",
-        "population": 266,
+        "population": 152,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -10511,10 +10511,10 @@
       "properties": {
         "name": "Corvenza",
         "province": "Tilea",
-        "population": 222,
+        "population": 709,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           110.0788503,
           1130.9666688999998
@@ -10539,7 +10539,7 @@
       "properties": {
         "name": "Valcendro",
         "province": "Tilea",
-        "population": 431,
+        "population": 782,
         "tags": [],
         "notes": [],
         "size_category": 2,
@@ -10567,10 +10567,10 @@
       "properties": {
         "name": "Loravessa",
         "province": "Tilea",
-        "population": 99,
+        "population": 304,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           135.8002903,
           1140.9080689
@@ -10595,7 +10595,7 @@
       "properties": {
         "name": "Marentino",
         "province": "Tilea",
-        "population": 89,
+        "population": 46,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -10623,7 +10623,7 @@
       "properties": {
         "name": "Bressavaro",
         "province": "Tilea",
-        "population": 158,
+        "population": 77,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -10651,7 +10651,7 @@
       "properties": {
         "name": "Seravigno",
         "province": "Tilea",
-        "population": 675,
+        "population": 667,
         "tags": [],
         "notes": [],
         "size_category": 2,
@@ -10679,7 +10679,7 @@
       "properties": {
         "name": "Trenvarra",
         "province": "Tilea",
-        "population": 42,
+        "population": 62,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -10707,7 +10707,7 @@
       "properties": {
         "name": "Calvessino",
         "province": "Tilea",
-        "population": 226,
+        "population": 99,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -10735,10 +10735,10 @@
       "properties": {
         "name": "Monteverdo",
         "province": "Tilea",
-        "population": 56,
+        "population": 340,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           193.55265029999998,
           1128.0097689
@@ -10763,7 +10763,7 @@
       "properties": {
         "name": "Ravessaro",
         "province": "Tilea",
-        "population": 115,
+        "population": 193,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -10791,10 +10791,10 @@
       "properties": {
         "name": "Torvelano",
         "province": "Tilea",
-        "population": 77,
+        "population": 378,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           153.0113303,
           1138.4240688999998
@@ -10819,7 +10819,7 @@
       "properties": {
         "name": "Brentavara",
         "province": "Tilea",
-        "population": 58,
+        "population": 171,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -10847,10 +10847,10 @@
       "properties": {
         "name": "Corvessino",
         "province": "Tilea",
-        "population": 772,
+        "population": 185,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           117.0820403,
           1157.3184689
@@ -10875,7 +10875,7 @@
       "properties": {
         "name": "Montarengo",
         "province": "Tilea",
-        "population": 22,
+        "population": 186,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -10903,7 +10903,7 @@
       "properties": {
         "name": "Selvarigo",
         "province": "Tilea",
-        "population": 253,
+        "population": 39,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -10931,7 +10931,7 @@
       "properties": {
         "name": "Valdovaro",
         "province": "Tilea",
-        "population": 94,
+        "population": 270,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -10959,7 +10959,7 @@
       "properties": {
         "name": "Treviscara",
         "province": "Tilea",
-        "population": 73,
+        "population": 189,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -10987,7 +10987,7 @@
       "properties": {
         "name": "Ravendara",
         "province": "Tilea",
-        "population": 36,
+        "population": 235,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -11015,7 +11015,7 @@
       "properties": {
         "name": "Montecalvo",
         "province": "Tilea",
-        "population": 107,
+        "population": 147,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -11043,10 +11043,10 @@
       "properties": {
         "name": "Bresperano",
         "province": "Tilea",
-        "population": 351,
+        "population": 141,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           202.9168503,
           1003.3884689
@@ -11071,7 +11071,7 @@
       "properties": {
         "name": "Loravento",
         "province": "Tilea",
-        "population": 86,
+        "population": 49,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -11099,7 +11099,7 @@
       "properties": {
         "name": "Serenvaro",
         "province": "Tilea",
-        "population": 211,
+        "population": 51,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -11127,10 +11127,10 @@
       "properties": {
         "name": "Valderigo",
         "province": "Tilea",
-        "population": 331,
+        "population": 195,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           34.0059553,
           1347.1004689
@@ -11155,7 +11155,7 @@
       "properties": {
         "name": "Brentavino",
         "province": "Tilea",
-        "population": 150,
+        "population": 42,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -11183,7 +11183,7 @@
       "properties": {
         "name": "Montelvaro",
         "province": "Tilea",
-        "population": 49,
+        "population": 194,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -11211,7 +11211,7 @@
       "properties": {
         "name": "Trivarengo",
         "province": "Tilea",
-        "population": 148,
+        "population": 65,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -11239,10 +11239,10 @@
       "properties": {
         "name": "Calvessara",
         "province": "Tilea",
-        "population": 364,
+        "population": 157,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           45.892944299999996,
           1353.4789689
@@ -11267,7 +11267,7 @@
       "properties": {
         "name": "Torvellino",
         "province": "Tilea",
-        "population": 21,
+        "population": 139,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -11295,7 +11295,7 @@
       "properties": {
         "name": "Serpavara",
         "province": "Tilea",
-        "population": 164,
+        "population": 73,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -11323,7 +11323,7 @@
       "properties": {
         "name": "Montefalengo",
         "province": "Tilea",
-        "population": 81,
+        "population": 119,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -11351,7 +11351,7 @@
       "properties": {
         "name": "Castellavigno",
         "province": "Tilea",
-        "population": 76,
+        "population": 176,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -11379,10 +11379,10 @@
       "properties": {
         "name": "Roccavessino",
         "province": "Tilea",
-        "population": 105,
+        "population": 376,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           59.9522323,
           1297.9856688999998
@@ -11407,7 +11407,7 @@
       "properties": {
         "name": "Montedervaro",
         "province": "Tilea",
-        "population": 229,
+        "population": 63,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -11435,7 +11435,7 @@
       "properties": {
         "name": "Castelverena",
         "province": "Tilea",
-        "population": 27,
+        "population": 291,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -11463,7 +11463,7 @@
       "properties": {
         "name": "Mirmidano",
         "province": "Tilea",
-        "population": 41,
+        "population": 32,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -11491,10 +11491,10 @@
       "properties": {
         "name": "Castelmirmidia",
         "province": "Tilea",
-        "population": 61,
+        "population": 322,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           142.52265029999998,
           1091.4109689
@@ -11519,7 +11519,7 @@
       "properties": {
         "name": "Morrovento",
         "province": "Tilea",
-        "population": 108,
+        "population": 116,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -11547,7 +11547,7 @@
       "properties": {
         "name": "Portomorre",
         "province": "Tilea",
-        "population": 77,
+        "population": 245,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -11575,7 +11575,7 @@
       "properties": {
         "name": "Valmatengo",
         "province": "Tilea",
-        "population": 351,
+        "population": 490,
         "tags": [],
         "notes": [],
         "size_category": 2,
@@ -11603,7 +11603,7 @@
       "properties": {
         "name": "Matannigo",
         "province": "Tilea",
-        "population": 151,
+        "population": 32,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -11631,7 +11631,7 @@
       "properties": {
         "name": "Roccamathann",
         "province": "Tilea",
-        "population": 95,
+        "population": 165,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -11659,7 +11659,7 @@
       "properties": {
         "name": "Solkarigo",
         "province": "Tilea",
-        "population": 60,
+        "population": 250,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -11687,10 +11687,10 @@
       "properties": {
         "name": "Valsolkano",
         "province": "Tilea",
-        "population": 179,
+        "population": 367,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           185.5831203,
           1193.0171689
@@ -11715,7 +11715,7 @@
       "properties": {
         "name": "Avelarigo",
         "province": "Tilea",
-        "population": 63,
+        "population": 58,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -11743,7 +11743,7 @@
       "properties": {
         "name": "Lothariello",
         "province": "Tilea",
-        "population": 226,
+        "population": 106,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -11771,7 +11771,7 @@
       "properties": {
         "name": "Camposcorvo",
         "province": "Tilea",
-        "population": 653,
+        "population": 782,
         "tags": [],
         "notes": [],
         "size_category": 2,
@@ -11799,7 +11799,7 @@
       "properties": {
         "name": "Valdelcimitero",
         "province": "Tilea",
-        "population": 27,
+        "population": 80,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -11827,7 +11827,7 @@
       "properties": {
         "name": "Portamorte",
         "province": "Tilea",
-        "population": 125,
+        "population": 90,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -11855,7 +11855,7 @@
       "properties": {
         "name": "Fiumenotte",
         "province": "Tilea",
-        "population": 181,
+        "population": 283,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -11883,10 +11883,10 @@
       "properties": {
         "name": "Castelombra",
         "province": "Tilea",
-        "population": 398,
+        "population": 166,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           230.9538603,
           1033.9193688999999
@@ -11911,7 +11911,7 @@
       "properties": {
         "name": "Campomaledetto",
         "province": "Tilea",
-        "population": 200,
+        "population": 112,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -11939,7 +11939,7 @@
       "properties": {
         "name": "Roccatetro",
         "province": "Tilea",
-        "population": 42,
+        "population": 107,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -11967,7 +11967,7 @@
       "properties": {
         "name": "Portadelmorte",
         "province": "Tilea",
-        "population": 44,
+        "population": 197,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -11995,7 +11995,7 @@
       "properties": {
         "name": "Bresperigo",
         "province": "Tilea",
-        "population": 106,
+        "population": 59,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -12023,7 +12023,7 @@
       "properties": {
         "name": "Lorvellano",
         "province": "Tilea",
-        "population": 84,
+        "population": 289,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -12051,7 +12051,7 @@
       "properties": {
         "name": "Trenvessaro",
         "province": "Tilea",
-        "population": 166,
+        "population": 86,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -12079,7 +12079,7 @@
       "properties": {
         "name": "Calverano",
         "province": "Tilea",
-        "population": 250,
+        "population": 267,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -12107,10 +12107,10 @@
       "properties": {
         "name": "Paganinia",
         "province": "Tilea",
-        "population": 48,
+        "population": 328,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           172.9359503,
           1377.7661689
@@ -12135,7 +12135,7 @@
       "properties": {
         "name": "Conde",
         "province": "Tilea",
-        "population": 89,
+        "population": 103,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -12163,7 +12163,7 @@
       "properties": {
         "name": "Tulo",
         "province": "Tilea",
-        "population": 67,
+        "population": 99,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -12191,7 +12191,7 @@
       "properties": {
         "name": "Seris",
         "province": "Tilea",
-        "population": 235,
+        "population": 130,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -12219,10 +12219,10 @@
       "properties": {
         "name": "Laconia",
         "province": "Tilea",
-        "population": 421,
+        "population": 174,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           163.36274029999998,
           1365.5630689
@@ -12247,7 +12247,7 @@
       "properties": {
         "name": "Neuva Organza",
         "province": "Tilea",
-        "population": 95,
+        "population": 288,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -12275,10 +12275,10 @@
       "properties": {
         "name": "Forteforno",
         "province": "Tilea",
-        "population": 186,
+        "population": 465,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           105.6263203,
           1423.5150689
@@ -12303,7 +12303,7 @@
       "properties": {
         "name": "Tempera",
         "province": "Tilea",
-        "population": 125,
+        "population": 120,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -12331,10 +12331,10 @@
       "properties": {
         "name": "Palisco",
         "province": "Tilea",
-        "population": 115,
+        "population": 615,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           126.43266030000001,
           1001.5258689
@@ -12389,7 +12389,7 @@
       "properties": {
         "name": "Dallo",
         "province": "Tilea",
-        "population": 284,
+        "population": 236,
         "tags": [
           "source:MadAlfred",
           "source:daRemas"
@@ -12420,7 +12420,7 @@
       "properties": {
         "name": "Lometti",
         "province": "Tilea",
-        "population": 289,
+        "population": 102,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -12448,7 +12448,7 @@
       "properties": {
         "name": "Canzio",
         "province": "Tilea",
-        "population": 292,
+        "population": 205,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -12476,7 +12476,7 @@
       "properties": {
         "name": "Sartiero",
         "province": "Tilea",
-        "population": 173,
+        "population": 183,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -12504,7 +12504,7 @@
       "properties": {
         "name": "Govella",
         "province": "Tilea",
-        "population": 219,
+        "population": 157,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -12532,10 +12532,10 @@
       "properties": {
         "name": "Fornacchi",
         "province": "Tilea",
-        "population": 377,
+        "population": 167,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           130.7693903,
           1014.8659689
@@ -12560,7 +12560,7 @@
       "properties": {
         "name": "Rogeni",
         "province": "Tilea",
-        "population": 232,
+        "population": 144,
         "tags": [
           "source:MadAlfred",
           "source:daRemas"
@@ -12591,7 +12591,7 @@
       "properties": {
         "name": "Caligo Brumosa",
         "province": "Tilea",
-        "population": 172,
+        "population": 143,
         "tags": [
           "source:MadAlfred",
           "source:daRemas"
@@ -12622,7 +12622,7 @@
       "properties": {
         "name": "Brionna",
         "province": "Tilea",
-        "population": 382,
+        "population": 782,
         "tags": [],
         "notes": [],
         "size_category": 2,
@@ -12650,10 +12650,10 @@
       "properties": {
         "name": "Sologna",
         "province": "Tilea",
-        "population": 334,
+        "population": 223,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           154.13726029999998,
           1002.1429689
@@ -12708,7 +12708,7 @@
       "properties": {
         "name": "Alzetti",
         "province": "Tilea",
-        "population": 125,
+        "population": 253,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -12736,10 +12736,10 @@
       "properties": {
         "name": "Fratio",
         "province": "Tilea",
-        "population": 254,
+        "population": 448,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           154.42469029999998,
           1012.0019689
@@ -12764,7 +12764,7 @@
       "properties": {
         "name": "Crezzi",
         "province": "Tilea",
-        "population": 99,
+        "population": 98,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -12792,13 +12792,13 @@
       "properties": {
         "name": "Brera",
         "province": "Tilea",
-        "population": 782,
+        "population": 201,
         "tags": [
           "source:MadAlfred",
           "source:daRemas"
         ],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           129.8079903,
           970.1948989
@@ -12823,7 +12823,7 @@
       "properties": {
         "name": "Bellorano",
         "province": "Tilea",
-        "population": 516,
+        "population": 432,
         "tags": [
           "source:MadAlfred",
           "source:daRemas"
@@ -12854,13 +12854,13 @@
       "properties": {
         "name": "Dravagna",
         "province": "Tilea",
-        "population": 337,
+        "population": 69,
         "tags": [
           "source:MadAlfred",
           "source:daRemas"
         ],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           215.49506029999998,
           1005.6751689
@@ -12885,7 +12885,7 @@
       "properties": {
         "name": "Pagliaro",
         "province": "Tilea",
-        "population": 60,
+        "population": 107,
         "tags": [
           "source:MadAlfred",
           "source:daRemas"
@@ -12916,7 +12916,7 @@
       "properties": {
         "name": "Pianfresco",
         "province": "Tilea",
-        "population": 144,
+        "population": 264,
         "tags": [
           "source:MadAlfred",
           "source:daRemas"
@@ -12947,7 +12947,7 @@
       "properties": {
         "name": "Rocca Ferocia",
         "province": "Tilea",
-        "population": 25,
+        "population": 43,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -12975,7 +12975,7 @@
       "properties": {
         "name": "Rocca Stoica",
         "province": "Tilea",
-        "population": 402,
+        "population": 348,
         "tags": [],
         "notes": [],
         "size_category": 2,
@@ -13035,13 +13035,13 @@
       "properties": {
         "name": "Ferrero",
         "province": "Tilea",
-        "population": 62,
+        "population": 304,
         "tags": [
           "source:MadAlfred",
           "source:daRemas"
         ],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           203.7049203,
           1028.1213688999999
@@ -13066,7 +13066,7 @@
       "properties": {
         "name": "Padulio",
         "province": "Tilea",
-        "population": 212,
+        "population": 174,
         "tags": [
           "source:MadAlfred",
           "source:daRemas"
@@ -13097,7 +13097,7 @@
       "properties": {
         "name": "Nivoletta",
         "province": "Tilea",
-        "population": 44,
+        "population": 172,
         "tags": [
           "source:MadAlfred",
           "source:daRemas"
@@ -13128,7 +13128,7 @@
       "properties": {
         "name": "Sarnovia",
         "province": "Tilea",
-        "population": 104,
+        "population": 124,
         "tags": [
           "source:MadAlfred",
           "source:daRemas"
@@ -13159,13 +13159,13 @@
       "properties": {
         "name": "Teralba",
         "province": "Tilea",
-        "population": 580,
+        "population": 225,
         "tags": [
           "source:MadAlfred",
           "source:daRemas"
         ],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           223.3268403,
           1037.0753688999998
@@ -13190,13 +13190,13 @@
       "properties": {
         "name": "Adrio",
         "province": "Tilea",
-        "population": 445,
+        "population": 212,
         "tags": [
           "source:MadAlfred",
           "source:daRemas"
         ],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           230.90124029999998,
           1037.2858689
@@ -13221,7 +13221,7 @@
       "properties": {
         "name": "Gavenzo",
         "province": "Tilea",
-        "population": 40,
+        "population": 222,
         "tags": [
           "source:MadAlfred",
           "source:daRemas"
@@ -13252,13 +13252,13 @@
       "properties": {
         "name": "Corrivello",
         "province": "Tilea",
-        "population": 369,
+        "population": 164,
         "tags": [
           "source:MadAlfred",
           "source:daRemas"
         ],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           261.72491030000003,
           1020.3485689
@@ -13283,7 +13283,7 @@
       "properties": {
         "name": "Roviglia",
         "province": "Tilea",
-        "population": 82,
+        "population": 153,
         "tags": [
           "source:MadAlfred",
           "source:daRemas"
@@ -13314,7 +13314,7 @@
       "properties": {
         "name": "Crava",
         "province": "Tilea",
-        "population": 140,
+        "population": 40,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -13342,7 +13342,7 @@
       "properties": {
         "name": "Lenta",
         "province": "Tilea",
-        "population": 453,
+        "population": 652,
         "tags": [],
         "notes": [],
         "size_category": 2,
@@ -13370,7 +13370,7 @@
       "properties": {
         "name": "Lanverna",
         "province": "Tilea",
-        "population": 192,
+        "population": 169,
         "tags": [
           "source:MadAlfred",
           "source:daRemas"
@@ -13401,7 +13401,7 @@
       "properties": {
         "name": "Pantaneto",
         "province": "Tilea",
-        "population": 50,
+        "population": 121,
         "tags": [
           "source:MadAlfred",
           "source:daRemas"
@@ -13432,13 +13432,13 @@
       "properties": {
         "name": "Ventimiglia",
         "province": "Tilea",
-        "population": 311,
+        "population": 119,
         "tags": [
           "source:MadAlfred",
           "source:daRemas"
         ],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           15.1335963,
           1401.1615688999998
@@ -13463,7 +13463,7 @@
       "properties": {
         "name": "Massiria",
         "province": "Tilea",
-        "population": 216,
+        "population": 72,
         "tags": [
           "source:MadAlfred",
           "source:daRemas"
@@ -13494,7 +13494,7 @@
       "properties": {
         "name": "Lagunara",
         "province": "Tilea",
-        "population": 95,
+        "population": 179,
         "tags": [
           "source:MadAlfred",
           "source:daRemas"
@@ -13525,13 +13525,13 @@
       "properties": {
         "name": "Coppa",
         "province": "Tilea",
-        "population": 625,
+        "population": 68,
         "tags": [
           "source:MadAlfred",
           "source:daRemas"
         ],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           -24.3932897,
           984.4490489
@@ -13556,7 +13556,7 @@
       "properties": {
         "name": "Arniolo",
         "province": "Tilea",
-        "population": 58,
+        "population": 25,
         "tags": [
           "source:MadAlfred",
           "source:daRemas"
@@ -13587,13 +13587,13 @@
       "properties": {
         "name": "Pergolara",
         "province": "Tilea",
-        "population": 355,
+        "population": 273,
         "tags": [
           "source:MadAlfred",
           "source:daRemas"
         ],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           -19.0543827,
           1443.3585689
@@ -13618,13 +13618,13 @@
       "properties": {
         "name": "Tritonia",
         "province": "Tilea",
-        "population": 50,
+        "population": 401,
         "tags": [
           "source:MadAlfred",
           "source:daRemas"
         ],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           -82.17449169999999,
           1417.2162689
@@ -13649,13 +13649,13 @@
       "properties": {
         "name": "Brucasco",
         "province": "Tilea",
-        "population": 58,
+        "population": 558,
         "tags": [
           "source:MadAlfred",
           "source:daRemas"
         ],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           -83.9628977,
           1403.0142689
@@ -13680,7 +13680,7 @@
       "properties": {
         "name": "Muscaro",
         "province": "Tilea",
-        "population": 354,
+        "population": 420,
         "tags": [
           "source:MadAlfred",
           "source:daRemas"
@@ -13711,13 +13711,13 @@
       "properties": {
         "name": "Scaluntera",
         "province": "Tilea",
-        "population": 782,
+        "population": 106,
         "tags": [
           "source:MadAlfred",
           "source:daRemas"
         ],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           -59.819453700000004,
           1392.2838688999998
@@ -13742,13 +13742,13 @@
       "properties": {
         "name": "Mineola",
         "province": "Tilea",
-        "population": 111,
+        "population": 336,
         "tags": [
           "source:MadAlfred",
           "source:daRemas"
         ],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           -69.8134687,
           1389.7064689
@@ -13773,13 +13773,13 @@
       "properties": {
         "name": "Mattonara",
         "province": "Tilea",
-        "population": 612,
+        "population": 45,
         "tags": [
           "source:MadAlfred",
           "source:daRemas"
         ],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           -67.07826969999999,
           1399.4374688999999
@@ -13804,13 +13804,13 @@
       "properties": {
         "name": "Caldera",
         "province": "Tilea",
-        "population": 782,
+        "population": 130,
         "tags": [
           "source:MadAlfred",
           "source:daRemas"
         ],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           -66.02626769999999,
           1419.4780689
@@ -13835,13 +13835,13 @@
       "properties": {
         "name": "Samperno",
         "province": "Tilea",
-        "population": 139,
+        "population": 782,
         "tags": [
           "source:MadAlfred",
           "source:daRemas"
         ],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           -63.7118567,
           1429.2616689
@@ -13866,7 +13866,7 @@
       "properties": {
         "name": "Tanagisi",
         "province": "Tilea",
-        "population": 221,
+        "population": 250,
         "tags": [
           "source:MadAlfred",
           "source:daRemas"
@@ -13897,7 +13897,7 @@
       "properties": {
         "name": "Maltese",
         "province": "Tilea",
-        "population": 201,
+        "population": 173,
         "tags": [
           "source:MadAlfred",
           "source:daRemas"
@@ -13928,7 +13928,7 @@
       "properties": {
         "name": "Bagni di Ertinello",
         "province": "Tilea",
-        "population": 146,
+        "population": 56,
         "tags": [
           "source:MadAlfred",
           "source:daRemas"
@@ -13959,13 +13959,13 @@
       "properties": {
         "name": "Ciavola",
         "province": "Tilea",
-        "population": 301,
+        "population": 92,
         "tags": [
           "source:MadAlfred",
           "source:daRemas"
         ],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           -34.5451047,
           1443.5164688999998
@@ -13990,7 +13990,7 @@
       "properties": {
         "name": "Valbianco",
         "province": "Tilea",
-        "population": 125,
+        "population": 99,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -14018,13 +14018,13 @@
       "properties": {
         "name": "Fiumareto",
         "province": "Tilea",
-        "population": 304,
+        "population": 148,
         "tags": [
           "source:MadAlfred",
           "source:daRemas"
         ],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           -53.1682437,
           1006.7775689
@@ -14049,10 +14049,10 @@
       "properties": {
         "name": "Malagrotta",
         "province": "Tilea",
-        "population": 100,
+        "population": 424,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           -74.2570497,
           1058.1185689
@@ -14141,7 +14141,7 @@
       "properties": {
         "name": "Casalvento",
         "province": "Tilea",
-        "population": 46,
+        "population": 149,
         "tags": [
           "source:MadAlfred",
           "source:daRemas"
@@ -14172,7 +14172,7 @@
       "properties": {
         "name": "Fioralba",
         "province": "Tilea",
-        "population": 103,
+        "population": 262,
         "tags": [
           "source:MadAlfred",
           "source:daRemas"
@@ -14203,7 +14203,7 @@
       "properties": {
         "name": "Pianverde",
         "province": "Tilea",
-        "population": 117,
+        "population": 288,
         "tags": [
           "source:MadAlfred",
           "source:daRemas"
@@ -14234,13 +14234,13 @@
       "properties": {
         "name": "San Bravencio",
         "province": "Tilea",
-        "population": 343,
+        "population": 105,
         "tags": [
           "source:MadAlfred",
           "source:daRemas"
         ],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           -39.7265967,
           1000.5837689
@@ -14265,7 +14265,7 @@
       "properties": {
         "name": "Portavella",
         "province": "Tilea",
-        "population": 82,
+        "population": 61,
         "tags": [
           "source:MadAlfred",
           "source:daRemas"
@@ -14296,13 +14296,13 @@
       "properties": {
         "name": "Borgalvaro",
         "province": "Tilea",
-        "population": 365,
+        "population": 103,
         "tags": [
           "source:MadAlfred",
           "source:daRemas"
         ],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           -32.5309027,
           1005.2926689
@@ -14327,7 +14327,7 @@
       "properties": {
         "name": "Valderico",
         "province": "Tilea",
-        "population": 171,
+        "population": 226,
         "tags": [
           "source:MadAlfred",
           "source:daRemas"
@@ -14358,7 +14358,7 @@
       "properties": {
         "name": "Pietralva",
         "province": "Tilea",
-        "population": 87,
+        "population": 74,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -14386,7 +14386,7 @@
       "properties": {
         "name": "Montelario",
         "province": "Tilea",
-        "population": 230,
+        "population": 149,
         "tags": [
           "source:MadAlfred",
           "source:daRemas"
@@ -14417,13 +14417,13 @@
       "properties": {
         "name": "Villargente",
         "province": "Tilea",
-        "population": 65,
+        "population": 581,
         "tags": [
           "source:MadAlfred",
           "source:daRemas"
         ],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           -28.957778700000002,
           991.9815289000001
@@ -14448,7 +14448,7 @@
       "properties": {
         "name": "Nevagorda",
         "province": "Tilea",
-        "population": 218,
+        "population": 87,
         "tags": [
           "source:MadAlfred",
           "source:daRemas"
@@ -14479,13 +14479,13 @@
       "properties": {
         "name": "Pietrabuena",
         "province": "Tilea",
-        "population": 101,
+        "population": 782,
         "tags": [
           "source:MadAlfred",
           "source:daRemas"
         ],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           -31.0715827,
           1012.7996689
@@ -14510,7 +14510,7 @@
       "properties": {
         "name": "Calveria",
         "province": "Tilea",
-        "population": 124,
+        "population": 107,
         "tags": [
           "source:MadAlfred",
           "source:daRemas"
@@ -14541,7 +14541,7 @@
       "properties": {
         "name": "Rivagorda",
         "province": "Tilea",
-        "population": 194,
+        "population": 125,
         "tags": [
           "source:MadAlfred",
           "source:daRemas"
@@ -14572,7 +14572,7 @@
       "properties": {
         "name": "Alcarrosa",
         "province": "Tilea",
-        "population": 103,
+        "population": 135,
         "tags": [
           "source:MadAlfred",
           "source:daRemas"
@@ -14603,13 +14603,13 @@
       "properties": {
         "name": "Nevadalba",
         "province": "Tilea",
-        "population": 190,
+        "population": 466,
         "tags": [
           "source:MadAlfred",
           "source:daRemas"
         ],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           -60.0160517,
           1049.5629689
@@ -14634,13 +14634,13 @@
       "properties": {
         "name": "Valderosa",
         "province": "Tilea",
-        "population": 213,
+        "population": 364,
         "tags": [
           "source:MadAlfred",
           "source:daRemas"
         ],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           -31.090537700000002,
           1054.3339689
@@ -14665,7 +14665,7 @@
       "properties": {
         "name": "Villanora",
         "province": "Tilea",
-        "population": 258,
+        "population": 69,
         "tags": [
           "source:MadAlfred",
           "source:daRemas"
@@ -14696,7 +14696,7 @@
       "properties": {
         "name": "Calaferrata",
         "province": "Tilea",
-        "population": 34,
+        "population": 163,
         "tags": [
           "source:MadAlfred",
           "source:daRemas"
@@ -14727,7 +14727,7 @@
       "properties": {
         "name": "Portomarea",
         "province": "Tilea",
-        "population": 160,
+        "population": 90,
         "tags": [
           "source:MadAlfred",
           "source:daRemas"
@@ -14758,10 +14758,10 @@
       "properties": {
         "name": "Porto Espeno",
         "province": "Tilea",
-        "population": 330,
+        "population": 122,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           -62.9754597,
           1069.1088688999998
@@ -14786,7 +14786,7 @@
       "properties": {
         "name": "Bottero",
         "province": "Tilea",
-        "population": 148,
+        "population": 59,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -14814,7 +14814,7 @@
       "properties": {
         "name": "Ronche",
         "province": "Tilea",
-        "population": 194,
+        "population": 92,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -14842,10 +14842,10 @@
       "properties": {
         "name": "Sappada",
         "province": "Tilea",
-        "population": 351,
+        "population": 201,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           -108.3167297,
           1147.6934689
@@ -14870,7 +14870,7 @@
       "properties": {
         "name": "Rivia",
         "province": "Tilea",
-        "population": 46,
+        "population": 87,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -14898,7 +14898,7 @@
       "properties": {
         "name": "Tualis",
         "province": "Tilea",
-        "population": 149,
+        "population": 113,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -14926,7 +14926,7 @@
       "properties": {
         "name": "Triasto",
         "province": "Tilea",
-        "population": 231,
+        "population": 170,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -14954,10 +14954,10 @@
       "properties": {
         "name": "Possagrande",
         "province": "Tilea",
-        "population": 284,
+        "population": 421,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           -71.3914717,
           1118.3952688999998
@@ -14982,7 +14982,7 @@
       "properties": {
         "name": "Aubene",
         "province": "Tilea",
-        "population": 259,
+        "population": 173,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -15010,10 +15010,10 @@
       "properties": {
         "name": "Ravinis",
         "province": "Tilea",
-        "population": 593,
+        "population": 162,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           -68.7614667,
           1099.9325689
@@ -15038,10 +15038,10 @@
       "properties": {
         "name": "Trevora",
         "province": "Tilea",
-        "population": 604,
+        "population": 42,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           -58.504451700000004,
           1074.0532689
@@ -15066,7 +15066,7 @@
       "properties": {
         "name": "Piggiolo",
         "province": "Tilea",
-        "population": 150,
+        "population": 118,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -15094,7 +15094,7 @@
       "properties": {
         "name": "Poggiarolo",
         "province": "Tilea",
-        "population": 110,
+        "population": 34,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -15122,10 +15122,10 @@
       "properties": {
         "name": "Montevico",
         "province": "Tilea",
-        "population": 782,
+        "population": 69,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           145.21571029999998,
           1254.5242689
@@ -15150,7 +15150,7 @@
       "properties": {
         "name": "Castiglione Aurelio",
         "province": "Tilea",
-        "population": 51,
+        "population": 14,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -15178,7 +15178,7 @@
       "properties": {
         "name": "Apricale",
         "province": "Tilea",
-        "population": 94,
+        "population": 95,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -15206,10 +15206,10 @@
       "properties": {
         "name": "Arrone",
         "province": "Tilea",
-        "population": 264,
+        "population": 347,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           92.7734143,
           1233.9575688999998
@@ -15234,7 +15234,7 @@
       "properties": {
         "name": "Bevagna",
         "province": "Tilea",
-        "population": 336,
+        "population": 479,
         "tags": [],
         "notes": [],
         "size_category": 2,
@@ -15262,7 +15262,7 @@
       "properties": {
         "name": "Bassiano",
         "province": "Tilea",
-        "population": 92,
+        "population": 45,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -15290,7 +15290,7 @@
       "properties": {
         "name": "Campodimele",
         "province": "Tilea",
-        "population": 508,
+        "population": 301,
         "tags": [],
         "notes": [],
         "size_category": 2,
@@ -15318,7 +15318,7 @@
       "properties": {
         "name": "Ventotene",
         "province": "Tilea",
-        "population": 438,
+        "population": 447,
         "tags": [],
         "notes": [],
         "size_category": 2,
@@ -15346,10 +15346,10 @@
       "properties": {
         "name": "Roccasecca dei Verena",
         "province": "Tilea",
-        "population": 219,
+        "population": 306,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           126.22707030000001,
           1117.9218689
@@ -15374,10 +15374,10 @@
       "properties": {
         "name": "Rocca Massima",
         "province": "Tilea",
-        "population": 126,
+        "population": 430,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           126.9108703,
           1097.5654688999998
@@ -15402,10 +15402,10 @@
       "properties": {
         "name": "Prossedi",
         "province": "Tilea",
-        "population": 166,
+        "population": 323,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           111.6042403,
           1110.0842688999999
@@ -15430,7 +15430,7 @@
       "properties": {
         "name": "Acquafondata",
         "province": "Tilea",
-        "population": 128,
+        "population": 196,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -15458,7 +15458,7 @@
       "properties": {
         "name": "Terelle",
         "province": "Tilea",
-        "population": 95,
+        "population": 105,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -15486,7 +15486,7 @@
       "properties": {
         "name": "Viticuso",
         "province": "Tilea",
-        "population": 206,
+        "population": 86,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -15514,10 +15514,10 @@
       "properties": {
         "name": "San Sera Bretonnesco",
         "province": "Tilea",
-        "population": 122,
+        "population": 441,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           97.9282223,
           1087.2033689
@@ -15542,7 +15542,7 @@
       "properties": {
         "name": "Falvaterra",
         "province": "Tilea",
-        "population": 213,
+        "population": 95,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -15570,7 +15570,7 @@
       "properties": {
         "name": "Casalattico",
         "province": "Tilea",
-        "population": 51,
+        "population": 76,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -15598,10 +15598,10 @@
       "properties": {
         "name": "Colle San Magno",
         "province": "Tilea",
-        "population": 447,
+        "population": 230,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           70.8577803,
           1274.0754688999998
@@ -15626,10 +15626,10 @@
       "properties": {
         "name": "Belmonte Castello",
         "province": "Tilea",
-        "population": 100,
+        "population": 782,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           77.22238130000001,
           1272.5379689
@@ -15654,10 +15654,10 @@
       "properties": {
         "name": "Settefrati",
         "province": "Tilea",
-        "population": 174,
+        "population": 619,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           68.52476530000001,
           1280.2456688999998
@@ -15682,7 +15682,7 @@
       "properties": {
         "name": "Vitcalvi",
         "province": "Tilea",
-        "population": 118,
+        "population": 105,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -15710,7 +15710,7 @@
       "properties": {
         "name": "Rocca d'Ratti",
         "province": "Tilea",
-        "population": 89,
+        "population": 135,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -15738,7 +15738,7 @@
       "properties": {
         "name": "Castelnuovo Parano",
         "province": "Tilea",
-        "population": 30,
+        "population": 111,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -15766,7 +15766,7 @@
       "properties": {
         "name": "Collepardo",
         "province": "Tilea",
-        "population": 95,
+        "population": 44,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -15794,7 +15794,7 @@
       "properties": {
         "name": "Vico nel Olesi",
         "province": "Tilea",
-        "population": 318,
+        "population": 406,
         "tags": [],
         "notes": [],
         "size_category": 2,
@@ -15822,7 +15822,7 @@
       "properties": {
         "name": "Acuto",
         "province": "Tilea",
-        "population": 21,
+        "population": 69,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -15850,10 +15850,10 @@
       "properties": {
         "name": "Frontino",
         "province": "Tilea",
-        "population": 42,
+        "population": 782,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           81.4117963,
           1252.9198689
@@ -15878,7 +15878,7 @@
       "properties": {
         "name": "Castelsantagngelo sul Portomaggiore",
         "province": "Tilea",
-        "population": 270,
+        "population": 50,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -15906,7 +15906,7 @@
       "properties": {
         "name": "Sefro",
         "province": "Tilea",
-        "population": 44,
+        "population": 39,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -15934,7 +15934,7 @@
       "properties": {
         "name": "Montedinove",
         "province": "Tilea",
-        "population": 194,
+        "population": 275,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -15962,7 +15962,7 @@
       "properties": {
         "name": "Borgo Pace",
         "province": "Tilea",
-        "population": 204,
+        "population": 72,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -15990,7 +15990,7 @@
       "properties": {
         "name": "Gagliole",
         "province": "Tilea",
-        "population": 132,
+        "population": 154,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -16018,7 +16018,7 @@
       "properties": {
         "name": "Concerviano",
         "province": "Tilea",
-        "population": 135,
+        "population": 119,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -16046,7 +16046,7 @@
       "properties": {
         "name": "Morr Reatino",
         "province": "Tilea",
-        "population": 114,
+        "population": 230,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -16074,7 +16074,7 @@
       "properties": {
         "name": "Colle di Tora",
         "province": "Tilea",
-        "population": 756,
+        "population": 782,
         "tags": [],
         "notes": [],
         "size_category": 2,
@@ -16102,10 +16102,10 @@
       "properties": {
         "name": "Orvinio",
         "province": "Tilea",
-        "population": 63,
+        "population": 324,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           60.950367299999996,
           1289.5558689
@@ -16130,7 +16130,7 @@
       "properties": {
         "name": "Montasola",
         "province": "Tilea",
-        "population": 213,
+        "population": 261,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -16158,7 +16158,7 @@
       "properties": {
         "name": "Configni",
         "province": "Tilea",
-        "population": 79,
+        "population": 198,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -16186,7 +16186,7 @@
       "properties": {
         "name": "Collevecchio",
         "province": "Tilea",
-        "population": 179,
+        "population": 55,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -16214,7 +16214,7 @@
       "properties": {
         "name": "Leonessa",
         "province": "Tilea",
-        "population": 142,
+        "population": 250,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -16242,7 +16242,7 @@
       "properties": {
         "name": "Poggio Catino",
         "province": "Tilea",
-        "population": 437,
+        "population": 454,
         "tags": [],
         "notes": [],
         "size_category": 2,
@@ -16270,7 +16270,7 @@
       "properties": {
         "name": "Fiamignano",
         "province": "Tilea",
-        "population": 93,
+        "population": 81,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -16298,7 +16298,7 @@
       "properties": {
         "name": "Montegabbione",
         "province": "Tilea",
-        "population": 122,
+        "population": 114,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -16326,7 +16326,7 @@
       "properties": {
         "name": "Monteleone d'Orvieto",
         "province": "Tilea",
-        "population": 98,
+        "population": 134,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -16354,7 +16354,7 @@
       "properties": {
         "name": "Parrano",
         "province": "Tilea",
-        "population": 93,
+        "population": 63,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -16382,7 +16382,7 @@
       "properties": {
         "name": "Lugnano",
         "province": "Tilea",
-        "population": 97,
+        "population": 65,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -16410,7 +16410,7 @@
       "properties": {
         "name": "Alviano",
         "province": "Tilea",
-        "population": 189,
+        "population": 135,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -16438,10 +16438,10 @@
       "properties": {
         "name": "Isola Capri-Sole",
         "province": "Tilea",
-        "population": 782,
+        "population": 34,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           26.812902299999998,
           1294.0269689
@@ -16466,7 +16466,7 @@
       "properties": {
         "name": "Montemignaio",
         "province": "Tilea",
-        "population": 114,
+        "population": 93,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -16494,10 +16494,10 @@
       "properties": {
         "name": "Careggine",
         "province": "Tilea",
-        "population": 203,
+        "population": 459,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           178.82717029999998,
           1153.6898689
@@ -16522,7 +16522,7 @@
       "properties": {
         "name": "Sassetta",
         "province": "Tilea",
-        "population": 124,
+        "population": 298,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -16550,7 +16550,7 @@
       "properties": {
         "name": "Fosciandora",
         "province": "Tilea",
-        "population": 115,
+        "population": 202,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -16578,7 +16578,7 @@
       "properties": {
         "name": "Comano",
         "province": "Tilea",
-        "population": 117,
+        "population": 53,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -16606,7 +16606,7 @@
       "properties": {
         "name": "Orciano Remano",
         "province": "Tilea",
-        "population": 73,
+        "population": 85,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -16634,10 +16634,10 @@
       "properties": {
         "name": "Fabbriche di Prato",
         "province": "Tilea",
-        "population": 114,
+        "population": 468,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           166.4135503,
           1170.4692688999999
@@ -16662,10 +16662,10 @@
       "properties": {
         "name": "Casola in Pavona",
         "province": "Tilea",
-        "population": 460,
+        "population": 77,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           205.8636103,
           1187.9850689
@@ -16690,7 +16690,7 @@
       "properties": {
         "name": "Badia Tedala",
         "province": "Tilea",
-        "population": 46,
+        "population": 53,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -16718,7 +16718,7 @@
       "properties": {
         "name": "Molazzana",
         "province": "Tilea",
-        "population": 149,
+        "population": 119,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -16746,7 +16746,7 @@
       "properties": {
         "name": "Radicondoli",
         "province": "Tilea",
-        "population": 72,
+        "population": 191,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -16774,10 +16774,10 @@
       "properties": {
         "name": "Seggiano",
         "province": "Tilea",
-        "population": 142,
+        "population": 672,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           192.18760029999999,
           1166.8397688999999
@@ -16802,7 +16802,7 @@
       "properties": {
         "name": "Abazza sul Lago",
         "province": "Tilea",
-        "population": 102,
+        "population": 258,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -16830,7 +16830,7 @@
       "properties": {
         "name": "Monteblanco Marittimo",
         "province": "Tilea",
-        "population": 115,
+        "population": 52,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -16858,10 +16858,10 @@
       "properties": {
         "name": "Valdicarra",
         "province": "Tilea",
-        "population": 476,
+        "population": 67,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           47.719524299999996,
           1412.9130688999999
@@ -16886,7 +16886,7 @@
       "properties": {
         "name": "Montecavaro",
         "province": "Tilea",
-        "population": 63,
+        "population": 184,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -16914,10 +16914,10 @@
       "properties": {
         "name": "Sant'Elidoro",
         "province": "Tilea",
-        "population": 34,
+        "population": 374,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           54.71198118764159,
           1432.2166178348318
@@ -16942,7 +16942,7 @@
       "properties": {
         "name": "Roccaferina",
         "province": "Tilea",
-        "population": 370,
+        "population": 547,
         "tags": [],
         "notes": [],
         "size_category": 2,
@@ -16970,10 +16970,10 @@
       "properties": {
         "name": "Pietralunga",
         "province": "Tilea",
-        "population": 419,
+        "population": 246,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           40.61814002535039,
           1382.2062688523679
@@ -16998,7 +16998,7 @@
       "properties": {
         "name": "Castrumara",
         "province": "Tilea",
-        "population": 99,
+        "population": 269,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -17026,7 +17026,7 @@
       "properties": {
         "name": "Borgo Callisa",
         "province": "Tilea",
-        "population": 193,
+        "population": 20,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -17054,7 +17054,7 @@
       "properties": {
         "name": "Villacandria",
         "province": "Tilea",
-        "population": 290,
+        "population": 64,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -17082,7 +17082,7 @@
       "properties": {
         "name": "San Marzilio",
         "province": "Tilea",
-        "population": 177,
+        "population": 225,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -17110,10 +17110,10 @@
       "properties": {
         "name": "Vallestara",
         "province": "Tilea",
-        "population": 81,
+        "population": 688,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           28.378720987358385,
           1358.6471306191038
@@ -17138,7 +17138,7 @@
       "properties": {
         "name": "Colledoro",
         "province": "Tilea",
-        "population": 60,
+        "population": 33,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -17166,7 +17166,7 @@
       "properties": {
         "name": "Montescuro",
         "province": "Tilea",
-        "population": 59,
+        "population": 104,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -17194,7 +17194,7 @@
       "properties": {
         "name": "Roccapietra",
         "province": "Tilea",
-        "population": 33,
+        "population": 176,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -17222,10 +17222,10 @@
       "properties": {
         "name": "Valderice",
         "province": "Tilea",
-        "population": 277,
+        "population": 782,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           5.5010596,
           1332.6572689
@@ -17250,7 +17250,7 @@
       "properties": {
         "name": "Casalverdi",
         "province": "Tilea",
-        "population": 157,
+        "population": 58,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -17278,7 +17278,7 @@
       "properties": {
         "name": "Torre Bellara",
         "province": "Tilea",
-        "population": 277,
+        "population": 204,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -17306,7 +17306,7 @@
       "properties": {
         "name": "Roccaspina",
         "province": "Tilea",
-        "population": 80,
+        "population": 240,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -17334,7 +17334,7 @@
       "properties": {
         "name": "Valdilume",
         "province": "Tilea",
-        "population": 250,
+        "population": 130,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -17362,7 +17362,7 @@
       "properties": {
         "name": "Sant'Almira",
         "province": "Tilea",
-        "population": 95,
+        "population": 90,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -17390,10 +17390,10 @@
       "properties": {
         "name": "Castelvarra",
         "province": "Tilea",
-        "population": 195,
+        "population": 501,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           41.47096201254718,
           1442.4077872756798
@@ -17418,10 +17418,10 @@
       "properties": {
         "name": "Borgo Nerano",
         "province": "Tilea",
-        "population": 163,
+        "population": 390,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           160.5657603,
           1462.3436688999998
@@ -17446,7 +17446,7 @@
       "properties": {
         "name": "Villalastro",
         "province": "Tilea",
-        "population": 362,
+        "population": 530,
         "tags": [],
         "notes": [],
         "size_category": 2,
@@ -17474,7 +17474,7 @@
       "properties": {
         "name": "Torre Grifara",
         "province": "Tilea",
-        "population": 74,
+        "population": 135,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -17502,7 +17502,7 @@
       "properties": {
         "name": "Collemira",
         "province": "Tilea",
-        "population": 342,
+        "population": 401,
         "tags": [],
         "notes": [],
         "size_category": 2,
@@ -17530,7 +17530,7 @@
       "properties": {
         "name": "Montelara",
         "province": "Tilea",
-        "population": 257,
+        "population": 239,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -17558,7 +17558,7 @@
       "properties": {
         "name": "Rocca Selvina",
         "province": "Tilea",
-        "population": 160,
+        "population": 139,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -17586,10 +17586,10 @@
       "properties": {
         "name": "Valdrano",
         "province": "Tilea",
-        "population": 176,
+        "population": 345,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           170.5709303,
           1421.2072689
@@ -17614,7 +17614,7 @@
       "properties": {
         "name": "Castridoro",
         "province": "Tilea",
-        "population": 58,
+        "population": 171,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -17642,7 +17642,7 @@
       "properties": {
         "name": "Sant'Arvico",
         "province": "Tilea",
-        "population": 697,
+        "population": 516,
         "tags": [],
         "notes": [],
         "size_category": 2,
@@ -17670,7 +17670,7 @@
       "properties": {
         "name": "Borgo Valcara",
         "province": "Tilea",
-        "population": 249,
+        "population": 143,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -17698,7 +17698,7 @@
       "properties": {
         "name": "Villapetra",
         "province": "Tilea",
-        "population": 159,
+        "population": 127,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -17726,7 +17726,7 @@
       "properties": {
         "name": "Montevarco",
         "province": "Tilea",
-        "population": 96,
+        "population": 187,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -17754,10 +17754,10 @@
       "properties": {
         "name": "Roccaluna",
         "province": "Tilea",
-        "population": 189,
+        "population": 369,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           32.32126436229118,
           1377.6160242203837
@@ -17782,7 +17782,7 @@
       "properties": {
         "name": "Valmarina",
         "province": "Tilea",
-        "population": 59,
+        "population": 118,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -17810,7 +17810,7 @@
       "properties": {
         "name": "Castelzara",
         "province": "Tilea",
-        "population": 276,
+        "population": 93,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -17838,10 +17838,10 @@
       "properties": {
         "name": "Borgo Lucena",
         "province": "Tilea",
-        "population": 99,
+        "population": 555,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           36.33122990030879,
           1369.3420094749117
@@ -17866,7 +17866,7 @@
       "properties": {
         "name": "Villadorme",
         "province": "Tilea",
-        "population": 87,
+        "population": 134,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -17894,10 +17894,10 @@
       "properties": {
         "name": "Sant'Orvello",
         "province": "Tilea",
-        "population": 473,
+        "population": 189,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           22.444801407854392,
           1388.9092590291357
@@ -17922,7 +17922,7 @@
       "properties": {
         "name": "Torre Milena",
         "province": "Tilea",
-        "population": 79,
+        "population": 42,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -17950,7 +17950,7 @@
       "properties": {
         "name": "Montefara",
         "province": "Tilea",
-        "population": 249,
+        "population": 98,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -17978,7 +17978,7 @@
       "properties": {
         "name": "Rocca Belice",
         "province": "Tilea",
-        "population": 46,
+        "population": 174,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -18006,7 +18006,7 @@
       "properties": {
         "name": "Valdorsa",
         "province": "Tilea",
-        "population": 259,
+        "population": 152,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -18034,7 +18034,7 @@
       "properties": {
         "name": "Casaltrano",
         "province": "Tilea",
-        "population": 164,
+        "population": 148,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -18062,7 +18062,7 @@
       "properties": {
         "name": "Borgo Serica",
         "province": "Tilea",
-        "population": 97,
+        "population": 207,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -18090,10 +18090,10 @@
       "properties": {
         "name": "Villacorda",
         "province": "Tilea",
-        "population": 357,
+        "population": 46,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           60.63246401767038,
           1457.4997940393437
@@ -18118,10 +18118,10 @@
       "properties": {
         "name": "Sant'Erviano",
         "province": "Tilea",
-        "population": 603,
+        "population": 170,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           73.09868836928477,
           1457.5523579555197
@@ -18146,7 +18146,7 @@
       "properties": {
         "name": "Torre Calvino",
         "province": "Tilea",
-        "population": 97,
+        "population": 47,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -18174,7 +18174,7 @@
       "properties": {
         "name": "Montespira",
         "province": "Tilea",
-        "population": 81,
+        "population": 153,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -18202,10 +18202,10 @@
       "properties": {
         "name": "Rocca Lucara",
         "province": "Tilea",
-        "population": 57,
+        "population": 331,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           218.85352240966398,
           1413.00010927712
@@ -18230,7 +18230,7 @@
       "properties": {
         "name": "Valmora",
         "province": "Tilea",
-        "population": 85,
+        "population": 287,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -18258,7 +18258,7 @@
       "properties": {
         "name": "Castelvigna",
         "province": "Tilea",
-        "population": 61,
+        "population": 117,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -18286,10 +18286,10 @@
       "properties": {
         "name": "Borgo Tirena",
         "province": "Tilea",
-        "population": 306,
+        "population": 183,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           221.1679503,
           1392.8805688999998
@@ -18314,7 +18314,7 @@
       "properties": {
         "name": "Sant'Olmero",
         "province": "Tilea",
-        "population": 244,
+        "population": 120,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -18342,10 +18342,10 @@
       "properties": {
         "name": "Torre Silena",
         "province": "Tilea",
-        "population": 472,
+        "population": 175,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           18.70830768464959,
           1347.6377454561118
@@ -18370,7 +18370,7 @@
       "properties": {
         "name": "Montezara",
         "province": "Tilea",
-        "population": 23,
+        "population": 167,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -18398,7 +18398,7 @@
       "properties": {
         "name": "Rocca Varina",
         "province": "Tilea",
-        "population": 138,
+        "population": 143,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -18426,7 +18426,7 @@
       "properties": {
         "name": "Valcetra",
         "province": "Tilea",
-        "population": 85,
+        "population": 53,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -18454,7 +18454,7 @@
       "properties": {
         "name": "Casalriva",
         "province": "Tilea",
-        "population": 90,
+        "population": 84,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -18482,7 +18482,7 @@
       "properties": {
         "name": "Borgo Lestara",
         "province": "Tilea",
-        "population": 106,
+        "population": 125,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -18510,7 +18510,7 @@
       "properties": {
         "name": "Sant'Albiro",
         "province": "Tilea",
-        "population": 66,
+        "population": 43,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -18538,10 +18538,10 @@
       "properties": {
         "name": "Torre Vetrana",
         "province": "Tilea",
-        "population": 53,
+        "population": 376,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           31.4394253839696,
           1302.1191259353918
@@ -18566,7 +18566,7 @@
       "properties": {
         "name": "Montecaria",
         "province": "Tilea",
-        "population": 58,
+        "population": 217,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -18594,10 +18594,10 @@
       "properties": {
         "name": "Rocca Vellina",
         "province": "Tilea",
-        "population": 329,
+        "population": 104,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           206.61177544470394,
           1371.25588033128
@@ -18622,7 +18622,7 @@
       "properties": {
         "name": "Valtrisa",
         "province": "Tilea",
-        "population": 203,
+        "population": 43,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -18650,7 +18650,7 @@
       "properties": {
         "name": "Castelmina",
         "province": "Tilea",
-        "population": 298,
+        "population": 154,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -18678,7 +18678,7 @@
       "properties": {
         "name": "Borgo Natera",
         "province": "Tilea",
-        "population": 256,
+        "population": 44,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -18736,7 +18736,7 @@
       "properties": {
         "name": "Borgoravello",
         "province": "Tilea",
-        "population": 26,
+        "population": 149,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -18764,7 +18764,7 @@
       "properties": {
         "name": "Capo Mantegara",
         "province": "Tilea",
-        "population": 140,
+        "population": 67,
         "tags": [
           "source:MadAlfred",
           "source:daRemas"
@@ -18795,13 +18795,13 @@
       "properties": {
         "name": "Scavo",
         "province": "Tilea",
-        "population": 427,
+        "population": 186,
         "tags": [
           "source:MadAlfred",
           "source:daRemas"
         ],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           -69.94239069999999,
           1428.4806689
@@ -18826,7 +18826,7 @@
       "properties": {
         "name": "Silvaro",
         "province": "Tilea",
-        "population": 37,
+        "population": 288,
         "tags": [
           "source:MadAlfred",
           "source:daRemas"
@@ -18857,13 +18857,13 @@
       "properties": {
         "name": "Gambini",
         "province": "Tilea",
-        "population": 151,
+        "population": 369,
         "tags": [
           "source:MadAlfred",
           "source:daRemas"
         ],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "inkscape_coordinates": [
           -69.6820297,
           1414.1983688999999
@@ -18918,13 +18918,13 @@
       "properties": {
         "name": "Morello",
         "province": "Tilea",
-        "population": 342,
+        "population": 123,
         "tags": [
           "source:MadAlfred",
           "source:daRemas"
         ],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "inkscape_coordinates": [
           -46.2498857,
           1446.6685688999999

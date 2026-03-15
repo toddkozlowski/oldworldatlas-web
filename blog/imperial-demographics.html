@@ -1,0 +1,572 @@
+<style>
+    .atlas-article {
+        line-height: 1.65;
+        color: #333;
+    }
+
+    .atlas-article h1 {
+        margin: 0 0 18px 0;
+        font-size: 32px;
+        color: #34495e;
+        font-weight: 700;
+    }
+
+    .atlas-article h2 {
+        margin: 34px 0 14px 0;
+        font-size: 24px;
+        color: #34495e;
+        border-bottom: 2px solid #e0e0e0;
+        padding-bottom: 8px;
+    }
+
+    .atlas-article h3 {
+        margin: 24px 0 10px 0;
+        font-size: 18px;
+        color: #34495e;
+    }
+
+    .atlas-article p {
+        margin: 0 0 14px 0;
+    }
+
+    .atlas-article ul {
+        margin: 0 0 14px 0;
+        padding-left: 22px;
+    }
+
+    .atlas-article li {
+        margin: 6px 0;
+    }
+
+    .atlas-meta {
+        margin: 0 0 22px 0;
+        font-size: 15px;
+        color: #666;
+    }
+
+    .atlas-province {
+        margin: 20px 0 22px 0;
+        padding: 14px 16px;
+        background: #f8f9fa;
+        border: 1px solid #e0e0e0;
+        border-radius: 8px;
+    }
+
+    .atlas-province h3 {
+        margin-top: 0;
+    }
+
+    .atlas-province-meta {
+        margin: 0 0 10px 0;
+        padding-left: 0;
+        list-style: none;
+    }
+
+    .atlas-province-meta li {
+        margin: 4px 0;
+    }
+
+    .atlas-table-wrap {
+        margin: 16px 0 22px 0;
+        overflow-x: auto;
+        border: 1px solid #e0e0e0;
+        border-radius: 8px;
+        background: #fff;
+    }
+
+    .atlas-table {
+        width: 100%;
+        border-collapse: collapse;
+        min-width: 760px;
+        font-size: 14px;
+    }
+
+    .atlas-table th,
+    .atlas-table td {
+        border-bottom: 1px solid #e0e0e0;
+        padding: 10px 12px;
+        text-align: left;
+        vertical-align: top;
+    }
+
+    .atlas-table thead th {
+        background: rgba(52, 73, 94, 0.08);
+        color: #34495e;
+        font-weight: 700;
+        white-space: nowrap;
+    }
+
+    .atlas-table tbody tr:nth-child(even) {
+        background: #fafafa;
+    }
+
+    .atlas-table tbody tr:last-child td {
+        border-bottom: none;
+    }
+
+    @media (max-width: 768px) {
+        .atlas-article h1 {
+            font-size: 27px;
+        }
+
+        .atlas-article h2 {
+            font-size: 21px;
+        }
+
+        .atlas-article h3 {
+            font-size: 17px;
+        }
+    }
+</style>
+
+<article class="atlas-article">
+    <h1>Imperial Demographics</h1>
+
+    <p>It is no secret that the official population figures given by Games Workshop and the various publishers of Warhammer Fantasy Roleplay can often be rather illogical or contradictory. I don’t say this to try to discredit or insult the writers; the objective of a population gazetteer in a roleplaying supplement isn’t necessarily to accurately reflect the demographics of a region, but rather set the tone for exciting and interesting roleplay. This document is simply to develop my own, more realistic demographic model of the Empire, especially for the Atlas of the Old World. A special shoutout to Theo Axner for his inspiring work on Imperial demographics.</p>
+
+    <h2>Size of the Empire</h2>
+    <p>As its foundational basis, the Atlas of the Old World uses the proportions and scales set by Andy Law, who has been involved in the cartography of the Empire since the 2nd edition of WFRP. These maps are also the most self-consistent, with scales agreeing perfectly across many samples in multiple editions. A version of Andy Law’s old ‘master map’ is used as the primary reference for the size of the Empire. Employing those self-consistent scales, one finds Andy’s Empire to be 2,200,000 km2 (give or take 10%). The map also features graticules (lines of longitude and latitude), which can further be used to determine the planet (Mallus) has a radius ~1.4 times that of Earth, yielding almost exactly twice the surface area. This size for the Empire (2.2 million km2) is approximately that of the Western Roman Empire in 418 CE, or roughly two to three times the area of the Holy Roman Empire (HRE) in 1600 CE.</p>
+
+    <h2>Population of the Empire</h2>
+    <p>Let’s tackle the population of the Empire in a few ways: (i) by comparison with the historical example of an early-17th century Holy Roman Empire, (ii) by considering what is sustainable by agricultural output, and (iii) by applying scales to canonical / lore relative values.</p>
+
+    <h3>i.) Comparison with the Holy Roman Empire in 1600 CE</h3>
+    <p>Before the Thirty Years’ War, which began around 1650 and devastated the population of the HRE, the population of the empire was approximately 15 to 20 million over an area of 700,000 square kilometers. For better comparison to the Warhammer Empire, both of these numbers neglect the Italian states aligned with the HRE. This gives a population density of ~22 - 29 inhabitants per square kilometer. If we assume that the Warhammer Empire is half as densely populated as the HRE, due to the vast untamed wildernesses taking up half the territorial area, this would be a density of ~11 - 15 per square kilometer, or 24 to 33 million inhabitants. Taking instead that the Warhammer Empire is one-third, or even one-fourth as densely populated, this equates to populations of ~18 million and ~14 million, respectively. These population densities are approximately equivalent to those of the Polish-Lithuanian Commonwealth in 1618 CE and the Kievan Rus in 1000 CE, respectively.</p>
+
+    <h3>ii.) Feeding an Empire</h3>
+    <p>The population a place can achieve is informed by the amount of resources, particularly food, it can provide. I will make a series of assumptions to help justify my assertions below.</p>
+    <p>The Empire, using approximately early-17th century agrarian technology and with a central-European-like climate and soil conditions, produces, on average, an agricultural yield sufficient to feed 45-75 people per square kilometer (115-200 per square mile) of dedicated agrarian land (farming plus livestock grazing). This doesn’t include other food sources like fishing and hunting which can supplement these numbers.</p>
+    <p>Most available, suitable land in the Empire is used for farming. This is severely limited in places by the presence of large, untamed forests and the interference and dangers of foes like beastmen and greenskins. In broad generalities, if ⅓ of all land in the Empire is suitable for agriculture or grazing, and ⅔ of that suitable land is put to work, this equates to an overall agricultural coverage of 22%, or ~500,000 square kilometers.</p>
+    <p>In the descriptions of each province in the next section, a percentage of the specific province’s land area given over to agrarian production is provided. Furthermore, the crop yields of each province are slightly modified based on canonical descriptions, for example reducing the yield in Nordland, which suffers long, harsh winters, and increasing it in the supremely fertile farmlands of the Reikland.</p>
+    <p>Combining the assumptions above gives a maximally sustainable population of 20 to 30 million. Assuming inefficiencies, as well as loss due to drought, blight, and transport, we can degrade this number by 25% to give a “comfortably sustainable” population of 15 to 23 million as an upper limit.</p>
+
+    <h3>iii.) So It Is Written</h3>
+    <p>Now let’s take the approach of starting from canonical sources and work backwards, trying to make everything fit together. The elephant in the room: there is no single consistent canon. Cities have drastically different populations between editions, or even products within the same edition. In a centralized nation like France or England in the early 17th century, the primate city represented 1-2% of the entire nation’s population. In the de-centralized HRE, the largest cities contained at most 0.5% of the population. Looking at Altdorf through this lens, in 2e the population of 105,000 implies an upper Imperial population of ~ 21 million. In WFRP 4th edition, the one million person population suggests an Empire population of….200 million. We have identified a clear and obvious outlier in the analysis, which we’ll go ahead and ignore.</p>
+
+    <p>Putting this all together, all three approaches point towards a relatively consistent range of values for the Imperial population: 15 - 25 million.</p>
+    <p>Going forward, I will adopt 21 million for my Empire population.</p>
+
+    <h2>Urban Distributions in the Empire</h2>
+    <p>We’ll break down the components for determining how the urban populations of the Empire are distributed, starting with the concepts of urbanization and centralization, and then describing the different settlement categories in broad strokes.</p>
+
+    <h3>Urbanization</h3>
+    <p>Urbanization is capped by the efficiency of agricultural production. The fewer people needed to work the land, the more that can live in cities. Based on the assumption of 1600 CE agrarian technology, this gives a relatively hard maximum of 10% of Imperial citizens living in settlements the size of towns or larger.</p>
+
+    <h3>Centralization and Urban Primacy</h3>
+    <p>A concept that needs to be considered before placing population values is the degree of ‘centralization’ in the Empire. That is to say, how much of the economic and cultural identity of the state is concentrated in one place. Historically, the kingdoms of France and England were highly centralized in Paris and London, respectively, while the Holy Roman Empire was famously not. A quantitative measure of centralization is “urban primacy”, or, how much larger is the largest city relative to the next largest. London in 1662, for example, was hugely primate with a population of 350,000, over five times larger than the next-largest (Norwich, 60,000). The same story is true for France, with Paris (~300,000) five times the size of Lyon or Rouen.</p>
+    <p>The Holy Roman Empire (excluding the Italian city-states), on the other hand, hardly had a single city in 1600 which could be confidently described as the ‘largest’. Brussels, Prague, Amsterdam, and Gdańsk all claimed between 80,000 and 100,000 inhabitants, along with nine more cities in the category of 40,000 - 60,000 (see Appendix D). This can be attributed to the fact that the Holy Roman Empire was indeed never a single state, each part of the territory ruled by a different power. The residence of the Emperor, which became the de facto capital, moved frequently, as did the sites of the Imperial Courts and the Diet (and these three were rarely, if ever, in the same place as each other). So the question becomes, is the Empire of the Old World more akin to centralized France, de-centralized HRE, or somewhere in between.</p>
+
+    <h3>My case for ‘in between’:</h3>
+    <p>The principle four cities of the Empire (Altdorf, Middenheim, Talabheim, and Nuln) have a highly emphasized importance in both the in-universe canon, as well as the narratives written about them. In the WFRP 2nd edition gazetteers, these are the only four settlements to have populations over 15,000. Each features prominently in novels, RPG campaigns, and WFB scenarios. Furthermore, each province seems to have a high degree of centralization, with all of the four major cities absolutely dwarfing the second-largest in a given province. This is particularly egregious in the numbers for WFRP4e, where Altdorf is primate in the Reikland with a population one hundred times the next-largest town. In order to keep the flavour of a de-centralized Empire, with a patchwork of local nobles inspired by the HRE, and also reckon with the oversized importance places on these four cities, I adopt a model of centralization somewhere in the midpoint between early 17th century France and the HRE.</p>
+
+    <h2>Settlement Categories in the Empire</h2>
+    <p><strong>Hamlets (10 - 100)</strong> are small, rural settlements found scattered around all corners of the Empire. A hamlet typically consists of ten to twenty households (typical populations below a hundred inhabitants), lacking infrastructure such as schools, temples, or a public inn. The majority of the rural population either lives on isolated homesteads, or arranged in hamlets near their farms. Hamlets have no formal legal basis, and are typically attached to the nearest town for public services.</p>
+
+    <p><strong>Villages (101 - 900)</strong> consist of anywhere from a few dozen to several hundred inhabitants. Most villages are centered around agriculture or a niche trade, such as mining or fishing villages. A village will typically have a single temple or shrine and a tavern or coaching house. In the more dangerous parts of the Empire, those afflicted by bandits and beastmen, villages will be surrounded by a wall. These defenses typically consist of a wooden palisade as well as a fortified redoubt, typically the manor house of the local noble. The basic organization of a village varies substantially from province to province. In the northern and central provinces of Middenland, Nordland, Hochland and Talabecland, isolated villages are typically run by a council of elders. In the Reikland, Averland, Stirland, and Wissenland, a magistrate (Dorfvorsteher) is appointed by the local noble to administer village affairs, collect taxes, and handle day-to-day matters of justice. In Ostland and Ostermark, landed minor nobles (szlachta) rule their fiefs either directly or via an appointed representative.</p>
+
+    <p><strong>Towns</strong> are established by charter, which grants the settlement various rights as well as a degree of internal autonomy. As with villages, the exact nature of these rights varies from province to province. In general, it includes the right to form a town council and elect a mayor (Burgomeister) for self-governance and to levy taxes on goods brought into the city. The smallest classification, “market” towns (500 - 2,000) are defined by the presence of specialized tradespeople and their ability to host weekly markets. Small towns (2,001 - 5,000) typically feature more specialized labourers, including from guilded trades. Most small towns that deal heavily in trade have city councils run primarily by local merchants. Large towns (5,001 - 10,000) serve as major centers of culture and trade. Large towns will have shrines or temples to the majority of the Imperial pantheon, in addition to local deities. If a large town is present in a Prime Estate, it will act as the administrative center for the entire estate. These towns often receive specialized charters, entitling them to mint currency, to write and enforce local laws, and to raise and train a militia. Large towns (and some small towns) can petition to become free towns, or Freiburg, with provincial immediacy. Towns granted such status are not obligated to a noble family and operate with the same autonomy as any other Prime Estate. All towns are defended in some way (as an obligation to receive charter), usually by stone walls.</p>
+
+    <p><strong>Cities (10,000 - 50,000)</strong> are the largest settlements in the Empire. Nearly all cities are classified as either a provincial Freistadt, or as an Kaiserliche Freistadt, which allows a city to operate independently of any province, owing taxes and answering directly only to the Emperor. As they grow, cities have to contend with huge challenges of logistics and are insatiable in their consumption of resources. A city of 10,000 inhabitants requires three hundred bushels of grain, thirty tons of wine or beer, thirty head of cattle, and over a thousand pigs or chickens each and every day. That represents more than thirty fully-laden wagons at the gates each morning (or the equivalent stored in reserve) to meet the needs of the population. It is then no surprise that the vast majority of cities are located along the Empire’s many navigable rivers, which provide not only the necessary fresh water, but also transport of all these products into the cities from the surrounding countryside. Cities possess unique infrastructure and services found nowhere else in the Empire - sewers and Shallyan hospitals to manage disease; schools and universities for the dissemination of scientific and theological teachings; and venues like theatres, opera houses, and public galleries for the development of culture. Cities are the most defensible sites in the Empire, boasting thick stone walls, deep trenches or moats, and permanent cannon emplacements.</p>
+
+    <p><strong>Large cities (50,000+)</strong> make up the four largest urban areas in the Empire and sit in a category all of their own. These cities are Altdorf, Nuln, Talabheim, and Middenheim, with the growing centers of Carroburg, Wissenburg, and Averheim close behind. All of these major cities are unique and serve as the very centers of Imperial culture, knowledge, industry and technology, faith, and economy.</p>
+
+    <p>A list of all cities are shown in the column chart below with the distribution of the populations I have assigned. The distribution is a smooth exponential decaying function, which is expected. The more centralized the nation, the faster the decay. Conversely, non-centralized states will have a very slow exponential decay. This, I feel, hits a nice balance.</p>
+
+    <h2>Dwarf Settlements</h2>
+    <p>Unlike Human towns, Dwarf settlements are classified less by their population and more by their role and function. Dwarf kingdoms engage in direct rule, with each settlement answering directly to their local monarch who rules from a Karak. In line with the Dwarf mentality, the architecture of all settlements larger than a Farmhold is developed with defense in mind.</p>
+
+    <p><strong>Vorn (Farmholds)</strong> are tiny, improvised and often temporary settlements of Dwarves engaged in farming or shepherding. Most Vorn consist of a single family, and sometimes even a single Dwarf, who manage long stretches of isolation far better than their human counterparts. Inhabitants of Vorn travel to larger nearby settlements to trade, or to find refuge in the case of greenskin incursions. Adept at carving out independent subsistence, many rural Dwarfs don’t leave their farmsteads for decades at a time.</p>
+
+    <p><strong>Grung (Mines)</strong> are small, dedicated mining settlements, typically home to 100 - 2,000 Dwarfs, either as miners or providing supporting services. Grung near the surface will often include agricultural or grazing hinterlands to sustain the mining settlements. Larger Grung communities feature basic infrastructure for processing the mined resources into a more refined form for transport. No Grung is complete without a shrine dedicated to Grungni, ancestor god of mines and their etymological source. Unless a Grung is lucky enough to be situated near a segment of the Underway, armed caravans of wagons transport the extracted ore and minerals each summer, when the mountain passes are cleared of snow, to a Khazid or Karak to be sold.</p>
+
+    <p><strong>Kazad (Fortresses)</strong> are heavily fortified settlements, guarding mountain passes or vital trade routes. Kazad come in a variety of sizes, from isolated outposts of only 200 or so Dwarfs and their support staff, to immense defensive structures carved into the very mountainside, home to several thousand Dwarf warriors. Isolated Kazad, known as Migdhal (outposts), defend the most remote parts of the Karaz-Ankor. These outposts are used by itinerant Dwarf Rangers as local bases of operation for their long patrols out into the wilderness.</p>
+
+    <p><strong>Khazid (Trade Towns)</strong> are scattered throughout the various Dwarf kingdoms. A mix of underground and surface settlements, Khazid are the centers of agricultural and trade communities. A Khazid is usually populated by between 500 and 10,000 Dwarfs, with administration over large swaths of rural land used for farming and grazing of livestock. Khazid located near human territories engage in trade with that race, although the nature of such trade is strictly regulated by the local monarch. Khazid contain supporting infrastructure including breweries, bakeries, metalsmiths, and dedicated halls for local guilds and clans. A Khazid is usually ruled by an appointed thane.</p>
+
+    <p><strong>Karak (Great Holds)</strong> are the primary centers of Dwarf urban life. Each Karak is the seat of an expansive territorial kingdom ruled by a hereditary monarch, directly administering lower-tier settlements under its control. Because a Karak is defined by being the seat of a monarch without conditions on size, they can vary widely in population from 5,000 to nearly 100,000 Dwarfs. Most Karak are three-dimensional settlements following a perennial siege mentality, with layers (known as ‘deeps’) carved far into and beneath mountains. As such, all Karak contain an underground freshwater spring or cistern, and maintain enormous granaries and other food reserves, enough to last years without resupply. Karak are connected by well-patrolled overland routes which funnel food in from the countryside, and many are connected to the Ungdrin Ankor (Underway), a vast underground network of tunnels. Karak are also the economic and cultural centers of the various dwarf kingdoms, featuring temples to all major ancestor gods, highly specialized trade and industry, and institutes of traditional learning.</p>
+
+    <h3>Non-traditional Dwarf settlements:</h3>
+    <p><strong>Umgalkhazid (Human Towns)</strong> are settlements inhabited primarily by humans but under the protection and administration of a Karak. Humans residing in these towns are the subjects of the local monarch, and enjoy the full rights and protections of Dwarf laws.</p>
+    <p><strong>Waystations</strong> are small outposts which provide accommodation and hospitality to Dwarfs, either travelling on overground routes or through the Underway. Most waystations are unstaffed and serve as basic shelters, although some on the busiest highways are regularly supplied and operated year-round. These staffed waystations, similar to the coaching inns of the Empire, employ between ten and fifty Dwarfs on seasonal rotations.</p>
+
+    <h2>Appendix A: Provinces of the Empire</h2>
+    <p class="atlas-meta">Table key. A: Population density (per km2), B: Percent of land used for agrarian purposes, C: total area of agricultural land (km2), D: Agricultural yield, in people fed per km2, E: food surplus or deficit (as percent of total population).</p>
+
+    <div class="atlas-table-wrap">
+        <table class="atlas-table">
+            <thead>
+                <tr>
+                    <th>Elector Province</th>
+                    <th>Area (km2)</th>
+                    <th>Pop.</th>
+                    <th>A</th>
+                    <th>Major Towns/Cities (5,000 +)</th>
+                    <th>B</th>
+                    <th>C</th>
+                    <th>D</th>
+                    <th>E</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Averland</td>
+                    <td>199,000</td>
+                    <td>2,000,000</td>
+                    <td>10</td>
+                    <td>Averheim, Streissen, Pfunzig, Grenzstadt, Agbeiten, Hochsleben</td>
+                    <td>35%</td>
+                    <td>69650</td>
+                    <td>60</td>
+                    <td>+109%</td>
+                </tr>
+                <tr>
+                    <td>Hochland</td>
+                    <td>56,000</td>
+                    <td>750,000</td>
+                    <td>13</td>
+                    <td>Hergig, Krudenwald, Bergsburg</td>
+                    <td>10%</td>
+                    <td>5600</td>
+                    <td>50</td>
+                    <td>-63%</td>
+                </tr>
+                <tr>
+                    <td>Middenland and Middenheim</td>
+                    <td>258,000</td>
+                    <td>2,500,000</td>
+                    <td>10</td>
+                    <td>Middenheim, Carroburg, Delberz, Ahlenhof, Schoppendorf, Grimmenhagen</td>
+                    <td>15%</td>
+                    <td>38700</td>
+                    <td>50</td>
+                    <td>-23%</td>
+                </tr>
+                <tr>
+                    <td>Mootland</td>
+                    <td>52,000</td>
+                    <td>750,000</td>
+                    <td>14</td>
+                    <td>Eicheschatten</td>
+                    <td>35%</td>
+                    <td>18200</td>
+                    <td>75</td>
+                    <td>+182%</td>
+                </tr>
+                <tr>
+                    <td>Nordland</td>
+                    <td>156,000</td>
+                    <td>1,250,000</td>
+                    <td>8</td>
+                    <td>Salzenmund, Norden, Hargendorf, Dietershafen, Neues Emskrank</td>
+                    <td>15%</td>
+                    <td>23400</td>
+                    <td>50</td>
+                    <td>-6%</td>
+                </tr>
+                <tr>
+                    <td>Ostermark</td>
+                    <td>184,000</td>
+                    <td>1,500,000</td>
+                    <td>8</td>
+                    <td>Bechafen, Nagenhof, Remer, Essen, Eisental, Bissendorf</td>
+                    <td>20%</td>
+                    <td>36800</td>
+                    <td>60</td>
+                    <td>+47%</td>
+                </tr>
+                <tr>
+                    <td>Ostland</td>
+                    <td>177,000</td>
+                    <td>1,500,000</td>
+                    <td>8</td>
+                    <td>Wolfenburg, Salkalten, Volganof, Schönfeld, Ferlangen</td>
+                    <td>15%</td>
+                    <td>26550</td>
+                    <td>50</td>
+                    <td>-12%</td>
+                </tr>
+                <tr>
+                    <td>Reikland and Altdorf</td>
+                    <td>191,000</td>
+                    <td>3,200,000</td>
+                    <td>17</td>
+                    <td>Altdorf, Kemperbad, Übersreik, Dunkelburg, Schilderheim, Bögenhafen, Auerswald, Holthusen, Eilhart</td>
+                    <td>20%</td>
+                    <td>38200</td>
+                    <td>75</td>
+                    <td>-10%</td>
+                </tr>
+                <tr>
+                    <td>Stirland and Sylvania</td>
+                    <td>362,000</td>
+                    <td>2,000,000</td>
+                    <td>6</td>
+                    <td>Wurtbad, Waldenhof, Nachthafen, Sigmaringen</td>
+                    <td>25%</td>
+                    <td>90500</td>
+                    <td>30</td>
+                    <td>+36%</td>
+                </tr>
+                <tr>
+                    <td>Talabecland and Talabheim</td>
+                    <td>314,000</td>
+                    <td>2,500,000</td>
+                    <td>8</td>
+                    <td>Talabheim, Küsel, Krugenheim, Talagaad, Bek, Lieske, Gersdorf</td>
+                    <td>13%</td>
+                    <td>40820</td>
+                    <td>50</td>
+                    <td>-18%</td>
+                </tr>
+                <tr>
+                    <td>Wissenland and Nuln</td>
+                    <td>233,000</td>
+                    <td>3,200,000</td>
+                    <td>14</td>
+                    <td>Nuln, Wissenburg, Pfeildorf, Meissen, Wusterburg, Geschburg, Steingart</td>
+                    <td>35%</td>
+                    <td>81550</td>
+                    <td>50</td>
+                    <td>+27%</td>
+                </tr>
+                <tr>
+                    <td>The Empire</td>
+                    <td>2,182,000</td>
+                    <td>21,150,000</td>
+                    <td>9</td>
+                    <td></td>
+                    <td>22%</td>
+                    <td></td>
+                    <td></td>
+                    <td>+14%</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="atlas-province">
+        <h3>Averland</h3>
+        <ul class="atlas-province-meta">
+            <li>Area: 199,000 km2 / 77,000 mi2</li>
+            <li>Population: 2,750,000 (~ 14 / km2)</li>
+            <li>Agricultural and pastoral land: 99,500 km2 (40%) / 60 / can feed 4,775,000</li>
+            <li>Principle exports: grain, wine, cattle</li>
+        </ul>
+        <p>Averland is a province defined by its large, unbroken stretches of fertile farmland. The province borders are defined by the River Aver and the Upper Reik, two of the Empire’s most vital waterways. Averland enjoys a climate suitable for growing a large variety of seasonal crops, and it raises large numbers of cattle and other livestock. It is considered the breadbasket of the Empire. This supports a moderate urbanization rate of ~10%, with the city of Averheim (35,000) and the university town of Streissen (17,000) located on the Aver, and Agbeiten (9,500) and Hochsleben (8,500) on the Upper Reik. The towns located more in the center of the province, like Grenzstadt, Fredericksburg, Heideck, Bernloch, and Lebendorf, serve as regional centers of trade and culture, and feature large agricultural and livestock markets, as well as temples and public infrastructure. Averland is also the wine-growing capital of the Empire, at least in terms of exported quantity, and its vintages can be found in all provinces.</p>
+    </div>
+
+    <div class="atlas-province">
+        <h3>Hochland</h3>
+        <ul class="atlas-province-meta">
+            <li>Area: 56,000 km2</li>
+            <li>Population: 750,000 (~ 13 / km2)</li>
+            <li>Agricultural and pastoral land: 5,600 km2 (10%) / 50 / can feed 280,000</li>
+            <li>Principle exports: ore (copper, iron), timber, furs</li>
+        </ul>
+        <p>Hochland is a rugged and heavily-forested province spanning from the Middle Mountains in the north to the River Talabec in the south. The province serves as the crossroads of two of the Empire’s most vital overland highways, bringing abundant trade and cultural exchange. The province is famous for its woodland hunters, who provide fresh game at market. The provincial capital and largest settlement Hergig (15,000) is located on the Wolf’s Run, downstream of Wolfenburg. The largest urban area is in the northwest of the province, with the towns of Schoppendorf, Bergsburg, and Krudenwald located on the Old Forest Road as it approaches Middenheim.</p>
+    </div>
+
+    <div class="atlas-province">
+        <h3>Middenland and Middenheim</h3>
+        <ul class="atlas-province-meta">
+            <li>Area: 258,000 km2</li>
+            <li>Population: 3,000,000 (~ 12 / km2)</li>
+            <li>Agricultural and pastoral land: 38,700 km2 (15%) / 50 / can feed 1,935,000</li>
+            <li>Principle exports:</li>
+        </ul>
+    </div>
+
+    <div class="atlas-province">
+        <h3>Mootland</h3>
+        <ul class="atlas-province-meta">
+            <li>Area: 52,000 km2</li>
+            <li>Population: 750,000 (~ 14 / km2)</li>
+            <li>Agricultural and pastoral land: 31,200 km2 (60%) / 75 / can feed 2,340,000</li>
+            <li>Principle exports: grain, fruits, textiles</li>
+        </ul>
+        <p>The Mootland represents perhaps the most fertile acreage of land anywhere in the Empire - a point of contention for neighboring Averland and Stirland, from whose territories the Mootland was carved. The predominantly-halfling population of this province cultivate a large number of crops suiting their involved culinary preferences, including high quality wheat for pies, legumes, and root vegetables. The region is more densely populated than the surrounding human provinces, but the natural tendency of halflings to favour pastoral life precludes the development of any major urban centers, preferring instead a patchwork of closely-located villages. The majority of the province’s agrarian production is shipped down the Aver to the major human population centers and forms the basis of the Mootland economy. This trade is also what keeps the Mootland independent - the Emperor can not tolerate the threat of war in such a vital food-producing region.</p>
+    </div>
+
+    <div class="atlas-province">
+        <h3>Nordland</h3>
+        <ul class="atlas-province-meta">
+            <li>Area: 156,000 km2</li>
+            <li>Population: 1,750,000 (~ 11 / km2)</li>
+            <li>Agricultural and pastoral land: 234,000 km2 (15%) / 45 / can feed 1,050,000</li>
+            <li>Exports: fish (salted), ore (silver, iron), shipbuilding, whaling</li>
+        </ul>
+        <p>The harsh, sea-battered coastline of Nordland is the source of much of its wealth - the greatest ships and sailors of the Empire are both made in the seaside towns of the province. In the south and west, the thick woodlands of the Drakwald and Laurelorn forests preclude widespread agriculture. The majority of Nordland grains are grown in the narrow Rol Valley. The bounty of the sea and the hunt supplement the Nordland diet. The port cities of Salzenmund (27,000), Norden (9,300), Dietershafen (7,400), and Hargendorf (8,300) deal in trade from across the Old World and make up the majority of Nordland’s urban population.</p>
+    </div>
+
+    <div class="atlas-province">
+        <h3>Ostermark</h3>
+        <ul class="atlas-province-meta">
+            <li>Area: 184,000 km2</li>
+            <li>Population: 2,000,000 (~ 11 / km2)</li>
+            <li>Agricultural and pastoral land: 46,000 (25%) / 60 / can feed 2,760,000</li>
+            <li>Exports: timber, shipbuilding (riverboats), horses, pottery</li>
+        </ul>
+        <p>The League of Ostermark is located in the highlands of the northeastern Empire, situated between the upper stretches of the Rivers Talabec and Stir. The western and northern sides of the province is covered by a stretch of the Great Forest known as the Gryphon’s Wood, while the east and south contain wide stretches of grasslands and heathlands suitable for raising horses and cattle. The cities of Bechafen, Nagenhof and Remer, near the Upper Talabec, perform substantial trade not only with the Empire, but especially with neighboring Kislev. Although the available farmland is limited, the soil is watered by seasonal flooding from the World’s Edge Mountains and is of a good quality.</p>
+    </div>
+
+    <div class="atlas-province">
+        <h3>Ostland</h3>
+        <ul class="atlas-province-meta">
+            <li>Area: 177,000 km2</li>
+            <li>Population: 1,500,000 (~ 8 / km2)</li>
+            <li>Agricultural and pastoral land: 26,550 (15%) / 50 / can feed 1,328,000</li>
+            <li>Exports: ore (iron, coal, salt), timber, furs, marble</li>
+        </ul>
+    </div>
+
+    <div class="atlas-province">
+        <h3>Reikland and Altdorf</h3>
+        <ul class="atlas-province-meta">
+            <li>Area: 191,000 km2</li>
+            <li>Population: 4,250,000 (~ 22 / km2)</li>
+            <li>Agricultural and pastoral land: 47,750 (25%) / 75 / can feed 3,600,000</li>
+            <li>Principle exports: textiles, wine, services, glass</li>
+        </ul>
+        <p>The Reikland is the most populous in the Empire, benefiting from its location on a long stretch of the River Reik. Reikland benefits from large swaths of very fertile farmland, especially in the Vorbergland, the stretch of territory filling the gap between the Grey Mountains and the Reikwald. Networks of canals for transport and irrigation, high quality roads, innovative farming techniques, and the development of a vibrant mercantile class means that the Reikland has one of the highest crop yields in the Empire.</p>
+    </div>
+
+    <div class="atlas-province">
+        <h3>Stirland and Sylvania</h3>
+        <ul class="atlas-province-meta">
+            <li>Area: 362,000</li>
+            <li>Population: 2,750,000 (~ 9 / km2)</li>
+            <li>Agricultural and pastoral land: 108,600 (30%) / 30 / can feed 3,250,000</li>
+            <li>Principle exports: sheep and wool, wine, pigs</li>
+        </ul>
+        <p>Stirland, including the autonomously-ruled County of Sylvania, is the largest province by area. Much of the province’s land, however, is of poor quality for farming. The Stirhügel, a large highland in the center of the province, is covered by dry, rocky soil. The province’s single city, Wurtbad (23,500), serves as Stirland primary trade center and port on the River Stir for which it is named. Sylvania, covered in marshes ,old forests, and poorly-managed farmland, is barely able to sustain Waldenhof (12,300), Stirland’s second-largest town.</p>
+    </div>
+
+    <div class="atlas-province">
+        <h3>Talabecland and Talabheim</h3>
+        <ul class="atlas-province-meta">
+            <li>Area: 314,000 km2</li>
+            <li>Population: 3,000,000 (~ 10 / km2)</li>
+            <li>Agricultural and pastoral land: 47,100 (15%) / 50 / can feed 2,355,000</li>
+            <li>Principle exports: timber products, glass</li>
+        </ul>
+        <p>Talabecland is predominantly forested, covered in most part by the Great Forest. While not as dense or dangerous as the Drakwald or the Schadenwald, it is nevertheless an impediment to widescale agriculture. Along the Talabecland bank of Reik to the north, and the Stir to the south, a strip of land several leagues wide is clear-cut to allow for growing grains and vegetables. Subsistence-level forest farming of fruits, nuts, and mushrooms is performed by smaller villages. Hunting in the expansive Great Forest substantially supplements these efforts, with every Talabecland village having one or more seasoned huntsmen. Most Prime Estate in Talabecland enforces strict forest laws within their borders, with unlicensed poachers severely punished.</p>
+    </div>
+
+    <div class="atlas-province">
+        <h3>Wissenland and Nuln</h3>
+        <ul class="atlas-province-meta">
+            <li>Area: 233,000</li>
+            <li>Population: 4,000,000 (~ 17 / km2)</li>
+            <li>Agricultural and pastoral land: 116,500 (50%) / 50 / can feed 5,825,000</li>
+            <li>Principle exports: wine, grain, silver products, services, armaments</li>
+        </ul>
+        <p>The Grand County of Wissenland is three provinces in one: the city-state of Nuln, the vast plains of Sudenland, formerly Solland, and the rocky foothills of Wissenland proper. Wedged between the Soll and Upper Reik, Sudenland is the sun-soaked jewel of the south. Its wide, verdant plains serve as grazing land for cattle and sheep. Apple orchards, vineyards, and wheat fields line the banks of the Soll and the Upper Reik. In Wissenland proper, the soil is of a much lower quality, suitable only for the most hardy of crops.</p>
+    </div>
+
+    <h2>Appendix B: Real World European City Populations</h2>
+    <p class="atlas-meta">BOLD cities were part of the Holy Roman Empire</p>
+
+    <div class="atlas-table-wrap">
+        <table class="atlas-table">
+            <thead>
+                <tr>
+                    <th>City</th>
+                    <th>1500</th>
+                    <th>1600</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>Constantinople</td><td>500,000</td><td>700,000</td></tr>
+                <tr><td>Naples</td><td>200,000</td><td>350,000</td></tr>
+                <tr><td>Paris</td><td>225,000</td><td>350,000</td></tr>
+                <tr><td>London</td><td>100,000</td><td>300,000</td></tr>
+                <tr><td>Moscow</td><td>100,000</td><td>200,000</td></tr>
+                <tr><td>Venice</td><td>130,000</td><td>200,000</td></tr>
+                <tr><td>Milan</td><td>100,000</td><td>180,000</td></tr>
+                <tr><td>Brussels</td><td>100,000</td><td>100,000</td></tr>
+                <tr><td>Prague</td><td>70,000</td><td>100,000</td></tr>
+                <tr><td>Amsterdam</td><td>30,000</td><td>100,000</td></tr>
+                <tr><td>Gdańsk</td><td>30,000</td><td>80,000</td></tr>
+                <tr><td>Antwerp</td><td>100,000</td><td>50,000</td></tr>
+                <tr><td>Augsburg</td><td>50,000</td><td>26,000</td></tr>
+                <tr><td>Hamburg</td><td>20,000</td><td>60,000</td></tr>
+                <tr><td>Nuremberg</td><td>50,000</td><td>50,000</td></tr>
+                <tr><td>Magdeburg</td><td>30,000</td><td>45,000</td></tr>
+                <tr><td>Vienna</td><td>45,000</td><td>50,000</td></tr>
+                <tr><td>Cologne</td><td>45,000</td><td>50,000</td></tr>
+                <tr><td>Ghent</td><td>100,000</td><td>50,000</td></tr>
+                <tr><td>Luebeck</td><td>32,000</td><td>30,000</td></tr>
+                <tr><td>Mainz</td><td>20,000</td><td>20,000</td></tr>
+                <tr><td>Regensburg</td><td>40,000</td><td>40,000</td></tr>
+                <tr><td>Speyer</td><td>20,000</td><td>20,000</td></tr>
+                <tr><td>Worms</td><td>20,000</td><td>20,000</td></tr>
+                <tr><td>Wrocław</td><td>25,000</td><td>40,000</td></tr>
+                <tr><td>Strasbourg</td><td>20,000</td><td>25,000</td></tr>
+                <tr><td>Ulm</td><td>16,000</td><td>21,000</td></tr>
+                <tr><td>Frankfurt am Main</td><td></td><td>20,000</td></tr>
+                <tr><td>Munich</td><td></td><td>20,000</td></tr>
+                <tr><td>Leipzig</td><td></td><td>20,000</td></tr>
+                <tr><td>Aachen</td><td></td><td>14,000</td></tr>
+                <tr><td>Lüneburg</td><td>14,000</td><td>14,000</td></tr>
+                <tr><td>Rostock</td><td>10,000</td><td>10,000</td></tr>
+                <tr><td>Bremen</td><td></td><td>25,000</td></tr>
+                <tr><td>Erfurt</td><td></td><td>19,000</td></tr>
+                <tr><td>Stuttgart</td><td>8,000</td><td>12,000</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <h2>Appendix C: Feeding an Empire</h2>
+    <h3>Diet of the Empire</h3>
+    <p>The Diet of an Imperial citizen is varied, both by economic means and by locality. Owing to the difficulty and expense of importing food hundreds of leagues across the Empire, most common folk consume a diet which can be locally sourced. Some commonalities exist, in particular the ubiquity of staple cereals (rye, wheat and barley), both as food in the form of bread, porridge, and stews, and as a beverage in the form of ale and beer. This is supplemented by locally grown fruits and vegetables, cheeses, and meats - especially pork and poultry.</p>
+
+    <h3>Ale / Beer</h3>
+    <p>Ale is brewed from barley, wheat, and yeast, while beer includes hops. Both are consumed ubiquitously across the Empire. In addition to being a source of valuable calories for the working poor that make up the majority of the population, the brewing process keeps waterborne ailments at bay. Most large towns will have a local brewery, so the flavour will vary from place to place as the quality and character of the ingredients changes. Beverages brewed and consumed by Dwarfs tends to be of a much stronger character. Beer using hops improves its longevity and allows for the export of beer as a commercial trade good from the larger breweries.</p>
+
+    <h3>Bread</h3>
+    <p>TBD</p>
+
+    <h3>Fish</h3>
+    <p>The rivers of the Empire provide not only a convenient route for trade and travel, but a veritable bounty for fishermen. Every navigable river in the Empire is lined with small fishing villages which eke out an existence on the day’s catch. In addition to the typical trout, perch, and catfish, the rivers of the Empire are home to freshwater giants like the Reik Eel (a delicacy in Altdorf) and the Stirpike. Off the Empire’s northern coast, especially in Nordland, fleets of fishing boats strike out into the deep, frigid waters of the Sea of Claws and return with cod, herring, lobsters and crabs (if they return at all). These sea fishermen preserve most of their catch by curing them in barrels of salt while still at sea. The rest is sold fresh at market.</p>
+
+    <h3>Meats</h3>
+    <p>While daily consumption is typically reserved for the middle and upper classes, meat is common throughout the Empire. Pork, mutton, and poultry - requiring relatively little land to cultivate - are a staple feature at daily markets, either whole or prepared by a local butcher. Unscrupulous cooks will occasionally try to pass off rat or dog as more desired cuts of meat, frequently mixing it into thick stews. Beef is rather expensive, typically reserved for special occasions.</p>
+
+    <h2>Appendix D: Prisoners of Geography / Excerpts from the Lore</h2>
+    <p>So much of why people live where they do is determined by geography and climate. Rivers provide fresh water, fertile soil, and serve as a transportation and communication superhighway.</p>
+
+    <p>South of the river Talabec and west of the Reik are the agricultural and population heartlands of the Empire, the provinces of Talabecland, Averland, Stirland, Reikland, and Wissenland.</p>
+    <p>…</p>
+    <p>South of Talabecland are the rolling plains of Stirland and Averland, used both for farming and raising cattle. Less heavily forested than the northern tier, these provinces are more densely populated, with many more towns and villages along their rivers and roads.</p>
+    <p>…</p>
+    <p>At the southernmost end of the Empire is the Electoral Province of Wissenland...Less friendly to agriculture than the Reikland to the north, it nonetheless is self-sufficient in food.</p>
+    <p>…</p>
+
+    <p>Averland is a fertile country, its plains watered by the annual floods of the great rivers that border it. In some years the waters crest far higher than usual, flooding many of the cities and towns along their banks. Averlanders see this as a price to pay for having abundant crops. Away from the rivers, the plains rise gently to the geographical centre of the province, where the Old Dwarf Road and Agbeiten road meet at Heideck. The interior of Averland is given over to small villages of tenants that dot the vast fiefs of the rural nobility. In the west and central portions of the province, nobles devote themselves mostly to the raising of the famous Averland longhorn cattle, leading their herds each year to the stockyards of Averheim and Loningbruck for slaughter and export.</p>
+
+    <p>In the south-central and eastern portions of the country, cattle raising partly gives way to viticulture and winemaking, as the country there is more suited to the growing of quality grapes than in most parts of western Averland. Grapes are either pressed and the wine made on the estates, or the grapes are transported to nearby towns where brokers will sell them to local wine makers. Famous and infamous Averlander wines include the Grenzstadter White, which fetches high prices Marienburg where it is the fashion, and Loningbruck “Ruby” wine, which is produced quickly and is popular with discerning beggars from Nuln to Carroburg.</p>
+
+    <p>Though mostly covered in forest, the farms along the river banks and around the villages are fertile thanks to the many rivers and streams that flow south from the uplands of the Middle Mountains. This makes Hochland self-sufficient in food. Recognising their land is unsuited to large-scale farming or cattle-raising, the people of Hochland have done what they can to encourage others to visit and leave some of their cash behind.</p>
+
+    <p>Sitting on perhaps the most fertile farmland in the central Empire, the Mootland comprises portions of Averland and Stirland that were torn from their rule in a fit of pique by Emperor Ludwig the Fat and made into an electoral province—ruled by Halflings. The Moot is a land of gently rolling hills and grasslands that slopes upward gradually until the land rises in the Greenleaf Hills of the southeast, where farmers raise many famous varieties of tobacco, such as “Fogmaker Red,” “Aver Prime Blend,” and the notoriously strong “Fumigator.” Most of the country is open, with scattered copses of oak, beech, elm, and willow along the riverbanks: The only two forests of note are the Sleepy Wood and the mysterious Alter Forest. While the province is watered in its southern half by the Aver Reach, Blue Reach, and Aver rivers, sufficient rainfall waters the land to guarantee regular and good crops throughout the Moot.</p>
+
+    <p>Ostermark is divided into four main regions. In the north, there is the arm of the Great Forest known locally as the “Gryphon’s Wood” that follows the line of the Upper Talabec and contains the capital, Bechafen. In the south, along the banks of the Stir, the expanse of the Great Forest near Essen, when spoken of at all, is referred to as the Dead Wood, for the dead city of Mordheim lies in its midst. Between these two arms but south of the Brunwasser river are the central moorlands, a vast expanse of low hills, fen lands, and shallow lakes that is sparsely inhabited, save for the herds of sheep and some scattered villages. North of the Brunwasser between the World’s Edge Mountains and the end of Gryphon’s Wood are large tracts of rolling grasslands. Well-suited to raising horses</p>
+
+    <p>From north to south, from the edge of the Wasteland to the borders with Wissenland, Reikland is blessed with fertile farmland, vineyards, and dairy fields that produce a surplus of products for export. Canals, road-building, programs to improve the methods of farming, encouragement of the development of free towns and the mercantile classes—all these have served to make the Reikland a gem among the Empire’s provinces. River travel is the most common way to get around the Reikland, since the majority of settlements are along the Reik itself. Several tributaries flow from the Grey Mountains to add their waters to the Reik, which carries commerce from the interior of the Empire to Marienburg and beyond, and back again. These rivers are also important to the many farms and towns between the forest and the mountains, a fertile area known as Vorbergland, or “foothill country.”</p>
+
+    <p>Bounded by the World’s Edge Mountains on the east and on the north, west, and south by the rivers Stir, Aver, and Reik, Stirland is a rugged province of highly mixed terrain. Its reputation as a rural backwater is largely undeserved, for it has many towns of substantial size</p>
+
+    <p>Like the Reikland, western Wissenland is heavily watered by streams and rivers flowing from the mountains that feed the Söll, which in turn joins the Upper Reik at Pfeildorf. These tributaries are fed by melting snow in the spring, leading to frequent flooding of the towns along their courses. Meissen itself was nearly wiped out in Great Flood of 2484. The farmlands of Wissenland are fertile near the Reik, but as the land rolls towards the mountains it becomes steadily more dry and stony. East of the Söll, the land stretches out in rolling grasslands used for sheep-raising. This part of Wissenland, the old Solland, is famous for its high-quality wool and the fine furs its trappers bring out of the mountains. Wissenland sable is highly prized in fashionable circles in Nuln, Altdorf, and beyond.</p>
+
+    <p>Sigmar’s Heirs</p>
+
+    <h3>Preliminary Notes on Ostland / Ostermark / Kislev</h3>
+    <ul>
+        <li>Ostland ~ Poland-Lithuania</li>
+        <li>Ostermark ~ Southern Slavs + Hungary</li>
+        <li>Southern Oblast ~</li>
+    </ul>
+
+    <h3>KISLEV OLD LORE (2e):</h3>
+    <p>Ethnicities: Ungols, Gospodars, Norsii, Ropsmenn</p>
+</article>
