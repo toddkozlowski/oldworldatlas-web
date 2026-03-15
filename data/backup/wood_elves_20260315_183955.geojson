@@ -1910,8 +1910,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.0625011651615992,
-          47.79693520243519
+          -1.1048541936415992,
+          47.6625109589152
         ]
       },
       "properties": {
@@ -1922,8 +1922,8 @@
         ],
         "notes": [],
         "inkscape_coordinates": [
-          367.8295221,
-          617.2207037000001
+          365.4099021,
+          624.9003337
         ],
         "wiki": {
           "title": null,
@@ -1980,62 +1980,6 @@
         "inkscape_coordinates": [
           455.4612321,
           694.6480137
-        ],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.342448082601599,
-          43.655883342595196
-        ]
-      },
-      "properties": {
-        "name": "The Western Sentinels",
-        "settlement_type": "POI",
-        "tags": [
-          "source:WAWE6E"
-        ],
-        "notes": [],
-        "inkscape_coordinates": [
-          294.7064121,
-          853.7981637
-        ],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.848789597161599,
-          48.08419772243519
-        ]
-      },
-      "properties": {
-        "name": "The Northern Sentinels",
-        "settlement_type": "POI",
-        "tags": [
-          "source:WAWE6E"
-        ],
-        "notes": [],
-        "inkscape_coordinates": [
-          322.9090221,
-          600.8094537000001
         ],
         "wiki": {
           "title": null,

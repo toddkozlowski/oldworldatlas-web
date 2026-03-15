@@ -270,8 +270,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.106603546630401,
-          43.819709805836794
+          5.395934145030401,
+          43.564160332876796
         ]
       },
       "properties": {
@@ -282,8 +282,8 @@
         ],
         "notes": [],
         "inkscape_coordinates": [
-          777.3990326,
-          844.4387908
+          736.7986326,
+          859.0382807999999
         ],
         "wiki": {
           "title": null,
@@ -438,8 +438,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          2.9212314029504003,
-          41.7109680928768
+          3.248576682630401,
+          41.8691653939968
         ]
       },
       "properties": {
@@ -450,8 +450,8 @@
         ],
         "notes": [],
         "inkscape_coordinates": [
-          595.4193626,
-          964.9107808
+          614.1205326,
+          955.8730008
         ],
         "wiki": {
           "title": null,
@@ -466,8 +466,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          3.9661829194304015,
-          42.412268128396796
+          3.618296345670402,
+          42.008476229196795
         ]
       },
       "properties": {
@@ -478,8 +478,8 @@
         ],
         "notes": [],
         "inkscape_coordinates": [
-          655.1172326000001,
-          924.8456507999999
+          635.2425426000001,
+          947.9142008
         ],
         "wiki": {
           "title": null,
@@ -494,8 +494,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          3.932244413830402,
-          41.829460895756796
+          3.575146360070402,
+          41.8268797559168
         ]
       },
       "properties": {
@@ -506,8 +506,8 @@
         ],
         "notes": [],
         "inkscape_coordinates": [
-          653.1783326000001,
-          958.1413107999999
+          632.7773926000001,
+          958.2887708
         ],
         "wiki": {
           "title": null,
@@ -972,8 +972,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.276609403449599,
-          41.3129017520768
+          -1.5658197493695996,
+          41.02379781127679
         ]
       },
       "properties": {
@@ -984,8 +984,8 @@
         ],
         "notes": [],
         "inkscape_coordinates": [
-          298.4677626,
-          987.6522308
+          339.0750326,
+          1004.1686808
         ],
         "wiki": {
           "title": null,
@@ -1190,8 +1190,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.0197978728895998,
-          39.5614821440768
+          -0.9903351400895998,
+          39.58173777287679
         ]
       },
       "properties": {
@@ -1202,8 +1202,8 @@
         ],
         "notes": [],
         "inkscape_coordinates": [
-          370.2691526,
-          1087.7104808000001
+          371.9523526,
+          1086.5532808
         ],
         "wiki": {
           "title": null,
@@ -1218,8 +1218,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.5453323676096,
-          38.7736621120768
+          -0.8087626472895998,
+          39.7753967776768
         ]
       },
       "properties": {
@@ -1230,8 +1230,8 @@
         ],
         "notes": [],
         "inkscape_coordinates": [
-          340.24547259999997,
-          1132.7184808
+          382.3255526,
+          1075.4895808
         ],
         "wiki": {
           "title": null,
@@ -1700,8 +1700,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.159964217350401,
-          35.1260788192768
+          10.497271548550398,
+          35.32054825927679
         ]
       },
       "properties": {
@@ -1712,8 +1712,8 @@
         ],
         "notes": [],
         "inkscape_coordinates": [
-          1008.9667126,
-          1341.1041808
+          1028.2370125999998,
+          1329.9941808
         ],
         "wiki": {
           "title": null,
@@ -1728,8 +1728,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.7107875968704,
-          34.22168039687679
+          9.8983723635904,
+          34.545220832076794
         ]
       },
       "properties": {
@@ -1742,8 +1742,8 @@
           "fallen"
         ],
         "inkscape_coordinates": [
-          983.3053426,
-          1392.7722808
+          994.0220226,
+          1374.2884808000001
         ],
         "wiki": {
           "title": null,
@@ -1816,8 +1816,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.1045365568704,
-          64.0651353491968
+          8.267309209350401,
+          63.44451632583679
         ]
       },
       "properties": {
@@ -1828,8 +1828,8 @@
         ],
         "notes": [],
         "inkscape_coordinates": [
-          948.6703426,
-          -312.17829919999997
+          900.8397126000001,
+          -276.7224592
         ],
         "wiki": {
           "title": null,
@@ -1872,8 +1872,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.9598378154304,
-          62.7084640237568
+          8.9335937181504,
+          62.694266004236795
         ]
       },
       "properties": {
@@ -1884,8 +1884,8 @@
         ],
         "notes": [],
         "inkscape_coordinates": [
-          940.4037326,
-          -234.6719392
+          938.9044126,
+          -233.8608092
         ],
         "wiki": {
           "title": null,
@@ -1900,8 +1900,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.3870668512704,
-          64.2917188528768
+          8.4503459117504,
+          64.26251325383679
         ]
       },
       "properties": {
@@ -1912,8 +1912,8 @@
         ],
         "notes": [],
         "inkscape_coordinates": [
-          907.6814426000001,
-          -325.1229692
+          911.2965626,
+          -323.4544592
         ],
         "wiki": {
           "title": null,
@@ -1928,8 +1928,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.322388969350401,
-          64.4914615479168
+          8.085538571270401,
+          64.56583796935679
         ]
       },
       "properties": {
@@ -1940,8 +1940,8 @@
         ],
         "notes": [],
         "inkscape_coordinates": [
-          675.4672126,
-          -336.53422919999997
+          890.4551926,
+          -340.7833392
         ],
         "wiki": {
           "title": null,
@@ -2012,8 +2012,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.657164697030401,
-          64.00699896391679
+          7.8529107613504,
+          64.4331846055168
         ]
       },
       "properties": {
@@ -2024,8 +2024,8 @@
         ],
         "notes": [],
         "inkscape_coordinates": [
-          694.5928826,
-          -308.8569792
+          877.1652126,
+          -333.2048792
         ],
         "wiki": {
           "title": null,
@@ -2040,8 +2040,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.4937965392704005,
-          63.918440101516794
+          7.8938449155904005,
+          64.54780359815679
         ]
       },
       "properties": {
@@ -2052,8 +2052,8 @@
         ],
         "notes": [],
         "inkscape_coordinates": [
-          685.2596926,
-          -303.7976292
+          879.5037726,
+          -339.7530392
         ],
         "wiki": {
           "title": null,
@@ -2068,8 +2068,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.5760094032704,
-          64.05773483303679
+          8.386703643270401,
+          64.13517813031679
         ]
       },
       "properties": {
@@ -2078,8 +2078,8 @@
         "tags": [],
         "notes": [],
         "inkscape_coordinates": [
-          918.4756926,
-          -311.7555092
+          907.6606926000001,
+          -316.1798292
         ],
         "wiki": {
           "title": null,
@@ -2094,8 +2094,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.2179467040704,
-          64.2065771213568
+          9.0547627075904,
+          64.0729573616768
         ]
       },
       "properties": {
@@ -2106,8 +2106,8 @@
         ],
         "notes": [],
         "inkscape_coordinates": [
-          898.0196426,
-          -320.2588392
+          945.8267726,
+          -312.6251692
         ],
         "wiki": {
           "title": null,
@@ -2122,8 +2122,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.100417496390401,
-          63.8977036378368
+          8.836987216710401,
+          64.03365948135679
         ]
       },
       "properties": {
@@ -2134,8 +2134,8 @@
         ],
         "notes": [],
         "inkscape_coordinates": [
-          891.3052226000001,
-          -302.6129592
+          933.3853026,
+          -310.3800892
         ],
         "wiki": {
           "title": null,
@@ -2206,8 +2206,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.8909308688704,
-          63.8240322775168
+          8.7207326503104,
+          63.3574136211968
         ]
       },
       "properties": {
@@ -2218,8 +2218,8 @@
         ],
         "notes": [],
         "inkscape_coordinates": [
-          936.4670926,
-          -298.4041292
+          926.7437026,
+          -271.7462992
         ],
         "wiki": {
           "title": null,
@@ -2404,8 +2404,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.514838620550398,
-          59.1574370834368
+          12.533868950150397,
+          57.80881983850879
         ]
       },
       "properties": {
@@ -2418,8 +2418,8 @@
           "fallen"
         ],
         "inkscape_coordinates": [
-          1200.6300125999999,
-          -31.8024842
+          1144.5874125999999,
+          45.243747799999994
         ],
         "wiki": {
           "title": null,
@@ -3214,8 +3214,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.4358850205504,
-          44.353439673356796
+          10.580445305350397,
+          44.23297259431679
         ]
       },
       "properties": {
@@ -3224,8 +3224,8 @@
         "tags": [],
         "notes": [],
         "inkscape_coordinates": [
-          1024.7300126,
-          813.9469108
+          1032.9887125999999,
+          820.8291707999999
         ],
         "wiki": {
           "title": null,
@@ -5332,818 +5332,6 @@
         "inkscape_coordinates": [
           798.6612426,
           823.6181808
-        ],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.4595995571904,
-          62.994999077516795
-        ]
-      },
-      "properties": {
-        "name": "Kraka Drang",
-        "hold_type": "",
-        "tags": [],
-        "notes": [],
-        "inkscape_coordinates": [
-          854.6954226,
-          -251.0416292
-        ],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.365295299270401,
-          64.3907344298368
-        ]
-      },
-      "properties": {
-        "name": "Kazad Grontunt",
-        "hold_type": "",
-        "tags": [],
-        "notes": [],
-        "inkscape_coordinates": [
-          677.9184426,
-          -330.7797092
-        ],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.031014234630401,
-          64.6037444567168
-        ]
-      },
-      "properties": {
-        "name": "Khazid Skovekarag",
-        "hold_type": "",
-        "tags": [],
-        "notes": [],
-        "inkscape_coordinates": [
-          658.8210326000001,
-          -342.9489292
-        ],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.906076535750401,
-          62.499210355276794
-        ]
-      },
-      "properties": {
-        "name": "Grung Drekaz",
-        "hold_type": "",
-        "tags": [],
-        "notes": [],
-        "inkscape_coordinates": [
-          880.2025626000001,
-          -222.7173192
-        ],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.0899709725504,
-          43.9662245872768
-        ]
-      },
-      "properties": {
-        "name": "Kazad Urkbavak",
-        "hold_type": "",
-        "tags": [],
-        "notes": [],
-        "inkscape_coordinates": [
-          1004.9680126000001,
-          836.0684308
-        ],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          0.6763358762304005,
-          40.5518444608768
-        ]
-      },
-      "properties": {
-        "name": "Grung Bryn",
-        "hold_type": "",
-        "tags": [],
-        "notes": [],
-        "inkscape_coordinates": [
-          467.1689326,
-          1031.1312808
-        ],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          8.947254714950402,
-          45.620062020876794
-        ]
-      },
-      "properties": {
-        "name": "Grung Gundrikson",
-        "hold_type": "",
-        "tags": [],
-        "notes": [],
-        "inkscape_coordinates": [
-          939.6848626000001,
-          741.5850307999999
-        ],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.088176872390401,
-          42.327772644556795
-        ]
-      },
-      "properties": {
-        "name": "Khazid Azkorn",
-        "hold_type": "",
-        "tags": [],
-        "notes": [],
-        "inkscape_coordinates": [
-          662.0867226,
-          929.6728608
-        ],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          3.025238245510401,
-          41.8230913651968
-        ]
-      },
-      "properties": {
-        "name": "Khazid Bamkin",
-        "hold_type": "",
-        "tags": [],
-        "notes": [],
-        "inkscape_coordinates": [
-          601.3612526000001,
-          958.5052007999999
-        ],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.237854976710402,
-          42.5814962752768
-        ]
-      },
-      "properties": {
-        "name": "Grung Dramk",
-        "hold_type": "",
-        "tags": [],
-        "notes": [],
-        "inkscape_coordinates": [
-          670.6378026000001,
-          915.1776808
-        ],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          3.8256874135104018,
-          41.6876767453568
-        ]
-      },
-      "properties": {
-        "name": "Kazad Dron",
-        "hold_type": "",
-        "tags": [],
-        "notes": [],
-        "inkscape_coordinates": [
-          647.0907526000001,
-          966.2414107999999
-        ],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          3.8704334138304017,
-          41.731560673676796
-        ]
-      },
-      "properties": {
-        "name": "Khazid Ralsten",
-        "hold_type": "",
-        "tags": [],
-        "notes": [],
-        "inkscape_coordinates": [
-          649.6470826000001,
-          963.7343308
-        ],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          3.270062492550401,
-          41.86337489575679
-        ]
-      },
-      "properties": {
-        "name": "Grung Mezik",
-        "hold_type": "",
-        "tags": [],
-        "notes": [],
-        "inkscape_coordinates": [
-          615.3480126000001,
-          956.2038107999999
-        ],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          3.773197818630401,
-          42.12824262311679
-        ]
-      },
-      "properties": {
-        "name": "Grung Rhyn",
-        "hold_type": "",
-        "tags": [],
-        "notes": [],
-        "inkscape_coordinates": [
-          644.0920326,
-          941.0719707999999
-        ],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          3.764593202310401,
-          42.01379674503679
-        ]
-      },
-      "properties": {
-        "name": "Grung Krant",
-        "hold_type": "",
-        "tags": [],
-        "notes": [],
-        "inkscape_coordinates": [
-          643.6004526,
-          947.6102407999999
-        ],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          3.691453263430402,
-          41.9518436125568
-        ]
-      },
-      "properties": {
-        "name": "Grung Skrim",
-        "hold_type": "",
-        "tags": [],
-        "notes": [],
-        "inkscape_coordinates": [
-          639.4219826000001,
-          951.1496107999999
-        ],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          3.6260569191104017,
-          41.90365632583679
-        ]
-      },
-      "properties": {
-        "name": "Grung Rient",
-        "hold_type": "",
-        "tags": [],
-        "notes": [],
-        "inkscape_coordinates": [
-          635.6859026000001,
-          953.9025408
-        ],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.0046663386304004,
-          41.9845428349568
-        ]
-      },
-      "properties": {
-        "name": "Grung Zan",
-        "hold_type": "",
-        "tags": [],
-        "notes": [],
-        "inkscape_coordinates": [
-          657.3157826,
-          949.2815108
-        ],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.0674817181504,
-          42.1153346483968
-        ]
-      },
-      "properties": {
-        "name": "Grung Rhuk",
-        "hold_type": "",
-        "tags": [],
-        "notes": [],
-        "inkscape_coordinates": [
-          660.9044126,
-          941.8094007999999
-        ],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          3.2247864711104004,
-          41.803896128716794
-        ]
-      },
-      "properties": {
-        "name": "Grung Ont",
-        "hold_type": "",
-        "tags": [],
-        "notes": [],
-        "inkscape_coordinates": [
-          612.7614026,
-          959.6018207999999
-        ],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          3.079974653830401,
-          41.9913002541568
-        ]
-      },
-      "properties": {
-        "name": "Kazad Hraban",
-        "hold_type": "",
-        "tags": [],
-        "notes": [],
-        "inkscape_coordinates": [
-          604.4883326,
-          948.8954607999999
-        ],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.250067517510401,
-          42.7393944330368
-        ]
-      },
-      "properties": {
-        "name": "Kazad Zorn",
-        "hold_type": "",
-        "tags": [],
-        "notes": [],
-        "inkscape_coordinates": [
-          671.3355026,
-          906.1569907999999
-        ],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          3.8955313491904002,
-          42.2783919351168
-        ]
-      },
-      "properties": {
-        "name": "Grung Ratik",
-        "hold_type": "",
-        "tags": [],
-        "notes": [],
-        "inkscape_coordinates": [
-          651.0809226,
-          932.4939707999999
-        ],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          3.742345618310402,
-          42.32777474503679
-        ]
-      },
-      "properties": {
-        "name": "Khazid Theng",
-        "hold_type": "",
-        "tags": [],
-        "notes": [],
-        "inkscape_coordinates": [
-          642.3294526000001,
-          929.6727407999999
-        ],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          3.591637578630402,
-          42.5395491645568
-        ]
-      },
-      "properties": {
-        "name": "Kazad Ruvalkbar",
-        "hold_type": "",
-        "tags": [],
-        "notes": [],
-        "inkscape_coordinates": [
-          633.7195326000001,
-          917.5741108
-        ],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          3.7714777005504017,
-          42.196221157516796
-        ]
-      },
-      "properties": {
-        "name": "Khazid Nauk",
-        "hold_type": "",
-        "tags": [],
-        "notes": [],
-        "inkscape_coordinates": [
-          643.9937626000001,
-          937.1883707999999
-        ],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          7.6689060877504,
-          47.133919791436796
-        ]
-      },
-      "properties": {
-        "name": "Khazid Aldum",
-        "hold_type": "",
-        "tags": [],
-        "notes": [],
-        "inkscape_coordinates": [
-          866.6530626,
-          655.0986408
-        ],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          0.29557311463040037,
-          47.7509368416768
-        ]
-      },
-      "properties": {
-        "name": "Karak Gnol",
-        "hold_type": "Karak (Great Hold)",
-        "tags": [
-          "source:Vermintide2"
-        ],
-        "notes": [],
-        "inkscape_coordinates": [
-          445.4160326,
-          619.8485807999999
-        ],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -0.0403650536895992,
-          48.1780199133568
-        ]
-      },
-      "properties": {
-        "name": "Khazid Kro",
-        "hold_type": "Khazid (Town)",
-        "tags": [
-          "source:Vermintide2"
-        ],
-        "notes": [],
-        "inkscape_coordinates": [
-          426.2239526,
-          595.4494107999999
-        ],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -0.1236980968895995,
-          48.60119696743679
-        ]
-      },
-      "properties": {
-        "name": "Migdhal Agril",
-        "hold_type": "Kazad (Fortress)",
-        "tags": [
-          "source:4eStartSet"
-        ],
-        "notes": [],
-        "inkscape_coordinates": [
-          421.4631526,
-          571.2733907999999
-        ],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.9537507490495996,
-          38.67267978567679
-        ]
-      },
-      "properties": {
-        "name": "Zarakzil",
-        "hold_type": "",
-        "tags": [],
-        "notes": [],
-        "inkscape_coordinates": [
-          316.9126126,
-          1138.4875808000002
         ],
         "wiki": {
           "title": null,
