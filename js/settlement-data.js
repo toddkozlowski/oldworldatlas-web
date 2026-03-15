@@ -15,6 +15,7 @@ const SOURCE_TAG_MAP = {
     '4eDotRC': 'WFRP4e Death on the Reik Companion',
     'NCC': 'WFB Nemesis Crown Campaign',
     'AmbChron': 'The Ambassor Chronicles (Black Library)',
+    'G&T': 'Gotrek & Felix (Black Library)',
     'G&FT': 'Gotrek & Felix (Black Library)',
     'TOW': 'Warhammer: The Old World',
     '1eMSDtR': 'WFRP1e Marienburg: Sold Down the River',

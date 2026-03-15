@@ -18,6 +18,7 @@ async function initializeApp() {
             'data/westerland_settlements.geojson',
             'data/bretonnia_settlements.geojson',
             'data/kislev_settlements.geojson',
+            'data/tilea_settlements.geojson',
         ]);
         console.log(`Loaded ${features.length} settlements`);
 
