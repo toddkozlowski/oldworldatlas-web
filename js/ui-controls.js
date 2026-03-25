@@ -151,6 +151,7 @@ class UIControls {
         const handleToggle = (e) => {
             const enabled = e.target.checked;
             settlementData.setPublishedCanonOnly(enabled);
+            dwarfSettlementData.setPublishedCanonOnly(enabled);
             
             // Update both checkboxes to stay in sync
             if (desktopCheckbox) desktopCheckbox.checked = enabled;
@@ -168,6 +169,20 @@ class UIControls {
             if (markerLayer) {
                 markerLayer.getSource().clear();
                 markerLayer.getSource().addFeatures(olFeatures);
+            }
+
+            // Reload dwarf settlement features with new filter
+            const olDwarfFeatures = dwarfSettlementData.getOLFeatures();
+            const dwarfLayer = mapManager.getDwarfSettlementLayer();
+            const dwarfMarkerLayer = mapManager.getDwarfSettlementMarkersOnlyLayer();
+
+            if (dwarfLayer) {
+                dwarfLayer.getSource().clear();
+                dwarfLayer.getSource().addFeatures(olDwarfFeatures);
+            }
+            if (dwarfMarkerLayer) {
+                dwarfMarkerLayer.getSource().clear();
+                dwarfMarkerLayer.getSource().addFeatures(olDwarfFeatures);
             }
         };
         
@@ -449,7 +464,7 @@ class UIControls {
             
             // Add source field at bottom as footnote if present
             if (sourceTag) {
-                const fullSourceName = settlementData.getFullSourceName(sourceTag);
+                const fullSourceName = dwarfSettlementData.getFullSourceName(sourceTag);
                 html += `<div class="settlement-popup-source">Source: ${this.escapeHtml(fullSourceName)}</div>`;
             }
             

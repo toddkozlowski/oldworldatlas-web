@@ -2,11 +2,52 @@
  * Dwarf settlement (Karaz Ankor) data management for Old World Atlas
  */
 
+// Source tag mapping
+const DWARF_SOURCE_TAG_MAP = {
+    '4eLoSaS': 'WFRP4e Lords of Stone and Steel',
+    'TWW': 'Total War: Warhammer',
+    'TWW1': 'Total War: Warhammer 1',
+    'TWW2': 'Total War: Warhammer 2',
+    'TWW3': 'Total War: Warhammer 3',
+    '1eDSaS': 'WFRP1e Dwarfs: Stone and Steel',
+    '2eKAAotDC': 'WFRP2e Karaz Azgal: Adventures of the Dragon Crag',
+    '4eTHRC': 'WFRP4e The Horned Rat Companion',
+    '4eMCotWW': 'WFRP4e Middenheim: City of the White Wolf',
+    '4eStarter': 'WFRP4e Starter Set',
+    '4eStartSet': 'WFRP4e Starter Set',
+    'Vermintide': 'Warhammer: Vermintide',
+    'Vermintide2': 'Warhammer: Vermintide 2',
+    'TOW': 'Warhammer: The Old World',
+};
+
+// Published canon sources for dwarf settlements.
+// Any settlement whose source tag is not in this set is treated as non-canon
+// when the "Published Canon Only" filter is active.
+// Canon = published tabletop RPG supplements and official miniatures games.
+// Non-canon = video game entries (TWW*, Vermintide*) and unsourced entries.
+const DWARF_CANON_SOURCES = new Set([
+    '4eLoSaS',    // WFRP4e Lords of Stone and Steel
+    '1eDSaS',     // WFRP1e Dwarfs: Stone and Steel
+    '2eKAAotDC',  // WFRP2e Karaz Azgal: Adventures of the Dragon Crag
+    '4eTHRC',     // WFRP4e The Horned Rat Companion
+    '4eMCotWW',   // WFRP4e Middenheim: City of the White Wolf
+    '4eStarter',  // WFRP4e Starter Set
+    '4eStartSet', // WFRP4e Starter Set (alternate tag)
+    'TOW',        // Warhammer: The Old World
+    'TWW',        // Total War: Warhammer (general tag for all TWW games)
+    'TWW1',       // Total War: Warhammer 1
+    'TWW2',       // Total War: Warhammer 2
+    'TWW3',       // Total War: Warhammer 3
+    'Vermintide',   // Warhammer: Vermintide
+    'Vermintide2',  // Warhammer: Vermintide 2
+]);
+
 class DwarfSettlementDataManager {
     constructor() {
         this.rawFeatures = [];
         this.filteredFeatures = [];
         this.settlementMap = new Map(); // For quick lookup by name
+        this.publishedCanonOnly = false;
     }
 
     /**
@@ -68,6 +109,14 @@ class DwarfSettlementDataManager {
             return false;
         }
 
+        // Check Published Canon Only filter
+        if (this.publishedCanonOnly) {
+            const source = this.getSourceFromTags(props.tags);
+            if (!source || !DWARF_CANON_SOURCES.has(source)) {
+                return false;
+            }
+        }
+
         return true;
     }
 
@@ -114,6 +163,34 @@ class DwarfSettlementDataManager {
             }
         }
         return null;
+    }
+
+    /**
+     * Get full source name from shorthand
+     * @param {string} sourceShorthand - Source shorthand
+     * @returns {string} - Full source name or original if not found
+     */
+    getFullSourceName(sourceShorthand) {
+        return DWARF_SOURCE_TAG_MAP[sourceShorthand] || sourceShorthand;
+    }
+
+    /**
+     * Set Published Canon Only filter state
+     * @param {boolean} enabled
+     */
+    setPublishedCanonOnly(enabled) {
+        if (this.publishedCanonOnly !== enabled) {
+            this.publishedCanonOnly = enabled;
+            this.filterAndIndexSettlements();
+        }
+    }
+
+    /**
+     * Get Published Canon Only filter state
+     * @returns {boolean}
+     */
+    getPublishedCanonOnly() {
+        return this.publishedCanonOnly;
     }
 
     /**
