@@ -213,7 +213,7 @@ class MapManager {
         } else {
             // Legacy single-layer implementation
             const getLegacyTileUrl = function(tileCoord) {
-                return ('https://raw.githubusercontent.com/toddkozlowski/oldworldatlas-repository/main/test_tiles/{z}/{x}/{y}.png?v=' + TILE_VERSION)
+                return ('https://raw.githubusercontent.com/toddkozlowski/oldworldatlas-repository/main/map_tiles/{z}/{x}/{y}.png?v=' + TILE_VERSION)
                     .replace('{z}', String(tileCoord[0]))
                     .replace('{x}', String(tileCoord[1]))
                     .replace('{y}', String(-1 - tileCoord[2]));
