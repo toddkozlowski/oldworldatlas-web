@@ -246,6 +246,47 @@ function shouldShowDot(config, currentResolution) {
            currentResolution >= config.maxZoomLevel;
 }
 
+/**
+ * Get settlement label declutter priority across human, dwarf, and wood elf layers.
+ * Higher values are less likely to be hidden by decluttering.
+ *
+ * Priority mapping:
+ * 5: Tier 5+ settlements
+ * 4: Tier 4 settlements
+ * 3: Tier 3 settlements, Karaks, Wood Elf settlements
+ * 2: Tier 2 settlements, Kazads, Khazids (and other non-Karak dwarf holds)
+ * 1: Tier 1 settlements
+ *
+ * @param {OL.Feature} feature - OpenLayers feature
+ * @returns {number} Priority value for decluttering
+ */
+function getSettlementDeclutterPriority(feature) {
+    const featureType = feature.get('featureType');
+
+    if (featureType === 'dwarf') {
+        const dwarfType = feature.get('dwarfType');
+        if (dwarfType === 'Karak') {
+            return 3;
+        }
+        if (dwarfType === 'Kazad' || dwarfType === 'Khazid') {
+            return 2;
+        }
+        // Grung and any unknown dwarf types default to the Tier 2 grouping.
+        return 2;
+    }
+
+    if (featureType === 'woodelf') {
+        return 3;
+    }
+
+    const sizeCategory = parseInt(feature.get('sizeCategory'), 10);
+    if (sizeCategory >= 5) return 5;
+    if (sizeCategory === 4) return 4;
+    if (sizeCategory === 3) return 3;
+    if (sizeCategory === 2) return 2;
+    return 1;
+}
+
 
 /**
  * Create an OpenLayers Style object for a POI
@@ -408,7 +449,7 @@ function createSettlementStyle(feature, currentResolution) {
     // Highlighted features get maximum zIndex
     const style = new ol.style.Style({
         image: imageStyle,
-        zIndex: isHighlighted ? 9999 : (config.zIndex || sizeCategory)
+        zIndex: isHighlighted ? 9999 : getSettlementDeclutterPriority(feature)
     });
     
     // Add text if visible (feature-specific, so not cached)
@@ -655,7 +696,7 @@ function createDwarfSettlementStyle(feature, currentResolution) {
     // Highlighted features get maximum zIndex
     const style = new ol.style.Style({
         image: imageStyle,
-        zIndex: isHighlighted ? 9999 : (config.zIndex || 2)
+        zIndex: isHighlighted ? 9999 : getSettlementDeclutterPriority(feature)
     });
     
     // Add text if visible (feature-specific, so not cached)
@@ -742,7 +783,7 @@ function createWoodElfSettlementStyle(feature, currentResolution) {
 
     const style = new ol.style.Style({
         image: imageStyle,
-        zIndex: isHighlighted ? 9999 : (config.zIndex || 3)
+        zIndex: isHighlighted ? 9999 : getSettlementDeclutterPriority(feature)
     });
 
     if (showLabel) {
@@ -760,6 +801,27 @@ function createWoodElfSettlementStyle(feature, currentResolution) {
     }
 
     return style;
+}
+
+/**
+ * Create label style for any settlement feature in the combined settlement layer.
+ * Routes to the appropriate settlement style function by feature type.
+ * @param {OL.Feature} feature - OpenLayers feature
+ * @param {number} currentResolution - Current map resolution
+ * @returns {OL.style.Style}
+ */
+function createUnifiedSettlementStyle(feature, currentResolution) {
+    const featureType = feature.get('featureType');
+
+    if (featureType === 'dwarf') {
+        return createDwarfSettlementStyle(feature, currentResolution);
+    }
+
+    if (featureType === 'woodelf') {
+        return createWoodElfSettlementStyle(feature, currentResolution);
+    }
+
+    return createSettlementStyle(feature, currentResolution);
 }
 
 /**

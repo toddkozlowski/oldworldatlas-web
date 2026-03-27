@@ -159,12 +159,12 @@ class UIControls {
             
             // Reload settlement features with new filter
             const olFeatures = settlementData.getOLFeatures();
-            const layer = mapManager.getSettlementLayer();
+            const settlementSource = mapManager.getSettlementSource();
             const markerLayer = mapManager.getSettlementMarkersOnlyLayer();
             
-            if (layer) {
-                layer.getSource().clear();
-                layer.getSource().addFeatures(olFeatures);
+            if (settlementSource) {
+                settlementSource.clear();
+                settlementSource.addFeatures(olFeatures);
             }
             if (markerLayer) {
                 markerLayer.getSource().clear();
@@ -173,17 +173,20 @@ class UIControls {
 
             // Reload dwarf settlement features with new filter
             const olDwarfFeatures = dwarfSettlementData.getOLFeatures();
-            const dwarfLayer = mapManager.getDwarfSettlementLayer();
+            const dwarfSource = mapManager.getDwarfSettlementSource();
             const dwarfMarkerLayer = mapManager.getDwarfSettlementMarkersOnlyLayer();
 
-            if (dwarfLayer) {
-                dwarfLayer.getSource().clear();
-                dwarfLayer.getSource().addFeatures(olDwarfFeatures);
+            if (dwarfSource) {
+                dwarfSource.clear();
+                dwarfSource.addFeatures(olDwarfFeatures);
             }
             if (dwarfMarkerLayer) {
                 dwarfMarkerLayer.getSource().clear();
                 dwarfMarkerLayer.getSource().addFeatures(olDwarfFeatures);
             }
+
+            // Rebuild the combined decluttered settlement label source.
+            mapManager.refreshCombinedSettlementLabels();
         };
         
         if (desktopCheckbox) {

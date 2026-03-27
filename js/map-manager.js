@@ -9,6 +9,7 @@ class MapManager {
         this.gridVectorLayer = null;  // Grid overlay layer
         this.gridSource = null;
         this.settlementVectorLayer = null;
+        this.allSettlementLabelsSource = null;  // Combined labels source for cross-type declutter priority
         this.settlementSource = null;
         this.settlementMarkersOnlyLayer = null;  // Marker-only layer (no declutter)
         this.settlementMarkersOnlySource = null;
@@ -61,6 +62,7 @@ class MapManager {
         });
 
         this.gridSource = new ol.source.Vector();  // Grid overlay
+        this.allSettlementLabelsSource = new ol.source.Vector();  // Combined labels for all settlement types
         this.settlementSource = new ol.source.Vector();
         this.settlementMarkersOnlySource = new ol.source.Vector();  // Markers only (no labels)
         this.dwarfSettlementSource = new ol.source.Vector();  // Dwarf settlements
@@ -264,12 +266,12 @@ class MapManager {
     createSettlementLayer() {
         return new ol.layer.Vector({
             title: 'Settlements (Size 3+)',
-            source: this.settlementSource,
-            declutter: true,               // Enable label decluttering to prevent overlaps
+            source: this.allSettlementLabelsSource,
+            declutter: 'settlement-labels', // Shared declutter group for all settlement labels
             updateWhileAnimating: false,  // Performance: don't update during animation
             updateWhileInteracting: false, // Performance: don't update while panning/zooming
             renderBuffer: 100,             // Render features slightly outside viewport
-            style: (feature) => createSettlementStyle(feature, this.map.getView().getResolution())
+            style: (feature) => createUnifiedSettlementStyle(feature, this.map.getView().getResolution())
         });
     }
 
@@ -282,7 +284,8 @@ class MapManager {
         return new ol.layer.Vector({
             title: 'Dwarf Settlements',
             source: this.dwarfSettlementSource,
-            declutter: true,               // Enable label decluttering to prevent overlaps
+            declutter: 'settlement-labels', // Shared declutter group for all settlement labels
+            visible: false,                // Rendering handled by combined settlement label layer
             updateWhileAnimating: false,  // Performance: don't update during animation
             updateWhileInteracting: false, // Performance: don't update while panning/zooming
             renderBuffer: 100,             // Render features slightly outside viewport
@@ -315,7 +318,8 @@ class MapManager {
         return new ol.layer.Vector({
             title: 'Wood Elf Settlements',
             source: this.woodElfSettlementSource,
-            declutter: true,
+            declutter: 'settlement-labels',
+            visible: false,               // Rendering handled by combined settlement label layer
             updateWhileAnimating: false,
             updateWhileInteracting: false,
             renderBuffer: 100,
@@ -348,7 +352,7 @@ class MapManager {
         return new ol.layer.Vector({
             title: 'Points of Interest',
             source: this.poiSource,
-            declutter: true,               // Enable label decluttering to prevent POI label overlaps
+            declutter: 'poi-labels',       // Keep POI decluttering separate from settlement labels
             updateWhileAnimating: false,  // Performance: don't update during animation
             updateWhileInteracting: false, // Performance: don't update while panning/zooming
             renderBuffer: 100,             // Render features slightly outside viewport
@@ -409,6 +413,7 @@ class MapManager {
         this.settlementSource.addFeatures(features);
         // Also add to marker-only layer for always-visible markers
         this.settlementMarkersOnlySource.addFeatures(features);
+        this.refreshCombinedSettlementLabels();
     }
 
     /**
@@ -419,6 +424,7 @@ class MapManager {
         this.dwarfSettlementSource.addFeatures(features);
         // Also add to marker-only layer for always-visible markers
         this.dwarfSettlementMarkersOnlySource.addFeatures(features);
+        this.refreshCombinedSettlementLabels();
     }
 
     /**
@@ -429,6 +435,21 @@ class MapManager {
         this.woodElfSettlementSource.addFeatures(features);
         // Also add to marker-only layer for always-visible markers
         this.woodElfSettlementMarkersOnlySource.addFeatures(features);
+        this.refreshCombinedSettlementLabels();
+    }
+
+    /**
+     * Rebuild combined settlement label source from human, dwarf, and wood elf sources
+     */
+    refreshCombinedSettlementLabels() {
+        if (!this.allSettlementLabelsSource) {
+            return;
+        }
+
+        this.allSettlementLabelsSource.clear();
+        this.allSettlementLabelsSource.addFeatures(this.settlementSource.getFeatures());
+        this.allSettlementLabelsSource.addFeatures(this.dwarfSettlementSource.getFeatures());
+        this.allSettlementLabelsSource.addFeatures(this.woodElfSettlementSource.getFeatures());
     }
 
     /**
@@ -461,10 +482,13 @@ class MapManager {
     setupEventListeners() {
         // Update styles on zoom change
         this.map.getView().on('change:resolution', () => {
+            this.allSettlementLabelsSource.changed();
             this.settlementSource.changed();
             this.settlementMarkersOnlySource.changed();
             this.dwarfSettlementSource.changed();
             this.dwarfSettlementMarkersOnlySource.changed();
+            this.woodElfSettlementSource.changed();
+            this.woodElfSettlementMarkersOnlySource.changed();
             this.provinceSource.changed();
             this.waterSource.changed();
         });
