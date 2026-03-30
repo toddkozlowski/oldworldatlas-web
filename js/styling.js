@@ -87,6 +87,37 @@ function formatLabelText(name) {
 }
 
 /**
+ * Format a POI label name for map display.
+ * If the name contains a parenthetical, handles it like formatLabelText.
+ * If the name has 5 or more words, inserts a line break after the middle word
+ * (rounded up), so a 5-word label would have 3 words on top and 2 on bottom.
+ * @param {string} name - Raw feature name
+ * @returns {string} Display-ready label text
+ */
+function formatPOILabelText(name) {
+    if (!name) return name;
+    
+    // First, handle parentheticals
+    if (/\(/.test(name)) {
+        return formatLabelText(name);
+    }
+    
+    // Split by spaces to count words
+    const words = name.split(/\s+/);
+    
+    // If 5 or more words, break after the middle word (rounded up)
+    if (words.length >= 5) {
+        const breakPoint = Math.ceil(words.length / 2);
+        const firstLine = words.slice(0, breakPoint).join(' ');
+        const secondLine = words.slice(breakPoint).join(' ');
+        return firstLine + '\n' + secondLine;
+    }
+    
+    // For fewer than 5 words, return as-is
+    return name;
+}
+
+/**
  * Format a water label name for map display.
  * If the name contains a parenthetical, delegates to formatLabelText.
  * Otherwise, if the name has 11+ non-space characters, inserts a line break
@@ -351,19 +382,25 @@ function createPOIStyle(feature, currentResolution) {
     }
     
     // Create style with feature-specific text (not cached)
-    // POI z-index set to 50 to render above settlements but below measurements
+    // POI z-index set to 2.5 to render below Tier 3 settlements (priority 3)
+    // but above Tier 2 settlements (priority 2) in the decluttering hierarchy
     // Highlighted POIs get z-index 9999 to appear above everything except measurements
     const style = new ol.style.Style({
         image: imageStyle,
-        zIndex: isHighlighted ? 9999 : 50
+        zIndex: isHighlighted ? 9999 : 2.5
     });
     
     // Add text if visible (feature-specific, so not cached)
     if (showLabel) {
         const fontConfig = isHighlighted ? 'bold ' + config.textFont : config.textFont;
+            const poiLabelText = formatPOILabelText(feature.get('name'));
+            const multilineOffsetY = poiLabelText.includes('\n')
+                ? config.textOffsetY - Math.max(3, Math.round(fontSize * 0.35))
+                : config.textOffsetY;
+
         style.setText(new ol.style.Text({
-            text: formatLabelText(feature.get('name')),
-            offsetY: config.textOffsetY,
+                text: poiLabelText,
+                offsetY: multilineOffsetY,
             font: constructFontString(fontConfig, fontSize),
             fill: new ol.style.Fill({ color: isHighlighted ? '#d32f2f' : config.textFillColor }),
             stroke: new ol.style.Stroke({ 
@@ -812,6 +849,14 @@ function createWoodElfSettlementStyle(feature, currentResolution) {
  */
 function createUnifiedSettlementStyle(feature, currentResolution) {
     const featureType = feature.get('featureType');
+
+    if (featureType === 'poi') {
+        const poiLayerVisible = typeof mapManager !== 'undefined'
+            ? mapManager.getPOILayer()?.getVisible() !== false
+            : true;
+
+        return poiLayerVisible ? createPOIStyle(feature, currentResolution) : null;
+    }
 
     if (featureType === 'dwarf') {
         return createDwarfSettlementStyle(feature, currentResolution);

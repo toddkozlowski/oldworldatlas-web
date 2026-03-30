@@ -116,9 +116,12 @@ class MapManager {
         this.woodElfSettlementMarkersOnlyLayer = this.map.getLayers().item(8);
         this.woodElfSettlementVectorLayer = this.map.getLayers().item(9);
         this.poiVectorLayer = this.map.getLayers().item(10);
-        
-        // POI layer starts hidden (unchecked)
-        this.poiVectorLayer.setVisible(false);
+
+        const desktopPOICheckbox = document.getElementById('poi-checkbox');
+        const mobilePOICheckbox = document.getElementById('mobile-poi-checkbox');
+        const isPOIVisibleByDefault = desktopPOICheckbox?.checked ?? mobilePOICheckbox?.checked ?? false;
+
+        this.poiVectorLayer.setVisible(isPOIVisibleByDefault);
 
 
         return this.map;
@@ -352,11 +355,11 @@ class MapManager {
         return new ol.layer.Vector({
             title: 'Points of Interest',
             source: this.poiSource,
-            declutter: 'poi-labels',       // Keep POI decluttering separate from settlement labels
+            declutter: false,
             updateWhileAnimating: false,  // Performance: don't update during animation
             updateWhileInteracting: false, // Performance: don't update while panning/zooming
             renderBuffer: 100,             // Render features slightly outside viewport
-            style: (feature) => createPOIStyle(feature, this.map.getView().getResolution())
+            style: () => null
         });
     }
 
@@ -450,6 +453,7 @@ class MapManager {
         this.allSettlementLabelsSource.addFeatures(this.settlementSource.getFeatures());
         this.allSettlementLabelsSource.addFeatures(this.dwarfSettlementSource.getFeatures());
         this.allSettlementLabelsSource.addFeatures(this.woodElfSettlementSource.getFeatures());
+        this.allSettlementLabelsSource.addFeatures(this.poiSource.getFeatures());
     }
 
     /**
@@ -458,6 +462,7 @@ class MapManager {
      */
     addPOIFeatures(features) {
         this.poiSource.addFeatures(features);
+        this.refreshCombinedSettlementLabels();
     }
 
     /**
@@ -489,6 +494,7 @@ class MapManager {
             this.dwarfSettlementMarkersOnlySource.changed();
             this.woodElfSettlementSource.changed();
             this.woodElfSettlementMarkersOnlySource.changed();
+            this.poiSource.changed();
             this.provinceSource.changed();
             this.waterSource.changed();
         });

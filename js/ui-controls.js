@@ -58,8 +58,12 @@ class UIControls {
         if (this.poiCheckbox) {
             this.poiCheckbox.addEventListener('change', (e) => {
                 const layer = mapManager.getPOILayer();
+                const settlementLayer = mapManager.getSettlementLayer();
                 if (layer) {
                     layer.setVisible(e.target.checked);
+                }
+                if (settlementLayer) {
+                    settlementLayer.changed();
                 }
             });
         }
