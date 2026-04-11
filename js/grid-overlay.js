@@ -13,7 +13,7 @@ class GridOverlay {
         this.gridUnit = 'miles'; // 'miles' or 'kilometers'
         
         // Map extent from the base map tiles
-        this.mapExtent = [-19.045, 31.949, 18.457, 69.451]; // [minX, minY, maxX, maxY]
+        this.mapExtent = getImageExtent();
         
         // Conversion factors: map units to distance
         // From measurement-tool.js: length * 100 * 83.5 = miles

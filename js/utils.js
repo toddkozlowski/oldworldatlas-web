@@ -2,8 +2,48 @@
  * Utility functions for the Old World Atlas
  */
 
-// Image bounds from tilemapresource.xml
-const IMAGE_BOUNDS = [-19.045, 31.949, 18.457, 69.451];
+// Shared base map configuration for the current tile set.
+const IMAGE_BOUNDS = [-25, 30, 25, 69.5];
+const MAP_TILE_DIRECTORY = 'map_tiles';
+const MAP_TILE_VERSION = '12';
+const MAP_VIEW_BUFFER_FACTOR = 0.5;
+const MAP_TILE_SCALE_ADJUSTMENT = 0.96335;
+const MAP_TILE_BASE_PIXELS = 250;
+const MAP_TILE_ZOOM_LEVELS = 10;
+
+function getImageExtent() {
+    return [...IMAGE_BOUNDS];
+}
+
+function getImageCenter() {
+    return [
+        (IMAGE_BOUNDS[0] + IMAGE_BOUNDS[2]) / 2,
+        (IMAGE_BOUNDS[1] + IMAGE_BOUNDS[3]) / 2
+    ];
+}
+
+function getBufferedImageBounds(bufferFactor = MAP_VIEW_BUFFER_FACTOR) {
+    const width = IMAGE_BOUNDS[2] - IMAGE_BOUNDS[0];
+    const height = IMAGE_BOUNDS[3] - IMAGE_BOUNDS[1];
+    const horizontalBuffer = width * bufferFactor;
+    const verticalBuffer = height * bufferFactor;
+
+    return [
+        IMAGE_BOUNDS[0] - horizontalBuffer,
+        IMAGE_BOUNDS[1] - verticalBuffer,
+        IMAGE_BOUNDS[2] + horizontalBuffer,
+        IMAGE_BOUNDS[3] + verticalBuffer
+    ];
+}
+
+function getTileResolutions(levelCount = MAP_TILE_ZOOM_LEVELS) {
+    const width = IMAGE_BOUNDS[2] - IMAGE_BOUNDS[0];
+    const height = IMAGE_BOUNDS[3] - IMAGE_BOUNDS[1];
+    const baseSpan = Math.max(width, height);
+    const baseResolution = (baseSpan / MAP_TILE_BASE_PIXELS) * MAP_TILE_SCALE_ADJUSTMENT;
+
+    return Array.from({ length: levelCount }, (_, index) => baseResolution / (2 ** index));
+}
 
 /**
  * Check if a coordinate is within the image bounds
