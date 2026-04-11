@@ -1,109 +1,2188 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Atlas of the Old World | Under Construction</title>
-    <meta name="description" content="Atlas update in progress.">
-    <style>
-        :root {
-            --bg0: #101820;
-            --bg1: #1e2f3f;
-            --accent: #d9b26b;
-            --text: #f2efe9;
-            --muted: #d2dbe3;
-            --panel: rgba(8, 12, 18, 0.55);
+    <title>Atlas of the Old World</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta http-equiv='imagetoolbar' content='no'/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    
+    <!-- Open Graph Protocol meta tags -->
+    <meta property="og:title" content="Atlas of the Old World" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://toddkozlowski.github.io/oldworldatlas-web/" />
+    <meta property="og:image" content="https://toddkozlowski.github.io/oldworldatlas-web/images/page_preview.png" />
+    <meta property="og:description" content="An interactive fan-made map of the Old World." />
+    <meta property="og:site_name" content="Atlas of the Old World" />
+    
+    <!-- Twitter Card meta tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Atlas of the Old World" />
+    <meta name="twitter:description" content="An interactive fan-made map of the Old World." />
+    <meta name="twitter:image" content="https://toddkozlowski.github.io/oldworldatlas-web/images/page_preview.png" />
+    
+    <link rel="icon" type="image/x-icon" href="images/favicon/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="images/favicon/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="images/favicon/android-chrome-512x512.png">
+    <style type="text/css">
+        v\:* { behavior: url(#default#VML); }
+        html, body { 
+            overflow: hidden; 
+            padding: 0; 
+            height: 100%; 
+            width: 100%; 
+            font-family: 'Lucida Grande', Geneva, Arial, Verdana, sans-serif; 
+        }
+        body { margin: 0; background: #262626; }
+        #header { display: none; }
+        #subheader { display: none; }
+        #map { height: 100%; border: none; }
+        #mouse-position { 
+            position: absolute; 
+            bottom: 10px; 
+            right: 10px; 
+            background: rgba(255, 255, 255, 0.8); 
+            padding: 5px; 
+            z-index: 10; 
+            font-size: 12px; 
+        }
+        
+        /* Attribution text */
+        #attribution {
+            position: absolute;
+            bottom: 10px;
+            left: 70px;
+            z-index: 10;
+            font-size: 14px;
+            color: rgba(255, 255, 255, 0.8);
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+            pointer-events: none;
+            font-family: 'Lucida Grande', Geneva, Arial, Verdana, sans-serif;
+            transition: left 0.3s ease;
+        }
+        
+        #attribution.shifted {
+            left: 310px;
+        }
+        
+        /* Scale control */
+        .scale-control {
+            position: absolute;
+            bottom: 40px;
+            right: 10px;
+            z-index: 10;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 8px 10px;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+            font-family: 'Lucida Grande', Geneva, Arial, Verdana, sans-serif;
+        }
+        
+        .scale-bar-container {
+            margin: 3px 0;
+            position: relative;
+        }
+        
+        .scale-bar {
+            height: 8px;
+            border: 1px solid #000;
+            display: flex;
+            position: relative;
+            background: #fff;
+        }
+        
+        .scale-segment {
+            height: 100%;
+            flex-shrink: 0;
+        }
+        
+        .scale-ticks {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+        }
+        
+        .scale-tick {
+            position: absolute;
+            top: -3px;
+            width: 1px;
+            height: 14px;
+            background: #000;
+            transform: translateX(-0.5px);
+        }
+        
+        .scale-label {
+            font-size: 13px;
+            color: #333;
+            margin-top: 2px;
+            text-align: right;
+            font-weight: 600;
+        }
+        
+        /* Title box */
+        .title-container { 
+            position: absolute; 
+            top: 10px; 
+            right: 10px; 
+            z-index: 10;
+            background: rgba(255, 255, 255, 0.8); 
+            padding: 10px 15px;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .title-container h1 { 
+            margin: 0; 
+            padding: 0; 
+            border: 0; 
+            font-size: 20pt; 
+            text-align: right;
+            line-height: 1.2;
+        }
+        
+        /* Make title wider on wider screens */
+        @media (min-width: 768px) {
+            .title-container h1 {
+                font-size: 24pt;
+                max-width: 400px;
+            }
+        }
+        
+        @media (min-width: 1024px) {
+            .title-container h1 {
+                font-size: 28pt;
+                max-width: 500px;
+            }
+        }
+        
+        .title-subheader { 
+            margin: 5px 0 0 0; 
+            padding: 0; 
+            font-size: 10px; 
+            color: #666; 
+            font-weight: normal;
+            text-align: right;
         }
 
-        * {
-            box-sizing: border-box;
+        /* About button */
+        .about-button {
+            margin-top: 10px;
+            padding: 6px 12px;
+            background: rgba(52, 73, 94, 0.9);
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 12px;
+            font-weight: 500;
+            transition: background 0.2s ease;
+            width: 100%;
+            text-align: center;
         }
 
-        html,
-        body {
-            margin: 0;
-            min-height: 100%;
+        .about-button:hover {
+            background: rgba(52, 73, 94, 1);
         }
-
-        body {
-            min-height: 100vh;
-            font-family: "Trebuchet MS", "Segoe UI", sans-serif;
-            color: var(--text);
-            background:
-                radial-gradient(circle at 20% 20%, rgba(217, 178, 107, 0.2), transparent 45%),
-                radial-gradient(circle at 80% 80%, rgba(109, 176, 218, 0.16), transparent 40%),
-                linear-gradient(135deg, var(--bg0), var(--bg1));
-            display: grid;
-            place-items: center;
-            padding: 24px;
+        
+        /* Changelog button with chevron */
+        .changelog-button {
+            margin-top: 10px;
+            padding: 6px 12px;
+            background: rgba(52, 73, 94, 0.9);
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 12px;
+            font-weight: 500;
+            transition: background 0.2s ease;
+            width: 100%;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
         }
-
-        .panel {
-            width: min(840px, 100%);
-            background: var(--panel);
-            border: 1px solid rgba(217, 178, 107, 0.35);
-            border-radius: 14px;
-            padding: clamp(24px, 4vw, 42px);
-            box-shadow: 0 18px 48px rgba(0, 0, 0, 0.35);
-            backdrop-filter: blur(3px);
+        
+        .changelog-button:hover {
+            background: rgba(52, 73, 94, 1);
         }
-
-        .tag {
+        
+        .changelog-button .chevron {
             display: inline-block;
-            border: 1px solid rgba(217, 178, 107, 0.7);
-            color: var(--accent);
-            padding: 5px 10px;
-            border-radius: 999px;
-            font-size: 0.8rem;
-            letter-spacing: 0.08em;
-            text-transform: uppercase;
+            width: 0;
+            height: 0;
+            border-left: 4px solid transparent;
+            border-right: 4px solid transparent;
+            border-top: 5px solid white;
+            transition: transform 0.3s ease;
         }
-
-        h1 {
-            margin: 12px 0 8px;
-            font-size: clamp(1.8rem, 4.5vw, 3.1rem);
-            line-height: 1.1;
+        
+        .changelog-button.active .chevron {
+            transform: rotate(180deg);
         }
-
-        p {
-            margin: 0;
-            max-width: 68ch;
-            color: var(--muted);
+        
+        /* Changelog dropdown panel */
+        .changelog-dropdown {
+            position: absolute;
+            top: 100%;
+            right: 0;
+            margin-top: 5px;
+            width: 100%;
+            max-height: 0;
+            overflow: hidden;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 4px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+            transition: max-height 0.3s ease, opacity 0.3s ease;
+            opacity: 0;
+            z-index: 15;
+        }
+        
+        .changelog-dropdown.active {
+            max-height: calc(100vh - 200px);
+            opacity: 1;
+        }
+        
+        .changelog-dropdown-body {
+            padding: 20px;
+            overflow-y: auto;
+            max-height: calc(100vh - 220px);
+        }
+        
+        .changelog-content {
             line-height: 1.6;
-            font-size: clamp(1rem, 2.2vw, 1.15rem);
+            color: #333;
+        }
+        
+        .changelog-content h1 {
+            margin: 0 0 20px 0;
+            font-size: 24px;
+            color: #34495e;
+            border: none;
+        }
+        
+        .changelog-content h2 {
+            margin: 25px 0 15px 0;
+            font-size: 18px;
+            color: #34495e;
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 8px;
+        }
+        
+        .changelog-content h3 {
+            margin: 20px 0 10px 0;
+            font-size: 16px;
+            color: #34495e;
+        }
+        
+        .changelog-content p {
+            margin: 0 0 15px 0;
+        }
+        
+        .changelog-content ul {
+            margin: 0 0 15px 0;
+            padding-left: 25px;
+        }
+        
+        .changelog-content li {
+            margin: 8px 0;
+        }
+        
+        .changelog-content em {
+            color: #666;
         }
 
-        .notice {
-            margin-top: 20px;
-            padding: 14px 16px;
-            border-left: 3px solid var(--accent);
-            background: rgba(16, 24, 32, 0.55);
+        /* Modal overlay */
+        #modal-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0);
+            z-index: 20000;
+            transition: background 0.3s ease;
+        }
+
+        #modal-overlay.active {
+            background: rgba(0, 0, 0, 0.7);
+        }
+
+        /* Modal dialog */
+        #about-modal {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) scale(0.9);
+            width: 60%;
+            max-height: 80%;
+            background: white;
             border-radius: 8px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+            z-index: 20001;
+            overflow: hidden;
+            opacity: 0;
+            transition: opacity 0.3s ease, transform 0.3s ease;
         }
 
-        .local-link {
-            margin-top: 18px;
-            font-size: 0.95rem;
-            color: #b8c8d4;
+        #about-modal.active {
+            opacity: 1;
+            transform: translate(-50%, -50%) scale(1);
         }
 
-        .local-link a {
-            color: #8ad8ff;
-            text-decoration-thickness: 2px;
+        /* Modal header */
+        .modal-header {
+            position: relative;
+            padding: 20px;
+            background: rgba(52, 73, 94, 0.05);
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        #about-modal-close {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            background: none;
+            border: none;
+            font-size: 28px;
+            line-height: 1;
+            color: #666;
+            cursor: pointer;
+            padding: 0;
+            width: 30px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: color 0.2s ease;
+        }
+
+        #about-modal-close:hover {
+            color: #333;
+        }
+
+        /* Modal content */
+        .modal-body {
+            padding: 30px;
+            overflow-y: auto;
+            max-height: calc(80vh - 80px);
+        }
+
+        .about-content {
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .about-content h1 {
+            margin: 0 0 20px 0;
+            font-size: 28px;
+            color: #34495e;
+            border: none;
+        }
+
+        .about-content h2 {
+            margin: 25px 0 15px 0;
+            font-size: 20px;
+            color: #34495e;
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 8px;
+        }
+
+        .about-content p {
+            margin: 0 0 15px 0;
+        }
+
+        .about-content ul {
+            margin: 0 0 15px 0;
+            padding-left: 25px;
+        }
+
+        .about-content li {
+            margin: 8px 0;
+        }
+
+        .about-content em {
+            color: #666;
+        }
+
+        /* Mobile responsive */
+        @media (max-width: 768px) {
+            #about-modal {
+                width: 90%;
+            }
+
+            .modal-body {
+                padding: 20px;
+            }
+
+            .about-content h1 {
+                font-size: 24px;
+            }
+
+            .about-content h2 {
+                font-size: 18px;
+            }
+        }    
+        /* Feedback modal overlay - uses same styles as about modal */
+        #feedback-modal-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0);
+            z-index: 20000;
+            transition: background 0.3s ease;
+        }
+
+        #feedback-modal-overlay.active {
+            background: rgba(0, 0, 0, 0.7);
+        }
+
+        /* Feedback modal dialog */
+        #feedback-modal {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) scale(0.9);
+            width: 60%;
+            max-height: 80%;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+            z-index: 20001;
+            overflow: hidden;
+            opacity: 0;
+            transition: opacity 0.3s ease, transform 0.3s ease;
+        }
+
+        #feedback-modal.active {
+            opacity: 1;
+            transform: translate(-50%, -50%) scale(1);
+        }
+
+        #feedback-modal-close {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            background: none;
+            border: none;
+            font-size: 28px;
+            line-height: 1;
+            color: #666;
+            cursor: pointer;
+            padding: 0;
+            width: 30px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: color 0.2s ease;
+        }
+
+        #feedback-modal-close:hover {
+            color: #333;
+        }
+
+        .feedback-content {
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .feedback-content h1 {
+            margin: 0 0 20px 0;
+            font-size: 28px;
+            color: #34495e;
+            border: none;
+        }
+
+        .feedback-content h2 {
+            margin: 25px 0 15px 0;
+            font-size: 20px;
+            color: #34495e;
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 8px;
+        }
+
+        .feedback-content p {
+            margin: 0 0 15px 0;
+        }
+
+        .feedback-content ul {
+            margin: 0 0 15px 0;
+            padding-left: 25px;
+        }
+
+        .feedback-content li {
+            margin: 8px 0;
+        }
+
+        .feedback-content em {
+            color: #666;
+        }
+
+        .feedback-content strong {
+            color: #34495e;
+        }
+
+        .feedback-content form {
+            margin: 25px 0;
+            padding: 20px;
+            background: rgba(52, 73, 94, 0.03);
+            border-radius: 6px;
+            border: 1px solid #e0e0e0;
+        }
+
+        .feedback-content textarea {
+            width: 100%;
+            min-height: 150px;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-family: inherit;
+            font-size: 14px;
+            line-height: 1.5;
+            resize: vertical;
+            box-sizing: border-box;
+            transition: border-color 0.2s ease;
+        }
+
+        .feedback-content textarea:focus {
+            outline: none;
+            border-color: #34495e;
+            box-shadow: 0 0 0 2px rgba(52, 73, 94, 0.1);
+        }
+
+        .feedback-content button[type="submit"] {
+            display: block;
+            margin: 15px auto 0;
+            padding: 10px 30px;
+            background: #34495e;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 15px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: background 0.2s ease;
+        }
+
+        .feedback-content button[type="submit"]:hover {
+            background: #2c3e50;
+        }
+
+        .feedback-content button[type="submit"]:active {
+            transform: translateY(1px);
+        }
+
+        @media (max-width: 768px) {
+            #feedback-modal {
+                width: 90%;
+            }
+        }
+
+        /* Welcome modal overlay */
+        #welcome-modal-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0);
+            z-index: 25000;
+            transition: background 0.3s ease;
+        }
+
+        #welcome-modal-overlay.active {
+            background: rgba(0, 0, 0, 0.8);
+        }
+
+        /* Welcome modal dialog */
+        #welcome-modal {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) scale(0.9);
+            width: 650px;
+            max-width: 90%;
+            max-height: 85%;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+            z-index: 25001;
+            overflow: hidden;
+            opacity: 0;
+            transition: opacity 0.3s ease, transform 0.3s ease;
+        }
+
+        #welcome-modal.active {
+            opacity: 1;
+            transform: translate(-50%, -50%) scale(1);
+        }
+
+        #welcome-modal-close {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            background: none;
+            border: none;
+            font-size: 28px;
+            line-height: 1;
+            color: #666;
+            cursor: pointer;
+            padding: 0;
+            width: 30px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: color 0.2s ease;
+            z-index: 1;
+        }
+
+        #welcome-modal-close:hover {
+            color: #333;
+        }
+
+        .welcome-content {
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .welcome-content h1 {
+            margin: 0 0 20px 0;
+            font-size: 28px;
+            color: #34495e;
+            border: none;
+        }
+
+        .welcome-content h2 {
+            margin: 25px 0 15px 0;
+            font-size: 20px;
+            color: #34495e;
+        }
+
+        .welcome-content h3 {
+            margin: 10px 0;
+            font-size: 18px;
+            color: #2c3e50;
+        }
+
+        .welcome-content p {
+            margin: 0 0 15px 0;
+        }
+
+        /* GoFundMe Card Styles */
+        .gofundme-card {
+            margin: 25px 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #f5f7fa 0%, #e9ecef 100%);
+            border-radius: 8px;
+            border: 1px solid #dee2e6;
+        }
+
+        .gofundme-card h2 {
+            margin-top: 0;
+            color: #00b964;
+            border-bottom: 2px solid #00b964;
+            padding-bottom: 10px;
+        }
+
+        .gofundme-inner {
+            display: flex;
+            gap: 20px;
+            margin-top: 15px;
+            flex-wrap: wrap;
+        }
+
+        .gofundme-image {
+            width: 200px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 6px;
+            flex-shrink: 0;
+        }
+
+        .gofundme-text {
+            flex: 1;
+            min-width: 250px;
+        }
+
+        .gofundme-organizer {
+            font-size: 14px;
+            color: #6c757d;
+            margin: 5px 0 10px 0;
+            font-style: italic;
+        }
+
+        .gofundme-description {
+            font-size: 15px;
+            line-height: 1.5;
+            margin: 10px 0 15px 0;
+        }
+
+        .gofundme-button {
+            display: inline-block;
+            padding: 12px 24px;
+            background: #00b964;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: 600;
+            font-size: 16px;
+            transition: background 0.2s ease;
+            box-shadow: 0 2px 8px rgba(0, 185, 100, 0.3);
+        }
+
+        .gofundme-button:hover {
+            background: #009954;
+            box-shadow: 0 4px 12px rgba(0, 185, 100, 0.4);
+        }
+
+        /* Mobile responsive for welcome modal */
+        @media (max-width: 768px) {
+            .gofundme-inner {
+                flex-direction: column;
+            }
+
+            .gofundme-image {
+                width: 100%;
+                height: 200px;
+            }
+        }
+        
+        .settlement-popup { 
+            padding: 0;
+            margin: 0;
+            font-size: 13px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            min-width: 280px;
+            max-width: 380px;
+        }
+        
+        .settlement-popup-header {
+            margin-bottom: 12px;
+            padding: 15px 15px 0 15px;
+        }
+        
+        .settlement-popup-title {
+            font-size: 20px;
+            font-weight: 600;
+            margin: 0 0 4px 0;
+            color: #1a1a1a;
+        }
+        
+        .settlement-popup-subtitle {
+            font-size: 12px;
+            font-style: italic;
+            color: #555;
+            margin: 0;
+        }
+        
+        .settlement-popup-field {
+            display: flex;
+            margin: 8px 0;
+            padding: 0 15px;
+            line-height: 1.4;
+        }
+        
+        .settlement-popup-label {
+            font-weight: 600;
+            margin-right: 8px;
+            min-width: 90px;
+            color: #333;
+        }
+        
+        .settlement-popup-value {
+            color: #333;
+            flex: 1;
+            word-break: break-word;
+        }
+        
+        .settlement-popup-wiki {
+            border-top: 1px solid #ddd;
+            margin-top: 12px;
+            padding: 12px 15px 15px 15px;
+        }
+        
+        .settlement-popup-wiki-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+        
+        .settlement-popup-wiki-title {
+            font-size: 14px;
+            font-weight: 600;
+            margin: 8px 0;
+            color: #1a5a96;
+        }
+        
+        .settlement-popup-wiki-description {
+            font-size: 12px;
+            line-height: 1.5;
+            color: #333;
+            max-height: 150px;
+            overflow-y: auto;
+            padding-right: 5px;
+            margin: 8px 0;
+        }
+        
+        .settlement-popup-wiki-link {
+            display: inline-block;
+            margin-top: 8px;
+            padding: 6px 12px;
+            background-color: #1a5a96;
+            color: white;
+            text-decoration: none;
+            border-radius: 3px;
+            font-size: 12px;
+            text-align: center;
+            transition: background-color 0.2s;
+        }
+        
+        .settlement-popup-wiki-link:hover {
+            background-color: #0d3d66;
+        }
+        
+        .settlement-popup-source {
+            font-size: 10px;
+            font-style: italic;
+            color: #666;
+            margin-top: 12px;
+            padding: 8px 15px 0 15px;
+            border-top: 1px solid #eee;
+        }
+
+        /* Welcome modal overlay */
+        #welcome-modal-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0);
+            z-index: 25000;
+            transition: background 0.3s ease;
+        }
+
+        #welcome-modal-overlay.active {
+            background: rgba(0, 0, 0, 0.8);
+        }
+
+        /* Welcome modal dialog */
+        #welcome-modal {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) scale(0.9);
+            width: 650px;
+            max-width: 90%;
+            max-height: 85%;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+            z-index: 25001;
+            overflow: hidden;
+            opacity: 0;
+            transition: opacity 0.3s ease, transform 0.3s ease;
+        }
+
+        #welcome-modal.active {
+            opacity: 1;
+            transform: translate(-50%, -50%) scale(1);
+        }
+
+        #welcome-modal-close {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            background: none;
+            border: none;
+            font-size: 28px;
+            line-height: 1;
+            color: #666;
+            cursor: pointer;
+            padding: 0;
+            width: 30px;
+            height: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: color 0.2s ease;
+            z-index: 1;
+        }
+
+        #welcome-modal-close:hover {
+            color: #333;
+        }
+
+        .welcome-content {
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .welcome-content h1 {
+            margin: 0 0 20px 0;
+            font-size: 28px;
+            color: #34495e;
+            border: none;
+        }
+
+        .welcome-content h2 {
+            margin: 25px 0 15px 0;
+            font-size: 20px;
+            color: #34495e;
+        }
+
+        .welcome-content h3 {
+            margin: 10px 0;
+            font-size: 18px;
+            color: #2c3e50;
+        }
+
+        .welcome-content p {
+            margin: 0 0 15px 0;
+        }
+
+        /* GoFundMe Card Styles */
+        .gofundme-card {
+            margin: 25px 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #f5f7fa 0%, #e9ecef 100%);
+            border-radius: 8px;
+            border: 1px solid #dee2e6;
+        }
+
+        .gofundme-card h2 {
+            margin-top: 0;
+            color: #00b964;
+            border-bottom: 2px solid #00b964;
+            padding-bottom: 10px;
+        }
+
+        .gofundme-inner {
+            display: flex;
+            gap: 20px;
+            margin-top: 15px;
+            flex-wrap: wrap;
+        }
+
+        .gofundme-image {
+            width: 200px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 6px;
+            flex-shrink: 0;
+        }
+
+        .gofundme-text {
+            flex: 1;
+            min-width: 250px;
+        }
+
+        .gofundme-organizer {
+            font-size: 14px;
+            color: #6c757d;
+            margin: 5px 0 10px 0;
+            font-style: italic;
+        }
+
+        .gofundme-description {
+            font-size: 15px;
+            line-height: 1.5;
+            margin: 10px 0 15px 0;
+        }
+
+        .gofundme-button {
+            display: inline-block;
+            padding: 12px 24px;
+            background: #00b964;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: 600;
+            font-size: 16px;
+            transition: background 0.2s ease;
+            box-shadow: 0 2px 8px rgba(0, 185, 100, 0.3);
+        }
+
+        .gofundme-button:hover {
+            background: #009954;
+            box-shadow: 0 4px 12px rgba(0, 185, 100, 0.4);
+        }
+
+        /* Mobile responsive for welcome modal */
+        @media (max-width: 768px) {
+            .gofundme-inner {
+                flex-direction: column;
+            }
+
+            .gofundme-image {
+                width: 100%;
+                height: 200px;
+            }
+        }
+        
+        /* Toggle controls - now in side panel, hide desktop version */
+        .layer-toggles {
+            display: none;
+        }
+        
+        .toggle-item {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 13px;
+            cursor: pointer;
+            user-select: none;
+        }
+        
+        .toggle-item input[type="checkbox"] {
+            cursor: pointer;
+            width: 16px;
+            height: 16px;
+            margin: 0;
+        }
+        
+        .toggle-item label {
+            cursor: pointer;
+            margin: 0;
+        }
+        
+        /* Reposition OpenLayers zoom controls to bottom-right */
+        .ol-zoom {
+            position: absolute;
+            top: auto !important;
+            left: auto !important;
+            right: 10px !important;
+            bottom: 105px !important;
+        }
+        
+        .ol-zoom button {
+            width: 36px !important;
+            height: 36px !important;
+            font-size: 20px !important;
+            background: rgba(255, 255, 255, 0.9) !important;
+            border-radius: 4px !important;
+            margin: 2px 0 !important;
+        }
+        
+        /* Measurement buttons */
+        .measurement-controls {
+            position: absolute;
+            top: 10px;
+            left: 475px;
+            z-index: 10000;
+            display: flex;
+            gap: 5px;
+            transition: left 0.3s ease;
+        }
+        
+        .measurement-controls.shifted {
+            left: 775px;
+        }
+        
+        .measure-button,
+        .clear-measure-button {
+            width: 40px;
+            height: 40px;
+            background: rgba(255, 255, 255, 0.9);
+            border: none;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            transition: all 0.2s ease;
+        }
+        
+        .measure-button:hover,
+        .clear-measure-button:hover {
+            background: rgba(255, 255, 255, 1);
+            box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+        }
+        
+        .measure-button.active {
+            background: rgba(24, 19, 150, 0.9);
+            color: white;
+        }
+        
+        .measure-button.active:hover {
+            background: rgba(24, 19, 150, 1);
+        }
+        
+        .clear-measure-button {
+            display: none; /* Hidden by default */
+        }
+        
+        .clear-measure-button.visible {
+            display: flex;
+        }
+        
+        /* Hamburger menu button */
+        .hamburger-button {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            z-index: 10001;
+            width: 50px;
+            height: 50px;
+            background: rgba(255, 255, 255, 0.9);
+            border: none;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 4px;
+            transition: all 0.2s ease;
+        }
+        
+        .hamburger-button:hover {
+            background: rgba(255, 255, 255, 1);
+            box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+        }
+        
+        .hamburger-button span {
+            width: 24px;
+            height: 3px;
+            background: #333;
+            border-radius: 2px;
+            transition: all 0.3s ease;
+        }
+        
+        .hamburger-button.active span:nth-child(1) {
+            transform: rotate(45deg) translate(6px, 6px);
+        }
+        
+        .hamburger-button.active span:nth-child(2) {
+            opacity: 0;
+        }
+        
+        .hamburger-button.active span:nth-child(3) {
+            transform: rotate(-45deg) translate(6px, -6px);
+        }
+        
+        /* Side panel */
+        .side-panel {
+            position: fixed;
+            top: 0;
+            left: -280px;
+            width: 300px;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.3);
+            box-shadow: 2px 0 8px rgba(0,0,0,0.2);
+            z-index: 10000;
+            transition: left 0.3s ease, background 0.3s ease;
+            overflow-y: auto;
+            padding: 70px 20px 20px 20px;
+            pointer-events: none;
+        }
+        
+        .side-panel.active {
+            left: 0;
+            background: rgba(255, 255, 255, 0.95);
+            pointer-events: auto;
+        }
+        
+        .side-panel > * {
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        
+        .side-panel.active > * {
+            opacity: 1;
+        }
+        
+        .side-panel-section {
+            margin-bottom: 25px;
+        }
+        
+        .side-panel-section-title {
+            font-size: 14px;
+            font-weight: 600;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 12px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #e0e0e0;
+        }
+        
+        .side-panel-section .toggle-item {
+            padding: 8px 0;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .side-panel-section .toggle-item label {
+            font-size: 14px;
+        }
+        
+        /* Units toggle */
+        .units-toggle {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+        
+        .units-toggle button {
+            flex: 1;
+            padding: 8px 12px;
+            border: 2px solid #ddd;
+            background: white;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 13px;
+            font-weight: 600;
+            transition: all 0.2s ease;
+        }
+        
+        .units-toggle button:hover {
+            border-color: #999;
+        }
+        
+        .units-toggle button.active {
+            background: rgba(24, 19, 150, 0.9);
+            color: white;
+            border-color: rgba(24, 19, 150, 0.9);
+        }
+        
+        /* Grid toggle */
+        .grid-toggle {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+        }
+        
+        .grid-toggle button {
+            flex: 1;
+            padding: 8px 10px;
+            border: 2px solid #ddd;
+            background: white;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 13px;
+            font-weight: 600;
+            transition: all 0.2s ease;
+        }
+        
+        .grid-toggle button:hover {
+            border-color: #999;
+        }
+        
+        .grid-toggle button.active {
+            background: rgba(24, 19, 150, 0.9);
+            color: white;
+            border-color: rgba(24, 19, 150, 0.9);
+        }
+        
+        .grid-size-control {
+            margin-top: 8px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .grid-size-control label {
+            font-size: 12px;
+            color: #666;
+            white-space: nowrap;
+        }
+        
+        .grid-size-control input {
+            flex: 1;
+            padding: 6px 8px;
+            border: 2px solid #ddd;
+            border-radius: 4px;
+            font-size: 13px;
+            width: 80px;
+        }
+        
+        .grid-size-control input:focus {
+            outline: none;
+            border-color: rgba(24, 19, 150, 0.9);
+        }
+        
+        .grid-size-control span {
+            font-size: 12px;
+            color: #666;
+            font-weight: 600;
+            min-width: 20px;
+        }
+        
+        /* Search bar container */
+        .search-container {
+            position: absolute;
+            top: 10px;
+            left: 64px;
+            z-index: 10000;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            transition: left 0.3s ease;
+        }
+        
+        .search-container.shifted {
+            left: 350px;
+        }
+        
+        .search-input-wrapper {
+            position: relative;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: all 0.2s ease;
+        }
+        
+        .search-input-wrapper:hover,
+        .search-input-wrapper:focus-within {
+            background: rgba(255, 255, 255, 1);
+            box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+        }
+        
+        #search-input {
+            padding: 10px 16px;
+            border: none;
+            border-radius: 4px;
+            font-size: 17px;
+            width: 365px;
+            outline: none;
+            background: transparent;
+        }
+        
+        #clear-selection {
+            display: none;
+            position: absolute;
+            right: 8px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: #f44336;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+            font-size: 14px;
+            line-height: 18px;
+            padding: 0;
+            transition: background 0.2s;
+        }
+        
+        #clear-selection:hover {
+            background: #d32f2f;
+        }
+        
+        .autocomplete-dropdown {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            max-height: 300px;
+            overflow-y: auto;
+            background: white;
+            border: 1px solid #ddd;
+            border-top: none;
+            border-radius: 0 0 4px 4px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            display: none;
+            z-index: 10001;
+        }
+        
+        .autocomplete-item {
+            padding: 8px 12px;
+            cursor: pointer;
+            border-bottom: 1px solid #f0f0f0;
+            transition: background 0.15s;
+        }
+        
+        .autocomplete-item:hover {
+            background: #f5f5f5;
+        }
+        
+        .autocomplete-item:last-child {
+            border-bottom: none;
+        }
+        
+        .autocomplete-name {
+            font-weight: 500;
+            color: #333;
+        }
+        
+        .autocomplete-details {
+            font-size: 11px;
+            color: #666;
+            margin-top: 2px;
+        }
+        
+        /* Mobile menu button - hidden by default */
+        .mobile-menu-button {
+            display: none;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            z-index: 10001;
+            background: rgba(255, 255, 255, 0.95);
+            border: none;
+            border-radius: 4px;
+            width: 40px;
+            height: 40px;
+            cursor: pointer;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: all 0.2s ease;
+        }
+        
+        .mobile-menu-button:hover {
+            background: rgba(255, 255, 255, 1);
+            box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+        }
+        
+        .mobile-menu-button span {
+            display: block;
+            width: 20px;
+            height: 2px;
+            background: #333;
+            margin: 4px auto;
+            transition: all 0.3s ease;
+        }
+        
+        .mobile-menu-button.active span:nth-child(1) {
+            transform: rotate(45deg) translate(5px, 5px);
+        }
+        
+        .mobile-menu-button.active span:nth-child(2) {
+            opacity: 0;
+        }
+        
+        .mobile-menu-button.active span:nth-child(3) {
+            transform: rotate(-45deg) translate(6px, -6px);
+        }
+        
+        /* Mobile title - hidden by default */
+        .mobile-title {
+            display: none;
+            position: absolute;
+            top: 10px;
+            left: 60px;
+            right: 10px;
+            z-index: 10000;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 0px 12px;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            text-align: center;
+            height: 44px;
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+        .mobile-title h1 {
+            margin: 0;
+            font-size: 20px;
+            color: #333;
+            line-height: 1.2;
+        }
+        
+        .mobile-title .mobile-subtitle {
+            margin: 2px 0 0 0;
+            font-size: 9px;
+            color: #666;
+            line-height: 1.2;
+        }
+        
+        /* Mobile dropdown menu */
+        .mobile-dropdown {
+            display: none;
+            position: absolute;
+            top: 60px;
+            left: 10px;
+            right: 10px;
+            z-index: 10002;
+            background: rgba(255, 255, 255, 0.98);
+            border-radius: 4px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
+        
+        .mobile-dropdown.active {
+            max-height: 400px;
+        }
+        
+        .mobile-dropdown-item {
+            padding: 12px 16px;
+            border-bottom: 1px solid #e0e0e0;
+            cursor: pointer;
+            transition: background 0.2s ease;
+        }
+        
+        .mobile-dropdown-item:last-child {
+            border-bottom: none;
+        }
+        
+        .mobile-dropdown-item:hover {
+            background: rgba(52, 73, 94, 0.05);
+        }
+        
+        .mobile-dropdown-item button {
+            width: 100%;
+            padding: 8px;
+            background: rgba(52, 73, 94, 0.9);
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 14px;
+            cursor: pointer;
+            transition: background 0.2s ease;
+        }
+        
+        .mobile-dropdown-item button.active {
+            background: rgba(255, 0, 0, 0.9);
+        }
+        
+        .mobile-dropdown-item .toggle-item {
+            justify-content: flex-start;
+            font-size: 14px;
+        }
+        
+        /* Mobile styles - only for portrait orientation */
+        @media (max-width: 768px) and (orientation: portrait) {
+            /* Hide OpenLayers zoom controls on mobile */
+            .ol-zoom {
+                display: none !important;
+            }
+            
+            /* Hide desktop UI elements */
+            .title-container {
+                display: none;
+            }
+            
+            .layer-toggles {
+                display: none;
+            }
+            
+            .measurement-controls {
+                display: none;
+            }
+            
+            /* Hide hamburger and side panel on mobile */
+            .hamburger-button {
+                display: none !important;
+            }
+            
+            .side-panel {
+                display: none !important;
+            }
+            
+            /* Show mobile menu button */
+            .mobile-menu-button {
+                display: block;
+            }
+            
+            /* Show mobile title */
+            .mobile-title {
+                display: flex;
+            }
+            
+            /* Show mobile dropdown */
+            .mobile-dropdown {
+                display: block;
+            }
+            
+            /* Reposition search bar for mobile */
+            .search-container {
+                top: 75px;
+                left: 10px;
+                right: 10px;
+                width: auto;
+            }
+            
+            .search-input-wrapper {
+                width: 100%;
+            }
+            
+            #search-input {
+                width: 100%;
+            }
+            
+            /* Adjust modal sizing for mobile */
+            #about-modal,
+            #feedback-modal {
+                width: 95%;
+                max-height: 75vh;
+                top: 50%;
+                transform: translate(-50%, -50%);
+            }
+            
+            #about-modal.active,
+            #feedback-modal.active {
+                transform: translate(-50%, -50%) scale(1);
+            }
+            
+            .modal-body {
+                padding: 15px;
+                max-height: calc(75vh - 60px);
+            }
+            
+            .changelog-dropdown {
+                display: none;
+            }
+            
+            /* Update attribution text for mobile */
+            #attribution {
+                font-size: 11px;
+                left: 10px;
+            }
         }
     </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@main/dist/en/v7.0.0/legacy/ol.css" type="text/css">
+    <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@main/dist/en/v7.0.0/legacy/ol.js"></script>
+    <script src="https://unpkg.com/ol-layerswitcher@4.1.1"></script>
+    <link rel="stylesheet" href="https://unpkg.com/ol-layerswitcher@4.1.1/src/ol-layerswitcher.css" />
 </head>
 <body>
-    <main class="panel">
-        <span class="tag">Under Construction</span>
-        <h1>Atlas maintenance in progress</h1>
-        <p>Update coming soon, expanding the Atlas to include Norsca, Albion, the Border Princes, and Tilea!</p>
-        <div class="notice">
-            Work is actively in progress this weekend while major map updates are deployed.
+    <div id="header"><h1>Old-World-Atlas</h1></div>
+    <div id="map" class="map"></div>
+    
+    <!-- Measurement controls - adjacent to search bar -->
+    <div class="measurement-controls">
+        <button id="measure-button" class="measure-button" title="Measure distances">
+            📏
+        </button>
+        <button id="clear-measure-button" class="clear-measure-button" title="Clear all measurements">
+            🗑️
+        </button>
+    </div>
+    
+    <!-- Mobile menu button -->
+    <button class="mobile-menu-button" id="mobile-menu-button">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+    
+    <!-- Mobile title -->
+    <div class="mobile-title">
+        <h1>Atlas of the Old World</h1>
+        <p class="mobile-subtitle">An unofficial map of the Warhammer world. @toddkoz</p>
+    </div>
+    
+    <!-- Mobile dropdown menu -->
+    <div class="mobile-dropdown" id="mobile-dropdown">
+        <div class="mobile-dropdown-item">
+            <div class="toggle-item">
+                <input type="checkbox" id="mobile-settlement-checkbox" checked>
+                <label for="mobile-settlement-checkbox">Settlements</label>
+            </div>
         </div>
-        <div class="local-link">
-            Local testing access: <a href="/test">https://atlasoftheoldworld.com/atlas-live.html</a>
+        <div class="mobile-dropdown-item">
+            <div class="toggle-item">
+                <input type="checkbox" id="mobile-poi-checkbox" checked>
+                <label for="mobile-poi-checkbox">Points of Interest</label>
+            </div>
         </div>
-    </main>
+        <div class="mobile-dropdown-item">
+            <div class="toggle-item">
+                <input type="checkbox" id="mobile-region-checkbox" checked>
+                <label for="mobile-region-checkbox">Regions</label>
+            </div>
+        </div>
+        <div class="mobile-dropdown-item">
+            <div class="toggle-item">
+                <input type="checkbox" id="mobile-water-checkbox" checked>
+                <label for="mobile-water-checkbox">Water</label>
+            </div>
+        </div>
+        <div class="mobile-dropdown-item">
+            <div class="toggle-item">
+                <input type="checkbox" id="mobile-published-canon-only-checkbox">
+                <label for="mobile-published-canon-only-checkbox">Published Canon Only</label>
+            </div>
+        </div>
+        <div class="mobile-dropdown-item" style="padding: 16px;">
+            <div style="margin-bottom: 8px; font-size: 13px; font-weight: 600; color: #666;">Units</div>
+            <div class="units-toggle">
+                <button id="mobile-units-miles" class="active">Miles</button>
+                <button id="mobile-units-kilometers">Kilometers</button>
+            </div>
+        </div>
+        <div class="mobile-dropdown-item" style="padding: 16px;">
+            <div style="margin-bottom: 8px; font-size: 13px; font-weight: 600; color: #666;">Grid Overlay</div>
+            <div class="grid-toggle">
+                <button id="mobile-grid-off" class="active">Off</button>
+                <button id="mobile-grid-square">Square</button>
+            </div>
+            <div class="grid-size-control">
+                <label for="mobile-grid-size">Size:</label>
+                <input type="number" id="mobile-grid-size" min="5" max="1000" value="100">
+                <span id="mobile-grid-unit-label">mi</span>
+            </div>
+        </div>
+        <div class="mobile-dropdown-item">
+            <button id="mobile-about-button">About</button>
+        </div>
+        <div class="mobile-dropdown-item">
+            <button id="mobile-feedback-button">Feedback / Suggest</button>
+        </div>
+        <div class="mobile-dropdown-item">
+            <button id="mobile-changelog-button">Feature Requests / Changelog</button>
+        </div>
+    </div>
+    
+    <!-- Hamburger menu button -->
+    <button class="hamburger-button" id="hamburger-button">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+    
+    <!-- Side panel menu -->
+    <div class="side-panel" id="side-panel">
+        <div class="side-panel-section">
+            <div class="side-panel-section-title">Filters</div>
+            <div class="toggle-item">
+                <input type="checkbox" id="settlement-checkbox" checked>
+                <label for="settlement-checkbox">Settlements</label>
+            </div>
+            <div class="toggle-item">
+                <input type="checkbox" id="poi-checkbox" checked>
+                <label for="poi-checkbox">Points of Interest</label>
+            </div>
+            <div class="toggle-item">
+                <input type="checkbox" id="region-checkbox" checked>
+                <label for="region-checkbox">Regions</label>
+            </div>
+            <div class="toggle-item">
+                <input type="checkbox" id="water-checkbox" checked>
+                <label for="water-checkbox">Water</label>
+            </div>
+            <div class="toggle-item">
+                <input type="checkbox" id="published-canon-only-checkbox">
+                <label for="published-canon-only-checkbox">Published Canon Only</label>
+            </div>
+        </div>
+        
+        <div class="side-panel-section">
+            <div class="side-panel-section-title">Options</div>
+            <div style="padding: 8px 0;">
+                <div style="margin-bottom: 8px; font-size: 13px; font-weight: 600;">Units</div>
+                <div class="units-toggle">
+                    <button id="units-miles" class="active">Miles</button>
+                    <button id="units-kilometers">Kilometers</button>
+                </div>
+            </div>
+            <div style="padding: 8px 0; margin-top: 12px;">
+                <div style="margin-bottom: 8px; font-size: 13px; font-weight: 600;">Grid Overlay</div>
+                <div class="grid-toggle">
+                    <button id="grid-off" class="active">Off</button>
+                    <button id="grid-square">Square</button>
+                </div>
+                <div class="grid-size-control">
+                    <label for="grid-size">Size:</label>
+                    <input type="number" id="grid-size" min="5" max="1000" value="100">
+                    <span id="grid-unit-label">mi</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Search bar - top left -->
+    <div class="search-container" id="search-container">
+        <div class="search-input-wrapper">
+            <input type="text" id="search-input" placeholder="Search settlements and POIs..." autocomplete="off">
+            <button id="clear-selection" title="Clear selection">×</button>
+            <div class="autocomplete-dropdown" id="autocomplete-dropdown"></div>
+        </div>
+    </div>
+    
+    <!-- Title box - top right -->
+    <div class="title-container">
+        <h1>Atlas of the Old World</h1>
+        <p class="title-subheader">An unofficial, fan-made map of the Warhammer world. Beta version, 03.02.2026 @toddkozlowski</p>
+        <button id="about-button" class="about-button">About</button>
+        <button id="feedback-button" class="about-button">Suggest a correction or addition</button>
+        <button id="changelog-button" class="changelog-button">
+            Feature Requests / Changelog
+            <span class="chevron"></span>
+        </button>
+        <!-- Changelog dropdown panel -->
+        <div class="changelog-dropdown" id="changelog-dropdown">
+            <div class="changelog-dropdown-body">
+                <div id="changelog-dropdown-content">
+                    <div class="changelog-content">
+                        <h1>Loading...</h1>
+                        <p>Please wait while the content loads.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="mouse-position"></div>
+    
+    <!-- Attribution -->
+    <div id="attribution">Map credit to Andy Law (Empire) and Emile Beguin (Bretonnia). Unofficial, fan-made map.</div>
+
+    <!-- Feedback modal overlay -->
+    <div id="feedback-modal-overlay"></div>
+
+    <!-- Feedback modal -->
+    <div id="feedback-modal">
+        <div class="modal-header">
+            <button id="feedback-modal-close" title="Close">&times;</button>
+        </div>
+        <div class="modal-body">
+            <div id="feedback-modal-content">
+                <div class="feedback-content">
+                    <h1>Loading</h1>
+                    <p>Please wait while the content loads.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Welcome modal overlay (for first-time visitors) -->
+    <div id="welcome-modal-overlay"></div>
+
+    <!-- Welcome modal -->
+    <div id="welcome-modal">
+        <div class="modal-header">
+            <button id="welcome-modal-close" title="Close">&times;</button>
+        </div>
+        <div class="modal-body">
+            <div id="welcome-modal-content">
+                <div class="welcome-content">
+                    <h1>Loading</h1>
+                    <p>Please wait while the content loads.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal overlay -->
+    <div id="modal-overlay"></div>
+
+    <!-- About modal -->
+    <div id="about-modal">
+        <div class="modal-header">
+            <button id="about-modal-close" title="Close">&times;</button>
+        </div>
+        <div class="modal-body">
+            <div id="about-modal-content">
+                <div class="about-content">
+                    <h1>Loading</h1>
+                    <p>Please wait while the content loads.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Load scripts in order -->
+    <script src="js/utils.js?v=12"></script>
+    <script src="js/styling.js?v=13"></script>
+    <script src="js/search.js?v=12"></script>
+    <script src="js/settlement-data.js?v=12"></script>
+    <script src="js/dwarf-settlement-data.js?v=12"></script>
+    <script src="js/wood-elf-settlement-data.js?v=12"></script>
+    <script src="js/poi-data.js?v=12"></script>
+    <script src="js/province-data.js?v=12"></script>
+    <script src="js/water-data.js?v=12"></script>
+    <script src="js/grid-overlay.js?v=12"></script>
+    <script src="js/map-manager.js?v=13"></script>
+    <script src="js/measurement-tool.js?v=12"></script>
+    <script src="js/scale-control.js?v=12"></script>
+    <script src="js/ui-controls.js?v=13"></script>
+    <script src="js/about-modal.js?v=12"></script>
+    <script src="js/feedback-modal.js?v=12"></script>
+    <!-- <script src="js/new-user-popup.js?v=12"></script> -->
+    <script src="js/changelog-dropdown.js?v=12"></script>
+    <script src="js/app.js?v=12"></script>
+    
+    <!-- Mobile menu functionality -->
+    <script>
+        // Mobile menu toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const menuButton = document.getElementById('mobile-menu-button');
+            const dropdown = document.getElementById('mobile-dropdown');
+            
+            if (menuButton && dropdown) {
+                menuButton.addEventListener('click', function() {
+                    menuButton.classList.toggle('active');
+                    dropdown.classList.toggle('active');
+                });
+                
+                // Sync mobile checkboxes with desktop checkboxes
+                const desktopSettlement = document.getElementById('settlement-checkbox');
+                const desktopPoi = document.getElementById('poi-checkbox');
+                const mobileSettlement = document.getElementById('mobile-settlement-checkbox');
+                const mobilePoi = document.getElementById('mobile-poi-checkbox');
+                
+                if (mobileSettlement && desktopSettlement) {
+                    mobileSettlement.addEventListener('change', function() {
+                        desktopSettlement.checked = this.checked;
+                        desktopSettlement.dispatchEvent(new Event('change'));
+                    });
+                    
+                    desktopSettlement.addEventListener('change', function() {
+                        mobileSettlement.checked = this.checked;
+                    });
+                }
+                
+                if (mobilePoi && desktopPoi) {
+                    mobilePoi.addEventListener('change', function() {
+                        desktopPoi.checked = this.checked;
+                        desktopPoi.dispatchEvent(new Event('change'));
+                    });
+                    
+                    desktopPoi.addEventListener('change', function() {
+                        mobilePoi.checked = this.checked;
+                    });
+                }
+                
+                // Sync region checkboxes
+                const desktopRegion = document.getElementById('region-checkbox');
+                const mobileRegion = document.getElementById('mobile-region-checkbox');
+                
+                if (mobileRegion && desktopRegion) {
+                    mobileRegion.addEventListener('change', function() {
+                        desktopRegion.checked = this.checked;
+                        desktopRegion.dispatchEvent(new Event('change'));
+                    });
+                    
+                    desktopRegion.addEventListener('change', function() {
+                        mobileRegion.checked = this.checked;
+                    });
+                }
+                
+                // Sync water checkboxes
+                const desktopWater = document.getElementById('water-checkbox');
+                const mobileWater = document.getElementById('mobile-water-checkbox');
+                
+                if (mobileWater && desktopWater) {
+                    mobileWater.addEventListener('change', function() {
+                        desktopWater.checked = this.checked;
+                        desktopWater.dispatchEvent(new Event('change'));
+                    });
+                    
+                    desktopWater.addEventListener('change', function() {
+                        mobileWater.checked = this.checked;
+                    });
+                }
+                
+                // Wire up mobile about button
+                const mobileAboutButton = document.getElementById('mobile-about-button');
+                const desktopAboutButton = document.getElementById('about-button');
+                if (mobileAboutButton && desktopAboutButton) {
+                    mobileAboutButton.addEventListener('click', function() {
+                        desktopAboutButton.click();
+                        // Close mobile menu
+                        menuButton.classList.remove('active');
+                        dropdown.classList.remove('active');
+                    });
+                }
+                
+                // Wire up mobile feedback button
+                const mobileFeedbackButton = document.getElementById('mobile-feedback-button');
+                const desktopFeedbackButton = document.getElementById('feedback-button');
+                if (mobileFeedbackButton && desktopFeedbackButton) {
+                    mobileFeedbackButton.addEventListener('click', function() {
+                        desktopFeedbackButton.click();
+                        // Close mobile menu
+                        menuButton.classList.remove('active');
+                        dropdown.classList.remove('active');
+                    });
+                }
+                
+                // Wire up mobile changelog button
+                const mobileChangelogButton = document.getElementById('mobile-changelog-button');
+                const desktopChangelogButton = document.getElementById('changelog-button');
+                if (mobileChangelogButton && desktopChangelogButton) {
+                    mobileChangelogButton.addEventListener('click', function() {
+                        desktopChangelogButton.click();
+                        // Close mobile menu
+                        menuButton.classList.remove('active');
+                        dropdown.classList.remove('active');
+                    });
+                }
+                
+                // Sync mobile units buttons with desktop
+                const mobileUnitsMiles = document.getElementById('mobile-units-miles');
+                const mobileUnitsKilometers = document.getElementById('mobile-units-kilometers');
+                const desktopUnitsMiles = document.getElementById('units-miles');
+                const desktopUnitsKilometers = document.getElementById('units-kilometers');
+                
+                if (mobileUnitsMiles && desktopUnitsMiles) {
+                    mobileUnitsMiles.addEventListener('click', function() {
+                        desktopUnitsMiles.click();
+                    });
+                }
+                
+                if (mobileUnitsKilometers && desktopUnitsKilometers) {
+                    mobileUnitsKilometers.addEventListener('click', function() {
+                        desktopUnitsKilometers.click();
+                    });
+                }
+                
+                // Listen for units changes to update mobile UI
+                window.addEventListener('unitsChanged', function(e) {
+                    const units = e.detail.units;
+                    if (mobileUnitsMiles && mobileUnitsKilometers) {
+                        if (units === 'miles') {
+                            mobileUnitsMiles.classList.add('active');
+                            mobileUnitsKilometers.classList.remove('active');
+                        } else {
+                            mobileUnitsKilometers.classList.add('active');
+                            mobileUnitsMiles.classList.remove('active');
+                        }
+                    }
+                });
+                
+                // Update mobile units UI on load
+                const currentUnits = localStorage.getItem('map_units') || 'miles';
+                if (mobileUnitsMiles && mobileUnitsKilometers) {
+                    if (currentUnits === 'miles') {
+                        mobileUnitsMiles.classList.add('active');
+                        mobileUnitsKilometers.classList.remove('active');
+                    } else {
+                        mobileUnitsKilometers.classList.add('active');
+                        mobileUnitsMiles.classList.remove('active');
+                    }
+                }
+                
+                // Update attribution text for mobile
+                const attribution = document.getElementById('attribution');
+                if (attribution && window.innerWidth <= 768) {
+                    attribution.textContent = 'Map adapted from Andy Law. Unofficial.';
+                }
+            }
+            
+            // Hamburger menu and side panel functionality
+            const hamburgerButton = document.getElementById('hamburger-button');
+            const sidePanel = document.getElementById('side-panel');
+            const searchContainer = document.getElementById('search-container');
+            const measurementControls = document.querySelector('.measurement-controls');
+            const attribution = document.getElementById('attribution');
+            
+            if (hamburgerButton && sidePanel) {
+                hamburgerButton.addEventListener('click', function() {
+                    hamburgerButton.classList.toggle('active');
+                    sidePanel.classList.toggle('active');
+                    
+                    // Shift search bar, measurement controls, and attribution when panel opens
+                    if (sidePanel.classList.contains('active')) {
+                        searchContainer.classList.add('shifted');
+                    if (measurementControls) {
+                        measurementControls.classList.add('shifted');
+                    }
+                    if (attribution) {
+                        attribution.classList.add('shifted');
+                    }
+                } else {
+                    searchContainer.classList.remove('shifted');
+                    if (measurementControls) {
+                        measurementControls.classList.remove('shifted');
+                    }
+                    if (attribution) {
+                        attribution.classList.remove('shifted');
+                    }
+                }
+            });
+            
+            // Close panel when clicking outside
+            document.addEventListener('click', function(e) {
+                if (sidePanel.classList.contains('active') &&
+                    !sidePanel.contains(e.target) &&
+                    !hamburgerButton.contains(e.target)) {
+                    hamburgerButton.classList.remove('active');
+                    sidePanel.classList.remove('active');
+                    searchContainer.classList.remove('shifted');
+                    if (measurementControls) {
+                        measurementControls.classList.remove('shifted');
+                    }
+                    if (attribution) {
+                        attribution.classList.remove('shifted');
+                    }
+                }
+            });
+        }
+        
+        // Units toggle functionality
+        const unitsMiles = document.getElementById('units-miles');
+        const unitsKilometers = document.getElementById('units-kilometers');
+        
+        // Load saved preference or default to miles
+        let currentUnits = localStorage.getItem('map_units') || 'miles';
+        
+        function updateUnitsUI() {
+            if (currentUnits === 'miles') {
+                unitsMiles.classList.add('active');
+                unitsKilometers.classList.remove('active');
+            } else {
+                unitsKilometers.classList.add('active');
+                unitsMiles.classList.remove('active');
+            }
+        }
+        
+        function setUnits(units) {
+            currentUnits = units;
+            localStorage.setItem('map_units', units);
+            updateUnitsUI();
+            
+            // Trigger update for scale control and measurement tool
+            window.dispatchEvent(new CustomEvent('unitsChanged', { detail: { units: units } }));
+        }
+        
+        if (unitsMiles && unitsKilometers) {
+            updateUnitsUI();
+            
+            unitsMiles.addEventListener('click', function() {
+                setUnits('miles');
+            });
+            
+            unitsKilometers.addEventListener('click', function() {
+                setUnits('kilometers');
+            });
+        }
+        
+        // Expose current units for other scripts
+        window.getCurrentUnits = function() {
+            return currentUnits;
+        };
+        });
+    </script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
