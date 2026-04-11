@@ -3,11 +3,11 @@
  */
 
 // Shared base map configuration for the current tile set.
-const IMAGE_BOUNDS = [-25, 30, 25, 69.5];
+const IMAGE_BOUNDS = [-25, 32, 25, 69.5];
 const MAP_TILE_DIRECTORY = 'map_tiles';
 const MAP_TILE_VERSION = '12';
 const MAP_VIEW_BUFFER_FACTOR = 0.5;
-const MAP_TILE_SCALE_ADJUSTMENT = 0.96335;
+const MAP_TILE_SCALE_ADJUSTMENT = 0.97655;
 const MAP_TILE_BASE_PIXELS = 250;
 const MAP_TILE_ZOOM_LEVELS = 10;
 
