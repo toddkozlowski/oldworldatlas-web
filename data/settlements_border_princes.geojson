@@ -1,0 +1,803 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0748700452584067,
+          38.13765393599999
+        ]
+      },
+      "properties": {
+        "name": "Zvörak",
+        "province": "Border Princes",
+        "estate": "",
+        "population": 130,
+        "tags": [
+          "source:TOW"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5950518331415924,
+          35.125282051199996
+        ]
+      },
+      "properties": {
+        "name": "Myrmidens",
+        "province": "Border Princes",
+        "estate": "",
+        "population": 282,
+        "tags": [
+          "source:TOW"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.9540877163415924,
+          36.980411984
+        ]
+      },
+      "properties": {
+        "name": "Vardanos",
+        "province": "Border Princes",
+        "estate": "",
+        "population": 128,
+        "tags": [
+          "source:TOW"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.15191755506159293,
+          37.2731978912
+        ]
+      },
+      "properties": {
+        "name": "Kasos",
+        "province": "Border Princes",
+        "estate": "",
+        "population": 310,
+        "tags": [
+          "source:TOW"
+        ],
+        "notes": [],
+        "size_category": 2,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.32063810797840686,
+          37.752235110399994
+        ]
+      },
+      "properties": {
+        "name": "Thessos",
+        "province": "Border Princes",
+        "estate": "",
+        "population": 59,
+        "tags": [
+          "source:TOW"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.8792799963415923,
+          38.372526108799995
+        ]
+      },
+      "properties": {
+        "name": "Vernissi",
+        "province": "Border Princes",
+        "estate": "",
+        "population": 171,
+        "tags": [
+          "source:TOW"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.8531899946984063,
+          39.21317671359999
+        ]
+      },
+      "properties": {
+        "name": "Matorca",
+        "province": "Border Princes",
+        "estate": "",
+        "population": 84,
+        "tags": [
+          "source:TOW"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.7333637370984065,
+          39.692826572799994
+        ]
+      },
+      "properties": {
+        "name": "Khypris",
+        "province": "Border Princes",
+        "estate": "",
+        "population": 77,
+        "tags": [
+          "source:TOW"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.470213715658407,
+          40.37788937279999
+        ]
+      },
+      "properties": {
+        "name": "Malko",
+        "province": "Border Princes",
+        "estate": "",
+        "population": 35,
+        "tags": [
+          "source:TOW"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.529123310218406,
+          41.083104528
+        ]
+      },
+      "properties": {
+        "name": "Brovska",
+        "province": "Border Princes",
+        "estate": "",
+        "population": 134,
+        "tags": [
+          "source:TOW"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.877870399818407,
+          42.297071342719995
+        ]
+      },
+      "properties": {
+        "name": "Munzig",
+        "province": "Border Princes",
+        "estate": "",
+        "population": 96,
+        "tags": [
+          "source:TOW"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.425542690058407,
+          42.11245998048
+        ]
+      },
+      "properties": {
+        "name": "Styratia",
+        "province": "Border Princes",
+        "estate": "",
+        "population": 303,
+        "tags": [
+          "source:TOW"
+        ],
+        "notes": [],
+        "size_category": 2,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.031587027018407,
+          42.058771711679995
+        ]
+      },
+      "properties": {
+        "name": "Akendorf",
+        "province": "Border Princes",
+        "estate": "",
+        "population": 144,
+        "tags": [
+          "source:TOW"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.302521446538405,
+          40.282084729599994
+        ]
+      },
+      "properties": {
+        "name": "Klossi",
+        "province": "Border Princes",
+        "estate": "",
+        "population": 225,
+        "tags": [
+          "source:TOW"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.985816731018408,
+          40.7630543904
+        ]
+      },
+      "properties": {
+        "name": "Zenres",
+        "province": "Border Princes",
+        "estate": "",
+        "population": 119,
+        "tags": [
+          "source:TOW"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.046525835018405,
+          39.97732258559999
+        ]
+      },
+      "properties": {
+        "name": "Mirstadt",
+        "province": "Border Princes",
+        "estate": "",
+        "population": 574,
+        "tags": [
+          "source:TOW"
+        ],
+        "notes": [],
+        "size_category": 2,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.29296933810159326,
+          38.31213030719999
+        ]
+      },
+      "properties": {
+        "name": "Lakoras",
+        "province": "Border Princes",
+        "estate": "",
+        "population": 340,
+        "tags": [
+          "source:1eDSaS"
+        ],
+        "notes": [],
+        "size_category": 2,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.6676447940584067,
+          41.220986686719996
+        ]
+      },
+      "properties": {
+        "name": "Mortensholm",
+        "province": "Border Princes",
+        "estate": "",
+        "population": 185,
+        "tags": [
+          "source:1eDSaS"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.620769120458406,
+          39.706661734399994
+        ]
+      },
+      "properties": {
+        "name": "Brasov",
+        "province": "Border Princes",
+        "estate": "",
+        "population": 188,
+        "tags": [
+          "source:1eDSaS"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.619140898378406,
+          39.45015461759999
+        ]
+      },
+      "properties": {
+        "name": "Somjek",
+        "province": "Border Princes",
+        "estate": "",
+        "population": 164,
+        "tags": [
+          "source:1eDSaS"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.176433056138407,
+          40.4859573184
+        ]
+      },
+      "properties": {
+        "name": "Moslac",
+        "province": "Border Princes",
+        "estate": "",
+        "population": 68,
+        "tags": [
+          "source:1eDSaS"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.757487088138408,
+          40.7105686464
+        ]
+      },
+      "properties": {
+        "name": "Vidovdan",
+        "province": "Border Princes",
+        "estate": "",
+        "population": 414,
+        "tags": [
+          "source:1eDSaS"
+        ],
+        "notes": [],
+        "size_category": 2,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.48228618381841,
+          40.3682394176
+        ]
+      },
+      "properties": {
+        "name": "Vitrolle",
+        "province": "Border Princes",
+        "estate": "",
+        "population": 294,
+        "tags": [
+          "source:2eLotLL"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.883220555018408,
+          40.744918496
+        ]
+      },
+      "properties": {
+        "name": "Fatanbad",
+        "province": "Border Princes",
+        "estate": "",
+        "population": 72,
+        "tags": [
+          "source:2eLotLL"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.419758938741593,
+          35.332315862399994
+        ]
+      },
+      "properties": {
+        "name": "Argalis",
+        "province": "Border Princes",
+        "estate": "",
+        "population": 238,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.6297864426984074,
+          39.900910624
+        ]
+      },
+      "properties": {
+        "name": "Cabanal",
+        "province": "Border Princes",
+        "estate": "",
+        "population": 84,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.673518611338406,
+          39.732422371199995
+        ]
+      },
+      "properties": {
+        "name": "Alynda",
+        "province": "Border Princes",
+        "estate": "",
+        "population": 100,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.906901718858408,
+          40.00874926719999
+        ]
+      },
+      "properties": {
+        "name": "Mentreda",
+        "province": "Border Princes",
+        "estate": "",
+        "population": 122,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.0996098871784064,
+          40.3811451168
+        ]
+      },
+      "properties": {
+        "name": "Heldegrad",
+        "province": "Border Princes",
+        "estate": "",
+        "population": 653,
+        "tags": [],
+        "notes": [],
+        "size_category": 2,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.23437507021840734,
+          38.87984104
+        ]
+      },
+      "properties": {
+        "name": "Arnalos",
+        "province": "Border Princes",
+        "estate": "",
+        "population": 49,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,6331 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.373227550218408,
+          44.27290168288
+        ]
+      },
+      "properties": {
+        "name": "Karaz-a-Karak",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 318,
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "size_category": 2,
+        "wiki": {
+          "title": "Karaz-a-Karak",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Karaz-a-Karak",
+          "description": "Karaz-a-Karak, also spelled Caraz-a-Carak, which translates roughly as \" Everpeak \", or the \" Pinnacle of Mountains \" in the Dwarf tongue Khazalid, is the greatest city of the Dwarf people and the seat of power for High King Thorgrim Grudgebearer of the Karaz Ankor. Karaz-a-Karak is the mightiest and most populous of all Dwarf holds, the capital of the Dwarf empire of Karaz Ankor and the capital hold of the Dwarf high king.",
+          "image": "https://static.wikia.nocookie.net/warhammerfb/images/5/5e/Karaz-a-Karak_Gates_6th_Edition.jpg/revision/latest?cb=20151214230954"
+        },
+        "hold_type": "Karak (Great Hold)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.378991559818406,
+          47.68667617087999
+        ]
+      },
+      "properties": {
+        "name": "Zhufbar",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 310,
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "size_category": 2,
+        "wiki": {
+          "title": "Zhufbar",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Zhufbar",
+          "description": "Zhufbar ( Khazalid for \"Torrent-gate\") is a Dwarf hold of the Karaz Ankor and the twin of neighbouring Karak Varn where the metals, gromril in particular, mined out from beneath Karak Varn are smelted and forged into the weapons and armour which make the Dwarfs famous.",
+          "image": "https://static.wikia.nocookie.net/warhammerfb/images/1/19/Dwarf_zhufbar.jpg/revision/latest?cb=20140805132000"
+        },
+        "hold_type": "Karak (Great Hold)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.01738698381841,
+          51.46166915424
+        ]
+      },
+      "properties": {
+        "name": "Karak Kadrin",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 222,
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": "Karak Kadrin",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Karak_Kadrin",
+          "description": "Karak Kadrin, which means \" Hold of the Mountain Pass \" in Khazalid, also known as \" Slayers Keep,\" is a Dwarf hold which guards a region of mountainous passes known simply as Peak Pass, an important trading route which runs through the Worlds Edge Mountains from the distant east to the Old World.",
+          "image": "https://static.wikia.nocookie.net/warhammerfb/images/9/98/Dwarf_KadrinValley01.jpg/revision/latest?cb=20140805185213"
+        },
+        "hold_type": "Karak (Great Hold)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.486707732618408,
+          51.377436405439994
+        ]
+      },
+      "properties": {
+        "name": "Khazid Rhyn",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 105,
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": "Khazid (Town)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.16949147341841,
+          36.232394297599996
+        ]
+      },
+      "properties": {
+        "name": "Karak Eight Peaks",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 84,
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": "Karak Eight Peaks",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Karak_Eight_Peaks",
+          "description": "Karak Eight Peaks, now called the City of Pillars by the Skaven who currently rule it, is the Dwarf hold originally known as Vala-Azril-Ungol, \"Queen of the Silver Depths\" in Khazalid, the Dwarf tongue. Karaz Eight Peaks was once one of the greatest kingdoms ever created by the Dwarfs of the Golden Age, rivaling even their capital city of Karaz-a-Karak in terms of sheer power, wealth, and beauty.",
+          "image": "https://static.wikia.nocookie.net/warhammerfb/images/4/4e/K8P_inside.png/revision/latest?cb=20200326031012"
+        },
+        "hold_type": "Karak (Great Hold)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.699957195018408,
+          35.1260784832
+        ]
+      },
+      "properties": {
+        "name": "Karak Azul",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 50,
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": "Karak Azul",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Karak_Azul",
+          "description": "Karak Azul (\" Iron Peak \" in Khazalid ) is a Dwarf hold located in the southern Worlds Edge Mountains. It is the only southern karak still ruled by the Dwarfs. The territories of the High Elves of Ulthuan and the Dwarfs of the Karaz Ankor in the Old World at the dawn of the War of the Beard.",
+          "image": "https://static.wikia.nocookie.net/warhammerfb/images/3/32/Karak_Azul.PNG/revision/latest?cb=20151004194357"
+        },
+        "hold_type": "Karak (Great Hold)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.171098340618409,
+          34.66515965439999
+        ]
+      },
+      "properties": {
+        "name": "Kazad Migdhal",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 100,
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": "Kazad (Fortress)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.655890428938407,
+          39.1777923776
+        ]
+      },
+      "properties": {
+        "name": "Barak Varr",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 187,
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": "Barak Varr",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Barak_Varr",
+          "description": "Barak Varr, which means the \" Gate to the Sea \" in Khazalid, is unique amongst the Dwarf holds of the Karaz Ankor for being the only hold built to serve as a great harbour. Approaching from the land there is no indication at all of the busy port that lies ahead. In fact, even standing on the cliff edge it seems to the unsuspecting eye that the ships are destined to smash themselves into the cliff face.",
+          "image": "https://static.wikia.nocookie.net/warhammerfb/images/6/6b/Western_Dwarf_Realms.png/revision/latest?cb=20210727083944"
+        },
+        "hold_type": "Karak (Great Hold)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.8152715255784075,
+          39.386835647999995
+        ]
+      },
+      "properties": {
+        "name": "Khazid Varrwyndak",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 175,
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": "Khazid (Town)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.386108220938407,
+          41.89928594112
+        ]
+      },
+      "properties": {
+        "name": "Karak Hirn",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 190,
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": "Karak Hirn",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Karak_Hirn",
+          "description": "Karak Hirn, (\" Hornhold \" in Khazalid ), is the biggest and most important Dwarf hold in the Black Mountains between the northern Border Princes and the southern borders of the Empire. The hold is currently ruled by King Alrik Ranulfsson of Clan Drazhkarak and his wife, Queen Winnifer Falxenheir.",
+          "image": "https://static.wikia.nocookie.net/warhammerfb/images/7/73/Karak_Hirn_banner.png/revision/latest?cb=20210325232846"
+        },
+        "hold_type": "Karak (Great Hold)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.915306127818408,
+          41.8294610848
+        ]
+      },
+      "properties": {
+        "name": "Grung Rakadem",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 225,
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": "Grung (Mining Settlement)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.6515395578984062,
+          41.710968281919996
+        ]
+      },
+      "properties": {
+        "name": "Khazid Grentaz",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 111,
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": "Khazid (Town)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.957729697418406,
+          42.41226936767999
+        ]
+      },
+      "properties": {
+        "name": "Khazid Svarkungor",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 122,
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": "Khazid (Town)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.897473966218407,
+          43.73399448224
+        ]
+      },
+      "properties": {
+        "name": "Karak Angazbar",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 94,
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": "Karak (Great Hold)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.633255131338406,
+          43.81970999487999
+        ]
+      },
+      "properties": {
+        "name": "Grung Tepskaf",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 434,
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "size_category": 2,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": "Grung (Mining Settlement)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.871818353418406,
+          43.91456539615999
+        ]
+      },
+      "properties": {
+        "name": "Kazad Nardak",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 598,
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "size_category": 2,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": "Kazad (Fortress)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.764455138058406,
+          44.04623100928
+        ]
+      },
+      "properties": {
+        "name": "Migdhal Vongalbavak",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 170,
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": "Kazad (Fortress)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.0020211380584065,
+          42.987339482239996
+        ]
+      },
+      "properties": {
+        "name": "Karak Gantuk",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 63,
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": "Karak Gantuk",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Karak_Gantuk",
+          "description": "Karak Gantuk (\" Gap Hold \" in Khazalid ) is a small Dwarf hold located in the central Black Mountains.",
+          "image": "https://static.wikia.nocookie.net/warhammerfb/images/a/ad/Warhammer_Black_Mountains.png/revision/latest?cb=20170408202909"
+        },
+        "hold_type": "Karak (Great Hold)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.832067450378406,
+          43.02873084096
+        ]
+      },
+      "properties": {
+        "name": "Grung Trag",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 55,
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": "Grung (Mining Settlement)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.909845074058407,
+          43.14826110592
+        ]
+      },
+      "properties": {
+        "name": "Khazid Hafak",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 308,
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "size_category": 2,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": "Khazid (Town)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.911891116618408,
+          42.88791361152
+        ]
+      },
+      "properties": {
+        "name": "Kazad Zhum",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 116,
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": "Kazad (Fortress)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.3595542260584071,
+          40.49830288959999
+        ]
+      },
+      "properties": {
+        "name": "Karak Izor",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 234,
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": "Karak Izor",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Karak_Izor",
+          "description": "Karak Izor (\" Copper Hold \" in Khazalid ), called \" Copper Mountain\" by Humans, is the first and largest Dwarf hold outside the Worlds Edge Mountains. Its age and prestige is such that Dwarf settlements across The Vaults and as far afield as the eastern Irrana and northern Apuccini Mountains look to Karak Izor for protection and guidance.",
+          "image": "https://static.wikia.nocookie.net/warhammerfb/images/6/6b/Western_Dwarf_Realms.png/revision/latest?cb=20210727083944"
+        },
+        "hold_type": "Karak (Great Hold)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9180634753384063,
+          41.73092739296
+        ]
+      },
+      "properties": {
+        "name": "Grung Byrn",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 218,
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": "Grung Byrn",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Grung_Byrn",
+          "description": "Grung Byrn is a mining outpost located in The Vaults that is home to about 52 adult Dwarfs.",
+          "image": "https://static.wikia.nocookie.net/warhammerfb/images/6/6b/Western_Dwarf_Realms.png/revision/latest?cb=20210727083944"
+        },
+        "hold_type": "Grung (Mining Settlement)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.5689221956584076,
+          40.4010664192
+        ]
+      },
+      "properties": {
+        "name": "Hochstadt",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 361,
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "size_category": 2,
+        "wiki": {
+          "title": "Hochstadt",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Hochstadt",
+          "description": "Hochstadt is a small Human farming village located in The Vaults which is also home to about 180 Dwarfs.",
+          "image": "https://static.wikia.nocookie.net/warhammerfb/images/6/6b/Western_Dwarf_Realms.png/revision/latest?cb=20210727083944"
+        },
+        "hold_type": "Khazid (Town)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.8929854753384074,
+          41.4526113424
+        ]
+      },
+      "properties": {
+        "name": "Khazid Algikarag",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 160,
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": "Khazid (Town)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.3971523121384075,
+          40.849844473599994
+        ]
+      },
+      "properties": {
+        "name": "Khazid Nekewukaz",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 229,
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": "Khazid Nekewukaz",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Khazid_Nekewukaz",
+          "description": "Khazid Nekewukaz is a small village in The Vaults housing about 75 adult Dwarfs.",
+          "image": "https://static.wikia.nocookie.net/warhammerfb/images/6/6b/Western_Dwarf_Realms.png/revision/latest?cb=20210727083944"
+        },
+        "hold_type": "Khazid (Town)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.845761625141593,
+          41.31290089088
+        ]
+      },
+      "properties": {
+        "name": "Karak Eksfilaz",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 215,
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": "Karak Eksfilaz",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Karak_Eksfilaz",
+          "description": "Karak Eksfilaz is a Dwarf hold located in The Vaults. The westernmost of all the holds of the Karaz Ankor, Karak Eksfilaz (\"Whispering Aspen Mountain\" in Khazalid ), takes its name from the heavily forested, aspen-covered peak upon which it stands. Much of the hold's trade is conducted with northern Tilea, particularly through the towns of Campogrotta and Toscania.",
+          "image": "https://static.wikia.nocookie.net/warhammerfb/images/6/6b/Western_Dwarf_Realms.png/revision/latest?cb=20210727083944"
+        },
+        "hold_type": "Karak (Great Hold)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.8835277112215927,
+          41.37294153631999
+        ]
+      },
+      "properties": {
+        "name": "Grung Mizpal",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 255,
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": "Grung Mizpal",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Grung_Mizpal",
+          "description": "Grung Mizpal is a small mining outpost with about 57 adult Dwarfs located in The Vaults. It is under the influence of Karak Eksfilaz.",
+          "image": "https://static.wikia.nocookie.net/warhammerfb/images/6/6b/Western_Dwarf_Realms.png/revision/latest?cb=20210727083944"
+        },
+        "hold_type": "Grung (Mining Settlement)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1498108312215924,
+          41.67170610975999
+        ]
+      },
+      "properties": {
+        "name": "Kazad Frukund",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 20,
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": "Kazad Frukund",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Kazad_Frukund",
+          "description": "Kazad Frukund is large Dwarf fort and the westernmost Dwarf stronghold of the Irrana Mountains on the Novalone Pass, with a garrison of about 230 adult Dwarfs. The fort is under the influence of Karak Eksfilaz a Dwarf hold in the the Vaults.",
+          "image": "https://static.wikia.nocookie.net/warhammerfb/images/6/6b/Western_Dwarf_Realms.png/revision/latest?cb=20210727083944"
+        },
+        "hold_type": "Kazad (Fortress)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.8597092990615925,
+          41.028189228799995
+        ]
+      },
+      "properties": {
+        "name": "Karak Bhufdar",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 208,
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": "Karak Bhufdar",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Karak_Bhufdar",
+          "description": "Karak Bhufdar ( Khazalid for \"Grey Fir Hold\") is a Dwarf hold located in the mountainous region known as The Vaults in the Old World. The hold is located at the end of a mountain valley surrounded by a mixed forest of grey fir trees and broadleaf trees like Bretonnian oaks. Besides the usual products of ore and stone produced by most Dwarf cities, Karak Bhufdar trades in timber.",
+          "image": "https://static.wikia.nocookie.net/warhammerfb/images/2/2b/The_Vaults_Map_Nagash_pp.69.png/revision/latest?cb=20220423104235"
+        },
+        "hold_type": "Karak (Great Hold)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.3302784359784067,
+          41.48918980127999
+        ]
+      },
+      "properties": {
+        "name": "Karak Kaferkammaz",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 191,
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": "Karak Kaferkammaz",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Karak_Kaferkammaz",
+          "description": "Karak Kaferkammaz (\" Marble Layers Hold \" in Khazalid ) is the highest Dwarf hold in The Vaults. The hold is ruled by King Skalf Redbeard, and earns a moderate amount of wealth from trade, ore mining and metalworking. Approximately 2,500 able-bodied adult Dwarfs live there.",
+          "image": "https://static.wikia.nocookie.net/warhammerfb/images/6/6b/Western_Dwarf_Realms.png/revision/latest?cb=20210727083944"
+        },
+        "hold_type": "Karak (Great Hold)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.5893582906984075,
+          41.44213274784
+        ]
+      },
+      "properties": {
+        "name": "Grung Wyruvalk",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 75,
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": "Grung Wyruvalk",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Grung_Wyruvalk",
+          "description": "Grung Wyruvalk is a Dwarf silver mine located in The Vaults that is owned by Karak Kaferkammaz.",
+          "image": "https://static.wikia.nocookie.net/warhammerfb/images/6/6b/Western_Dwarf_Realms.png/revision/latest?cb=20210727083944"
+        },
+        "hold_type": "Grung (Mining Settlement)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.6456714593384071,
+          41.732525683199995
+        ]
+      },
+      "properties": {
+        "name": "Mont Grace",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 147,
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": "Umgalkhazid (Human Town)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.45584055730159323,
+          40.129913705599996
+        ]
+      },
+      "properties": {
+        "name": "Karak Grom",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 54,
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": "Karak Grom",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Karak_Grom",
+          "description": "Karak Grom (\" Defiant Hold \" in Khazalid ) is the southernmost of the Dwarf holds of the Karaz Ankor, situated near where The Vaults give way to the Apuccini Mountains. The wealthy Dwarf stronghold is carved into the steep eastern face of Cleaved Mountain ( Karaz Mar ) and gazes out over a wide mountain valley, where the western fork of the River Skiros winds its way below.",
+          "image": "https://static.wikia.nocookie.net/warhammerfb/images/6/6b/Western_Dwarf_Realms.png/revision/latest?cb=20210727083944"
+        },
+        "hold_type": "Karak (Great Hold)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.03970713485840678,
+          40.277160854399995
+        ]
+      },
+      "properties": {
+        "name": "Domatburg",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 252,
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": "Domatburg",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Domatburg",
+          "description": "Domatburg is a subsidiary settlement of Karak Grom and the largest settlement of Men in The Vaults. It also maintains a population of about 210 Dwarfs.",
+          "image": "https://static.wikia.nocookie.net/warhammerfb/images/6/6b/Western_Dwarf_Realms.png/revision/latest?cb=20210727083944"
+        },
+        "hold_type": "Umgalkhazid (Human Town)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.0030205176215925,
+          38.6834321568
+        ]
+      },
+      "properties": {
+        "name": "Kazad Sedazund",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 140,
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": "Kazad Sedazund",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Kazad_Sedazund",
+          "description": "Kazad Sedazund is a Dwarf fort situated in the Apuccini Mountains in the land of Tilea. It is the southernmost Dwarf outpost in the Apuccini Mountains. Kazad Sedazund is considered a subsidiary settlement of Karak Grom, a Dwarf hold to the north in The Vaults.",
+          "image": "https://static.wikia.nocookie.net/warhammerfb/images/6/6b/Western_Dwarf_Realms.png/revision/latest?cb=20210727083944"
+        },
+        "hold_type": "Kazad (Fortress)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.9284522523415926,
+          38.754937747199996
+        ]
+      },
+      "properties": {
+        "name": "Khazid Urbaz",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 33,
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": "Khazid Urbaz",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Khazid_Urbaz",
+          "description": "Khazid Urbaz, meaning \"trading post town\" in Khazalid, is a village of Karak Grom with a population of about 90 Dwarfs. Situated upon the banks of the River Skiros, the small Dwarf hold of Khazid Urbaz serves as the main trade centre for the Dwarfs of The Vaults and the Apuccini Mountains with the Men of the Border Princes and Tilea.",
+          "image": "https://static.wikia.nocookie.net/warhammerfb/images/6/6b/Western_Dwarf_Realms.png/revision/latest?cb=20210727083944"
+        },
+        "hold_type": "Khazid (Town)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.177352308618407,
+          41.99479091583999
+        ]
+      },
+      "properties": {
+        "name": "Karak Skivark (Grimhold)",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 550,
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "size_category": 2,
+        "wiki": {
+          "title": "Grimhold",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Grimhold",
+          "description": "Grimhold is a declining Grey Dwarf hold located in the southern Grey Mountains.",
+          "image": "https://static.wikia.nocookie.net/warhammerfb/images/2/2b/The_Vaults_Map_Nagash_pp.69.png/revision/latest?cb=20220423104235"
+        },
+        "hold_type": "Karak (Great Hold)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.9833276452584072,
+          44.78106678336
+        ]
+      },
+      "properties": {
+        "name": "Karak Norn",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 216,
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": "Karak Norn",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Karak_Norn",
+          "description": "Karak Norn (\" Barren Earth Hold \" in Khazalid ) is a Dwarf hold built on a forested and valley-ringed mountain amongst the Grey Mountains. It is believed to be the first hold to have been ruled by a Dwarf queen, Hadora Ironpick, who led her people there following the fall of Mount Silverspear in -1367 IC.",
+          "image": "https://static.wikia.nocookie.net/warhammerfb/images/e/ee/Karak_Norn-Rune.png/revision/latest?cb=20211116192926"
+        },
+        "hold_type": "Karak (Great Hold)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.048168937738407,
+          44.882872848
+        ]
+      },
+      "properties": {
+        "name": "Bergheim",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 77,
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": "Umgalkhazid (Human Town)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.1511705255784068,
+          44.74321473344
+        ]
+      },
+      "properties": {
+        "name": "Khazid Thran",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 157,
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": "Khazid (Town)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.8453821000215924,
+          48.76572355392
+        ]
+      },
+      "properties": {
+        "name": "Karak Azgaraz",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 131,
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": "Karak Azgaraz",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Karak_Azgaraz",
+          "description": "Karak Azgaraz ( Khazalid for \" Hold of the Fearless Axe \") is one of the major Dwarf holds, located not too far from the Imperial trading city of Übersreik. There are many Dwarf strongholds scattered throughout the Grey Mountains, though none are as wealthy or as magnificent as the surviving karaks of the Worlds Edge Mountains far to the east. The Dwarfs of this region are called \" Grey Dwarfs \" by their eastern kin, which is a reference not only to their location, but also to their dour outlook and the relative austerity of their holds.",
+          "image": "https://static.wikia.nocookie.net/warhammerfb/images/7/78/Karak_Azgaraz_map_1.png/revision/latest?cb=20161014163730"
+        },
+        "hold_type": "Karak (Great Hold)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.8608043493015929,
+          48.86278813504
+        ]
+      },
+      "properties": {
+        "name": "Grimbringrungaz",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 91,
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": "Grung (Mining Settlement)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.570630096501593,
+          50.035527428479995
+        ]
+      },
+      "properties": {
+        "name": "Karak Ziflin",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 65,
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": "Karak Ziflin",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Karak_Ziflin",
+          "description": "Karak Ziflin (\" Windswept Hold \" in Khazalid ) is the smallest of the Grey Dwarf holds of the Grey Mountains. Karak Ziflin sits north of Axe Bite Pass that divides the lands of Bretonnia and the Empire, located more on the Bretonnian side of the divide. Winds from the western Sea of Claws frequently blow through the kingdom.",
+          "image": "https://static.wikia.nocookie.net/warhammerfb/images/9/9a/Karak_Ziflin_banner_Total_War.png/revision/latest?cb=20171118185626"
+        },
+        "hold_type": "Karak (Great Hold)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.6914602085015926,
+          50.11048673311999
+        ]
+      },
+      "properties": {
+        "name": "Grung Ardzufak",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 102,
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": "Grung (Mining Settlement)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.464270891381593,
+          49.98113234816
+        ]
+      },
+      "properties": {
+        "name": "Kazad Elgazund",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 80,
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": "Kazad (Fortress)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.372859927818407,
+          64.04690564735999
+        ]
+      },
+      "properties": {
+        "name": "Kraka Drak",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 66,
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": "Kraka Drak",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Kraka_Drak",
+          "description": "Kraka Drak (\" Dragon Hold \" in Khazalid ) was a Dwarf hold and the former capital of the Norse Dwarfs of Norsca and their last Great King Silverbeard. Kraka Drak was completely destroyed during the War in the Mountains (2302-2390 IC ) by the Chaos hordes commanded by Valmir Aesling, who spent ninety years slaughtering the Dwarfs in the hold that they were trapped in by an avalanche engineered by the Great King Silverbeard. Kraka Drak was later resettled by Norse Dwarf refugees, who hope to clear the halls and rebuild the hold back to its former glory.",
+          "image": "https://static.wikia.nocookie.net/warhammerfb/images/8/80/Kraka_Drak_Total_War_Warhammer.png/revision/latest?cb=20171107164314"
+        },
+        "hold_type": "Karak (Great Hold)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.57752892941841,
+          63.26408143199999
+        ]
+      },
+      "properties": {
+        "name": "Grung Kuldungor",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 160,
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": "Grung (Mining Settlement)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.387099412618406,
+          63.97507395743999
+        ]
+      },
+      "properties": {
+        "name": "Khazid Ravik",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 237,
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": "Khazid (Town)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.128430532618406,
+          61.89357792063999
+        ]
+      },
+      "properties": {
+        "name": "Kraka Ravnsvake",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 292,
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": "Kraka Ravnsvake",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Kraka_Ravnsvake",
+          "description": "Kraka Ravnsvake, meaning \" Raven's Roost Hold \" in Khazalid, is a Dwarf Hold that lies in the mountains south-west of Kraka Drak, at the far end of Draksfjord. Beneath the stronghold are extensive deposits of okrinaduraz, a hard, bluish-grey stone used by Dwarf artisans to carve the likenesses of their revered ancestors and fashion works of art.",
+          "image": "https://static.wikia.nocookie.net/warhammerfb/images/8/86/Kraka_Ravnvake_Map.png/revision/latest?cb=20180506200319"
+        },
+        "hold_type": "Karak (Great Hold)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.810858999818409,
+          61.95743671359999
+        ]
+      },
+      "properties": {
+        "name": "Grung Stekbrud",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 260,
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": "Grung (Mining Settlement)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.089218110218406,
+          61.790421422399994
+        ]
+      },
+      "properties": {
+        "name": "Khazid Bordkarag",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 256,
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": "Khazid (Town)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.199797879818409,
+          62.708464212799996
+        ]
+      },
+      "properties": {
+        "name": "Sjoktraken",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 344,
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "size_category": 2,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": "Khazid (Town)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.134875524618407,
+          64.49223996479999
+        ]
+      },
+      "properties": {
+        "name": "Kraka Dorden",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 220,
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": "Kraka Dorden",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Kraka_Dorden",
+          "description": "The second largest Norse Dwarf hold is Kraka Dorden (\" Thunder Hold \" in Khazalid ), located north-west of Kraka Drak in the mountains above Taldursfjord. It is ruled by King Logamir Ulfarson and Queen Friga Alaricdottir of Clan Zhargrun. Kraka Dorden is well known in Norsca for its furs, its metalwork, and its deposits of iron, tin, and quartz.",
+          "image": "https://static.wikia.nocookie.net/warhammerfb/images/6/6a/Kraka_Dorden_Map.png/revision/latest?cb=20180506200832"
+        },
+        "hold_type": "Karak (Great Hold)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.133335172618406,
+          63.86645341055999
+        ]
+      },
+      "properties": {
+        "name": "Grung Dobekzhuf",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 782,
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "size_category": 2,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": "Grung (Mining Settlement)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.066704446218406,
+          64.39147293759999
+        ]
+      },
+      "properties": {
+        "name": "Khazid Fneldurk",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 304,
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "size_category": 2,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": "Khazid (Town)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.402986647178407,
+          64.49146173695999
+        ]
+      },
+      "properties": {
+        "name": "Kraka Ornsmotek",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 53,
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": "Kraka Ornsmotek",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Kraka_Ornsmotek",
+          "description": "Kraka Ornsmotek (\" Eagle's Peak Hold \" in Khazalid ) is the northernmost Norse Dwarf hold, and also the most heavily fortified. Located in the Jagged Tooth Mountains, this region of Norsca has a higher population of Giants, Trolls and the forces of Chaos than anywhere else in the Known World, and Kraka Ornsmotek is home to more Slayers and Norse Dwarf Berserkers than the other Norse Dwarf holds combined.",
+          "image": "https://static.wikia.nocookie.net/warhammerfb/images/6/6e/Kraka_Ornsmotek_Map.png/revision/latest?cb=20180506200637"
+        },
+        "hold_type": "Karak (Great Hold)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.821455475338406,
+          64.00699862783999
+        ]
+      },
+      "properties": {
+        "name": "Grung Diratduraz",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 203,
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": "Grung (Mining Settlement)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.6172461095784065,
+          63.91844029056
+        ]
+      },
+      "properties": {
+        "name": "Kazad Dumund",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 40,
+        "tags": [
+          "source:4eLoSaS"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": "Kazad (Fortress)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.500937532618407,
+          45.86506797343999
+        ]
+      },
+      "properties": {
+        "name": "Karag Dromar",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 17,
+        "tags": [
+          "source:TWW3"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": "Grung (Mining Settlement)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.494793453578406,
+          46.766610443199994
+        ]
+      },
+      "properties": {
+        "name": "Karak Varn (Cragmere)",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 71,
+        "tags": [
+          "source:1eDSaS"
+        ],
+        "notes": [
+          "fallen"
+        ],
+        "size_category": 1,
+        "wiki": {
+          "title": "Karak Varn",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Karak_Varn",
+          "description": "Karak-Varn (in Khazalid, lit. \"Stronghold of lake enclosed by mountains\"), nowadays sometimes called Cragmere, was once a flourishing hold of the Dwarfs. Today, it is a ruin, given up to the Skaven and other enemies of the Dwarfs. It is one of two Dwarf holds which overlook the Black Water Lake, at the junction of the Black Mountains and the Worlds Edge Mountains.",
+          "image": "https://static.wikia.nocookie.net/warhammerfb/images/c/c8/Dwarf_Button.png/revision/latest?cb=20150606013001"
+        },
+        "hold_type": "Karak (Great Hold)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.62919550541841,
+          37.0293146592
+        ]
+      },
+      "properties": {
+        "name": "Karak Drazh (Black Crag)",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 151,
+        "tags": [
+          "source:1eDSaS"
+        ],
+        "notes": [
+          "fallen"
+        ],
+        "size_category": 1,
+        "wiki": {
+          "title": "Karak Drazh",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Karak_Drazh",
+          "description": null,
+          "image": null
+        },
+        "hold_type": "Karak (Great Hold)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.138483137418408,
+          34.2216800608
+        ]
+      },
+      "properties": {
+        "name": "Karak Azgal",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 409,
+        "tags": [
+          "source:2eKAAotDC"
+        ],
+        "notes": [
+          "fallen"
+        ],
+        "size_category": 2,
+        "wiki": {
+          "title": "Karak Azgal",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Karak_Azgal",
+          "description": "Karak Azgal, which means \" Hoard Peak \" in Reikspiel and Khazalid, formerly called Karak Izril, meaning the \" City of Jewels \", and known today as the \" Dragon Crag \", was once an extremely wealthy Dwarf Hold that has since fallen under the control of the Greenskins and the Skaven.",
+          "image": "https://static.wikia.nocookie.net/warhammerfb/images/d/d0/Karak_Azgal_Sigil.png/revision/latest?cb=20200407212131"
+        },
+        "hold_type": "Karak (Great Hold)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.1714730650984075,
+          33.52245652479999
+        ]
+      },
+      "properties": {
+        "name": "Ekrund",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 118,
+        "tags": [
+          "source:1eDSaS"
+        ],
+        "notes": [
+          "fallen"
+        ],
+        "size_category": 1,
+        "wiki": {
+          "title": "Ekrund",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Ekrund",
+          "description": "Ekrund, now called Mount Bloodhorn, is a fallen Dwarf hold. In -1498 IC, the Badlands were overrun by Greenskins. Ekrund fell to the Orcs after many months of intense fighting by the vastly outnumbered Dwarfs.",
+          "image": "https://static.wikia.nocookie.net/warhammerfb/images/d/df/Warhammer_Gates_of_Ekrund_by_Lanefenu.jpg/revision/latest?cb=20200326022136"
+        },
+        "hold_type": "Karak (Great Hold)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.493704100618409,
+          53.873039973759994
+        ]
+      },
+      "properties": {
+        "name": "Karak Ungor (Red-Eye Mountain)",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 175,
+        "tags": [
+          "source:1eDSaS"
+        ],
+        "notes": [
+          "fallen"
+        ],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": "Karak (Great Hold)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.893548011018407,
+          59.157437097439995
+        ]
+      },
+      "properties": {
+        "name": "Karak Vlag",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 99,
+        "tags": [
+          "source:1eDSaS"
+        ],
+        "notes": [
+          "fallen"
+        ],
+        "size_category": 1,
+        "wiki": {
+          "title": "Karak Vlag",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Karak_Vlag",
+          "description": "Although the most northerly of the major Dwarf realms is Karak Kadrin, there used to be another hold situated on the southern side of the High Pass. Karak Vlag, which means \" Desolation Hold \" in Khazalid, was famed for its quality of stone-masonry. It had vast qualities of iron ore in the rocks below its walls.",
+          "image": "https://static.wikia.nocookie.net/warhammerfb/images/c/c8/Dwarf_Button.png/revision/latest?cb=20150606013001"
+        },
+        "hold_type": "Karak (Great Hold)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.702266068618407,
+          43.55469803455999
+        ]
+      },
+      "properties": {
+        "name": "Karag Agilwutraz (Mount Silverspear)",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 52,
+        "tags": [
+          "source:1eDSaS"
+        ],
+        "notes": [
+          "fallen"
+        ],
+        "size_category": 1,
+        "wiki": {
+          "title": "Karag Agilwutraz",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Karag_Agilwutraz",
+          "description": null,
+          "image": null
+        },
+        "hold_type": "Karak (Great Hold)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.469587070218406,
+          46.45453302752
+        ]
+      },
+      "properties": {
+        "name": "Karag Gunbad",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 133,
+        "tags": [
+          "source:1eDSaS"
+        ],
+        "notes": [
+          "fallen"
+        ],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": "Khazid (Town)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.023067170698408,
+          55.33215538463999
+        ]
+      },
+      "properties": {
+        "name": "Karak Skygg",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 643,
+        "tags": [
+          "source:4eTHRC"
+        ],
+        "notes": [
+          "fallen"
+        ],
+        "size_category": 2,
+        "wiki": {
+          "title": "Karak Skygg",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Karak_Skygg",
+          "description": "Karak Skygg is an abandoned Dwarf hold that stands high in the Middle Mountains in the old Dwarfen realm of Karaz Ghumzul. For centuries this hold was home to the mountain folk but was never a major settlement -- perhaps the equivalent of a small Human town or fortress. At some point in the past, for unknown reasons, the Dwarfs of the Middle Mountains abandoned and sealed their holds to return to the Worlds Edge Mountains.",
+          "image": "https://static.wikia.nocookie.net/warhammerfb/images/6/68/Horned_Rat_Companion_Middle_Mountains%E2%80%99.png/revision/latest?cb=20230916114706"
+        },
+        "hold_type": "Karak (Great Hold)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.305474450378407,
+          55.60144234687999
+        ]
+      },
+      "properties": {
+        "name": "Kazad Drengi (Keep of the First Slayer)",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 385,
+        "tags": [
+          "source:4eTHRC"
+        ],
+        "notes": [
+          "fallen"
+        ],
+        "size_category": 2,
+        "wiki": {
+          "title": "Keep of the First Slayer",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Keep_of_the_First_Slayer",
+          "description": null,
+          "image": null
+        },
+        "hold_type": "Kazad (Fortress)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.2523028804584073,
+          55.25192317503999
+        ]
+      },
+      "properties": {
+        "name": "Karak Kazarak",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 313,
+        "tags": [
+          "source:4eMCotWW"
+        ],
+        "notes": [
+          "fallen"
+        ],
+        "size_category": 2,
+        "wiki": {
+          "title": "Karak Kazarak",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Karak_Kazarak",
+          "description": null,
+          "image": null
+        },
+        "hold_type": "Karak (Great Hold)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.277608391818406,
+          47.81812718496
+        ]
+      },
+      "properties": {
+        "name": "Oakenhammer",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 104,
+        "tags": [
+          "source:TWW3"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": "Khazid (Town)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1546226232215929,
+          48.60119715647999
+        ]
+      },
+      "properties": {
+        "name": "Migdhal Agril",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 68,
+        "tags": [
+          "source:4eStartSet"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": "Kazad (Fortress)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0504559691415924,
+          48.1780201024
+        ]
+      },
+      "properties": {
+        "name": "Khazid Kro",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 184,
+        "tags": [
+          "source:Vermintide2"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": "Khazid (Town)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.3694663911784072,
+          47.750937030719996
+        ]
+      },
+      "properties": {
+        "name": "Karak Gnol",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 92,
+        "tags": [
+          "source:Vermintide2"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": "Karak Gnol",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Karak_Gnol",
+          "description": "Karak Gnol, meaning \" Old Hold \" in Khazalid, is a now-abandoned Dwarf hold in the Grey Mountains. Its towers and buildings were built in a massive cavern, and included a great waterworks and expansive mining operations. The hold was overrun by the Skaven during the early End Times and served as the chief fortress and nest of Warlord Skarrik Spinemanglr of Clan Fester, before he was slain by a group of heroes known as the Ubersreik Five.",
+          "image": null
+        },
+        "hold_type": "Karak (Great Hold)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.9302354232215926,
+          50.356136118719995
+        ]
+      },
+      "properties": {
+        "name": "Karak Tzor",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 74,
+        "tags": [
+          "source:TWW1"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": "Karak (Great Hold)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.61246520141841,
+          43.96622477632
+        ]
+      },
+      "properties": {
+        "name": "Kazad Urkbavak",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 264,
+        "tags": [
+          "source:1eLoSaS"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": "Kazad (Fortress)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.882596148938406,
+          62.49921054431999
+        ]
+      },
+      "properties": {
+        "name": "Grung Drekaz",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 11,
+        "tags": [
+          "source:1eLoSaS"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": "Grung (Mining Settlement)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.0387679662184075,
+          64.60374464575999
+        ]
+      },
+      "properties": {
+        "name": "Khazid Skovekarag",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 162,
+        "tags": [
+          "source:1eLoSaS"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": "Khazid (Town)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.456619253258408,
+          64.39073461887999
+        ]
+      },
+      "properties": {
+        "name": "Kazad Grontunt",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 77,
+        "tags": [
+          "source:1eLoSaS"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": "Kazad (Fortress)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.442188350901593,
+          38.6726812
+        ]
+      },
+      "properties": {
+        "name": "Zarakzil",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 60,
+        "tags": [
+          "source:TWW3"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": "Karak (Great Hold)"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.814132286218408,
+          41.71447888416
+        ]
+      },
+      "properties": {
+        "name": "Khazid Vosk",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 122,
+        "tags": [
+          "source:TOW"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.18406878541841,
+          45.62006220991999
+        ]
+      },
+      "properties": {
+        "name": "Grung Gundrikson",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 32,
+        "tags": [
+          "source:TOW"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.5538248590184063,
+          41.41364183711999
+        ]
+      },
+      "properties": {
+        "name": "Kadar Gravning",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 105,
+        "tags": [
+          "source:1eDoomstones"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.0339411614184075,
+          44.649430927039994
+        ]
+      },
+      "properties": {
+        "name": "Khazid Ank",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 238,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.8573744625384075,
+          44.67953413119999
+        ]
+      },
+      "properties": {
+        "name": "Khazid Rhek",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 46,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.2739682622184072,
+          45.09454049311999
+        ]
+      },
+      "properties": {
+        "name": "Khazid Grimaz",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 428,
+        "tags": [],
+        "notes": [],
+        "size_category": 2,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.900067066378407,
+          47.087077701119995
+        ]
+      },
+      "properties": {
+        "name": "Kolaz Ungor",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 168,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.985704511178406,
+          47.521571966399996
+        ]
+      },
+      "properties": {
+        "name": "Skraklaz Ungor",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 104,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.1654235076584072,
+          45.283265120319996
+        ]
+      },
+      "properties": {
+        "name": "Kazad Skom",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 345,
+        "tags": [],
+        "notes": [],
+        "size_category": 2,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.2710736257384074,
+          44.990336905599996
+        ]
+      },
+      "properties": {
+        "name": "Kazad Almon",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 252,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.234043738698407,
+          44.130700762240004
+        ]
+      },
+      "properties": {
+        "name": "Kazad Thurgaraz",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 131,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.4049137009384065,
+          39.003121711999995
+        ]
+      },
+      "properties": {
+        "name": "Dok Karaz",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 41,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.37798867661841,
+          53.05677926751999
+        ]
+      },
+      "properties": {
+        "name": "Karak Raziak",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 150,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.46482427021841,
+          53.73525968831999
+        ]
+      },
+      "properties": {
+        "name": "Khazid Irkulaz",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 400,
+        "tags": [],
+        "notes": [],
+        "size_category": 2,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.7428494663784071,
+          41.3376984576
+        ]
+      },
+      "properties": {
+        "name": "Grung Ikree",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 135,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.19534462898159272,
+          40.41525341119999
+        ]
+      },
+      "properties": {
+        "name": "Khazid Wyrwarn",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 219,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.0827463393384076,
+          41.10136890176
+        ]
+      },
+      "properties": {
+        "name": "Grung Agrilebaz",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 101,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.626261815818408,
+          64.25565134976
+        ]
+      },
+      "properties": {
+        "name": "Grung Trakekarag",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 333,
+        "tags": [],
+        "notes": [],
+        "size_category": 2,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.748908939018406,
+          58.069466840352
+        ]
+      },
+      "properties": {
+        "name": "Grung Azulduraz",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 260,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.449889857418409,
+          57.059263914591995
+        ]
+      },
+      "properties": {
+        "name": "Grung Agril-Ril",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 261,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.690827166218408,
+          56.470696413119995
+        ]
+      },
+      "properties": {
+        "name": "Grung Karagzan",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 107,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.67146249101841,
+          53.09418041439999
+        ]
+      },
+      "properties": {
+        "name": "Grung Drazhungor",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 86,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.704720071818409,
+          51.99908746463999
+        ]
+      },
+      "properties": {
+        "name": "Grung Kolduraz",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 119,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.290073047818407,
+          46.487746342399994
+        ]
+      },
+      "properties": {
+        "name": "Grung Galaz-Ril",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 466,
+        "tags": [],
+        "notes": [],
+        "size_category": 2,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.438242638218407,
+          45.96326296288
+        ]
+      },
+      "properties": {
+        "name": "Grung Mhonarduk",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 202,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.517681859018406,
+          45.65538633215999
+        ]
+      },
+      "properties": {
+        "name": "Grung Girtazul",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 163,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.315931707018407,
+          51.63888700191999
+        ]
+      },
+      "properties": {
+        "name": "Grung Kadrinzan",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 38,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.269505245898406,
+          46.38244770464
+        ]
+      },
+      "properties": {
+        "name": "Grung Varnizor",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 142,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.97386328781841,
+          45.201869944959995
+        ]
+      },
+      "properties": {
+        "name": "Grung Undrinzan",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 578,
+        "tags": [],
+        "notes": [],
+        "size_category": 2,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.440675713418408,
+          44.63911809535999
+        ]
+      },
+      "properties": {
+        "name": "Grung Karagbryn",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 256,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.621679345418407,
+          44.205437941119996
+        ]
+      },
+      "properties": {
+        "name": "Grung Konkril",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 664,
+        "tags": [],
+        "notes": [],
+        "size_category": 2,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.512275863818406,
+          43.265792414079996
+        ]
+      },
+      "properties": {
+        "name": "Grung Bruzungor",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 782,
+        "tags": [],
+        "notes": [],
+        "size_category": 2,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.318669371018407,
+          43.546310467839994
+        ]
+      },
+      "properties": {
+        "name": "Grung Skreeduraz",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 216,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.571897950218407,
+          43.685707772799994
+        ]
+      },
+      "properties": {
+        "name": "Grung Zintungor",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 412,
+        "tags": [],
+        "notes": [],
+        "size_category": 2,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.625677239818407,
+          44.081529575679994
+        ]
+      },
+      "properties": {
+        "name": "Grung  Rikgalbaraz",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 47,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.97386328781841,
+          44.5926530272
+        ]
+      },
+      "properties": {
+        "name": "Grung Rikghazagil",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 276,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.093849707018407,
+          43.994317296
+        ]
+      },
+      "properties": {
+        "name": "Kazad Mingoldrazh",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 52,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.539538305418407,
+          43.89574824607999
+        ]
+      },
+      "properties": {
+        "name": "Kazad Grom-Und",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 194,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.56682355981841,
+          44.579742952
+        ]
+      },
+      "properties": {
+        "name": "Kazad Grim-Bar",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 193,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.470178667018407,
+          45.43936299168
+        ]
+      },
+      "properties": {
+        "name": "Kazad Migdhalazul",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 122,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.564219743818407,
+          47.089761414399995
+        ]
+      },
+      "properties": {
+        "name": "Kazad Bar-Karin",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 90,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.469870577418407,
+          47.82288774784
+        ]
+      },
+      "properties": {
+        "name": "Kazad Vengrynaz",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 604,
+        "tags": [],
+        "notes": [],
+        "size_category": 2,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.6582659374184069,
+          40.890875599999994
+        ]
+      },
+      "properties": {
+        "name": "Kazad Drakkgrim",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 69,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.851247767818409,
+          42.06112529951999
+        ]
+      },
+      "properties": {
+        "name": "Kazad Urkdrengi",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 105,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.542085156618407,
+          42.45522278336
+        ]
+      },
+      "properties": {
+        "name": "Kazad Grobithag",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 273,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.303304340618407,
+          42.08005657568
+        ]
+      },
+      "properties": {
+        "name": "Kazad Raki-Und",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 234,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.081731707018408,
+          44.11594786591999
+        ]
+      },
+      "properties": {
+        "name": "Kazad Gorm-Mingol",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 178,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.044859511818407,
+          44.353439862399995
+        ]
+      },
+      "properties": {
+        "name": "Kazad Rik-Bar",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 79,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.581630116618408,
+          45.38938732128
+        ]
+      },
+      "properties": {
+        "name": "Kazad Gov-Kazak",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 145,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.105701703818406,
+          51.6847163248
+        ]
+      },
+      "properties": {
+        "name": "Kazad Kadrin-Bar",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 42,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.030109651018408,
+          39.1905702976
+        ]
+      },
+      "properties": {
+        "name": "Kazad Varr-Mingol",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 666,
+        "tags": [],
+        "notes": [],
+        "size_category": 2,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.534399207818407,
+          43.828548464639994
+        ]
+      },
+      "properties": {
+        "name": "Kazad Grongbarag",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 390,
+        "tags": [],
+        "notes": [],
+        "size_category": 2,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.061757854218408,
+          45.719879995199996
+        ]
+      },
+      "properties": {
+        "name": "Kazad Grundazul",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 212,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.338342876618407,
+          46.829895805119996
+        ]
+      },
+      "properties": {
+        "name": "Kazad Gromril",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 338,
+        "tags": [],
+        "notes": [],
+        "size_category": 2,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.568215012618406,
+          44.18306327808
+        ]
+      },
+      "properties": {
+        "name": "Kazad Thryngund",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 76,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.425308932618407,
+          46.86603631391999
+        ]
+      },
+      "properties": {
+        "name": "Kazad Valayabarr",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 376,
+        "tags": [],
+        "notes": [],
+        "size_category": 2,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.507364203018408,
+          50.98944991807999
+        ]
+      },
+      "properties": {
+        "name": "Kazad Grimniraz",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 74,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.46095415501841,
+          51.91704446623999
+        ]
+      },
+      "properties": {
+        "name": "Kazad Dalbar",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 80,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5689008187415924,
+          41.433959780159995
+        ]
+      },
+      "properties": {
+        "name": "Kazad Debmigdhal",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 123,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.668054015541593,
+          40.4677374048
+        ]
+      },
+      "properties": {
+        "name": "Kazad Agrilmingdol",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 84,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.9708023463784072,
+          41.680794711679994
+        ]
+      },
+      "properties": {
+        "name": "Kazad Zan-Kazak",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 253,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.7249523045015923,
+          40.231744975999995
+        ]
+      },
+      "properties": {
+        "name": "Khazid Urbazdrazh",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 549,
+        "tags": [],
+        "notes": [],
+        "size_category": 2,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.832191182218407,
+          44.477347177599995
+        ]
+      },
+      "properties": {
+        "name": "Khazid Vithangdal",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 352,
+        "tags": [],
+        "notes": [],
+        "size_category": 2,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.07497164301841,
+          45.3412684752
+        ]
+      },
+      "properties": {
+        "name": "Khazid Gorogtrogg",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 400,
+        "tags": [],
+        "notes": [],
+        "size_category": 2,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.527943732618407,
+          43.58245185184
+        ]
+      },
+      "properties": {
+        "name": "Khazid Zornwyr",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 608,
+        "tags": [],
+        "notes": [],
+        "size_category": 2,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.212785886218409,
+          44.46575865439999
+        ]
+      },
+      "properties": {
+        "name": "Khazid Ongadrindal",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 161,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.12274881101841,
+          35.4322076896
+        ]
+      },
+      "properties": {
+        "name": "Khazid Skarrenawizorn",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 65,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.874802900618409,
+          35.319039078399996
+        ]
+      },
+      "properties": {
+        "name": "Khazid Azul-Vithang",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 77,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.580611441418409,
+          35.960341878399994
+        ]
+      },
+      "properties": {
+        "name": "Khazid Wyrstromez",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 209,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.223402062218407,
+          35.060273945599995
+        ]
+      },
+      "properties": {
+        "name": "Khazid Narvorn",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 70,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.107537815818407,
+          34.533270515199995
+        ]
+      },
+      "properties": {
+        "name": "Khazid Yarurbaz",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 782,
+        "tags": [],
+        "notes": [],
+        "size_category": 2,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.40782243661841,
+          34.961266070399994
+        ]
+      },
+      "properties": {
+        "name": "Khazid Lokagril",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 94,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.75373646541841,
+          35.220463552
+        ]
+      },
+      "properties": {
+        "name": "Kazad Brandund",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 167,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.858695700618407,
+          34.7507419616
+        ]
+      },
+      "properties": {
+        "name": "Khazid Azulokrid",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 58,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.560152727818409,
+          36.889851539199995
+        ]
+      },
+      "properties": {
+        "name": "Grung Rhynaz (Red Axe Mines)",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 405,
+        "tags": [],
+        "notes": [],
+        "size_category": 2,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.053151137418409,
+          35.884609071999996
+        ]
+      },
+      "properties": {
+        "name": "Grung Ghuzhur",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 212,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.92192890061841,
+          36.0601461856
+        ]
+      },
+      "properties": {
+        "name": "Kazad Morzundbar (Morzund's Gate)",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 29,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.30514572301841,
+          36.3625312864
+        ]
+      },
+      "properties": {
+        "name": "Kazad Rikbar (King's Gate)",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 75,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.496807521418408,
+          36.31567482879999
+        ]
+      },
+      "properties": {
+        "name": "Und-Uzgar",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 782,
+        "tags": [],
+        "notes": [],
+        "size_category": 2,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.910941678218407,
+          37.166342972799995
+        ]
+      },
+      "properties": {
+        "name": "Grung Uzkul",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 174,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.926460705418409,
+          37.4856194336
+        ]
+      },
+      "properties": {
+        "name": "Grung Angazungstromez (Ironfont Mines)",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 765,
+        "tags": [],
+        "notes": [],
+        "size_category": 2,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.39067728781841,
+          37.578829984
+        ]
+      },
+      "properties": {
+        "name": "Grung Duraz-zharr (Flamestone Mine)",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 65,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.911934116618408,
+          36.2000679104
+        ]
+      },
+      "properties": {
+        "name": "West Gate",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 128,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.441286583818407,
+          36.1988531328
+        ]
+      },
+      "properties": {
+        "name": "East Gate",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 23,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.544721220618408,
+          36.045523344
+        ]
+      },
+      "properties": {
+        "name": "Grung Brynduraz (Diamondhelm Mines)",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 278,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.286131127818408,
+          36.26821973439999
+        ]
+      },
+      "properties": {
+        "name": "Kazad-Vala-Azril-Ungol (The Citadel)",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 53,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.474481150218411,
+          38.4953026656
+        ]
+      },
+      "properties": {
+        "name": "Grung Angazduraz (Iron Rock)",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 55,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.039090193418406,
+          37.75161721919999
+        ]
+      },
+      "properties": {
+        "name": "Karag Dron (Thunder Mountain)",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 101,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.08972224461841,
+          36.4224072192
+        ]
+      },
+      "properties": {
+        "name": "Kazad Uzkulbar (Death's Gate)",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 219,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.380136359818406,
+          35.301202502399995
+        ]
+      },
+      "properties": {
+        "name": "Khazid Skratidal",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 96,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.232008779018408,
+          35.6591680544
+        ]
+      },
+      "properties": {
+        "name": "Khazid Krutivorn",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 88,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.750141163018409,
+          35.2082737664
+        ]
+      },
+      "properties": {
+        "name": "Khazid Hrukizorn",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 120,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.657333185418407,
+          34.249700464
+        ]
+      },
+      "properties": {
+        "name": "Khazid Ziekstikdal",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 51,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.43360755981841,
+          34.160214764799996
+        ]
+      },
+      "properties": {
+        "name": "Khazid Angfluk-Gazan",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 201,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.440675713418408,
+          35.480186153599995
+        ]
+      },
+      "properties": {
+        "name": "Khazid Grummaldal",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 240,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.709572161418409,
+          35.679814022399995
+        ]
+      },
+      "properties": {
+        "name": "Khazid Rikurbaz",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 146,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.391193655818407,
+          36.04121736
+        ]
+      },
+      "properties": {
+        "name": "Khazid Kalangrom",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 232,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.93944517261841,
+          35.516321411199996
+        ]
+      },
+      "properties": {
+        "name": "Khazid Varrvornal",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 218,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.352473057418408,
+          36.3888520512
+        ]
+      },
+      "properties": {
+        "name": "Khazid Agrilizorkund",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 125,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.04973262541841,
+          37.646964304
+        ]
+      },
+      "properties": {
+        "name": "Khazid Zhufkarazkar",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 675,
+        "tags": [],
+        "notes": [],
+        "size_category": 2,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.255987527818409,
+          43.73876782304
+        ]
+      },
+      "properties": {
+        "name": "Khazid Grombarkagrul",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 65,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.001339355018407,
+          43.5489332672
+        ]
+      },
+      "properties": {
+        "name": "Khazid Ungordrazhbar",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 267,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.56974845901841,
+          44.37925353631999
+        ]
+      },
+      "properties": {
+        "name": "Khazid Kadrindukazak",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 189,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.49845114701841,
+          44.92823866495999
+        ]
+      },
+      "properties": {
+        "name": "Khazid Throngkarazaz",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 134,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.19543767181841,
+          44.843910869439995
+        ]
+      },
+      "properties": {
+        "name": "Grung Rhunthryngrom",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 194,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.168724759818407,
+          47.67787515968
+        ]
+      },
+      "properties": {
+        "name": "Khazid Gormizorvorn",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 241,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.32629928781841,
+          47.43206158655999
+        ]
+      },
+      "properties": {
+        "name": "Khazid Barkaringrom",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 79,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.466801543498406,
+          39.2456378816
+        ]
+      },
+      "properties": {
+        "name": "Khazid Varrurbazdal",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 294,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.994757908618407,
+          43.768314399999994
+        ]
+      },
+      "properties": {
+        "name": "Khazid Agrilvarnen",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 117,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.411475598218406,
+          44.279437851519994
+        ]
+      },
+      "properties": {
+        "name": "Khazid Grimkadrinund",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 263,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.198828704778408,
+          41.70316604895999
+        ]
+      },
+      "properties": {
+        "name": "Khazid Wyrstromezrhun",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 160,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.344804146741592,
+          41.55344190911999
+        ]
+      },
+      "properties": {
+        "name": "Khazid Kadrindgrombar",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 75,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.754357838218407,
+          45.861041353279994
+        ]
+      },
+      "properties": {
+        "name": "Khazid Urbazzanvarr",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 182,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.520589603701593,
+          39.866905603199996
+        ]
+      },
+      "properties": {
+        "name": "Khazid Rhundurazgrom",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 103,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.12046709005840724,
+          40.4021219104
+        ]
+      },
+      "properties": {
+        "name": "Khazid Azulagrilurbaz",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 782,
+        "tags": [],
+        "notes": [],
+        "size_category": 2,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.3269820826984071,
+          41.235068654719996
+        ]
+      },
+      "properties": {
+        "name": "Khazid Agrilkadrinaz",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 463,
+        "tags": [],
+        "notes": [],
+        "size_category": 2,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.23878310253840704,
+          41.52074268672
+        ]
+      },
+      "properties": {
+        "name": "Khazid Gromungorduk",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 196,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5958811342615925,
+          41.278088410559995
+        ]
+      },
+      "properties": {
+        "name": "Khazid Drazhvarnen",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 52,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.33988883213840754,
+          40.575936630399994
+        ]
+      },
+      "properties": {
+        "name": "Khazid Wyrvarnaz",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 782,
+        "tags": [],
+        "notes": [],
+        "size_category": 2,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9044483390184064,
+          41.579987425279995
+        ]
+      },
+      "properties": {
+        "name": "Khazid Barkarinit",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 148,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.20436376205840734,
+          41.021668988799995
+        ]
+      },
+      "properties": {
+        "name": "Khazid Grimmhonarduk",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 358,
+        "tags": [],
+        "notes": [],
+        "size_category": 2,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2215729726615929,
+          41.075017679999995
+        ]
+      },
+      "properties": {
+        "name": "Khazid Zanvarrund",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 175,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.5338034145384074,
+          33.1173106912
+        ]
+      },
+      "properties": {
+        "name": "Kazad Ekrundkadrin",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 323,
+        "tags": [],
+        "notes": [],
+        "size_category": 2,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.9400558318184075,
+          33.63362617919999
+        ]
+      },
+      "properties": {
+        "name": "Grung Bryngandaz (Gold-finder Mine)",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 275,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.8282103479784069,
+          33.754064201599995
+        ]
+      },
+      "properties": {
+        "name": "Grung Grundrhyn (Redhammer Mine)",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 375,
+        "tags": [],
+        "notes": [],
+        "size_category": 2,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.654304041418406,
+          44.330181772479996
+        ]
+      },
+      "properties": {
+        "name": "Dok-a-Dum",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 83,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.842922769418407,
+          44.20727341055999
+        ]
+      },
+      "properties": {
+        "name": "Vithang Dum",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 146,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.142584772938408,
+          44.2498678192
+        ]
+      },
+      "properties": {
+        "name": "Zan Mingol",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 60,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.098472242378406,
+          44.184154127359996
+        ]
+      },
+      "properties": {
+        "name": "Grung Mingol",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 132,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.324500188298407,
+          62.99499909151999
+        ]
+      },
+      "properties": {
+        "name": "Kraka Drang",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 264,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.8454199306984069,
+          40.551845875199994
+        ]
+      },
+      "properties": {
+        "name": "Grung Bryn",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 117,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.110221919818407,
+          42.327773883839996
+        ]
+      },
+      "properties": {
+        "name": "Khazid Azkorn",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 143,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.781548242378406,
+          41.82309155424
+        ]
+      },
+      "properties": {
+        "name": "Khazid Bamkin",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 539,
+        "tags": [],
+        "notes": [],
+        "size_category": 2,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.297318324938406,
+          42.581495414079995
+        ]
+      },
+      "properties": {
+        "name": "Grung Dramk",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 43,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.782108564618407,
+          41.687677109439996
+        ]
+      },
+      "properties": {
+        "name": "Kazad Dron",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 336,
+        "tags": [],
+        "notes": [],
+        "size_category": 2,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.838041371338407,
+          41.73156103775999
+        ]
+      },
+      "properties": {
+        "name": "Khazid Ralsten",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 357,
+        "tags": [],
+        "notes": [],
+        "size_category": 2,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.087577675978407,
+          41.86337613504
+        ]
+      },
+      "properties": {
+        "name": "Grung Mezik",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 318,
+        "tags": [],
+        "notes": [],
+        "size_category": 2,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.716497271178406,
+          42.128242812159996
+        ]
+      },
+      "properties": {
+        "name": "Grung Rhyn",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 47,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.705742113418407,
+          42.01379588384
+        ]
+      },
+      "properties": {
+        "name": "Grung Krant",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 120,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.6143162708584065,
+          41.95184485184
+        ]
+      },
+      "properties": {
+        "name": "Grung Skrim",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 233,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.532571715658407,
+          41.90365756511999
+        ]
+      },
+      "properties": {
+        "name": "Grung Rient",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 534,
+        "tags": [],
+        "notes": [],
+        "size_category": 2,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.005832614858407,
+          41.98454319904
+        ]
+      },
+      "properties": {
+        "name": "Grung Zan",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 258,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.084351707978406,
+          42.115334837439995
+        ]
+      },
+      "properties": {
+        "name": "Grung Rhuk",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 58,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.030983393098406,
+          41.80389526752
+        ]
+      },
+      "properties": {
+        "name": "Grung Ont",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 68,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.849968227658406,
+          41.991299392959995
+        ]
+      },
+      "properties": {
+        "name": "Kazad Hraban",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 129,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.312585313738406,
+          42.73939462207999
+        ]
+      },
+      "properties": {
+        "name": "Kazad Zorn",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 565,
+        "tags": [],
+        "notes": [],
+        "size_category": 2,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.869414840778408,
+          42.27839107391999
+        ]
+      },
+      "properties": {
+        "name": "Grung Ratik",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 44,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.677932808458407,
+          42.32777493408
+        ]
+      },
+      "properties": {
+        "name": "Khazid Theng",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 93,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.489546883658408,
+          42.53954830335999
+        ]
+      },
+      "properties": {
+        "name": "Kazad Ruvalkbar",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 183,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.714346729738407,
+          42.196221521599995
+        ]
+      },
+      "properties": {
+        "name": "Khazid Nauk",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 139,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.586132826378407,
+          47.133919980479995
+        ]
+      },
+      "properties": {
+        "name": "Khazid Aldum",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 34,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.580008876938406,
+          47.02169623519999
+        ]
+      },
+      "properties": {
+        "name": "Grung Aldum",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 221,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.606601323018408,
+          45.13976190208
+        ]
+      },
+      "properties": {
+        "name": "Kadar Khalizad",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 507,
+        "tags": [],
+        "notes": [],
+        "size_category": 2,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.987990339338406,
+          45.13607836032
+        ]
+      },
+      "properties": {
+        "name": "Karak Kadal",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 308,
+        "tags": [],
+        "notes": [],
+        "size_category": 2,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.403297015403187,
+          60.265218749312
+        ]
+      },
+      "properties": {
+        "name": "Khazid Dwimmerdim",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 79,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    }
+  ]
+}

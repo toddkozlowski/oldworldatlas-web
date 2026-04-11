@@ -1,0 +1,2063 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.418400195446721,
+          56.1942679011488
+        ]
+      },
+      "properties": {
+        "name": "Messersee",
+        "type": "Lake",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.44157271000672,
+          56.273479259964795
+        ]
+      },
+      "properties": {
+        "name": "Öbelsee",
+        "type": "Lake",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.5630434876067194,
+          56.23903588649279
+        ]
+      },
+      "properties": {
+        "name": "Barmsee",
+        "type": "Lake",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.59579084600672,
+          56.70160105401279
+        ]
+      },
+      "properties": {
+        "name": "Kaltsee",
+        "type": "Lake",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.137319251446721,
+          55.5742511554208
+        ]
+      },
+      "properties": {
+        "name": "Wolfsee",
+        "type": "Lake",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.4133878224732797,
+          49.29323639798079
+        ]
+      },
+      "properties": {
+        "name": "Bögensee",
+        "type": "Lake",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5599241146332793,
+          48.92828482454079
+        ]
+      },
+      "properties": {
+        "name": "Frugelsee",
+        "type": "Lake",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5821797267987705,
+          48.7256485468689
+        ]
+      },
+      "properties": {
+        "name": "Gargrimvarn",
+        "type": "Lake",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.616997059446721,
+          46.822795354780794
+        ]
+      },
+      "properties": {
+        "name": "Glanzsee",
+        "type": "Lake",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.31067297368672,
+          49.7903724031008
+        ]
+      },
+      "properties": {
+        "name": "Svarsee",
+        "type": "Lake",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.330516052406719,
+          49.2438782687008
+        ]
+      },
+      "properties": {
+        "name": "Helsee",
+        "type": "Lake",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.6324487154467208,
+          54.23593737753279
+        ]
+      },
+      "properties": {
+        "name": "Delbsee",
+        "type": "Lake",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.307455292406721,
+          53.8550158021408
+        ]
+      },
+      "properties": {
+        "name": "Untzensee",
+        "type": "Lake",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.8400510757667212,
+          54.12073485404479
+        ]
+      },
+      "properties": {
+        "name": "Ulfensee",
+        "type": "Lake",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.515848886793279,
+          52.18143893270079
+        ]
+      },
+      "properties": {
+        "name": "Myrkelmere",
+        "type": "Lake",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.2325786791132796,
+          52.68575840438079
+        ]
+      },
+      "properties": {
+        "name": "Glimmersee",
+        "type": "Lake",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.1024051069532792,
+          52.429505620700795
+        ]
+      },
+      "properties": {
+        "name": "Spiegelsee",
+        "type": "Lake",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.0049797683932797,
+          52.0954766136608
+        ]
+      },
+      "properties": {
+        "name": "Dornsee",
+        "type": "Lake",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.371757709193279,
+          52.128224497180796
+        ]
+      },
+      "properties": {
+        "name": "Brachsee",
+        "type": "Lake",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.3766700317532792,
+          52.3238934863008
+        ]
+      },
+      "properties": {
+        "name": "Riedsee",
+        "type": "Lake",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.7585514547932799,
+          52.4909079023008
+        ]
+      },
+      "properties": {
+        "name": "Nomensee",
+        "type": "Lake",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.7651009264732788,
+          52.75698550614079
+        ]
+      },
+      "properties": {
+        "name": "Ehrlersee",
+        "type": "Lake",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.34771710789682836,
+          53.58184234323672
+        ]
+      },
+      "properties": {
+        "name": "Wyrmsee",
+        "type": "Lake",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.414873687507099,
+          50.5554975637579
+        ]
+      },
+      "properties": {
+        "name": "Maissee",
+        "type": "Lake",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.4170812858466185,
+          54.95432791606079
+        ]
+      },
+      "properties": {
+        "name": "Schadensumpf",
+        "type": "Large Marsh",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.596377946966618,
+          53.458121704220794
+        ]
+      },
+      "properties": {
+        "name": "Cursed Marshes",
+        "type": "Large Marsh",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.2528621028066187,
+          51.9864144408608
+        ]
+      },
+      "properties": {
+        "name": "Midden Marshes",
+        "type": "Large Marsh",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.3166035403933805,
+          48.19998101814079
+        ]
+      },
+      "properties": {
+        "name": "Bylorhof Marsh",
+        "type": "Large Marsh",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.602039848873382,
+          57.20706815794879
+        ]
+      },
+      "properties": {
+        "name": "Czarnebłota (The Blight)",
+        "type": "Large Marsh",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.109596063766618,
+          52.585706940700796
+        ]
+      },
+      "properties": {
+        "name": "Mirror Moors",
+        "type": "Small Marsh",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.3333174290333805,
+          49.273806257820794
+        ]
+      },
+      "properties": {
+        "name": "Grimmoor",
+        "type": "Small Marsh",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.951410275113382,
+          49.3176826594208
+        ]
+      },
+      "properties": {
+        "name": "Dunkelmoor",
+        "type": "Small Marsh",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.30925536119338,
+          49.73616058966079
+        ]
+      },
+      "properties": {
+        "name": "Morrsfenn",
+        "type": "Small Marsh",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.657674056553382,
+          50.43357018614079
+        ]
+      },
+      "properties": {
+        "name": "Totensümpfe",
+        "type": "Small Marsh",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.69530855095338,
+          50.28918231574079
+        ]
+      },
+      "properties": {
+        "name": "Hel Fenn",
+        "type": "Small Marsh",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.395572311273381,
+          47.3978868242208
+        ]
+      },
+      "properties": {
+        "name": "Albenmoor",
+        "type": "Small Marsh",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.385718357206618,
+          51.83029556470079
+        ]
+      },
+      "properties": {
+        "name": "Grootscher Marsh",
+        "type": "Small Marsh",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.9407966282466185,
+          51.47743627958079
+        ]
+      },
+      "properties": {
+        "name": "Uhland Bogs",
+        "type": "Small Marsh",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.6091985383266184,
+          51.6516733711008
+        ]
+      },
+      "properties": {
+        "name": "The Furdienst",
+        "type": "Small Marsh",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0712934416866183,
+          51.50822791606079
+        ]
+      },
+      "properties": {
+        "name": "Altdorf Flats",
+        "type": "Small Marsh",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.5510290709533815,
+          50.840678568220795
+        ]
+      },
+      "properties": {
+        "name": "Reiker Marshes",
+        "type": "Small Marsh",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.7645075044066184,
+          51.5406789317408
+        ]
+      },
+      "properties": {
+        "name": "Drakon Marsh",
+        "type": "Small Marsh",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.32576239319338157,
+          49.517702967900796
+        ]
+      },
+      "properties": {
+        "name": "The Oberslecht",
+        "type": "Small Marsh",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.148185382633381,
+          57.510927130556794
+        ]
+      },
+      "properties": {
+        "name": "Teufelsumpf",
+        "type": "Small Marsh",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.160889416553382,
+          57.20842258246079
+        ]
+      },
+      "properties": {
+        "name": "Hargensumpf",
+        "type": "Small Marsh",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.23063546840672078,
+          57.50264933142079
+        ]
+      },
+      "properties": {
+        "name": "Eiger Bay",
+        "type": "Small Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.6808094860067213,
+          57.6723885425888
+        ]
+      },
+      "properties": {
+        "name": "Drosselspule Bay",
+        "type": "Small Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.2110896652067193,
+          57.432720483836796
+        ]
+      },
+      "properties": {
+        "name": "Kreideklippe Bight",
+        "type": "Small Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.6919466343132802,
+          57.61121136242879
+        ]
+      },
+      "properties": {
+        "name": "Klarwasser Bay",
+        "type": "Small Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.1967443004067215,
+          57.350515065820794
+        ]
+      },
+      "properties": {
+        "name": "Starivoda Bay (Altwasser)",
+        "type": "Small Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.953992714633277,
+          61.5634008911008
+        ]
+      },
+      "properties": {
+        "name": "Troll Fjord",
+        "type": "Small Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.03967094375328,
+          61.0724866827808
+        ]
+      },
+      "properties": {
+        "name": "Clawfjord",
+        "type": "Small Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.167031097993277,
+          62.341454041180796
+        ]
+      },
+      "properties": {
+        "name": "Midfjord",
+        "type": "Small Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.796529356233279,
+          62.7791084786208
+        ]
+      },
+      "properties": {
+        "name": "Amfjord",
+        "type": "Small Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.6661439472732775,
+          59.996755607580795
+        ]
+      },
+      "properties": {
+        "name": "Pack Ice Bay",
+        "type": "Small Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.69815837479328,
+          59.5505403138208
+        ]
+      },
+      "properties": {
+        "name": "Icedrake Fjord",
+        "type": "Small Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.6486992540067215,
+          61.083499324380796
+        ]
+      },
+      "properties": {
+        "name": "Fjaergardfjord",
+        "type": "Small Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.8086648092067205,
+          61.752825328220794
+        ]
+      },
+      "properties": {
+        "name": "Bay Of Blades",
+        "type": "Small Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.315699695606722,
+          61.1403285109408
+        ]
+      },
+      "properties": {
+        "name": "Dypvannfjord",
+        "type": "Small Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.51831213080672,
+          63.22618164342079
+        ]
+      },
+      "properties": {
+        "name": "Drakfjord",
+        "type": "Small Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.18820423320672,
+          62.13971133910079
+        ]
+      },
+      "properties": {
+        "name": "Ursfjord",
+        "type": "Small Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4767044992866185,
+          57.40573332425279
+        ]
+      },
+      "properties": {
+        "name": "Bay of Aarnau",
+        "type": "Medium Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.39870136471338,
+          46.769510903260795
+        ]
+      },
+      "properties": {
+        "name": "Varn Drazh (Black Water)",
+        "type": "Medium Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.733747838473279,
+          40.60251807702079
+        ]
+      },
+      "properties": {
+        "name": "Bay of Pearls",
+        "type": "Medium Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.229908482313279,
+          55.034778050460794
+        ]
+      },
+      "properties": {
+        "name": "Manannspoort Sea",
+        "type": "Medium Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.247361310793279,
+          46.67947820406079
+        ]
+      },
+      "properties": {
+        "name": "Gulf of Bidouze",
+        "type": "Medium Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.886448115113279,
+          39.08261775062079
+        ]
+      },
+      "properties": {
+        "name": "Baia di Remas",
+        "type": "Medium Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.7003732976412795,
+          36.494497315420794
+        ]
+      },
+      "properties": {
+        "name": "Baia di Verezzo",
+        "type": "Medium Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.697267303753279,
+          50.3110617906208
+        ]
+      },
+      "properties": {
+        "name": "Moussille Bay",
+        "type": "Medium Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.58778612020128,
+          56.309947601180795
+        ]
+      },
+      "properties": {
+        "name": "Bay of L'Anguille",
+        "type": "Medium Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.836448043593277,
+          45.5774205877408
+        ]
+      },
+      "properties": {
+        "name": "Bahía de Muros",
+        "type": "Medium Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.748396972233278,
+          41.40163221494079
+        ]
+      },
+      "properties": {
+        "name": "Gulfo Naranja",
+        "type": "Medium Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.812147669513278,
+          38.5805102594208
+        ]
+      },
+      "properties": {
+        "name": "Bahía de las Águilas",
+        "type": "Medium Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.476453936073279,
+          40.242308512220795
+        ]
+      },
+      "properties": {
+        "name": "Golfo di Miragliano",
+        "type": "Medium Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.83201079764128,
+          37.33391388822079
+        ]
+      },
+      "properties": {
+        "name": "Baia di Olesi",
+        "type": "Medium Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.269298762313278,
+          53.60653549462079
+        ]
+      },
+      "properties": {
+        "name": "Lyonen Bay",
+        "type": "Medium Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.970995711753279,
+          34.247984944220796
+        ]
+      },
+      "properties": {
+        "name": "Pirate's Current",
+        "type": "Medium Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.572326036079678,
+          40.9955143842208
+        ]
+      },
+      "properties": {
+        "name": "Golfo di Fodore",
+        "type": "Medium Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -12.672990907913277,
+          41.13679336918079
+        ]
+      },
+      "properties": {
+        "name": "Bahía de la Quietud",
+        "type": "Medium Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13.203508791433277,
+          47.70604001814079
+        ]
+      },
+      "properties": {
+        "name": "Bahía de Bilbali",
+        "type": "Medium Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.345534441673279,
+          36.0698415234208
+        ]
+      },
+      "properties": {
+        "name": "Laguna de la Lagrime",
+        "type": "Medium Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.2746212892067206,
+          60.95328374262079
+        ]
+      },
+      "properties": {
+        "name": "Gulf of the Maelstrom",
+        "type": "Medium Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.13790164135328,
+          60.073780051644796
+        ]
+      },
+      "properties": {
+        "name": "Bay of Taaketskog",
+        "type": "Medium Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3375037623132789,
+          59.96345417756479
+        ]
+      },
+      "properties": {
+        "name": "Sea of Soerligslette",
+        "type": "Medium Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.395551479113279,
+          65.62114736406079
+        ]
+      },
+      "properties": {
+        "name": "Varg Sea",
+        "type": "Medium Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.5524953187932775,
+          57.02004654742079
+        ]
+      },
+      "properties": {
+        "name": "Sea of Couronne",
+        "type": "Large Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.091811528073277,
+          57.44201197462079
+        ]
+      },
+      "properties": {
+        "name": "Middle Sea",
+        "type": "Large Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.776531911433278,
+          48.2535777410208
+        ]
+      },
+      "properties": {
+        "name": "The Silent Sea",
+        "type": "Large Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.851516093193279,
+          34.05404762582079
+        ]
+      },
+      "properties": {
+        "name": "The Black Gulf",
+        "type": "Large Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.7512269251932806,
+          67.94890262582079
+        ]
+      },
+      "properties": {
+        "name": "Kraken Sea",
+        "type": "Large Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.324163014006722,
+          66.4890333176608
+        ]
+      },
+      "properties": {
+        "name": "The Frozen Sea",
+        "type": "Large Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.42899582759328,
+          58.5068468098208
+        ]
+      },
+      "properties": {
+        "name": "Sea of Claws",
+        "type": "Major Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.232799169673278,
+          37.79124964822079
+        ]
+      },
+      "properties": {
+        "name": "Tilean Sea",
+        "type": "Major Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.876704191113278,
+          65.6436855144608
+        ]
+      },
+      "properties": {
+        "name": "Sea of Chaos",
+        "type": "Major Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.938746184073278,
+          34.0769708642208
+        ]
+      },
+      "properties": {
+        "name": "The Southern Sea",
+        "type": "Ocean",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -18.14034045223328,
+          51.69428125782079
+        ]
+      },
+      "properties": {
+        "name": "The Great Ocean",
+        "type": "Ocean",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2545939293666185,
+          49.097415824220796
+        ]
+      },
+      "properties": {
+        "name": "ORTSCHLAMM",
+        "type": "Small Marsh",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.4948741404067225,
+          58.42820833942079
+        ]
+      },
+      "properties": {
+        "name": "GULF OF KISLEV",
+        "type": "Large Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    }
+  ]
+}

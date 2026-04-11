@@ -14,11 +14,14 @@ async function initializeApp() {
 
         // Load settlements data from multiple sources
         const features = await settlementData.loadSettlements([
-            'data/empire_settlements.geojson',
-            'data/westerland_settlements.geojson',
-            'data/bretonnia_settlements.geojson',
-            'data/kislev_settlements.geojson',
-            'data/tilea_settlements.geojson',
+            'data/settlements_border_princes.geojson',
+            'data/settlements_bretonnia.geojson',
+            'data/settlements_empire.geojson',
+            'data/settlements_estalia.geojson',
+            'data/settlements_kislev.geojson',
+            'data/settlements_norsca.geojson',
+            'data/settlements_tilea.geojson',
+            'data/settlements_westerland.geojson',
         ]);
         console.log(`Loaded ${features.length} settlements`);
 
@@ -27,7 +30,7 @@ async function initializeApp() {
         mapManager.addSettlementFeatures(olFeatures);
         
         // Load dwarf settlements
-        const dwarfFeatures = await dwarfSettlementData.loadDwarfSettlements('data/karaz_ankor.geojson');
+        const dwarfFeatures = await dwarfSettlementData.loadDwarfSettlements('data/settlements_karaz_ankor.geojson');
         console.log(`Loaded ${dwarfFeatures.length} dwarf settlements`);
         
         // Add dwarf settlements to map
@@ -35,7 +38,7 @@ async function initializeApp() {
         mapManager.addDwarfSettlementFeatures(olDwarfFeatures);
 
         // Load wood elf settlements
-        const woodElfFeatures = await woodElfSettlementData.loadWoodElfSettlements('data/wood_elves.geojson');
+        const woodElfFeatures = await woodElfSettlementData.loadWoodElfSettlements('data/settlements_wood_elves.geojson');
         console.log(`Loaded ${woodElfFeatures.length} wood elf settlements`);
 
         // Add wood elf settlements to map
@@ -59,7 +62,7 @@ async function initializeApp() {
         mapManager.addProvinceFeatures(olProvinceFeatures);
 
         // Load water labels
-        const waterFeatures = await waterData.loadWaterLabels('data/water_labels.geojson');
+        const waterFeatures = await waterData.loadWaterLabels('data/geographic_feature_labels.geojson');
         console.log(`Loaded ${waterFeatures.length} water labels`);
         
         // Add water labels to map
