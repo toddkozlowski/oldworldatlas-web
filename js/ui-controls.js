@@ -248,11 +248,11 @@ class UIControls {
         const humanLayer = mapManager.getSettlementLayer();
         const dwarfLayer = mapManager.getDwarfSettlementLayer();
         const woodElfLayer = mapManager.getWoodElfSettlementLayer();
-        if (humanLayer) humanLayer.setVisible(parentEnabled);
+        if (humanLayer) humanLayer.setVisible(true);
         if (humanMarkerLayer) humanMarkerLayer.setVisible(parentEnabled);
-        if (dwarfLayer) dwarfLayer.setVisible(parentEnabled);
+        if (dwarfLayer) dwarfLayer.setVisible(false);
         if (dwarfMarkerLayer) dwarfMarkerLayer.setVisible(parentEnabled);
-        if (woodElfLayer) woodElfLayer.setVisible(parentEnabled);
+        if (woodElfLayer) woodElfLayer.setVisible(false);
         if (woodElfMarkerLayer) woodElfMarkerLayer.setVisible(parentEnabled);
 
         mapManager.refreshCombinedSettlementLabels();
@@ -289,6 +289,11 @@ class UIControls {
         const poiLayer = mapManager.getPOILayer();
         if (poiLayer) {
             poiLayer.setVisible(parentEnabled);
+        }
+
+        const combinedLabelLayer = mapManager.getSettlementLayer();
+        if (combinedLabelLayer) {
+            combinedLabelLayer.setVisible(true);
         }
 
         mapManager.refreshCombinedSettlementLabels();

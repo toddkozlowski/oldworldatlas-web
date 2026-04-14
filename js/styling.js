@@ -282,7 +282,8 @@ function shouldShowDot(config, currentResolution) {
  * Higher values are less likely to be hidden by decluttering.
  *
  * Priority mapping:
- * 5: Tier 5+ settlements
+ * 6: Tier 6 settlements
+ * 5: Tier 5 settlements
  * 4: Tier 4 settlements
  * 3: Tier 3 settlements, Karaks, Wood Elf settlements
  * 2: Tier 2 settlements, Kazads, Khazids (and other non-Karak dwarf holds)
@@ -311,13 +312,13 @@ function getSettlementDeclutterPriority(feature) {
     }
 
     const sizeCategory = parseInt(feature.get('sizeCategory'), 10);
-    if (sizeCategory >= 5) return 5;
+    if (sizeCategory >= 6) return 6;
+    if (sizeCategory === 5) return 5;
     if (sizeCategory === 4) return 4;
     if (sizeCategory === 3) return 3;
     if (sizeCategory === 2) return 2;
     return 1;
 }
-
 
 /**
  * Create an OpenLayers Style object for a POI

@@ -185,10 +185,58 @@ class MapManager {
      * @returns {ol.layer.Vector}
      */
     createSettlementLayer() {
+        const getPriority = (feature) => {
+            if (typeof getSettlementDeclutterPriority === 'function') {
+                return getSettlementDeclutterPriority(feature);
+            }
+
+            const featureType = feature.get('featureType');
+            if (featureType === 'dwarf') {
+                return feature.get('dwarfType') === 'Karak' ? 3 : 2;
+            }
+            if (featureType === 'woodelf') {
+                return 3;
+            }
+            if (featureType === 'poi') {
+                return 2.5;
+            }
+
+            const sizeCategory = parseInt(feature.get('sizeCategory'), 10);
+            if (sizeCategory >= 6) return 6;
+            if (sizeCategory === 5) return 5;
+            if (sizeCategory === 4) return 4;
+            if (sizeCategory === 3) return 3;
+            if (sizeCategory === 2) return 2;
+            return 1;
+        };
+
+        const getPopulationTieBreaker = (feature) => {
+            const featureType = feature.get('featureType');
+            if (featureType === 'dwarf' || featureType === 'woodelf' || featureType === 'poi') {
+                return 0;
+            }
+            return Number(feature.get('population')) || 0;
+        };
+
         return new ol.layer.Vector({
             title: 'Settlements (Size 3+)',
             source: this.allSettlementLabelsSource,
             declutter: 'settlement-labels', // Shared declutter group for all settlement labels
+            renderOrder: (a, b) => {
+                const priorityDelta = getPriority(b) - getPriority(a);
+                if (priorityDelta !== 0) {
+                    return priorityDelta;
+                }
+
+                const popDelta = getPopulationTieBreaker(b) - getPopulationTieBreaker(a);
+                if (popDelta !== 0) {
+                    return popDelta;
+                }
+
+                const nameA = String(a.get('name') || '');
+                const nameB = String(b.get('name') || '');
+                return nameA.localeCompare(nameB);
+            },
             updateWhileAnimating: false,  // Performance: don't update during animation
             updateWhileInteracting: false, // Performance: don't update while panning/zooming
             renderBuffer: 100,             // Render features slightly outside viewport
@@ -368,10 +416,44 @@ class MapManager {
         }
 
         this.allSettlementLabelsSource.clear();
-        this.allSettlementLabelsSource.addFeatures(this.settlementSource.getFeatures());
-        this.allSettlementLabelsSource.addFeatures(this.dwarfSettlementSource.getFeatures());
-        this.allSettlementLabelsSource.addFeatures(this.woodElfSettlementSource.getFeatures());
-        this.allSettlementLabelsSource.addFeatures(this.poiSource.getFeatures());
+
+        const allFeatures = [
+            ...this.settlementSource.getFeatures(),
+            ...this.dwarfSettlementSource.getFeatures(),
+            ...this.woodElfSettlementSource.getFeatures(),
+            ...this.poiSource.getFeatures()
+        ];
+
+        const getPriority = (feature) => {
+            if (typeof getSettlementDeclutterPriority === 'function') {
+                return getSettlementDeclutterPriority(feature);
+            }
+
+            // Fallback priority logic matching styling.js if that function is unavailable.
+            const featureType = feature.get('featureType');
+            if (featureType === 'dwarf') {
+                const dwarfType = feature.get('dwarfType');
+                return dwarfType === 'Karak' ? 3 : 2;
+            }
+            if (featureType === 'woodelf') {
+                return 3;
+            }
+            if (featureType === 'poi') {
+                return 2.5;
+            }
+
+            const sizeCategory = parseInt(feature.get('sizeCategory'), 10);
+            if (sizeCategory >= 6) return 6;
+            if (sizeCategory === 5) return 5;
+            if (sizeCategory === 4) return 4;
+            if (sizeCategory === 3) return 3;
+            if (sizeCategory === 2) return 2;
+            return 1;
+        };
+
+        // Add in descending priority so higher-priority labels are processed first.
+        allFeatures.sort((a, b) => getPriority(b) - getPriority(a));
+        this.allSettlementLabelsSource.addFeatures(allFeatures);
     }
 
     /**
