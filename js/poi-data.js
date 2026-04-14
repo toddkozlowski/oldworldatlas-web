@@ -5,7 +5,9 @@
 class POIDataManager {
     constructor() {
         this.rawFeatures = [];
+        this.filteredFeatures = [];
         this.poiMap = new Map(); // For quick lookup by name
+        this.enabledTypes = new Set();
     }
 
     /**
@@ -18,12 +20,43 @@ class POIDataManager {
             const response = await fetch(dataPath);
             const data = await response.json();
             this.rawFeatures = data.features;
-            this.indexPOIs();
-            return this.rawFeatures;
+            this.enabledTypes = new Set(this.getAvailableTypes());
+            this.filterAndIndexPOIs();
+            return this.filteredFeatures;
         } catch (error) {
             console.error('Error loading POIs:', error);
             throw error;
         }
+    }
+
+    /**
+     * Filter POIs and rebuild lookup index.
+     * @private
+     */
+    filterAndIndexPOIs() {
+        this.filteredFeatures = this.rawFeatures.filter(feature => this.meetsFilterCriteria(feature));
+        this.indexPOIs();
+    }
+
+    /**
+     * Check whether a POI meets current filter criteria.
+     * @private
+     * @param {object} feature - GeoJSON feature
+     * @returns {boolean}
+     */
+    meetsFilterCriteria(feature) {
+        const coords = feature.geometry?.coordinates;
+        if (!isValidCoordinate(coords)) {
+            return false;
+        }
+
+        const [lon, lat] = coords;
+        if (!isWithinBounds(lon, lat)) {
+            return false;
+        }
+
+        const type = feature.properties?.type || 'Unknown';
+        return this.enabledTypes.has(type);
     }
 
     /**
@@ -32,7 +65,7 @@ class POIDataManager {
      */
     indexPOIs() {
         this.poiMap.clear();
-        this.rawFeatures.forEach(feature => {
+        this.filteredFeatures.forEach(feature => {
             const name = feature.properties.name;
             if (name) {
                 this.poiMap.set(name, feature);
@@ -59,7 +92,26 @@ class POIDataManager {
      * @returns {array}
      */
     getAllPOIs() {
-        return this.rawFeatures.map(f => this.featureToPOI(f));
+        return this.filteredFeatures.map(f => this.featureToPOI(f));
+    }
+
+    /**
+     * Get sorted unique POI types from raw data.
+     * @returns {string[]}
+     */
+    getAvailableTypes() {
+        return Array.from(
+            new Set(this.rawFeatures.map(feature => feature.properties?.type).filter(Boolean))
+        ).sort((a, b) => a.localeCompare(b));
+    }
+
+    /**
+     * Set enabled POI types.
+     * @param {string[]} types
+     */
+    setEnabledTypes(types) {
+        this.enabledTypes = new Set((types || []).filter(Boolean));
+        this.filterAndIndexPOIs();
     }
 
     /**
@@ -86,7 +138,7 @@ class POIDataManager {
      * @returns {array}
      */
     getOLFeatures() {
-        return this.rawFeatures.map(feature => {
+        return this.filteredFeatures.map(feature => {
             const coords = feature.geometry.coordinates;
             return new ol.Feature({
                 geometry: new ol.geom.Point(coords),

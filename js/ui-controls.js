@@ -8,10 +8,34 @@ class UIControls {
         this.popupOverlay = null;
         this.settlementCheckbox = null;
         this.poiCheckbox = null;
+        this.settlementSubCheckboxes = [];
+        this.poiSubCheckboxes = [];
         this.regionCheckbox = null;
         this.waterCheckbox = null;
         this.publishedCanonOnlyCheckbox = null;
         this.selectedFeature = null;  // Track currently selected/highlighted feature
+
+        this.settlementSizeConfig = [
+            { id: 'settlement-size-villages', value: 1, label: 'Villages' },
+            { id: 'settlement-size-small-towns', value: 2, label: 'Small Towns' },
+            { id: 'settlement-size-towns', value: 3, label: 'Towns' },
+            { id: 'settlement-size-large-towns', value: 4, label: 'Large Towns' },
+            { id: 'settlement-size-cities', value: 5, label: 'Cities' },
+            { id: 'settlement-size-metropolises', value: 6, label: 'Metropolises' }
+        ];
+
+        this.settlementRegionConfig = [
+            { id: 'settlement-region-empire', value: 'empire', label: 'The Empire', kind: 'human' },
+            { id: 'settlement-region-bretonnia', value: 'bretonnia', label: 'Bretonnia', kind: 'human' },
+            { id: 'settlement-region-kislev', value: 'kislev', label: 'Kislev', kind: 'human' },
+            { id: 'settlement-region-norsca', value: 'norsca', label: 'Norsca', kind: 'human' },
+            { id: 'settlement-region-tilea', value: 'tilea', label: 'Tilea', kind: 'human' },
+            { id: 'settlement-region-estalia', value: 'estalia', label: 'Estalia', kind: 'human' },
+            { id: 'settlement-region-border-princes', value: 'border-princes', label: 'Border Princes', kind: 'human' },
+            { id: 'settlement-region-albion', value: 'albion', label: 'Albion', kind: 'human' },
+            { id: 'settlement-region-karaz-ankor', value: 'karaz-ankor', label: 'The Karaz-Ankor', kind: 'dwarf' },
+            { id: 'settlement-region-wood-elf-realms', value: 'wood-elf-realms', label: 'Wood Elf Realms', kind: 'woodelf' }
+        ];
     }
 
     /**
@@ -19,6 +43,9 @@ class UIControls {
      * @param {ol.Map} map - OpenLayers map instance
      */
     initialize(map) {
+        this.initializeExpandableFilters();
+        this.initializeSettlementSubFilters();
+        this.initializePOISubFilters();
         this.initializeSettlementToggle();
         this.initializePOIToggle();
         this.initializeRegionToggle();
@@ -36,16 +63,14 @@ class UIControls {
     initializeSettlementToggle() {
         this.settlementCheckbox = document.getElementById('settlement-checkbox');
         if (this.settlementCheckbox) {
-            this.settlementCheckbox.addEventListener('change', (e) => {
-                const layer = mapManager.getSettlementLayer();
-                const markerLayer = mapManager.getSettlementMarkersOnlyLayer();
-                if (layer) {
-                    layer.setVisible(e.target.checked);
-                }
-                if (markerLayer) {
-                    markerLayer.setVisible(e.target.checked);
-                }
+            this.settlementCheckbox.addEventListener('change', () => {
+                const parentEnabled = this.settlementCheckbox.checked;
+                this.settlementSubCheckboxes.forEach(checkbox => {
+                    checkbox.checked = parentEnabled;
+                });
+                this.applySettlementFilters();
             });
+            this.applySettlementFilters();
         }
     }
 
@@ -56,17 +81,242 @@ class UIControls {
     initializePOIToggle() {
         this.poiCheckbox = document.getElementById('poi-checkbox');
         if (this.poiCheckbox) {
-            this.poiCheckbox.addEventListener('change', (e) => {
-                const layer = mapManager.getPOILayer();
-                const settlementLayer = mapManager.getSettlementLayer();
-                if (layer) {
-                    layer.setVisible(e.target.checked);
-                }
-                if (settlementLayer) {
-                    settlementLayer.changed();
-                }
+            this.poiCheckbox.addEventListener('change', () => {
+                const parentEnabled = this.poiCheckbox.checked;
+                this.poiSubCheckboxes.forEach(checkbox => {
+                    checkbox.checked = parentEnabled;
+                });
+                this.applyPOIFilters();
             });
+            this.applyPOIFilters();
         }
+    }
+
+    /**
+     * Initialize expandable filter sections.
+     * @private
+     */
+    initializeExpandableFilters() {
+        const toggles = [
+            { buttonId: 'settlement-expand-toggle', panelId: 'settlement-subfilters-panel' },
+            { buttonId: 'poi-expand-toggle', panelId: 'poi-subfilters-panel' }
+        ];
+
+        toggles.forEach(({ buttonId, panelId }) => {
+            const button = document.getElementById(buttonId);
+            const panel = document.getElementById(panelId);
+
+            if (!button || !panel) {
+                return;
+            }
+
+            button.addEventListener('click', () => {
+                const expanded = button.getAttribute('aria-expanded') === 'true';
+                button.setAttribute('aria-expanded', String(!expanded));
+                panel.classList.toggle('expanded', !expanded);
+            });
+        });
+    }
+
+    /**
+     * Initialize settlement sub-filter checkboxes.
+     * @private
+     */
+    initializeSettlementSubFilters() {
+        const allIds = [
+            ...this.settlementSizeConfig.map(item => item.id),
+            ...this.settlementRegionConfig.map(item => item.id)
+        ];
+
+        this.settlementSubCheckboxes = allIds
+            .map(id => document.getElementById(id))
+            .filter(Boolean);
+
+        this.settlementSubCheckboxes.forEach(checkbox => {
+            checkbox.addEventListener('change', () => this.applySettlementFilters());
+        });
+    }
+
+    /**
+     * Initialize POI sub-filters from loaded POI type categories.
+     * @private
+     */
+    initializePOISubFilters() {
+        const container = document.getElementById('poi-subfilters-container');
+        if (!container || typeof poiData === 'undefined') {
+            return;
+        }
+
+        const types = poiData.getAvailableTypes();
+        container.innerHTML = '';
+        this.poiSubCheckboxes = [];
+
+        types.forEach(type => {
+            const slug = type.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+            const inputId = `poi-type-${slug}`;
+
+            const row = document.createElement('div');
+            row.className = 'toggle-item sub-toggle-item';
+
+            const input = document.createElement('input');
+            input.type = 'checkbox';
+            input.id = inputId;
+            input.checked = true;
+            input.dataset.poiType = type;
+
+            const label = document.createElement('label');
+            label.htmlFor = inputId;
+            label.textContent = type;
+
+            row.appendChild(input);
+            row.appendChild(label);
+            container.appendChild(row);
+
+            input.addEventListener('change', () => this.applyPOIFilters());
+            this.poiSubCheckboxes.push(input);
+        });
+    }
+
+    /**
+     * Apply settlement filters with AND logic across selected size and region categories.
+     * @private
+     */
+    applySettlementFilters() {
+        if (!this.settlementCheckbox) {
+            return;
+        }
+
+        const parentEnabled = this.settlementCheckbox.checked;
+        this.setSettlementSubfilterEnabled(parentEnabled);
+
+        const selectedSizes = this.settlementSizeConfig
+            .map(item => ({ ...item, checkbox: document.getElementById(item.id) }))
+            .filter(item => item.checkbox && item.checkbox.checked)
+            .map(item => item.value);
+
+        const selectedHumanRegions = this.settlementRegionConfig
+            .map(item => ({ ...item, checkbox: document.getElementById(item.id) }))
+            .filter(item => item.kind === 'human' && item.checkbox && item.checkbox.checked)
+            .map(item => item.value);
+
+        const karazEnabled = !!document.getElementById('settlement-region-karaz-ankor')?.checked;
+        const woodElfEnabled = !!document.getElementById('settlement-region-wood-elf-realms')?.checked;
+
+        settlementData.setEnabledSizeCategories(parentEnabled ? selectedSizes : []);
+        settlementData.setEnabledRegions(parentEnabled ? selectedHumanRegions : []);
+
+        const humanFeatures = parentEnabled ? settlementData.getOLFeatures() : [];
+        const humanSource = mapManager.getSettlementSource();
+        const humanMarkerLayer = mapManager.getSettlementMarkersOnlyLayer();
+
+        if (humanSource) {
+            humanSource.clear();
+            humanSource.addFeatures(humanFeatures);
+        }
+        if (humanMarkerLayer) {
+            const source = humanMarkerLayer.getSource();
+            source.clear();
+            source.addFeatures(humanFeatures);
+        }
+
+        const dwarfFeatures = parentEnabled && karazEnabled ? dwarfSettlementData.getOLFeatures() : [];
+        const dwarfSource = mapManager.getDwarfSettlementSource();
+        const dwarfMarkerLayer = mapManager.getDwarfSettlementMarkersOnlyLayer();
+        if (dwarfSource) {
+            dwarfSource.clear();
+            dwarfSource.addFeatures(dwarfFeatures);
+        }
+        if (dwarfMarkerLayer) {
+            const source = dwarfMarkerLayer.getSource();
+            source.clear();
+            source.addFeatures(dwarfFeatures);
+        }
+
+        const woodElfFeatures = parentEnabled && woodElfEnabled ? woodElfSettlementData.getOLFeatures() : [];
+        const woodElfSource = mapManager.getWoodElfSettlementSource();
+        const woodElfMarkerLayer = mapManager.getWoodElfSettlementMarkersOnlyLayer();
+        if (woodElfSource) {
+            woodElfSource.clear();
+            woodElfSource.addFeatures(woodElfFeatures);
+        }
+        if (woodElfMarkerLayer) {
+            const source = woodElfMarkerLayer.getSource();
+            source.clear();
+            source.addFeatures(woodElfFeatures);
+        }
+
+        const humanLayer = mapManager.getSettlementLayer();
+        const dwarfLayer = mapManager.getDwarfSettlementLayer();
+        const woodElfLayer = mapManager.getWoodElfSettlementLayer();
+        if (humanLayer) humanLayer.setVisible(parentEnabled);
+        if (humanMarkerLayer) humanMarkerLayer.setVisible(parentEnabled);
+        if (dwarfLayer) dwarfLayer.setVisible(parentEnabled);
+        if (dwarfMarkerLayer) dwarfMarkerLayer.setVisible(parentEnabled);
+        if (woodElfLayer) woodElfLayer.setVisible(parentEnabled);
+        if (woodElfMarkerLayer) woodElfMarkerLayer.setVisible(parentEnabled);
+
+        mapManager.refreshCombinedSettlementLabels();
+        if (window.searchManager && typeof window.searchManager.buildFeatureIndex === 'function') {
+            window.searchManager.buildFeatureIndex();
+        }
+    }
+
+    /**
+     * Apply POI type filters.
+     * @private
+     */
+    applyPOIFilters() {
+        if (!this.poiCheckbox) {
+            return;
+        }
+
+        const parentEnabled = this.poiCheckbox.checked;
+        this.setPOISubfilterEnabled(parentEnabled);
+
+        const selectedTypes = parentEnabled
+            ? this.poiSubCheckboxes.filter(input => input.checked).map(input => input.dataset.poiType)
+            : [];
+
+        poiData.setEnabledTypes(selectedTypes);
+
+        const poiFeatures = parentEnabled ? poiData.getOLFeatures() : [];
+        const poiSource = mapManager.getPOISource();
+        if (poiSource) {
+            poiSource.clear();
+            poiSource.addFeatures(poiFeatures);
+        }
+
+        const poiLayer = mapManager.getPOILayer();
+        if (poiLayer) {
+            poiLayer.setVisible(parentEnabled);
+        }
+
+        mapManager.refreshCombinedSettlementLabels();
+        if (window.searchManager && typeof window.searchManager.buildFeatureIndex === 'function') {
+            window.searchManager.buildFeatureIndex();
+        }
+    }
+
+    /**
+     * Enable/disable settlement subfilters based on parent toggle.
+     * @private
+     * @param {boolean} enabled
+     */
+    setSettlementSubfilterEnabled(enabled) {
+        this.settlementSubCheckboxes.forEach(checkbox => {
+            checkbox.disabled = !enabled;
+        });
+    }
+
+    /**
+     * Enable/disable POI subfilters based on parent toggle.
+     * @private
+     * @param {boolean} enabled
+     */
+    setPOISubfilterEnabled(enabled) {
+        this.poiSubCheckboxes.forEach(checkbox => {
+            checkbox.disabled = !enabled;
+        });
     }
 
     /**
@@ -161,36 +411,7 @@ class UIControls {
             if (desktopCheckbox) desktopCheckbox.checked = enabled;
             if (mobileCheckbox) mobileCheckbox.checked = enabled;
             
-            // Reload settlement features with new filter
-            const olFeatures = settlementData.getOLFeatures();
-            const settlementSource = mapManager.getSettlementSource();
-            const markerLayer = mapManager.getSettlementMarkersOnlyLayer();
-            
-            if (settlementSource) {
-                settlementSource.clear();
-                settlementSource.addFeatures(olFeatures);
-            }
-            if (markerLayer) {
-                markerLayer.getSource().clear();
-                markerLayer.getSource().addFeatures(olFeatures);
-            }
-
-            // Reload dwarf settlement features with new filter
-            const olDwarfFeatures = dwarfSettlementData.getOLFeatures();
-            const dwarfSource = mapManager.getDwarfSettlementSource();
-            const dwarfMarkerLayer = mapManager.getDwarfSettlementMarkersOnlyLayer();
-
-            if (dwarfSource) {
-                dwarfSource.clear();
-                dwarfSource.addFeatures(olDwarfFeatures);
-            }
-            if (dwarfMarkerLayer) {
-                dwarfMarkerLayer.getSource().clear();
-                dwarfMarkerLayer.getSource().addFeatures(olDwarfFeatures);
-            }
-
-            // Rebuild the combined decluttered settlement label source.
-            mapManager.refreshCombinedSettlementLabels();
+            this.applySettlementFilters();
         };
         
         if (desktopCheckbox) {

@@ -1239,6 +1239,75 @@
         .side-panel-section .toggle-item label {
             font-size: 14px;
         }
+
+        .filter-group {
+            padding: 4px 0;
+        }
+
+        .filter-parent-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 8px;
+        }
+
+        .filter-expand-btn {
+            width: 22px;
+            height: 22px;
+            border: 1px solid #c7c7c7;
+            background: #fff;
+            border-radius: 4px;
+            color: #444;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0;
+            line-height: 1;
+            font-size: 11px;
+            transition: transform 0.2s ease, background 0.2s ease;
+        }
+
+        .filter-expand-btn:hover {
+            background: #f3f3f3;
+        }
+
+        .filter-expand-btn .arrow {
+            display: inline-block;
+            transform: rotate(0deg);
+            transition: transform 0.2s ease;
+        }
+
+        .filter-expand-btn[aria-expanded="true"] .arrow {
+            transform: rotate(180deg);
+        }
+
+        .filter-subpanel {
+            display: none;
+            margin: 6px 0 6px 18px;
+            padding-left: 12px;
+            border-left: 2px solid #e5e5e5;
+        }
+
+        .filter-subpanel.expanded {
+            display: block;
+        }
+
+        .subfilter-title {
+            margin: 8px 0 4px;
+            font-size: 12px;
+            font-weight: 600;
+            color: #666;
+            letter-spacing: 0.02em;
+        }
+
+        .sub-toggle-item {
+            padding: 4px 0;
+        }
+
+        .sub-toggle-item label {
+            font-size: 13px;
+        }
         
         /* Units toggle */
         .units-toggle {
@@ -1763,13 +1832,100 @@
     <div class="side-panel" id="side-panel">
         <div class="side-panel-section">
             <div class="side-panel-section-title">Filters</div>
-            <div class="toggle-item">
-                <input type="checkbox" id="settlement-checkbox" checked>
-                <label for="settlement-checkbox">Settlements</label>
+            <div class="filter-group">
+                <div class="filter-parent-row">
+                    <div class="toggle-item">
+                        <input type="checkbox" id="settlement-checkbox" checked>
+                        <label for="settlement-checkbox">Settlements</label>
+                    </div>
+                    <button id="settlement-expand-toggle" class="filter-expand-btn" type="button" aria-expanded="false" aria-controls="settlement-subfilters-panel" title="Expand settlement filters">
+                        <span class="arrow">▼</span>
+                    </button>
+                </div>
+                <div id="settlement-subfilters-panel" class="filter-subpanel" role="group" aria-label="Settlement Filters">
+                    <div class="subfilter-title">By Size</div>
+                    <div class="toggle-item sub-toggle-item">
+                        <input type="checkbox" id="settlement-size-villages" checked>
+                        <label for="settlement-size-villages">Villages</label>
+                    </div>
+                    <div class="toggle-item sub-toggle-item">
+                        <input type="checkbox" id="settlement-size-small-towns" checked>
+                        <label for="settlement-size-small-towns">Small Towns</label>
+                    </div>
+                    <div class="toggle-item sub-toggle-item">
+                        <input type="checkbox" id="settlement-size-towns" checked>
+                        <label for="settlement-size-towns">Towns</label>
+                    </div>
+                    <div class="toggle-item sub-toggle-item">
+                        <input type="checkbox" id="settlement-size-large-towns" checked>
+                        <label for="settlement-size-large-towns">Large Towns</label>
+                    </div>
+                    <div class="toggle-item sub-toggle-item">
+                        <input type="checkbox" id="settlement-size-cities" checked>
+                        <label for="settlement-size-cities">Cities</label>
+                    </div>
+                    <div class="toggle-item sub-toggle-item">
+                        <input type="checkbox" id="settlement-size-metropolises" checked>
+                        <label for="settlement-size-metropolises">Metropolises</label>
+                    </div>
+
+                    <div class="subfilter-title">By Region</div>
+                    <div class="toggle-item sub-toggle-item">
+                        <input type="checkbox" id="settlement-region-empire" checked>
+                        <label for="settlement-region-empire">The Empire</label>
+                    </div>
+                    <div class="toggle-item sub-toggle-item">
+                        <input type="checkbox" id="settlement-region-bretonnia" checked>
+                        <label for="settlement-region-bretonnia">Bretonnia</label>
+                    </div>
+                    <div class="toggle-item sub-toggle-item">
+                        <input type="checkbox" id="settlement-region-kislev" checked>
+                        <label for="settlement-region-kislev">Kislev</label>
+                    </div>
+                    <div class="toggle-item sub-toggle-item">
+                        <input type="checkbox" id="settlement-region-norsca" checked>
+                        <label for="settlement-region-norsca">Norsca</label>
+                    </div>
+                    <div class="toggle-item sub-toggle-item">
+                        <input type="checkbox" id="settlement-region-tilea" checked>
+                        <label for="settlement-region-tilea">Tilea</label>
+                    </div>
+                    <div class="toggle-item sub-toggle-item">
+                        <input type="checkbox" id="settlement-region-estalia" checked>
+                        <label for="settlement-region-estalia">Estalia</label>
+                    </div>
+                    <div class="toggle-item sub-toggle-item">
+                        <input type="checkbox" id="settlement-region-border-princes" checked>
+                        <label for="settlement-region-border-princes">Border Princes</label>
+                    </div>
+                    <div class="toggle-item sub-toggle-item">
+                        <input type="checkbox" id="settlement-region-albion" checked>
+                        <label for="settlement-region-albion">Albion</label>
+                    </div>
+                    <div class="toggle-item sub-toggle-item">
+                        <input type="checkbox" id="settlement-region-karaz-ankor" checked>
+                        <label for="settlement-region-karaz-ankor">The Karaz-Ankor</label>
+                    </div>
+                    <div class="toggle-item sub-toggle-item">
+                        <input type="checkbox" id="settlement-region-wood-elf-realms" checked>
+                        <label for="settlement-region-wood-elf-realms">Wood Elf Realms</label>
+                    </div>
+                </div>
             </div>
-            <div class="toggle-item">
-                <input type="checkbox" id="poi-checkbox" checked>
-                <label for="poi-checkbox">Points of Interest</label>
+
+            <div class="filter-group">
+                <div class="filter-parent-row">
+                    <div class="toggle-item">
+                        <input type="checkbox" id="poi-checkbox" checked>
+                        <label for="poi-checkbox">Points of Interest</label>
+                    </div>
+                    <button id="poi-expand-toggle" class="filter-expand-btn" type="button" aria-expanded="false" aria-controls="poi-subfilters-panel" title="Expand POI filters">
+                        <span class="arrow">▼</span>
+                    </button>
+                </div>
+                <div id="poi-subfilters-panel" class="filter-subpanel" role="group" aria-label="POI Filters">
+                    <div id="poi-subfilters-container"></div>
+                </div>
             </div>
             <div class="toggle-item">
                 <input type="checkbox" id="region-checkbox" checked>

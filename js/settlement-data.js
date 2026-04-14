@@ -54,6 +54,17 @@ class SettlementDataManager {
         this.filteredFeatures = [];
         this.settlementMap = new Map(); // For quick lookup by name
         this.publishedCanonOnly = false;
+        this.enabledSizeCategories = new Set([1, 2, 3, 4, 5, 6]);
+        this.enabledRegions = new Set([
+            'empire',
+            'bretonnia',
+            'kislev',
+            'norsca',
+            'tilea',
+            'estalia',
+            'border-princes',
+            'albion'
+        ]);
     }
 
     /**
@@ -76,8 +87,20 @@ class SettlementDataManager {
                 responses.map(response => response.json())
             );
             
-            // Combine all features from all datasets
-            this.rawFeatures = datasets.flatMap(data => data.features);
+            // Combine all features from all datasets and annotate each feature with a normalized region key.
+            this.rawFeatures = datasets.flatMap((data, index) => {
+                const regionGroup = this.getRegionFromPath(paths[index]);
+                return data.features.map(feature => {
+                    const nextProps = {
+                        ...feature.properties,
+                        region_group: regionGroup || this.getRegionFromProvince(feature.properties?.province)
+                    };
+                    return {
+                        ...feature,
+                        properties: nextProps
+                    };
+                });
+            });
             
             this.filterAndIndexSettlements();
             return this.filteredFeatures;
@@ -140,7 +163,64 @@ class SettlementDataManager {
             }
         }
 
+        const sizeCategory = Number(props.size_category);
+        if (!this.enabledSizeCategories.has(sizeCategory)) {
+            return false;
+        }
+
+        const regionGroup = props.region_group || this.getRegionFromProvince(props.province);
+        if (!regionGroup || !this.enabledRegions.has(regionGroup)) {
+            return false;
+        }
+
         return true;
+    }
+
+    /**
+     * Get normalized region key from settlement file path.
+     * @private
+     * @param {string} path - Data file path
+     * @returns {string|null}
+     */
+    getRegionFromPath(path) {
+        if (!path) {
+            return null;
+        }
+
+        const normalized = path.toLowerCase();
+        if (normalized.includes('settlements_empire')) return 'empire';
+        if (normalized.includes('settlements_bretonnia')) return 'bretonnia';
+        if (normalized.includes('settlements_kislev')) return 'kislev';
+        if (normalized.includes('settlements_norsca')) return 'norsca';
+        if (normalized.includes('settlements_tilea')) return 'tilea';
+        if (normalized.includes('settlements_estalia')) return 'estalia';
+        if (normalized.includes('settlements_border_princes')) return 'border-princes';
+        if (normalized.includes('settlements_westerland')) return 'albion';
+        if (normalized.includes('settlements_albion')) return 'albion';
+        return null;
+    }
+
+    /**
+     * Infer normalized region key from province text.
+     * @private
+     * @param {string} province - Province name
+     * @returns {string|null}
+     */
+    getRegionFromProvince(province) {
+        if (!province || typeof province !== 'string') {
+            return null;
+        }
+
+        const normalized = province.toLowerCase();
+        if (normalized.includes('empire')) return 'empire';
+        if (normalized.includes('breton')) return 'bretonnia';
+        if (normalized.includes('kislev')) return 'kislev';
+        if (normalized.includes('norsca')) return 'norsca';
+        if (normalized.includes('tilea')) return 'tilea';
+        if (normalized.includes('estalia')) return 'estalia';
+        if (normalized.includes('border')) return 'border-princes';
+        if (normalized.includes('albion')) return 'albion';
+        return null;
     }
 
     /**
@@ -180,6 +260,26 @@ class SettlementDataManager {
             this.publishedCanonOnly = enabled;
             this.filterAndIndexSettlements();
         }
+    }
+
+    /**
+     * Set allowed settlement size categories.
+     * @param {number[]} categories
+     */
+    setEnabledSizeCategories(categories) {
+        this.enabledSizeCategories = new Set(
+            (categories || []).map(value => Number(value)).filter(value => Number.isFinite(value))
+        );
+        this.filterAndIndexSettlements();
+    }
+
+    /**
+     * Set allowed region keys.
+     * @param {string[]} regions
+     */
+    setEnabledRegions(regions) {
+        this.enabledRegions = new Set((regions || []).filter(Boolean));
+        this.filterAndIndexSettlements();
     }
 
     /**
@@ -268,6 +368,7 @@ class SettlementDataManager {
                 sizeCategory: feature.properties.size_category,
                 population: feature.properties.population,
                 province: feature.properties.province,
+                regionGroup: feature.properties.region_group,
                 sourceTag: sourceTag,
                 wikiTitle: wiki.title,
                 wikiUrl: wiki.url,
