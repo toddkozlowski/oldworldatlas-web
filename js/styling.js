@@ -591,7 +591,17 @@ function createProvinceStyle(feature, currentResolution) {
     }
     
     const provinceType = feature.get('provinceType');
-    const config = STYLES_CONFIG.provinces[provinceType];
+
+    // Support both legacy and current province type naming schemes.
+    // This keeps older GeoJSON exports rendering without requiring data rewrites.
+    const provinceTypeAliases = {
+        'Nation': 'Nation-State',
+        'Major Division': 'Grand-Province',
+        'Minor Division': 'Province'
+    };
+
+    const normalizedProvinceType = provinceTypeAliases[provinceType] || provinceType;
+    const config = STYLES_CONFIG.provinces[normalizedProvinceType];
     
     if (!config) {
         return null;

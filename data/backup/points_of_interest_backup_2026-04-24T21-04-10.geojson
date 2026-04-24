@@ -3814,8 +3814,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.038082752639999884,
-          52.17208579808
+          -0.05826521471999935,
+          52.16362226399999
         ]
       },
       "properties": {
@@ -4546,6 +4546,28 @@
       },
       "properties": {
         "name": "Castle Rackspire",
+        "type": "Forts and Castles",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.107161296000001,
+          55.95738811231999
+        ]
+      },
+      "properties": {
+        "name": "Roezfels",
         "type": "Forts and Castles",
         "description": "",
         "tags": [],
@@ -15530,28 +15552,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -12.622043204159999,
-          42.5721803104
-        ]
-      },
-      "properties": {
-        "name": "Monastery of the Black Rose",
-        "type": "Monasteries and Temples",
-        "description": "",
-        "tags": [],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -1.395588843839999,
           49.55768765792
         ]
@@ -15646,28 +15646,6 @@
       },
       "properties": {
         "name": "Summersfall Fort",
-        "type": "Forts and Castles",
-        "description": "",
-        "tags": [],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          3.107161296000001,
-          55.95738811231999
-        ]
-      },
-      "properties": {
-        "name": "Castle Roezfels",
         "type": "Forts and Castles",
         "description": "",
         "tags": [],
@@ -16520,8 +16498,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -10.403190828799998,
-          42.45178044672
+          -10.401349583039998,
+          42.43889067616
         ]
       },
       "properties": {
@@ -16564,8 +16542,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -19.917369951359998,
-          42.44866403456
+          -20.274605761599997,
+          42.40447028544
         ]
       },
       "properties": {
@@ -16592,204 +16570,6 @@
       },
       "properties": {
         "name": "Fort Jakova",
-        "type": "Forts and Castles",
-        "description": "",
-        "tags": [],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -10.43306192992,
-          45.53680810975999
-        ]
-      },
-      "properties": {
-        "name": "Citadelle Saint-Cast",
-        "type": "Forts and Castles",
-        "description": "",
-        "tags": [],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -10.6188786176,
-          46.89335638207999
-        ]
-      },
-      "properties": {
-        "name": "Fort Saindoux",
-        "type": "Forts and Castles",
-        "description": "",
-        "tags": [],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -11.01218982176,
-          45.00463697343999
-        ]
-      },
-      "properties": {
-        "name": "Fort-Breton",
-        "type": "Forts and Castles",
-        "description": "",
-        "tags": [],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -10.594520051199998,
-          45.471704432319996
-        ]
-      },
-      "properties": {
-        "name": "Bastion Salado",
-        "type": "Forts and Castles",
-        "description": "",
-        "tags": [],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -18.95647684384,
-          45.21093929247999
-        ]
-      },
-      "properties": {
-        "name": "Fortaleza Dos Dames",
-        "type": "Forts and Castles",
-        "description": "",
-        "tags": [],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -14.824802051839999,
-          40.314544147199996
-        ]
-      },
-      "properties": {
-        "name": "Castillo de Ambra",
-        "type": "Forts and Castles",
-        "description": "",
-        "tags": [],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -13.138058148479999,
-          40.37899387519999
-        ]
-      },
-      "properties": {
-        "name": "Castillo de la Mora",
-        "type": "Forts and Castles",
-        "description": "",
-        "tags": [],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -13.76230102496,
-          42.68077267584
-        ]
-      },
-      "properties": {
-        "name": "Castillo de Montijo",
-        "type": "Forts and Castles",
-        "description": "",
-        "tags": [],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -19.173433847680002,
-          43.10973497695999
-        ]
-      },
-      "properties": {
-        "name": "Castillo de Polvazares",
         "type": "Forts and Castles",
         "description": "",
         "tags": [],
@@ -17818,8 +17598,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.0857773593599993,
-          34.5287544832
+          -3.0489489433599997,
+          34.520468089599994
         ]
       },
       "properties": {
@@ -18066,50 +17846,6 @@
       },
       "properties": {
         "name": "Heiligerberg",
-        "type": "Geographic Landmarks",
-        "description": "",
-        "tags": [],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -8.639885322143998,
-          64.12097819936
-        ]
-      },
-      "properties": {
-        "name": "Mount Helspire",
-        "type": "Geographic Landmarks",
-        "description": "",
-        "tags": [],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -17.44652596608,
-          60.292852804224
-        ]
-      },
-      "properties": {
-        "name": "Lonely Ogben",
         "type": "Geographic Landmarks",
         "description": "",
         "tags": [],

@@ -951,27 +951,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.3184399446399999,
-          49.102067639999994
-        ]
-      },
-      "properties": {
-        "name": "Ortschlamm",
-        "type": "Small Marsh",
-        "description": null,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           0.2880964105600009,
           57.50730137475199
         ]
@@ -1293,27 +1272,6 @@
       },
       "properties": {
         "name": "Ursfjord",
-        "type": "Small Sea",
-        "description": null,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.7744974643199996,
-          68.32878103808
-        ]
-      },
-      "properties": {
-        "name": "Bloodfjord",
         "type": "Small Sea",
         "description": null,
         "wiki": {
@@ -1833,27 +1791,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.1190951347200007,
-          66.78860215264
-        ]
-      },
-      "properties": {
-        "name": "Nordlig Sea",
-        "type": "Medium Sea",
-        "description": null,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -5.69081698592,
           57.024698608255996
         ]
@@ -2127,6 +2064,27 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -0.3184399446399999,
+          49.102067639999994
+        ]
+      },
+      "properties": {
+        "name": "ORTSCHLAMM",
+        "type": "Small Marsh",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           3.911458543360001,
           60.140256643072
         ]
@@ -2154,300 +2112,6 @@
       },
       "properties": {
         "name": "Tobol Saltmarshes",
-        "type": "Small Marsh",
-        "description": null,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -17.24867545344,
-          58.4870544506368
-        ]
-      },
-      "properties": {
-        "name": "Black Bog",
-        "type": "Small Marsh",
-        "description": null,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -19.384153826239995,
-          58.814655985376
-        ]
-      },
-      "properties": {
-        "name": "Bleak Moor",
-        "type": "Small Marsh",
-        "description": null,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -12.692675169919998,
-          52.88330762591999
-        ]
-      },
-      "properties": {
-        "name": "The Dullian Mires",
-        "type": "Small Marsh",
-        "description": null,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -9.835245367359999,
-          54.99910362591999
-        ]
-      },
-      "properties": {
-        "name": "The Mourning Meadows",
-        "type": "Small Marsh",
-        "description": null,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -5.999307849503999,
-          55.66316617696
-        ]
-      },
-      "properties": {
-        "name": "Le Mollier Marshes",
-        "type": "Small Marsh",
-        "description": null,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -4.819875884159999,
-          55.41549455424
-        ]
-      },
-      "properties": {
-        "name": "Theronde Bogs",
-        "type": "Small Marsh",
-        "description": null,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -9.82418546496,
-          50.298672237119995
-        ]
-      },
-      "properties": {
-        "name": "Moussillon Marshes",
-        "type": "Small Marsh",
-        "description": null,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -9.506477187519998,
-          49.90023463647999
-        ]
-      },
-      "properties": {
-        "name": "Forsaken Marshes",
-        "type": "Small Marsh",
-        "description": null,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -8.158820929695999,
-          50.6476305808
-        ]
-      },
-      "properties": {
-        "name": "Marais de la Lune",
-        "type": "Small Marsh",
-        "description": null,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -7.355435488451199,
-          51.186693216959995
-        ]
-      },
-      "properties": {
-        "name": "Rangonges Marsh",
-        "type": "Small Marsh",
-        "description": null,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -6.321581275168,
-          51.75049530656
-        ]
-      },
-      "properties": {
-        "name": "Le Bunard",
-        "type": "Small Marsh",
-        "description": null,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -5.0846021792,
-          50.42757886975999
-        ]
-      },
-      "properties": {
-        "name": "Maresquet Mires",
-        "type": "Small Marsh",
-        "description": null,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -3.0533524246399995,
-          48.522631152639995
-        ]
-      },
-      "properties": {
-        "name": "Halluin Morass",
-        "type": "Small Marsh",
-        "description": null,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -9.479133663999999,
-          45.10335970847999
-        ]
-      },
-      "properties": {
-        "name": "Engoumois Marsh",
         "type": "Small Marsh",
         "description": null,
         "wiki": {
