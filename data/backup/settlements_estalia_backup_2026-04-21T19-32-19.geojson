@@ -1,0 +1,55 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.717168757941593,
+          46.513300432
+        ]
+      },
+      "properties": {
+        "name": "Bilbali",
+        "province": "Estalia",
+        "estate": "",
+        "population": 37,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.24243697842159,
+          41.70898017759999
+        ]
+      },
+      "properties": {
+        "name": "Magritta",
+        "province": "Estalia",
+        "estate": "",
+        "population": 57,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    }
+  ]
+}

@@ -6,15 +6,1147 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -16.717168757941593,
+          -16.71716876896,
           46.513300432
         ]
       },
       "properties": {
         "name": "Bilbali",
+        "province": "Bilbali",
+        "estate": "",
+        "population": 38439,
+        "tags": [
+          "source:4eSoC"
+        ],
+        "notes": [],
+        "size_category": 5,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.115378604159998,
+          41.80289316352
+        ]
+      },
+      "properties": {
+        "name": "Magritta",
+        "province": "Magritta",
+        "estate": "",
+        "population": 47188,
+        "tags": [
+          "source:4eSoC"
+        ],
+        "notes": [],
+        "size_category": 5,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -22.277344825919997,
+          41.39416566144
+        ]
+      },
+      "properties": {
+        "name": "Los Cabos",
         "province": "Estalia",
         "estate": "",
-        "population": 37,
+        "population": 117,
+        "tags": [
+          "source:MoWC"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -20.070312026559996,
+          41.84859015615999
+        ]
+      },
+      "properties": {
+        "name": "San Pedro del Sur",
+        "province": "Estalia",
+        "estate": "",
+        "population": 31,
+        "tags": [
+          "source:MoWC"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -18.68489563232,
+          41.93322549696
+        ]
+      },
+      "properties": {
+        "name": "Belmez",
+        "province": "Estalia",
+        "estate": "",
+        "population": 228,
+        "tags": [
+          "source:MoWC"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.58559857184,
+          41.2055563856
+        ]
+      },
+      "properties": {
+        "name": "Ubrique",
+        "province": "Estalia",
+        "estate": "",
+        "population": 278,
+        "tags": [
+          "source:MoWC"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.200846804479998,
+          41.329854565119994
+        ]
+      },
+      "properties": {
+        "name": "Torrosa",
+        "province": "Estalia",
+        "estate": "",
+        "population": 300,
+        "tags": [
+          "source:MoWC"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -14.90448393568,
+          41.46243371199999
+        ]
+      },
+      "properties": {
+        "name": "Jávea",
+        "province": "Estalia",
+        "estate": "",
+        "population": 35,
+        "tags": [
+          "source:MoWC"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -14.626430095039998,
+          39.952465155199995
+        ]
+      },
+      "properties": {
+        "name": "Almagora",
+        "province": "Estalia",
+        "estate": "",
+        "population": 121,
+        "tags": [
+          "source:MoWC"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -12.718136313279999,
+          39.3056818528
+        ]
+      },
+      "properties": {
+        "name": "Sitges",
+        "province": "Estalia",
+        "estate": "",
+        "population": 90,
+        "tags": [
+          "source:MoWC"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -12.450519757759997,
+          38.0426019648
+        ]
+      },
+      "properties": {
+        "name": "Águilas",
+        "province": "Estalia",
+        "estate": "",
+        "population": 224,
+        "tags": [
+          "source:MoWC"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -21.894779152319998,
+          41.64416601631999
+        ]
+      },
+      "properties": {
+        "name": "Nuja",
+        "province": "Estalia",
+        "estate": "",
+        "population": 176,
+        "tags": [
+          "source:TWW3"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -14.65468452672,
+          43.242194396479995
+        ]
+      },
+      "properties": {
+        "name": "Monteñas",
+        "province": "Estalia",
+        "estate": "",
+        "population": 44,
+        "tags": [
+          "source:TWW3"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.909688632639998,
+          47.37340550752
+        ]
+      },
+      "properties": {
+        "name": "San Luis",
+        "province": "Estalia",
+        "estate": "",
+        "population": 106,
+        "tags": [
+          "source:MadAlfred"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -14.927082474879999,
+          47.394162625919996
+        ]
+      },
+      "properties": {
+        "name": "Barbosa",
+        "province": "Estalia",
+        "estate": "",
+        "population": 92,
+        "tags": [
+          "source:MoWC"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -18.8211926288,
+          45.872645805119994
+        ]
+      },
+      "properties": {
+        "name": "Diamantierra",
+        "province": "Estalia",
+        "estate": "",
+        "population": 166,
+        "tags": [
+          "source:MadAlfred"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -19.036641137919997,
+          46.09913916319999
+        ]
+      },
+      "properties": {
+        "name": "Almyria",
+        "province": "Estalia",
+        "estate": "",
+        "population": 183,
+        "tags": [
+          "souce:BrianCraig"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.151022037759997,
+          46.11755442143999
+        ]
+      },
+      "properties": {
+        "name": "Sahagún",
+        "province": "Estalia",
+        "estate": "",
+        "population": 142,
+        "tags": [
+          "source:MadAlfred"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.204637451519998,
+          45.773209432
+        ]
+      },
+      "properties": {
+        "name": "Potes",
+        "province": "Estalia",
+        "estate": "",
+        "population": 82,
+        "tags": [
+          "source:MadAlfred"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.447915745279998,
+          45.29260035359999
+        ]
+      },
+      "properties": {
+        "name": "Burgas",
+        "province": "Estalia",
+        "estate": "",
+        "population": 198,
+        "tags": [
+          "source:MadAlfred"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -12.28144757152,
+          44.76534906655999
+        ]
+      },
+      "properties": {
+        "name": "Azuara",
+        "province": "Estalia",
+        "estate": "",
+        "population": 111,
+        "tags": [
+          "source:MadAlfred"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13.119790799039997,
+          44.261350443199994
+        ]
+      },
+      "properties": {
+        "name": "Bajena",
+        "province": "Estalia",
+        "estate": "",
+        "population": 254,
+        "tags": [
+          "source:MadAlfred"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.968748938879997,
+          45.430621844159994
+        ]
+      },
+      "properties": {
+        "name": "Vizcaya",
+        "province": "Estalia",
+        "estate": "",
+        "population": 132,
+        "tags": [
+          "source:MoWC"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13.161457320639999,
+          46.64155906655999
+        ]
+      },
+      "properties": {
+        "name": "Alquézar",
+        "province": "Estalia",
+        "estate": "",
+        "population": 503,
+        "tags": [
+          "source:MoWC"
+        ],
+        "notes": [],
+        "size_category": 2,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.845857380799998,
+          45.46774082656
+        ]
+      },
+      "properties": {
+        "name": "Barsellón",
+        "province": "Estalia",
+        "estate": "",
+        "population": 121,
+        "tags": [
+          "source:1e"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.82812390336,
+          43.76395450368
+        ]
+      },
+      "properties": {
+        "name": "Guadanar",
+        "province": "Estalia",
+        "estate": "",
+        "population": 43,
+        "tags": [
+          "source:MadAlfred"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.584852066879998,
+          42.78504767967999
+        ]
+      },
+      "properties": {
+        "name": "Durango",
+        "province": "Estalia",
+        "estate": "",
+        "population": 251,
+        "tags": [
+          "source:MadAlfred"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.798002319999998,
+          41.462435812479995
+        ]
+      },
+      "properties": {
+        "name": "Zaragoz",
+        "province": "Estalia",
+        "estate": "",
+        "population": 523,
+        "tags": [
+          "source:Zaragoz"
+        ],
+        "notes": [],
+        "size_category": 2,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13.786457595199998,
+          43.138954579199996
+        ]
+      },
+      "properties": {
+        "name": "Sierpes",
+        "province": "Estalia",
+        "estate": "",
+        "population": 72,
+        "tags": [
+          "source:MadAlfred"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -12.063166740159998,
+          41.0573246368
+        ]
+      },
+      "properties": {
+        "name": "Gualcázar",
+        "province": "Estalia",
+        "estate": "",
+        "population": 85,
+        "tags": [
+          "source:MadAlfred"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -12.600864064319998,
+          40.711134025599996
+        ]
+      },
+      "properties": {
+        "name": "Larghoz",
+        "province": "Estalia",
+        "estate": "",
+        "population": 83,
+        "tags": [
+          "source:MonstArc"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.766698691519998,
+          39.5933880992
+        ]
+      },
+      "properties": {
+        "name": "Ávila",
+        "province": "Estalia",
+        "estate": "",
+        "population": 62,
+        "tags": [
+          "source:MoWC"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -12.604165843839999,
+          38.881145088
+        ]
+      },
+      "properties": {
+        "name": "Porto Espejo",
+        "province": "Estalia",
+        "estate": "",
+        "population": 375,
+        "tags": [
+          "source:MoWC"
+        ],
+        "notes": [],
+        "size_category": 2,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -14.902643215039998,
+          42.18979737856
+        ]
+      },
+      "properties": {
+        "name": "Molinero",
+        "province": "Estalia",
+        "estate": "",
+        "population": 391,
+        "tags": [
+          "source:MadAlfred"
+        ],
+        "notes": [],
+        "size_category": 2,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -14.65468452672,
+          43.242194396479995
+        ]
+      },
+      "properties": {
+        "name": "Monteñas",
+        "province": "Estalia",
+        "estate": "",
+        "population": 178,
+        "tags": [
+          "source:TWW3"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.211788223999996,
+          42.89322222463999
+        ]
+      },
+      "properties": {
+        "name": "Cebreros",
+        "province": "Estalia",
+        "estate": "",
+        "population": 128,
+        "tags": [
+          "source:MadAlfred"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.710814661119997,
+          43.17864297376
+        ]
+      },
+      "properties": {
+        "name": "Siernos",
+        "province": "Estalia",
+        "estate": "",
+        "population": 195,
+        "tags": [
+          "source:Vermintide2"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -19.210936517759997,
+          43.818641550719995
+        ]
+      },
+      "properties": {
+        "name": "Verín",
+        "province": "Estalia",
+        "estate": "",
+        "population": 76,
+        "tags": [
+          "source:MadAlfred"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -19.95366957152,
+          43.90600348959999
+        ]
+      },
+      "properties": {
+        "name": "Muros",
+        "province": "Estalia",
+        "estate": "",
+        "population": 119,
+        "tags": [
+          "source:MadAlfred"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -18.0349068224,
+          42.526779310399995
+        ]
+      },
+      "properties": {
+        "name": "Jaraíz",
+        "province": "Estalia",
+        "estate": "",
+        "population": 96,
+        "tags": [
+          "source:MadAlfred"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -19.12871130272,
+          44.33137291968
+        ]
+      },
+      "properties": {
+        "name": "Murum",
+        "province": "Estalia",
+        "estate": "",
+        "population": 727,
+        "tags": [
+          "source:MadAlfred"
+        ],
+        "notes": [],
+        "size_category": 2,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -20.03124957504,
+          42.58166310239999
+        ]
+      },
+      "properties": {
+        "name": "Garnatta",
+        "province": "Estalia",
+        "estate": "",
+        "population": 635,
+        "tags": [],
+        "notes": [],
+        "size_category": 2,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.74027791904,
+          42.62989835008
+        ]
+      },
+      "properties": {
+        "name": "Toletti",
+        "province": "Estalia",
+        "estate": "",
+        "population": 159,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -31,18 +1163,218 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -15.24243697842159,
-          41.70898017759999
+          -15.287501562559997,
+          45.88921929247999
         ]
       },
       "properties": {
-        "name": "Magritta",
+        "name": "Palantta",
         "province": "Estalia",
         "estate": "",
-        "population": 57,
+        "population": 156,
         "tags": [],
         "notes": [],
         "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -12.985720661439998,
+          44.35347084447999
+        ]
+      },
+      "properties": {
+        "name": "Capomonte",
+        "province": "Estalia",
+        "estate": "",
+        "population": 128,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -12.042911811519998,
+          40.3041800288
+        ]
+      },
+      "properties": {
+        "name": "Geulata",
+        "province": "Estalia",
+        "estate": "",
+        "population": 160,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13.372394698879997,
+          40.6545838528
+        ]
+      },
+      "properties": {
+        "name": "Cordova",
+        "province": "Estalia",
+        "estate": "",
+        "population": 114,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -12.758168661439997,
+          36.6088668288
+        ]
+      },
+      "properties": {
+        "name": "Porto Real",
+        "province": "Estalia",
+        "estate": "",
+        "population": 473,
+        "tags": [],
+        "notes": [],
+        "size_category": 2,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.03645744416,
+          44.62593355743999
+        ]
+      },
+      "properties": {
+        "name": "Rías",
+        "province": "Estalia",
+        "estate": "",
+        "population": 414,
+        "tags": [],
+        "notes": [],
+        "size_category": 2,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -14.244790733119999,
+          44.50093329247999
+        ]
+      },
+      "properties": {
+        "name": "Llançà",
+        "province": "Estalia",
+        "estate": "",
+        "population": 80,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.31739201632,
+          40.7940014624
+        ]
+      },
+      "properties": {
+        "name": "Solsona",
+        "province": "Estalia",
+        "estate": "",
+        "population": 134,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.706789481919998,
+          42.04923115647999
+        ]
+      },
+      "properties": {
+        "name": "Ragaños",
+        "province": "Estalia",
+        "estate": "",
+        "population": 473,
+        "tags": [],
+        "notes": [],
+        "size_category": 2,
         "wiki": {
           "title": null,
           "url": null,
