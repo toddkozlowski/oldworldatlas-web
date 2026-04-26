@@ -6,8 +6,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          3.1508593896032004,
-          52.884770181392
+          3.15085933184,
+          52.88477026015999
         ]
       },
       "properties": {
@@ -29,8 +29,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.0097961905632005,
-          55.28151605883199
+          1.0097961328000002,
+          55.28151613759999
         ]
       },
       "properties": {
@@ -52,8 +52,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.2907303144032005,
-          47.94973618139199
+          1.607455159360001,
+          47.912907844159996
         ]
       },
       "properties": {
@@ -75,8 +75,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          3.714346232163201,
-          56.93323223518399
+          4.517206693440001,
+          57.080546170496
         ]
       },
       "properties": {
@@ -98,8 +98,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          7.4438265400032,
-          49.48152207387199
+          9.41046774752,
+          49.86453855424
         ]
       },
       "properties": {
@@ -121,8 +121,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          3.6749879630432,
-          43.47013630683199
+          4.3747292096,
+          43.34491924607999
         ]
       },
       "properties": {
@@ -144,8 +144,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          3.8818981960032,
-          47.72691061147199
+          4.7952439052799996,
+          47.771104439359995
         ]
       },
       "properties": {
@@ -167,8 +167,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.0465845819167994,
-          54.821374232592
+          -1.0465846396799994,
+          54.82137431135999
         ]
       },
       "properties": {
@@ -190,8 +190,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.6635559275167987,
-          51.580715704911995
+          -1.0539375449599995,
+          51.55861890911999
         ]
       },
       "properties": {
@@ -213,8 +213,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.03875099759679903,
-          53.719133174351995
+          -0.038751055359999086,
+          53.71913325311999
         ]
       },
       "properties": {
@@ -236,8 +236,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.055599647836798965,
-          51.467006395152
+          -0.05559953055999946,
+          51.467006648959995
         ]
       },
       "properties": {
@@ -259,8 +259,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          0.19610857232320117,
-          49.20400175515199
+          0.1961085145600001,
+          49.204001833919996
         ]
       },
       "properties": {
@@ -282,8 +282,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          5.2504932462432015,
-          53.281745672911995
+          6.318519352959999,
+          53.421694082559995
         ]
       },
       "properties": {
@@ -305,8 +305,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          3.652505475363201,
-          49.963173690511994
+          4.4774636864,
+          50.19887633184
         ]
       },
       "properties": {
@@ -328,8 +328,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -5.874328514076799,
-          34.261400583951996
+          -8.069305893791999,
+          34.4897363168
         ]
       },
       "properties": {
@@ -351,8 +351,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -4.643003857756799,
-          41.086082404752
+          -5.574764415679999,
+          41.38807601983999
         ]
       },
       "properties": {
@@ -374,8 +374,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.8177541473567995,
-          37.333161790351994
+          -5.3112667263999995,
+          37.899963619199994
         ]
       },
       "properties": {
@@ -397,8 +397,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -8.448321278332799,
-          33.724334103951996
+          -10.378133852799998,
+          33.7537963904
         ]
       },
       "properties": {
@@ -420,8 +420,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -8.029147038972798,
-          40.509715943952
+          -9.905472115519999,
+          40.76141426559999
         ]
       },
       "properties": {
@@ -443,8 +443,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.3854804395167992,
-          39.147400628751996
+          -5.0795906089599985,
+          39.449394944
         ]
       },
       "properties": {
@@ -466,8 +466,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -5.108025449116799,
-          38.197707105552
+          -6.846329682752,
+          38.47023693759999
         ]
       },
       "properties": {
@@ -489,8 +489,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -5.140773332636798,
-          36.232828843152
+          -6.879077566272,
+          36.50535867519999
         ]
       },
       "properties": {
@@ -512,8 +512,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          7.9533559022432,
-          56.778638955152
+          7.95335601952,
+          56.778639033919994
         ]
       },
       "properties": {
@@ -535,8 +535,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.114152997596799,
-          63.148372561551994
+          -1.114153055359999,
+          63.14837264031999
         ]
       },
       "properties": {
@@ -558,8 +558,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -11.357727826076799,
-          43.394778436112
+          -14.263977917759998,
+          43.88436171904
         ]
       },
       "properties": {
@@ -581,8 +581,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.9218427143967993,
-          37.86691651355199
+          -4.5468427158399995,
+          38.24191651199999
         ]
       },
       "properties": {
@@ -604,8 +604,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -14.8043760513568,
-          58.19579923847999
+          -14.80437610912,
+          58.19579922972799
         ]
       },
       "properties": {
@@ -627,8 +627,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.37852569263679947,
-          56.458774184911995
+          -0.37852557536,
+          56.45877426367999
         ]
       },
       "properties": {
@@ -650,8 +650,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.024366052643201,
-          51.97608712987199
+          4.024365994880001,
+          51.976087383679996
         ]
       },
       "properties": {
@@ -673,8 +673,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          3.5539054433632002,
-          39.87471108315199
+          3.5539053856000002,
+          39.874710636799996
         ]
       },
       "properties": {
@@ -696,8 +696,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -5.0046156679967995,
-          48.136688353551996
+          -6.160865831103999,
+          48.074188299839996
         ]
       },
       "properties": {
@@ -719,8 +719,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.8378604094367991,
-          45.328053751632
+          -1.2857769747199992,
+          45.43222100959999
         ]
       },
       "properties": {
@@ -742,8 +742,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.8306517755167993,
-          53.92574478907199
+          -2.8306518332799993,
+          53.925744867839995
         ]
       },
       "properties": {
@@ -765,8 +765,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.817758694243196,
-          47.642891586512
+          15.8177574112,
+          47.64289166527999
         ]
       },
       "properties": {
@@ -788,8 +788,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.687730211043197,
-          67.779638819792
+          14.687730678399998,
+          67.7796390736
         ]
       },
       "properties": {
@@ -811,8 +811,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          5.050508120803201,
-          35.05689611995199
+          5.0505080630400006,
+          35.056897424
         ]
       },
       "properties": {
@@ -834,8 +834,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.4547529467232008,
-          56.53779424251199
+          1.0275427382400006,
+          56.795593408319995
         ]
       },
       "properties": {
@@ -857,8 +857,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.9842260740832005,
-          55.20320876411199
+          5.81654961824,
+          55.15164888543999
         ]
       },
       "properties": {
@@ -880,8 +880,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          7.7168357190912005,
-          51.6785257306304
+          9.5140655216,
+          52.87913414719999
         ]
       },
       "properties": {
@@ -903,8 +903,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.9293599523712,
-          49.1968770512704
+          4.92936042848,
+          49.196877005759994
         ]
       },
       "properties": {
@@ -926,8 +926,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          0.3400779220832012,
-          53.075709414672
+          0.3400780393600007,
+          53.075709493439994
         ]
       },
       "properties": {
@@ -949,8 +949,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          2.779037146083201,
-          54.252248826511995
+          3.8102348368,
+          54.370099836479994
         ]
       },
       "properties": {
@@ -972,8 +972,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          3.4419060993632,
-          51.341473658511994
+          3.441906216639999,
+          51.34147391232
         ]
       },
       "properties": {
@@ -995,8 +995,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.6025359332767996,
-          50.53181808667199
+          -0.6025359910399997,
+          50.531818165439994
         ]
       },
       "properties": {
@@ -1018,8 +1018,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          3.811474694131201,
-          46.587729761030396
+          3.8114751702400005,
+          46.58772971552
         ]
       },
       "properties": {
@@ -1041,8 +1041,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          2.5007216118912012,
-          44.97903269287039
+          2.9647608297600008,
+          44.97166731424
         ]
       },
       "properties": {
@@ -1064,8 +1064,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          5.3490750740832,
-          47.971883117392
+          6.571780352959999,
+          47.920323238719995
         ]
       },
       "properties": {
@@ -1087,8 +1087,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -5.169333034076799,
-          55.190511362512
+          -8.668038458176,
+          55.205242807679994
         ]
       },
       "properties": {
@@ -1110,8 +1110,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -7.193442381916799,
-          52.928272172431996
+          -9.447345349759999,
+          52.72939827967999
         ]
       },
       "properties": {
@@ -1133,8 +1133,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -9.491402159836799,
-          53.39262651131199
+          -12.187247169919997,
+          53.57676902015999
         ]
       },
       "properties": {
@@ -1156,8 +1156,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -7.276789375804799,
-          54.59518491899199
+          -10.628180943359999,
+          54.749864695039996
         ]
       },
       "properties": {
@@ -1179,8 +1179,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -7.717329487676799,
-          51.02322765819199
+          -9.735530155519998,
+          50.64757701855999
         ]
       },
       "properties": {
@@ -1202,8 +1202,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -5.466997131036799,
-          50.57077954011199
+          -7.035890353503999,
+          50.30561449855999
         ]
       },
       "properties": {
@@ -1225,8 +1225,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -7.026752647612799,
-          48.93958493083199
+          -8.102144255487998,
+          48.954316726079995
         ]
       },
       "properties": {
@@ -1248,8 +1248,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -6.7529022525408,
-          47.379830446991996
+          -7.828293842911998,
+          47.57133828895999
         ]
       },
       "properties": {
@@ -1271,8 +1271,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -6.800527590844799,
-          45.760542758671996
+          -7.979038903551999,
+          46.04780553247999
         ]
       },
       "properties": {
@@ -1294,8 +1294,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -4.812137658076799,
-          44.06981599515199
+          -4.81213771584,
+          44.069816073919995
         ]
       },
       "properties": {
@@ -1317,8 +1317,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.9191474676767992,
-          46.141551801552
+          -3.9191473503999994,
+          46.141551880319994
         ]
       },
       "properties": {
@@ -1340,8 +1340,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.3448656948767987,
-          48.448979318031995
+          -2.1624581631999997,
+          48.522636403839996
         ]
       },
       "properties": {
@@ -1363,8 +1363,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -5.085988088156799,
-          52.249600082831996
+          -6.7285383176639995,
+          51.81502415263999
         ]
       },
       "properties": {
@@ -1386,8 +1386,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.2285705575967993,
-          49.927827513231996
+          -3.788363413759999,
+          49.73632000384
         ]
       },
       "properties": {
@@ -1409,8 +1409,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -12.1727970350368,
-          41.898066708752
+          -15.615123055359996,
+          42.01644213855999
         ]
       },
       "properties": {
@@ -1432,8 +1432,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -13.1083128433568,
-          45.95505578363199
+          -16.3934132096,
+          45.80774184831999
         ]
       },
       "properties": {
@@ -1455,8 +1455,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.994991211036799,
-          46.048822436112
+          -2.583532811839999,
+          46.137363873279995
         ]
       },
       "properties": {
@@ -1478,8 +1478,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.4618790404767993,
-          46.730373758671995
+          -0.5504209817599993,
+          46.62099851807999
         ]
       },
       "properties": {
@@ -1501,8 +1501,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.7490290097567988,
-          47.49540025691199
+          -1.0667371699199997,
+          47.52144173663999
         ]
       },
       "properties": {
@@ -1524,8 +1524,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.5868280187167991,
-          42.669228884111995
+          -0.7066198511999993,
+          42.8098539984
         ]
       },
       "properties": {
@@ -1547,8 +1547,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.480848669596799,
-          42.45800356507199
+          -1.480848727359999,
+          42.458003643839994
         ]
       },
       "properties": {
@@ -1570,8 +1570,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          0.43621111536320045,
-          42.605588891151996
+          0.4362110576000004,
+          42.60558896992
         ]
       },
       "properties": {
@@ -1593,8 +1593,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.9357039185567995,
-          45.87960076571199
+          -1.3211203513599992,
+          45.85876793375999
         ]
       },
       "properties": {
@@ -1616,8 +1616,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.683886142556799,
-          43.340562421711994
+          -2.204719295679999,
+          43.21035409535999
         ]
       },
       "properties": {
@@ -1639,8 +1639,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.46763383055679963,
-          44.059600310671996
+          -0.4676337132799991,
+          44.05960038943999
         ]
       },
       "properties": {
@@ -1662,8 +1662,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.8201264260767995,
-          47.30165320699199
+          -2.2940849174399998,
+          47.33811219232
         ]
       },
       "properties": {
@@ -1685,8 +1685,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.1259380907167995,
-          44.748670826512
+          -1.8186463455999993,
+          44.5976294144
         ]
       },
       "properties": {
@@ -1708,8 +1708,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          0.029574291043201105,
-          45.654576518351995
+          -0.20480082591999957,
+          45.633743511359995
         ]
       },
       "properties": {
@@ -1731,12 +1731,380 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.3942912894432,
-          54.776564342671996
+          -11.587487313279999,
+          45.01006846463999
         ]
       },
       "properties": {
-        "name": "POLYANYA OBLAST (Southern Oblast)",
+        "name": "NOVARENO",
+        "province_type": "Province",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -20.14621987296,
+          42.60650355392
+        ]
+      },
+      "properties": {
+        "name": "AVILA",
+        "province_type": "Province",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13.981338204159998,
+          41.526094009599994
+        ]
+      },
+      "properties": {
+        "name": "CANTONIA",
+        "province_type": "Province",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.042967104959999,
+          41.21698142143999
+        ]
+      },
+      "properties": {
+        "name": "GEULATA",
+        "province_type": "Province",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.616046314559998,
+          40.1532185312
+        ]
+      },
+      "properties": {
+        "name": "LARGHOZ",
+        "province_type": "Province",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -18.09828933152,
+          46.84461456864
+        ]
+      },
+      "properties": {
+        "name": "CABRIA",
+        "province_type": "Province",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -18.645353396159997,
+          44.822710374719996
+        ]
+      },
+      "properties": {
+        "name": "ESTREMA",
+        "province_type": "Province",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -19.46166976512,
+          43.46530195584
+        ]
+      },
+      "properties": {
+        "name": "LYSBOA Y OBREGON",
+        "province_type": "Province",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -14.18446319712,
+          40.255259849599994
+        ]
+      },
+      "properties": {
+        "name": "MENDORA",
+        "province_type": "Province",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -12.17099575616,
+          39.2244650432
+        ]
+      },
+      "properties": {
+        "name": "ORETANO",
+        "province_type": "Province",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -18.504129198719998,
+          42.43042189088
+        ]
+      },
+      "properties": {
+        "name": "TARROCCO",
+        "province_type": "Province",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.985256611199999,
+          41.62005198079999
+        ]
+      },
+      "properties": {
+        "name": "ZARAGOZ",
+        "province_type": "Province",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.563325666879999,
+          37.000025216
+        ]
+      },
+      "properties": {
+        "name": "LA ISLA ATALAYA",
+        "province_type": "Province",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -22.33197323456,
+          40.4950471456
+        ]
+      },
+      "properties": {
+        "name": "LA ISLA DE SANGRE",
+        "province_type": "Province",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.07104573664,
+          43.319468780159994
+        ]
+      },
+      "properties": {
+        "name": "CARONA",
+        "province_type": "Province",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -21.599344714879997,
+          41.898169536
+        ]
+      },
+      "properties": {
+        "name": "BADAJOZ",
+        "province_type": "Province",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.788142297599999,
+          54.77656442143999
+        ]
+      },
+      "properties": {
+        "name": "Southern Oblast",
         "province_type": "Grand-Province",
         "formal_title": "",
         "part_of": "",
@@ -1754,12 +2122,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.708801780323201,
-          57.85002826817599
+          11.2850616032,
+          56.700979737279994
         ]
       },
       "properties": {
-        "name": "UNGOLSK OBLAST (Eastern Oblast)",
+        "name": "Eastern Oblast",
         "province_type": "Grand-Province",
         "formal_title": "",
         "part_of": "",
@@ -1777,12 +2145,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.6300861963232,
-          60.72610217627199
+          5.9338148656,
+          60.37991461951999
         ]
       },
       "properties": {
-        "name": "KAMENNAYA ZIMA (Troll Country)",
+        "name": "Troll Country",
         "province_type": "Grand-Province",
         "formal_title": "",
         "part_of": "",
@@ -1800,12 +2168,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.9586564827232,
-          60.02684375479999
+          9.81307795168,
+          59.87952980198399
         ]
       },
       "properties": {
-        "name": "SEVERYNA OBLAST (Northern Oblast)",
+        "name": "Northern Oblast",
         "province_type": "Grand-Province",
         "formal_title": "",
         "part_of": "",
@@ -1823,12 +2191,35 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.979611844643201,
-          58.26649985492799
+          5.83403226336,
+          58.472739338108795
         ]
       },
       "properties": {
-        "name": "PRIMORYE OBLAST (Western Oblast)",
+        "name": "Western Oblast",
+        "province_type": "Grand-Province",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.615083904000002,
+          59.26081138044799
+        ]
+      },
+      "properties": {
+        "name": "The Wheatlands",
         "province_type": "Grand-Province",
         "formal_title": "",
         "part_of": "",

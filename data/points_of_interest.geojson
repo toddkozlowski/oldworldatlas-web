@@ -15090,72 +15090,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.0831988259199994,
-          57.427099114495995
-        ]
-      },
-      "properties": {
-        "name": "Elderhame",
-        "type": "Taverns and Inns",
-        "description": "",
-        "tags": [],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.4653142774399994,
-          57.375309049471994
-        ]
-      },
-      "properties": {
-        "name": "Ishernos' Circle",
-        "type": "Taverns and Inns",
-        "description": "",
-        "tags": [],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.4041736806399994,
-          57.29186951193599
-        ]
-      },
-      "properties": {
-        "name": "Marrasith's Waystone",
-        "type": "Taverns and Inns",
-        "description": "",
-        "tags": [],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           0.9904941219200007,
           45.05581674399999
         ]
@@ -15448,72 +15382,6 @@
       },
       "properties": {
         "name": "Convent of Shallya's Tears",
-        "type": "Monasteries and Temples",
-        "description": "",
-        "tags": [],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.9214699177599999,
-          57.76692807193599
-        ]
-      },
-      "properties": {
-        "name": "Nordwrack Temple",
-        "type": "Monasteries and Temples",
-        "description": "",
-        "tags": [],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.3961176396799992,
-          57.60278238649599
-        ]
-      },
-      "properties": {
-        "name": "Temple of Lost Gods",
-        "type": "Monasteries and Temples",
-        "description": "",
-        "tags": [],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.9544432527999998,
-          57.586065768927995
-        ]
-      },
-      "properties": {
-        "name": "Skywatch Altar",
         "type": "Monasteries and Temples",
         "description": "",
         "tags": [],
@@ -16366,28 +16234,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.6416026627199996,
-          57.70126983276799
-        ]
-      },
-      "properties": {
-        "name": "Skaelwatch",
-        "type": "Forts and Castles",
-        "description": "",
-        "tags": [],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           2.1943166684799995,
           55.490549780799995
         ]
@@ -17164,94 +17010,6 @@
       },
       "properties": {
         "name": "The Cairn Circle",
-        "type": "Other",
-        "description": "",
-        "tags": [],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.239599322239999,
-          57.673697356927995
-        ]
-      },
-      "properties": {
-        "name": "Rhya's Candle",
-        "type": "Other",
-        "description": "",
-        "tags": [],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.1184450553599987,
-          57.608364237055994
-        ]
-      },
-      "properties": {
-        "name": "The Witch Stone",
-        "type": "Other",
-        "description": "",
-        "tags": [],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.0731697148799992,
-          57.64966266703999
-        ]
-      },
-      "properties": {
-        "name": "Deeping Barrows",
-        "type": "Other",
-        "description": "",
-        "tags": [],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.152070220159999,
-          57.77425094035199
-        ]
-      },
-      "properties": {
-        "name": "Odrall Point",
         "type": "Other",
         "description": "",
         "tags": [],
