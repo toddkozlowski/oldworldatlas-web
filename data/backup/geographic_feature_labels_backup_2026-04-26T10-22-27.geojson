@@ -6,25 +6,166 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.235662886079999,
-          53.123465831679994
+          1.7728030195200006,
+          56.198919856959996
         ]
       },
       "properties": {
-        "name": "Marienburg",
-        "province": "Westerland",
-        "estate": "",
-        "population": 288437,
-        "tags": [
-          "source:1eMSDtR"
-        ],
-        "notes": [],
-        "size_category": 6,
+        "name": "Messersee",
+        "type": "Lake",
+        "description": null,
         "wiki": {
-          "title": "Marienburg",
-          "url": "https://warhammerfantasy.fandom.com/wiki/Marienburg",
-          "description": "Marienburg is the great mercantile city-state of the Wasteland that is considered to be the largest trading hub in the Old World and the greatest of its ports. Straddling the mouth of the River Reik as it drains into the Manaansport Sea and the Sea of Claws, nearly all the maritime trade of Bretonnia and the Empire of Man finds its way here. It is a place of great wealth and great opportunity.",
-          "image": "https://static.wikia.nocookie.net/warhammerfb/images/2/2d/Warhammer_Fantasy_-_Marienburg%2C_Empire_City_State.png/revision/latest?cb=20151001185559"
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.0517679625600005,
+          56.27813123327999
+        ]
+      },
+      "properties": {
+        "name": "Öbelsee",
+        "type": "Lake",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.45360608448,
+          56.24368791232
+        ]
+      },
+      "properties": {
+        "name": "Barmsee",
+        "type": "Lake",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.49454041376,
+          56.70625316735999
+        ]
+      },
+      "properties": {
+        "name": "Kaltsee",
+        "type": "Lake",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.921451051839999,
+          55.578903321279995
+        ]
+      },
+      "properties": {
+        "name": "Wolfsee",
+        "type": "Lake",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.7669323529599994,
+          49.29788821376
+        ]
+      },
+      "properties": {
+        "name": "Bögensee",
+        "type": "Lake",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.7001029369599997,
+          48.932936640319994
+        ]
+      },
+      "properties": {
+        "name": "Frugelsee",
+        "type": "Lake",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.7279223942399995,
+          48.73030088416
+        ]
+      },
+      "properties": {
+        "name": "Gargrimvarn",
+        "type": "Lake",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
         }
       }
     },
@@ -33,20 +174,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.637384762239999,
-          52.969666410559995
+          0.7710482243200006,
+          46.82744717055999
         ]
       },
       "properties": {
-        "name": "Klessen",
-        "province": "Westerland",
-        "estate": "",
-        "population": 12761,
-        "tags": [
-          "source:TOW"
-        ],
-        "notes": [],
-        "size_category": 4,
+        "name": "Glanzsee",
+        "type": "Lake",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -60,20 +195,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.3639693065599996,
-          52.97232124224
+          7.88814329216,
+          49.79502474399999
         ]
       },
       "properties": {
-        "name": "Kalkaat",
-        "province": "Westerland",
-        "estate": "",
-        "population": 8411,
-        "tags": [
-          "source:TOW"
-        ],
-        "notes": [],
-        "size_category": 4,
+        "name": "Svarsee",
+        "type": "Lake",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -87,20 +216,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.3956636243199996,
-          52.540019703039995
+          9.16294700928,
+          49.248530084479995
         ]
       },
       "properties": {
-        "name": "Zandt",
-        "province": "Westerland",
-        "estate": "",
-        "population": 9744,
-        "tags": [
-          "source:TOW"
-        ],
-        "notes": [],
-        "size_category": 4,
+        "name": "Helsee",
+        "type": "Lake",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -114,25 +237,19 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.9275905798399995,
-          54.24967389183999
+          0.7903631881600004,
+          54.24058931584
         ]
       },
       "properties": {
-        "name": "Broekwater",
-        "province": "Westerland",
-        "estate": "",
-        "population": 1213,
-        "tags": [
-          "source:1eMSDtR"
-        ],
-        "notes": [],
-        "size_category": 3,
+        "name": "Delbsee",
+        "type": "Lake",
+        "description": null,
         "wiki": {
-          "title": "Broekwater",
-          "url": "https://warhammerfantasy.fandom.com/wiki/Broekwater",
-          "description": "The village of Broekwater is squeezed between the Old Coast Road and the Manaanspoort Sea in the Wasteland. A small cluster of fishing hovels, Broekwater has a poor reputation and is said to be a haven for criminals of all sorts. The goods of ships wrecked along the western shore can sometimes be found here.",
-          "image": "https://static.wikia.nocookie.net/warhammerfb/images/5/50/Almshoven_and_Broekwater.png/revision/latest?cb=20231218001247"
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
         }
       }
     },
@@ -141,20 +258,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.5530494015999996,
-          54.1526604224
+          1.6341212780800005,
+          53.85966796799999
         ]
       },
       "properties": {
-        "name": "Gorssel",
-        "province": "Westerland",
-        "estate": "",
-        "population": 2771,
-        "tags": [
-          "source:TOW"
-        ],
-        "notes": [],
-        "size_category": 3,
+        "name": "Untzensee",
+        "type": "Lake",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -168,20 +279,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.1946522393599994,
-          53.26491180479999
+          2.2998663135999995,
+          54.12538673983999
         ]
       },
       "properties": {
-        "name": "Salfen",
-        "province": "Westerland",
-        "estate": "",
-        "population": 1319,
-        "tags": [
-          "source:TOW"
-        ],
-        "notes": [],
-        "size_category": 3,
+        "name": "Ulfensee",
+        "type": "Lake",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -195,25 +300,19 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.351274686399999,
-          57.091015820512
+          -1.895008945919999,
+          52.18609092351999
         ]
       },
       "properties": {
-        "name": "Aarnau",
-        "province": "Westerland",
-        "estate": "",
-        "population": 7311,
-        "tags": [
-          "source:1eMSDtR"
-        ],
-        "notes": [],
-        "size_category": 4,
+        "name": "Myrkelmere",
+        "type": "Lake",
+        "description": null,
         "wiki": {
-          "title": "Aarnau",
-          "url": "https://warhammerfantasy.fandom.com/wiki/Aarnau",
-          "description": "At the very north-eastern tip of the Wasteland, on the border of the Laurelorn Forest, at the far north of the Tumble Downs, at the end of a rutted track grandly named the \"Old North Road\", sits the border town of Aarnau. Ships stopping here report a quiet settlement of farmers and fisherman, with a surprising martial bent.",
-          "image": "https://static.wikia.nocookie.net/warhammerfb/images/d/d7/Hollum-Aarnau-Diever.png/revision/latest?cb=20251109051320"
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
         }
       }
     },
@@ -222,20 +321,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.588161569599999,
-          57.104071563999995
+          -1.5409208799999994,
+          52.69041057024
         ]
       },
       "properties": {
-        "name": "Hollum",
-        "province": "Westerland",
-        "estate": "",
-        "population": 844,
-        "tags": [
-          "source:1eMSDtR"
-        ],
-        "notes": [],
-        "size_category": 2,
+        "name": "Glimmersee",
+        "type": "Lake",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -249,20 +342,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.808481986239999,
-          53.371705459199994
+          -1.378203871039999,
+          52.43415761151999
         ]
       },
       "properties": {
-        "name": "Lehmburg",
-        "province": "Westerland",
-        "estate": "",
-        "population": 512,
-        "tags": [
-          "source:TOW"
-        ],
-        "notes": [],
-        "size_category": 2,
+        "name": "Spiegelsee",
+        "type": "Lake",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -276,20 +363,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.091104176639999,
-          52.457773658239994
+          -1.2564227667199999,
+          52.10012860447999
         ]
       },
       "properties": {
-        "name": "Leydenhoven",
-        "province": "Westerland",
-        "estate": "",
-        "population": 9560,
-        "tags": [
-          "source:1eMSDtR"
-        ],
-        "notes": [],
-        "size_category": 4,
+        "name": "Dornsee",
+        "type": "Lake",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -303,20 +384,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.6237300668799994,
-          52.695754541439996
+          -1.7148947113599997,
+          52.132876487999994
         ]
       },
       "properties": {
-        "name": "Halsdorp",
-        "province": "Westerland",
-        "estate": "",
-        "population": 445,
-        "tags": [
-          "source:1eMSDtR"
-        ],
-        "notes": [],
-        "size_category": 2,
+        "name": "Brachsee",
+        "type": "Lake",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -330,25 +405,19 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.823454207679999,
-          55.82055549343999
+          -1.7210351145599996,
+          52.328545477119995
         ]
       },
       "properties": {
-        "name": "Fort Solace",
-        "province": "Westerland",
-        "estate": "",
-        "population": 1810,
-        "tags": [
-          "source:1eMSDtR"
-        ],
-        "notes": [],
-        "size_category": 3,
+        "name": "Riedsee",
+        "type": "Lake",
+        "description": null,
         "wiki": {
-          "title": "Fort Solace",
-          "url": "https://warhammerfantasy.fandom.com/wiki/Fort_Solace",
-          "description": "Fort Solace is a small seaside village built around a lighthouse along the northern shore of the Manaanspoort Sea. It is a new settlement, founded after the destruction of Almshoven and its beacon on the opposite shore during the last incursion of the forces of Chaos into the Wasteland.",
-          "image": "https://static.wikia.nocookie.net/warhammerfb/images/5/58/Fort_Solace_and_Almshoven.png/revision/latest?cb=20251108070600"
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
         }
       }
     },
@@ -357,18 +426,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.3912517411199996,
-          51.82369178336
+          -0.948386849599999,
+          52.495559893119996
         ]
       },
       "properties": {
-        "name": "Erlach",
-        "province": "Westerland",
-        "estate": "",
-        "population": 248,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Nomensee",
+        "type": "Lake",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -382,18 +447,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.1208448729599993,
-          52.08584954144
+          -0.9565738204799997,
+          52.76163749695999
         ]
       },
       "properties": {
-        "name": "Siert",
-        "province": "Westerland",
-        "estate": "",
-        "population": 135,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Ehrlersee",
+        "type": "Lake",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -407,18 +468,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.320895288319999,
-          51.96735673855999
+          0.4344489299200007,
+          53.58649424255999
         ]
       },
       "properties": {
-        "name": "Ammerhuis",
-        "province": "Westerland",
-        "estate": "",
-        "population": 92,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Wyrmsee",
+        "type": "Lake",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -432,18 +489,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.617518247359999,
-          52.887138726399996
+          -3.0187899014399995,
+          50.56014943967999
         ]
       },
       "properties": {
-        "name": "Grimpengratz",
-        "province": "Westerland",
-        "estate": "",
-        "population": 283,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Maissee",
+        "type": "Lake",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -457,18 +510,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -4.169859592959999,
-          52.59708834431999
+          -0.5215495340799999,
+          54.95898008191999
         ]
       },
       "properties": {
-        "name": "Lemmbourg",
-        "province": "Westerland",
-        "estate": "",
-        "population": 62,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Schadensumpf",
+        "type": "Large Marsh",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -482,18 +531,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -4.243041541439999,
-          52.78055389471999
+          -3.245670272959999,
+          53.46277404511999
         ]
       },
       "properties": {
-        "name": "Keterveen",
-        "province": "Westerland",
-        "estate": "",
-        "population": 269,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Cursed Marshes",
+        "type": "Large Marsh",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -507,18 +552,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.751900831359999,
-          52.76653109024
+          -1.5662752489599991,
+          51.991066256639996
         ]
       },
       "properties": {
-        "name": "Maasten",
-        "province": "Westerland",
-        "estate": "",
-        "population": 149,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Midden Marshes",
+        "type": "Large Marsh",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -532,18 +573,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.994801563839999,
-          52.70476455039999
+          7.895556586239999,
+          48.204632833919995
         ]
       },
       "properties": {
-        "name": "Teskerdorp",
-        "province": "Westerland",
-        "estate": "",
-        "population": 105,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Bylorhof Marsh",
+        "type": "Large Marsh",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -557,18 +594,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.6171485628799993,
-          52.84012298239999
+          7.00235162176,
+          57.211720253791995
         ]
       },
       "properties": {
-        "name": "Koorst",
-        "province": "Westerland",
-        "estate": "",
-        "population": 589,
-        "tags": [],
-        "notes": [],
-        "size_category": 2,
+        "name": "Czarnebłota (The Blight)",
+        "type": "Large Marsh",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -582,18 +615,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.4033161980799993,
-          53.15621581567999
+          -1.3871930502399992,
+          52.590359281599994
         ]
       },
       "properties": {
-        "name": "Vesterecht",
-        "province": "Westerland",
-        "estate": "",
-        "population": 130,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Mirror Moors",
+        "type": "Small Marsh",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -607,18 +636,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.8774785340799998,
-          53.024669754879994
+          9.1664492096,
+          49.27845807359999
         ]
       },
       "properties": {
-        "name": "Moerasstad",
-        "province": "Westerland",
-        "estate": "",
-        "population": 520,
-        "tags": [],
-        "notes": [],
-        "size_category": 2,
+        "name": "Grimmoor",
+        "type": "Small Marsh",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -632,18 +657,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.2846502806399993,
-          53.02107478336
+          9.9390652672,
+          49.3223344752
         ]
       },
       "properties": {
-        "name": "Rijkersfort",
-        "province": "Westerland",
-        "estate": "",
-        "population": 122,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Dunkelmoor",
+        "type": "Small Marsh",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -657,18 +678,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -4.0658184425599995,
-          54.69725764831999
+          7.886371887359999,
+          49.740812405439996
         ]
       },
       "properties": {
-        "name": "Almshoven",
-        "province": "Westerland",
-        "estate": "",
-        "population": 168,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Morrsfenn",
+        "type": "Small Marsh",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -682,18 +699,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.623752433599999,
-          54.34270117536
+          8.32189503776,
+          50.43822252704
         ]
       },
       "properties": {
-        "name": "Randstaad",
-        "province": "Westerland",
-        "estate": "",
-        "population": 177,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Totensümpfe",
+        "type": "Small Marsh",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -707,18 +720,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.7466826755199996,
-          56.46390661151999
+          9.61893776192,
+          50.293834306559994
         ]
       },
       "properties": {
-        "name": "Loenen",
-        "province": "Westerland",
-        "estate": "",
-        "population": 168,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Hel Fenn",
+        "type": "Small Marsh",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -732,18 +741,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.7185120879999998,
-          56.2317855424
+          7.994267768639999,
+          47.402538639999996
         ]
       },
       "properties": {
-        "name": "Oostwald",
-        "province": "Westerland",
-        "estate": "",
-        "population": 150,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Albenmoor",
+        "type": "Small Marsh",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -757,18 +762,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.787801671999999,
-          56.09310607647999
+          -2.9823455231999993,
+          51.834947380479996
         ]
       },
       "properties": {
-        "name": "Stedum",
-        "province": "Westerland",
-        "estate": "",
-        "population": 125,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Grootscher Marsh",
+        "type": "Small Marsh",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -782,18 +783,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.0429702579199995,
-          56.84270717471999
+          -3.6761935807999992,
+          51.48208809535999
         ]
       },
       "properties": {
-        "name": "Haarskamp",
-        "province": "Westerland",
-        "estate": "",
-        "population": 102,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Uhland Bogs",
+        "type": "Small Marsh",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -807,18 +804,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.541060911999999,
-          54.67653151199999
+          -0.7616958371199992,
+          51.65632518687999
         ]
       },
       "properties": {
-        "name": "Vasse",
-        "province": "Westerland",
-        "estate": "",
-        "population": 44,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "The Furdienst",
+        "type": "Small Marsh",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -832,18 +825,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.3858165740799993,
-          52.510083312
+          -0.08931433503999991,
+          51.512879906879995
         ]
       },
       "properties": {
-        "name": "Ruttenkoop",
-        "province": "Westerland",
-        "estate": "",
-        "population": 88,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Altdorf Flats",
+        "type": "Small Marsh",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -857,18 +846,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.967779063679999,
-          52.21758989663999
+          0.68858863072,
+          50.84533038399999
         ]
       },
       "properties": {
-        "name": "Heuveldorp",
-        "province": "Westerland",
-        "estate": "",
-        "population": 782,
-        "tags": [],
-        "notes": [],
-        "size_category": 2,
+        "name": "Reiker Marshes",
+        "type": "Small Marsh",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -882,18 +867,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.929461582399999,
-          53.96751501311999
+          -0.9558323510399992,
+          51.54533127264
         ]
       },
       "properties": {
-        "name": "Heppeldorp",
-        "province": "Westerland",
-        "estate": "",
-        "population": 99,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Drakon Marsh",
+        "type": "Small Marsh",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -907,18 +888,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -4.763045297279999,
-          52.547622740479994
+          0.4070054585600009,
+          49.522354783679994
         ]
       },
       "properties": {
-        "name": "Fort Bergbres",
-        "province": "Westerland",
-        "estate": "",
-        "population": 782,
-        "tags": [],
-        "notes": [],
-        "size_category": 2,
+        "name": "The Oberslecht",
+        "type": "Small Marsh",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -932,18 +909,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.8935897599999993,
-          52.36848085312
+          1.4350341078400006,
+          57.51557922639999
         ]
       },
       "properties": {
-        "name": "Kleindorpje",
-        "province": "Westerland",
-        "estate": "",
-        "population": 149,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Teufelsumpf",
+        "type": "Small Marsh",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -957,18 +930,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.4445405302399994,
-          54.270481246719996
+          0.20091406272000015,
+          57.21307467830399
         ]
       },
       "properties": {
-        "name": "Grensstad",
-        "province": "Westerland",
-        "estate": "",
-        "population": 238,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Hargensumpf",
+        "type": "Small Marsh",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -982,18 +951,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.4676816934399992,
-          54.2125713632
+          -0.3184399446399999,
+          49.102067639999994
         ]
       },
       "properties": {
-        "name": "Wouduin",
-        "province": "Westerland",
-        "estate": "",
-        "population": 81,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Ortschlamm",
+        "type": "Small Marsh",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -1007,18 +972,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.553565419519999,
-          54.482550258559996
+          0.2880964105600009,
+          57.50730137475199
         ]
       },
       "properties": {
-        "name": "Gieten",
-        "province": "Westerland",
-        "estate": "",
-        "population": 105,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Eiger Bay",
+        "type": "Small Sea",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -1032,18 +993,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.13383527232,
-          56.942489164319994
+          2.1008138012800006,
+          57.677040655936
         ]
       },
       "properties": {
-        "name": "Diever",
-        "province": "Westerland",
-        "estate": "",
-        "population": 792,
-        "tags": [],
-        "notes": [],
-        "size_category": 2,
+        "name": "Drosselspule Bay",
+        "type": "Small Sea",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -1057,18 +1014,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.849774622399999,
-          55.540113056959996
+          2.7636645504,
+          57.437372579679995
         ]
       },
       "properties": {
-        "name": "Rotsachhaven",
-        "province": "Westerland",
-        "estate": "",
-        "population": 179,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Kreideklippe Bight",
+        "type": "Small Sea",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -1082,18 +1035,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.4655416735999993,
-          52.97355352383999
+          -0.5702143299199991,
+          57.667653768352
         ]
       },
       "properties": {
-        "name": "Smerigwaard",
-        "province": "Westerland",
-        "estate": "",
-        "population": 204,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Klarwasser Bay",
+        "type": "Small Sea",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -1107,18 +1056,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.6004913871999995,
-          53.001602808639994
+          5.2457326256000005,
+          57.35516714415999
         ]
       },
       "properties": {
-        "name": "Klauperdorf",
-        "province": "Westerland",
-        "estate": "",
-        "population": 355,
-        "tags": [],
-        "notes": [],
-        "size_category": 2,
+        "name": "Starivoda Bay (Altwasser)",
+        "type": "Small Sea",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -1132,18 +1077,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.5980345449599995,
-          51.662583742079995
+          -12.442688643199999,
+          61.56805305695999
         ]
       },
       "properties": {
-        "name": "Fessel",
-        "province": "Westerland",
-        "estate": "",
-        "population": 135,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Troll Fjord",
+        "type": "Small Sea",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -1157,18 +1098,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.3392774639999994,
-          53.146578638399994
+          -12.549786342079999,
+          61.07713884863999
         ]
       },
       "properties": {
-        "name": "Middeldijk",
-        "province": "Westerland",
-        "estate": "",
-        "population": 106,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Clawfjord",
+        "type": "Small Sea",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -1182,18 +1119,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.3064387347199995,
-          52.95926588383999
+          -12.70898679744,
+          62.346106031999994
         ]
       },
       "properties": {
-        "name": "Havenrijk",
-        "province": "Westerland",
-        "estate": "",
-        "population": 291,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Midfjord",
+        "type": "Small Sea",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -1207,18 +1140,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.1489037849599995,
-          53.117193448319995
+          -12.245859488959999,
+          62.78376064448
         ]
       },
       "properties": {
-        "name": "Kloosterdam",
-        "province": "Westerland",
-        "estate": "",
-        "population": 70,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Amfjord",
+        "type": "Small Sea",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -1232,18 +1161,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.3775406828799994,
-          53.18552731391999
+          -9.582877771519998,
+          60.00140770342399
         ]
       },
       "properties": {
-        "name": "Driewegen",
-        "province": "Westerland",
-        "estate": "",
-        "population": 65,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Pack Ice Bay",
+        "type": "Small Sea",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -1257,18 +1182,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.345528142399999,
-          52.899208609599995
+          -7.122895770911999,
+          59.555192392159995
         ]
       },
       "properties": {
-        "name": "Oudegracht",
-        "province": "Westerland",
-        "estate": "",
-        "population": 172,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Icedrake Fjord",
+        "type": "Small Sea",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -1282,18 +1203,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.398576990079999,
-          52.82276374048
+          0.81067640512,
+          61.088151490239994
         ]
       },
       "properties": {
-        "name": "Kranedam",
-        "province": "Westerland",
-        "estate": "",
-        "population": 144,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Fjaergardfjord",
+        "type": "Small Sea",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -1307,18 +1224,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.409120174399999,
-          52.672677967999995
+          1.0106331740800003,
+          61.75747749407999
         ]
       },
       "properties": {
-        "name": "Zwanedam",
-        "province": "Westerland",
-        "estate": "",
-        "population": 218,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Bay Of Blades",
+        "type": "Small Sea",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -1332,18 +1245,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.405538680959999,
-          52.648046864319994
+          2.894426432000001,
+          61.144980676799996
         ]
       },
       "properties": {
-        "name": "Zwaneveerboot",
-        "province": "Westerland",
-        "estate": "",
-        "population": 48,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Dypvannfjord",
+        "type": "Small Sea",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -1357,18 +1266,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.280688075199999,
-          52.98297277632
+          11.897692851199999,
+          63.23083345919999
         ]
       },
       "properties": {
-        "name": "Zijlpoort",
-        "province": "Westerland",
-        "estate": "",
-        "population": 112,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Drakfjord",
+        "type": "Small Sea",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -1382,18 +1287,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.4516734486399994,
-          53.14204020127999
+          13.985057104000001,
+          62.14436350495999
         ]
       },
       "properties": {
-        "name": "Stillebroek",
-        "province": "Westerland",
-        "estate": "",
-        "population": 94,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Ursfjord",
+        "type": "Small Sea",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -1407,18 +1308,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.595877351999999,
-          53.02354897375999
+          4.7744974643199996,
+          68.32878103808
         ]
       },
       "properties": {
-        "name": "Slangenmeer",
-        "province": "Westerland",
-        "estate": "",
-        "population": 550,
-        "tags": [],
-        "notes": [],
-        "size_category": 2,
+        "name": "Bloodfjord",
+        "type": "Small Sea",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -1432,18 +1329,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.456814179199999,
-          53.37496015295999
+          -3.0960784633599996,
+          57.41038542009599
         ]
       },
       "properties": {
-        "name": "Gieterveen",
-        "province": "Westerland",
-        "estate": "",
-        "population": 207,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Bay of Aarnau",
+        "type": "Medium Sea",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -1457,18 +1350,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.680986876159999,
-          52.985889467839996
+          10.4981780352,
+          46.77416271904
         ]
       },
       "properties": {
-        "name": "Blekersdijk",
-        "province": "Westerland",
-        "estate": "",
-        "population": 285,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Varn Drazh (Black Water)",
+        "type": "Medium Sea",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -1482,18 +1371,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -4.2025906726399995,
-          52.66232715263999
+          -5.917382583007998,
+          40.60716901759999
         ]
       },
       "properties": {
-        "name": "Molenwaard",
-        "province": "Westerland",
-        "estate": "",
-        "population": 296,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Bay of Pearls",
+        "type": "Medium Sea",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -1507,18 +1392,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.5450856451199995,
-          53.08197014912
+          -4.0375832652799994,
+          55.03943021631999
         ]
       },
       "properties": {
-        "name": "Kranegracht",
-        "province": "Westerland",
-        "estate": "",
-        "population": 221,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Manannspoort Sea",
+        "type": "Medium Sea",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -1532,18 +1413,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.4558110249599996,
-          53.173335777919995
+          -11.55939951968,
+          46.68413001984
         ]
       },
       "properties": {
-        "name": "Zilvermeer",
-        "province": "Westerland",
-        "estate": "",
-        "population": 48,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Gulf of Bidouze",
+        "type": "Medium Sea",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -1557,18 +1434,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.146733989119999,
-          52.492733697279995
+          -7.358257926182398,
+          39.08727044159999
         ]
       },
       "properties": {
-        "name": "Torenbroek",
-        "province": "Westerland",
-        "estate": "",
-        "population": 42,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Baia di Remas",
+        "type": "Medium Sea",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -1582,18 +1455,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.3635845686399994,
-          52.58299989983999
+          -8.375664420096,
+          36.499150006399994
         ]
       },
       "properties": {
-        "name": "Weteringh",
-        "province": "Westerland",
-        "estate": "",
-        "population": 66,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Baia di Verezzo",
+        "type": "Medium Sea",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -1607,18 +1476,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.8228403423999993,
-          54.151196562879996
+          -10.871781835839998,
+          50.315713781439996
         ]
       },
       "properties": {
-        "name": "Swartenmeer",
-        "province": "Westerland",
-        "estate": "",
-        "population": 588,
-        "tags": [],
-        "notes": [],
-        "size_category": 2,
+        "name": "Moussille Bay",
+        "type": "Medium Sea",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -1632,18 +1497,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.996844261439999,
-          53.22794965823999
+          -10.73493031264,
+          56.314599592
         ]
       },
       "properties": {
-        "name": "Veldendam",
-        "province": "Westerland",
-        "estate": "",
-        "population": 244,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Bay of L'Anguille",
+        "type": "Medium Sea",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -1657,18 +1518,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.7732831926399992,
-          52.82039579936
+          -19.795757410559997,
+          45.582072403519994
         ]
       },
       "properties": {
-        "name": "Polderwoude",
-        "province": "Westerland",
-        "estate": "",
-        "population": 313,
-        "tags": [],
-        "notes": [],
-        "size_category": 2,
+        "name": "Bahía de Muros",
+        "type": "Medium Sea",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -1682,18 +1539,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.4130149894399993,
-          52.708994216959994
+          -19.68569400896,
+          41.406284030719995
         ]
       },
       "properties": {
-        "name": "Kruiswaard",
-        "province": "Westerland",
-        "estate": "",
-        "population": 149,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Gulfo Naranja",
+        "type": "Medium Sea",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -1707,18 +1560,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.2239343116799994,
-          53.580423855359996
+          -13.515382249279998,
+          38.5851629504
         ]
       },
       "properties": {
-        "name": "Slangenbroek",
-        "province": "Westerland",
-        "estate": "",
-        "population": 118,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Bahía de las Águilas",
+        "type": "Medium Sea",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -1732,18 +1581,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.6516043116799994,
-          52.784074649279994
+          -6.845765178751999,
+          40.246961203199994
         ]
       },
       "properties": {
-        "name": "Vlietdam",
-        "province": "Westerland",
-        "estate": "",
-        "population": 176,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Golfo di Miragliano",
+        "type": "Medium Sea",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -1757,18 +1602,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.7934752819199993,
-          52.542272992959994
+          -7.2902112907199985,
+          37.3385665792
         ]
       },
       "properties": {
-        "name": "Spaarwoude",
-        "province": "Westerland",
-        "estate": "",
-        "population": 215,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Baia di Olesi",
+        "type": "Medium Sea",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -1782,18 +1623,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.173048277439999,
-          52.10654732128
+          -14.086820984,
+          53.6111873104
         ]
       },
       "properties": {
-        "name": "Vossenmeer",
-        "province": "Westerland",
-        "estate": "",
-        "population": 35,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Lyonen Bay",
+        "type": "Medium Sea",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -1807,18 +1644,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.639340834239999,
-          53.05680219776
+          -9.96394230208,
+          34.2526358848
         ]
       },
       "properties": {
-        "name": "Wijkersdijk",
-        "province": "Westerland",
-        "estate": "",
-        "population": 96,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Pirate's Current",
+        "type": "Medium Sea",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -1832,18 +1665,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.4394435788799993,
-          52.86249922079999
+          -9.465605347519999,
+          41.0001670752
         ]
       },
       "properties": {
-        "name": "Modderbroek",
-        "province": "Westerland",
-        "estate": "",
-        "population": 70,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Golfo di Fodore",
+        "type": "Medium Sea",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -1857,18 +1686,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.3775188028799996,
-          52.93037850752
+          -15.841436297279998,
+          41.14144518496
         ]
       },
       "properties": {
-        "name": "Rietwaard",
-        "province": "Westerland",
-        "estate": "",
-        "population": 71,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Bahía de la Quietud",
+        "type": "Medium Sea",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -1882,18 +1707,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.297551253759999,
-          52.747081170559994
+          -16.50458356416,
+          47.710691833919995
         ]
       },
       "properties": {
-        "name": "Zompveen",
-        "province": "Westerland",
-        "estate": "",
-        "population": 44,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Bahía de Bilbali",
+        "type": "Medium Sea",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -1907,18 +1728,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.2693727894399993,
-          53.04683927104
+          -1.6821158457599994,
+          36.0744942144
         ]
       },
       "properties": {
-        "name": "Moerwijk",
-        "province": "Westerland",
-        "estate": "",
-        "population": 298,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Laguna de la Lagrime",
+        "type": "Medium Sea",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -1932,18 +1749,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.4599921862399992,
-          55.73474913504
+          1.5930792991999996,
+          60.95793573343999
         ]
       },
       "properties": {
-        "name": "Weckenfast",
-        "province": "Westerland",
-        "estate": "",
-        "population": 259,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Gulf of the Maelstrom",
+        "type": "Medium Sea",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -1957,18 +1770,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.5950093286399993,
-          52.582074638399995
+          -12.672574976639998,
+          60.078432147487995
         ]
       },
       "properties": {
-        "name": "Frederichsdorp",
-        "province": "Westerland",
-        "estate": "",
-        "population": 283,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Bay of Taaketskog",
+        "type": "Medium Sea",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -1982,18 +1791,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.0341913209599993,
-          53.06488449471999
+          -0.42207727775999954,
+          59.96810627340799
         ]
       },
       "properties": {
-        "name": "Rutten",
-        "province": "Westerland",
-        "estate": "",
-        "population": 128,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Sea of Soerligslette",
+        "type": "Medium Sea",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -2007,18 +1812,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.409758370239999,
-          52.741274568639994
+          -5.4946372300799995,
+          65.62579917983999
         ]
       },
       "properties": {
-        "name": "Didern",
-        "province": "Westerland",
-        "estate": "",
-        "population": 190,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Varg Sea",
+        "type": "Medium Sea",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -2032,18 +1833,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.444114151999999,
-          52.947605769279996
+          1.1190951347200007,
+          66.78860215264
         ]
       },
       "properties": {
-        "name": "Stapelhugel",
-        "province": "Westerland",
-        "estate": "",
-        "population": 143,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Nordlig Sea",
+        "type": "Medium Sea",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -2057,18 +1854,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.0950655068799993,
-          53.19197543744
+          -5.69081698592,
+          57.024698608255996
         ]
       },
       "properties": {
-        "name": "Niddesdorf",
-        "province": "Westerland",
-        "estate": "",
-        "population": 117,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Sea of Couronne",
+        "type": "Large Sea",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -2082,18 +1875,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.5552325196799996,
-          53.42047440384
+          -13.864962335039998,
+          57.44666410547199
         ]
       },
       "properties": {
-        "name": "Kleibroek aan Zee",
-        "province": "Westerland",
-        "estate": "",
-        "population": 81,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Middle Sea",
+        "type": "Large Sea",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -2107,18 +1896,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.820060007039999,
-          53.590533290559996
+          -12.22086255168,
+          48.258229206719996
         ]
       },
       "properties": {
-        "name": "Brakwaterdam",
-        "province": "Westerland",
-        "estate": "",
-        "population": 129,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "The Silent Sea",
+        "type": "Large Sea",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -2132,18 +1917,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.1622750905599997,
-          53.233346491519995
+          -2.3145931289599995,
+          34.0586985664
         ]
       },
       "properties": {
-        "name": "Verdronkenhoek",
-        "province": "Westerland",
-        "estate": "",
-        "population": 310,
-        "tags": [],
-        "notes": [],
-        "size_category": 2,
+        "name": "The Black Gulf",
+        "type": "Large Sea",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -2157,18 +1938,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.25668797152,
-          54.43486026048
+          -2.1892312313599995,
+          67.95355514175999
         ]
       },
       "properties": {
-        "name": "Oud Torenburg",
-        "province": "Westerland",
-        "estate": "",
-        "population": 144,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Kraken Sea",
+        "type": "Large Sea",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -2182,18 +1959,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.271015870719999,
-          54.51672996927999
+          11.655006892800001,
+          66.49368530848
         ]
       },
       "properties": {
-        "name": "Hoogkamp",
-        "province": "Westerland",
-        "estate": "",
-        "population": 230,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "The Frozen Sea",
+        "type": "Large Sea",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -2207,18 +1980,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.4081483331199993,
-          54.862221995839995
+          -4.286442709439999,
+          58.51149888991039
         ]
       },
       "properties": {
-        "name": "Zwartweteren",
-        "province": "Westerland",
-        "estate": "",
-        "population": 124,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Sea of Claws",
+        "type": "Major Sea",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -2232,18 +2001,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.9435352851199994,
-          54.36608931999999
+          -9.041196764512,
+          37.795900588799995
         ]
       },
       "properties": {
-        "name": "Heidestein",
-        "province": "Westerland",
-        "estate": "",
-        "population": 112,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Tilean Sea",
+        "type": "Major Sea",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -2257,18 +2022,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.2669218601599996,
-          53.559670412799996
+          -14.84607781376,
+          65.64833733024
         ]
       },
       "properties": {
-        "name": "Gelderham",
-        "province": "Westerland",
-        "estate": "",
-        "population": 155,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Sea of Chaos",
+        "type": "Major Sea",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -2282,18 +2043,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.389200953279999,
-          54.07383605951999
+          -22.42363100512,
+          34.0816235552
         ]
       },
       "properties": {
-        "name": "Hogedam",
-        "province": "Westerland",
-        "estate": "",
-        "population": 81,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "The Southern Sea",
+        "type": "Ocean",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -2307,18 +2064,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.1615143475199994,
-          55.417709860479995
+          -22.675623840319997,
+          51.69893359872
         ]
       },
       "properties": {
-        "name": "Middenveld",
-        "province": "Westerland",
-        "estate": "",
-        "population": 132,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "The Great Ocean",
+        "type": "Ocean",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -2332,18 +2085,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.587100671359999,
-          55.315452542719996
+          -0.8693737935999998,
+          48.809889471679995
         ]
       },
       "properties": {
-        "name": "Kromdijk aan Zee",
-        "province": "Westerland",
-        "estate": "",
-        "population": 765,
-        "tags": [],
-        "notes": [],
-        "size_category": 2,
+        "name": "Copper Tarn",
+        "type": "Lake",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -2357,18 +2106,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.705539036799999,
-          55.356483844159996
+          9.43099206272,
+          61.75319794111999
         ]
       },
       "properties": {
-        "name": "Driftstrand",
-        "province": "Westerland",
-        "estate": "",
-        "population": 38,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Korv Ozero",
+        "type": "Lake",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -2382,18 +2127,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.812590525119999,
-          55.77770990239999
+          3.911458543360001,
+          60.140256643072
         ]
       },
       "properties": {
-        "name": "Noordwindhaven",
-        "province": "Westerland",
-        "estate": "",
-        "population": 66,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Bile Marshes",
+        "type": "Small Marsh",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -2407,18 +2148,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.7687613843199994,
-          55.65146545312
+          4.662759980160001,
+          59.04911075779199
         ]
       },
       "properties": {
-        "name": "Kaap Tuinder",
-        "province": "Westerland",
-        "estate": "",
-        "population": 73,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Tobol Saltmarshes",
+        "type": "Small Marsh",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -2432,18 +2169,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.402868270719999,
-          55.03674545279999
+          -17.24867545344,
+          58.4870544506368
         ]
       },
       "properties": {
-        "name": "Zeemond",
-        "province": "Westerland",
-        "estate": "",
-        "population": 271,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Black Bog",
+        "type": "Small Marsh",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -2457,18 +2190,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.461526781119999,
-          57.10562322358399
+          -19.384153826239995,
+          58.814655985376
         ]
       },
       "properties": {
-        "name": "Laagvliet Haven",
-        "province": "Westerland",
-        "estate": "",
-        "population": 219,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Bleak Moor",
+        "type": "Small Marsh",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -2482,18 +2211,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.962815960319999,
-          53.108566426879996
+          -12.692675169919998,
+          52.88330762591999
         ]
       },
       "properties": {
-        "name": "Rijpendijk",
-        "province": "Westerland",
-        "estate": "",
-        "population": 203,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "The Dullian Mires",
+        "type": "Small Marsh",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -2507,18 +2232,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.4917287078399992,
-          55.689386118719995
+          -9.835245367359999,
+          54.99910362591999
         ]
       },
       "properties": {
-        "name": "Brugwalde",
-        "province": "Westerland",
-        "estate": "",
-        "population": 107,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "The Mourning Meadows",
+        "type": "Small Marsh",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -2532,18 +2253,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.3326889391999988,
-          56.268832233279994
+          -5.999307849503999,
+          55.66316617696
         ]
       },
       "properties": {
-        "name": "Dreumelholt",
-        "province": "Westerland",
-        "estate": "",
-        "population": 450,
-        "tags": [],
-        "notes": [],
-        "size_category": 2,
+        "name": "Le Mollier Marshes",
+        "type": "Small Marsh",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -2557,18 +2274,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.3742359084799993,
-          56.47928597599999
+          -4.819875884159999,
+          55.41549455424
         ]
       },
       "properties": {
-        "name": "Grootveen",
-        "province": "Westerland",
-        "estate": "",
-        "population": 119,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Theronde Bogs",
+        "type": "Small Marsh",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -2582,18 +2295,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.3662402563199993,
-          56.53942219327999
+          -9.82418546496,
+          50.298672237119995
         ]
       },
       "properties": {
-        "name": "Peelwijk",
-        "province": "Westerland",
-        "estate": "",
-        "population": 143,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Moussillon Marshes",
+        "type": "Small Marsh",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -2607,18 +2316,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.416994698879999,
-          54.47105293119999
+          -9.506477187519998,
+          49.90023463647999
         ]
       },
       "properties": {
-        "name": "Vloedwijk",
-        "province": "Westerland",
-        "estate": "",
-        "population": 316,
-        "tags": [],
-        "notes": [],
-        "size_category": 2,
+        "name": "Forsaken Marshes",
+        "type": "Small Marsh",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -2632,18 +2337,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.5081730348799995,
-          54.05134394463999
+          -8.158820929695999,
+          50.6476305808
         ]
       },
       "properties": {
-        "name": "Middelplaat",
-        "province": "Westerland",
-        "estate": "",
-        "population": 131,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Marais de la Lune",
+        "type": "Small Marsh",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -2657,18 +2358,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.2093118393599993,
-          54.07044833536
+          -7.355435488451199,
+          51.186693216959995
         ]
       },
       "properties": {
-        "name": "Oosterplaat",
-        "province": "Westerland",
-        "estate": "",
-        "population": 473,
-        "tags": [],
-        "notes": [],
-        "size_category": 2,
+        "name": "Rangonges Marsh",
+        "type": "Small Marsh",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -2682,18 +2379,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.464754362879999,
-          54.49189336863999
+          -6.321581275168,
+          51.75049530656
         ]
       },
       "properties": {
-        "name": "Zandvoorde",
-        "province": "Westerland",
-        "estate": "",
-        "population": 514,
-        "tags": [],
-        "notes": [],
-        "size_category": 2,
+        "name": "Le Bunard",
+        "type": "Small Marsh",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -2707,18 +2400,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.3323290761599993,
-          56.34034797599999
+          -5.0846021792,
+          50.42757886975999
         ]
       },
       "properties": {
-        "name": "Noordwijker",
-        "province": "Westerland",
-        "estate": "",
-        "population": 320,
-        "tags": [],
-        "notes": [],
-        "size_category": 2,
+        "name": "Maresquet Mires",
+        "type": "Small Marsh",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -2732,18 +2421,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.2931885375999994,
-          54.967177380159995
+          -3.0533524246399995,
+          48.522631152639995
         ]
       },
       "properties": {
-        "name": "Woltersum",
-        "province": "Westerland",
-        "estate": "",
-        "population": 482,
-        "tags": [],
-        "notes": [],
-        "size_category": 2,
+        "name": "Halluin Morass",
+        "type": "Small Marsh",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -2757,18 +2442,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.4205486918399997,
-          54.76108598432
+          -9.479133663999999,
+          45.10335970847999
         ]
       },
       "properties": {
-        "name": "Heerenwerf",
-        "province": "Westerland",
-        "estate": "",
-        "population": 168,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Engoumois Marsh",
+        "type": "Small Marsh",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -2782,18 +2463,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.8319334569599997,
-          53.86541523135999
+          -1.1321884767999995,
+          57.477818407327995
         ]
       },
       "properties": {
-        "name": "Zegveld",
-        "province": "Westerland",
-        "estate": "",
-        "population": 100,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Schaukeln Bay",
+        "type": "Small Sea",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -2807,18 +2484,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.749078817279999,
-          53.701683165439995
+          -1.556577157759999,
+          57.77992659484799
         ]
       },
       "properties": {
-        "name": "Rijpermeer",
-        "province": "Westerland",
-        "estate": "",
-        "population": 46,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Hochfelson Bay",
+        "type": "Small Sea",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -2832,18 +2505,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.3773523206399996,
-          54.02563599488
+          -2.3062946575999996,
+          57.54087177123199
         ]
       },
       "properties": {
-        "name": "Bovenkarspel",
-        "province": "Westerland",
-        "estate": "",
-        "population": 87,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Ertsund Bight",
+        "type": "Small Sea",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -2857,18 +2526,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.6822382371199995,
-          53.440491278079996
+          -2.4120862079999994,
+          57.32317858416
         ]
       },
       "properties": {
-        "name": "Schoonhoven",
-        "province": "Westerland",
-        "estate": "",
-        "population": 490,
-        "tags": [],
-        "notes": [],
-        "size_category": 2,
+        "name": "Dundal Bay",
+        "type": "Small Sea",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -2882,18 +2547,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.5827071673599993,
-          53.29992085503999
+          -2.3825867167999997,
+          57.173642594815995
         ]
       },
       "properties": {
-        "name": "Kreekhuizen",
-        "province": "Westerland",
-        "estate": "",
-        "population": 69,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Rotsen Bay",
+        "type": "Small Sea",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -2907,18 +2568,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.382661653119999,
-          53.31269194848
+          -2.11783661632,
+          57.79694415868799
         ]
       },
       "properties": {
-        "name": "Buitenkaag",
-        "province": "Westerland",
-        "estate": "",
-        "population": 223,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Ruimer's Bay",
+        "type": "Small Sea",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -2932,18 +2589,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.875758591039999,
-          52.91325749503999
+          -3.4795786755199996,
+          56.41039950911999
         ]
       },
       "properties": {
-        "name": "Fauligmere",
-        "province": "Westerland",
-        "estate": "",
-        "population": 133,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "Noordwijk Bay",
+        "type": "Small Sea",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
@@ -2957,18 +2610,14 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.342672714879999,
-          52.996335855039995
+          3.1183951881600014,
+          58.43286041951039
         ]
       },
       "properties": {
-        "name": "Melick",
-        "province": "Westerland",
-        "estate": "",
-        "population": 121,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
+        "name": "GULF OF KISLEV",
+        "type": "Large Sea",
+        "description": null,
         "wiki": {
           "title": null,
           "url": null,
