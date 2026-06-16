@@ -222,8 +222,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -14.88391218464,
-          41.45955237856
+          -14.87870404448,
+          41.4348124
         ]
       },
       "properties": {
@@ -1148,7 +1148,7 @@
         "name": "Garnatta",
         "province": "Estalia",
         "estate": "",
-        "population": 156,
+        "population": 276,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -1173,10 +1173,10 @@
         "name": "Toletti",
         "province": "Estalia",
         "estate": "",
-        "population": 339,
+        "population": 197,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -1198,10 +1198,10 @@
         "name": "Palantta",
         "province": "Estalia",
         "estate": "",
-        "population": 97,
+        "population": 530,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "wiki": {
           "title": null,
           "url": null,
@@ -1223,7 +1223,7 @@
         "name": "Capomonte",
         "province": "Estalia",
         "estate": "",
-        "population": 112,
+        "population": 70,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -1248,7 +1248,7 @@
         "name": "Cordova",
         "province": "Estalia",
         "estate": "",
-        "population": 304,
+        "population": 309,
         "tags": [],
         "notes": [],
         "size_category": 2,
@@ -1273,7 +1273,7 @@
         "name": "Porto Real",
         "province": "Estalia",
         "estate": "",
-        "population": 162,
+        "population": 216,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -1298,7 +1298,7 @@
         "name": "Las Borgas",
         "province": "Estalia",
         "estate": "",
-        "population": 195,
+        "population": 80,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -1323,7 +1323,7 @@
         "name": "Rías",
         "province": "Estalia",
         "estate": "",
-        "population": 88,
+        "population": 68,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -1348,7 +1348,7 @@
         "name": "Llançà",
         "province": "Estalia",
         "estate": "",
-        "population": 87,
+        "population": 80,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -1373,7 +1373,7 @@
         "name": "Solsona",
         "province": "Estalia",
         "estate": "",
-        "population": 532,
+        "population": 586,
         "tags": [],
         "notes": [],
         "size_category": 2,
@@ -1398,7 +1398,7 @@
         "name": "Ragaños",
         "province": "Estalia",
         "estate": "",
-        "population": 113,
+        "population": 117,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -1423,7 +1423,7 @@
         "name": "Myrnostia",
         "province": "Estalia",
         "estate": "",
-        "population": 187,
+        "population": 35,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -1448,10 +1448,10 @@
         "name": "Orgal",
         "province": "Estalia",
         "estate": "",
-        "population": 375,
+        "population": 92,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -1473,7 +1473,7 @@
         "name": "Papial",
         "province": "Estalia",
         "estate": "",
-        "population": 40,
+        "population": 30,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -1498,10 +1498,10 @@
         "name": "Ciudadela",
         "province": "Estalia",
         "estate": "",
-        "population": 621,
+        "population": 117,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -1523,7 +1523,7 @@
         "name": "Albreda",
         "province": "Estalia",
         "estate": "",
-        "population": 89,
+        "population": 114,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -1548,10 +1548,10 @@
         "name": "San Stefano",
         "province": "Estalia",
         "estate": "",
-        "population": 119,
+        "population": 437,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "wiki": {
           "title": null,
           "url": null,
@@ -1573,10 +1573,10 @@
         "name": "Pasa",
         "province": "Estalia",
         "estate": "",
-        "population": 66,
+        "population": 427,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "wiki": {
           "title": null,
           "url": null,
@@ -1598,7 +1598,7 @@
         "name": "Anizares",
         "province": "Estalia",
         "estate": "",
-        "population": 133,
+        "population": 70,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -1623,7 +1623,7 @@
         "name": "Padernas",
         "province": "Estalia",
         "estate": "",
-        "population": 116,
+        "population": 181,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -1648,7 +1648,7 @@
         "name": "Torolona",
         "province": "Estalia",
         "estate": "",
-        "population": 208,
+        "population": 137,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -1673,7 +1673,7 @@
         "name": "Castillo Franco",
         "province": "Estalia",
         "estate": "",
-        "population": 116,
+        "population": 69,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -1698,7 +1698,7 @@
         "name": "San Fernando",
         "province": "Estalia",
         "estate": "",
-        "population": 280,
+        "population": 47,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -1723,10 +1723,10 @@
         "name": "Bellesta",
         "province": "Estalia",
         "estate": "",
-        "population": 110,
+        "population": 397,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "wiki": {
           "title": null,
           "url": null,
@@ -1748,10 +1748,10 @@
         "name": "Trebido",
         "province": "Estalia",
         "estate": "",
-        "population": 231,
+        "population": 403,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "wiki": {
           "title": null,
           "url": null,
@@ -1773,10 +1773,10 @@
         "name": "Tredate",
         "province": "Estalia",
         "estate": "",
-        "population": 64,
+        "population": 349,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "wiki": {
           "title": null,
           "url": null,
@@ -1798,10 +1798,10 @@
         "name": "Nundido",
         "province": "Estalia",
         "estate": "",
-        "population": 111,
+        "population": 571,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "wiki": {
           "title": null,
           "url": null,
@@ -1823,7 +1823,7 @@
         "name": "Ruferto",
         "province": "Estalia",
         "estate": "",
-        "population": 337,
+        "population": 431,
         "tags": [],
         "notes": [],
         "size_category": 2,
@@ -1848,10 +1848,10 @@
         "name": "Belada",
         "province": "Estalia",
         "estate": "",
-        "population": 318,
+        "population": 208,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -1873,7 +1873,7 @@
         "name": "Navaz",
         "province": "Estalia",
         "estate": "",
-        "population": 43,
+        "population": 125,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -1898,7 +1898,7 @@
         "name": "Caberno",
         "province": "Estalia",
         "estate": "",
-        "population": 147,
+        "population": 233,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -1923,10 +1923,10 @@
         "name": "Hamasollo",
         "province": "Estalia",
         "estate": "",
-        "population": 121,
+        "population": 470,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "wiki": {
           "title": null,
           "url": null,
@@ -1948,10 +1948,10 @@
         "name": "Redana",
         "province": "Estalia",
         "estate": "",
-        "population": 560,
+        "population": 124,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -1973,7 +1973,7 @@
         "name": "Roque-San-Cristobal",
         "province": "Estalia",
         "estate": "",
-        "population": 108,
+        "population": 169,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -1998,7 +1998,7 @@
         "name": "San Dinialo",
         "province": "Estalia",
         "estate": "",
-        "population": 63,
+        "population": 129,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -2023,7 +2023,7 @@
         "name": "Montesolmar",
         "province": "Estalia",
         "estate": "",
-        "population": 287,
+        "population": 77,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -2048,10 +2048,10 @@
         "name": "Tarasca",
         "province": "Estalia",
         "estate": "",
-        "population": 782,
+        "population": 90,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -2073,7 +2073,7 @@
         "name": "Sanfeliz",
         "province": "Estalia",
         "estate": "",
-        "population": 184,
+        "population": 194,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -2098,7 +2098,7 @@
         "name": "Dregano",
         "province": "Estalia",
         "estate": "",
-        "population": 68,
+        "population": 55,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -2123,7 +2123,7 @@
         "name": "Puerto Bajamar",
         "province": "Estalia",
         "estate": "",
-        "population": 98,
+        "population": 180,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -2148,7 +2148,7 @@
         "name": "Santo de Verna",
         "province": "Estalia",
         "estate": "",
-        "population": 317,
+        "population": 782,
         "tags": [],
         "notes": [],
         "size_category": 2,
@@ -2173,10 +2173,10 @@
         "name": "Satorre",
         "province": "Estalia",
         "estate": "",
-        "population": 450,
+        "population": 157,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -2198,10 +2198,10 @@
         "name": "Balmaseda",
         "province": "Estalia",
         "estate": "",
-        "population": 105,
+        "population": 406,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "wiki": {
           "title": null,
           "url": null,
@@ -2223,10 +2223,10 @@
         "name": "Loaysa",
         "province": "Estalia",
         "estate": "",
-        "population": 125,
+        "population": 314,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "wiki": {
           "title": null,
           "url": null,
@@ -2248,7 +2248,7 @@
         "name": "Conqua",
         "province": "Estalia",
         "estate": "",
-        "population": 243,
+        "population": 296,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -2273,7 +2273,7 @@
         "name": "Sou",
         "province": "Estalia",
         "estate": "",
-        "population": 47,
+        "population": 280,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -2298,7 +2298,7 @@
         "name": "Irund",
         "province": "Estalia",
         "estate": "",
-        "population": 127,
+        "population": 60,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -2323,7 +2323,7 @@
         "name": "Zamurgui",
         "province": "Estalia",
         "estate": "",
-        "population": 212,
+        "population": 73,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -2348,7 +2348,7 @@
         "name": "Fierro",
         "province": "Estalia",
         "estate": "",
-        "population": 93,
+        "population": 116,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -2373,7 +2373,7 @@
         "name": "Souet",
         "province": "Estalia",
         "estate": "",
-        "population": 204,
+        "population": 88,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -2398,7 +2398,7 @@
         "name": "Torrija",
         "province": "Estalia",
         "estate": "",
-        "population": 108,
+        "population": 95,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -2423,10 +2423,10 @@
         "name": "Cabral",
         "province": "Estalia",
         "estate": "",
-        "population": 217,
+        "population": 376,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "wiki": {
           "title": null,
           "url": null,
@@ -2448,10 +2448,10 @@
         "name": "Payena",
         "province": "Estalia",
         "estate": "",
-        "population": 37,
+        "population": 519,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "wiki": {
           "title": null,
           "url": null,
@@ -2473,7 +2473,7 @@
         "name": "La Carraca",
         "province": "Estalia",
         "estate": "",
-        "population": 70,
+        "population": 54,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -2498,7 +2498,7 @@
         "name": "Laredo",
         "province": "Estalia",
         "estate": "",
-        "population": 52,
+        "population": 96,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -2523,7 +2523,7 @@
         "name": "Villa-Pando",
         "province": "Estalia",
         "estate": "",
-        "population": 104,
+        "population": 245,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -2548,7 +2548,7 @@
         "name": "Villa-Manzanas",
         "province": "Estalia",
         "estate": "",
-        "population": 181,
+        "population": 18,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -2573,7 +2573,7 @@
         "name": "Cudillero",
         "province": "Estalia",
         "estate": "",
-        "population": 250,
+        "population": 80,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -2598,7 +2598,7 @@
         "name": "Cantillana",
         "province": "Estalia",
         "estate": "",
-        "population": 182,
+        "population": 89,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -2623,7 +2623,7 @@
         "name": "Churruca",
         "province": "Estalia",
         "estate": "",
-        "population": 187,
+        "population": 50,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -2648,7 +2648,7 @@
         "name": "Bulnes",
         "province": "Estalia",
         "estate": "",
-        "population": 77,
+        "population": 40,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -2673,7 +2673,7 @@
         "name": "Urdaneta",
         "province": "Estalia",
         "estate": "",
-        "population": 313,
+        "population": 483,
         "tags": [],
         "notes": [],
         "size_category": 2,
@@ -2698,7 +2698,7 @@
         "name": "Camposanto",
         "province": "Estalia",
         "estate": "",
-        "population": 65,
+        "population": 245,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -2723,10 +2723,10 @@
         "name": "Lucus",
         "province": "Estalia",
         "estate": "",
-        "population": 77,
+        "population": 441,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "wiki": {
           "title": null,
           "url": null,
@@ -2748,7 +2748,7 @@
         "name": "Porto Branco",
         "province": "Estalia",
         "estate": "",
-        "population": 58,
+        "population": 41,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -2773,7 +2773,7 @@
         "name": "San Ronro",
         "province": "Estalia",
         "estate": "",
-        "population": 73,
+        "population": 211,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -2798,7 +2798,7 @@
         "name": "Legazpi",
         "province": "Estalia",
         "estate": "",
-        "population": 151,
+        "population": 141,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -2823,7 +2823,7 @@
         "name": "Treviño",
         "province": "Estalia",
         "estate": "",
-        "population": 73,
+        "population": 230,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -2848,7 +2848,7 @@
         "name": "Pucheros",
         "province": "Estalia",
         "estate": "",
-        "population": 54,
+        "population": 67,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -2873,10 +2873,10 @@
         "name": "Guisando",
         "province": "Estalia",
         "estate": "",
-        "population": 392,
+        "population": 119,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -2898,7 +2898,7 @@
         "name": "Cauca",
         "province": "Estalia",
         "estate": "",
-        "population": 274,
+        "population": 243,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -2923,10 +2923,10 @@
         "name": "Rueda",
         "province": "Estalia",
         "estate": "",
-        "population": 88,
+        "population": 782,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "wiki": {
           "title": null,
           "url": null,
@@ -2948,10 +2948,10 @@
         "name": "La Fresca",
         "province": "Estalia",
         "estate": "",
-        "population": 558,
+        "population": 124,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -2973,7 +2973,7 @@
         "name": "Haro",
         "province": "Estalia",
         "estate": "",
-        "population": 215,
+        "population": 216,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -2998,7 +2998,7 @@
         "name": "Vaina",
         "province": "Estalia",
         "estate": "",
-        "population": 201,
+        "population": 66,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3023,7 +3023,7 @@
         "name": "Ribera",
         "province": "Estalia",
         "estate": "",
-        "population": 128,
+        "population": 30,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3048,7 +3048,7 @@
         "name": "Fallagra",
         "province": "Estalia",
         "estate": "",
-        "population": 145,
+        "population": 237,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3073,7 +3073,7 @@
         "name": "Lamento",
         "province": "Estalia",
         "estate": "",
-        "population": 221,
+        "population": 87,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3098,10 +3098,10 @@
         "name": "Uxama",
         "province": "Estalia",
         "estate": "",
-        "population": 58,
+        "population": 304,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "wiki": {
           "title": null,
           "url": null,
@@ -3123,10 +3123,10 @@
         "name": "Villamediana",
         "province": "Estalia",
         "estate": "",
-        "population": 518,
+        "population": 177,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -3148,7 +3148,7 @@
         "name": "Pedriza",
         "province": "Estalia",
         "estate": "",
-        "population": 72,
+        "population": 179,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3173,7 +3173,7 @@
         "name": "Carantoña",
         "province": "Estalia",
         "estate": "",
-        "population": 77,
+        "population": 223,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3198,7 +3198,7 @@
         "name": "Vila-Nova",
         "province": "Estalia",
         "estate": "",
-        "population": 208,
+        "population": 139,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3223,7 +3223,7 @@
         "name": "Gaia",
         "province": "Estalia",
         "estate": "",
-        "population": 68,
+        "population": 105,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3248,7 +3248,7 @@
         "name": "Os Muros",
         "province": "Estalia",
         "estate": "",
-        "population": 83,
+        "population": 202,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3273,10 +3273,10 @@
         "name": "Sintia",
         "province": "Estalia",
         "estate": "",
-        "population": 388,
+        "population": 160,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -3298,10 +3298,10 @@
         "name": "Oliveira",
         "province": "Estalia",
         "estate": "",
-        "population": 52,
+        "population": 590,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "wiki": {
           "title": null,
           "url": null,
@@ -3323,7 +3323,7 @@
         "name": "Alparreña",
         "province": "Estalia",
         "estate": "",
-        "population": 202,
+        "population": 222,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3348,10 +3348,10 @@
         "name": "Candelaria",
         "province": "Estalia",
         "estate": "",
-        "population": 529,
+        "population": 81,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -3373,7 +3373,7 @@
         "name": "Gaidir",
         "province": "Estalia",
         "estate": "",
-        "population": 128,
+        "population": 67,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3398,7 +3398,7 @@
         "name": "El Peliciego",
         "province": "Estalia",
         "estate": "",
-        "population": 28,
+        "population": 159,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3423,10 +3423,10 @@
         "name": "Cartuva",
         "province": "Estalia",
         "estate": "",
-        "population": 420,
+        "population": 180,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -3448,10 +3448,10 @@
         "name": "Algeciras",
         "province": "Estalia",
         "estate": "",
-        "population": 68,
+        "population": 366,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "wiki": {
           "title": null,
           "url": null,
@@ -3473,7 +3473,7 @@
         "name": "Torrox",
         "province": "Estalia",
         "estate": "",
-        "population": 28,
+        "population": 149,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3498,10 +3498,10 @@
         "name": "Morro",
         "province": "Estalia",
         "estate": "",
-        "population": 764,
+        "population": 281,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -3523,7 +3523,7 @@
         "name": "Egea",
         "province": "Estalia",
         "estate": "",
-        "population": 88,
+        "population": 231,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3548,7 +3548,7 @@
         "name": "Gormaz",
         "province": "Estalia",
         "estate": "",
-        "population": 136,
+        "population": 194,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3573,7 +3573,7 @@
         "name": "Torreezno",
         "province": "Estalia",
         "estate": "",
-        "population": 322,
+        "population": 354,
         "tags": [],
         "notes": [],
         "size_category": 2,
@@ -3598,7 +3598,7 @@
         "name": "Maragata",
         "province": "Estalia",
         "estate": "",
-        "population": 31,
+        "population": 188,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3623,7 +3623,7 @@
         "name": "Pucela",
         "province": "Estalia",
         "estate": "",
-        "population": 78,
+        "population": 71,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3648,10 +3648,10 @@
         "name": "El Escorial",
         "province": "Estalia",
         "estate": "",
-        "population": 304,
+        "population": 48,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -3673,7 +3673,7 @@
         "name": "Peñalara",
         "province": "Estalia",
         "estate": "",
-        "population": 102,
+        "population": 94,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3698,10 +3698,10 @@
         "name": "Termancia",
         "province": "Estalia",
         "estate": "",
-        "population": 304,
+        "population": 103,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -3723,10 +3723,10 @@
         "name": "Benisili",
         "province": "Estalia",
         "estate": "",
-        "population": 130,
+        "population": 782,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "wiki": {
           "title": null,
           "url": null,
@@ -3748,10 +3748,10 @@
         "name": "Pago",
         "province": "Estalia",
         "estate": "",
-        "population": 382,
+        "population": 62,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -3773,10 +3773,10 @@
         "name": "Gandiana",
         "province": "Estalia",
         "estate": "",
-        "population": 84,
+        "population": 477,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "wiki": {
           "title": null,
           "url": null,
@@ -3798,10 +3798,10 @@
         "name": "Venta del Moro",
         "province": "Estalia",
         "estate": "",
-        "population": 409,
+        "population": 116,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -3823,7 +3823,7 @@
         "name": "El Viso",
         "province": "Estalia",
         "estate": "",
-        "population": 152,
+        "population": 268,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3848,7 +3848,7 @@
         "name": "Valentia",
         "province": "Estalia",
         "estate": "",
-        "population": 92,
+        "population": 51,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3873,7 +3873,7 @@
         "name": "Burguis",
         "province": "Estalia",
         "estate": "",
-        "population": 236,
+        "population": 60,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3898,7 +3898,7 @@
         "name": "Lirena",
         "province": "Estalia",
         "estate": "",
-        "population": 24,
+        "population": 297,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3923,7 +3923,7 @@
         "name": "Ulot",
         "province": "Estalia",
         "estate": "",
-        "population": 31,
+        "population": 136,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3948,7 +3948,7 @@
         "name": "Albarracin",
         "province": "Estalia",
         "estate": "",
-        "population": 200,
+        "population": 60,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3973,7 +3973,7 @@
         "name": "Lezo",
         "province": "Estalia",
         "estate": "",
-        "population": 277,
+        "population": 58,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3998,10 +3998,10 @@
         "name": "Pertegaces",
         "province": "Estalia",
         "estate": "",
-        "population": 392,
+        "population": 75,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -4023,7 +4023,7 @@
         "name": "Turol",
         "province": "Estalia",
         "estate": "",
-        "population": 105,
+        "population": 32,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4048,7 +4048,7 @@
         "name": "Sendra",
         "province": "Estalia",
         "estate": "",
-        "population": 154,
+        "population": 110,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4073,7 +4073,7 @@
         "name": "Alcodia",
         "province": "Estalia",
         "estate": "",
-        "population": 73,
+        "population": 127,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4098,10 +4098,10 @@
         "name": "Alcadir",
         "province": "Estalia",
         "estate": "",
-        "population": 468,
+        "population": 42,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -4123,7 +4123,7 @@
         "name": "Usca",
         "province": "Estalia",
         "estate": "",
-        "population": 189,
+        "population": 147,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4148,7 +4148,7 @@
         "name": "Rosas",
         "province": "Estalia",
         "estate": "",
-        "population": 210,
+        "population": 129,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4173,10 +4173,10 @@
         "name": "Porto Nadal",
         "province": "Estalia",
         "estate": "",
-        "population": 733,
+        "population": 99,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -4198,7 +4198,7 @@
         "name": "San Antonio",
         "province": "Estalia",
         "estate": "",
-        "population": 45,
+        "population": 177,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4223,10 +4223,10 @@
         "name": "Torremocha",
         "province": "Estalia",
         "estate": "",
-        "population": 59,
+        "population": 381,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "wiki": {
           "title": null,
           "url": null,
@@ -4248,7 +4248,7 @@
         "name": "Las Barcenas",
         "province": "Estalia",
         "estate": "",
-        "population": 255,
+        "population": 73,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4273,7 +4273,7 @@
         "name": "La Almarcha",
         "province": "Estalia",
         "estate": "",
-        "population": 54,
+        "population": 212,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4298,10 +4298,10 @@
         "name": "Catropiedra",
         "province": "Estalia",
         "estate": "",
-        "population": 311,
+        "population": 64,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -4323,7 +4323,7 @@
         "name": "Palos",
         "province": "Estalia",
         "estate": "",
-        "population": 90,
+        "population": 43,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4348,7 +4348,7 @@
         "name": "Moriles",
         "province": "Estalia",
         "estate": "",
-        "population": 29,
+        "population": 31,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4373,7 +4373,7 @@
         "name": "Islero",
         "province": "Estalia",
         "estate": "",
-        "population": 21,
+        "population": 41,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4398,7 +4398,7 @@
         "name": "Aguaclara",
         "province": "Estalia",
         "estate": "",
-        "population": 193,
+        "population": 46,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4423,7 +4423,7 @@
         "name": "Retales",
         "province": "Estalia",
         "estate": "",
-        "population": 147,
+        "population": 80,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4448,10 +4448,10 @@
         "name": "Villafulano",
         "province": "Estalia",
         "estate": "",
-        "population": 146,
+        "population": 601,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "wiki": {
           "title": null,
           "url": null,
@@ -4473,10 +4473,10 @@
         "name": "Salamantica",
         "province": "Estalia",
         "estate": "",
-        "population": 560,
+        "population": 77,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -4498,7 +4498,7 @@
         "name": "Almera",
         "province": "Estalia",
         "estate": "",
-        "population": 273,
+        "population": 52,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4523,7 +4523,7 @@
         "name": "Pinares del Rio",
         "province": "Estalia",
         "estate": "",
-        "population": 184,
+        "population": 168,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4548,7 +4548,7 @@
         "name": "Valendra",
         "province": "Estalia",
         "estate": "",
-        "population": 105,
+        "population": 100,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4573,7 +4573,7 @@
         "name": "Lucenia",
         "province": "Estalia",
         "estate": "",
-        "population": 89,
+        "population": 258,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4598,7 +4598,7 @@
         "name": "Olivares",
         "province": "Estalia",
         "estate": "",
-        "population": 144,
+        "population": 88,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4623,7 +4623,7 @@
         "name": "Quintasnar",
         "province": "Estalia",
         "estate": "",
-        "population": 102,
+        "population": 91,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4648,7 +4648,7 @@
         "name": "Puerto Principe",
         "province": "Estalia",
         "estate": "",
-        "population": 143,
+        "population": 31,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4673,7 +4673,7 @@
         "name": "Alcazar de la Sierra",
         "province": "Estalia",
         "estate": "",
-        "population": 454,
+        "population": 442,
         "tags": [],
         "notes": [],
         "size_category": 2,
@@ -4698,7 +4698,7 @@
         "name": "Tulayta",
         "province": "Estalia",
         "estate": "",
-        "population": 163,
+        "population": 242,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4723,7 +4723,7 @@
         "name": "Argantonia",
         "province": "Estalia",
         "estate": "",
-        "population": 325,
+        "population": 416,
         "tags": [],
         "notes": [],
         "size_category": 2,
@@ -4748,7 +4748,7 @@
         "name": "Los Pantios",
         "province": "Estalia",
         "estate": "",
-        "population": 121,
+        "population": 129,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4773,10 +4773,10 @@
         "name": "El Placebo",
         "province": "Estalia",
         "estate": "",
-        "population": 423,
+        "population": 58,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -4798,10 +4798,10 @@
         "name": "San Adreas",
         "province": "Estalia",
         "estate": "",
-        "population": 155,
+        "population": 310,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "wiki": {
           "title": null,
           "url": null,
@@ -4823,10 +4823,10 @@
         "name": "Serpicio",
         "province": "Estalia",
         "estate": "",
-        "population": 41,
+        "population": 448,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "wiki": {
           "title": null,
           "url": null,
@@ -4848,10 +4848,10 @@
         "name": "Tarambana",
         "province": "Estalia",
         "estate": "",
-        "population": 376,
+        "population": 131,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -4873,10 +4873,10 @@
         "name": "Epila",
         "province": "Estalia",
         "estate": "",
-        "population": 229,
+        "population": 302,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "wiki": {
           "title": null,
           "url": null,
@@ -4898,10 +4898,10 @@
         "name": "Gardanigo",
         "province": "Estalia",
         "estate": "",
-        "population": 345,
+        "population": 36,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -4923,7 +4923,7 @@
         "name": "La Almunia",
         "province": "Estalia",
         "estate": "",
-        "population": 177,
+        "population": 194,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4948,7 +4948,7 @@
         "name": "Jiloca",
         "province": "Estalia",
         "estate": "",
-        "population": 139,
+        "population": 208,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4973,7 +4973,7 @@
         "name": "Manzanera",
         "province": "Estalia",
         "estate": "",
-        "population": 71,
+        "population": 161,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4998,10 +4998,10 @@
         "name": "Chelvén",
         "province": "Estalia",
         "estate": "",
-        "population": 158,
+        "population": 715,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "wiki": {
           "title": null,
           "url": null,
@@ -5023,7 +5023,7 @@
         "name": "Fantasporto",
         "province": "Estalia",
         "estate": "",
-        "population": 311,
+        "population": 592,
         "tags": [],
         "notes": [],
         "size_category": 2,
@@ -5040,18 +5040,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -13.018866585919998,
-          42.111535769279996
+          -13.007818061119998,
+          42.10693221727999
         ]
       },
       "properties": {
         "name": "Xaca",
         "province": "Estalia",
         "estate": "",
-        "population": 140,
+        "population": 396,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "wiki": {
           "title": null,
           "url": null,
@@ -5073,7 +5073,7 @@
         "name": "Aranoa",
         "province": "Estalia",
         "estate": "",
-        "population": 99,
+        "population": 136,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5098,7 +5098,7 @@
         "name": "Villainfante",
         "province": "Estalia",
         "estate": "",
-        "population": 159,
+        "population": 169,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5123,7 +5123,7 @@
         "name": "Leganejos",
         "province": "Estalia",
         "estate": "",
-        "population": 32,
+        "population": 131,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5148,7 +5148,7 @@
         "name": "El Sabinar",
         "province": "Estalia",
         "estate": "",
-        "population": 253,
+        "population": 225,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5173,7 +5173,7 @@
         "name": "Talabante de la Sierra",
         "province": "Estalia",
         "estate": "",
-        "population": 51,
+        "population": 113,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5198,7 +5198,7 @@
         "name": "Madrigal",
         "province": "Estalia",
         "estate": "",
-        "population": 50,
+        "population": 126,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5223,7 +5223,7 @@
         "name": "El Toboso",
         "province": "Estalia",
         "estate": "",
-        "population": 218,
+        "population": 42,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5248,10 +5248,10 @@
         "name": "Alcarria",
         "province": "Estalia",
         "estate": "",
-        "population": 718,
+        "population": 176,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -5273,7 +5273,7 @@
         "name": "Almanza",
         "province": "Estalia",
         "estate": "",
-        "population": 88,
+        "population": 28,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5298,10 +5298,10 @@
         "name": "Lorquia",
         "province": "Estalia",
         "estate": "",
-        "population": 352,
+        "population": 162,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -5323,7 +5323,7 @@
         "name": "Murta",
         "province": "Estalia",
         "estate": "",
-        "population": 175,
+        "population": 58,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5348,7 +5348,7 @@
         "name": "Absaila",
         "province": "Estalia",
         "estate": "",
-        "population": 352,
+        "population": 440,
         "tags": [],
         "notes": [],
         "size_category": 2,
@@ -5373,10 +5373,10 @@
         "name": "Los Montoyas",
         "province": "Estalia",
         "estate": "",
-        "population": 402,
+        "population": 202,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -5398,7 +5398,7 @@
         "name": "Belinfante",
         "province": "Estalia",
         "estate": "",
-        "population": 102,
+        "population": 269,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5423,7 +5423,7 @@
         "name": "Modrejos",
         "province": "Estalia",
         "estate": "",
-        "population": 183,
+        "population": 71,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5448,7 +5448,7 @@
         "name": "Ayamonte",
         "province": "Estalia",
         "estate": "",
-        "population": 225,
+        "population": 232,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5473,7 +5473,7 @@
         "name": "Almonte",
         "province": "Estalia",
         "estate": "",
-        "population": 62,
+        "population": 136,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5498,7 +5498,7 @@
         "name": "Monserrín",
         "province": "Estalia",
         "estate": "",
-        "population": 118,
+        "population": 56,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5523,10 +5523,10 @@
         "name": "Jodar",
         "province": "Estalia",
         "estate": "",
-        "population": 154,
+        "population": 602,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "wiki": {
           "title": null,
           "url": null,
@@ -5548,7 +5548,7 @@
         "name": "Buzaco",
         "province": "Estalia",
         "estate": "",
-        "population": 125,
+        "population": 170,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5573,10 +5573,10 @@
         "name": "El Toro",
         "province": "Estalia",
         "estate": "",
-        "population": 353,
+        "population": 250,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -5598,7 +5598,7 @@
         "name": "Cabra",
         "province": "Estalia",
         "estate": "",
-        "population": 272,
+        "population": 95,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5623,7 +5623,7 @@
         "name": "El Tembleque",
         "province": "Estalia",
         "estate": "",
-        "population": 203,
+        "population": 75,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5648,7 +5648,7 @@
         "name": "Zahara",
         "province": "Estalia",
         "estate": "",
-        "population": 187,
+        "population": 249,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5673,10 +5673,10 @@
         "name": "Cox",
         "province": "Estalia",
         "estate": "",
-        "population": 338,
+        "population": 21,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -5698,7 +5698,7 @@
         "name": "La Ronda",
         "province": "Estalia",
         "estate": "",
-        "population": 275,
+        "population": 137,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5723,7 +5723,7 @@
         "name": "Graná",
         "province": "Estalia",
         "estate": "",
-        "population": 136,
+        "population": 180,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5748,7 +5748,7 @@
         "name": "Aveiro",
         "province": "Estalia",
         "estate": "",
-        "population": 116,
+        "population": 112,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5773,7 +5773,7 @@
         "name": "Lambreco",
         "province": "Estalia",
         "estate": "",
-        "population": 141,
+        "population": 45,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5798,7 +5798,7 @@
         "name": "El Brezo",
         "province": "Estalia",
         "estate": "",
-        "population": 149,
+        "population": 90,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5823,7 +5823,7 @@
         "name": "La Losa",
         "province": "Estalia",
         "estate": "",
-        "population": 269,
+        "population": 245,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5848,7 +5848,7 @@
         "name": "La Puebla",
         "province": "Estalia",
         "estate": "",
-        "population": 436,
+        "population": 339,
         "tags": [],
         "notes": [],
         "size_category": 2,
@@ -5873,7 +5873,7 @@
         "name": "Chiqueros",
         "province": "Estalia",
         "estate": "",
-        "population": 234,
+        "population": 164,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5898,7 +5898,7 @@
         "name": "Láqueno",
         "province": "Estalia",
         "estate": "",
-        "population": 89,
+        "population": 95,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5923,10 +5923,10 @@
         "name": "Cameros",
         "province": "Estalia",
         "estate": "",
-        "population": 482,
+        "population": 241,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -5948,7 +5948,7 @@
         "name": "Somied",
         "province": "Estalia",
         "estate": "",
-        "population": 64,
+        "population": 74,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5973,10 +5973,10 @@
         "name": "Medina",
         "province": "Estalia",
         "estate": "",
-        "population": 37,
+        "population": 782,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "wiki": {
           "title": null,
           "url": null,
@@ -5998,1560 +5998,10 @@
         "name": "Pajizo",
         "province": "Estalia",
         "estate": "",
-        "population": 24,
+        "population": 15,
         "tags": [],
         "notes": [],
         "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -16.639567410559998,
-          46.65248943936
-        ]
-      },
-      "properties": {
-        "name": "Cadreta",
-        "province": "Estalia",
-        "estate": "",
-        "population": 402,
-        "tags": [],
-        "notes": [],
-        "size_category": 2,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -16.759114829439998,
-          46.391561862399996
-        ]
-      },
-      "properties": {
-        "name": "La Mocha",
-        "province": "Estalia",
-        "estate": "",
-        "population": 391,
-        "tags": [],
-        "notes": [],
-        "size_category": 2,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -16.94401150688,
-          46.360962944959994
-        ]
-      },
-      "properties": {
-        "name": "Villaneuva de Bilbali",
-        "province": "Estalia",
-        "estate": "",
-        "population": 263,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -16.59635441056,
-          46.731404823039995
-        ]
-      },
-      "properties": {
-        "name": "San Sebastian de la Lanza",
-        "province": "Estalia",
-        "estate": "",
-        "population": 142,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -17.10416698048,
-          46.797811848319995
-        ]
-      },
-      "properties": {
-        "name": "Alagon",
-        "province": "Estalia",
-        "estate": "",
-        "population": 62,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -16.885417216959997,
-          46.8642179984
-        ]
-      },
-      "properties": {
-        "name": "Zuere",
-        "province": "Estalia",
-        "estate": "",
-        "population": 72,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -16.63020872192,
-          47.017864084479996
-        ]
-      },
-      "properties": {
-        "name": "Caspar",
-        "province": "Estalia",
-        "estate": "",
-        "population": 255,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -16.303385761599998,
-          46.93583228863999
-        ]
-      },
-      "properties": {
-        "name": "La Jaca",
-        "province": "Estalia",
-        "estate": "",
-        "population": 181,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -16.4492194624,
-          46.241821618879996
-        ]
-      },
-      "properties": {
-        "name": "Mirmidura",
-        "province": "Estalia",
-        "estate": "",
-        "population": 74,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -15.245149584319998,
-          41.9412083712
-        ]
-      },
-      "properties": {
-        "name": "Benitagla",
-        "province": "Estalia",
-        "estate": "",
-        "population": 66,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -15.023257327679998,
-          41.9237139984
-        ]
-      },
-      "properties": {
-        "name": "Laroya",
-        "province": "Estalia",
-        "estate": "",
-        "population": 93,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -15.24238640288,
-          41.71010936064
-        ]
-      },
-      "properties": {
-        "name": "Puerto Torilles",
-        "province": "Estalia",
-        "estate": "",
-        "population": 82,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -15.386939160959999,
-          41.77271836799999
-        ]
-      },
-      "properties": {
-        "name": "Santa Ana de Nulno",
-        "province": "Estalia",
-        "estate": "",
-        "population": 637,
-        "tags": [],
-        "notes": [],
-        "size_category": 2,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -15.041671010559998,
-          41.86755136416
-        ]
-      },
-      "properties": {
-        "name": "Bayárca",
-        "province": "Estalia",
-        "estate": "",
-        "population": 235,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -15.461516528319999,
-          41.74141228895999
-        ]
-      },
-      "properties": {
-        "name": "Rioja",
-        "province": "Estalia",
-        "estate": "",
-        "population": 98,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -15.941207171839999,
-          41.41271972639999
-        ]
-      },
-      "properties": {
-        "name": "Villaluenga de la Luna",
-        "province": "Estalia",
-        "estate": "",
-        "population": 55,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -15.093231668159998,
-          41.20739815648
-        ]
-      },
-      "properties": {
-        "name": "Puerto del Rey",
-        "province": "Estalia",
-        "estate": "",
-        "population": 116,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -15.155839625279999,
-          41.049957203199995
-        ]
-      },
-      "properties": {
-        "name": "Puerto Conquista",
-        "province": "Estalia",
-        "estate": "",
-        "population": 282,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -15.155839625279999,
-          41.15859980512
-        ]
-      },
-      "properties": {
-        "name": "Zucheros",
-        "province": "Estalia",
-        "estate": "",
-        "population": 348,
-        "tags": [],
-        "notes": [],
-        "size_category": 2,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -15.404431783359998,
-          40.75717304639999
-        ]
-      },
-      "properties": {
-        "name": "Santa Emmana del Sol",
-        "province": "Estalia",
-        "estate": "",
-        "population": 404,
-        "tags": [],
-        "notes": [],
-        "size_category": 2,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -15.159522291839998,
-          41.88320169056
-        ]
-      },
-      "properties": {
-        "name": "Fuente Rojar",
-        "province": "Estalia",
-        "estate": "",
-        "population": 187,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -15.024178213119997,
-          41.745094955519995
-        ]
-      },
-      "properties": {
-        "name": "Lobres",
-        "province": "Estalia",
-        "estate": "",
-        "population": 197,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -14.92381972928,
-          42.10693659327999
-        ]
-      },
-      "properties": {
-        "name": "Juviles",
-        "province": "Estalia",
-        "estate": "",
-        "population": 128,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -15.363920700799998,
-          42.17967148959999
-        ]
-      },
-      "properties": {
-        "name": "Cástara",
-        "province": "Estalia",
-        "estate": "",
-        "population": 107,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -14.785713519359998,
-          42.243200332159994
-        ]
-      },
-      "properties": {
-        "name": "Agrón",
-        "province": "Estalia",
-        "estate": "",
-        "population": 52,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -14.687197856639997,
-          42.023150371519996
-        ]
-      },
-      "properties": {
-        "name": "Áron",
-        "province": "Estalia",
-        "estate": "",
-        "population": 405,
-        "tags": [],
-        "notes": [],
-        "size_category": 2,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -14.528834442559997,
-          42.2892360272
-        ]
-      },
-      "properties": {
-        "name": "Lairon",
-        "province": "Estalia",
-        "estate": "",
-        "population": 361,
-        "tags": [],
-        "notes": [],
-        "size_category": 2,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -15.078500476799999,
-          41.609751927039994
-        ]
-      },
-      "properties": {
-        "name": "Villalanza",
-        "province": "Estalia",
-        "estate": "",
-        "population": 380,
-        "tags": [],
-        "notes": [],
-        "size_category": 2,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -15.35839626336,
-          41.361160819199995
-        ]
-      },
-      "properties": {
-        "name": "Puerto Mirmidia",
-        "province": "Estalia",
-        "estate": "",
-        "population": 265,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -16.33895406464,
-          41.26172427104
-        ]
-      },
-      "properties": {
-        "name": "Villazalia",
-        "province": "Estalia",
-        "estate": "",
-        "population": 217,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -14.817938908479997,
-          41.36576332096
-        ]
-      },
-      "properties": {
-        "name": "Veraverena",
-        "province": "Estalia",
-        "estate": "",
-        "population": 105,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -14.997477786559998,
-          41.35471637151999
-        ]
-      },
-      "properties": {
-        "name": "Valle de Barbar",
-        "province": "Estalia",
-        "estate": "",
-        "population": 242,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -15.04719597312,
-          41.311437206399994
-        ]
-      },
-      "properties": {
-        "name": "Arguis",
-        "province": "Estalia",
-        "estate": "",
-        "population": 214,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -15.832562994559998,
-          41.55911285503999
-        ]
-      },
-      "properties": {
-        "name": "Bonanza",
-        "province": "Estalia",
-        "estate": "",
-        "population": 304,
-        "tags": [],
-        "notes": [],
-        "size_category": 2,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -15.81322895136,
-          41.734968016319996
-        ]
-      },
-      "properties": {
-        "name": "Veralanza",
-        "province": "Estalia",
-        "estate": "",
-        "population": 169,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -13.597074467519997,
-          42.48258556128
-        ]
-      },
-      "properties": {
-        "name": "Torre la Riberito",
-        "province": "Estalia",
-        "estate": "",
-        "population": 99,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -12.959021810239998,
-          42.29015691263999
-        ]
-      },
-      "properties": {
-        "name": "Castigala",
-        "province": "Estalia",
-        "estate": "",
-        "population": 210,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -13.38346877952,
-          41.657628342719995
-        ]
-      },
-      "properties": {
-        "name": "Usca Alta",
-        "province": "Estalia",
-        "estate": "",
-        "population": 203,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -11.716980855039997,
-          41.5158410416
-        ]
-      },
-      "properties": {
-        "name": "Torres de Alcalzar",
-        "province": "Estalia",
-        "estate": "",
-        "population": 147,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -11.78235146848,
-          41.42284684063999
-        ]
-      },
-      "properties": {
-        "name": "Castelflorite",
-        "province": "Estalia",
-        "estate": "",
-        "population": 93,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -11.761174954239998,
-          41.1945096112
-        ]
-      },
-      "properties": {
-        "name": "Lascuarre",
-        "province": "Estalia",
-        "estate": "",
-        "population": 14,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -11.774985435199998,
-          41.149393751359995
-        ]
-      },
-      "properties": {
-        "name": "Andahuesca",
-        "province": "Estalia",
-        "estate": "",
-        "population": 149,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -11.38092068384,
-          41.052719334399995
-        ]
-      },
-      "properties": {
-        "name": "Santa Martina de Dulcis",
-        "province": "Estalia",
-        "estate": "",
-        "population": 75,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -11.454577515839999,
-          41.12637914207999
-        ]
-      },
-      "properties": {
-        "name": "Alerre",
-        "province": "Estalia",
-        "estate": "",
-        "population": 119,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -10.805857570879999,
-          40.9415286752
-        ]
-      },
-      "properties": {
-        "name": "Puerta Mirmidia",
-        "province": "Estalia",
-        "estate": "",
-        "population": 396,
-        "tags": [],
-        "notes": [],
-        "size_category": 2,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -10.856771105599998,
-          40.88440087039999
-        ]
-      },
-      "properties": {
-        "name": "Villamistad",
-        "province": "Estalia",
-        "estate": "",
-        "population": 86,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -11.205078475519999,
-          40.76265529919999
-        ]
-      },
-      "properties": {
-        "name": "San Luís el Silencio",
-        "province": "Estalia",
-        "estate": "",
-        "population": 515,
-        "tags": [],
-        "notes": [],
-        "size_category": 2,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -11.40950559104,
-          40.82450393279999
-        ]
-      },
-      "properties": {
-        "name": "Caldearenas",
-        "province": "Estalia",
-        "estate": "",
-        "population": 155,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -11.94335956192,
-          41.003540095999995
-        ]
-      },
-      "properties": {
-        "name": "Campo Sombra",
-        "province": "Estalia",
-        "estate": "",
-        "population": 144,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -14.88671930112,
-          41.81473812032
-        ]
-      },
-      "properties": {
-        "name": "Laspuña",
-        "province": "Estalia",
-        "estate": "",
-        "population": 69,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -15.23828171488,
-          41.88114409535999
-        ]
-      },
-      "properties": {
-        "name": "Abiego",
-        "province": "Estalia",
-        "estate": "",
-        "population": 123,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -15.473958546559999,
-          42.24182224224
-        ]
-      },
-      "properties": {
-        "name": "Isábena",
-        "province": "Estalia",
-        "estate": "",
-        "population": 145,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -15.33333368608,
-          41.72880135711999
-        ]
-      },
-      "properties": {
-        "name": "Loarre",
-        "province": "Estalia",
-        "estate": "",
-        "population": 317,
-        "tags": [],
-        "notes": [],
-        "size_category": 2,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -14.695313061119998,
-          42.399374170879994
-        ]
-      },
-      "properties": {
-        "name": "La Puebla de Castro",
-        "province": "Estalia",
-        "estate": "",
-        "population": 249,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -14.575521286399999,
-          42.51656152544
-        ]
-      },
-      "properties": {
-        "name": "Alcalá del Obispo",
-        "province": "Estalia",
-        "estate": "",
-        "population": 408,
-        "tags": [],
-        "notes": [],
-        "size_category": 2,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -13.716146302719999,
-          42.274374080959994
-        ]
-      },
-      "properties": {
-        "name": "Villanueva de Sigmara",
-        "province": "Estalia",
-        "estate": "",
-        "population": 137,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -14.140625304319997,
-          41.8863534608
-        ]
-      },
-      "properties": {
-        "name": "Sena",
-        "province": "Estalia",
-        "estate": "",
-        "population": 222,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -15.375000732799998,
-          42.09729031391999
-        ]
-      },
-      "properties": {
-        "name": "Estadilla",
-        "province": "Estalia",
-        "estate": "",
-        "population": 194,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -13.65104210016,
-          42.57515459008
-        ]
-      },
-      "properties": {
-        "name": "Valle de Hecho",
-        "province": "Estalia",
-        "estate": "",
-        "population": 372,
-        "tags": [],
-        "notes": [],
-        "size_category": 2,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -14.40885449984,
-          42.85510323872
-        ]
-      },
-      "properties": {
-        "name": "Ballobar",
-        "province": "Estalia",
-        "estate": "",
-        "population": 276,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -13.959636044799998,
-          42.92020691616
-        ]
-      },
-      "properties": {
-        "name": "Torrente de Cinco",
-        "province": "Estalia",
-        "estate": "",
-        "population": 195,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -15.600261109119998,
-          42.659790105919996
-        ]
-      },
-      "properties": {
-        "name": "El Fonz",
-        "province": "Estalia",
-        "estate": "",
-        "population": 565,
-        "tags": [],
-        "notes": [],
-        "size_category": 2,
         "wiki": {
           "title": null,
           "url": null,

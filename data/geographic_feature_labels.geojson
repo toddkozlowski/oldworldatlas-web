@@ -1644,8 +1644,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -9.96394230208,
-          34.2526358848
+          -9.047275728671998,
+          33.58596978879999
         ]
       },
       "properties": {
@@ -1686,8 +1686,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -15.841436297279998,
-          41.14144518496
+          -16.204251157439998,
+          40.8920903776
         ]
       },
       "properties": {
@@ -1917,8 +1917,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.3145931289599995,
-          34.0586985664
+          -0.37004926335999944,
+          34.91311956799999
         ]
       },
       "properties": {
@@ -2043,8 +2043,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -22.42363100512,
-          34.0816235552
+          -19.74251794432,
+          32.726336096
         ]
       },
       "properties": {
@@ -2071,6 +2071,48 @@
       "properties": {
         "name": "The Great Ocean",
         "type": "Ocean",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.7501360352,
+          58.301624510336
+        ]
+      },
+      "properties": {
+        "name": "Ozergrany",
+        "type": "Lake",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.703536924799998,
+          58.239673023231994
+        ]
+      },
+      "properties": {
+        "name": "Ozeryatruk",
+        "type": "Lake",
         "description": null,
         "wiki": {
           "title": null,
@@ -2113,6 +2155,111 @@
       "properties": {
         "name": "Korv Ozero",
         "type": "Lake",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.2165581408,
+          57.90894381775999
+        ]
+      },
+      "properties": {
+        "name": "Ozertemnyy",
+        "type": "Lake",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.210536935295998,
+          40.718641491199996
+        ]
+      },
+      "properties": {
+        "name": "BLIGHTED MARSHES",
+        "type": "Large Marsh",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.129092213440001,
+          28.682985612799996
+        ]
+      },
+      "properties": {
+        "name": "MARSHES OF MADNESS",
+        "type": "Large Marsh",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4512323264,
+          72.64285363647998
+        ]
+      },
+      "properties": {
+        "name": "Blood Marshes",
+        "type": "Large Marsh",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.997004709887999,
+          25.427348387199995
+        ]
+      },
+      "properties": {
+        "name": "MORTIS DELTA",
+        "type": "Large Marsh",
         "description": null,
         "wiki": {
           "title": null,
@@ -2610,6 +2757,132 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          8.767484213440001,
+          65.93395850015999
+        ]
+      },
+      "properties": {
+        "name": "TALDURSFJORD",
+        "type": "Small Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7016694275199993,
+          34.677107884799995
+        ]
+      },
+      "properties": {
+        "name": "Bay of Wrecks",
+        "type": "Medium Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.196175568448,
+          26.305051459199994
+        ]
+      },
+      "properties": {
+        "name": "THE CHARNAL DEEPS",
+        "type": "Medium Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -21.943141654079998,
+          29.310504012799996
+        ]
+      },
+      "properties": {
+        "name": "Bay of Al-Haikk",
+        "type": "Medium Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5055717248,
+          68.20577972992
+        ]
+      },
+      "properties": {
+        "name": "FELL WATERS",
+        "type": "Medium Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.20276200688,
+          69.2057800992
+        ]
+      },
+      "properties": {
+        "name": "KRAKEN BAY",
+        "type": "Medium Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           3.1183951881600014,
           58.43286041951039
         ]
@@ -2617,6 +2890,216 @@
       "properties": {
         "name": "GULF OF KISLEV",
         "type": "Large Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.0604082464,
+          29.1003667424
+        ]
+      },
+      "properties": {
+        "name": "The Sour Sea",
+        "type": "Large Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.0812433728,
+          25.433698838399998
+        ]
+      },
+      "properties": {
+        "name": "The Straits of Nagash",
+        "type": "Large Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.899525094816,
+          27.311718751999997
+        ]
+      },
+      "properties": {
+        "name": "GULF OF NEHEKHARA",
+        "type": "Large Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.690696575359999,
+          27.9157100256
+        ]
+      },
+      "properties": {
+        "name": "SEA OF ARABY",
+        "type": "Large Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -33.0097591136,
+          24.877033129599994
+        ]
+      },
+      "properties": {
+        "name": "BAY OF CORSAIRS",
+        "type": "Large Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.530089788799998,
+          21.340502214399994
+        ]
+      },
+      "properties": {
+        "name": "THE BITTER SEA",
+        "type": "Major Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.03008833599999,
+          27.694667763199995
+        ]
+      },
+      "properties": {
+        "name": "SEA OF STORMS",
+        "type": "Major Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.217587376,
+          16.069666227199995
+        ]
+      },
+      "properties": {
+        "name": "GULF OF FEAR",
+        "type": "Major Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.9259221856,
+          21.444666767999998
+        ]
+      },
+      "properties": {
+        "name": "LIZARD SEA",
+        "type": "Major Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.2158161056,
+          22.476335023999997
+        ]
+      },
+      "properties": {
+        "name": "THE SEA OF DREAD",
+        "type": "Ocean",
         "description": null,
         "wiki": {
           "title": null,

@@ -149,7 +149,7 @@
         "name": "Vernissi",
         "province": "Border Princes",
         "estate": "",
-        "population": 178,
+        "population": 192,
         "tags": [
           "source:TOW"
         ],
@@ -230,7 +230,7 @@
         "name": "Malko",
         "province": "Border Princes",
         "estate": "",
-        "population": 280,
+        "population": 113,
         "tags": [
           "source:TOW"
         ],
@@ -257,12 +257,12 @@
         "name": "Brovska",
         "province": "Border Princes",
         "estate": "",
-        "population": 123,
+        "population": 438,
         "tags": [
           "source:TOW"
         ],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "wiki": {
           "title": null,
           "url": null,
@@ -284,7 +284,7 @@
         "name": "Munzig",
         "province": "Border Princes",
         "estate": "",
-        "population": 59,
+        "population": 89,
         "tags": [
           "source:TOW"
         ],
@@ -311,7 +311,7 @@
         "name": "Styratia",
         "province": "Border Princes",
         "estate": "",
-        "population": 96,
+        "population": 38,
         "tags": [
           "source:TOW"
         ],
@@ -365,7 +365,7 @@
         "name": "Klossi",
         "province": "Border Princes",
         "estate": "",
-        "population": 124,
+        "population": 72,
         "tags": [
           "source:TOW"
         ],
@@ -392,7 +392,7 @@
         "name": "Zenres",
         "province": "Border Princes",
         "estate": "",
-        "population": 64,
+        "population": 53,
         "tags": [
           "source:TOW"
         ],
@@ -419,7 +419,7 @@
         "name": "Mirstadt",
         "province": "Border Princes",
         "estate": "",
-        "population": 60,
+        "population": 162,
         "tags": [
           "source:TOW"
         ],
@@ -473,7 +473,7 @@
         "name": "Mortensholm",
         "province": "Border Princes",
         "estate": "",
-        "population": 296,
+        "population": 54,
         "tags": [
           "source:1eDSaS"
         ],
@@ -500,12 +500,12 @@
         "name": "Brasov",
         "province": "Border Princes",
         "estate": "",
-        "population": 434,
+        "population": 104,
         "tags": [
           "source:1eDSaS"
         ],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -527,12 +527,12 @@
         "name": "Somjek",
         "province": "Border Princes",
         "estate": "",
-        "population": 422,
+        "population": 186,
         "tags": [
           "source:1eDSaS"
         ],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -554,7 +554,7 @@
         "name": "Moslac",
         "province": "Border Princes",
         "estate": "",
-        "population": 47,
+        "population": 176,
         "tags": [
           "source:1eDSaS"
         ],
@@ -581,7 +581,7 @@
         "name": "Vidovdan",
         "province": "Border Princes",
         "estate": "",
-        "population": 34,
+        "population": 265,
         "tags": [
           "source:1eDSaS"
         ],
@@ -635,12 +635,12 @@
         "name": "Fatanbad",
         "province": "Border Princes",
         "estate": "",
-        "population": 782,
+        "population": 171,
         "tags": [
           "source:2eLotLL"
         ],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -687,7 +687,7 @@
         "name": "Cabanal",
         "province": "Border Princes",
         "estate": "",
-        "population": 129,
+        "population": 163,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -712,7 +712,7 @@
         "name": "Alynda",
         "province": "Border Princes",
         "estate": "",
-        "population": 101,
+        "population": 265,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -737,7 +737,7 @@
         "name": "Mentreda",
         "province": "Border Princes",
         "estate": "",
-        "population": 157,
+        "population": 148,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -762,7 +762,7 @@
         "name": "Heldegrad",
         "province": "Border Princes",
         "estate": "",
-        "population": 249,
+        "population": 77,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -787,7 +787,7 @@
         "name": "Arnalos",
         "province": "Border Princes",
         "estate": "",
-        "population": 34,
+        "population": 216,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -812,7 +812,7 @@
         "name": "Bergdorf",
         "province": "Border Princes",
         "estate": "",
-        "population": 117,
+        "population": 167,
         "tags": [],
         "notes": [],
         "size_category": 1,

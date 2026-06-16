@@ -3,7 +3,7 @@
  */
 
 // Shared base map configuration for the current tile set.
-const IMAGE_BOUNDS = [-25, 32, 25, 69.5];
+const IMAGE_BOUNDS = [-25, 25, 25, 75];
 const MAP_TILE_DIRECTORY = 'map_tiles';
 const MAP_TILE_VERSION = '12';
 const MAP_VIEW_BUFFER_FACTOR = 0.5;
