@@ -36,6 +36,7 @@
             font-family: 'Lucida Grande', Geneva, Arial, Verdana, sans-serif; 
         }
         body { margin: 0; background: #262626; }
+
         #header { display: none; }
         #subheader { display: none; }
         #map { height: 100%; border: none; }
@@ -1158,6 +1159,22 @@
             font-style: italic;
         }
 
+        #export-dialog .export-dialog-options {
+            margin-top: 12px;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        #export-dialog .export-dialog-options label {
+            font-size: 13px;
+            color: #444;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
         #export-dialog .export-dialog-buttons {
             display: flex;
             gap: 10px;
@@ -1190,6 +1207,41 @@
 
         #export-dialog-ok:hover {
             background: rgba(24, 19, 150, 1);
+        }
+
+        #export-preparing-overlay {
+            display: none;
+            position: fixed;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            background: rgba(0, 0, 0, 0.6);
+            z-index: 40000;
+            cursor: wait;
+        }
+
+        #export-preparing-box {
+            position: absolute;
+            top: 50%; left: 50%;
+            transform: translate(-50%, -50%);
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+            padding: 28px 32px;
+            text-align: center;
+            max-width: 340px;
+            font-family: 'Lucida Grande', Geneva, Arial, Verdana, sans-serif;
+        }
+
+        #export-preparing-box p {
+            margin: 0;
+            font-size: 14px;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        #export-preparing-box p:first-child {
+            font-weight: 600;
+            margin-bottom: 8px;
         }
 
         .topo-key-button {
@@ -2256,9 +2308,21 @@
         <h3>Export Map Screenshot</h3>
         <p>This will start an automatic download of a 4K image (approximately 15 MB).</p>
         <p class="export-warning" id="export-slow-warning" style="display: none;">At this zoom level, it may take up to 30 seconds to prepare the image.</p>
+        <div class="export-dialog-options">
+            <label><input type="checkbox" id="export-include-scale"> Include scale bar</label>
+            <label><input type="checkbox" id="export-include-topo"> Include topographic key</label>
+        </div>
         <div class="export-dialog-buttons">
             <button id="export-dialog-cancel">Cancel</button>
             <button id="export-dialog-ok">OK</button>
+        </div>
+    </div>
+
+    <!-- Export preparing overlay -->
+    <div id="export-preparing-overlay">
+        <div id="export-preparing-box">
+            <p>Preparing image for download...</p>
+            <p>This may take up to a minute. Please wait.</p>
         </div>
     </div>
 
@@ -2582,9 +2646,21 @@
             exportDialog.style.display = 'none';
         }
 
+        // Preload topo key image for export
+        var topoKeyImg = new Image();
+        topoKeyImg.crossOrigin = 'anonymous';
+        topoKeyImg.src = 'images/topographic_scale.png';
+
+        var exportPreparingOverlay = document.getElementById('export-preparing-overlay');
+
         function doExport() {
             closeExportDialog();
+
+            var includeScale = document.getElementById('export-include-scale').checked;
+            var includeTopo = document.getElementById('export-include-topo').checked;
+
             screenshotBtn.classList.add('exporting');
+            exportPreparingOverlay.style.display = 'block';
 
             var map = mapManager.getMap();
             var view = map.getView();
@@ -2593,6 +2669,26 @@
             var origSize = map.getSize();
             var origRes = view.getResolution();
             var center = view.getCenter();
+
+            // Capture scale info before resizing (uses the current on-screen resolution)
+            var scaleInfo = null;
+            if (includeScale) {
+                var mapUnitsPerPixel = origRes;
+                var milesFor150px = mapUnitsPerPixel * 150 * 83.5;
+                var units = window.getCurrentUnits ? window.getCurrentUnits() : 'miles';
+                var scaleValues = [1, 2, 5, 10, 20, 50, 100, 200];
+                var testVal = units === 'kilometers' ? milesFor150px * 1.60934 : milesFor150px;
+                var displayValue = scaleValues[0];
+                for (var i = 0; i < scaleValues.length; i++) {
+                    if (scaleValues[i] <= testVal) displayValue = scaleValues[i];
+                    else break;
+                }
+                var valueInMiles = units === 'kilometers' ? displayValue / 1.60934 : displayValue;
+                var barWidthFraction = valueInMiles / milesFor150px;
+                var displayUnit = units === 'kilometers' ? 'km' : 'mi';
+                var segments = displayValue <= 2 ? displayValue : 5;
+                scaleInfo = { value: displayValue, unit: displayUnit, barFraction: barWidthFraction, segments: segments };
+            }
 
             var aspect = origSize[0] / origSize[1];
             var exportHeight = 2160;
@@ -2650,6 +2746,65 @@
                         }
                     });
 
+                    var margin = Math.round(exportHeight * 0.02);
+
+                    // Draw scale bar (bottom-right)
+                    if (scaleInfo) {
+                        var barMaxPx = Math.round(exportWidth * 0.12);
+                        var barW = Math.round(barMaxPx * scaleInfo.barFraction);
+                        var barH = Math.round(exportHeight * 0.006);
+                        var scaleFontSize = Math.round(exportHeight * 0.014);
+                        var scaleX = exportWidth - margin - barW;
+                        var scaleY = exportHeight - margin - scaleFontSize - 4 - barH;
+
+                        // Background
+                        ctx.fillStyle = 'rgba(255, 255, 255, 0.6)';
+                        ctx.fillRect(scaleX - 10, scaleY - 6, barW + 20, barH + scaleFontSize + 18);
+
+                        // Segments
+                        var segW = barW / scaleInfo.segments;
+                        for (var s = 0; s < scaleInfo.segments; s++) {
+                            ctx.fillStyle = s % 2 === 0 ? '#000' : '#fff';
+                            ctx.fillRect(scaleX + s * segW, scaleY, segW, barH);
+                        }
+                        ctx.strokeStyle = '#000';
+                        ctx.lineWidth = 1;
+                        ctx.strokeRect(scaleX, scaleY, barW, barH);
+
+                        // Ticks
+                        for (var t = 0; t <= scaleInfo.segments; t++) {
+                            var tx = scaleX + t * segW;
+                            ctx.beginPath();
+                            ctx.moveTo(tx, scaleY - 3);
+                            ctx.lineTo(tx, scaleY + barH + 3);
+                            ctx.stroke();
+                        }
+
+                        // Label
+                        ctx.font = '600 ' + scaleFontSize + 'px sans-serif';
+                        ctx.fillStyle = '#333';
+                        ctx.textAlign = 'right';
+                        var label = (scaleInfo.value < 10 ? scaleInfo.value.toFixed(1) : Math.round(scaleInfo.value)) + ' ' + scaleInfo.unit;
+                        ctx.fillText(label, scaleX + barW, scaleY + barH + scaleFontSize + 2);
+                        ctx.textAlign = 'left';
+                    }
+
+                    // Draw topographic key (bottom-right, above scale if present)
+                    if (includeTopo && topoKeyImg.complete && topoKeyImg.naturalWidth > 0) {
+                        var topoH = Math.round(exportHeight * 0.32);
+                        var topoW = Math.round(topoH * (topoKeyImg.naturalWidth / topoKeyImg.naturalHeight));
+                        var topoX = exportWidth - margin - topoW;
+                        var topoY = exportHeight - margin - topoH;
+                        if (scaleInfo) topoY -= (Math.round(exportHeight * 0.006) + Math.round(exportHeight * 0.014) + 24);
+
+                        ctx.fillStyle = 'rgba(255, 255, 255, 0.55)';
+                        ctx.fillRect(topoX - 8, topoY - 8, topoW + 16, topoH + 16);
+                        ctx.globalAlpha = 0.85;
+                        ctx.drawImage(topoKeyImg, topoX, topoY, topoW, topoH);
+                        ctx.globalAlpha = 1;
+                    }
+
+                    // Attribution text (bottom-left)
                     var fontSize = Math.round(exportHeight * 0.012);
                     ctx.font = fontSize + 'px sans-serif';
                     var text = 'Map generated from atlasoftheoldworld.com @toddkozlowski. Credit to Andy Law and Games Workshop.';
@@ -2681,6 +2836,7 @@
                         item.el.style.display = item.prev;
                     });
 
+                    exportPreparingOverlay.style.display = 'none';
                     screenshotBtn.classList.remove('exporting');
                 }
             });

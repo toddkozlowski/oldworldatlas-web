@@ -7,7 +7,7 @@ async function initializeApp() {
         // Load styles configuration first
         await loadStylesConfig();
         console.log('Styles configuration loaded');
-        
+
         // Initialize map
         mapManager.initialize();
         mapManager.setupEventListeners();
@@ -28,11 +28,11 @@ async function initializeApp() {
         // Add settlements to map
         const olFeatures = settlementData.getOLFeatures();
         mapManager.addSettlementFeatures(olFeatures);
-        
+
         // Load dwarf settlements
         const dwarfFeatures = await dwarfSettlementData.loadDwarfSettlements('data/settlements_karaz_ankor.geojson');
         console.log(`Loaded ${dwarfFeatures.length} dwarf settlements`);
-        
+
         // Add dwarf settlements to map
         const olDwarfFeatures = dwarfSettlementData.getOLFeatures();
         mapManager.addDwarfSettlementFeatures(olDwarfFeatures);
@@ -48,7 +48,7 @@ async function initializeApp() {
         // Load POI data
         const poiFeatures = await poiData.loadPOIs('data/points_of_interest.geojson');
         console.log(`Loaded ${poiFeatures.length} points of interest`);
-        
+
         // Add POIs to map
         const olPOIFeatures = poiData.getOLFeatures();
         mapManager.addPOIFeatures(olPOIFeatures);
@@ -56,7 +56,7 @@ async function initializeApp() {
         // Load province labels
         const provinceFeatures = await provinceData.loadProvinces('data/province_labels.geojson');
         console.log(`Loaded ${provinceFeatures.length} province labels`);
-        
+
         // Add province labels to map
         const olProvinceFeatures = provinceData.getOLFeatures();
         mapManager.addProvinceFeatures(olProvinceFeatures);
@@ -64,28 +64,28 @@ async function initializeApp() {
         // Load water labels
         const waterFeatures = await waterData.loadWaterLabels('data/geographic_feature_labels.geojson');
         console.log(`Loaded ${waterFeatures.length} water labels`);
-        
+
         // Add water labels to map
         const olWaterFeatures = waterData.getOLFeatures();
         mapManager.addWaterFeatures(olWaterFeatures);
 
         // Initialize UI controls
         uiControls.initialize(mapManager.getMap());
-        
+
         // Initialize measurement tool
         measurementTool.initialize(mapManager.getMap());
-        
+
         // Initialize scale control
         const scaleControl = new ScaleControl();
         scaleControl.initialize(mapManager.getMap());
-        
+
         // Initialize grid overlay
         gridOverlay.initialize(
             mapManager.getMap(),
             mapManager.getGridLayer(),
             mapManager.getGridSource()
         );
-        
+
         // Load saved grid settings
         const savedGridType = localStorage.getItem('grid_type') || 'off';
         const savedGridSize = parseInt(localStorage.getItem('grid_size')) || 100;
@@ -94,10 +94,10 @@ async function initializeApp() {
         const currentUnits = window.getCurrentUnits ? window.getCurrentUnits() : 'miles';
         gridOverlay.updateLineStyle(savedLineWidth, savedLineStyle);
         gridOverlay.updateGrid(savedGridType, savedGridSize, currentUnits);
-        
+
         // Initialize search functionality
         searchManager.initialize();
-        
+
         // Initialize changelog dropdown
         changelogDropdown.initialize();
 
