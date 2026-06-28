@@ -604,8 +604,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -14.80437610912,
-          58.19579922972799
+          -18.502292679039996,
+          58.33121591503999
         ]
       },
       "properties": {
@@ -673,8 +673,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          3.5539053856000002,
-          39.874710636799996
+          4.626822517759999,
+          40.13512814719999
         ]
       },
       "properties": {
@@ -765,8 +765,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.8177574112,
-          47.64289166527999
+          21.39067568,
+          50.486641566719996
         ]
       },
       "properties": {
@@ -788,8 +788,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.687730678399998,
-          67.7796390736
+          0.5455946038400001,
+          73.02401426399999
         ]
       },
       "properties": {
@@ -811,8 +811,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          5.0505080630400006,
-          35.056897424
+          5.654495485760001,
+          34.5781262656
         ]
       },
       "properties": {
@@ -1547,8 +1547,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.480848727359999,
-          42.458003643839994
+          -1.7717939139199994,
+          42.498514726399996
         ]
       },
       "properties": {
@@ -2007,8 +2007,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -11.563325666879999,
-          37.000025216
+          -26.0529080896,
+          37.7500243552
         ]
       },
       "properties": {
@@ -2030,8 +2030,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -22.33197323456,
-          40.4950471456
+          -25.9569739168,
+          39.817964419199996
         ]
       },
       "properties": {
@@ -2083,6 +2083,75 @@
       "properties": {
         "name": "BADAJOZ",
         "province_type": "Province",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -22.09970548192,
+          28.432561135999997
+        ]
+      },
+      "properties": {
+        "name": "AL-HAIKK",
+        "province_type": "Province",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -24.30941446784,
+          26.944691379199995
+        ]
+      },
+      "properties": {
+        "name": "MARTEK",
+        "province_type": "Province",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -20.294700528639996,
+          26.5893846848
+        ]
+      },
+      "properties": {
+        "name": "ARABY",
+        "province_type": "Nation-State",
         "formal_title": "",
         "part_of": "",
         "population": 0,

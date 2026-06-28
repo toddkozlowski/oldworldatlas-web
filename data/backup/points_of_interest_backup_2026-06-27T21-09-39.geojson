@@ -3260,8 +3260,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -4.874401719359999,
-          49.50971286976
+          -5.0705132096,
+          49.574162772799994
         ]
       },
       "properties": {
@@ -6164,8 +6164,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.3147663993599992,
-          48.934455812479996
+          -1.435208972799999,
+          48.92143476192
         ]
       },
       "properties": {
@@ -6340,8 +6340,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -4.33017732864,
-          48.33954858976
+          -3.810646180799999,
+          48.43069454335999
         ]
       },
       "properties": {
@@ -7704,8 +7704,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.42672739039999996,
-          40.740295689599996
+          -0.36976132255999905,
+          40.704815081599996
         ]
       },
       "properties": {
@@ -8364,8 +8364,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.148031558399998,
-          36.086965814399996
+          12.146729260799999,
+          36.09217500479999
         ]
       },
       "properties": {
@@ -18760,28 +18760,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.598635378240001,
-          39.8881957184
-        ]
-      },
-      "properties": {
-        "name": "Isle of Zul",
-        "type": "Other",
-        "description": "",
-        "tags": [],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -20.11312103424,
           56.880258698464
         ]
@@ -19508,8 +19486,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.6079089376,
-          67.87645579808
+          15.0037426432,
+          69.46760195552
         ]
       },
       "properties": {
@@ -19992,50 +19970,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.9026045888,
-          64.77327946272
-        ]
-      },
-      "properties": {
-        "name": "Icehorn Peak",
-        "type": "Geographic Landmarks",
-        "description": "",
-        "tags": [],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -3.900896804799999,
-          47.961725449919996
-        ]
-      },
-      "properties": {
-        "name": "Silverspire",
-        "type": "Geographic Landmarks",
-        "description": "",
-        "tags": [],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -17.44652596608,
           60.292852804224
         ]
@@ -20350,116 +20284,6 @@
       },
       "properties": {
         "name": "Mount Greyhag",
-        "type": "Geographic Landmarks",
-        "description": "",
-        "tags": [],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.0660020019200003,
-          34.0088436736
-        ]
-      },
-      "properties": {
-        "name": "Mount Bloodhorn",
-        "type": "Geographic Landmarks",
-        "description": "",
-        "tags": [],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -4.471209332159999,
-          48.45521449664
-        ]
-      },
-      "properties": {
-        "name": "Malmont",
-        "type": "Geographic Landmarks",
-        "description": "",
-        "tags": [],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -4.9217302598399995,
-          48.63880782623999
-        ]
-      },
-      "properties": {
-        "name": "Orquemont",
-        "type": "Geographic Landmarks",
-        "description": "",
-        "tags": [],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.2906262208,
-          66.46077988895999
-        ]
-      },
-      "properties": {
-        "name": "Dreadpeak",
-        "type": "Geographic Landmarks",
-        "description": "",
-        "tags": [],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.7794923673599996,
-          27.0515287936
-        ]
-      },
-      "properties": {
-        "name": "Floating Village",
         "type": "Geographic Landmarks",
         "description": "",
         "tags": [],
