@@ -2888,7 +2888,7 @@
         ]
       },
       "properties": {
-        "name": "GULF OF KISLEV",
+        "name": "Gulf of Kislev",
         "type": "Large Sea",
         "description": null,
         "wiki": {
@@ -2930,7 +2930,7 @@
         ]
       },
       "properties": {
-        "name": "The Straits of Nagash",
+        "name": "Straits of Nagash",
         "type": "Large Sea",
         "description": null,
         "wiki": {
@@ -2951,7 +2951,7 @@
         ]
       },
       "properties": {
-        "name": "GULF OF NEHEKHARA",
+        "name": "Gulf of Nehekhara",
         "type": "Large Sea",
         "description": null,
         "wiki": {
@@ -2972,7 +2972,7 @@
         ]
       },
       "properties": {
-        "name": "SEA OF ARABY",
+        "name": "Sea of Araby",
         "type": "Large Sea",
         "description": null,
         "wiki": {

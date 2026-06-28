@@ -23,7 +23,7 @@ class WaterData {
             
             this.waterLabels = data.features.map(feature => ({
                 name: feature.properties.name,
-                waterbodyType: feature.properties.waterbody_type,
+                waterbodyType: feature.properties.type,
                 coordinates: feature.geometry.coordinates
             }));
 

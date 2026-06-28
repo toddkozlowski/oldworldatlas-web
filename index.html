@@ -1084,6 +1084,38 @@
         }
 
         /* Topographic key button */
+        .screenshot-button {
+            position: absolute;
+            right: 10px;
+            bottom: 225px;
+            z-index: 10;
+            width: 36px;
+            height: 36px;
+            background: rgba(255, 255, 255, 0.9);
+            border: none;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .screenshot-button:hover {
+            background: rgba(255, 255, 255, 1);
+        }
+
+        .screenshot-button svg {
+            width: 18px;
+            height: 18px;
+            fill: #333;
+        }
+
+        .screenshot-button.exporting {
+            pointer-events: none;
+            opacity: 0.5;
+        }
+
         .topo-key-button {
             position: absolute;
             right: 10px;
@@ -1702,7 +1734,8 @@
             }
 
             .topo-key-button,
-            .topo-key-panel {
+            .topo-key-panel,
+            .screenshot-button {
                 display: none !important;
             }
             
@@ -1797,6 +1830,11 @@
 <body>
     <div id="header"><h1>Old-World-Atlas</h1></div>
     <div id="map" class="map"></div>
+
+    <!-- Screenshot button -->
+    <button class="screenshot-button" id="screenshot-button" title="Export map screenshot">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 2L7.17 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2h-3.17L15 2H9zm3 15c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.65 0-3 1.35-3 3s1.35 3 3 3 3-1.35 3-3-1.35-3-3-3z"/></svg>
+    </button>
 
     <!-- Topographic key button and panel -->
     <button class="topo-key-button" id="topo-key-button" title="Topographic key">
@@ -2440,6 +2478,130 @@
                     !topoKeyButton.contains(e.target)) {
                     topoKeyPanel.classList.remove('active');
                 }
+            });
+        }
+
+        // Screenshot export
+        const screenshotBtn = document.getElementById('screenshot-button');
+        if (screenshotBtn) {
+            screenshotBtn.addEventListener('click', function() {
+                if (screenshotBtn.classList.contains('exporting')) return;
+                screenshotBtn.classList.add('exporting');
+
+                const map = mapManager.getMap();
+                const view = map.getView();
+                const mapEl = map.getTargetElement();
+
+                // Save original state
+                const origSize = map.getSize();
+                const origRes = view.getResolution();
+                const center = view.getCenter();
+
+                // Calculate export dimensions (~4K, matching current aspect ratio)
+                const aspect = origSize[0] / origSize[1];
+                const exportHeight = 2160;
+                const exportWidth = Math.round(exportHeight * aspect);
+
+                // One tile level deeper: use resolution * (origPixels / exportPixels)
+                // which is effectively half the resolution (more detail)
+                const tileResolutions = getTileResolutions();
+                let exportRes = origRes * (origSize[0] / exportWidth);
+                // Clamp to min available resolution
+                const minRes = tileResolutions[tileResolutions.length - 1];
+                if (exportRes < minRes) exportRes = minRes;
+
+                // UI elements to hide during export
+                const uiSelectors = [
+                    '.title-container', '.search-container', '.hamburger-button',
+                    '.side-panel', '#mouse-position', '#attribution', '.scale-control',
+                    '.ol-zoom', '.ol-attribution', '.topo-key-button', '.topo-key-panel',
+                    '.measurement-controls', '.mobile-menu-button', '.mobile-title',
+                    '.mobile-dropdown', '.screenshot-button', '#popup'
+                ];
+                const hiddenEls = [];
+                uiSelectors.forEach(function(sel) {
+                    document.querySelectorAll(sel).forEach(function(el) {
+                        if (el.style.display !== 'none') {
+                            hiddenEls.push({ el: el, prev: el.style.display });
+                            el.style.display = 'none';
+                        }
+                    });
+                });
+
+                // Resize map for export
+                mapEl.style.width = exportWidth + 'px';
+                mapEl.style.height = exportHeight + 'px';
+                map.setSize([exportWidth, exportHeight]);
+                view.setCenter(center);
+                view.setResolution(exportRes);
+
+                map.once('rendercomplete', function() {
+                    try {
+                        // Compose all map canvases into one export canvas
+                        var exportCanvas = document.createElement('canvas');
+                        exportCanvas.width = exportWidth;
+                        exportCanvas.height = exportHeight;
+                        var ctx = exportCanvas.getContext('2d');
+
+                        // Draw each canvas from the OL viewport
+                        var viewportCanvases = mapEl.querySelectorAll('.ol-layer canvas');
+                        viewportCanvases.forEach(function(canvas) {
+                            if (canvas.width > 0) {
+                                var opacity = canvas.parentNode.style.opacity || 1;
+                                ctx.globalAlpha = parseFloat(opacity);
+                                var transform = canvas.style.transform;
+                                var match = transform.match(/matrix\(([^)]+)\)/);
+                                if (match) {
+                                    var vals = match[1].split(',').map(Number);
+                                    ctx.setTransform(vals[0], vals[1], vals[2], vals[3], vals[4], vals[5]);
+                                }
+                                ctx.drawImage(canvas, 0, 0);
+                                ctx.setTransform(1, 0, 0, 1, 0, 0);
+                                ctx.globalAlpha = 1;
+                            }
+                        });
+
+                        // Add attribution text
+                        var fontSize = Math.round(exportHeight * 0.012);
+                        ctx.font = fontSize + 'px sans-serif';
+                        ctx.fillStyle = 'rgba(0, 0, 0, 0.45)';
+                        var text = 'Map generated from atlasoftheoldworld.com @toddkozlowski. Credit to Andy Law and Games Workshop.';
+                        var textWidth = ctx.measureText(text).width;
+                        var padding = Math.round(fontSize * 0.6);
+                        ctx.fillStyle = 'rgba(255, 255, 255, 0.35)';
+                        ctx.fillRect(0, exportHeight - fontSize - padding * 2, textWidth + padding * 2, fontSize + padding * 2);
+                        ctx.fillStyle = 'rgba(0, 0, 0, 0.5)';
+                        ctx.fillText(text, padding, exportHeight - padding);
+
+                        // Download
+                        exportCanvas.toBlob(function(blob) {
+                            var link = document.createElement('a');
+                            link.download = 'old-world-atlas-export.png';
+                            link.href = URL.createObjectURL(blob);
+                            link.click();
+                            URL.revokeObjectURL(link.href);
+                        }, 'image/png');
+                    } catch (e) {
+                        console.error('Screenshot export failed:', e);
+                        alert('Export failed. This may be due to tile loading restrictions.');
+                    } finally {
+                        // Restore map
+                        mapEl.style.width = '';
+                        mapEl.style.height = '';
+                        map.setSize(origSize);
+                        view.setResolution(origRes);
+                        view.setCenter(center);
+
+                        // Restore UI
+                        hiddenEls.forEach(function(item) {
+                            item.el.style.display = item.prev;
+                        });
+
+                        screenshotBtn.classList.remove('exporting');
+                    }
+                });
+
+                map.renderSync();
             });
         }
         });

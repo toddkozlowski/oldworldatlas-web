@@ -152,6 +152,7 @@ class MapManager {
             title: 'Map Tiles',
             source: new ol.source.TileImage({
                 attributions: '',
+                crossOrigin: 'anonymous',
                 tileGrid: new ol.tilegrid.TileGrid({
                     extent: fullExtent,
                     origin: [fullExtent[0], fullExtent[1]],
