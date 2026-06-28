@@ -435,140 +435,166 @@ class UIControls {
         // Get all grid control elements
         const gridOffBtn = document.getElementById('grid-off');
         const gridSquareBtn = document.getElementById('grid-square');
+        const gridHexBtn = document.getElementById('grid-hex');
         const gridSizeInput = document.getElementById('grid-size');
         const gridUnitLabel = document.getElementById('grid-unit-label');
-        
+        const gridLineWidthInput = document.getElementById('grid-line-width');
+        const gridStyleDashedBtn = document.getElementById('grid-style-dashed');
+        const gridStyleSolidBtn = document.getElementById('grid-style-solid');
+        const gridPerfWarning = document.getElementById('grid-perf-warning');
+
         const mobileGridOffBtn = document.getElementById('mobile-grid-off');
         const mobileGridSquareBtn = document.getElementById('mobile-grid-square');
+        const mobileGridHexBtn = document.getElementById('mobile-grid-hex');
         const mobileGridSizeInput = document.getElementById('mobile-grid-size');
         const mobileGridUnitLabel = document.getElementById('mobile-grid-unit-label');
-        
-        // Load saved preferences or use defaults (default to miles)
+        const mobileGridLineWidthInput = document.getElementById('mobile-grid-line-width');
+        const mobileGridStyleDashedBtn = document.getElementById('mobile-grid-style-dashed');
+        const mobileGridStyleSolidBtn = document.getElementById('mobile-grid-style-solid');
+        const mobileGridPerfWarning = document.getElementById('mobile-grid-perf-warning');
+
+        // Load saved preferences
         let currentGridType = localStorage.getItem('grid_type') || 'off';
-        // Reset to 'off' if saved type was 'hex' (no longer supported)
-        if (currentGridType === 'hex') {
-            currentGridType = 'off';
-        }
         let currentGridSize = parseInt(localStorage.getItem('grid_size')) || 100;
-        
-        // Clamp grid size to valid range
+        let currentLineWidth = parseFloat(localStorage.getItem('grid_line_width')) || 1;
+        let currentLineStyle = localStorage.getItem('grid_line_style') || 'dashed';
+
         if (currentGridSize < 5) currentGridSize = 5;
         if (currentGridSize > 1000) currentGridSize = 1000;
-        
-        // Get current units
+        if (currentLineWidth < 0.5) currentLineWidth = 0.5;
+        if (currentLineWidth > 5) currentLineWidth = 5;
+
         const getCurrentUnit = () => {
             return window.getCurrentUnits ? window.getCurrentUnits() : 'miles';
         };
-        
-        // Update unit labels
+
         const updateUnitLabels = () => {
             const units = getCurrentUnit();
             const label = units === 'kilometers' ? 'km' : 'mi';
             if (gridUnitLabel) gridUnitLabel.textContent = label;
             if (mobileGridUnitLabel) mobileGridUnitLabel.textContent = label;
         };
-        
-        // Update UI to reflect current state
+
         const updateGridUI = () => {
-            // Desktop buttons
+            // Type buttons
             if (gridOffBtn) gridOffBtn.classList.toggle('active', currentGridType === 'off');
             if (gridSquareBtn) gridSquareBtn.classList.toggle('active', currentGridType === 'square');
+            if (gridHexBtn) gridHexBtn.classList.toggle('active', currentGridType === 'hex');
             if (gridSizeInput) gridSizeInput.value = currentGridSize;
-            
-            // Mobile buttons
+
             if (mobileGridOffBtn) mobileGridOffBtn.classList.toggle('active', currentGridType === 'off');
             if (mobileGridSquareBtn) mobileGridSquareBtn.classList.toggle('active', currentGridType === 'square');
+            if (mobileGridHexBtn) mobileGridHexBtn.classList.toggle('active', currentGridType === 'hex');
             if (mobileGridSizeInput) mobileGridSizeInput.value = currentGridSize;
-            
-            // Update unit labels
+
+            // Line width
+            if (gridLineWidthInput) gridLineWidthInput.value = currentLineWidth;
+            if (mobileGridLineWidthInput) mobileGridLineWidthInput.value = currentLineWidth;
+
+            // Line style buttons
+            if (gridStyleDashedBtn) gridStyleDashedBtn.classList.toggle('active', currentLineStyle === 'dashed');
+            if (gridStyleSolidBtn) gridStyleSolidBtn.classList.toggle('active', currentLineStyle === 'solid');
+            if (mobileGridStyleDashedBtn) mobileGridStyleDashedBtn.classList.toggle('active', currentLineStyle === 'dashed');
+            if (mobileGridStyleSolidBtn) mobileGridStyleSolidBtn.classList.toggle('active', currentLineStyle === 'solid');
+
+            // Performance warning for small grid sizes
+            const showWarning = currentGridType !== 'off' && currentGridSize < 20;
+            if (gridPerfWarning) gridPerfWarning.style.display = showWarning ? 'block' : 'none';
+            if (mobileGridPerfWarning) mobileGridPerfWarning.style.display = showWarning ? 'block' : 'none';
+
             updateUnitLabels();
         };
-        
-        // Update grid overlay
+
         const updateGrid = () => {
             localStorage.setItem('grid_type', currentGridType);
             localStorage.setItem('grid_size', currentGridSize.toString());
+            localStorage.setItem('grid_line_width', currentLineWidth.toString());
+            localStorage.setItem('grid_line_style', currentLineStyle);
             updateGridUI();
-            
-            // Update the grid overlay with current unit
+
             if (typeof gridOverlay !== 'undefined') {
                 const units = getCurrentUnit();
                 gridOverlay.updateGrid(currentGridType, currentGridSize, units);
+                gridOverlay.updateLineStyle(currentLineWidth, currentLineStyle);
             }
         };
-        
-        // Set grid type
+
         const setGridType = (type) => {
             currentGridType = type;
             updateGrid();
         };
-        
-        // Set grid size
+
         const setGridSize = (size) => {
-            // Clamp to valid range
             if (size < 5) size = 5;
             if (size > 1000) size = 1000;
             currentGridSize = size;
             updateGrid();
         };
-        
-        // Desktop button event listeners
-        if (gridOffBtn) {
-            gridOffBtn.addEventListener('click', () => setGridType('off'));
-        }
-        if (gridSquareBtn) {
-            gridSquareBtn.addEventListener('click', () => setGridType('square'));
-        }
-        if (gridSizeInput) {
-            gridSizeInput.addEventListener('change', (e) => {
+
+        const setLineWidth = (width) => {
+            if (width < 0.5) width = 0.5;
+            if (width > 5) width = 5;
+            currentLineWidth = width;
+            updateGrid();
+        };
+
+        const setLineStyle = (style) => {
+            currentLineStyle = style;
+            updateGrid();
+        };
+
+        // Desktop event listeners
+        if (gridOffBtn) gridOffBtn.addEventListener('click', () => setGridType('off'));
+        if (gridSquareBtn) gridSquareBtn.addEventListener('click', () => setGridType('square'));
+        if (gridHexBtn) gridHexBtn.addEventListener('click', () => setGridType('hex'));
+
+        const bindSizeInput = (input) => {
+            if (!input) return;
+            input.addEventListener('change', (e) => {
                 const value = parseInt(e.target.value);
-                if (!isNaN(value)) {
-                    setGridSize(value);
-                }
+                if (!isNaN(value)) setGridSize(value);
             });
-            // Also update on input for real-time feedback
-            gridSizeInput.addEventListener('input', (e) => {
+            input.addEventListener('input', (e) => {
                 const value = parseInt(e.target.value);
-                if (!isNaN(value) && value >= 5 && value <= 1000) {
-                    setGridSize(value);
-                }
+                if (!isNaN(value) && value >= 5 && value <= 1000) setGridSize(value);
             });
-        }
-        
-        // Mobile button event listeners
-        if (mobileGridOffBtn) {
-            mobileGridOffBtn.addEventListener('click', () => setGridType('off'));
-        }
-        if (mobileGridSquareBtn) {
-            mobileGridSquareBtn.addEventListener('click', () => setGridType('square'));
-        }
-        if (mobileGridSizeInput) {
-            mobileGridSizeInput.addEventListener('change', (e) => {
-                const value = parseInt(e.target.value);
-                if (!isNaN(value)) {
-                    setGridSize(value);
-                }
+        };
+        bindSizeInput(gridSizeInput);
+        bindSizeInput(mobileGridSizeInput);
+
+        const bindWidthInput = (input) => {
+            if (!input) return;
+            input.addEventListener('change', (e) => {
+                const value = parseFloat(e.target.value);
+                if (!isNaN(value)) setLineWidth(value);
             });
-            // Also update on input for real-time feedback
-            mobileGridSizeInput.addEventListener('input', (e) => {
-                const value = parseInt(e.target.value);
-                if (!isNaN(value) && value >= 5 && value <= 1000) {
-                    setGridSize(value);
-                }
+            input.addEventListener('input', (e) => {
+                const value = parseFloat(e.target.value);
+                if (!isNaN(value) && value >= 0.5 && value <= 5) setLineWidth(value);
             });
-        }
-        
+        };
+        bindWidthInput(gridLineWidthInput);
+        bindWidthInput(mobileGridLineWidthInput);
+
+        if (gridStyleDashedBtn) gridStyleDashedBtn.addEventListener('click', () => setLineStyle('dashed'));
+        if (gridStyleSolidBtn) gridStyleSolidBtn.addEventListener('click', () => setLineStyle('solid'));
+
+        // Mobile event listeners
+        if (mobileGridOffBtn) mobileGridOffBtn.addEventListener('click', () => setGridType('off'));
+        if (mobileGridSquareBtn) mobileGridSquareBtn.addEventListener('click', () => setGridType('square'));
+        if (mobileGridHexBtn) mobileGridHexBtn.addEventListener('click', () => setGridType('hex'));
+        if (mobileGridStyleDashedBtn) mobileGridStyleDashedBtn.addEventListener('click', () => setLineStyle('dashed'));
+        if (mobileGridStyleSolidBtn) mobileGridStyleSolidBtn.addEventListener('click', () => setLineStyle('solid'));
+
         // Listen for unit changes and update grid
         window.addEventListener('unitsChanged', () => {
             updateUnitLabels();
-            // Update the grid with new units (size stays the same, just different interpretation)
             updateGrid();
         });
-        
+
         // Initialize UI
         updateGridUI();
-        
-        // Expose method to get current grid settings
+
         window.getCurrentGridType = () => currentGridType;
         window.getCurrentGridSize = () => currentGridSize;
     }

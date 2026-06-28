@@ -1082,7 +1082,57 @@
             border-radius: 4px !important;
             margin: 2px 0 !important;
         }
-        
+
+        /* Topographic key button */
+        .topo-key-button {
+            position: absolute;
+            right: 10px;
+            bottom: 185px;
+            z-index: 10;
+            width: 36px;
+            height: 36px;
+            background: rgba(255, 255, 255, 0.9);
+            border: none;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .topo-key-button:hover {
+            background: rgba(255, 255, 255, 1);
+        }
+
+        .topo-key-button svg {
+            width: 18px;
+            height: 18px;
+            fill: #333;
+        }
+
+        .topo-key-panel {
+            display: none;
+            position: absolute;
+            right: 54px;
+            bottom: 105px;
+            z-index: 10;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 4px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+            padding: 10px;
+        }
+
+        .topo-key-panel.active {
+            display: block;
+        }
+
+        .topo-key-panel img {
+            display: block;
+            height: 350px;
+            width: auto;
+        }
+
         /* Measurement buttons */
         .measurement-controls {
             position: absolute;
@@ -1400,6 +1450,13 @@
             font-weight: 600;
             min-width: 20px;
         }
+
+        .grid-perf-warning {
+            display: none;
+            margin-top: 6px;
+            font-size: 11px;
+            color: #b8860b;
+        }
         
         /* Search bar container */
         .search-container {
@@ -1643,6 +1700,11 @@
             .ol-zoom {
                 display: none !important;
             }
+
+            .topo-key-button,
+            .topo-key-panel {
+                display: none !important;
+            }
             
             /* Hide desktop UI elements */
             .title-container {
@@ -1735,7 +1797,15 @@
 <body>
     <div id="header"><h1>Old-World-Atlas</h1></div>
     <div id="map" class="map"></div>
-    
+
+    <!-- Topographic key button and panel -->
+    <button class="topo-key-button" id="topo-key-button" title="Topographic key">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 10h-8.35A5.99 5.99 0 0 0 7 6c-3.31 0-6 2.69-6 6s2.69 6 6 6a5.99 5.99 0 0 0 5.65-4H13l2 2 2-2 2 2 3-3-1-2zm-14 2c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z"/></svg>
+    </button>
+    <div class="topo-key-panel" id="topo-key-panel">
+        <img src="images/topographic_scale.png" alt="Topographic Scale">
+    </div>
+
     <!-- Measurement controls - adjacent to search bar -->
     <div class="measurement-controls">
         <button id="measure-button" class="measure-button" title="Measure distances">
@@ -1803,11 +1873,25 @@
             <div class="grid-toggle">
                 <button id="mobile-grid-off" class="active">Off</button>
                 <button id="mobile-grid-square">Square</button>
+                <button id="mobile-grid-hex">Hex</button>
             </div>
             <div class="grid-size-control">
                 <label for="mobile-grid-size">Size:</label>
                 <input type="number" id="mobile-grid-size" min="5" max="1000" value="100">
                 <span id="mobile-grid-unit-label">mi</span>
+            </div>
+            <div class="grid-perf-warning" id="mobile-grid-perf-warning">Small grid sizes may slow performance.</div>
+            <div class="grid-size-control">
+                <label for="mobile-grid-line-width">Width:</label>
+                <input type="number" id="mobile-grid-line-width" min="0.5" max="5" step="0.5" value="1">
+                <span>px</span>
+            </div>
+            <div class="grid-size-control">
+                <label for="mobile-grid-line-style">Style:</label>
+                <div class="grid-toggle" style="flex: 1;">
+                    <button id="mobile-grid-style-dashed" class="active">Dashed</button>
+                    <button id="mobile-grid-style-solid">Solid</button>
+                </div>
             </div>
         </div>
         <div class="mobile-dropdown-item">
@@ -1955,11 +2039,25 @@
                 <div class="grid-toggle">
                     <button id="grid-off" class="active">Off</button>
                     <button id="grid-square">Square</button>
+                    <button id="grid-hex">Hex</button>
                 </div>
                 <div class="grid-size-control">
                     <label for="grid-size">Size:</label>
                     <input type="number" id="grid-size" min="5" max="1000" value="100">
                     <span id="grid-unit-label">mi</span>
+                </div>
+                <div class="grid-perf-warning" id="grid-perf-warning">Small grid sizes may slow performance.</div>
+                <div class="grid-size-control">
+                    <label for="grid-line-width">Width:</label>
+                    <input type="number" id="grid-line-width" min="0.5" max="5" step="0.5" value="1">
+                    <span>px</span>
+                </div>
+                <div class="grid-size-control">
+                    <label for="grid-line-style">Style:</label>
+                    <div class="grid-toggle" style="flex: 1;">
+                        <button id="grid-style-dashed" class="active">Dashed</button>
+                        <button id="grid-style-solid">Solid</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -1977,7 +2075,7 @@
     <!-- Title box - top right -->
     <div class="title-container">
         <h1>Atlas of the Old World</h1>
-        <p class="title-subheader">An unofficial, fan-made map of the Warhammer world. Beta version, 03.02.2026 @toddkozlowski</p>
+        <p class="title-subheader">An unofficial, fan-made map of the Warhammer world. Updated 28.06.2026 @toddkozlowski</p>
         <button id="about-button" class="about-button">About</button>
         <button id="feedback-button" class="about-button">Suggest a correction or addition</button>
         <button id="changelog-button" class="changelog-button">
@@ -2327,6 +2425,23 @@
         window.getCurrentUnits = function() {
             return currentUnits;
         };
+
+        // Topographic key button
+        const topoKeyButton = document.getElementById('topo-key-button');
+        const topoKeyPanel = document.getElementById('topo-key-panel');
+        if (topoKeyButton && topoKeyPanel) {
+            topoKeyButton.addEventListener('click', function(e) {
+                e.stopPropagation();
+                topoKeyPanel.classList.toggle('active');
+            });
+            document.addEventListener('click', function(e) {
+                if (topoKeyPanel.classList.contains('active') &&
+                    !topoKeyPanel.contains(e.target) &&
+                    !topoKeyButton.contains(e.target)) {
+                    topoKeyPanel.classList.remove('active');
+                }
+            });
+        }
         });
     </script>
 </body>

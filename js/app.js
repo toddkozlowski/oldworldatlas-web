@@ -86,10 +86,13 @@ async function initializeApp() {
             mapManager.getGridSource()
         );
         
-        // Load saved grid settings (default to miles)
+        // Load saved grid settings
         const savedGridType = localStorage.getItem('grid_type') || 'off';
         const savedGridSize = parseInt(localStorage.getItem('grid_size')) || 100;
+        const savedLineWidth = parseFloat(localStorage.getItem('grid_line_width')) || 1;
+        const savedLineStyle = localStorage.getItem('grid_line_style') || 'dashed';
         const currentUnits = window.getCurrentUnits ? window.getCurrentUnits() : 'miles';
+        gridOverlay.updateLineStyle(savedLineWidth, savedLineStyle);
         gridOverlay.updateGrid(savedGridType, savedGridSize, currentUnits);
         
         // Initialize search functionality
