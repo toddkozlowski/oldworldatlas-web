@@ -1,0 +1,555 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.89915891538159,
+          58.54758781442239
+        ]
+      },
+      "properties": {
+        "name": "Bol-A-Hat",
+        "province": "Albion",
+        "estate": "",
+        "population": 6000,
+        "tags": [],
+        "notes": [],
+        "size_category": 4,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -18.764110148341594,
+          57.79955067932799
+        ]
+      },
+      "properties": {
+        "name": "Great Hogs",
+        "province": "Albion",
+        "estate": "",
+        "population": 28,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -18.91372646354159,
+          59.67227717328
+        ]
+      },
+      "properties": {
+        "name": "Ochness",
+        "province": "Albion",
+        "estate": "",
+        "population": 108,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -18.374006202101594,
+          58.801172689184
+        ]
+      },
+      "properties": {
+        "name": "Konquata",
+        "province": "Albion",
+        "estate": "",
+        "population": 75,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.79243195122159,
+          59.81659502767999
+        ]
+      },
+      "properties": {
+        "name": "Crannog Mere",
+        "province": "Albion",
+        "estate": "",
+        "population": 64,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.188299245301593,
+          58.051508891615995
+        ]
+      },
+      "properties": {
+        "name": "Neuland",
+        "province": "Albion",
+        "estate": "",
+        "population": 234,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -19.75429024850159,
+          58.78746322380799
+        ]
+      },
+      "properties": {
+        "name": "Ohbuhu",
+        "province": "Albion",
+        "estate": "",
+        "population": 76,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -18.62467433458159,
+          59.835571621696
+        ]
+      },
+      "properties": {
+        "name": "Nagronath",
+        "province": "Albion",
+        "estate": "",
+        "population": 133,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.152862922421594,
+          59.62624142572799
+        ]
+      },
+      "properties": {
+        "name": "Tref-Niwlen",
+        "province": "Albion",
+        "estate": "",
+        "population": 71,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -19.84364344242159,
+          57.816121681119995
+        ]
+      },
+      "properties": {
+        "name": "Maes-Cysegr",
+        "province": "Albion",
+        "estate": "",
+        "population": 98,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -18.30605637426159,
+          58.5269117517952
+        ]
+      },
+      "properties": {
+        "name": "Bod Druidion",
+        "province": "Albion",
+        "estate": "",
+        "population": 782,
+        "tags": [],
+        "notes": [],
+        "size_category": 2,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.81577773618159,
+          57.768245160415994
+        ]
+      },
+      "properties": {
+        "name": "Caer-yr-Hen-Rai",
+        "province": "Albion",
+        "estate": "",
+        "population": 99,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -19.02881543858159,
+          59.042510804576
+        ]
+      },
+      "properties": {
+        "name": "Camre'r-Hynafiad",
+        "province": "Albion",
+        "estate": "",
+        "population": 658,
+        "tags": [],
+        "notes": [],
+        "size_category": 2,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -20.00362072530159,
+          57.584104200671995
+        ]
+      },
+      "properties": {
+        "name": "Maen-Hynaf",
+        "province": "Albion",
+        "estate": "",
+        "population": 347,
+        "tags": [],
+        "notes": [],
+        "size_category": 2,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -18.59212354610159,
+          57.51005079804799
+        ]
+      },
+      "properties": {
+        "name": "Dun Afalon",
+        "province": "Albion",
+        "estate": "",
+        "population": 172,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.96126431346159,
+          58.26786328524799
+        ]
+      },
+      "properties": {
+        "name": "Nant-yr-Hebog",
+        "province": "Albion",
+        "estate": "",
+        "population": 203,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -20.25065205170159,
+          57.314738277888
+        ]
+      },
+      "properties": {
+        "name": "Coed-Ysgarlad",
+        "province": "Albion",
+        "estate": "",
+        "population": 37,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.372396865141592,
+          57.890259680575994
+        ]
+      },
+      "properties": {
+        "name": "Sumpfspitze",
+        "province": "Albion",
+        "estate": "",
+        "population": 115,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.58110263922159,
+          58.655813504319994
+        ]
+      },
+      "properties": {
+        "name": "Blóðströnd (Losteriksson's Third Landing)",
+        "province": "Albion",
+        "estate": "",
+        "population": 782,
+        "tags": [],
+        "notes": [],
+        "size_category": 2,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.212705947701593,
+          60.05351079248
+        ]
+      },
+      "properties": {
+        "name": "Skeljavik (Losteriksson's First Landing)",
+        "province": "Albion",
+        "estate": "",
+        "population": 188,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.516443388341592,
+          59.261047474399994
+        ]
+      },
+      "properties": {
+        "name": "Hrafnberg (Losteriksson's Second Landing)",
+        "province": "Albion",
+        "estate": "",
+        "population": 104,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.456102743541592,
+          60.44878235711999
+        ]
+      },
+      "properties": {
+        "name": "Dwimmurvik (Losteriksson's Fourth Landing)",
+        "province": "Albion",
+        "estate": "",
+        "population": 73,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    }
+  ]
+}

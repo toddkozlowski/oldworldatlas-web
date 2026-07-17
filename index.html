@@ -170,6 +170,32 @@
             text-align: right;
         }
 
+        /* Color filter test toggle */
+        .color-filter-toggle-btn {
+            margin-top: 10px;
+            padding: 6px 12px;
+            background: rgba(80, 40, 100, 0.75);
+            color: #e8d8ff;
+            border: 1px dashed rgba(180, 120, 255, 0.6);
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 11px;
+            font-weight: 500;
+            transition: background 0.2s ease;
+            width: 100%;
+            text-align: center;
+        }
+
+        .color-filter-toggle-btn:hover {
+            background: rgba(80, 40, 100, 0.95);
+        }
+
+        .color-filter-toggle-btn.active {
+            background: rgba(120, 60, 160, 0.95);
+            border-color: rgba(220, 160, 255, 0.9);
+            color: #fff;
+        }
+
         /* About button */
         .about-button {
             margin-top: 10px;
@@ -2153,6 +2179,14 @@
                         <label for="settlement-region-albion">Albion</label>
                     </div>
                     <div class="toggle-item sub-toggle-item">
+                        <input type="checkbox" id="settlement-region-araby" checked>
+                        <label for="settlement-region-araby">Araby</label>
+                    </div>
+                    <div class="toggle-item sub-toggle-item">
+                        <input type="checkbox" id="settlement-region-dawi-zharr" checked>
+                        <label for="settlement-region-dawi-zharr">Dawi-Zharr</label>
+                    </div>
+                    <div class="toggle-item sub-toggle-item">
                         <input type="checkbox" id="settlement-region-karaz-ankor" checked>
                         <label for="settlement-region-karaz-ankor">The Karaz-Ankor</label>
                     </div>
@@ -2244,6 +2278,8 @@
         <p class="title-subheader">An unofficial, fan-made map of the Warhammer world. Updated 28.06.2026 @toddkozlowski</p>
         <button id="about-button" class="about-button">About</button>
         <button id="feedback-button" class="about-button">Suggest a correction or addition</button>
+        <button id="color-filter-toggle" class="color-filter-toggle-btn" title="Toggle colour filter [TEST]">Color Filter [TEST]</button>
+        <button id="ratmode-toggle" class="color-filter-toggle-btn" title="Toggle Skaven rat mode tiles [TEST]">Rat Mode [TEST]</button>
         <button id="changelog-button" class="changelog-button">
             Feature Requests / Changelog
             <span class="chevron"></span>
@@ -2860,6 +2896,110 @@
             exportDialogOverlay.addEventListener('click', closeExportDialog);
             exportDialogOk.addEventListener('click', doExport);
         }
+
+        // Color filter toggle [TEST]
+        (function() {
+            var colorFilterActive = false;
+            var filterString = 'hue-rotate(0deg) saturate(50%) brightness(50%)';
+            var mapEl = document.getElementById('map');
+
+            var btn = document.getElementById('color-filter-toggle');
+            if (btn && mapEl) {
+                btn.addEventListener('click', function() {
+                    colorFilterActive = !colorFilterActive;
+                    btn.classList.toggle('active', colorFilterActive);
+                    mapEl.style.filter = colorFilterActive ? filterString : '';
+                });
+            }
+        })();
+
+        // Rat mode tile toggle [TEST]
+        (function() {
+            var ratModeActive = false;
+            var savedState = null;
+
+            function getCb(id) { return document.getElementById(id); }
+
+            function saveState() {
+                return {
+                    settlement: !!getCb('settlement-checkbox')?.checked,
+                    humanRegions: uiControls.settlementRegionConfig
+                        .filter(function(r) { return r.kind === 'human'; })
+                        .map(function(r) { return { id: r.id, checked: !!getCb(r.id)?.checked }; }),
+                    woodElf:  !!getCb('settlement-region-wood-elf-realms')?.checked,
+                    karaz:    !!getCb('settlement-region-karaz-ankor')?.checked,
+                    poi:    !!getCb('poi-checkbox')?.checked,
+                    water:  !!getCb('water-checkbox')?.checked,
+                    region: !!getCb('region-checkbox')?.checked
+                };
+            }
+
+            function applyRatFilters() {
+                // Uncheck all human region sub-checkboxes
+                uiControls.settlementRegionConfig
+                    .filter(function(r) { return r.kind === 'human'; })
+                    .forEach(function(r) { var cb = getCb(r.id); if (cb) cb.checked = false; });
+                // Uncheck wood elves and Karaz-Ankor
+                var woodElfCb = getCb('settlement-region-wood-elf-realms');
+                if (woodElfCb) woodElfCb.checked = false;
+                var karazCb = getCb('settlement-region-karaz-ankor');
+                if (karazCb) karazCb.checked = false;
+                uiControls.applySettlementFilters();
+
+                var poiCb = getCb('poi-checkbox');
+                if (poiCb) { poiCb.checked = false; uiControls.applyPOIFilters(); }
+
+                var waterCb = getCb('water-checkbox');
+                if (waterCb) { waterCb.checked = false; waterCb.dispatchEvent(new Event('change')); }
+
+                var regionCb = getCb('region-checkbox');
+                if (regionCb) { regionCb.checked = false; regionCb.dispatchEvent(new Event('change')); }
+            }
+
+            function restoreState(s) {
+                if (!s) return;
+
+                var settlementCb = getCb('settlement-checkbox');
+                if (settlementCb) settlementCb.checked = s.settlement;
+
+                s.humanRegions.forEach(function(r) { var cb = getCb(r.id); if (cb) cb.checked = r.checked; });
+
+                var woodElfCb = getCb('settlement-region-wood-elf-realms');
+                if (woodElfCb) woodElfCb.checked = s.woodElf;
+                var karazCb = getCb('settlement-region-karaz-ankor');
+                if (karazCb) karazCb.checked = s.karaz;
+
+                uiControls.applySettlementFilters();
+
+                var poiCb = getCb('poi-checkbox');
+                if (poiCb) { poiCb.checked = s.poi; uiControls.applyPOIFilters(); }
+
+                var waterCb = getCb('water-checkbox');
+                if (waterCb) { waterCb.checked = s.water; waterCb.dispatchEvent(new Event('change')); }
+
+                var regionCb = getCb('region-checkbox');
+                if (regionCb) { regionCb.checked = s.region; regionCb.dispatchEvent(new Event('change')); }
+            }
+
+            var btn = document.getElementById('ratmode-toggle');
+            if (btn) {
+                btn.addEventListener('click', function() {
+                    ratModeActive = !ratModeActive;
+                    btn.classList.toggle('active', ratModeActive);
+                    mapManager.setRatMode(ratModeActive);
+                    mapManager.setSkavendomVisible(ratModeActive);
+
+                    if (ratModeActive) {
+                        savedState = saveState();
+                        applyRatFilters();
+                    } else {
+                        restoreState(savedState);
+                        savedState = null;
+                    }
+                });
+            }
+        })();
+
         });
     </script>
 </body>

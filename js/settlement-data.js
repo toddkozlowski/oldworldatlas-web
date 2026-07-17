@@ -63,7 +63,9 @@ class SettlementDataManager {
             'tilea',
             'estalia',
             'border-princes',
-            'albion'
+            'albion',
+            'araby',
+            'dawi-zharr'
         ]);
     }
 
@@ -197,6 +199,8 @@ class SettlementDataManager {
         if (normalized.includes('settlements_border_princes')) return 'border-princes';
         if (normalized.includes('settlements_westerland')) return 'albion';
         if (normalized.includes('settlements_albion')) return 'albion';
+        if (normalized.includes('settlements_araby')) return 'araby';
+        if (normalized.includes('settlements_dawi_zharr')) return 'dawi-zharr';
         return null;
     }
 
@@ -220,6 +224,8 @@ class SettlementDataManager {
         if (normalized.includes('estalia')) return 'estalia';
         if (normalized.includes('border')) return 'border-princes';
         if (normalized.includes('albion')) return 'albion';
+        if (normalized.includes('araby')) return 'araby';
+        if (normalized.includes('dawi')) return 'dawi-zharr';
         return null;
     }
 

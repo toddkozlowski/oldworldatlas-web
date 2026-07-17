@@ -304,17 +304,17 @@
       "textStrokeWidth": 2,
       "textOffsetY": -12,
       "enableDecluttering": true,
-      "minFontSize": 4,
+      "minFontSize": 6,
       "maxFontSize": 14,
-      "minFontZoom": 0.010,
+      "minFontZoom": 0.020,
       "maxFontZoom": 0.0005,
-      "minZoomLevel": 0.004,
+      "minZoomLevel": 0.020,
       "maxZoomLevel": 0.00001,
       "marker": {
         "type": "circle",
         "minRadius": 3,
         "maxRadius": 5,
-        "minRadiusZoom": 0.004,
+        "minRadiusZoom": 0.020,
         "maxRadiusZoom": 0.0005
       }
     }

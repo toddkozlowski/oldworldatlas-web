@@ -27,6 +27,8 @@ class MapManager {
         this.provinceSource = null;
         this.waterVectorLayer = null;
         this.waterSource = null;
+        this.skavendomVectorLayer = null;
+        this.skavendomSource = null;
     }
 
     /**
@@ -97,7 +99,8 @@ class MapManager {
                 this.createDwarfSettlementLayer(),              // Dwarf labels + markers
                 this.createWoodElfSettlementMarkersOnlyLayer(),  // Wood Elf markers only
                 this.createWoodElfSettlementLayer(),             // Wood Elf labels + markers
-                this.createPOILayer()
+                this.createPOILayer(),
+                this.createSkavendomLayer()   // [11] rat-mode-only invisible click targets
             ],
             view: new ol.View({
                 center: this.isMobilePortrait() ? imageCenter : [2.7, imageCenter[1]],
@@ -121,6 +124,7 @@ class MapManager {
         this.woodElfSettlementMarkersOnlyLayer = this.map.getLayers().item(8);
         this.woodElfSettlementVectorLayer = this.map.getLayers().item(9);
         this.poiVectorLayer = this.map.getLayers().item(10);
+        this.skavendomVectorLayer = this.map.getLayers().item(11);
 
         const desktopPOICheckbox = document.getElementById('poi-checkbox');
         const mobilePOICheckbox = document.getElementById('mobile-poi-checkbox');
@@ -141,27 +145,44 @@ class MapManager {
         const fullExtent = getImageExtent();
         const tileResolutions = getTileResolutions();
 
-        const getTileUrl = function(tileCoord) {
-            return (`https://raw.githubusercontent.com/toddkozlowski/oldworldatlas-repository/main/${MAP_TILE_DIRECTORY}/{z}/{x}/{y}.png?v=${MAP_TILE_VERSION}`)
+        this.activeTileDirectory = MAP_TILE_DIRECTORY;
+
+        // Arrow function closes over `this` so it always reads the current activeTileDirectory
+        this.tileUrlFunction = (tileCoord) =>
+            `https://raw.githubusercontent.com/toddkozlowski/oldworldatlas-repository/main/${this.activeTileDirectory}/{z}/{x}/{y}.png?v=${MAP_TILE_VERSION}`
                 .replace('{z}', String(tileCoord[0]))
                 .replace('{x}', String(tileCoord[1]))
                 .replace('{y}', String(-1 - tileCoord[2]));
-        };
 
-        return new ol.layer.Tile({
-            title: 'Map Tiles',
-            source: new ol.source.TileImage({
-                attributions: '',
-                crossOrigin: 'anonymous',
-                tileGrid: new ol.tilegrid.TileGrid({
-                    extent: fullExtent,
-                    origin: [fullExtent[0], fullExtent[1]],
-                    resolutions: tileResolutions,
-                    tileSize: [256, 256]
-                }),
-                tileUrlFunction: getTileUrl
-            })
+        this.tileSource = new ol.source.TileImage({
+            attributions: '',
+            crossOrigin: 'anonymous',
+            tileGrid: new ol.tilegrid.TileGrid({
+                extent: fullExtent,
+                origin: [fullExtent[0], fullExtent[1]],
+                resolutions: tileResolutions,
+                tileSize: [256, 256]
+            }),
+            tileUrlFunction: this.tileUrlFunction
         });
+
+        this.tileLayer = new ol.layer.Tile({
+            title: 'Map Tiles',
+            source: this.tileSource
+        });
+
+        return this.tileLayer;
+    }
+
+    getTileLayer() {
+        return this.tileLayer;
+    }
+
+    setRatMode(ratMode) {
+        this.activeTileDirectory = ratMode ? 'ratmode_tiles' : MAP_TILE_DIRECTORY;
+        // Passing directory as the cache key causes OL to clear its tile cache
+        // and fire a source change event, triggering a full re-render
+        this.tileSource.setTileUrlFunction(this.tileUrlFunction, this.activeTileDirectory);
     }
 
     /**
@@ -328,6 +349,27 @@ class MapManager {
             renderBuffer: 100,             // Render features slightly outside viewport
             style: () => null
         });
+    }
+
+    createSkavendomLayer() {
+        this.skavendomSource = new ol.source.Vector();
+        return new ol.layer.Vector({
+            title: 'Skavendom',
+            source: this.skavendomSource,
+            visible: false,
+            style: new ol.style.Style({
+                image: new ol.style.Circle({
+                    radius: 20,
+                    fill: new ol.style.Fill({ color: 'rgba(0, 0, 0, 0.01)' })
+                })
+            })
+        });
+    }
+
+    getSkavendomSource() { return this.skavendomSource; }
+    getSkavendomLayer()  { return this.skavendomVectorLayer; }
+    setSkavendomVisible(visible) {
+        if (this.skavendomVectorLayer) this.skavendomVectorLayer.setVisible(visible);
     }
 
     /**

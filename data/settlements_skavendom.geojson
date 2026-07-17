@@ -1,4 +1,693 @@
 {
   "type": "FeatureCollection",
-  "features": []
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.347836685119999,
+          41.719682998399996
+        ]
+      },
+      "properties": {
+        "name": "Skavenblight",
+        "province": "Under-Empire",
+        "settlement_type": "City",
+        "population": 250000,
+        "major_clans": [
+          "Skryre",
+          "Moulder",
+          "Eshin",
+          "Pestilens"
+        ],
+        "minor_clans": [
+          "Mors"
+        ],
+        "tags": [
+          "source:2eCotHR"
+        ],
+        "notes": [],
+        "size_category": 6,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3020842432,
+          61.611611410879995
+        ]
+      },
+      "properties": {
+        "name": "Hell Pit",
+        "province": "Under-Empire",
+        "settlement_type": "City",
+        "population": 115000,
+        "major_clans": [
+          "Moulder"
+        ],
+        "minor_clans": [],
+        "tags": [
+          "source:2eCotHR"
+        ],
+        "notes": [],
+        "size_category": 6,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.00010852479999962269,
+          51.45737157215999
+        ]
+      },
+      "properties": {
+        "name": "Under-Altdorf",
+        "province": "Under-Empire",
+        "settlement_type": "City",
+        "population": 120000,
+        "major_clans": [
+          "Skryre",
+          "Eshin",
+          "Moulder"
+        ],
+        "minor_clans": [
+          "Pestilens",
+          "Skabb",
+          "Mors",
+          "Skaul"
+        ],
+        "tags": [
+          "source:2eCotHR"
+        ],
+        "notes": [],
+        "size_category": 6,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.395833505728,
+          49.59468376224
+        ]
+      },
+      "properties": {
+        "name": "Black Chasm",
+        "province": "Under-Empire",
+        "settlement_type": "City",
+        "population": 25000,
+        "major_clans": [
+          "Eshin",
+          "Pestilens"
+        ],
+        "minor_clans": [
+          "Moulder",
+          "Flem"
+        ],
+        "tags": [
+          "source:2eCotHR"
+        ],
+        "notes": [],
+        "size_category": 5,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.302084262400001,
+          36.2092697632
+        ]
+      },
+      "properties": {
+        "name": "The City of Pillars",
+        "province": "Under-Empire",
+        "settlement_type": "City",
+        "population": 95000,
+        "major_clans": [
+          "Mors"
+        ],
+        "minor_clans": [],
+        "tags": [
+          "source:2eCotHR"
+        ],
+        "notes": [],
+        "size_category": 6,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.730468523839997,
+          50.17150707744
+        ]
+      },
+      "properties": {
+        "name": "Under-Mousillon",
+        "province": "Under-Empire",
+        "settlement_type": "City",
+        "population": 55000,
+        "major_clans": [
+          "Pestilens"
+        ],
+        "minor_clans": [
+          "Flem"
+        ],
+        "tags": [
+          "source:2eCotHR"
+        ],
+        "notes": [],
+        "size_category": 6,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.3854166076799994,
+          38.115520128
+        ]
+      },
+      "properties": {
+        "name": "Queekwell",
+        "province": "Under-Empire",
+        "settlement_type": "Nest",
+        "population": 450,
+        "major_clans": [
+          "Skaar"
+        ],
+        "minor_clans": [],
+        "tags": [
+          "source:2eCotHR"
+        ],
+        "notes": [],
+        "size_category": 2,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.90619573312,
+          54.2275731664
+        ]
+      },
+      "properties": {
+        "name": "Under-Delberz",
+        "province": "Under-Empire",
+        "settlement_type": "City",
+        "population": 10000,
+        "major_clans": [
+          "Moulder",
+          "Eeshin",
+          "Skryre"
+        ],
+        "minor_clans": [
+          "Mors",
+          "Pestilens",
+          "Skab",
+          "Sleekit",
+          "Skaar"
+        ],
+        "tags": [
+          "source:2eCotHR"
+        ],
+        "notes": [],
+        "size_category": 4,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4607522099200005,
+          55.31027485952
+        ]
+      },
+      "properties": {
+        "name": "Under-Middenheim",
+        "province": "Under-Empire",
+        "settlement_type": "City",
+        "population": 25000,
+        "major_clans": [
+          "Scrutens",
+          "Pestilens",
+          "Moulder"
+        ],
+        "minor_clans": [
+          "Eshin"
+        ],
+        "tags": [
+          "source:2eCotHR"
+        ],
+        "notes": [],
+        "size_category": 5,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.218009732800001,
+          55.241203550399995
+        ]
+      },
+      "properties": {
+        "name": "Karak Skygg",
+        "province": "Under-Empire",
+        "settlement_type": "Warren",
+        "population": 1000,
+        "major_clans": [
+          "Skryre"
+        ],
+        "minor_clans": [
+          "Scrutens"
+        ],
+        "tags": [
+          "source:4eTHR"
+        ],
+        "notes": [],
+        "size_category": 3,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.08072949824000074,
+          41.407185661759996
+        ]
+      },
+      "properties": {
+        "name": "Putrid Stump",
+        "province": "Under-Empire",
+        "settlement_type": "Warren",
+        "population": 6000,
+        "major_clans": [],
+        "minor_clans": [],
+        "tags": [
+          "source:WFB4e"
+        ],
+        "notes": [],
+        "size_category": 4,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.9166668009599999,
+          40.38635255679999
+        ]
+      },
+      "properties": {
+        "name": "Fester Spike",
+        "province": "Under-Empire",
+        "settlement_type": "City",
+        "population": 20000,
+        "major_clans": [
+          "Fester"
+        ],
+        "minor_clans": [
+          "Pestilens"
+        ],
+        "tags": [
+          "source:WFB4e"
+        ],
+        "notes": [],
+        "size_category": 5,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.041666384959999,
+          41.0113538816
+        ]
+      },
+      "properties": {
+        "name": "Foul Peak",
+        "province": "Under-Empire",
+        "settlement_type": "Warren",
+        "population": 7500,
+        "major_clans": [
+          "Ektrik"
+        ],
+        "minor_clans": [
+          "Skryre"
+        ],
+        "tags": [
+          "source:WFB4e"
+        ],
+        "notes": [],
+        "size_category": 4,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.2395834320000008,
+          37.00093542399999
+        ]
+      },
+      "properties": {
+        "name": "Blackclaw Lair",
+        "province": "Under-Empire",
+        "settlement_type": "Warren",
+        "population": 5000,
+        "major_clans": [
+          "Eshin"
+        ],
+        "minor_clans": [],
+        "tags": [
+          "source:WFB4e"
+        ],
+        "notes": [],
+        "size_category": 4,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.135414752,
+          57.021767563455995
+        ]
+      },
+      "properties": {
+        "name": "Seep-Gore",
+        "province": "Under-Empire",
+        "settlement_type": "Warren",
+        "population": 5000,
+        "major_clans": [
+          "Gritus"
+        ],
+        "minor_clans": [
+          "Moulder",
+          "Rictus"
+        ],
+        "tags": [
+          "source:WFB4e"
+        ],
+        "notes": [],
+        "size_category": 4,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.281249483839998,
+          41.80301919232
+        ]
+      },
+      "properties": {
+        "name": "Under-Magritta",
+        "province": "Under-Empire",
+        "settlement_type": "Warren",
+        "population": 12000,
+        "major_clans": [],
+        "minor_clans": [],
+        "tags": [
+          "source:2eCotHR"
+        ],
+        "notes": [],
+        "size_category": 4,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.91015601088,
+          41.085570841599996
+        ]
+      },
+      "properties": {
+        "name": "Under-Tobaro",
+        "province": "Under-Empire",
+        "settlement_type": "Warren",
+        "population": 8000,
+        "major_clans": [
+          "Skurvy"
+        ],
+        "minor_clans": [],
+        "tags": [
+          "source:2eCotHR"
+        ],
+        "notes": [],
+        "size_category": 4,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.244792075839998,
+          37.77177132479999
+        ]
+      },
+      "properties": {
+        "name": "Spineport",
+        "province": "Under-Empire",
+        "settlement_type": "City",
+        "population": 45000,
+        "major_clans": [
+          "Skurvy"
+        ],
+        "minor_clans": [
+          "Rikket",
+          "Skuttel"
+        ],
+        "tags": [
+          "source:WFB4e"
+        ],
+        "notes": [],
+        "size_category": 5,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.2499994944,
+          39.69085387199999
+        ]
+      },
+      "properties": {
+        "name": "Crookback Mountain",
+        "province": "Under-Empire",
+        "settlement_type": "City",
+        "population": 75000,
+        "major_clans": [
+          "Rictus"
+        ],
+        "minor_clans": [
+          "Moulder",
+          "Skryre"
+        ],
+        "tags": [
+          "source:WFB4e"
+        ],
+        "notes": [],
+        "size_category": 6,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.9375001001599994,
+          53.62593390528
+        ]
+      },
+      "properties": {
+        "name": "Rat Rock",
+        "province": "Under-Empire",
+        "settlement_type": "Nest",
+        "population": 1000,
+        "major_clans": [
+          "Scrutens"
+        ],
+        "minor_clans": [],
+        "tags": [
+          "source:WDM"
+        ],
+        "notes": [],
+        "size_category": 3,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1979167353599993,
+          53.08426772415999
+        ]
+      },
+      "properties": {
+        "name": "Bitter Stink",
+        "province": "Under-Empire",
+        "settlement_type": "",
+        "population": 49,
+        "major_clans": [],
+        "minor_clans": [],
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    }
+  ]
 }

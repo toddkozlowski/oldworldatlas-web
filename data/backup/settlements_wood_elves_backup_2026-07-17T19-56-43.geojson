@@ -6,7 +6,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.251896426559999,
+          -2.2518964155415926,
           47.943225647359995
         ]
       },
@@ -14,7 +14,7 @@
         "name": "Tal Driacha",
         "province": "Wood Elves",
         "estate": "",
-        "population": 193,
+        "population": 109,
         "tags": [
           "source:WAWE8E"
         ],
@@ -34,7 +34,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.2248916054399994,
+          -2.2248915944215923,
           47.45170982656
         ]
       },
@@ -42,7 +42,7 @@
         "name": "Delliandra",
         "province": "Wood Elves",
         "estate": "",
-        "population": 165,
+        "population": 77,
         "tags": [
           "source:WAWE8E"
         ],
@@ -62,7 +62,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.917003247039999,
+          -1.9170032360215923,
           47.01912682304
         ]
       },
@@ -70,7 +70,7 @@
         "name": "Glade of Eternal Moonlight",
         "province": "Wood Elves",
         "estate": "",
-        "population": 106,
+        "population": 192,
         "tags": [
           "source:WAWE8E"
         ],
@@ -90,7 +90,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.6014934911999994,
+          -2.6014934801815928,
           47.566328819199995
         ]
       },
@@ -98,7 +98,7 @@
         "name": "Ystin Hukon",
         "province": "Wood Elves",
         "estate": "",
-        "population": 67,
+        "population": 194,
         "tags": [
           "source:WAWE8E"
         ],
@@ -118,7 +118,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.2711056470399993,
+          -1.2711056360215927,
           46.824586141759994
         ]
       },
@@ -126,7 +126,7 @@
         "name": "Tal Silvoch",
         "province": "Wood Elves",
         "estate": "",
-        "population": 100,
+        "population": 129,
         "tags": [
           "source:WAWE8E"
         ],
@@ -146,7 +146,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.8631670502399993,
+          -0.8631670392215925,
           46.894638375039996
         ]
       },
@@ -154,7 +154,7 @@
         "name": "Locrimere",
         "province": "Wood Elves",
         "estate": "",
-        "population": 108,
+        "population": 245,
         "tags": [
           "source:WAWE8E"
         ],
@@ -174,7 +174,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.31098642976,
+          -2.3109864187415927,
           48.08419778719999
         ]
       },
@@ -182,7 +182,7 @@
         "name": "The Northern Sentinels",
         "province": "Wood Elves",
         "estate": "",
-        "population": 95,
+        "population": 84,
         "tags": [
           "source:WAWE6E"
         ],
@@ -202,7 +202,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.5707932255999997,
+          -2.570793214581593,
           47.089844733439996
         ]
       },
@@ -210,12 +210,12 @@
         "name": "Addaivoch (Tree of Woe)",
         "province": "Wood Elves",
         "estate": "",
-        "population": 523,
+        "population": 140,
         "tags": [
           "source:WAWE8E"
         ],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -230,7 +230,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.8921321827199993,
+          -2.8921321717015926,
           46.842597582719996
         ]
       },
@@ -238,7 +238,7 @@
         "name": "Tal Valerin",
         "province": "Wood Elves",
         "estate": "",
-        "population": 385,
+        "population": 312,
         "tags": [
           "source:WAWE8E"
         ],
@@ -258,7 +258,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.1615917151999993,
+          -2.1615917041815926,
           46.486530514559995
         ]
       },
@@ -266,7 +266,7 @@
         "name": "Tal Hakan",
         "province": "Wood Elves",
         "estate": "",
-        "population": 220,
+        "population": 117,
         "tags": [
           "source:WAWE8E"
         ],
@@ -286,7 +286,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.568746657919999,
+          -2.5687466469015923,
           45.896179583039995
         ]
       },
@@ -294,7 +294,7 @@
         "name": "Halls of Anaereth",
         "province": "Wood Elves",
         "estate": "",
-        "population": 420,
+        "population": 308,
         "tags": [
           "source:WAWE8E"
         ],
@@ -314,7 +314,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.6536631129599995,
+          -2.6536631019415924,
           45.34260823135999
         ]
       },
@@ -322,7 +322,7 @@
         "name": "Tal Brianda",
         "province": "Wood Elves",
         "estate": "",
-        "population": 161,
+        "population": 29,
         "tags": [
           "source:WAWE8E"
         ],
@@ -342,7 +342,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.779575686399999,
+          -2.7795756753815923,
           44.78106678336
         ]
       },
@@ -350,7 +350,7 @@
         "name": "Ystin Morai-Heg",
         "province": "Wood Elves",
         "estate": "",
-        "population": 215,
+        "population": 120,
         "tags": [
           "source:WAWE8E"
         ],
@@ -370,7 +370,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.6825030342399998,
+          -1.6825030232215932,
           46.62318651808
         ]
       },
@@ -378,12 +378,12 @@
         "name": "Feast Halls of the Wardance",
         "province": "Wood Elves",
         "estate": "",
-        "population": 417,
+        "population": 118,
         "tags": [
           "source:WAWE8E"
         ],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -398,7 +398,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.3281266774399998,
+          -1.3281266664215932,
           47.7969352672
         ]
       },
@@ -406,7 +406,7 @@
         "name": "Glade of the Lost",
         "province": "Wood Elves",
         "estate": "",
-        "population": 133,
+        "population": 135,
         "tags": [
           "source:WAWE8E"
         ],
@@ -426,7 +426,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.9067843926399992,
+          -0.9067843816215926,
           46.800025579199996
         ]
       },
@@ -434,7 +434,7 @@
         "name": "Ystin Eldrazor",
         "province": "Wood Elves",
         "estate": "",
-        "population": 109,
+        "population": 96,
         "tags": [
           "source:WAWE8E"
         ],
@@ -454,7 +454,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.6550346879999994,
+          -0.6550346769815927,
           45.99933608128
         ]
       },
@@ -462,12 +462,12 @@
         "name": "Threllock",
         "province": "Wood Elves",
         "estate": "",
-        "population": 263,
+        "population": 329,
         "tags": [
           "source:WAWE8E"
         ],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "wiki": {
           "title": null,
           "url": null,
@@ -482,236 +482,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.6898289641599997,
+          -0.689828953141593,
           47.625274414399996
         ]
       },
       "properties": {
         "name": "Ystin Lileath",
-        "province": "Wood Elves",
-        "estate": "",
-        "population": 344,
-        "tags": [
-          "source:WAWE8E"
-        ],
-        "notes": [],
-        "size_category": 2,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        },
-        "settlement_type": "Temple"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -0.1494874857599999,
-          47.07838346431999
-        ]
-      },
-      "properties": {
-        "name": "Tal Esth",
-        "province": "Wood Elves",
-        "estate": "",
-        "population": 561,
-        "tags": [
-          "source:WAWE8E"
-        ],
-        "notes": [],
-        "size_category": 2,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        },
-        "settlement_type": "Hall"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          0.3355924643200008,
-          46.64283458304
-        ]
-      },
-      "properties": {
-        "name": "The Vaults of Winter",
-        "province": "Wood Elves",
-        "estate": "",
-        "population": 195,
-        "tags": [
-          "source:WAWE8E"
-        ],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        },
-        "settlement_type": "POI"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -0.04714999967999995,
-          46.87534494112
-        ]
-      },
-      "properties": {
-        "name": "The Summer Tree",
-        "province": "Wood Elves",
-        "estate": "",
-        "population": 88,
-        "tags": [
-          "source:WAWE8E"
-        ],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        },
-        "settlement_type": "POI"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.3427433926399992,
-          47.35837797343999
-        ]
-      },
-      "properties": {
-        "name": "Tal Enda Varian",
-        "province": "Wood Elves",
-        "estate": "",
-        "population": 519,
-        "tags": [
-          "source:WAWE8E"
-        ],
-        "notes": [],
-        "size_category": 2,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        },
-        "settlement_type": "Hall"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.0367208047999994,
-          47.929188489599994
-        ]
-      },
-      "properties": {
-        "name": "Tower of the Eternal Wood",
-        "province": "Wood Elves",
-        "estate": "",
-        "population": 149,
-        "tags": [
-          "source:WAWE8E"
-        ],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        },
-        "settlement_type": "Hall"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -0.5383698278399999,
-          46.35137775456
-        ]
-      },
-      "properties": {
-        "name": "Council of Beasts",
-        "province": "Wood Elves",
-        "estate": "",
-        "population": 46,
-        "tags": [
-          "source:WAWE8E"
-        ],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        },
-        "settlement_type": "POI"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -0.50152845888,
-          46.80984917407999
-        ]
-      },
-      "properties": {
-        "name": "Waterfall Palace of the Naiad Court",
-        "province": "Wood Elves",
-        "estate": "",
-        "population": 367,
-        "tags": [
-          "source:WAWE8E"
-        ],
-        "notes": [],
-        "size_category": 2,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        },
-        "settlement_type": "Hall"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.6895062095999995,
-          45.24656168288
-        ]
-      },
-      "properties": {
-        "name": "The Chains of Vaul",
         "province": "Wood Elves",
         "estate": "",
         "population": 47,
@@ -726,6 +502,62 @@
           "description": null,
           "image": null
         },
+        "settlement_type": "Temple"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1494874747415932,
+          47.07838346431999
+        ]
+      },
+      "properties": {
+        "name": "Tal Esth",
+        "province": "Wood Elves",
+        "estate": "",
+        "population": 63,
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "settlement_type": "Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.33559247533840747,
+          46.64283458304
+        ]
+      },
+      "properties": {
+        "name": "The Vaults of Winter",
+        "province": "Wood Elves",
+        "estate": "",
+        "population": 146,
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
         "settlement_type": "POI"
       }
     },
@@ -734,7 +566,175 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.1717225052799995,
+          -0.04714998866159324,
+          46.87534494112
+        ]
+      },
+      "properties": {
+        "name": "The Summer Tree",
+        "province": "Wood Elves",
+        "estate": "",
+        "population": 50,
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "settlement_type": "POI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.3427433816215926,
+          47.35837797343999
+        ]
+      },
+      "properties": {
+        "name": "Tal Enda Varian",
+        "province": "Wood Elves",
+        "estate": "",
+        "population": 42,
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "settlement_type": "Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.0367207937815928,
+          47.929188489599994
+        ]
+      },
+      "properties": {
+        "name": "Tower of the Eternal Wood",
+        "province": "Wood Elves",
+        "estate": "",
+        "population": 22,
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "settlement_type": "Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5383698168215931,
+          46.35137775456
+        ]
+      },
+      "properties": {
+        "name": "Council of Beasts",
+        "province": "Wood Elves",
+        "estate": "",
+        "population": 327,
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "size_category": 2,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "settlement_type": "POI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5015284478615932,
+          46.80984917407999
+        ]
+      },
+      "properties": {
+        "name": "Waterfall Palace of the Naiad Court",
+        "province": "Wood Elves",
+        "estate": "",
+        "population": 243,
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "settlement_type": "Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.6895061985815927,
+          45.24656168288
+        ]
+      },
+      "properties": {
+        "name": "The Chains of Vaul",
+        "province": "Wood Elves",
+        "estate": "",
+        "population": 48,
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "settlement_type": "POI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.171722494261593,
           44.89800610624
         ]
       },
@@ -742,7 +742,7 @@
         "name": "Vaul's Anvil",
         "province": "Wood Elves",
         "estate": "",
-        "population": 267,
+        "population": 86,
         "tags": [
           "source:WAWE8E"
         ],
@@ -762,7 +762,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.9137863619199997,
+          -1.913786350901593,
           44.03773001663999
         ]
       },
@@ -770,7 +770,7 @@
         "name": "Myrgan Stones",
         "province": "Wood Elves",
         "estate": "",
-        "population": 238,
+        "population": 169,
         "tags": [
           "source:WAWE8E"
         ],
@@ -790,12 +790,180 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.48577962336,
+          -2.485779612341593,
           44.7567530272
         ]
       },
       "properties": {
         "name": "Tal Dovar",
+        "province": "Wood Elves",
+        "estate": "",
+        "population": 117,
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "settlement_type": "Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.1839567400215927,
+          43.711889030719995
+        ]
+      },
+      "properties": {
+        "name": "The Cromlech of Cadai",
+        "province": "Wood Elves",
+        "estate": "",
+        "population": 85,
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "settlement_type": "POI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.6284271966615925,
+          45.36075112736
+        ]
+      },
+      "properties": {
+        "name": "Bridge of Birds",
+        "province": "Wood Elves",
+        "estate": "",
+        "population": 20,
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "settlement_type": "POI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.4892476414615925,
+          44.658305805119994
+        ]
+      },
+      "properties": {
+        "name": "The Sylamel Tree",
+        "province": "Wood Elves",
+        "estate": "",
+        "population": 65,
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "settlement_type": "POI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.435883218698407,
+          44.3291880704
+        ]
+      },
+      "properties": {
+        "name": "Tears of Isha",
+        "province": "Wood Elves",
+        "estate": "",
+        "population": 59,
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "settlement_type": "POI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.503425903498407,
+          45.018533048959995
+        ]
+      },
+      "properties": {
+        "name": "Tal Jul-finel",
+        "province": "Wood Elves",
+        "estate": "",
+        "population": 78,
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "settlement_type": "Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1720021697815927,
+          46.10904170112
+        ]
+      },
+      "properties": {
+        "name": "Tal Varigan",
         "province": "Wood Elves",
         "estate": "",
         "population": 152,
@@ -818,175 +986,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.1839567510399993,
-          43.711889030719995
-        ]
-      },
-      "properties": {
-        "name": "The Cromlech of Cadai",
-        "province": "Wood Elves",
-        "estate": "",
-        "population": 301,
-        "tags": [
-          "source:WAWE8E"
-        ],
-        "notes": [],
-        "size_category": 2,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        },
-        "settlement_type": "POI"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -0.6284272076799993,
-          45.36075112736
-        ]
-      },
-      "properties": {
-        "name": "Bridge of Birds",
-        "province": "Wood Elves",
-        "estate": "",
-        "population": 315,
-        "tags": [
-          "source:WAWE8E"
-        ],
-        "notes": [],
-        "size_category": 2,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        },
-        "settlement_type": "POI"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -0.48924765247999924,
-          44.658305805119994
-        ]
-      },
-      "properties": {
-        "name": "The Sylamel Tree",
-        "province": "Wood Elves",
-        "estate": "",
-        "population": 173,
-        "tags": [
-          "source:WAWE8E"
-        ],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        },
-        "settlement_type": "POI"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          0.4358832076800003,
-          44.3291880704
-        ]
-      },
-      "properties": {
-        "name": "Tears of Isha",
-        "province": "Wood Elves",
-        "estate": "",
-        "population": 74,
-        "tags": [
-          "source:WAWE8E"
-        ],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        },
-        "settlement_type": "POI"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          0.5034258924800002,
-          45.018533048959995
-        ]
-      },
-      "properties": {
-        "name": "Tal Jul-finel",
-        "province": "Wood Elves",
-        "estate": "",
-        "population": 148,
-        "tags": [
-          "source:WAWE8E"
-        ],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        },
-        "settlement_type": "Hall"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -0.17200218079999938,
-          46.10904170112
-        ]
-      },
-      "properties": {
-        "name": "Tal Varigan",
-        "province": "Wood Elves",
-        "estate": "",
-        "population": 136,
-        "tags": [
-          "source:WAWE8E"
-        ],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        },
-        "settlement_type": "Hall"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -0.0839906684799996,
+          -0.08399065746159289,
           45.27069374751999
         ]
       },
@@ -994,7 +994,7 @@
         "name": "Crag Halls of Findol",
         "province": "Wood Elves",
         "estate": "",
-        "population": 50,
+        "population": 63,
         "tags": [
           "source:WAWE8E"
         ],
@@ -1014,404 +1014,12 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          0.33968542463999996,
+          0.3396854356584067,
           45.28215501663999
         ]
       },
       "properties": {
         "name": "Ystin Estreuth",
-        "province": "Wood Elves",
-        "estate": "",
-        "population": 42,
-        "tags": [
-          "source:WAWE8E"
-        ],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        },
-        "settlement_type": "Temple"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -0.7000633779199992,
-          45.56051290176
-        ]
-      },
-      "properties": {
-        "name": "Ystin Khaine",
-        "province": "Wood Elves",
-        "estate": "",
-        "population": 172,
-        "tags": [
-          "source:WAWE8E"
-        ],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        },
-        "settlement_type": "Temple"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.3681266431999999,
-          44.003446332159996
-        ]
-      },
-      "properties": {
-        "name": "Yn Edri Eternos (The Oak of Ages)",
-        "province": "Wood Elves",
-        "estate": "",
-        "population": 60,
-        "tags": [
-          "source:WAWE8E"
-        ],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        },
-        "settlement_type": "POI"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -0.6079596054399994,
-          43.48428994496
-        ]
-      },
-      "properties": {
-        "name": "Yn Edryl Koiran (The King's Glade)",
-        "province": "Wood Elves",
-        "estate": "",
-        "population": 290,
-        "tags": [
-          "source:WAWE8E"
-        ],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        },
-        "settlement_type": "POI"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -0.9149718886399997,
-          45.33782613855999
-        ]
-      },
-      "properties": {
-        "name": "Tal Govorn",
-        "province": "Wood Elves",
-        "estate": "",
-        "population": 20,
-        "tags": [
-          "source:WAWE8E"
-        ],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        },
-        "settlement_type": "Hall"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -0.6161464012799995,
-          44.933389216959995
-        ]
-      },
-      "properties": {
-        "name": "Tal Merion",
-        "province": "Wood Elves",
-        "estate": "",
-        "population": 264,
-        "tags": [
-          "source:WAWE8E"
-        ],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        },
-        "settlement_type": "Hall"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -0.9804676556799996,
-          43.61036915647999
-        ]
-      },
-      "properties": {
-        "name": "Tal Eth Ayr",
-        "province": "Wood Elves",
-        "estate": "",
-        "population": 61,
-        "tags": [
-          "source:WAWE8E"
-        ],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        },
-        "settlement_type": "Hall"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -0.0033942006399992966,
-          43.194214357119996
-        ]
-      },
-      "properties": {
-        "name": "Tal Cullon",
-        "province": "Wood Elves",
-        "estate": "",
-        "population": 45,
-        "tags": [
-          "source:WAWE8E"
-        ],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        },
-        "settlement_type": "Hall"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -0.6202397116799998,
-          44.492929063359995
-        ]
-      },
-      "properties": {
-        "name": "Druthandor Gate",
-        "province": "Wood Elves",
-        "estate": "",
-        "population": 53,
-        "tags": [
-          "source:WAWE8E"
-        ],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        },
-        "settlement_type": "POI"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.3994819084799996,
-          43.66477964031999
-        ]
-      },
-      "properties": {
-        "name": "Cerura Carn",
-        "province": "Wood Elves",
-        "estate": "",
-        "population": 67,
-        "tags": [
-          "source:WAWE8E"
-        ],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        },
-        "settlement_type": "POI"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.279292617919999,
-          43.37458450015999
-        ]
-      },
-      "properties": {
-        "name": "Drune Fell",
-        "province": "Wood Elves",
-        "estate": "",
-        "population": 148,
-        "tags": [
-          "source:WAWE8E"
-        ],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        },
-        "settlement_type": "POI"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          0.004018043200000305,
-          43.621830600639996
-        ]
-      },
-      "properties": {
-        "name": "Ystin Asuryan",
-        "province": "Wood Elves",
-        "estate": "",
-        "population": 228,
-        "tags": [
-          "source:WAWE8E"
-        ],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        },
-        "settlement_type": "Temple"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          0.33968542463999996,
-          44.21457030304
-        ]
-      },
-      "properties": {
-        "name": "Ystin Hoeth",
-        "province": "Wood Elves",
-        "estate": "",
-        "population": 105,
-        "tags": [
-          "source:WAWE8E"
-        ],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        },
-        "settlement_type": "Temple"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.7983905609599997,
-          43.58272648959999
-        ]
-      },
-      "properties": {
-        "name": "Glade of Eternal Midnight",
-        "province": "Wood Elves",
-        "estate": "",
-        "population": 367,
-        "tags": [
-          "source:WAWE8E"
-        ],
-        "notes": [],
-        "size_category": 2,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        },
-        "settlement_type": "Glade"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.343947336959999,
-          42.7363625792
-        ]
-      },
-      "properties": {
-        "name": "Talrennic",
         "province": "Wood Elves",
         "estate": "",
         "population": 240,
@@ -1426,7 +1034,7 @@
           "description": null,
           "image": null
         },
-        "settlement_type": "POI"
+        "settlement_type": "Temple"
       }
     },
     {
@@ -1434,43 +1042,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.7824710230399994,
-          42.68541998783999
+          -0.7000633669015924,
+          45.56051290176
         ]
       },
       "properties": {
-        "name": "Tal Stornos",
+        "name": "Ystin Khaine",
         "province": "Wood Elves",
         "estate": "",
-        "population": 123,
-        "tags": [
-          "source:WAWE8E"
-        ],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        },
-        "settlement_type": "Hall"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.6211007526399999,
-          43.7593733568
-        ]
-      },
-      "properties": {
-        "name": "Ystin Drakira",
-        "province": "Wood Elves",
-        "estate": "",
-        "population": 164,
+        "population": 262,
         "tags": [
           "source:WAWE8E"
         ],
@@ -1490,17 +1070,45 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.9280600179199996,
-          43.65588340736
+          -1.368126632181593,
+          44.003446332159996
         ]
       },
       "properties": {
-        "name": "The Western Sentinels",
+        "name": "Yn Edri Eternos (The Oak of Ages)",
         "province": "Wood Elves",
         "estate": "",
-        "population": 252,
+        "population": 438,
         "tags": [
-          "source:WAWE6E"
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "size_category": 2,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "settlement_type": "POI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.6079595944215926,
+          43.48428994496
+        ]
+      },
+      "properties": {
+        "name": "Yn Edryl Koiran (The King's Glade)",
+        "province": "Wood Elves",
+        "estate": "",
+        "population": 98,
+        "tags": [
+          "source:WAWE8E"
         ],
         "notes": [],
         "size_category": 1,
@@ -1518,15 +1126,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.4547252326399998,
-          43.0294871888
+          -0.9149718776215929,
+          45.33782613855999
         ]
       },
       "properties": {
-        "name": "Halls of Equos",
+        "name": "Tal Govorn",
         "province": "Wood Elves",
         "estate": "",
-        "population": 47,
+        "population": 225,
         "tags": [
           "source:WAWE8E"
         ],
@@ -1546,15 +1154,71 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.1253451129599994,
-          42.317234550399995
+          -0.6161463902615928,
+          44.933389216959995
         ]
       },
       "properties": {
-        "name": "Tal Amara",
+        "name": "Tal Merion",
         "province": "Wood Elves",
         "estate": "",
-        "population": 469,
+        "population": 49,
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "settlement_type": "Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.980467644661593,
+          43.61036915647999
+        ]
+      },
+      "properties": {
+        "name": "Tal Eth Ayr",
+        "province": "Wood Elves",
+        "estate": "",
+        "population": 56,
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "settlement_type": "Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0033941896215925913,
+          43.194214357119996
+        ]
+      },
+      "properties": {
+        "name": "Tal Cullon",
+        "province": "Wood Elves",
+        "estate": "",
+        "population": 475,
         "tags": [
           "source:WAWE8E"
         ],
@@ -1574,7 +1238,343 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.6181938441599992,
+          -0.6202397006615932,
+          44.492929063359995
+        ]
+      },
+      "properties": {
+        "name": "Druthandor Gate",
+        "province": "Wood Elves",
+        "estate": "",
+        "population": 259,
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "settlement_type": "POI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.3994818974615928,
+          43.66477964031999
+        ]
+      },
+      "properties": {
+        "name": "Cerura Carn",
+        "province": "Wood Elves",
+        "estate": "",
+        "population": 761,
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "size_category": 2,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "settlement_type": "POI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.2792926069015924,
+          43.37458450015999
+        ]
+      },
+      "properties": {
+        "name": "Drune Fell",
+        "province": "Wood Elves",
+        "estate": "",
+        "population": 138,
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "settlement_type": "POI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.00401805421840701,
+          43.621830600639996
+        ]
+      },
+      "properties": {
+        "name": "Ystin Asuryan",
+        "province": "Wood Elves",
+        "estate": "",
+        "population": 39,
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "settlement_type": "Temple"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.3396854356584067,
+          44.21457030304
+        ]
+      },
+      "properties": {
+        "name": "Ystin Hoeth",
+        "province": "Wood Elves",
+        "estate": "",
+        "population": 153,
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "settlement_type": "Temple"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.798390549941593,
+          43.58272648959999
+        ]
+      },
+      "properties": {
+        "name": "Glade of Eternal Midnight",
+        "province": "Wood Elves",
+        "estate": "",
+        "population": 402,
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "size_category": 2,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "settlement_type": "Glade"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.3439473259415924,
+          42.7363625792
+        ]
+      },
+      "properties": {
+        "name": "Talrennic",
+        "province": "Wood Elves",
+        "estate": "",
+        "population": 267,
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "settlement_type": "POI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.7824710120215923,
+          42.68541998783999
+        ]
+      },
+      "properties": {
+        "name": "Tal Stornos",
+        "province": "Wood Elves",
+        "estate": "",
+        "population": 94,
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "settlement_type": "Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.621100741621593,
+          43.7593733568
+        ]
+      },
+      "properties": {
+        "name": "Ystin Drakira",
+        "province": "Wood Elves",
+        "estate": "",
+        "population": 205,
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "settlement_type": "Temple"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.9280600069015925,
+          43.65588340736
+        ]
+      },
+      "properties": {
+        "name": "The Western Sentinels",
+        "province": "Wood Elves",
+        "estate": "",
+        "population": 318,
+        "tags": [
+          "source:WAWE6E"
+        ],
+        "notes": [],
+        "size_category": 2,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "settlement_type": "POI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.4547252216215931,
+          43.0294871888
+        ]
+      },
+      "properties": {
+        "name": "Halls of Equos",
+        "province": "Wood Elves",
+        "estate": "",
+        "population": 88,
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "settlement_type": "Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.1253451019415928,
+          42.317234550399995
+        ]
+      },
+      "properties": {
+        "name": "Tal Amara",
+        "province": "Wood Elves",
+        "estate": "",
+        "population": 85,
+        "tags": [
+          "source:WAWE8E"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "settlement_type": "Hall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.6181938331415925,
           42.768745679359995
         ]
       },
@@ -1582,7 +1582,7 @@
         "name": "Coeth-mara",
         "province": "Wood Elves",
         "estate": "",
-        "population": 150,
+        "population": 241,
         "tags": [
           "source:WAWE8E"
         ],
@@ -1602,7 +1602,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.2538720646399994,
+          -0.2538720536215927,
           42.19729521695999
         ]
       },
@@ -1610,7 +1610,7 @@
         "name": "Tal Amere",
         "province": "Wood Elves",
         "estate": "",
-        "population": 21,
+        "population": 262,
         "tags": [
           "source:WAWE8E"
         ],
@@ -1630,7 +1630,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.10574253919999972,
+          -0.105742528181593,
           43.01076526047999
         ]
       },
@@ -1638,7 +1638,7 @@
         "name": "Tal Drost",
         "province": "Wood Elves",
         "estate": "",
-        "population": 191,
+        "population": 66,
         "tags": [
           "source:WAWE8E"
         ],
@@ -1658,7 +1658,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.022589281279999,
+          -1.0225892702615922,
           43.175175081279995
         ]
       },
@@ -1666,7 +1666,7 @@
         "name": "Tal Mora",
         "province": "Wood Elves",
         "estate": "",
-        "population": 149,
+        "population": 143,
         "tags": [
           "source:WAWE8E"
         ],
@@ -1686,7 +1686,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          0.5996231504000009,
+          0.5996231614184077,
           42.85389073664
         ]
       },
@@ -1694,7 +1694,7 @@
         "name": "Tyr Vanna",
         "province": "Wood Elves",
         "estate": "",
-        "population": 264,
+        "population": 148,
         "tags": [
           "source:WAWE8E"
         ],
@@ -1714,7 +1714,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          0.21278667584000066,
+          0.21278668685840735,
           42.28734822079999
         ]
       },
@@ -1722,7 +1722,7 @@
         "name": "Tyr Edrell",
         "province": "Wood Elves",
         "estate": "",
-        "population": 210,
+        "population": 72,
         "tags": [
           "source:WAWE8E"
         ],
@@ -1742,7 +1742,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          0.35934539232000023,
+          0.359345403338407,
           46.8370517904
         ]
       },
@@ -1750,7 +1750,7 @@
         "name": "Chasm Glade of Beithir Seun",
         "province": "Wood Elves",
         "estate": "",
-        "population": 245,
+        "population": 41,
         "tags": [
           "source:WAWE8E"
         ],
@@ -1770,7 +1770,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          0.5892557062400001,
+          0.5892557172584068,
           46.44164763296
         ]
       },
@@ -1778,7 +1778,7 @@
         "name": "Eomain Tarn",
         "province": "Wood Elves",
         "estate": "",
-        "population": 212,
+        "population": 255,
         "tags": [
           "source:WAWE8E"
         ],
@@ -1798,7 +1798,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          0.5914361795200002,
+          0.5914361905384069,
           45.773375019839996
         ]
       },
@@ -1806,7 +1806,7 @@
         "name": "Eyrie of the Hawk Lords",
         "province": "Wood Elves",
         "estate": "",
-        "population": 161,
+        "population": 261,
         "tags": [
           "source:WAWE8E"
         ],
@@ -1826,7 +1826,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.707924637759999,
+          -2.707924626741592,
           47.40586334976
         ]
       },
@@ -1834,7 +1834,7 @@
         "name": "Tal Rond",
         "province": "Wood Elves",
         "estate": "",
-        "population": 139,
+        "population": 176,
         "tags": [
           "source:WAWE8E"
         ],
@@ -1854,7 +1854,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.3180050086399993,
+          -2.318004997621592,
           57.383882228607995
         ]
       },
@@ -1862,7 +1862,7 @@
         "name": "Tower of Se-Athil",
         "province": "Wood Elves",
         "estate": "",
-        "population": 40,
+        "population": 241,
         "tags": [
           "source:4eAotE1"
         ],
@@ -1882,7 +1882,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.154674815359999,
+          -1.1546748043415922,
           57.401545147423995
         ]
       },
@@ -1890,12 +1890,12 @@
         "name": "Farinar's Rock",
         "province": "Wood Elves",
         "estate": "",
-        "population": 65,
+        "population": 722,
         "tags": [
           "source:4eAotE1"
         ],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "wiki": {
           "title": null,
           "url": null,
@@ -1910,7 +1910,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.0994535462399997,
+          -1.099453535221593,
           56.350889935039994
         ]
       },
@@ -1918,7 +1918,7 @@
         "name": "Fountain of Lebin",
         "province": "Wood Elves",
         "estate": "",
-        "population": 46,
+        "population": 41,
         "tags": [
           "source:4eAotE1"
         ],
@@ -1938,7 +1938,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.6629597990399996,
+          -0.6629597880215929,
           56.70195050911999
         ]
       },
@@ -1946,7 +1946,7 @@
         "name": "Tor Lithanel",
         "province": "Wood Elves",
         "estate": "",
-        "population": 81,
+        "population": 139,
         "tags": [
           "source:4eAotE1"
         ],
@@ -1966,7 +1966,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.5127858063999997,
+          -0.512785795381593,
           56.128292442239996
         ]
       },
@@ -1974,7 +1974,7 @@
         "name": "Rainbow Falls",
         "province": "Wood Elves",
         "estate": "",
-        "population": 51,
+        "population": 108,
         "tags": [
           "source:4eAotE1"
         ],
@@ -1994,7 +1994,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.6130768998399994,
+          -0.6130768888215926,
           55.86958332224
         ]
       },
@@ -2002,7 +2002,7 @@
         "name": "Pass of Stone",
         "province": "Wood Elves",
         "estate": "",
-        "population": 190,
+        "population": 118,
         "tags": [
           "source:4eAotE1"
         ],
@@ -2022,7 +2022,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          0.2243741488000007,
+          0.22437415981840741,
           56.70881592799999
         ]
       },
@@ -2030,12 +2030,12 @@
         "name": "Ruins of Kor Immarmor",
         "province": "Wood Elves",
         "estate": "",
-        "population": 70,
+        "population": 359,
         "tags": [
           "source:4eAotE1"
         ],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "wiki": {
           "title": null,
           "url": null,
@@ -2050,7 +2050,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.9806311430399998,
+          -0.9806311320215931,
           55.43713387424
         ]
       },
@@ -2058,12 +2058,12 @@
         "name": "Drachenhohle",
         "province": "Wood Elves",
         "estate": "",
-        "population": 403,
+        "population": 107,
         "tags": [
           "source:4eAotE1"
         ],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,

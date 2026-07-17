@@ -1,0 +1,55 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -22.548235854719998,
+          28.968372579199993
+        ]
+      },
+      "properties": {
+        "name": "Al-Haikk",
+        "province": "Araby",
+        "estate": "",
+        "population": 61067,
+        "tags": [],
+        "notes": [],
+        "size_category": 6,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -24.488340180799998,
+          25.9892075328
+        ]
+      },
+      "properties": {
+        "name": "Martek",
+        "province": "Araby",
+        "estate": "",
+        "population": 590,
+        "tags": [],
+        "notes": [],
+        "size_category": 2,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    }
+  ]
+}

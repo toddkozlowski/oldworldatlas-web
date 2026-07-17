@@ -1409,121 +1409,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          5.83403226336,
-          58.472739338108795
-        ]
-      },
-      "properties": {
-        "name": "WESTERN OBLAST",
-        "province_type": "Major Division",
-        "formal_title": "Primorye Oblast",
-        "part_of": "Kislev",
-        "population": 0,
-        "wiki": {
-          "title": null,
-          "url": "https://warhammerfantasy.fandom.com/wiki/Western_Oblast",
-          "description": "The Western Oblast is the westernmost oblast region of Kislev. It is found between the River Lynsk and the Lesser Tobol, and includes the massive moorland known as the Blight. The Western Oblast is largely flat, steppe-like terrain and almost completely devoid of forest. Most of the region is composed of steppelands, but the southern regions and the area near the Empire’s border are farmed to a significant extent.",
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.788142297599999,
-          54.77656442143999
-        ]
-      },
-      "properties": {
-        "name": "SOUTHERN OBLAST",
-        "province_type": "Major Division",
-        "formal_title": "Polyania Oblast",
-        "part_of": "Kislev",
-        "population": 0,
-        "wiki": {
-          "title": null,
-          "url": "https://warhammerfantasy.fandom.com/wiki/Southern_Oblast",
-          "description": "The Southern Oblast is the southern oblast region of Kislev. Located south of the Lesser Tobol, and west of the Worlds Edge Mountains, the Southern Oblast has the mildest climate in the country, and, as a result, is the main farming region. Arable farming, at least of oats, is possible almost everywhere, and there are even some orchards.",
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          11.2850616032,
-          56.700979737279994
-        ]
-      },
-      "properties": {
-        "name": "EASTERN OBLAST",
-        "province_type": "Major Division",
-        "formal_title": "Ungolsk Oblast",
-        "part_of": "Kislev",
-        "population": 0,
-        "wiki": {
-          "title": null,
-          "url": "https://warhammerfantasy.fandom.com/wiki/Eastern_Oblast",
-          "description": "The Eastern Oblast is the easternmost oblast region of Kislev, located between the River Lynsk, the Lesser Tobol, and the Worlds Edge Mountains. Much of the Eastern Oblast is true steppeland, though south of the River Lynsk there are some croplands to be found as well. In the east, the foothills and lower peaks of the Worlds Edge Mountains are counted as part of the region, and much timber is brought down from the forests of those foothills to supply the more settled stanitsas.",
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          5.9338148656,
-          60.37991461951999
-        ]
-      },
-      "properties": {
-        "name": "TROLL COUNTRY",
-        "province_type": "Major Division",
-        "formal_title": "Kamennaya Zima",
-        "part_of": "Kislev",
-        "population": 0,
-        "wiki": {
-          "title": null,
-          "url": "https://warhammerfantasy.fandom.com/wiki/Troll_Country",
-          "description": "The Troll Country is a region of the northern Old World within the realm of Kislev that consists of steppeland slowly turning into tundra as one travels north before meeting the great mountains and the edge of the Chaos Wastes. It is some of the least-forgiving land in the Old World, and no farming is possible. There are some forests and two main ranges of hills, but for the most part, the Troll Country is largely flat.",
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.81307795168,
-          59.87952980198399
-        ]
-      },
-      "properties": {
-        "name": "NORTHERN OBLAST",
-        "province_type": "Major Division",
-        "formal_title": "Severyna Oblast",
-        "part_of": "Kislev",
-        "population": 0,
-        "wiki": {
-          "title": null,
-          "url": "https://warhammerfantasy.fandom.com/wiki/Northern_Oblast",
-          "description": "The Northern Oblast is the northernmost oblast region of Kislev. Most of the Northern Oblast is classic steppe-plains or gentle hills covered with long grass and grazed upon by herds of horses and cattle. In the region between the River Tobol and the River Lynsk, the Northern Oblast has harsher and longer winters than the more southerly regions of Kislev, and the weather can easily turn very frigid in the spring and autumn.",
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -15.615123055359996,
           42.01644213855999
         ]
@@ -2313,6 +2198,121 @@
       "properties": {
         "name": "ARABY",
         "province_type": "Nation-State",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.788142297599999,
+          54.77656442143999
+        ]
+      },
+      "properties": {
+        "name": "Southern Oblast",
+        "province_type": "Grand-Province",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.2850616032,
+          56.700979737279994
+        ]
+      },
+      "properties": {
+        "name": "Eastern Oblast",
+        "province_type": "Grand-Province",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.9338148656,
+          60.37991461951999
+        ]
+      },
+      "properties": {
+        "name": "Troll Country",
+        "province_type": "Grand-Province",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.81307795168,
+          59.87952980198399
+        ]
+      },
+      "properties": {
+        "name": "Northern Oblast",
+        "province_type": "Grand-Province",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.83403226336,
+          58.472739338108795
+        ]
+      },
+      "properties": {
+        "name": "Western Oblast",
+        "province_type": "Grand-Province",
         "formal_title": "",
         "part_of": "",
         "population": 0,

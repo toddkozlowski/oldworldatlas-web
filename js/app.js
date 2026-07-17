@@ -14,8 +14,11 @@ async function initializeApp() {
 
         // Load settlements data from multiple sources
         const features = await settlementData.loadSettlements([
+            'data/settlements_albion.geojson',
+            'data/settlements_araby.geojson',
             'data/settlements_border_princes.geojson',
             'data/settlements_bretonnia.geojson',
+            'data/settlements_dawi_zharr.geojson',
             'data/settlements_empire.geojson',
             'data/settlements_estalia.geojson',
             'data/settlements_kislev.geojson',
@@ -68,6 +71,21 @@ async function initializeApp() {
         // Add water labels to map
         const olWaterFeatures = waterData.getOLFeatures();
         mapManager.addWaterFeatures(olWaterFeatures);
+
+        // Load skavendom settlement data (layer stays invisible until rat mode enabled)
+        const skavendomResponse = await fetch('data/settlements_skavendom.geojson');
+        const skavendomGeoJSON = await skavendomResponse.json();
+        const skavendomFeatures = skavendomGeoJSON.features.map(f => new ol.Feature({
+            geometry: new ol.geom.Point(f.geometry.coordinates),
+            name: f.properties.name,
+            featureType: 'skavendom',
+            settlementType: f.properties.settlement_type,
+            population: f.properties.population,
+            majorClans: f.properties.major_clans || [],
+            minorClans: f.properties.minor_clans || []
+        }));
+        mapManager.getSkavendomSource().addFeatures(skavendomFeatures);
+        console.log(`Loaded ${skavendomFeatures.length} skavendom settlements`);
 
         // Initialize UI controls
         uiControls.initialize(mapManager.getMap());

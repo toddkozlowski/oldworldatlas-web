@@ -1,0 +1,30 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.505032804618406,
+          60.33401829132799
+        ]
+      },
+      "properties": {
+        "name": "Uzkulak",
+        "province": "Dawi-Zharr",
+        "estate": "",
+        "population": 10000,
+        "tags": [],
+        "notes": [],
+        "size_category": 4,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    }
+  ]
+}

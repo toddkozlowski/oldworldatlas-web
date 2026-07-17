@@ -33,6 +33,8 @@ class UIControls {
             { id: 'settlement-region-estalia', value: 'estalia', label: 'Estalia', kind: 'human' },
             { id: 'settlement-region-border-princes', value: 'border-princes', label: 'Border Princes', kind: 'human' },
             { id: 'settlement-region-albion', value: 'albion', label: 'Albion', kind: 'human' },
+            { id: 'settlement-region-araby', value: 'araby', label: 'Araby', kind: 'human' },
+            { id: 'settlement-region-dawi-zharr', value: 'dawi-zharr', label: 'Dawi-Zharr', kind: 'human' },
             { id: 'settlement-region-karaz-ankor', value: 'karaz-ankor', label: 'The Karaz-Ankor', kind: 'dwarf' },
             { id: 'settlement-region-wood-elf-realms', value: 'wood-elf-realms', label: 'Wood Elf Realms', kind: 'woodelf' }
         ];
@@ -683,6 +685,45 @@ class UIControls {
         const name = feature.get('name');
         const featureType = feature.get('featureType');
         
+        // Handle skavendom features
+        if (featureType === 'skavendom') {
+            const settlementType = feature.get('settlementType') || 'Skaven Settlement';
+            const population = feature.get('population');
+            const majorClans = feature.get('majorClans') || [];
+            const minorClans = feature.get('minorClans') || [];
+
+            let html = `<div class="settlement-popup skaven-popup">
+                <div class="settlement-popup-header">
+                    <h2 class="settlement-popup-title">${this.escapeHtml(name)}</h2>
+                    <p class="settlement-popup-subtitle">${this.escapeHtml(settlementType)} — Under-Empire</p>
+                </div>`;
+
+            if (population) {
+                html += `<div class="settlement-popup-field">
+                    <span class="settlement-popup-label">Population:</span>
+                    <span class="settlement-popup-value">${population.toLocaleString()}</span>
+                </div>`;
+            }
+            if (majorClans.length > 0) {
+                html += `<div class="settlement-popup-field">
+                    <span class="settlement-popup-label">Major Clans:</span>
+                    <span class="settlement-popup-value">${majorClans.map(c => this.escapeHtml(c)).join(', ')}</span>
+                </div>`;
+            }
+            if (minorClans.length > 0) {
+                html += `<div class="settlement-popup-field">
+                    <span class="settlement-popup-label">Minor Clans:</span>
+                    <span class="settlement-popup-value">${minorClans.map(c => this.escapeHtml(c)).join(', ')}</span>
+                </div>`;
+            }
+
+            html += '</div>';
+            this.popupElement.innerHTML = html;
+            this.popupOverlay.setPosition(coordinate);
+            this.popupElement.style.display = 'block';
+            return;
+        }
+
         // Handle dwarf settlement features
         if (featureType === 'dwarf') {
             const dwarfHoldType = feature.get('dwarfHoldType');

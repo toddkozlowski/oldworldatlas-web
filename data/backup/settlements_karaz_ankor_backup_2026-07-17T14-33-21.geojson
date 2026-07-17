@@ -14,12 +14,12 @@
         "name": "Karaz-a-Karak",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 33,
+        "population": 304,
         "tags": [
           "source:4eLoSaS"
         ],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "wiki": {
           "title": "Karaz-a-Karak",
           "url": "https://warhammerfantasy.fandom.com/wiki/Karaz-a-Karak",
@@ -42,7 +42,7 @@
         "name": "Zhufbar",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 218,
+        "population": 155,
         "tags": [
           "source:4eLoSaS"
         ],
@@ -70,12 +70,12 @@
         "name": "Karak Kadrin",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 321,
+        "population": 120,
         "tags": [
           "source:4eLoSaS"
         ],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": "Karak Kadrin",
           "url": "https://warhammerfantasy.fandom.com/wiki/Karak_Kadrin",
@@ -98,7 +98,7 @@
         "name": "Khazid Rhyn",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 49,
+        "population": 207,
         "tags": [
           "source:4eLoSaS"
         ],
@@ -126,7 +126,7 @@
         "name": "Karak Eight Peaks",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 60,
+        "population": 57,
         "tags": [
           "source:4eLoSaS"
         ],
@@ -154,7 +154,7 @@
         "name": "Karak Azul",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 83,
+        "population": 264,
         "tags": [
           "source:4eLoSaS"
         ],
@@ -182,7 +182,7 @@
         "name": "Kazad Migdhal",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 29,
+        "population": 85,
         "tags": [
           "source:4eLoSaS"
         ],
@@ -210,7 +210,7 @@
         "name": "Barak Varr",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 140,
+        "population": 39,
         "tags": [
           "source:4eLoSaS"
         ],
@@ -238,7 +238,7 @@
         "name": "Khazid Varrwyndak",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 170,
+        "population": 160,
         "tags": [
           "source:4eLoSaS"
         ],
@@ -266,7 +266,7 @@
         "name": "Karak Hirn",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 136,
+        "population": 133,
         "tags": [
           "source:4eLoSaS"
         ],
@@ -294,12 +294,12 @@
         "name": "Grung Rakadem",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 450,
+        "population": 219,
         "tags": [
           "source:4eLoSaS"
         ],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -322,7 +322,7 @@
         "name": "Khazid Grentaz",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 94,
+        "population": 43,
         "tags": [
           "source:4eLoSaS"
         ],
@@ -350,7 +350,7 @@
         "name": "Khazid Svarkungor",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 139,
+        "population": 65,
         "tags": [
           "source:4eLoSaS"
         ],
@@ -378,7 +378,7 @@
         "name": "Karak Angazbar",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 116,
+        "population": 120,
         "tags": [
           "source:4eLoSaS"
         ],
@@ -406,7 +406,7 @@
         "name": "Grung Tepskaf",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 101,
+        "population": 135,
         "tags": [
           "source:4eLoSaS"
         ],
@@ -434,7 +434,7 @@
         "name": "Kazad Nardak",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 21,
+        "population": 28,
         "tags": [
           "source:4eLoSaS"
         ],
@@ -462,7 +462,7 @@
         "name": "Migdhal Vongalbavak",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 205,
+        "population": 282,
         "tags": [
           "source:4eLoSaS"
         ],
@@ -490,7 +490,7 @@
         "name": "Karak Gantuk",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 64,
+        "population": 58,
         "tags": [
           "source:4eLoSaS"
         ],
@@ -518,12 +518,12 @@
         "name": "Grung Trag",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 354,
+        "population": 15,
         "tags": [
           "source:4eLoSaS"
         ],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -546,7 +546,7 @@
         "name": "Khazid Hafak",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 80,
+        "population": 103,
         "tags": [
           "source:4eLoSaS"
         ],
@@ -574,12 +574,12 @@
         "name": "Kazad Zhum",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 171,
+        "population": 492,
         "tags": [
           "source:4eLoSaS"
         ],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "wiki": {
           "title": null,
           "url": null,
@@ -602,7 +602,7 @@
         "name": "Karak Izor",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 120,
+        "population": 89,
         "tags": [
           "source:4eLoSaS"
         ],
@@ -630,7 +630,7 @@
         "name": "Grung Byrn",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 48,
+        "population": 118,
         "tags": [
           "source:4eLoSaS"
         ],
@@ -658,7 +658,7 @@
         "name": "Hochstadt",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 158,
+        "population": 200,
         "tags": [
           "source:4eLoSaS"
         ],
@@ -686,7 +686,7 @@
         "name": "Khazid Algikarag",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 87,
+        "population": 218,
         "tags": [
           "source:4eLoSaS"
         ],
@@ -714,7 +714,7 @@
         "name": "Khazid Nekewukaz",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 99,
+        "population": 105,
         "tags": [
           "source:4eLoSaS"
         ],
@@ -742,7 +742,7 @@
         "name": "Karak Eksfilaz",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 318,
+        "population": 303,
         "tags": [
           "source:4eLoSaS"
         ],
@@ -770,12 +770,12 @@
         "name": "Grung Mizpal",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 101,
+        "population": 423,
         "tags": [
           "source:4eLoSaS"
         ],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "wiki": {
           "title": "Grung Mizpal",
           "url": "https://warhammerfantasy.fandom.com/wiki/Grung_Mizpal",
@@ -798,7 +798,7 @@
         "name": "Kazad Frukund",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 186,
+        "population": 82,
         "tags": [
           "source:4eLoSaS"
         ],
@@ -826,7 +826,7 @@
         "name": "Karak Bhufdar",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 206,
+        "population": 98,
         "tags": [
           "source:4eLoSaS"
         ],
@@ -854,7 +854,7 @@
         "name": "Karak Kaferkammaz",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 83,
+        "population": 43,
         "tags": [
           "source:4eLoSaS"
         ],
@@ -882,7 +882,7 @@
         "name": "Grung Wyruvalk",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 782,
+        "population": 521,
         "tags": [
           "source:4eLoSaS"
         ],
@@ -910,7 +910,7 @@
         "name": "Mont Grace",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 120,
+        "population": 131,
         "tags": [
           "source:4eLoSaS"
         ],
@@ -938,7 +938,7 @@
         "name": "Karak Grom",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 78,
+        "population": 237,
         "tags": [
           "source:4eLoSaS"
         ],
@@ -966,7 +966,7 @@
         "name": "Domatburg",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 28,
+        "population": 249,
         "tags": [
           "source:4eLoSaS"
         ],
@@ -994,12 +994,12 @@
         "name": "Kazad Sedazund",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 505,
+        "population": 86,
         "tags": [
           "source:4eLoSaS"
         ],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": "Kazad Sedazund",
           "url": "https://warhammerfantasy.fandom.com/wiki/Kazad_Sedazund",
@@ -1022,7 +1022,7 @@
         "name": "Khazid Urbaz",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 126,
+        "population": 103,
         "tags": [
           "source:4eLoSaS"
         ],
@@ -1050,7 +1050,7 @@
         "name": "Karak Skivark (Grimhold)",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 29,
+        "population": 182,
         "tags": [
           "source:4eLoSaS"
         ],
@@ -1078,12 +1078,12 @@
         "name": "Karak Norn",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 398,
+        "population": 111,
         "tags": [
           "source:4eLoSaS"
         ],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": "Karak Norn",
           "url": "https://warhammerfantasy.fandom.com/wiki/Karak_Norn",
@@ -1106,7 +1106,7 @@
         "name": "Bergheim",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 69,
+        "population": 180,
         "tags": [
           "source:4eLoSaS"
         ],
@@ -1134,7 +1134,7 @@
         "name": "Khazid Thran",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 45,
+        "population": 105,
         "tags": [
           "source:4eLoSaS"
         ],
@@ -1162,12 +1162,12 @@
         "name": "Karak Azgaraz",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 422,
+        "population": 72,
         "tags": [
           "source:4eLoSaS"
         ],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": "Karak Azgaraz",
           "url": "https://warhammerfantasy.fandom.com/wiki/Karak_Azgaraz",
@@ -1182,43 +1182,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.8635666665599993,
-          48.84253320639999
-        ]
-      },
-      "properties": {
-        "name": "Gimbringrungaz",
-        "province": "Karaz Ankor",
-        "estate": "",
-        "population": 96,
-        "tags": [
-          "source:4eLoSaS"
-        ],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        },
-        "hold_type": "Grung (Mining Settlement)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -3.5966718585599993,
-          50.034224955839996
+          -3.5706301075199995,
+          50.035527428479995
         ]
       },
       "properties": {
         "name": "Karak Ziflin",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 87,
+        "population": 32,
         "tags": [
           "source:4eLoSaS"
         ],
@@ -1246,7 +1218,7 @@
         "name": "Grung Ardzufak",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 154,
+        "population": 168,
         "tags": [
           "source:4eLoSaS"
         ],
@@ -1274,7 +1246,7 @@
         "name": "Kazad Elgazund",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 145,
+        "population": 90,
         "tags": [
           "source:4eLoSaS"
         ],
@@ -1302,12 +1274,12 @@
         "name": "Kraka Drak",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 390,
+        "population": 133,
         "tags": [
           "source:4eLoSaS"
         ],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": "Kraka Drak",
           "url": "https://warhammerfantasy.fandom.com/wiki/Kraka_Drak",
@@ -1330,7 +1302,7 @@
         "name": "Grung Kuldungor",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 199,
+        "population": 187,
         "tags": [
           "source:4eLoSaS"
         ],
@@ -1358,7 +1330,7 @@
         "name": "Khazid Ravik",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 33,
+        "population": 120,
         "tags": [
           "source:4eLoSaS"
         ],
@@ -1386,7 +1358,7 @@
         "name": "Kraka Ravnsvake",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 95,
+        "population": 59,
         "tags": [
           "source:4eLoSaS"
         ],
@@ -1414,7 +1386,7 @@
         "name": "Grung Stekbrud",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 42,
+        "population": 177,
         "tags": [
           "source:4eLoSaS"
         ],
@@ -1434,15 +1406,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.433670543999998,
-          61.63574172511999
+          11.089218099199998,
+          61.790421422399994
         ]
       },
       "properties": {
         "name": "Khazid Bordkarag",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 175,
+        "population": 117,
         "tags": [
           "source:4eLoSaS"
         ],
@@ -1470,7 +1442,7 @@
         "name": "Sjoktraken",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 143,
+        "population": 9,
         "tags": [
           "source:4eLoSaS"
         ],
@@ -1498,7 +1470,7 @@
         "name": "Kraka Dorden",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 91,
+        "population": 154,
         "tags": [
           "source:4eLoSaS"
         ],
@@ -1526,7 +1498,7 @@
         "name": "Grung Dobekzhuf",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 139,
+        "population": 259,
         "tags": [
           "source:4eLoSaS"
         ],
@@ -1554,7 +1526,7 @@
         "name": "Khazid Fneldurk",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 105,
+        "population": 239,
         "tags": [
           "source:4eLoSaS"
         ],
@@ -1582,7 +1554,7 @@
         "name": "Kraka Ornsmotek",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 284,
+        "population": 67,
         "tags": [
           "source:4eLoSaS"
         ],
@@ -1610,12 +1582,12 @@
         "name": "Grung Diratduraz",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 782,
+        "population": 66,
         "tags": [
           "source:4eLoSaS"
         ],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -1638,7 +1610,7 @@
         "name": "Kazad Dumund",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 87,
+        "population": 72,
         "tags": [
           "source:4eLoSaS"
         ],
@@ -1658,34 +1630,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          7.886008679360001,
-          44.68655638591999
-        ]
-      },
-      "properties": {
-        "name": "Karag Dronar (Booming Peak)",
-        "province": "Karaz Ankor",
-        "estate": "",
-        "population": 141,
-        "tags": [
-          "source:TWW3"
-        ],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        },
-        "hold_type": "Khazid (Town)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           9.49479344256,
           46.766610443199994
         ]
@@ -1694,7 +1638,7 @@
         "name": "Karak Varn (Cragmere)",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 157,
+        "population": 203,
         "tags": [
           "source:1eDSaS"
         ],
@@ -1724,7 +1668,7 @@
         "name": "Karak Drazh (Black Crag)",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 155,
+        "population": 115,
         "tags": [
           "source:1eDSaS"
         ],
@@ -1754,7 +1698,7 @@
         "name": "Karak Azgal",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 258,
+        "population": 98,
         "tags": [
           "source:2eKAAotDC"
         ],
@@ -1784,14 +1728,14 @@
         "name": "Ekrund",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 91,
+        "population": 586,
         "tags": [
           "source:1eDSaS"
         ],
         "notes": [
           "fallen"
         ],
-        "size_category": 1,
+        "size_category": 2,
         "wiki": {
           "title": "Ekrund",
           "url": "https://warhammerfantasy.fandom.com/wiki/Ekrund",
@@ -1814,14 +1758,14 @@
         "name": "Karak Ungor (Red-Eye Mountain)",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 208,
+        "population": 371,
         "tags": [
           "source:1eDSaS"
         ],
         "notes": [
           "fallen"
         ],
-        "size_category": 1,
+        "size_category": 2,
         "wiki": {
           "title": null,
           "url": null,
@@ -1844,7 +1788,7 @@
         "name": "Karak Vlag",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 221,
+        "population": 197,
         "tags": [
           "source:1eDSaS"
         ],
@@ -1866,36 +1810,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.7539063584,
-          43.61031156832
-        ]
-      },
-      "properties": {
-        "name": "Karak Agilwutraz",
-        "province": "Karaz Ankor",
-        "estate": "",
-        "population": 78,
-        "tags": [
-          "source:1eDSaS"
-        ],
-        "notes": [
-          "fallen"
-        ],
-        "size_category": 1,
-        "wiki": {
-          "title": "Karag Agilwutraz",
-          "url": "https://warhammerfantasy.fandom.com/wiki/Karag_Agilwutraz",
-          "description": null,
-          "image": null
-        },
-        "hold_type": "Karak (Great Hold)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           13.469587059199998,
           46.45453302752
         ]
@@ -1904,7 +1818,7 @@
         "name": "Karag Gunbad",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 36,
+        "population": 235,
         "tags": [
           "source:1eDSaS"
         ],
@@ -1934,7 +1848,7 @@
         "name": "Karak Skygg",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 44,
+        "population": 94,
         "tags": [
           "source:4eTHRC"
         ],
@@ -1964,7 +1878,7 @@
         "name": "Kazad Drengi (Keep of the First Slayer)",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 29,
+        "population": 173,
         "tags": [
           "source:4eTHRC"
         ],
@@ -1994,7 +1908,7 @@
         "name": "Karak Khazarak",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 175,
+        "population": 145,
         "tags": [
           "source:4eMCotWW"
         ],
@@ -2024,12 +1938,12 @@
         "name": "Oakenhammer",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 635,
+        "population": 216,
         "tags": [
           "source:TWW3"
         ],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -2052,12 +1966,12 @@
         "name": "Migdhal Agril",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 192,
+        "population": 319,
         "tags": [
           "source:4eStartSet"
         ],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "wiki": {
           "title": null,
           "url": null,
@@ -2080,7 +1994,7 @@
         "name": "Khazid Kro",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 103,
+        "population": 272,
         "tags": [
           "source:Vermintide2"
         ],
@@ -2110,14 +2024,14 @@
         "name": "Karak Gnol",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 98,
+        "population": 535,
         "tags": [
           "source:Vermintide2"
         ],
         "notes": [
           "fallen"
         ],
-        "size_category": 1,
+        "size_category": 2,
         "wiki": {
           "title": "Karak Gnol",
           "url": "https://warhammerfantasy.fandom.com/wiki/Karak_Gnol",
@@ -2140,7 +2054,7 @@
         "name": "Karak Tzor",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 49,
+        "population": 162,
         "tags": [
           "source:TWW1"
         ],
@@ -2168,12 +2082,12 @@
         "name": "Kazad Urkbavak",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 464,
+        "population": 205,
         "tags": [
           "source:1eLoSaS"
         ],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -2196,12 +2110,12 @@
         "name": "Grung Drekaz",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 98,
+        "population": 319,
         "tags": [
           "source:1eLoSaS"
         ],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "wiki": {
           "title": null,
           "url": null,
@@ -2224,7 +2138,7 @@
         "name": "Khazid Skovekarag",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 460,
+        "population": 426,
         "tags": [
           "source:1eLoSaS"
         ],
@@ -2252,7 +2166,7 @@
         "name": "Kazad Grontunt",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 189,
+        "population": 95,
         "tags": [
           "source:1eLoSaS"
         ],
@@ -2272,34 +2186,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.607907225599998,
-          60.320398183871994
-        ]
-      },
-      "properties": {
-        "name": "Kraz Und",
-        "province": "Karaz Ankor",
-        "estate": "",
-        "population": 36,
-        "tags": [
-          "source:TWW3"
-        ],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        },
-        "hold_type": "Khazid (Town)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           19.920749273600002,
           74.8634299808
         ]
@@ -2308,7 +2194,7 @@
         "name": "Karak Dum",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 67,
+        "population": 282,
         "tags": [
           "source:TWW3"
         ],
@@ -2336,7 +2222,7 @@
         "name": "Zarakzil",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 514,
+        "population": 535,
         "tags": [
           "source:TWW3"
         ],
@@ -2364,12 +2250,12 @@
         "name": "Khazid Vosk",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 69,
+        "population": 477,
         "tags": [
           "source:TOW"
         ],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "wiki": {
           "title": null,
           "url": null,
@@ -2392,7 +2278,7 @@
         "name": "Grung Gundrikson",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 37,
+        "population": 20,
         "tags": [
           "source:TOW"
         ],
@@ -2420,7 +2306,7 @@
         "name": "Kurgaz's Forge",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 159,
+        "population": 154,
         "tags": [
           "source:TOW"
         ],
@@ -2448,7 +2334,7 @@
         "name": "Kraka Ungrim",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 177,
+        "population": 209,
         "tags": [
           "source:TOW"
         ],
@@ -2468,34 +2354,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.923176732800001,
-          41.36942568288
-        ]
-      },
-      "properties": {
-        "name": "Kadar Helgad",
-        "province": "Karaz Ankor",
-        "estate": "",
-        "population": 352,
-        "tags": [
-          "source:1eDoomstones"
-        ],
-        "notes": [],
-        "size_category": 2,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        },
-        "hold_type": "Khazid (Town)"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           2.5538248479999996,
           41.41364183711999
         ]
@@ -2504,7 +2362,7 @@
         "name": "Kadar Gravning",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 99,
+        "population": 15,
         "tags": [
           "source:1eDoomstones"
         ],
@@ -2532,7 +2390,7 @@
         "name": "Karak Kadal",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 186,
+        "population": 110,
         "tags": [
           "source:1eEiF"
         ],
@@ -2560,12 +2418,12 @@
         "name": "Kadar Khalizad",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 213,
+        "population": 412,
         "tags": [
           "source:1eEiF"
         ],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "wiki": {
           "title": null,
           "url": null,
@@ -2588,12 +2446,12 @@
         "name": "Karak Zanda",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 375,
+        "population": 150,
         "tags": [
           "source:4eEiS"
         ],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -2616,7 +2474,7 @@
         "name": "Karak Angkul",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 142,
+        "population": 215,
         "tags": [
           "source:Thanquol"
         ],
@@ -2644,7 +2502,7 @@
         "name": "Migdhal Skarrenruf",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 183,
+        "population": 111,
         "tags": [
           "source:4eAotE1"
         ],
@@ -2672,12 +2530,12 @@
         "name": "Azorn-Kalaki",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 354,
+        "population": 85,
         "tags": [
           "source:4eCore"
         ],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -2700,7 +2558,7 @@
         "name": "Karak Baraz",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 77,
+        "population": 58,
         "tags": [
           "source:4eStartSet"
         ],
@@ -2728,12 +2586,12 @@
         "name": "Karak Baldrak",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 105,
+        "population": 407,
         "tags": [
           "source:4eStartSet"
         ],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "wiki": {
           "title": null,
           "url": null,
@@ -2756,7 +2614,7 @@
         "name": "Karak Drimnak",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 157,
+        "population": 140,
         "tags": [
           "source:4eStartSet"
         ],
@@ -2784,7 +2642,7 @@
         "name": "Karak Thulgrol",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 93,
+        "population": 155,
         "tags": [
           "source:4eStartSet"
         ],
@@ -2814,7 +2672,7 @@
         "name": "Karak Drakeni",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 40,
+        "population": 246,
         "tags": [
           "source:4eStartSet"
         ],
@@ -2844,7 +2702,7 @@
         "name": "Karak Branar",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 246,
+        "population": 268,
         "tags": [
           "source:4eStartSet"
         ],
@@ -2874,7 +2732,7 @@
         "name": "Khazid Vithang",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 204,
+        "population": 136,
         "tags": [
           "source:4eStartSet"
         ],
@@ -2902,12 +2760,12 @@
         "name": "Karkagrung",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 376,
+        "population": 124,
         "tags": [
           "source:4eStartSet"
         ],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -2930,7 +2788,7 @@
         "name": "Kulugrung",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 192,
+        "population": 186,
         "tags": [
           "source:4eStartSet"
         ],
@@ -2958,7 +2816,7 @@
         "name": "Garkarund",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 39,
+        "population": 68,
         "tags": [
           "source:4eStartSet"
         ],
@@ -2986,7 +2844,7 @@
         "name": "Khazid Ank",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 80,
+        "population": 74,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3012,10 +2870,10 @@
         "name": "Khazid Rhek",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 592,
+        "population": 98,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -3038,10 +2896,10 @@
         "name": "Khazid Grimaz",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 41,
+        "population": 384,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "wiki": {
           "title": null,
           "url": null,
@@ -3064,7 +2922,7 @@
         "name": "Kolaz Ungor",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 72,
+        "population": 145,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3090,10 +2948,10 @@
         "name": "Skraklaz Ungor",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 80,
+        "population": 562,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "wiki": {
           "title": null,
           "url": null,
@@ -3116,7 +2974,7 @@
         "name": "Migdhal Skom",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 162,
+        "population": 90,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3142,7 +3000,7 @@
         "name": "Migdhal Almon",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 84,
+        "population": 92,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3168,7 +3026,7 @@
         "name": "Kazad Thurgaraz",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 720,
+        "population": 502,
         "tags": [],
         "notes": [],
         "size_category": 2,
@@ -3194,7 +3052,33 @@
         "name": "Dok Karaz",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 345,
+        "population": 48,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.8635666665599993,
+          48.84253320639999
+        ]
+      },
+      "properties": {
+        "name": "Gimbringrungaz",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 302,
         "tags": [],
         "notes": [],
         "size_category": 2,
@@ -3220,10 +3104,10 @@
         "name": "Karak Raziak",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 668,
+        "population": 48,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -3246,7 +3130,7 @@
         "name": "Khazid Irkulaz",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 226,
+        "population": 187,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3272,7 +3156,7 @@
         "name": "Grung Ikree",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 64,
+        "population": 114,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3298,10 +3182,10 @@
         "name": "Khazid Wyrwarn",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 342,
+        "population": 58,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -3324,10 +3208,10 @@
         "name": "Grung Agrilebaz",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 190,
+        "population": 623,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "wiki": {
           "title": null,
           "url": null,
@@ -3350,7 +3234,33 @@
         "name": "Grung Trakekarag",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 128,
+        "population": 65,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.886008679360001,
+          44.68655638591999
+        ]
+      },
+      "properties": {
+        "name": "Karag Dronar (Booming Peak)",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 165,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3376,7 +3286,7 @@
         "name": "Grung Azulduraz",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 172,
+        "population": 204,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3402,10 +3312,10 @@
         "name": "Grung Agril-Ril",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 407,
+        "population": 168,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -3428,10 +3338,10 @@
         "name": "Karak Zhul",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 447,
+        "population": 277,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -3454,7 +3364,7 @@
         "name": "Grung Karagzan",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 232,
+        "population": 204,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3480,7 +3390,7 @@
         "name": "Grung Drazhungor",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 42,
+        "population": 34,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3506,7 +3416,7 @@
         "name": "Grung Kolduraz",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 126,
+        "population": 227,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3532,7 +3442,7 @@
         "name": "Grung Galaz-Ril",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 100,
+        "population": 117,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3558,7 +3468,7 @@
         "name": "Grung Mhonarduk",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 158,
+        "population": 229,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3584,7 +3494,7 @@
         "name": "Grung Girtazul",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 60,
+        "population": 86,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3610,10 +3520,10 @@
         "name": "Grung Kadrinzan",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 146,
+        "population": 303,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "wiki": {
           "title": null,
           "url": null,
@@ -3636,10 +3546,10 @@
         "name": "Grung Varnizor",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 324,
+        "population": 41,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -3662,7 +3572,7 @@
         "name": "Grung Undrinzan",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 251,
+        "population": 230,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3688,10 +3598,10 @@
         "name": "Grung Karagbryn",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 383,
+        "population": 153,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -3714,7 +3624,7 @@
         "name": "Grung Konkril",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 142,
+        "population": 89,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3740,7 +3650,7 @@
         "name": "Grung Bruzungor",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 226,
+        "population": 88,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3766,7 +3676,7 @@
         "name": "Grung Skreeduraz",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 278,
+        "population": 129,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3792,7 +3702,7 @@
         "name": "Grung Zintungor",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 782,
+        "population": 458,
         "tags": [],
         "notes": [],
         "size_category": 2,
@@ -3818,7 +3728,7 @@
         "name": "Grung  Rikgalbaraz",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 95,
+        "population": 298,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3844,10 +3754,10 @@
         "name": "Grung Rikghazagil",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 374,
+        "population": 127,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -3870,7 +3780,7 @@
         "name": "Kazad Mingoldrazh",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 84,
+        "population": 76,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3896,7 +3806,7 @@
         "name": "Kazad Grom-Und",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 134,
+        "population": 98,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3922,7 +3832,7 @@
         "name": "Kazad Grim-Bar",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 87,
+        "population": 173,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3948,7 +3858,7 @@
         "name": "Kazad Migdhalazul",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 51,
+        "population": 95,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -3974,7 +3884,7 @@
         "name": "Kazad Bar-Karin",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 35,
+        "population": 197,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4000,10 +3910,10 @@
         "name": "Kazad Vengrynaz",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 225,
+        "population": 567,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "wiki": {
           "title": null,
           "url": null,
@@ -4026,10 +3936,10 @@
         "name": "Kazad Drakkgrim",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 177,
+        "population": 302,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "wiki": {
           "title": null,
           "url": null,
@@ -4052,7 +3962,7 @@
         "name": "Kazad Urkdrengi",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 95,
+        "population": 171,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4078,7 +3988,7 @@
         "name": "Kazad Grobithag",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 143,
+        "population": 37,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4104,7 +4014,7 @@
         "name": "Kazad Raki-Und",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 46,
+        "population": 97,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4130,7 +4040,7 @@
         "name": "Kazad Gorm-Mingol",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 71,
+        "population": 219,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4156,7 +4066,7 @@
         "name": "Kazad Rik-Bar",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 291,
+        "population": 130,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4182,7 +4092,7 @@
         "name": "Kazad Gov-Kazak",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 180,
+        "population": 83,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4208,7 +4118,7 @@
         "name": "Kazad Kadrin-Bar",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 202,
+        "population": 26,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4234,7 +4144,7 @@
         "name": "Kazad Varr-Mingol",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 110,
+        "population": 203,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4260,7 +4170,7 @@
         "name": "Kazad Grongbarag",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 256,
+        "population": 163,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4286,7 +4196,7 @@
         "name": "Kazad Grundazul",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 117,
+        "population": 162,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4312,7 +4222,7 @@
         "name": "Kazad Gromril",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 81,
+        "population": 90,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4338,7 +4248,7 @@
         "name": "Kazad Thryngund",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 190,
+        "population": 42,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4364,7 +4274,7 @@
         "name": "Kazad Valayabarr",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 112,
+        "population": 15,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4390,10 +4300,10 @@
         "name": "Kazad Grimniraz",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 192,
+        "population": 348,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "wiki": {
           "title": null,
           "url": null,
@@ -4416,7 +4326,7 @@
         "name": "Kazad Dalbar",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 146,
+        "population": 156,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4442,7 +4352,7 @@
         "name": "Kazad Debmigdhal",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 89,
+        "population": 210,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4468,10 +4378,10 @@
         "name": "Kazad Agrilmingdol",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 736,
+        "population": 72,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -4494,10 +4404,10 @@
         "name": "Kazad Zan-Kazak",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 37,
+        "population": 485,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "wiki": {
           "title": null,
           "url": null,
@@ -4520,7 +4430,7 @@
         "name": "Khazid Urbazdrazh",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 78,
+        "population": 233,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4546,7 +4456,7 @@
         "name": "Khazid Vithangdal",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 84,
+        "population": 226,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4572,10 +4482,10 @@
         "name": "Khazid Gorogtrogg",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 164,
+        "population": 310,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "wiki": {
           "title": null,
           "url": null,
@@ -4598,7 +4508,7 @@
         "name": "Khazid Zornwyr",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 158,
+        "population": 114,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4624,7 +4534,7 @@
         "name": "Khazid Ongadrindal",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 131,
+        "population": 70,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4650,7 +4560,7 @@
         "name": "Khazid Skarrenawizorn",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 155,
+        "population": 94,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4676,7 +4586,7 @@
         "name": "Khazid Azul-Vithang",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 180,
+        "population": 291,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4702,7 +4612,7 @@
         "name": "Khazid Wyrstromez",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 151,
+        "population": 289,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4728,10 +4638,10 @@
         "name": "Khazid Narvorn",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 756,
+        "population": 38,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -4754,10 +4664,10 @@
         "name": "Khazid Yarurbaz",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 105,
+        "population": 478,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "wiki": {
           "title": null,
           "url": null,
@@ -4780,7 +4690,7 @@
         "name": "Khazid Lokagril",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 199,
+        "population": 205,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4806,10 +4716,10 @@
         "name": "Kazad Brandund",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 326,
+        "population": 106,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -4832,7 +4742,7 @@
         "name": "Khazid Azulokrid",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 45,
+        "population": 99,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4858,7 +4768,7 @@
         "name": "Grung Rhynaz (Red Axe Mines)",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 264,
+        "population": 125,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4884,10 +4794,10 @@
         "name": "Grung Ghuzhur",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 322,
+        "population": 140,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -4910,7 +4820,7 @@
         "name": "Kazad Morzundbar (Morzund's Gate)",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 138,
+        "population": 140,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4936,10 +4846,10 @@
         "name": "Kazad Rikbar (King's Gate)",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 214,
+        "population": 657,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "wiki": {
           "title": null,
           "url": null,
@@ -4962,7 +4872,7 @@
         "name": "Und-Uzgar",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 148,
+        "population": 94,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -4988,7 +4898,7 @@
         "name": "Grung Uzkul",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 136,
+        "population": 71,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5014,7 +4924,7 @@
         "name": "Grung Angazungstromez (Ironfont Mines)",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 96,
+        "population": 139,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5040,7 +4950,7 @@
         "name": "Grung Duraz-zharr (Flamestone Mine)",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 145,
+        "population": 124,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5066,10 +4976,10 @@
         "name": "West Gate",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 344,
+        "population": 89,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -5092,10 +5002,10 @@
         "name": "East Gate",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 660,
+        "population": 34,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -5118,7 +5028,7 @@
         "name": "Grung Brynduraz (Diamondhelm Mines)",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 124,
+        "population": 208,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5144,10 +5054,10 @@
         "name": "Kazad-Vala-Azril-Ungol (The Citadel)",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 62,
+        "population": 416,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "wiki": {
           "title": null,
           "url": null,
@@ -5170,10 +5080,10 @@
         "name": "Grung Angazduraz (Iron Rock)",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 630,
+        "population": 89,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -5196,7 +5106,7 @@
         "name": "Kazad Uzkulbar (Death's Gate)",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 267,
+        "population": 23,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5222,10 +5132,10 @@
         "name": "Khazid Skratidal",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 185,
+        "population": 398,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "wiki": {
           "title": null,
           "url": null,
@@ -5248,10 +5158,10 @@
         "name": "Khazid Krutivorn",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 782,
+        "population": 90,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -5274,10 +5184,10 @@
         "name": "Khazid Hrukizorn",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 115,
+        "population": 374,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "wiki": {
           "title": null,
           "url": null,
@@ -5300,7 +5210,7 @@
         "name": "Khazid Ziekstikdal",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 128,
+        "population": 137,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5326,7 +5236,7 @@
         "name": "Khazid Angfluk-Gazan",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 177,
+        "population": 83,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5352,7 +5262,7 @@
         "name": "Khazid Grummaldal",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 223,
+        "population": 53,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5378,10 +5288,10 @@
         "name": "Khazid Rikurbaz",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 782,
+        "population": 51,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -5404,7 +5314,7 @@
         "name": "Khazid Kalangrom",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 219,
+        "population": 77,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5430,7 +5340,7 @@
         "name": "Khazid Varrvornal",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 83,
+        "population": 123,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5456,7 +5366,7 @@
         "name": "Khazid Agrilizorkund",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 117,
+        "population": 72,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5482,7 +5392,7 @@
         "name": "Khazid Zhufkarazkar",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 528,
+        "population": 782,
         "tags": [],
         "notes": [],
         "size_category": 2,
@@ -5508,7 +5418,7 @@
         "name": "Khazid Grombarkagrul",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 253,
+        "population": 224,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5534,10 +5444,10 @@
         "name": "Khazid Ungordrazhbar",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 420,
+        "population": 193,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -5560,7 +5470,7 @@
         "name": "Khazid Kadrindukazak",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 150,
+        "population": 56,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5586,7 +5496,7 @@
         "name": "Khazid Throngkarazaz",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 37,
+        "population": 169,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5612,7 +5522,7 @@
         "name": "Grung Rhunthryngrom",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 92,
+        "population": 126,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5638,10 +5548,10 @@
         "name": "Khazid Gormizorvorn",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 782,
+        "population": 94,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -5664,7 +5574,7 @@
         "name": "Khazid Barkaringrom",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 36,
+        "population": 129,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5690,7 +5600,7 @@
         "name": "Khazid Varrurbazdal",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 173,
+        "population": 149,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5716,7 +5626,7 @@
         "name": "Khazid Agrilvarnen",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 46,
+        "population": 77,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5742,10 +5652,10 @@
         "name": "Khazid Grimkadrinund",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 157,
+        "population": 341,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "wiki": {
           "title": null,
           "url": null,
@@ -5768,7 +5678,7 @@
         "name": "Khazid Wyrstromezrhun",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 259,
+        "population": 184,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5794,7 +5704,7 @@
         "name": "Khazid Kadrindgrombar",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 589,
+        "population": 510,
         "tags": [],
         "notes": [],
         "size_category": 2,
@@ -5820,7 +5730,7 @@
         "name": "Khazid Urbazzanvarr",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 232,
+        "population": 131,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5846,7 +5756,7 @@
         "name": "Khazid Rhundurazgrom",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 70,
+        "population": 217,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5872,10 +5782,10 @@
         "name": "Khazid Azulagrilurbaz",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 87,
+        "population": 320,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "wiki": {
           "title": null,
           "url": null,
@@ -5898,7 +5808,7 @@
         "name": "Khazid Agrilkadrinaz",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 83,
+        "population": 101,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5924,10 +5834,10 @@
         "name": "Khazid Gromungorduk",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 638,
+        "population": 190,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -5950,7 +5860,7 @@
         "name": "Khazid Drazhvarnen",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 141,
+        "population": 127,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -5976,7 +5886,7 @@
         "name": "Khazid Wyrvarnaz",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 153,
+        "population": 98,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -6002,7 +5912,7 @@
         "name": "Khazid Barkarinit",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 91,
+        "population": 157,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -6028,7 +5938,7 @@
         "name": "Khazid Grimmhonarduk",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 103,
+        "population": 140,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -6054,7 +5964,7 @@
         "name": "Khazid Zanvarrund",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 546,
+        "population": 395,
         "tags": [],
         "notes": [],
         "size_category": 2,
@@ -6080,7 +5990,7 @@
         "name": "Kazad Ekrundkadrin",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 238,
+        "population": 44,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -6106,10 +6016,10 @@
         "name": "Grung Bryngandaz (Gold-finder Mine)",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 478,
+        "population": 249,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -6132,7 +6042,7 @@
         "name": "Grung Grundrhyn (Redhammer Mine)",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 122,
+        "population": 127,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -6158,10 +6068,10 @@
         "name": "Dok-a-Dum",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 606,
+        "population": 67,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -6184,7 +6094,7 @@
         "name": "Vithang Dum",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 54,
+        "population": 108,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -6210,7 +6120,7 @@
         "name": "Zan Mingol",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 154,
+        "population": 46,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -6236,7 +6146,7 @@
         "name": "Grung Mingol",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 201,
+        "population": 106,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -6262,10 +6172,10 @@
         "name": "Kraka Drang",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 670,
+        "population": 227,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -6288,7 +6198,7 @@
         "name": "Grung Bryn",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 87,
+        "population": 42,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -6314,10 +6224,10 @@
         "name": "Khazid Azkorn",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 303,
+        "population": 94,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -6340,10 +6250,10 @@
         "name": "Khazid Bamkin",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 401,
+        "population": 173,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -6366,10 +6276,10 @@
         "name": "Grung Dramk",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 429,
+        "population": 162,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -6392,7 +6302,7 @@
         "name": "Kazad Dron",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 72,
+        "population": 238,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -6418,7 +6328,7 @@
         "name": "Khazid Ralsten",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 181,
+        "population": 56,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -6444,10 +6354,10 @@
         "name": "Grung Mezik",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 472,
+        "population": 97,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -6470,7 +6380,7 @@
         "name": "Grung Rhyn",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 309,
+        "population": 337,
         "tags": [],
         "notes": [],
         "size_category": 2,
@@ -6496,10 +6406,10 @@
         "name": "Grung Krant",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 131,
+        "population": 459,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "wiki": {
           "title": null,
           "url": null,
@@ -6522,10 +6432,10 @@
         "name": "Grung Skrim",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 36,
+        "population": 321,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "wiki": {
           "title": null,
           "url": null,
@@ -6548,10 +6458,10 @@
         "name": "Grung Rient",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 187,
+        "population": 590,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "wiki": {
           "title": null,
           "url": null,
@@ -6574,10 +6484,10 @@
         "name": "Grung Zan",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 782,
+        "population": 76,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -6600,10 +6510,10 @@
         "name": "Grung Rhuk",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 369,
+        "population": 168,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -6626,7 +6536,7 @@
         "name": "Grung Ont",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 126,
+        "population": 102,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -6652,7 +6562,7 @@
         "name": "Kazad Hraban",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 254,
+        "population": 39,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -6678,7 +6588,7 @@
         "name": "Kazad Zorn",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 221,
+        "population": 110,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -6704,7 +6614,7 @@
         "name": "Grung Ratik",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 36,
+        "population": 226,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -6730,7 +6640,7 @@
         "name": "Khazid Theng",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 155,
+        "population": 274,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -6756,10 +6666,10 @@
         "name": "Kazad Ruvalkbar",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 590,
+        "population": 102,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -6782,7 +6692,7 @@
         "name": "Khazid Nauk",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 119,
+        "population": 59,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -6808,10 +6718,10 @@
         "name": "Khazid Aldum",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 96,
+        "population": 325,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "wiki": {
           "title": null,
           "url": null,
@@ -6834,7 +6744,7 @@
         "name": "Grung Aldum",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 91,
+        "population": 51,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -6860,10 +6770,10 @@
         "name": "Khazid Dwimmerdim",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 354,
+        "population": 159,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -6886,10 +6796,10 @@
         "name": "Zumgrungaz",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 110,
+        "population": 419,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "wiki": {
           "title": null,
           "url": null,
@@ -6912,7 +6822,7 @@
         "name": "Tumzgrungaz",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 256,
+        "population": 290,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -6938,7 +6848,7 @@
         "name": "Emkgrungaz",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 273,
+        "population": 155,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -6964,10 +6874,10 @@
         "name": "Migdhal Sauk",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 379,
+        "population": 148,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -6990,10 +6900,10 @@
         "name": "Stumgrungaz",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 370,
+        "population": 105,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -7016,7 +6926,7 @@
         "name": "Migdhal Tark",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 186,
+        "population": 283,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -7042,7 +6952,7 @@
         "name": "Gandazgrungaz",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 56,
+        "population": 232,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -7068,10 +6978,10 @@
         "name": "Strakgrungaz",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 189,
+        "population": 334,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "wiki": {
           "title": null,
           "url": null,
@@ -7094,7 +7004,7 @@
         "name": "Krangrungaz",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 171,
+        "population": 246,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -7120,7 +7030,7 @@
         "name": "Kazad Haz-Drazh-Kadrin",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 78,
+        "population": 268,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -7146,10 +7056,10 @@
         "name": "Kadar-a-Barazaz (Site of the First Oathstone)",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 205,
+        "population": 307,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "wiki": {
           "title": null,
           "url": null,
@@ -7172,7 +7082,7 @@
         "name": "Grungak Lokmakaz",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 82,
+        "population": 122,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -7198,10 +7108,10 @@
         "name": "Karaz Brindal",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 329,
+        "population": 55,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -7224,10 +7134,10 @@
         "name": "Naggrundzorn",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 72,
+        "population": 319,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "wiki": {
           "title": null,
           "url": null,
@@ -7250,7 +7160,33 @@
         "name": "Gronti Mingol",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 44,
+        "population": 182,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "hold_type": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.607907225599998,
+          60.320398183871994
+        ]
+      },
+      "properties": {
+        "name": "Khaz Und",
+        "province": "Karaz Ankor",
+        "estate": "",
+        "population": 108,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -7276,7 +7212,7 @@
         "name": "The Silver Pinnacle",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 115,
+        "population": 47,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -7302,10 +7238,10 @@
         "name": "Pillars of Grungni",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 401,
+        "population": 206,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -7328,7 +7264,7 @@
         "name": "Dringorackaz",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 259,
+        "population": 86,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -7354,7 +7290,7 @@
         "name": "Kradtommen",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 216,
+        "population": 73,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -7380,7 +7316,7 @@
         "name": "Barag Dawazbag",
         "province": "Karaz Ankor",
         "estate": "",
-        "population": 532,
+        "population": 428,
         "tags": [],
         "notes": [],
         "size_category": 2,
