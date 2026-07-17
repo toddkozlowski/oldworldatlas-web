@@ -441,6 +441,102 @@
       "textFillColor": "#009999",
       "textStrokeColor": "#fff",
       "textStrokeWidth": 2
+    },
+    "Lake": {
+      "minFontSize": 9,
+      "maxFontSize": 14,
+      "minFontZoom": 0.006,
+      "maxFontZoom": 0.0015,
+      "minZoomLevel": 0.006,
+      "maxZoomLevel": 0,
+      "textFont": "italic Arial, sans-serif",
+      "textFillColor": "#0088cc",
+      "textStrokeColor": "#fff",
+      "textStrokeWidth": 1.5
+    },
+    "Mountain Ranges": {
+      "minFontSize": 14,
+      "maxFontSize": 26,
+      "minFontZoom": 0.010,
+      "maxFontZoom": 0.003,
+      "minZoomLevel": 0.030,
+      "maxZoomLevel": 0,
+      "textFont": "italic Arial, sans-serif",
+      "textFillColor": "rgba(75, 46, 16, 0.85)",
+      "textStrokeColor": "rgba(255, 255, 255, 0.80)",
+      "textStrokeWidth": 2
+    },
+    "Mountain Passes": {
+      "minFontSize": 10,
+      "maxFontSize": 18,
+      "minFontZoom": 0.008,
+      "maxFontZoom": 0.002,
+      "minZoomLevel": 0.008,
+      "maxZoomLevel": 0,
+      "textFont": "italic Arial, sans-serif",
+      "textFillColor": "rgba(95, 58, 20, 0.78)",
+      "textStrokeColor": "rgba(255, 255, 255, 0.80)",
+      "textStrokeWidth": 1.5
+    },
+    "Hills": {
+      "minFontSize": 12,
+      "maxFontSize": 24,
+      "minFontZoom": 0.008,
+      "maxFontZoom": 0.002,
+      "minZoomLevel": 0.008,
+      "maxZoomLevel": 0,
+      "textFont": "italic Arial, sans-serif",
+      "textFillColor": "rgba(112, 72, 26, 0.75)",
+      "textStrokeColor": "rgba(255, 255, 255, 0.80)",
+      "textStrokeWidth": 2
+    },
+    "Lowlands": {
+      "minFontSize": 12,
+      "maxFontSize": 24,
+      "minFontZoom": 0.008,
+      "maxFontZoom": 0.002,
+      "minZoomLevel": 0.008,
+      "maxZoomLevel": 0,
+      "textFont": "italic Arial, sans-serif",
+      "textFillColor": "rgba(143, 102, 44, 0.75)",
+      "textStrokeColor": "rgba(255, 255, 255, 0.80)",
+      "textStrokeWidth": 2
+    },
+    "Minor Hills": {
+      "minFontSize": 10,
+      "maxFontSize": 16,
+      "minFontZoom": 0.006,
+      "maxFontZoom": 0.0015,
+      "minZoomLevel": 0.006,
+      "maxZoomLevel": 0,
+      "textFont": "italic Arial, sans-serif",
+      "textFillColor": "rgba(120, 78, 30, 0.65)",
+      "textStrokeColor": "rgba(255, 255, 255, 0.75)",
+      "textStrokeWidth": 1.5
+    },
+    "Minor Lowlands": {
+      "minFontSize": 10,
+      "maxFontSize": 16,
+      "minFontZoom": 0.006,
+      "maxFontZoom": 0.0015,
+      "minZoomLevel": 0.006,
+      "maxZoomLevel": 0,
+      "textFont": "italic Arial, sans-serif",
+      "textFillColor": "rgba(152, 116, 54, 0.65)",
+      "textStrokeColor": "rgba(255, 255, 255, 0.75)",
+      "textStrokeWidth": 1.5
+    },
+    "Forest Labels": {
+      "minFontSize": 10,
+      "maxFontSize": 20,
+      "minFontZoom": 0.005,
+      "maxFontZoom": 0.002,
+      "minZoomLevel": 0.008,
+      "maxZoomLevel": 0,
+      "textFont": "italic Arial, sans-serif",
+      "textFillColor": "rgba(25, 90, 25, 0.85)",
+      "textStrokeColor": "rgba(255, 255, 255, 0.80)",
+      "textStrokeWidth": 1.5
     }
   }
 }

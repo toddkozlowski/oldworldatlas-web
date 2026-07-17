@@ -1917,8 +1917,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.37004926335999944,
-          34.91311956799999
+          -2.4950492166399996,
+          33.808953244799994
         ]
       },
       "properties": {
@@ -2888,7 +2888,7 @@
         ]
       },
       "properties": {
-        "name": "Gulf of Kislev",
+        "name": "GULF OF KISLEV",
         "type": "Large Sea",
         "description": null,
         "wiki": {
@@ -2930,7 +2930,7 @@
         ]
       },
       "properties": {
-        "name": "Straits of Nagash",
+        "name": "The Straits of Nagash",
         "type": "Large Sea",
         "description": null,
         "wiki": {
@@ -2951,7 +2951,7 @@
         ]
       },
       "properties": {
-        "name": "Gulf of Nehekhara",
+        "name": "GULF OF NEHEKHARA",
         "type": "Large Sea",
         "description": null,
         "wiki": {
@@ -2972,7 +2972,7 @@
         ]
       },
       "properties": {
-        "name": "Sea of Araby",
+        "name": "SEA OF ARABY",
         "type": "Large Sea",
         "description": null,
         "wiki": {
@@ -2995,111 +2995,6 @@
       "properties": {
         "name": "BAY OF CORSAIRS",
         "type": "Large Sea",
-        "description": null,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          21.530089788799998,
-          21.340502214399994
-        ]
-      },
-      "properties": {
-        "name": "THE BITTER SEA",
-        "type": "Major Sea",
-        "description": null,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          37.03008833599999,
-          27.694667763199995
-        ]
-      },
-      "properties": {
-        "name": "SEA OF STORMS",
-        "type": "Major Sea",
-        "description": null,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          21.217587376,
-          16.069666227199995
-        ]
-      },
-      "properties": {
-        "name": "GULF OF FEAR",
-        "type": "Major Sea",
-        "description": null,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          44.9259221856,
-          21.444666767999998
-        ]
-      },
-      "properties": {
-        "name": "LIZARD SEA",
-        "type": "Major Sea",
-        "description": null,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          28.2158161056,
-          22.476335023999997
-        ]
-      },
-      "properties": {
-        "name": "THE SEA OF DREAD",
-        "type": "Ocean",
         "description": null,
         "wiki": {
           "title": null,

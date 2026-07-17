@@ -149,7 +149,7 @@
         "name": "Vernissi",
         "province": "Border Princes",
         "estate": "",
-        "population": 782,
+        "population": 392,
         "tags": [
           "source:TOW"
         ],
@@ -230,7 +230,7 @@
         "name": "Malko",
         "province": "Border Princes",
         "estate": "",
-        "population": 221,
+        "population": 284,
         "tags": [
           "source:TOW"
         ],
@@ -257,7 +257,7 @@
         "name": "Brovska",
         "province": "Border Princes",
         "estate": "",
-        "population": 191,
+        "population": 172,
         "tags": [
           "source:TOW"
         ],
@@ -284,12 +284,12 @@
         "name": "Munzig",
         "province": "Border Princes",
         "estate": "",
-        "population": 366,
+        "population": 51,
         "tags": [
           "source:TOW"
         ],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -311,7 +311,7 @@
         "name": "Styratia",
         "province": "Border Princes",
         "estate": "",
-        "population": 37,
+        "population": 195,
         "tags": [
           "source:TOW"
         ],
@@ -330,8 +330,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.031587016,
-          42.058771711679995
+          9.01501457888,
+          42.04772266176
         ]
       },
       "properties": {
@@ -365,7 +365,7 @@
         "name": "Klossi",
         "province": "Border Princes",
         "estate": "",
-        "population": 257,
+        "population": 32,
         "tags": [
           "source:TOW"
         ],
@@ -392,7 +392,7 @@
         "name": "Zenres",
         "province": "Border Princes",
         "estate": "",
-        "population": 30,
+        "population": 187,
         "tags": [
           "source:TOW"
         ],
@@ -411,15 +411,69 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.046525824,
-          39.97732258559999
+          8.06290445344,
+          39.06652295039999
+        ]
+      },
+      "properties": {
+        "name": "Aldium",
+        "province": "Border Princes",
+        "estate": "",
+        "population": 76,
+        "tags": [
+          "source:TOW"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.635780480000001,
+          39.8300089216
         ]
       },
       "properties": {
         "name": "Mirstadt",
         "province": "Border Princes",
         "estate": "",
-        "population": 122,
+        "population": 349,
+        "tags": [
+          "source:TOW"
+        ],
+        "notes": [],
+        "size_category": 2,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.871659152,
+          43.62242678687999
+        ]
+      },
+      "properties": {
+        "name": "Ulfraya",
+        "province": "Border Princes",
+        "estate": "",
+        "population": 155,
         "tags": [
           "source:TOW"
         ],
@@ -465,6 +519,33 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          1.6041111952000005,
+          38.216274902399995
+        ]
+      },
+      "properties": {
+        "name": "Achaes",
+        "province": "Border Princes",
+        "estate": "",
+        "population": 249,
+        "tags": [
+          "source:1eDSaS"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           2.66764478304,
           41.220986686719996
         ]
@@ -473,7 +554,7 @@
         "name": "Mortensholm",
         "province": "Border Princes",
         "estate": "",
-        "population": 69,
+        "population": 166,
         "tags": [
           "source:1eDSaS"
         ],
@@ -500,34 +581,7 @@
         "name": "Brasov",
         "province": "Border Princes",
         "estate": "",
-        "population": 739,
-        "tags": [
-          "source:1eDSaS"
-        ],
-        "notes": [],
-        "size_category": 2,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.6191408873599995,
-          39.45015461759999
-        ]
-      },
-      "properties": {
-        "name": "Somjek",
-        "province": "Border Princes",
-        "estate": "",
-        "population": 295,
+        "population": 55,
         "tags": [
           "source:1eDSaS"
         ],
@@ -546,15 +600,42 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.1764330451200005,
-          40.4859573184
+          4.6191408873599995,
+          39.4676481152
+        ]
+      },
+      "properties": {
+        "name": "Somjek",
+        "province": "Border Princes",
+        "estate": "",
+        "population": 38,
+        "tags": [
+          "source:1eDSaS"
+        ],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.24088294816,
+          40.4288732736
         ]
       },
       "properties": {
         "name": "Moslac",
         "province": "Border Princes",
         "estate": "",
-        "population": 92,
+        "population": 284,
         "tags": [
           "source:1eDSaS"
         ],
@@ -581,7 +662,7 @@
         "name": "Vidovdan",
         "province": "Border Princes",
         "estate": "",
-        "population": 266,
+        "population": 88,
         "tags": [
           "source:1eDSaS"
         ],
@@ -635,7 +716,7 @@
         "name": "Fatanbad",
         "province": "Border Princes",
         "estate": "",
-        "population": 178,
+        "population": 214,
         "tags": [
           "source:2eLotLL"
         ],
@@ -687,10 +768,10 @@
         "name": "Cabanal",
         "province": "Border Princes",
         "estate": "",
-        "population": 121,
+        "population": 622,
         "tags": [],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "wiki": {
           "title": null,
           "url": null,
@@ -712,10 +793,10 @@
         "name": "Alynda",
         "province": "Border Princes",
         "estate": "",
-        "population": 367,
+        "population": 261,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -737,7 +818,7 @@
         "name": "Mentreda",
         "province": "Border Princes",
         "estate": "",
-        "population": 66,
+        "population": 35,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -762,7 +843,7 @@
         "name": "Heldegrad",
         "province": "Border Princes",
         "estate": "",
-        "population": 149,
+        "population": 128,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -787,10 +868,10 @@
         "name": "Arnalos",
         "province": "Border Princes",
         "estate": "",
-        "population": 341,
+        "population": 193,
         "tags": [],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -812,7 +893,7 @@
         "name": "Bergdorf",
         "province": "Border Princes",
         "estate": "",
-        "population": 137,
+        "population": 88,
         "tags": [],
         "notes": [],
         "size_category": 1,

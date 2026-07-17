@@ -32,6 +32,7 @@ class WaterData {
                 const feature = new ol.Feature({
                     geometry: new ol.geom.Point(water.coordinates),
                     name: water.name,
+                    featureType: 'water',
                     waterbodyType: water.waterbodyType
                 });
                 return feature;

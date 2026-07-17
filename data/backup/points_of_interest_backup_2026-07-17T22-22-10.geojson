@@ -15,7 +15,7 @@
         "type": "City Districts",
         "description": "",
         "tags": [
-          "source:1eM:SDtR"
+          "source:1eMSDtR"
         ],
         "wiki": {
           "title": null,
@@ -39,7 +39,7 @@
         "type": "City Districts",
         "description": "",
         "tags": [
-          "source:1eM:SDtR"
+          "source:1eMSDtR"
         ],
         "wiki": {
           "title": null,
@@ -63,7 +63,7 @@
         "type": "City Districts",
         "description": "",
         "tags": [
-          "source:1eM:SDtR"
+          "source:1eMSDtR"
         ],
         "wiki": {
           "title": null,
@@ -87,7 +87,7 @@
         "type": "City Districts",
         "description": "",
         "tags": [
-          "source:1eM:SDtR"
+          "source:1eMSDtR"
         ],
         "wiki": {
           "title": null,
@@ -111,7 +111,7 @@
         "type": "City Districts",
         "description": "",
         "tags": [
-          "source:1eM:SDtR"
+          "source:1eMSDtR"
         ],
         "wiki": {
           "title": null,
@@ -135,7 +135,7 @@
         "type": "City Districts",
         "description": "",
         "tags": [
-          "source:1eM:SDtR"
+          "source:1eMSDtR"
         ],
         "wiki": {
           "title": null,
@@ -159,7 +159,7 @@
         "type": "City Districts",
         "description": "",
         "tags": [
-          "source:1eM:SDtR"
+          "source:1eMSDtR"
         ],
         "wiki": {
           "title": null,
@@ -183,7 +183,7 @@
         "type": "City Districts",
         "description": "",
         "tags": [
-          "source:1eM:SDtR"
+          "source:1eMSDtR"
         ],
         "wiki": {
           "title": null,
@@ -207,7 +207,7 @@
         "type": "City Districts",
         "description": "",
         "tags": [
-          "source:1eM:SDtR"
+          "source:1eMSDtR"
         ],
         "wiki": {
           "title": null,
@@ -470,28 +470,6 @@
       },
       "properties": {
         "name": "Fest Uberbögen",
-        "type": "Forts and Castles",
-        "description": "",
-        "tags": [],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.5129171056000013,
-          49.73444497535999
-        ]
-      },
-      "properties": {
-        "name": "Schloss von Wittgenstein",
         "type": "Forts and Castles",
         "description": "",
         "tags": [],
@@ -1220,12 +1198,10 @@
         "name": "Blood Keep",
         "type": "Forts and Castles",
         "description": "",
-        "tags": [
-          "WFRP2RB"
-        ],
+        "tags": [],
         "wiki": {
           "title": null,
-          "url": null,
+          "url": "https://warhammerfantasy.fandom.com/wiki/Blood_Keep",
           "description": null,
           "image": null
         }
@@ -1324,8 +1300,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.195586543040001,
-          48.110948450239995
+          9.18822120992,
+          48.1100275648
         ]
       },
       "properties": {
@@ -1396,28 +1372,6 @@
       },
       "properties": {
         "name": "Burg Senkhof",
-        "type": "Forts and Castles",
-        "description": "",
-        "tags": [],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          10.00032611648,
-          48.844496805119995
-        ]
-      },
-      "properties": {
-        "name": "Schloss Drakenhof",
         "type": "Forts and Castles",
         "description": "",
         "tags": [],
@@ -1792,8 +1746,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          2.2755567584000005,
-          55.5180485648
+          2.30420275456,
+          55.561017383999996
         ]
       },
       "properties": {
@@ -2622,8 +2576,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -9.959851267199998,
-          54.85588344735999
+          -10.674323937919999,
+          54.38632026815999
         ]
       },
       "properties": {
@@ -3898,8 +3852,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          3.951774281280001,
-          52.715016468159995
+          3.8847164572800006,
+          52.72282885343999
         ]
       },
       "properties": {
@@ -8483,7 +8437,7 @@
         "type": "Other",
         "description": "",
         "tags": [
-          "source:WFRP2RB"
+          "source: WFRP2RB"
         ],
         "wiki": {
           "title": null,
@@ -8507,7 +8461,7 @@
         "type": "Other",
         "description": "",
         "tags": [
-          "source:4eLoSaS"
+          "source: 4eLoSaS"
         ],
         "wiki": {
           "title": null,
@@ -15416,8 +15370,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -10.35709159424,
-          41.56860404896
+          -10.345582714239999,
+          41.569525109439994
         ]
       },
       "properties": {
@@ -15944,6 +15898,50 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          4.0036174534399995,
+          52.704057213759995
+        ]
+      },
+      "properties": {
+        "name": "Holy Spring of Warghafen",
+        "type": "Monasteries and Temples",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.5129171056000013,
+          49.73444497535999
+        ]
+      },
+      "properties": {
+        "name": "Schloss von Wittgenstein",
+        "type": "Forts and Castles",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -1.395588843839999,
           49.55768765792
         ]
@@ -15972,6 +15970,28 @@
       },
       "properties": {
         "name": "Fort Brecher",
+        "type": "Forts and Castles",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.00032611648,
+          48.844496805119995
+        ]
+      },
+      "properties": {
+        "name": "Schloss Drakenhof",
         "type": "Forts and Castles",
         "description": "",
         "tags": [],
@@ -16824,8 +16844,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          2.2302241990400007,
-          55.503439726399996
+          2.273843116800001,
+          55.539898282879996
         ]
       },
       "properties": {
@@ -16912,8 +16932,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -15.675647686399998,
-          40.8732210656
+          -15.727731363519998,
+          41.03337741439999
         ]
       },
       "properties": {
@@ -17946,8 +17966,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.11914080095999993,
-          52.52177003264
+          0.02449054656000079,
+          52.63870042848
         ]
       },
       "properties": {
@@ -18040,6 +18060,116 @@
       },
       "properties": {
         "name": "Fort Dolgamyeir",
+        "type": "Forts and Castles",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.464598400000002,
+          28.999680233599996
+        ]
+      },
+      "properties": {
+        "name": "Nagashizzar",
+        "type": "Forts and Castles",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.862238537599998,
+          41.204635500159995
+        ]
+      },
+      "properties": {
+        "name": "Tower of Shadows",
+        "type": "Forts and Castles",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.88108116672,
+          44.440018672319994
+        ]
+      },
+      "properties": {
+        "name": "Castle Sollandspeir",
+        "type": "Forts and Castles",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.442928371199999,
+          42.598595421759995
+        ]
+      },
+      "properties": {
+        "name": "Karlsburg Keep",
+        "type": "Forts and Castles",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.63465104512,
+          41.049957203199995
+        ]
+      },
+      "properties": {
+        "name": "Castle Drakweir",
         "type": "Forts and Castles",
         "description": "",
         "tags": [],
@@ -19662,6 +19792,50 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          14.201059964799997,
+          74.94320551103999
+        ]
+      },
+      "properties": {
+        "name": "Monolith of the Void",
+        "type": "Chaos Shrines",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.837502625600001,
+          74.91068360415998
+        ]
+      },
+      "properties": {
+        "name": "The Brass Glacier",
+        "type": "Chaos Shrines",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -11.563228869759998,
           50.777781222719995
         ]
@@ -19800,7 +19974,7 @@
       },
       "properties": {
         "name": "Karag Dron (Thunder Mountain)",
-        "type": "Geographic Landmarks",
+        "type": "Peaks",
         "description": "",
         "tags": [],
         "wiki": {
@@ -19822,7 +19996,7 @@
       },
       "properties": {
         "name": "Eyrie Peak",
-        "type": "Geographic Landmarks",
+        "type": "Peaks",
         "description": "",
         "tags": [],
         "wiki": {
@@ -19844,7 +20018,7 @@
       },
       "properties": {
         "name": "Frugelhorn",
-        "type": "Geographic Landmarks",
+        "type": "Peaks",
         "description": "",
         "tags": [],
         "wiki": {
@@ -19866,7 +20040,7 @@
       },
       "properties": {
         "name": "Mount Blackfire",
-        "type": "Geographic Landmarks",
+        "type": "Peaks",
         "description": "",
         "tags": [],
         "wiki": {
@@ -19888,7 +20062,7 @@
       },
       "properties": {
         "name": "Blood Peak",
-        "type": "Geographic Landmarks",
+        "type": "Peaks",
         "description": "",
         "tags": [],
         "wiki": {
@@ -19910,7 +20084,29 @@
       },
       "properties": {
         "name": "Everpeak",
-        "type": "Geographic Landmarks",
+        "type": "Peaks",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3796498144,
+          57.830369447007996
+        ]
+      },
+      "properties": {
+        "name": "Kurak Peak",
+        "type": "Peaks",
         "description": "",
         "tags": [],
         "wiki": {
@@ -19932,7 +20128,7 @@
       },
       "properties": {
         "name": "Karag Dronar",
-        "type": "Geographic Landmarks",
+        "type": "Peaks",
         "description": "",
         "tags": [],
         "wiki": {
@@ -19954,7 +20150,7 @@
       },
       "properties": {
         "name": "Heiligerberg",
-        "type": "Geographic Landmarks",
+        "type": "Peaks",
         "description": "",
         "tags": [],
         "wiki": {
@@ -19976,7 +20172,7 @@
       },
       "properties": {
         "name": "Mount Helspire",
-        "type": "Geographic Landmarks",
+        "type": "Peaks",
         "description": "",
         "tags": [],
         "wiki": {
@@ -19998,7 +20194,7 @@
       },
       "properties": {
         "name": "Icehorn Peak",
-        "type": "Geographic Landmarks",
+        "type": "Peaks",
         "description": "",
         "tags": [],
         "wiki": {
@@ -20020,7 +20216,7 @@
       },
       "properties": {
         "name": "Silverspire",
-        "type": "Geographic Landmarks",
+        "type": "Peaks",
         "description": "",
         "tags": [],
         "wiki": {
@@ -20042,7 +20238,7 @@
       },
       "properties": {
         "name": "Lonely Ogben",
-        "type": "Geographic Landmarks",
+        "type": "Peaks",
         "description": "",
         "tags": [],
         "wiki": {
@@ -20064,7 +20260,7 @@
       },
       "properties": {
         "name": "Whispering Crag",
-        "type": "Geographic Landmarks",
+        "type": "Peaks",
         "description": "",
         "tags": [],
         "wiki": {
@@ -20086,7 +20282,7 @@
       },
       "properties": {
         "name": "Karaz Khrumbar",
-        "type": "Geographic Landmarks",
+        "type": "Peaks",
         "description": "",
         "tags": [],
         "wiki": {
@@ -20108,7 +20304,7 @@
       },
       "properties": {
         "name": "Karag Agilwutraz (Mount Silverspear)",
-        "type": "Geographic Landmarks",
+        "type": "Peaks",
         "description": "",
         "tags": [],
         "wiki": {
@@ -20130,7 +20326,7 @@
       },
       "properties": {
         "name": "Karag Haraz (Fire Mountain)",
-        "type": "Geographic Landmarks",
+        "type": "Peaks",
         "description": "",
         "tags": [],
         "wiki": {
@@ -20152,7 +20348,7 @@
       },
       "properties": {
         "name": "Crookback Mountain",
-        "type": "Geographic Landmarks",
+        "type": "Peaks",
         "description": "",
         "tags": [],
         "wiki": {
@@ -20174,7 +20370,7 @@
       },
       "properties": {
         "name": "Mount Grimfang",
-        "type": "Geographic Landmarks",
+        "type": "Peaks",
         "description": "",
         "tags": [],
         "wiki": {
@@ -20196,7 +20392,7 @@
       },
       "properties": {
         "name": "Hoher Altprie",
-        "type": "Geographic Landmarks",
+        "type": "Peaks",
         "description": "",
         "tags": [],
         "wiki": {
@@ -20218,7 +20414,7 @@
       },
       "properties": {
         "name": "Skaagberg",
-        "type": "Geographic Landmarks",
+        "type": "Peaks",
         "description": "",
         "tags": [],
         "wiki": {
@@ -20240,7 +20436,7 @@
       },
       "properties": {
         "name": "Unberogen Hohe",
-        "type": "Geographic Landmarks",
+        "type": "Peaks",
         "description": "",
         "tags": [],
         "wiki": {
@@ -20256,13 +20452,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.469067171199999,
-          29.058679215999994
+          12.478181503999998,
+          29.0743050368
         ]
       },
       "properties": {
         "name": "Cripple Peak",
-        "type": "Geographic Landmarks",
+        "type": "Peaks",
         "description": "",
         "tags": [],
         "wiki": {
@@ -20284,7 +20480,7 @@
       },
       "properties": {
         "name": "Misty Mountain",
-        "type": "Geographic Landmarks",
+        "type": "Peaks",
         "description": "",
         "tags": [],
         "wiki": {
@@ -20306,7 +20502,7 @@
       },
       "properties": {
         "name": "Red Cloud Mountain",
-        "type": "Geographic Landmarks",
+        "type": "Peaks",
         "description": "",
         "tags": [],
         "wiki": {
@@ -20328,7 +20524,7 @@
       },
       "properties": {
         "name": "Mourkain",
-        "type": "Geographic Landmarks",
+        "type": "Peaks",
         "description": "",
         "tags": [],
         "wiki": {
@@ -20350,7 +20546,7 @@
       },
       "properties": {
         "name": "Mount Greyhag",
-        "type": "Geographic Landmarks",
+        "type": "Peaks",
         "description": "",
         "tags": [],
         "wiki": {
@@ -20372,7 +20568,7 @@
       },
       "properties": {
         "name": "Mount Bloodhorn",
-        "type": "Geographic Landmarks",
+        "type": "Peaks",
         "description": "",
         "tags": [],
         "wiki": {
@@ -20394,7 +20590,7 @@
       },
       "properties": {
         "name": "Malmont",
-        "type": "Geographic Landmarks",
+        "type": "Peaks",
         "description": "",
         "tags": [],
         "wiki": {
@@ -20416,7 +20612,7 @@
       },
       "properties": {
         "name": "Orquemont",
-        "type": "Geographic Landmarks",
+        "type": "Peaks",
         "description": "",
         "tags": [],
         "wiki": {
@@ -20438,7 +20634,7 @@
       },
       "properties": {
         "name": "Dreadpeak",
-        "type": "Geographic Landmarks",
+        "type": "Peaks",
         "description": "",
         "tags": [],
         "wiki": {
@@ -20460,6 +20656,50 @@
       },
       "properties": {
         "name": "Floating Village",
+        "type": "Peaks",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.2122399616,
+          58.702757168598396
+        ]
+      },
+      "properties": {
+        "name": "Falls of Doom",
+        "type": "Geographic Landmarks",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.1643645024,
+          45.781074679359996
+        ]
+      },
+      "properties": {
+        "name": "Black Falls",
         "type": "Geographic Landmarks",
         "description": "",
         "tags": [],

@@ -836,6 +836,22 @@ class UIControls {
             return;
         }
         
+        // Handle water / geographic feature labels
+        if (featureType === 'water') {
+            const waterbodyType = feature.get('waterbodyType') || '';
+            const displayType = waterbodyType.replace(/ Labels$/, '');
+            const html = `<div class="settlement-popup">
+                <div class="settlement-popup-header">
+                    <h2 class="settlement-popup-title">${this.escapeHtml(name)}</h2>
+                    <p class="settlement-popup-subtitle">${this.escapeHtml(displayType)}</p>
+                </div>
+            </div>`;
+            this.popupElement.innerHTML = html;
+            this.popupOverlay.setPosition(coordinate);
+            this.popupElement.style.display = 'block';
+            return;
+        }
+
         // Handle province features
         if (featureType === 'province') {
             const provinceType = feature.get('provinceType');
