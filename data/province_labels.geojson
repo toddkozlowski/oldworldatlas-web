@@ -2691,6 +2691,3778 @@
           "image": null
         }
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.2207454137600002,
+          49.99312153791999
+        ]
+      },
+      "properties": {
+        "name": "Blackclaw Goblins",
+        "province_type": "Minor Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2939730284799991,
+          51.92411118112
+        ]
+      },
+      "properties": {
+        "name": "Wolfskull Goblins",
+        "province_type": "Minor Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.45536691007999985,
+          52.1597880128
+        ]
+      },
+      "properties": {
+        "name": "Ripspine Orcs",
+        "province_type": "Minor Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0033038799999994825,
+          51.14155862784
+        ]
+      },
+      "properties": {
+        "name": "Spiderclaw Tribe",
+        "province_type": "Minor Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.5441676969599996,
+          48.433225446719995
+        ]
+      },
+      "properties": {
+        "name": "Twisted Maw Tribe",
+        "province_type": "Minor Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.25911472608,
+          55.36812172864
+        ]
+      },
+      "properties": {
+        "name": "Deff Bats Tribe",
+        "province_type": "Minor Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.065970708160001,
+          50.796613776319994
+        ]
+      },
+      "properties": {
+        "name": "Bonecracker Tribe",
+        "province_type": "Minor Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.72477408416,
+          44.53945504543999
+        ]
+      },
+      "properties": {
+        "name": "Madcraw Tribe",
+        "province_type": "Minor Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5550555158399992,
+          50.992804559679996
+        ]
+      },
+      "properties": {
+        "name": "Twisted Maw Tribe",
+        "province_type": "Minor Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.8212750771199993,
+          49.31426828191999
+        ]
+      },
+      "properties": {
+        "name": "Sliced Gizzard Tribe",
+        "province_type": "Minor Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.25411624543999983,
+          49.319331313919996
+        ]
+      },
+      "properties": {
+        "name": "Gong-Tongue Tribe",
+        "province_type": "Minor Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.6681163600000004,
+          33.9052339968
+        ]
+      },
+      "properties": {
+        "name": "Bog Creepers Tribe",
+        "province_type": "Minor Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6933624752,
+          45.285230819519995
+        ]
+      },
+      "properties": {
+        "name": "Bloodied Nose Tribe",
+        "province_type": "Minor Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.52604207008,
+          35.47489469439999
+        ]
+      },
+      "properties": {
+        "name": "Flying Goblins Tribe",
+        "province_type": "Minor Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.1300184224,
+          38.88812393279999
+        ]
+      },
+      "properties": {
+        "name": "Grey Hag Tribe",
+        "province_type": "Minor Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.1490488547200006,
+          44.427129951999994
+        ]
+      },
+      "properties": {
+        "name": "Long Ears Tribe",
+        "province_type": "Minor Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.56510391968,
+          51.795205073599995
+        ]
+      },
+      "properties": {
+        "name": "Red Eyez Tribe",
+        "province_type": "Minor Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.9895836192,
+          46.80822515295999
+        ]
+      },
+      "properties": {
+        "name": "Red Face Tribe",
+        "province_type": "Minor Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.090122864,
+          45.843183772479996
+        ]
+      },
+      "properties": {
+        "name": "Red Nails Tribe",
+        "province_type": "Minor Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.81737855008,
+          34.8185787136
+        ]
+      },
+      "properties": {
+        "name": "Rusty Nail Tribe",
+        "province_type": "Minor Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.7864583958400008,
+          44.76395487296
+        ]
+      },
+      "properties": {
+        "name": "Snipped Finger Tribe",
+        "province_type": "Minor Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.7291664035200008,
+          46.597288299839995
+        ]
+      },
+      "properties": {
+        "name": "Slit Nose Tribe",
+        "province_type": "Minor Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.048479424,
+          45.71914185151999
+        ]
+      },
+      "properties": {
+        "name": "Teef-robberz Tribe",
+        "province_type": "Minor Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.040963110400002,
+          36.60476214079999
+        ]
+      },
+      "properties": {
+        "name": "Crookhoodz",
+        "province_type": "Minor Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.6279255430400003,
+          41.36299838912
+        ]
+      },
+      "properties": {
+        "name": "Black Fangs Goblins",
+        "province_type": "Minor Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.13626548927999943,
+          41.241464966399995
+        ]
+      },
+      "properties": {
+        "name": "Sharp Nose Goblins",
+        "province_type": "Minor Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.403306007359999,
+          49.02390422816
+        ]
+      },
+      "properties": {
+        "name": "Mad Dog Goblins",
+        "province_type": "Minor Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.9414057292799994,
+          49.249631611199995
+        ]
+      },
+      "properties": {
+        "name": "Bloodspike Goblins",
+        "province_type": "Minor Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5052079747199992,
+          48.749631951679994
+        ]
+      },
+      "properties": {
+        "name": "Bleeding Moon Goblins",
+        "province_type": "Minor Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.1171877238399996,
+          48.701455342399996
+        ]
+      },
+      "properties": {
+        "name": "Poisoned Skull Night Goblins",
+        "province_type": "Minor Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.39322893535999953,
+          48.63114229951999
+        ]
+      },
+      "properties": {
+        "name": "Black Fang Orcs",
+        "province_type": "Minor Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.335937487359999,
+          49.43062122079999
+        ]
+      },
+      "properties": {
+        "name": "Red Maw Orcs",
+        "province_type": "Minor Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.898562159680001,
+          46.9471878336
+        ]
+      },
+      "properties": {
+        "name": "Grinning Moon Goblins",
+        "province_type": "Minor Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.674479471680001,
+          47.25614236064
+        ]
+      },
+      "properties": {
+        "name": "Poison Toad Goblins",
+        "province_type": "Minor Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.9140630809600008,
+          47.5530170272
+        ]
+      },
+      "properties": {
+        "name": "Lesser Maw Tribe",
+        "province_type": "Minor Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.15755192864000056,
+          48.241819206719995
+        ]
+      },
+      "properties": {
+        "name": "Flathead Goblins",
+        "province_type": "Minor Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.5963539283200004,
+          48.16760032128
+        ]
+      },
+      "properties": {
+        "name": "Feathered Goblins",
+        "province_type": "Minor Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9491474176000008,
+          48.4616855504
+        ]
+      },
+      "properties": {
+        "name": "Bloody Tusk Goblins",
+        "province_type": "Minor Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.2669272671999998,
+          46.60770493023999
+        ]
+      },
+      "properties": {
+        "name": "Teef-Rustlaz Tribe",
+        "province_type": "Minor Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.00899376864,
+          44.78252294111999
+        ]
+      },
+      "properties": {
+        "name": "Scarred Legs Goblins",
+        "province_type": "Minor Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.3010602422400002,
+          43.98641353984
+        ]
+      },
+      "properties": {
+        "name": "Slit Nose Goblins",
+        "province_type": "Minor Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.7541847148800003,
+          45.459070045119994
+        ]
+      },
+      "properties": {
+        "name": "Wolf-Ears Goblins",
+        "province_type": "Minor Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.62771150752,
+          42.755115489599994
+        ]
+      },
+      "properties": {
+        "name": "Snaggle-Tooth Goblins",
+        "province_type": "Minor Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.7050511811200004,
+          42.00197123167999
+        ]
+      },
+      "properties": {
+        "name": "Blood-Axe Tribe",
+        "province_type": "Minor Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.82637161856,
+          43.20258074399999
+        ]
+      },
+      "properties": {
+        "name": "Fanged Maws Forest Goblins",
+        "province_type": "Minor Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.93144023456,
+          42.48258241055999
+        ]
+      },
+      "properties": {
+        "name": "Knobby Knees Goblins",
+        "province_type": "Minor Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.143226381759999,
+          45.340778013119994
+        ]
+      },
+      "properties": {
+        "name": "Four Fingers Goblins",
+        "province_type": "Minor Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.7044240127999997,
+          45.42020416352
+        ]
+      },
+      "properties": {
+        "name": "Bloody Ears Goblins",
+        "province_type": "Minor Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.5768207472000006,
+          45.447548912319995
+        ]
+      },
+      "properties": {
+        "name": "Warty Nose Goblins",
+        "province_type": "Minor Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.4622358873599994,
+          44.55822510975999
+        ]
+      },
+      "properties": {
+        "name": "Clawed Hands Goblins",
+        "province_type": "Minor Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.838090546559999,
+          42.67653880831999
+        ]
+      },
+      "properties": {
+        "name": "Sawtooth Orcs",
+        "province_type": "Minor Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.45396477984,
+          43.97721711327999
+        ]
+      },
+      "properties": {
+        "name": "Howling Moon Goblins",
+        "province_type": "Minor Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.716146324160001,
+          54.20926748319999
+        ]
+      },
+      "properties": {
+        "name": "Da Krawlas Tribe",
+        "province_type": "Minor Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.8693301488,
+          44.624352246079994
+        ]
+      },
+      "properties": {
+        "name": "Harboth's Black Mountain Boyz",
+        "province_type": "Minor Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.609026969738406,
+          25.5896419744
+        ]
+      },
+      "properties": {
+        "name": "Red Shield Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.760416817301593,
+          25.834269126399995
+        ]
+      },
+      "properties": {
+        "name": "Top-knotz Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.104166487221593,
+          25.136353139199997
+        ]
+      },
+      "properties": {
+        "name": "Vulchaz Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.932291773941593,
+          28.776978591999995
+        ]
+      },
+      "properties": {
+        "name": "Bloody Handz Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.4427084359784064,
+          28.532185151999997
+        ]
+      },
+      "properties": {
+        "name": "Rusty Daggaz Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.880208564938407,
+          29.844685833599996
+        ]
+      },
+      "properties": {
+        "name": "Skull Crag Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.760416011018409,
+          31.766562019199995
+        ]
+      },
+      "properties": {
+        "name": "Night Goblins of Spitepeak",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.2552082711784065,
+          33.125936662399994
+        ]
+      },
+      "properties": {
+        "name": "Skull-takerz Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.8281251418984077,
+          31.370728313599997
+        ]
+      },
+      "properties": {
+        "name": "Teef Snatchaz Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.625000887498406,
+          37.594686857599996
+        ]
+      },
+      "properties": {
+        "name": "Scabby Eye Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.666666883978408,
+          35.11031087999999
+        ]
+      },
+      "properties": {
+        "name": "Da Howlaz Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.307292005898407,
+          35.5061445856
+        ]
+      },
+      "properties": {
+        "name": "Broken Tooth Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.291665931018407,
+          35.860311769599996
+        ]
+      },
+      "properties": {
+        "name": "Crooked Moon Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.072916750218408,
+          37.276977004799996
+        ]
+      },
+      "properties": {
+        "name": "Broken Tooth Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.49479298381841,
+          34.709269734399996
+        ]
+      },
+      "properties": {
+        "name": "Stone Fangz Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.052085355018406,
+          37.219686412799994
+        ]
+      },
+      "properties": {
+        "name": "Moon Howlerz Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.87499907981841,
+          39.875935916799996
+        ]
+      },
+      "properties": {
+        "name": "Tusked Sunz",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.07812601741841,
+          43.5582278912
+        ]
+      },
+      "properties": {
+        "name": "Drippin Fangs Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.218749595018405,
+          49.05302020672
+        ]
+      },
+      "properties": {
+        "name": "Ironskinz Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.661458993418407,
+          46.50093630656
+        ]
+      },
+      "properties": {
+        "name": "Red Face Goblins",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.630207294218406,
+          53.776978546879995
+        ]
+      },
+      "properties": {
+        "name": "Red Eye Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.604166672458406,
+          53.865519905279996
+        ]
+      },
+      "properties": {
+        "name": "Creeping Death Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.453124812298407,
+          48.6415619056
+        ]
+      },
+      "properties": {
+        "name": "Crooked Eye Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.802083604298407,
+          53.662394912319996
+        ]
+      },
+      "properties": {
+        "name": "Gloomfangs Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.1145836427415927,
+          55.94885351199999
+        ]
+      },
+      "properties": {
+        "name": "Bloodfeathers Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.7239586216215925,
+          53.21447822975999
+        ]
+      },
+      "properties": {
+        "name": "Cluster-eye Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.088541900181593,
+          53.54260348768
+        ]
+      },
+      "properties": {
+        "name": "Bad Axes Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.239583265141592,
+          50.61031170272
+        ]
+      },
+      "properties": {
+        "name": "Skullsmasherz Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.8593749946984073,
+          46.15718627808
+        ]
+      },
+      "properties": {
+        "name": "Deff Grindaz Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4010417009384073,
+          42.26135285536
+        ]
+      },
+      "properties": {
+        "name": "Necksnappers Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.1770830750615928,
+          39.62593678719999
+        ]
+      },
+      "properties": {
+        "name": "Broken Nose Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.144289388661592,
+          36.221690601599995
+        ]
+      },
+      "properties": {
+        "name": "Blue Face Orcs",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.343750173898406,
+          42.672811156479995
+        ]
+      },
+      "properties": {
+        "name": "Black Venom Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.515626091018408,
+          42.28739408128
+        ]
+      },
+      "properties": {
+        "name": "Bloody Spearz Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.557291991498408,
+          57.67281174204799
+        ]
+      },
+      "properties": {
+        "name": "Bonerattlaz Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.703125029941593,
+          56.964478406783996
+        ]
+      },
+      "properties": {
+        "name": "Reavaz Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.6979171060584064,
+          25.287393404799996
+        ]
+      },
+      "properties": {
+        "name": "Bone Noses Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.4166666053015933,
+          26.792602623999997
+        ]
+      },
+      "properties": {
+        "name": "Bloody Sunz Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.046875274698407,
+          30.568644271999997
+        ]
+      },
+      "properties": {
+        "name": "One Eye Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.036457553418408,
+          25.370728198399995
+        ]
+      },
+      "properties": {
+        "name": "Burning Face Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.130207265418408,
+          26.0998940768
+        ]
+      },
+      "properties": {
+        "name": "Red Fang Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.86458416141841,
+          31.256145379199996
+        ]
+      },
+      "properties": {
+        "name": "Skullsplittaz",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.166668116618407,
+          33.6051034112
+        ]
+      },
+      "properties": {
+        "name": "Red Hoods Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.885416568458407,
+          33.297811939199995
+        ]
+      },
+      "properties": {
+        "name": "Bork's Rok 'ard Boyz",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.535988551818406,
+          38.27309288639999
+        ]
+      },
+      "properties": {
+        "name": "Broken Axe Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.06458307661841,
+          43.90048115263999
+        ]
+      },
+      "properties": {
+        "name": "Stone Snakes Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.39603882061841,
+          42.73670233183999
+        ]
+      },
+      "properties": {
+        "name": "Moonbatz Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.54997774861841,
+          41.68918875488
+        ]
+      },
+      "properties": {
+        "name": "Dogboyz Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.332791732618407,
+          38.096312988799994
+        ]
+      },
+      "properties": {
+        "name": "Magrabb's Mangy Marauderz",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.178539406218405,
+          34.789114230399996
+        ]
+      },
+      "properties": {
+        "name": "Magrabb's Mangy Marauderz",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.679405863818406,
+          56.62103861919999
+        ]
+      },
+      "properties": {
+        "name": "'Ead Krumpa Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.37004541901841,
+          54.16826191263999
+        ]
+      },
+      "properties": {
+        "name": "Steel Fangz Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.484001748618407,
+          50.161323950399996
+        ]
+      },
+      "properties": {
+        "name": "Ironclad Skullz",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.09794041101841,
+          52.20898755584
+        ]
+      },
+      "properties": {
+        "name": "Blackcaps Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.44066169101841,
+          53.291743511359996
+        ]
+      },
+      "properties": {
+        "name": "Itchy Scabs Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.3027327604584071,
+          43.211820930559995
+        ]
+      },
+      "properties": {
+        "name": "Yellow Eye Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.4566728725015933,
+          40.4238758816
+        ]
+      },
+      "properties": {
+        "name": "Gutrippaz Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.308774534261592,
+          41.782645586559994
+        ]
+      },
+      "properties": {
+        "name": "Ratskinz Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.1450091559784075,
+          40.458889132799996
+        ]
+      },
+      "properties": {
+        "name": "Shifties Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.155559457098407,
+          39.893546691199994
+        ]
+      },
+      "properties": {
+        "name": "Red Helm Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.888660371338407,
+          38.40566993279999
+        ]
+      },
+      "properties": {
+        "name": "Iron 'ead Boyz",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.068380339018407,
+          56.084887948479995
+        ]
+      },
+      "properties": {
+        "name": "Bitter-Eye Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.345760625738406,
+          54.87536942527999
+        ]
+      },
+      "properties": {
+        "name": "Bloody Fangz",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.07291665421841,
+          33.9071856928
+        ]
+      },
+      "properties": {
+        "name": "Blacktooth Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.226562819338406,
+          43.72749664736
+        ]
+      },
+      "properties": {
+        "name": "Black Mountain Boyz",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.7760421457384064,
+          54.89676736511999
+        ]
+      },
+      "properties": {
+        "name": "Blackweb Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.091429994698406,
+          26.2522733984
+        ]
+      },
+      "properties": {
+        "name": "Bloody Tusks",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.145833632778407,
+          58.183225913983996
+        ]
+      },
+      "properties": {
+        "name": "Ironclaw Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.29166764301841,
+          58.67280925292479
+        ]
+      },
+      "properties": {
+        "name": "Boneclubz Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.536459428618407,
+          58.683225923584
+        ]
+      },
+      "properties": {
+        "name": "Stone Axe Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.484374583818408,
+          45.625933926719995
+        ]
+      },
+      "properties": {
+        "name": "Gorehoundz Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.2812500414184065,
+          37.219686412799994
+        ]
+      },
+      "properties": {
+        "name": "Grimlot's Grindaz",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.4947917438184075,
+          56.41760082976
+        ]
+      },
+      "properties": {
+        "name": "Webbed Skullz Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.3645833194984067,
+          52.67280889791999
+        ]
+      },
+      "properties": {
+        "name": "Moonjaw Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1379478481384067,
+          49.107358048959995
+        ]
+      },
+      "properties": {
+        "name": "Black Fang Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.8910355461015924,
+          49.932986720959995
+        ]
+      },
+      "properties": {
+        "name": "Bone Crusher Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.649062583818408,
+          38.0357421472
+        ]
+      },
+      "properties": {
+        "name": "Gutstabba Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.638021022218407,
+          38.3498951872
+        ]
+      },
+      "properties": {
+        "name": "Ironclaw Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.352699113098407,
+          44.40871469376
+        ]
+      },
+      "properties": {
+        "name": "Moonfang Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.890847239818406,
+          29.581567455999995
+        ]
+      },
+      "properties": {
+        "name": "Red Cloud Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.351823620618406,
+          36.7327618912
+        ]
+      },
+      "properties": {
+        "name": "Red Fangs Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.125000155701592,
+          48.03218360095999
+        ]
+      },
+      "properties": {
+        "name": "Red Maw Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.8873529015784065,
+          55.64139942783999
+        ]
+      },
+      "properties": {
+        "name": "Red Tusk Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.7918123553384069,
+          56.58328826752
+        ]
+      },
+      "properties": {
+        "name": "Shiny Moon Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.607908967818407,
+          45.00533573311999
+        ]
+      },
+      "properties": {
+        "name": "White Orcs Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -22.23958361074159,
+          25.959270441599994
+        ]
+      },
+      "properties": {
+        "name": "White Skullz Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.37804988301841,
+          34.321395097599996
+        ]
+      },
+      "properties": {
+        "name": "Yellow Eye Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.840492650698407,
+          39.34984094399999
+        ]
+      },
+      "properties": {
+        "name": "Yellow Eye Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.098959067018406,
+          43.90718290911999
+        ]
+      },
+      "properties": {
+        "name": "Black Spider Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.504787652618408,
+          55.884468898879994
+        ]
+      },
+      "properties": {
+        "name": "Black Sunz",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.055891527498407,
+          38.4682292288
+        ]
+      },
+      "properties": {
+        "name": "Blue Face Orcs",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.7499998475415925,
+          30.818645152
+        ]
+      },
+      "properties": {
+        "name": "Goretusk Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.188982817141591,
+          42.990978213759995
+        ]
+      },
+      "properties": {
+        "name": "Crookedhoodz Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.657732981269593,
+          42.63681172992
+        ]
+      },
+      "properties": {
+        "name": "Bloodpeakz Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.17326329010159,
+          43.7934956544
+        ]
+      },
+      "properties": {
+        "name": "Evil Eye Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.307778168181592,
+          53.02700513855999
+        ]
+      },
+      "properties": {
+        "name": "Madmoonz Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.653538607861593,
+          52.32726400927999
+        ]
+      },
+      "properties": {
+        "name": "Red Venom Tribe",
+        "province_type": "Major Greenskin Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.2964690988800004,
+          61.802803927039996
+        ]
+      },
+      "properties": {
+        "name": "Fjaegard",
+        "province_type": "Minor Northmen Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.286458361963186,
+          60.55301745184
+        ]
+      },
+      "properties": {
+        "name": "Bjornlings",
+        "province_type": "Major Northmen Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.505208539561585,
+          65.04260213311998
+        ]
+      },
+      "properties": {
+        "name": "Graelings",
+        "province_type": "Major Northmen Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.7604168362031856,
+          65.48531050048
+        ]
+      },
+      "properties": {
+        "name": "Vargs",
+        "province_type": "Major Northmen Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.083333880596815,
+          66.0894773392
+        ]
+      },
+      "properties": {
+        "name": "Aeslings",
+        "province_type": "Major Northmen Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.2395830847568146,
+          61.9540593168
+        ]
+      },
+      "properties": {
+        "name": "Sarls",
+        "province_type": "Major Northmen Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.270833320363185,
+          60.74572598944
+        ]
+      },
+      "properties": {
+        "name": "Skaelings",
+        "province_type": "Major Northmen Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.458333584555186,
+          71.20406089471999
+        ]
+      },
+      "properties": {
+        "name": "Aghols",
+        "province_type": "Major Northmen Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.9555923683631864,
+          71.45186589791999
+        ]
+      },
+      "properties": {
+        "name": "Kvelligs",
+        "province_type": "Major Northmen Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.671875538836819,
+          68.2665609696
+        ]
+      },
+      "properties": {
+        "name": "Hastlings",
+        "province_type": "Major Northmen Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.385416919956814,
+          69.31343547552
+        ]
+      },
+      "properties": {
+        "name": "Gharhar",
+        "province_type": "Major Northmen Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.898214684436816,
+          65.84288886399999
+        ]
+      },
+      "properties": {
+        "name": "Dolgans",
+        "province_type": "Major Northmen Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.358354623636817,
+          70.35805914208
+        ]
+      },
+      "properties": {
+        "name": "Tongs",
+        "province_type": "Major Northmen Tribe",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
     }
   ]
 }

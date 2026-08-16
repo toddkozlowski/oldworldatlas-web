@@ -64,6 +64,12 @@ async function initializeApp() {
         const olProvinceFeatures = provinceData.getOLFeatures();
         mapManager.addProvinceFeatures(olProvinceFeatures);
 
+        // Add tribe labels to their own layers
+        mapManager.addGreenskinTribeFeatures(provinceData.getGreenskinTribeFeatures());
+        mapManager.addNorthmenTribeFeatures(provinceData.getNorthmenTribeFeatures());
+        console.log(`Loaded ${provinceData.getGreenskinTribeFeatures().length} greenskin tribe labels`);
+        console.log(`Loaded ${provinceData.getNorthmenTribeFeatures().length} northmen tribe labels`);
+
         // Load water labels
         const waterFeatures = await waterData.loadWaterLabels('data/geographic_feature_labels.geojson');
         console.log(`Loaded ${waterFeatures.length} water labels`);

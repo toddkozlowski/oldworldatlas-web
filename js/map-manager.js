@@ -29,6 +29,10 @@ class MapManager {
         this.waterSource = null;
         this.skavendomVectorLayer = null;
         this.skavendomSource = null;
+        this.greenskinTribeVectorLayer = null;
+        this.greenskinTribeSource = null;
+        this.northmenTribeVectorLayer = null;
+        this.northmenTribeSource = null;
     }
 
     /**
@@ -79,6 +83,8 @@ class MapManager {
         this.poiSource = new ol.source.Vector();
         this.provinceSource = new ol.source.Vector();
         this.waterSource = new ol.source.Vector();
+        this.greenskinTribeSource = new ol.source.Vector();
+        this.northmenTribeSource = new ol.source.Vector();
 
         this.map = new ol.Map({
             controls: ol.control.defaults.defaults().extend([mousePositionControl]),
@@ -100,7 +106,9 @@ class MapManager {
                 this.createWoodElfSettlementMarkersOnlyLayer(),  // Wood Elf markers only
                 this.createWoodElfSettlementLayer(),             // Wood Elf labels + markers
                 this.createPOILayer(),
-                this.createSkavendomLayer()   // [11] rat-mode-only invisible click targets
+                this.createSkavendomLayer(),   // [11] rat-mode-only invisible click targets
+                this.createGreenskinTribeLayer(),  // [12]
+                this.createNorthmenTribeLayer()    // [13]
             ],
             view: new ol.View({
                 center: this.isMobilePortrait() ? imageCenter : [2.7, imageCenter[1]],
@@ -125,6 +133,8 @@ class MapManager {
         this.woodElfSettlementVectorLayer = this.map.getLayers().item(9);
         this.poiVectorLayer = this.map.getLayers().item(10);
         this.skavendomVectorLayer = this.map.getLayers().item(11);
+        this.greenskinTribeVectorLayer = this.map.getLayers().item(12);
+        this.northmenTribeVectorLayer = this.map.getLayers().item(13);
 
         const desktopPOICheckbox = document.getElementById('poi-checkbox');
         const mobilePOICheckbox = document.getElementById('mobile-poi-checkbox');
@@ -372,6 +382,31 @@ class MapManager {
         if (this.skavendomVectorLayer) this.skavendomVectorLayer.setVisible(visible);
     }
 
+    createGreenskinTribeLayer() {
+        return new ol.layer.Vector({
+            title: 'Greenskin Tribes',
+            source: this.greenskinTribeSource,
+            updateWhileAnimating: false,
+            updateWhileInteracting: false,
+            style: (feature) => createTribeStyle(feature, this.map.getView().getResolution())
+        });
+    }
+
+    createNorthmenTribeLayer() {
+        return new ol.layer.Vector({
+            title: 'Northmen Tribes',
+            source: this.northmenTribeSource,
+            updateWhileAnimating: false,
+            updateWhileInteracting: false,
+            style: (feature) => createTribeStyle(feature, this.map.getView().getResolution())
+        });
+    }
+
+    addGreenskinTribeFeatures(features) { this.greenskinTribeSource.addFeatures(features); }
+    addNorthmenTribeFeatures(features)  { this.northmenTribeSource.addFeatures(features); }
+    getGreenskinTribeLayer() { return this.greenskinTribeVectorLayer; }
+    getNorthmenTribeLayer()  { return this.northmenTribeVectorLayer; }
+
     /**
      * Create province labels vector layer
      * @private
@@ -540,6 +575,8 @@ class MapManager {
             this.poiSource.changed();
             this.provinceSource.changed();
             this.waterSource.changed();
+            this.greenskinTribeSource.changed();
+            this.northmenTribeSource.changed();
         });
     }
 

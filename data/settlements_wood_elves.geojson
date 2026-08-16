@@ -14,12 +14,12 @@
         "name": "Tal Driacha",
         "province": "Wood Elves",
         "estate": "",
-        "population": 364,
+        "population": 102,
         "tags": [
           "source:WAWE8E"
         ],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -42,7 +42,7 @@
         "name": "Delliandra",
         "province": "Wood Elves",
         "estate": "",
-        "population": 215,
+        "population": 143,
         "tags": [
           "source:WAWE8E"
         ],
@@ -70,7 +70,7 @@
         "name": "Glade of Eternal Moonlight",
         "province": "Wood Elves",
         "estate": "",
-        "population": 129,
+        "population": 127,
         "tags": [
           "source:WAWE8E"
         ],
@@ -98,7 +98,7 @@
         "name": "Ystin Hukon",
         "province": "Wood Elves",
         "estate": "",
-        "population": 74,
+        "population": 118,
         "tags": [
           "source:WAWE8E"
         ],
@@ -126,7 +126,7 @@
         "name": "Tal Silvoch",
         "province": "Wood Elves",
         "estate": "",
-        "population": 183,
+        "population": 149,
         "tags": [
           "source:WAWE8E"
         ],
@@ -154,7 +154,7 @@
         "name": "Locrimere",
         "province": "Wood Elves",
         "estate": "",
-        "population": 71,
+        "population": 111,
         "tags": [
           "source:WAWE8E"
         ],
@@ -182,12 +182,12 @@
         "name": "The Northern Sentinels",
         "province": "Wood Elves",
         "estate": "",
-        "population": 426,
+        "population": 206,
         "tags": [
           "source:WAWE6E"
         ],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -210,12 +210,12 @@
         "name": "Addaivoch (Tree of Woe)",
         "province": "Wood Elves",
         "estate": "",
-        "population": 68,
+        "population": 373,
         "tags": [
           "source:WAWE8E"
         ],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "wiki": {
           "title": null,
           "url": null,
@@ -238,12 +238,12 @@
         "name": "Tal Valerin",
         "province": "Wood Elves",
         "estate": "",
-        "population": 473,
+        "population": 247,
         "tags": [
           "source:WAWE8E"
         ],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -266,7 +266,7 @@
         "name": "Tal Hakan",
         "province": "Wood Elves",
         "estate": "",
-        "population": 169,
+        "population": 297,
         "tags": [
           "source:WAWE8E"
         ],
@@ -294,7 +294,7 @@
         "name": "Halls of Anaereth",
         "province": "Wood Elves",
         "estate": "",
-        "population": 144,
+        "population": 62,
         "tags": [
           "source:WAWE8E"
         ],
@@ -322,12 +322,12 @@
         "name": "Tal Brianda",
         "province": "Wood Elves",
         "estate": "",
-        "population": 282,
+        "population": 576,
         "tags": [
           "source:WAWE8E"
         ],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "wiki": {
           "title": null,
           "url": null,
@@ -350,7 +350,7 @@
         "name": "Ystin Morai-Heg",
         "province": "Wood Elves",
         "estate": "",
-        "population": 138,
+        "population": 60,
         "tags": [
           "source:WAWE8E"
         ],
@@ -378,12 +378,12 @@
         "name": "Feast Halls of the Wardance",
         "province": "Wood Elves",
         "estate": "",
-        "population": 301,
+        "population": 36,
         "tags": [
           "source:WAWE8E"
         ],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -406,7 +406,7 @@
         "name": "Glade of the Lost",
         "province": "Wood Elves",
         "estate": "",
-        "population": 103,
+        "population": 42,
         "tags": [
           "source:WAWE8E"
         ],
@@ -434,7 +434,7 @@
         "name": "Ystin Eldrazor",
         "province": "Wood Elves",
         "estate": "",
-        "population": 74,
+        "population": 184,
         "tags": [
           "source:WAWE8E"
         ],
@@ -462,7 +462,7 @@
         "name": "Threllock",
         "province": "Wood Elves",
         "estate": "",
-        "population": 138,
+        "population": 199,
         "tags": [
           "source:WAWE8E"
         ],
@@ -490,7 +490,7 @@
         "name": "Ystin Lileath",
         "province": "Wood Elves",
         "estate": "",
-        "population": 138,
+        "population": 97,
         "tags": [
           "source:WAWE8E"
         ],
@@ -518,7 +518,7 @@
         "name": "Tal Esth",
         "province": "Wood Elves",
         "estate": "",
-        "population": 238,
+        "population": 104,
         "tags": [
           "source:WAWE8E"
         ],
@@ -546,7 +546,7 @@
         "name": "The Vaults of Winter",
         "province": "Wood Elves",
         "estate": "",
-        "population": 256,
+        "population": 217,
         "tags": [
           "source:WAWE8E"
         ],
@@ -574,7 +574,7 @@
         "name": "The Summer Tree",
         "province": "Wood Elves",
         "estate": "",
-        "population": 53,
+        "population": 184,
         "tags": [
           "source:WAWE8E"
         ],
@@ -602,12 +602,12 @@
         "name": "Tal Enda Varian",
         "province": "Wood Elves",
         "estate": "",
-        "population": 354,
+        "population": 153,
         "tags": [
           "source:WAWE8E"
         ],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -630,12 +630,12 @@
         "name": "Tower of the Eternal Wood",
         "province": "Wood Elves",
         "estate": "",
-        "population": 682,
+        "population": 66,
         "tags": [
           "source:WAWE8E"
         ],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -658,7 +658,7 @@
         "name": "Council of Beasts",
         "province": "Wood Elves",
         "estate": "",
-        "population": 68,
+        "population": 126,
         "tags": [
           "source:WAWE8E"
         ],
@@ -686,7 +686,7 @@
         "name": "Waterfall Palace of the Naiad Court",
         "province": "Wood Elves",
         "estate": "",
-        "population": 74,
+        "population": 256,
         "tags": [
           "source:WAWE8E"
         ],
@@ -714,12 +714,12 @@
         "name": "The Chains of Vaul",
         "province": "Wood Elves",
         "estate": "",
-        "population": 365,
+        "population": 172,
         "tags": [
           "source:WAWE8E"
         ],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -742,7 +742,7 @@
         "name": "Vaul's Anvil",
         "province": "Wood Elves",
         "estate": "",
-        "population": 282,
+        "population": 250,
         "tags": [
           "source:WAWE8E"
         ],
@@ -770,7 +770,7 @@
         "name": "Myrgan Stones",
         "province": "Wood Elves",
         "estate": "",
-        "population": 222,
+        "population": 119,
         "tags": [
           "source:WAWE8E"
         ],
@@ -798,7 +798,7 @@
         "name": "Tal Dovar",
         "province": "Wood Elves",
         "estate": "",
-        "population": 92,
+        "population": 177,
         "tags": [
           "source:WAWE8E"
         ],
@@ -826,12 +826,12 @@
         "name": "The Cromlech of Cadai",
         "province": "Wood Elves",
         "estate": "",
-        "population": 359,
+        "population": 174,
         "tags": [
           "source:WAWE8E"
         ],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -854,12 +854,12 @@
         "name": "Bridge of Birds",
         "province": "Wood Elves",
         "estate": "",
-        "population": 174,
+        "population": 782,
         "tags": [
           "source:WAWE8E"
         ],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "wiki": {
           "title": null,
           "url": null,
@@ -882,12 +882,12 @@
         "name": "The Sylamel Tree",
         "province": "Wood Elves",
         "estate": "",
-        "population": 67,
+        "population": 782,
         "tags": [
           "source:WAWE8E"
         ],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "wiki": {
           "title": null,
           "url": null,
@@ -910,7 +910,7 @@
         "name": "Tears of Isha",
         "province": "Wood Elves",
         "estate": "",
-        "population": 89,
+        "population": 183,
         "tags": [
           "source:WAWE8E"
         ],
@@ -938,7 +938,7 @@
         "name": "Tal Jul-finel",
         "province": "Wood Elves",
         "estate": "",
-        "population": 288,
+        "population": 198,
         "tags": [
           "source:WAWE8E"
         ],
@@ -966,7 +966,7 @@
         "name": "Tal Varigan",
         "province": "Wood Elves",
         "estate": "",
-        "population": 357,
+        "population": 337,
         "tags": [
           "source:WAWE8E"
         ],
@@ -994,7 +994,7 @@
         "name": "Crag Halls of Findol",
         "province": "Wood Elves",
         "estate": "",
-        "population": 220,
+        "population": 106,
         "tags": [
           "source:WAWE8E"
         ],
@@ -1022,12 +1022,12 @@
         "name": "Ystin Estreuth",
         "province": "Wood Elves",
         "estate": "",
-        "population": 395,
+        "population": 44,
         "tags": [
           "source:WAWE8E"
         ],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -1050,7 +1050,7 @@
         "name": "Ystin Khaine",
         "province": "Wood Elves",
         "estate": "",
-        "population": 108,
+        "population": 76,
         "tags": [
           "source:WAWE8E"
         ],
@@ -1078,12 +1078,12 @@
         "name": "Yn Edri Eternos (The Oak of Ages)",
         "province": "Wood Elves",
         "estate": "",
-        "population": 437,
+        "population": 25,
         "tags": [
           "source:WAWE8E"
         ],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -1106,12 +1106,12 @@
         "name": "Yn Edryl Koiran (The King's Glade)",
         "province": "Wood Elves",
         "estate": "",
-        "population": 31,
+        "population": 499,
         "tags": [
           "source:WAWE8E"
         ],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "wiki": {
           "title": null,
           "url": null,
@@ -1134,12 +1134,12 @@
         "name": "Tal Govorn",
         "province": "Wood Elves",
         "estate": "",
-        "population": 350,
+        "population": 19,
         "tags": [
           "source:WAWE8E"
         ],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -1162,7 +1162,7 @@
         "name": "Tal Merion",
         "province": "Wood Elves",
         "estate": "",
-        "population": 51,
+        "population": 130,
         "tags": [
           "source:WAWE8E"
         ],
@@ -1190,7 +1190,7 @@
         "name": "Tal Eth Ayr",
         "province": "Wood Elves",
         "estate": "",
-        "population": 273,
+        "population": 91,
         "tags": [
           "source:WAWE8E"
         ],
@@ -1218,7 +1218,7 @@
         "name": "Tal Cullon",
         "province": "Wood Elves",
         "estate": "",
-        "population": 123,
+        "population": 154,
         "tags": [
           "source:WAWE8E"
         ],
@@ -1246,12 +1246,12 @@
         "name": "Druthandor Gate",
         "province": "Wood Elves",
         "estate": "",
-        "population": 357,
+        "population": 92,
         "tags": [
           "source:WAWE8E"
         ],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -1274,12 +1274,12 @@
         "name": "Cerura Carn",
         "province": "Wood Elves",
         "estate": "",
-        "population": 539,
+        "population": 71,
         "tags": [
           "source:WAWE8E"
         ],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -1302,7 +1302,7 @@
         "name": "Drune Fell",
         "province": "Wood Elves",
         "estate": "",
-        "population": 81,
+        "population": 114,
         "tags": [
           "source:WAWE8E"
         ],
@@ -1330,12 +1330,12 @@
         "name": "Ystin Asuryan",
         "province": "Wood Elves",
         "estate": "",
-        "population": 44,
+        "population": 405,
         "tags": [
           "source:WAWE8E"
         ],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "wiki": {
           "title": null,
           "url": null,
@@ -1358,7 +1358,7 @@
         "name": "Ystin Hoeth",
         "province": "Wood Elves",
         "estate": "",
-        "population": 212,
+        "population": 101,
         "tags": [
           "source:WAWE8E"
         ],
@@ -1386,7 +1386,7 @@
         "name": "Glade of Eternal Midnight",
         "province": "Wood Elves",
         "estate": "",
-        "population": 34,
+        "population": 94,
         "tags": [
           "source:WAWE8E"
         ],
@@ -1414,12 +1414,12 @@
         "name": "Talrennic",
         "province": "Wood Elves",
         "estate": "",
-        "population": 335,
+        "population": 101,
         "tags": [
           "source:WAWE8E"
         ],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -1442,7 +1442,7 @@
         "name": "Tal Stornos",
         "province": "Wood Elves",
         "estate": "",
-        "population": 145,
+        "population": 253,
         "tags": [
           "source:WAWE8E"
         ],
@@ -1470,7 +1470,7 @@
         "name": "Ystin Drakira",
         "province": "Wood Elves",
         "estate": "",
-        "population": 173,
+        "population": 131,
         "tags": [
           "source:WAWE8E"
         ],
@@ -1498,7 +1498,7 @@
         "name": "The Western Sentinels",
         "province": "Wood Elves",
         "estate": "",
-        "population": 52,
+        "population": 251,
         "tags": [
           "source:WAWE6E"
         ],
@@ -1526,7 +1526,7 @@
         "name": "Halls of Equos",
         "province": "Wood Elves",
         "estate": "",
-        "population": 244,
+        "population": 32,
         "tags": [
           "source:WAWE8E"
         ],
@@ -1554,7 +1554,7 @@
         "name": "Tal Amara",
         "province": "Wood Elves",
         "estate": "",
-        "population": 159,
+        "population": 176,
         "tags": [
           "source:WAWE8E"
         ],
@@ -1582,12 +1582,12 @@
         "name": "Coeth-mara",
         "province": "Wood Elves",
         "estate": "",
-        "population": 331,
+        "population": 291,
         "tags": [
           "source:WAWE8E"
         ],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -1610,12 +1610,12 @@
         "name": "Tal Amere",
         "province": "Wood Elves",
         "estate": "",
-        "population": 97,
+        "population": 782,
         "tags": [
           "source:WAWE8E"
         ],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "wiki": {
           "title": null,
           "url": null,
@@ -1638,7 +1638,7 @@
         "name": "Tal Drost",
         "province": "Wood Elves",
         "estate": "",
-        "population": 26,
+        "population": 214,
         "tags": [
           "source:WAWE8E"
         ],
@@ -1666,7 +1666,7 @@
         "name": "Tal Mora",
         "province": "Wood Elves",
         "estate": "",
-        "population": 248,
+        "population": 83,
         "tags": [
           "source:WAWE8E"
         ],
@@ -1694,7 +1694,7 @@
         "name": "Tyr Vanna",
         "province": "Wood Elves",
         "estate": "",
-        "population": 94,
+        "population": 232,
         "tags": [
           "source:WAWE8E"
         ],
@@ -1722,12 +1722,12 @@
         "name": "Tyr Edrell",
         "province": "Wood Elves",
         "estate": "",
-        "population": 35,
+        "population": 384,
         "tags": [
           "source:WAWE8E"
         ],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "wiki": {
           "title": null,
           "url": null,
@@ -1750,12 +1750,12 @@
         "name": "Chasm Glade of Beithir Seun",
         "province": "Wood Elves",
         "estate": "",
-        "population": 356,
+        "population": 71,
         "tags": [
           "source:WAWE8E"
         ],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -1778,7 +1778,7 @@
         "name": "Eomain Tarn",
         "province": "Wood Elves",
         "estate": "",
-        "population": 91,
+        "population": 92,
         "tags": [
           "source:WAWE8E"
         ],
@@ -1806,7 +1806,7 @@
         "name": "Eyrie of the Hawk Lords",
         "province": "Wood Elves",
         "estate": "",
-        "population": 150,
+        "population": 83,
         "tags": [
           "source:WAWE8E"
         ],
@@ -1834,12 +1834,12 @@
         "name": "Tal Rond",
         "province": "Wood Elves",
         "estate": "",
-        "population": 70,
+        "population": 483,
         "tags": [
           "source:WAWE8E"
         ],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "wiki": {
           "title": null,
           "url": null,
@@ -1862,12 +1862,12 @@
         "name": "Tower of Se-Athil",
         "province": "Wood Elves",
         "estate": "",
-        "population": 133,
+        "population": 331,
         "tags": [
           "source:4eAotE1"
         ],
         "notes": [],
-        "size_category": 1,
+        "size_category": 2,
         "wiki": {
           "title": null,
           "url": null,
@@ -1890,7 +1890,7 @@
         "name": "Farinar's Rock",
         "province": "Wood Elves",
         "estate": "",
-        "population": 141,
+        "population": 51,
         "tags": [
           "source:4eAotE1"
         ],
@@ -1918,12 +1918,12 @@
         "name": "Fountain of Lebin",
         "province": "Wood Elves",
         "estate": "",
-        "population": 329,
+        "population": 109,
         "tags": [
           "source:4eAotE1"
         ],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -1946,7 +1946,7 @@
         "name": "Tor Lithanel",
         "province": "Wood Elves",
         "estate": "",
-        "population": 230,
+        "population": 68,
         "tags": [
           "source:4eAotE1"
         ],
@@ -1974,12 +1974,12 @@
         "name": "Rainbow Falls",
         "province": "Wood Elves",
         "estate": "",
-        "population": 361,
+        "population": 215,
         "tags": [
           "source:4eAotE1"
         ],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -2002,7 +2002,7 @@
         "name": "Pass of Stone",
         "province": "Wood Elves",
         "estate": "",
-        "population": 125,
+        "population": 228,
         "tags": [
           "source:4eAotE1"
         ],
@@ -2030,12 +2030,12 @@
         "name": "Ruins of Kor Immarmor",
         "province": "Wood Elves",
         "estate": "",
-        "population": 309,
+        "population": 116,
         "tags": [
           "source:4eAotE1"
         ],
         "notes": [],
-        "size_category": 2,
+        "size_category": 1,
         "wiki": {
           "title": null,
           "url": null,
@@ -2058,7 +2058,7 @@
         "name": "Drachenhohle",
         "province": "Wood Elves",
         "estate": "",
-        "population": 44,
+        "population": 162,
         "tags": [
           "source:4eAotE1"
         ],
@@ -2086,7 +2086,7 @@
         "name": "Sith Fascoluinne",
         "province": "Wood Elves",
         "estate": "",
-        "population": 73,
+        "population": 97,
         "tags": [],
         "notes": [],
         "size_category": 1,

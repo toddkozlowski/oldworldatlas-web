@@ -15,7 +15,7 @@
         "type": "City Districts",
         "description": "",
         "tags": [
-          "source:1eM:SDtR"
+          "source:1eMSDtR"
         ],
         "wiki": {
           "title": null,
@@ -39,7 +39,7 @@
         "type": "City Districts",
         "description": "",
         "tags": [
-          "source:1eM:SDtR"
+          "source:1eMSDtR"
         ],
         "wiki": {
           "title": null,
@@ -63,7 +63,7 @@
         "type": "City Districts",
         "description": "",
         "tags": [
-          "source:1eM:SDtR"
+          "source:1eMSDtR"
         ],
         "wiki": {
           "title": null,
@@ -87,7 +87,7 @@
         "type": "City Districts",
         "description": "",
         "tags": [
-          "source:1eM:SDtR"
+          "source:1eMSDtR"
         ],
         "wiki": {
           "title": null,
@@ -111,7 +111,7 @@
         "type": "City Districts",
         "description": "",
         "tags": [
-          "source:1eM:SDtR"
+          "source:1eMSDtR"
         ],
         "wiki": {
           "title": null,
@@ -135,7 +135,7 @@
         "type": "City Districts",
         "description": "",
         "tags": [
-          "source:1eM:SDtR"
+          "source:1eMSDtR"
         ],
         "wiki": {
           "title": null,
@@ -159,7 +159,7 @@
         "type": "City Districts",
         "description": "",
         "tags": [
-          "source:1eM:SDtR"
+          "source:1eMSDtR"
         ],
         "wiki": {
           "title": null,
@@ -183,7 +183,7 @@
         "type": "City Districts",
         "description": "",
         "tags": [
-          "source:1eM:SDtR"
+          "source:1eMSDtR"
         ],
         "wiki": {
           "title": null,
@@ -207,7 +207,7 @@
         "type": "City Districts",
         "description": "",
         "tags": [
-          "source:1eM:SDtR"
+          "source:1eMSDtR"
         ],
         "wiki": {
           "title": null,
@@ -486,28 +486,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.5129171056000013,
-          49.73444497535999
-        ]
-      },
-      "properties": {
-        "name": "Schloss von Wittgenstein",
-        "type": "Forts and Castles",
-        "description": "",
-        "tags": [],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           1.5456655142400009,
           50.77255645376
         ]
@@ -552,8 +530,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.2995436956800004,
-          50.366890751359996
+          1.3036868924800002,
+          50.368732172159994
         ]
       },
       "properties": {
@@ -596,8 +574,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.2044806969600006,
-          49.49395996992
+          1.2072428281600007,
+          49.49672175104
         ]
       },
       "properties": {
@@ -706,8 +684,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.59307282272,
-          50.542362925119996
+          1.616090582720001,
+          50.536838487679994
         ]
       },
       "properties": {
@@ -882,7 +860,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.2113069068799993,
+          -1.214069213119999,
           49.98332892512
         ]
       },
@@ -1220,12 +1198,10 @@
         "name": "Blood Keep",
         "type": "Forts and Castles",
         "description": "",
-        "tags": [
-          "WFRP2RB"
-        ],
+        "tags": [],
         "wiki": {
           "title": null,
-          "url": null,
+          "url": "https://warhammerfantasy.fandom.com/wiki/Blood_Keep",
           "description": null,
           "image": null
         }
@@ -1280,8 +1256,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.60799424192,
-          49.620741091839996
+          8.6093756576,
+          49.60416865471999
         ]
       },
       "properties": {
@@ -1346,8 +1322,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.1146023808,
-          48.16536541055999
+          10.116443801600001,
+          48.15800007743999
         ]
       },
       "properties": {
@@ -1390,8 +1366,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.686276019199997,
-          48.907525733439996
+          10.7240373984,
+          49.009088317439996
         ]
       },
       "properties": {
@@ -1412,18 +1388,18 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.00032611648,
-          48.844496805119995
+          10.079909452799999,
+          48.9417581312
         ]
       },
       "properties": {
-        "name": "Schloss Drakenhof",
+        "name": "Castle Drakenhof",
         "type": "Forts and Castles",
         "description": "",
         "tags": [],
         "wiki": {
           "title": null,
-          "url": null,
+          "url": "https://warhammerfantasy.fandom.com/wiki/Castle_Drakenhof",
           "description": null,
           "image": null
         }
@@ -1456,8 +1432,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.245252236799999,
-          49.36631345023999
+          10.391939257599999,
+          49.33712798079999
         ]
       },
       "properties": {
@@ -1478,8 +1454,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          11.036515305599998,
-          49.757363487679996
+          11.0309927936,
+          49.75368082111999
         ]
       },
       "properties": {
@@ -1566,8 +1542,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          7.211070543040001,
-          48.718583181439996
+          7.205546105600001,
+          48.71490051488
         ]
       },
       "properties": {
@@ -1676,8 +1652,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.6341673712,
-          53.185671021759994
+          4.40306853568,
+          53.16541539296
         ]
       },
       "properties": {
@@ -1698,8 +1674,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          2.9357356969599997,
-          53.80508489471999
+          2.99563210944,
+          53.70873115103999
         ]
       },
       "properties": {
@@ -1792,8 +1768,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          2.30420275456,
-          55.561017383999996
+          2.292693349440001,
+          55.533396071999995
         ]
       },
       "properties": {
@@ -2080,30 +2056,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.6836106681599995,
-          51.90083471199999
-        ]
-      },
-      "properties": {
-        "name": "Schloss Bildhofen",
-        "type": "Forts and Castles",
-        "description": "",
-        "tags": [
-          "location:Empire"
-        ],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -0.4768590214399991,
           51.59013556127999
         ]
@@ -2296,8 +2248,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          0.08954871360000018,
-          49.28017591616
+          0.08632605216000061,
+          49.27741413504
         ]
       },
       "properties": {
@@ -2464,8 +2416,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.0136792777600006,
-          50.67769685151999
+          4.01805212704,
+          50.67597043199999
         ]
       },
       "properties": {
@@ -2600,8 +2552,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -13.298582781439997,
-          54.684171132799996
+          -13.294676413759998,
+          54.687426351679996
         ]
       },
       "properties": {
@@ -2622,8 +2574,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -9.959851267199998,
-          54.85588344735999
+          -10.674323937919999,
+          54.38632026815999
         ]
       },
       "properties": {
@@ -3194,8 +3146,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -13.37780536032,
-          52.90098579071999
+          -13.36022714336,
+          52.88601164383999
         ]
       },
       "properties": {
@@ -3282,8 +3234,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -8.354359671551999,
-          50.82270576384
+          -8.286651328896,
+          50.826612306559994
         ]
       },
       "properties": {
@@ -3420,28 +3372,6 @@
       },
       "properties": {
         "name": "Château Thibault",
-        "type": "Forts and Castles",
-        "description": "",
-        "tags": [],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -4.8149793151999996,
-          52.57286053279999
-        ]
-      },
-      "properties": {
-        "name": "Bergbres",
         "type": "Forts and Castles",
         "description": "",
         "tags": [],
@@ -4492,8 +4422,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.6095775193599997,
-          52.614473667199995
+          -1.5854892147199993,
+          52.61056729951999
         ]
       },
       "properties": {
@@ -4734,7 +4664,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          0.24276962752000059,
+          0.2336549446400009,
           53.42069512927999
         ]
       },
@@ -5196,8 +5126,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          0.11052813280000037,
-          50.3641349216
+          0.7541057526400008,
+          50.294160581119996
         ]
       },
       "properties": {
@@ -5570,8 +5500,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          7.603680887039999,
-          49.95314730304
+          7.680099500160001,
+          49.95130588223999
         ]
       },
       "properties": {
@@ -5856,8 +5786,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          3.28703782624,
-          45.69778749664
+          3.2837826073600005,
+          45.693881479039995
         ]
       },
       "properties": {
@@ -6076,8 +6006,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.6345797078400013,
-          46.795512872959996
+          1.5909595648000003,
+          46.813742238719996
         ]
       },
       "properties": {
@@ -6692,8 +6622,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -13.436690216639999,
-          52.95323172992
+          -13.428877831359998,
+          52.95192943232
         ]
       },
       "properties": {
@@ -7242,8 +7172,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          0.5236087046400009,
-          49.64956177791999
+          1.7760528121600005,
+          50.06832974944
         ]
       },
       "properties": {
@@ -7572,8 +7502,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          0.7486420540800008,
-          47.82319651839999
+          1.0826267760000001,
+          47.623326744319996
         ]
       },
       "properties": {
@@ -8188,8 +8118,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.6582226915199999,
-          49.015511235199995
+          -0.6563812707199995,
+          49.018273016319995
         ]
       },
       "properties": {
@@ -8474,32 +8404,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          7.7341424,
-          50.318135634879994
-        ]
-      },
-      "properties": {
-        "name": "Mordheim",
-        "type": "Other",
-        "description": "",
-        "tags": [
-          "source:WFRP2RB"
-        ],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          2.725364923200001,
-          43.612434278399995
+          2.7824494931199997,
+          43.6032271744
         ]
       },
       "properties": {
@@ -8507,7 +8413,7 @@
         "type": "Other",
         "description": "",
         "tags": [
-          "source:4eLoSaS"
+          "source: 4eLoSaS"
         ],
         "wiki": {
           "title": null,
@@ -8700,8 +8606,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.566340363840001,
-          48.625236449919996
+          1.5608159264000012,
+          48.627078220799994
         ]
       },
       "properties": {
@@ -10488,8 +10394,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          2.680564310400001,
-          46.2957834752
+          2.6787225395200007,
+          46.29946614175999
         ]
       },
       "properties": {
@@ -10532,8 +10438,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          3.2137184713600004,
-          45.934365959359994
+          3.2109566902400006,
+          45.937127740479994
         ]
       },
       "properties": {
@@ -11330,28 +11236,6 @@
       },
       "properties": {
         "name": "The Shepherd's Vale",
-        "type": "Taverns and Inns",
-        "description": "",
-        "tags": [],
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          4.5788477296000005,
-          45.857005105919995
-        ]
-      },
-      "properties": {
-        "name": "The Bretonnian Farmer",
         "type": "Taverns and Inns",
         "description": "",
         "tags": [],
@@ -12512,8 +12396,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.90210749664,
-          49.67268368672
+          9.90486927776,
+          49.67406457727999
         ]
       },
       "properties": {
@@ -12666,8 +12550,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.5250675648000005,
-          46.43094271168
+          4.340171937600001,
+          46.389275664959996
         ]
       },
       "properties": {
@@ -14668,8 +14552,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.1204963299200001,
-          40.91174036799999
+          1.0891923513600001,
+          40.85097348159999
         ]
       },
       "properties": {
@@ -14866,7 +14750,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.3126627686399992,
+          -1.3154248998399993,
           50.283488742399996
         ]
       },
@@ -14894,6 +14778,28 @@
       },
       "properties": {
         "name": "The Three Feathers",
+        "type": "Taverns and Inns",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.5788477296000005,
+          45.857005105919995
+        ]
+      },
+      "properties": {
+        "name": "The Bretonnian Maid",
         "type": "Taverns and Inns",
         "description": "",
         "tags": [],
@@ -15394,12 +15300,210 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          8.9059415536,
+          50.18376915456
+        ]
+      },
+      "properties": {
+        "name": "Fool's Rest",
+        "type": "Taverns and Inns",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.7301152953599991,
+          50.71706002175999
+        ]
+      },
+      "properties": {
+        "name": "Speared Pike",
+        "type": "Taverns and Inns",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.6451715340800009,
+          53.915557014719994
+        ]
+      },
+      "properties": {
+        "name": "The Wyrm and the Bucket",
+        "type": "Taverns and Inns",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.2502036147199997,
+          44.68437906335999
+        ]
+      },
+      "properties": {
+        "name": "The Twisted Eel",
+        "type": "Taverns and Inns",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1286691417600005,
+          44.59230784832
+        ]
+      },
+      "properties": {
+        "name": "The Valiant Warrior",
+        "type": "Taverns and Inns",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.820854026879999,
+          45.41902036799999
+        ]
+      },
+      "properties": {
+        "name": "The Four Ravens",
+        "type": "Taverns and Inns",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.80977732064,
+          44.525172306559995
+        ]
+      },
+      "properties": {
+        "name": "The Shovel and Pick",
+        "type": "Taverns and Inns",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.4775485231999992,
+          54.1829834768
+        ]
+      },
+      "properties": {
+        "name": "Wouduin Tollstation",
+        "type": "Taverns and Inns",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           7.786222926400001,
           44.28911616319999
         ]
       },
       "properties": {
         "name": "Temple of Sigmar Victorious",
+        "type": "Monasteries and Temples",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.5236087046400009,
+          49.64956177791999
+        ]
+      },
+      "properties": {
+        "name": "Black Rose Gardens",
         "type": "Monasteries and Temples",
         "description": "",
         "tags": [],
@@ -15592,8 +15696,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          10.641085942399998,
-          49.48610539999999
+          10.7264179424,
+          49.504491951679995
         ]
       },
       "properties": {
@@ -15966,6 +16070,248 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          7.796306105600001,
+          47.95014112767999
+        ]
+      },
+      "properties": {
+        "name": "Derelict Temple of Morr",
+        "type": "Monasteries and Temples",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.3534467385600006,
+          49.94863722239999
+        ]
+      },
+      "properties": {
+        "name": "Blessed Berebard's",
+        "type": "Monasteries and Temples",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.9833201075200007,
+          49.93114547519999
+        ]
+      },
+      "properties": {
+        "name": "Taalsturm",
+        "type": "Monasteries and Temples",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.7413953980800001,
+          51.698476219199996
+        ]
+      },
+      "properties": {
+        "name": "Abbey of the Crippled Man",
+        "type": "Monasteries and Temples",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.4588432044800008,
+          51.65811147008
+        ]
+      },
+      "properties": {
+        "name": "The Northern Spoke Abbey",
+        "type": "Monasteries and Temples",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.11466380287999922,
+          51.118288810239996
+        ]
+      },
+      "properties": {
+        "name": "Shrine of the Blue Stag",
+        "type": "Monasteries and Temples",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.7977779017599995,
+          44.61685020672
+        ]
+      },
+      "properties": {
+        "name": "Shrine of Sigmar the Protector",
+        "type": "Monasteries and Temples",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.6812770732800004,
+          43.78094563647999
+        ]
+      },
+      "properties": {
+        "name": "St. Magda Plague Hospital of Wusterburg",
+        "type": "Monasteries and Temples",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.30730743904,
+          43.413144761919995
+        ]
+      },
+      "properties": {
+        "name": "Temple of Taal and Rhya",
+        "type": "Monasteries and Temples",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.271023747520001,
+          44.808357969919996
+        ]
+      },
+      "properties": {
+        "name": "Shrine to Lacothea",
+        "type": "Monasteries and Temples",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.5129171056000013,
+          49.73444497535999
+        ]
+      },
+      "properties": {
+        "name": "Schloss von Wittgenstein",
+        "type": "Forts and Castles",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -1.395588843839999,
           49.55768765792
         ]
@@ -16015,7 +16361,7 @@
         ]
       },
       "properties": {
-        "name": "Melkior's Tower",
+        "name": "Tower of Melkhior",
         "type": "Forts and Castles",
         "description": "",
         "tags": [],
@@ -16076,12 +16422,34 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.5986712828799993,
-          51.68797276896
+          -0.5968298620799998,
+          51.68382957215999
         ]
       },
       "properties": {
         "name": "Thurgen Keep",
+        "type": "Forts and Castles",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.6836106681599995,
+          51.90083471199999
+        ]
+      },
+      "properties": {
+        "name": "Schloss Neubildhof",
         "type": "Forts and Castles",
         "description": "",
         "tags": [],
@@ -16104,6 +16472,28 @@
       },
       "properties": {
         "name": "Summersfall Fort",
+        "type": "Forts and Castles",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.119666542079999,
+          52.540308168959996
+        ]
+      },
+      "properties": {
+        "name": "Fort Bergbres",
         "type": "Forts and Castles",
         "description": "",
         "tags": [],
@@ -16846,8 +17236,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          2.273843116800001,
-          55.539898282879996
+          2.27154186592,
+          55.50767341887999
         ]
       },
       "properties": {
@@ -17198,8 +17588,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -13.138058148479999,
-          40.37899387519999
+          -13.130570987519999,
+          40.380621747199996
         ]
       },
       "properties": {
@@ -17308,8 +17698,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          2.120721625600001,
-          41.7821766544
+          2.1225623462400005,
+          41.784017375039994
         ]
       },
       "properties": {
@@ -17660,8 +18050,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          0.20898393184000003,
-          51.59338447872
+          0.23177046400000073,
+          51.58166555072
         ]
       },
       "properties": {
@@ -17995,7 +18385,7 @@
         ]
       },
       "properties": {
-        "name": "Pestwacht",
+        "name": "Fort Pestwacht",
         "type": "Forts and Castles",
         "description": "",
         "tags": [],
@@ -18188,13 +18578,585 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.7420375215999995,
-          56.24414879264
+          8.29426934976,
+          49.69751398592
         ]
       },
       "properties": {
-        "name": "The Blood Fane",
-        "type": "Other",
+        "name": "Castle Sternieste",
+        "type": "Forts and Castles",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.62814276544,
+          49.449488432319995
+        ]
+      },
+      "properties": {
+        "name": "The Necromanse",
+        "type": "Forts and Castles",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.088706982399998,
+          49.28260967232
+        ]
+      },
+      "properties": {
+        "name": "Schloss van Hark",
+        "type": "Forts and Castles",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.42493338176,
+          27.646230694399996
+        ]
+      },
+      "properties": {
+        "name": "Arjijil Citadel",
+        "type": "Forts and Castles",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3361690844800003,
+          41.62933820287999
+        ]
+      },
+      "properties": {
+        "name": "Eyrie",
+        "type": "Forts and Castles",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.212791790400001,
+          41.90186918143999
+        ]
+      },
+      "properties": {
+        "name": "Matersberg Rock",
+        "type": "Forts and Castles",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.513903475200001,
+          41.315535417919996
+        ]
+      },
+      "properties": {
+        "name": "The Lone Tower",
+        "type": "Forts and Castles",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.459359843519999,
+          26.343793062399996
+        ]
+      },
+      "properties": {
+        "name": "Ra-Margh Fort",
+        "type": "Forts and Castles",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.8423446611200003,
+          50.251551819199996
+        ]
+      },
+      "properties": {
+        "name": "Golgors Castle",
+        "type": "Forts and Castles",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.867204192,
+          50.10055566367999
+        ]
+      },
+      "properties": {
+        "name": "Kemperschloss",
+        "type": "Forts and Castles",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.0606603062400006,
+          50.44305993247999
+        ]
+      },
+      "properties": {
+        "name": "Schloss Berglenstein",
+        "type": "Forts and Castles",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.3938795590400006,
+          51.722616335679994
+        ]
+      },
+      "properties": {
+        "name": "Reikov Tower",
+        "type": "Forts and Castles",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.5952555523200006,
+          48.29338791615999
+        ]
+      },
+      "properties": {
+        "name": "Bärspitze Tower",
+        "type": "Forts and Castles",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.685379116480001,
+          44.92726526752
+        ]
+      },
+      "properties": {
+        "name": "Schloss Steinadler",
+        "type": "Forts and Castles",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.73379875808,
+          45.26931338207999
+        ]
+      },
+      "properties": {
+        "name": "Castle Holst",
+        "type": "Forts and Castles",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.853217872640001,
+          44.85769807007999
+        ]
+      },
+      "properties": {
+        "name": "Schloss Dämul",
+        "type": "Forts and Castles",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.93635539616,
+          45.048342536
+        ]
+      },
+      "properties": {
+        "name": "Schloss Erzberg",
+        "type": "Forts and Castles",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.6211973747200006,
+          48.575201966079995
+        ]
+      },
+      "properties": {
+        "name": "Schloss Schwarzspitzen",
+        "type": "Forts and Castles",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9649484534400001,
+          47.21582679776
+        ]
+      },
+      "properties": {
+        "name": "Schloss Liebwitz",
+        "type": "Forts and Castles",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.7174965251200005,
+          43.87673365087999
+        ]
+      },
+      "properties": {
+        "name": "Schloss Eigen",
+        "type": "Forts and Castles",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.6290015715200012,
+          45.551507618879995
+        ]
+      },
+      "properties": {
+        "name": "Schloss SKuschberg",
+        "type": "Forts and Castles",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.6321984444800008,
+          57.43708785961599
+        ]
+      },
+      "properties": {
+        "name": "Andel Tower",
+        "type": "Forts and Castles",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.6617844224,
+          49.15829853984
+        ]
+      },
+      "properties": {
+        "name": "Wolf Crag",
+        "type": "Forts and Castles",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.8742257273599991,
+          48.13137876896
+        ]
+      },
+      "properties": {
+        "name": "Tower of Chigaru",
+        "type": "Forts and Castles",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.212730874239998,
+          53.226468994879994
+        ]
+      },
+      "properties": {
+        "name": "Château Brandywyne",
+        "type": "Forts and Castles",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.572205311679999,
+          51.07223928704
+        ]
+      },
+      "properties": {
+        "name": "Grim Duraz",
+        "type": "Forts and Castles",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1266680844800003,
+          48.217965980799995
+        ]
+      },
+      "properties": {
+        "name": "Schloss Bildhof",
+        "type": "Forts and Castles",
         "description": "",
         "tags": [],
         "wiki": {
@@ -18914,6 +19876,424 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          9.11504941376,
+          49.781069855039995
+        ]
+      },
+      "properties": {
+        "name": "Red Cairn",
+        "type": "Other",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.240565833279999,
+          50.02464029056
+        ]
+      },
+      "properties": {
+        "name": "The Six Sinners",
+        "type": "Other",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.9998930697600001,
+          45.17382661152
+        ]
+      },
+      "properties": {
+        "name": "Stigenak Skybridge",
+        "type": "Other",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.808358679040001,
+          50.79557106303999
+        ]
+      },
+      "properties": {
+        "name": "Heath Cairn",
+        "type": "Other",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.4888977475200001,
+          49.909969486079994
+        ]
+      },
+      "properties": {
+        "name": "Duke Bertin's Mine",
+        "type": "Other",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.43365564864000067,
+          49.94495455584
+        ]
+      },
+      "properties": {
+        "name": "Lady Elina's Mine",
+        "type": "Other",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.09391246080000026,
+          50.31876437856
+        ]
+      },
+      "properties": {
+        "name": "Grunberg Mines",
+        "type": "Other",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.2409180736000007,
+          48.75540424575999
+        ]
+      },
+      "properties": {
+        "name": "The High Circle",
+        "type": "Other",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.11582029215999964,
+          55.745569757759995
+        ]
+      },
+      "properties": {
+        "name": "Bleeding Stone",
+        "type": "Other",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.06907533504000091,
+          56.48254889664
+        ]
+      },
+      "properties": {
+        "name": "Ruined Bridge",
+        "type": "Other",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3147998512,
+          50.078918269119995
+        ]
+      },
+      "properties": {
+        "name": "Ancient Megaliths",
+        "type": "Other",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.7476834176000007,
+          44.320007747519995
+        ]
+      },
+      "properties": {
+        "name": "Ancient Stone Circle",
+        "type": "Other",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9815721772799997,
+          46.34337772639999
+        ]
+      },
+      "properties": {
+        "name": "Grillparzer Quarry",
+        "type": "Other",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.3896556879999993,
+          51.76146401312
+        ]
+      },
+      "properties": {
+        "name": "Marbad's Tomb",
+        "type": "Other",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.903059541439999,
+          51.68964842688
+        ]
+      },
+      "properties": {
+        "name": "The Aseer",
+        "type": "Other",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.3073704512,
+          49.34763003071999
+        ]
+      },
+      "properties": {
+        "name": "The Master's Hollow",
+        "type": "Other",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.549557526399997,
+          49.04684829631999
+        ]
+      },
+      "properties": {
+        "name": "Helgrid's Cave",
+        "type": "Other",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.27427747661841,
+          36.20041799039999
+        ]
+      },
+      "properties": {
+        "name": "Lost Archway of Valaya",
+        "type": "Other",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.8976595744,
+          33.577249296
+        ]
+      },
+      "properties": {
+        "name": "Dragon Crag",
+        "type": "Other",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -20.11312103424,
           56.880258698464
         ]
@@ -18986,6 +20366,28 @@
       },
       "properties": {
         "name": "Dunannearil",
+        "type": "Gnome Burrows",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.630015403199999,
+          44.3525734144
+        ]
+      },
+      "properties": {
+        "name": "Guenkertoull",
         "type": "Gnome Burrows",
         "description": "",
         "tags": [],
@@ -19420,8 +20822,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.9506827510399996,
-          56.362974346559994
+          4.744443446400001,
+          56.246964486079996
         ]
       },
       "properties": {
@@ -19838,6 +21240,622 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          11.64947388941841,
+          36.444238207999994
+        ]
+      },
+      "properties": {
+        "name": "The Beast Stone",
+        "type": "Chaos Shrines",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.969313016,
+          33.1630573952
+        ]
+      },
+      "properties": {
+        "name": "Crooked Fang Fort",
+        "type": "Greenskin Landmarks",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.233540526079999,
+          46.70497150751999
+        ]
+      },
+      "properties": {
+        "name": "Greenskin Monolith of Anghifyl",
+        "type": "Greenskin Landmarks",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.953125210079999,
+          43.4722902528
+        ]
+      },
+      "properties": {
+        "name": "Burial Ground of Grudsnik da Magnificient",
+        "type": "Greenskin Landmarks",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.20052076704,
+          53.45796797183999
+        ]
+      },
+      "properties": {
+        "name": "The Black Pit",
+        "type": "Greenskin Landmarks",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.041605216959999,
+          25.434682563199996
+        ]
+      },
+      "properties": {
+        "name": "Deff Gorge",
+        "type": "Greenskin Landmarks",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.10483040352,
+          30.745350652799996
+        ]
+      },
+      "properties": {
+        "name": "Mork's Klub",
+        "type": "Greenskin Landmarks",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.747394832,
+          41.331665528959995
+        ]
+      },
+      "properties": {
+        "name": "Gribbletown",
+        "type": "Greenskin Landmarks",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.239584576,
+          36.683229071999996
+        ]
+      },
+      "properties": {
+        "name": "Piffer Town",
+        "type": "Greenskin Landmarks",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.30208385472,
+          34.4176040832
+        ]
+      },
+      "properties": {
+        "name": "Da Lost Idol",
+        "type": "Greenskin Landmarks",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.1378111264,
+          37.45549679999999
+        ]
+      },
+      "properties": {
+        "name": "Idol of Zak-Alooq",
+        "type": "Greenskin Landmarks",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.466147523200002,
+          46.38765269407999
+        ]
+      },
+      "properties": {
+        "name": "Mount Gunbad",
+        "type": "Greenskin Landmarks",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.203125417599997,
+          47.97749655392
+        ]
+      },
+      "properties": {
+        "name": "Grom Peak",
+        "type": "Greenskin Landmarks",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.572916729599996,
+          51.61812183167999
+        ]
+      },
+      "properties": {
+        "name": "Gnashrak's Lair",
+        "type": "Greenskin Landmarks",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.492186492799998,
+          53.8394753536
+        ]
+      },
+      "properties": {
+        "name": "Red-Eye Mountain",
+        "type": "Greenskin Landmarks",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.443142406719999,
+          48.27754732128
+        ]
+      },
+      "properties": {
+        "name": "The Grove of Clustered Eyes",
+        "type": "Greenskin Landmarks",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.0091145270400008,
+          33.960572892799995
+        ]
+      },
+      "properties": {
+        "name": "Mount Bloodhorn",
+        "type": "Greenskin Landmarks",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.872397916799997,
+          42.555620826239995
+        ]
+      },
+      "properties": {
+        "name": "Mount Grimfang",
+        "type": "Greenskin Landmarks",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.963542956799998,
+          39.644165452799996
+        ]
+      },
+      "properties": {
+        "name": "Mount Squighorn",
+        "type": "Greenskin Landmarks",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5598971584,
+          38.46708271679999
+        ]
+      },
+      "properties": {
+        "name": "Iron Rock Fort",
+        "type": "Greenskin Landmarks",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6223951904,
+          37.011353804799995
+        ]
+      },
+      "properties": {
+        "name": "Black Crag Fort",
+        "type": "Greenskin Landmarks",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.9889113888,
+          48.03908315263999
+        ]
+      },
+      "properties": {
+        "name": "Fang Island",
+        "type": "Greenskin Landmarks",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.909236429759999,
+          48.71580547168
+        ]
+      },
+      "properties": {
+        "name": "Fort Orcal",
+        "type": "Greenskin Landmarks",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.118490038400001,
+          43.24963447168
+        ]
+      },
+      "properties": {
+        "name": "Vale of Webs",
+        "type": "Greenskin Landmarks",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.132154926720001,
+          43.959406443199995
+        ]
+      },
+      "properties": {
+        "name": "Da Great Idol",
+        "type": "Greenskin Landmarks",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.535589334399997,
+          37.576109862399996
+        ]
+      },
+      "properties": {
+        "name": "Boggart Holes",
+        "type": "Greenskin Landmarks",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.24647415264,
+          36.162238265599996
+        ]
+      },
+      "properties": {
+        "name": "The Pillar of Bones",
+        "type": "Greenskin Landmarks",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.026429500799999,
+          39.2931122304
+        ]
+      },
+      "properties": {
+        "name": "Troll Zags",
+        "type": "Greenskin Landmarks",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -11.563228869759998,
           50.777781222719995
         ]
@@ -19970,6 +21988,50 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -10.020833627839998,
+          45.549111321279995
+        ]
+      },
+      "properties": {
+        "name": "Athel Maraya",
+        "type": "High Elf Colonies",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -22.49115023456,
+          41.09783484416
+        ]
+      },
+      "properties": {
+        "name": "Ocean's Gate",
+        "type": "High Elf Colonies",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           13.039090182399997,
           37.75161721919999
         ]
@@ -19992,8 +22054,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.8331387631999994,
-          48.743440786879994
+          -0.8526699014399995,
+          48.74213831424
         ]
       },
       "properties": {
@@ -20102,12 +22164,56 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          16.3796498144,
+          57.830369447007996
+        ]
+      },
+      "properties": {
+        "name": "Kurak Peak",
+        "type": "Peaks",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           7.839967733120001,
           44.745709403519996
         ]
       },
       "properties": {
         "name": "Karag Dronar",
+        "type": "Peaks",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.5024099603199992,
+          40.1661242304
+        ]
+      },
+      "properties": {
+        "name": "Karaz Mar (Cleaved Mountain)",
         "type": "Peaks",
         "description": "",
         "tags": [],
@@ -20234,8 +22340,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.9178441199999995,
-          49.19182692672
+          -1.1704480198399998,
+          49.043388980799996
         ]
       },
       "properties": {
@@ -20344,8 +22450,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.9027043424,
-          42.35561749664
+          16.782913968,
+          42.61342971168
         ]
       },
       "properties": {
@@ -20652,13 +22758,673 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          0.9180571436800009,
+          45.676968414079994
+        ]
+      },
+      "properties": {
+        "name": "Griffonhorn (Twarkgornaz)",
+        "type": "Peaks",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.15243237792,
+          45.4178537264
+        ]
+      },
+      "properties": {
+        "name": "Snowy Peak (Wyrspithaz)",
+        "type": "Peaks",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.9024323731200004,
+          45.19780166527999
+        ]
+      },
+      "properties": {
+        "name": "Windy Peak (Ziflinspithaz)",
+        "type": "Peaks",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.0612867744,
+          44.688687847999994
+        ]
+      },
+      "properties": {
+        "name": "Slatehorn (Skapengornaz)",
+        "type": "Peaks",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.117276294080001,
+          45.11967676224
+        ]
+      },
+      "properties": {
+        "name": "Sunrise Peak (Narspithaz)",
+        "type": "Peaks",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.0899327705600004,
+          45.16524982656
+        ]
+      },
+      "properties": {
+        "name": "Zikpithaz",
+        "type": "Peaks",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.3321202150400002,
+          44.762905683199996
+        ]
+      },
+      "properties": {
+        "name": "Redstone Peak (Rhynspithaz)",
+        "type": "Peaks",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.6471525001600007,
+          41.558204747519994
+        ]
+      },
+      "properties": {
+        "name": "Three-Peak Mountain",
+        "type": "Peaks",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.219582678399998,
+          48.04368460416
+        ]
+      },
+      "properties": {
+        "name": "Karag Grom",
+        "type": "Peaks",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.3271068943999995,
+          49.33955526047999
+        ]
+      },
+      "properties": {
+        "name": "Dragon Peak",
+        "type": "Peaks",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.2616832438399994,
+          49.180755471679994
+        ]
+      },
+      "properties": {
+        "name": "Claw Peak",
+        "type": "Peaks",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.87528423264,
+          49.807003081279994
+        ]
+      },
+      "properties": {
+        "name": "Mount Taurig",
+        "type": "Peaks",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.8919273475200007,
+          50.072548738559995
+        ]
+      },
+      "properties": {
+        "name": "Hochonl",
+        "type": "Peaks",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.21614569344000023,
+          50.351194389439996
+        ]
+      },
+      "properties": {
+        "name": "Grunberg",
+        "type": "Peaks",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.9166668009600009,
+          50.262652505919995
+        ]
+      },
+      "properties": {
+        "name": "Schieferspitze",
+        "type": "Peaks",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.257752214719999,
+          41.082789456
+        ]
+      },
+      "properties": {
+        "name": "Karag Dar",
+        "type": "Peaks",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.880331062720001,
+          43.977481073599996
+        ]
+      },
+      "properties": {
+        "name": "Karaz Ensamar",
+        "type": "Peaks",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.13033104832,
+          42.995710070079994
+        ]
+      },
+      "properties": {
+        "name": "Karaz Grozartrinlag",
+        "type": "Peaks",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.845175134719999,
+          43.00352193023999
+        ]
+      },
+      "properties": {
+        "name": "Karaz Artrinlagit",
+        "type": "Peaks",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.400437449599998,
+          64.38246030303999
+        ]
+      },
+      "properties": {
+        "name": "Dordengornaz",
+        "type": "Peaks",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.750697625600001,
+          65.25225174207999
+        ]
+      },
+      "properties": {
+        "name": "Karaz Wyrberoz",
+        "type": "Peaks",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.264447142399998,
+          49.244406142079995
+        ]
+      },
+      "properties": {
+        "name": "Mount Radspitz",
+        "type": "Peaks",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.7969993216,
+          49.39805222816
+        ]
+      },
+      "properties": {
+        "name": "The Schellenberg",
+        "type": "Peaks",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.998822191999999,
+          49.250916754879995
+        ]
+      },
+      "properties": {
+        "name": "Mount Poenstock",
+        "type": "Peaks",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.729941497599999,
+          49.23008384415999
+        ]
+      },
+      "properties": {
+        "name": "The Stokargat",
+        "type": "Peaks",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.3276978102399993,
+          63.973664360319994
+        ]
+      },
+      "properties": {
+        "name": "Drageberg",
+        "type": "Peaks",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.8346000163199994,
+          49.090911815679995
+        ]
+      },
+      "properties": {
+        "name": "Garaz Peak",
+        "type": "Peaks",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.7304335180799996,
+          49.184661314239996
+        ]
+      },
+      "properties": {
+        "name": "Nagel's Ridge",
+        "type": "Peaks",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.1421362496,
+          48.97176191263999
+        ]
+      },
+      "properties": {
+        "name": "Fallen King Mountain",
+        "type": "Peaks",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.952184592000002,
+          44.87905452544
+        ]
+      },
+      "properties": {
+        "name": "Moonstone Mountain",
+        "type": "Peaks",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           24.2122399616,
           58.702757168598396
         ]
       },
       "properties": {
         "name": "Falls of Doom",
-        "type": "Geographic Landmarks",
+        "type": "Waterfalls",
         "description": "",
         "tags": [],
         "wiki": {
@@ -20680,7 +23446,95 @@
       },
       "properties": {
         "name": "Black Falls",
-        "type": "Geographic Landmarks",
+        "type": "Waterfalls",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.335779270400001,
+          41.528189063359996
+        ]
+      },
+      "properties": {
+        "name": "Yetzin Falls",
+        "type": "Waterfalls",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.216985134218408,
+          36.4842716064
+        ]
+      },
+      "properties": {
+        "name": "Skull Chasm",
+        "type": "Other Geographic Features",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.508590407040001,
+          37.576109862399996
+        ]
+      },
+      "properties": {
+        "name": "Hanging Rock",
+        "type": "Other Geographic Features",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.414247737717592,
+          49.565220679359996
+        ]
+      },
+      "properties": {
+        "name": "Black Chasm",
+        "type": "Other Geographic Features",
         "description": "",
         "tags": [],
         "wiki": {
@@ -20966,6 +23820,864 @@
       },
       "properties": {
         "name": "Sokth's Needle",
+        "type": "Ruins",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.6054679302399997,
+          57.41239248124799
+        ]
+      },
+      "properties": {
+        "name": "Sunken Ruins of Athel Toralien",
+        "type": "Ruins",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.125710654079999,
+          52.587397779839996
+        ]
+      },
+      "properties": {
+        "name": "Athel Maraya",
+        "type": "Ruins",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.556884700800001,
+          55.209586775359995
+        ]
+      },
+      "properties": {
+        "name": "Athel Numiel",
+        "type": "Ruins",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.606771196799997,
+          39.42020702399999
+        ]
+      },
+      "properties": {
+        "name": "Ithel Oriour",
+        "type": "Ruins",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.985295040959997,
+          41.035222336
+        ]
+      },
+      "properties": {
+        "name": "Tor Kuliis",
+        "type": "Ruins",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.668116359999999,
+          55.17367889471999
+        ]
+      },
+      "properties": {
+        "name": "Sunken Ruins of Lothlak",
+        "type": "Ruins",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.6145830592,
+          35.8551025792
+        ]
+      },
+      "properties": {
+        "name": "Oeragor",
+        "type": "Ruins",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.281250243839999,
+          34.8863524512
+        ]
+      },
+      "properties": {
+        "name": "Sunken Ruins of Thantis Tor",
+        "type": "Ruins",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.65816179456,
+          40.01047516159999
+        ]
+      },
+      "properties": {
+        "name": "Tol Eldroth",
+        "type": "Ruins",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -19.15104220576,
+          46.48010007007999
+        ]
+      },
+      "properties": {
+        "name": "Tol Ista",
+        "type": "Ruins",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.398919737599999,
+          40.76053731519999
+        ]
+      },
+      "properties": {
+        "name": "Tor Arlieth",
+        "type": "Ruins",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.7380905254400005,
+          54.536547122879995
+        ]
+      },
+      "properties": {
+        "name": "Tor Eorfith",
+        "type": "Ruins",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.132607829759998,
+          41.55082226047999
+        ]
+      },
+      "properties": {
+        "name": "Tor Karyndis",
+        "type": "Ruins",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.51084760544,
+          40.31338538239999
+        ]
+      },
+      "properties": {
+        "name": "Krag Bryn",
+        "type": "Ruins",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.816523633279997,
+          40.6135369728
+        ]
+      },
+      "properties": {
+        "name": "Kazad Thrund",
+        "type": "Ruins",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.8151040611199998,
+          43.08687422784
+        ]
+      },
+      "properties": {
+        "name": "Ruins of Castle Fulk",
+        "type": "Ruins",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4823460195200007,
+          49.905365408959995
+        ]
+      },
+      "properties": {
+        "name": "Schloss Gliental",
+        "type": "Ruins",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.3957992419200003,
+          49.6466450864
+        ]
+      },
+      "properties": {
+        "name": "Endrin Castle",
+        "type": "Ruins",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.29175861664,
+          49.69912505407999
+        ]
+      },
+      "properties": {
+        "name": "Fischelturm",
+        "type": "Ruins",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.0054175072,
+          49.77922633376
+        ]
+      },
+      "properties": {
+        "name": "Wausterschloss",
+        "type": "Ruins",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.0505321417600006,
+          49.880506228159994
+        ]
+      },
+      "properties": {
+        "name": "Fort Beiers",
+        "type": "Ruins",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.6896131398400004,
+          49.79303803999999
+        ]
+      },
+      "properties": {
+        "name": "Altauers Castle",
+        "type": "Ruins",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.9326813856000002,
+          50.51303427295999
+        ]
+      },
+      "properties": {
+        "name": "Mooren Tower",
+        "type": "Ruins",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.1969257955200001,
+          50.47252476575999
+        ]
+      },
+      "properties": {
+        "name": "Lauen",
+        "type": "Ruins",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.6315018044800014,
+          50.47804815295999
+        ]
+      },
+      "properties": {
+        "name": "Uhlend Manor",
+        "type": "Ruins",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.8912494176000009,
+          49.72306422463999
+        ]
+      },
+      "properties": {
+        "name": "Tor Opolion",
+        "type": "Ruins",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.4106377136000002,
+          50.36111793215999
+        ]
+      },
+      "properties": {
+        "name": "The Old Keep",
+        "type": "Ruins",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.2283367043200008,
+          50.4154391456
+        ]
+      },
+      "properties": {
+        "name": "Castle Grunberg",
+        "type": "Ruins",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.4179689139199994,
+          52.295204733119995
+        ]
+      },
+      "properties": {
+        "name": "Dragon Keep",
+        "type": "Ruins",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.6067709088000006,
+          52.3954653696
+        ]
+      },
+      "properties": {
+        "name": "Verminkern",
+        "type": "Ruins",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.9570315500800003,
+          52.235309195839996
+        ]
+      },
+      "properties": {
+        "name": "Brennenhof",
+        "type": "Ruins",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.7799477830400002,
+          52.050413043519995
+        ]
+      },
+      "properties": {
+        "name": "Naunwitz Castle",
+        "type": "Ruins",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.44661473504000027,
+          52.74963185343999
+        ]
+      },
+      "properties": {
+        "name": "Blackwood Tower",
+        "type": "Ruins",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.7190758726399994,
+          49.2940112528
+        ]
+      },
+      "properties": {
+        "name": "Lengrath Ruins",
+        "type": "Ruins",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.03170139616,
+          45.26453881599999
+        ]
+      },
+      "properties": {
+        "name": "Ruins of Taal's Teeth",
+        "type": "Ruins",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.72014480128,
+          50.32432032319999
+        ]
+      },
+      "properties": {
+        "name": "Ruins of Mordheim",
+        "type": "Ruins",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.718759221344,
+          41.683126944639994
+        ]
+      },
+      "properties": {
+        "name": "Ruins of Tylos",
+        "type": "Ruins",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9204363065600005,
+          56.977507579199994
+        ]
+      },
+      "properties": {
+        "name": "Schloss Hüvengard",
+        "type": "Ruins",
+        "description": "",
+        "tags": [],
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9425792166399996,
+          57.471830919072
+        ]
+      },
+      "properties": {
+        "name": "Handelsee",
         "type": "Ruins",
         "description": "",
         "tags": [],

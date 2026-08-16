@@ -30,9 +30,15 @@ class ProvinceData {
                 coordinates: feature.geometry.coordinates
             }));
 
+            const greenskinTypes = new Set(['Major Greenskin Tribe', 'Minor Greenskin Tribe']);
+            const northmenTypes  = new Set(['Major Northmen Tribe',  'Minor Northmen Tribe']);
+
             // Create OpenLayers features
             this.olFeatures = this.provinces.map(province => {
                 const info = province.info || {};
+                let featureType = 'province';
+                if (greenskinTypes.has(province.provinceType)) featureType = 'greenskin-tribe';
+                else if (northmenTypes.has(province.provinceType))  featureType = 'northmen-tribe';
                 const feature = new ol.Feature({
                     geometry: new ol.geom.Point(province.coordinates),
                     name: province.name,
@@ -41,7 +47,7 @@ class ProvinceData {
                     population: province.population,
                     wikiUrl: info.wiki_url,
                     wikiDescription: info.description,
-                    featureType: 'province'
+                    featureType
                 });
                 return feature;
             });
@@ -54,11 +60,19 @@ class ProvinceData {
     }
 
     /**
-     * Get OpenLayers features
+     * Get OpenLayers features for regular province labels only (excludes tribes)
      * @returns {Array<ol.Feature>}
      */
     getOLFeatures() {
-        return this.olFeatures;
+        return this.olFeatures.filter(f => f.get('featureType') === 'province');
+    }
+
+    getGreenskinTribeFeatures() {
+        return this.olFeatures.filter(f => f.get('featureType') === 'greenskin-tribe');
+    }
+
+    getNorthmenTribeFeatures() {
+        return this.olFeatures.filter(f => f.get('featureType') === 'northmen-tribe');
     }
 
     /**

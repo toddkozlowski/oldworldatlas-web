@@ -631,6 +631,40 @@ function createProvinceStyle(feature, currentResolution) {
 }
 
 /**
+ * Create an OpenLayers Style object for a tribe label (greenskin or northmen)
+ * @param {OL.Feature} feature - OpenLayers feature
+ * @param {number} currentResolution - Current map resolution
+ * @returns {OL.style.Style}
+ */
+function createTribeStyle(feature, currentResolution) {
+    if (!STYLES_CONFIG) return null;
+
+    const provinceType = feature.get('provinceType');
+    const config = STYLES_CONFIG.tribes[provinceType];
+
+    if (!config) return null;
+    if (!shouldShowLabel(config, currentResolution)) return null;
+
+    const fontSize = getInterpolatedFontSize(config, currentResolution);
+    const isNorthmen = provinceType === 'Major Northmen Tribe' || provinceType === 'Minor Northmen Tribe';
+    const rawName = feature.get('name') || '';
+    const labelText = isNorthmen
+        ? formatLabelText(rawName.toUpperCase())
+        : formatWaterLabelText(rawName);
+    return new ol.style.Style({
+        text: new ol.style.Text({
+            text: labelText,
+            font: constructFontString(config.textFont, fontSize),
+            fill: new ol.style.Fill({ color: config.textFillColor }),
+            stroke: new ol.style.Stroke({
+                color: config.textStrokeColor,
+                width: config.textStrokeWidth
+            })
+        })
+    });
+}
+
+/**
  * Create an OpenLayers Style object for a water label
  * @param {OL.Feature} feature - OpenLayers feature
  * @param {number} currentResolution - Current map resolution

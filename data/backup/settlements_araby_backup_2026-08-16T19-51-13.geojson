@@ -6,15 +6,90 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -17.89915891538159,
-          58.54758781442239
+          -22.548235854719998,
+          28.968372579199993
         ]
       },
       "properties": {
-        "name": "Bol-A-Hat",
-        "province": "Albion",
+        "name": "Al-Haikk",
+        "province": "Araby",
         "estate": "",
-        "population": 6000,
+        "population": 61067,
+        "tags": [],
+        "notes": [],
+        "size_category": 6,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.49016098752,
+          27.574299756799995
+        ]
+      },
+      "properties": {
+        "name": "Arjijil",
+        "province": "Araby",
+        "estate": "",
+        "population": 2877,
+        "tags": [],
+        "notes": [],
+        "size_category": 3,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.51041720128,
+          25.732707417599997
+        ]
+      },
+      "properties": {
+        "name": "Djambiya",
+        "province": "Araby",
+        "estate": "",
+        "population": 202,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -24.367562055679997,
+          29.920388883199994
+        ]
+      },
+      "properties": {
+        "name": "Fyrus",
+        "province": "Araby",
+        "estate": "",
+        "population": 6120,
         "tags": [],
         "notes": [],
         "size_category": 4,
@@ -31,15 +106,294 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -18.764110148341594,
-          57.79955067932799
+          -18.224572639679998,
+          28.544845795199997
         ]
       },
       "properties": {
-        "name": "Great Hogs",
-        "province": "Albion",
+        "name": "Kadira",
+        "province": "Araby",
         "estate": "",
-        "population": 331,
+        "population": 102,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -14.9062506144,
+          26.852497811199996
+        ]
+      },
+      "properties": {
+        "name": "Kamt",
+        "province": "Araby",
+        "estate": "",
+        "population": 152,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -18.289063151999997,
+          28.325154841599996
+        ]
+      },
+      "properties": {
+        "name": "Mahabbah",
+        "province": "Araby",
+        "estate": "",
+        "population": 27819,
+        "tags": [],
+        "notes": [],
+        "size_category": 5,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -24.48143432768,
+          25.992888623999995
+        ]
+      },
+      "properties": {
+        "name": "Martek",
+        "province": "Araby",
+        "estate": "",
+        "population": 16944,
+        "tags": [],
+        "notes": [],
+        "size_category": 5,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.28186949472,
+          26.445624332799994
+        ]
+      },
+      "properties": {
+        "name": "Meknes",
+        "province": "Araby",
+        "estate": "",
+        "population": 95,
+        "tags": [],
+        "notes": [
+          "on the coast, port"
+        ],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13.444010564479997,
+          26.400675811199996
+        ]
+      },
+      "properties": {
+        "name": "Ras Karim",
+        "province": "Araby",
+        "estate": "",
+        "population": 184,
+        "tags": [],
+        "notes": [
+          "A port some hundred leagues east of Copher"
+        ],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.351071191679999,
+          27.112218662399993
+        ]
+      },
+      "properties": {
+        "name": "Teshert",
+        "province": "Araby",
+        "estate": "",
+        "population": 93,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -19.27970780832,
+          27.242961289599997
+        ]
+      },
+      "properties": {
+        "name": "Symira",
+        "province": "Araby",
+        "estate": "",
+        "population": 6212,
+        "tags": [],
+        "notes": [],
+        "size_category": 4,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -20.96563024896,
+          28.533384175999995
+        ]
+      },
+      "properties": {
+        "name": "Baskra",
+        "province": "Araby",
+        "estate": "",
+        "population": 22811,
+        "tags": [],
+        "notes": [],
+        "size_category": 5,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -17.96772191936,
+          26.106766147199995
+        ]
+      },
+      "properties": {
+        "name": "El-Mansurah",
+        "province": "Araby",
+        "estate": "",
+        "population": 7120,
+        "tags": [],
+        "notes": [],
+        "size_category": 4,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -18.11458398016,
+          25.148070316799995
+        ]
+      },
+      "properties": {
+        "name": "Oasis of a Thousand and One Camels",
+        "province": "Araby",
+        "estate": "",
+        "population": 246,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -15.609375266879997,
+          26.890259190399995
+        ]
+      },
+      "properties": {
+        "name": "Surah",
+        "province": "Araby",
+        "estate": "",
+        "population": 345,
         "tags": [],
         "notes": [],
         "size_category": 2,
@@ -56,388 +410,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -18.91372646354159,
-          59.67227717328
+          -13.283854390719998,
+          26.305623839999996
         ]
       },
       "properties": {
-        "name": "Ochness",
-        "province": "Albion",
-        "estate": "",
-        "population": 195,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -18.374006202101594,
-          58.801172689184
-        ]
-      },
-      "properties": {
-        "name": "Konquata",
-        "province": "Albion",
-        "estate": "",
-        "population": 328,
-        "tags": [],
-        "notes": [],
-        "size_category": 2,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -17.79243195122159,
-          59.81659502767999
-        ]
-      },
-      "properties": {
-        "name": "Crannog Mere",
-        "province": "Albion",
-        "estate": "",
-        "population": 89,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -17.188299245301593,
-          58.051508891615995
-        ]
-      },
-      "properties": {
-        "name": "Neuland",
-        "province": "Albion",
-        "estate": "",
-        "population": 92,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -19.75429024850159,
-          58.78746322380799
-        ]
-      },
-      "properties": {
-        "name": "Ohbuhu",
-        "province": "Albion",
-        "estate": "",
-        "population": 264,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -18.62467433458159,
-          59.835571621696
-        ]
-      },
-      "properties": {
-        "name": "Nagronath",
-        "province": "Albion",
-        "estate": "",
-        "population": 222,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -17.152862922421594,
-          59.62624142572799
-        ]
-      },
-      "properties": {
-        "name": "Tref-Niwlen",
-        "province": "Albion",
-        "estate": "",
-        "population": 249,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -19.84364344242159,
-          57.816121681119995
-        ]
-      },
-      "properties": {
-        "name": "Maes-Cysegr",
-        "province": "Albion",
-        "estate": "",
-        "population": 131,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -18.30605637426159,
-          58.5269117517952
-        ]
-      },
-      "properties": {
-        "name": "Bod Druidion",
-        "province": "Albion",
-        "estate": "",
-        "population": 101,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -17.81577773618159,
-          57.768245160415994
-        ]
-      },
-      "properties": {
-        "name": "Caer-yr-Hen-Rai",
-        "province": "Albion",
-        "estate": "",
-        "population": 64,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -19.02881543858159,
-          59.042510804576
-        ]
-      },
-      "properties": {
-        "name": "Camre'r-Hynafiad",
-        "province": "Albion",
-        "estate": "",
-        "population": 99,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -20.00362072530159,
-          57.584104200671995
-        ]
-      },
-      "properties": {
-        "name": "Maen-Hynaf",
-        "province": "Albion",
-        "estate": "",
-        "population": 64,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -18.59212354610159,
-          57.51005079804799
-        ]
-      },
-      "properties": {
-        "name": "Dun Afalon",
-        "province": "Albion",
-        "estate": "",
-        "population": 168,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -16.96126431346159,
-          58.26786328524799
-        ]
-      },
-      "properties": {
-        "name": "Nant-yr-Hebog",
-        "province": "Albion",
-        "estate": "",
-        "population": 170,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -20.25065205170159,
-          57.314738277888
-        ]
-      },
-      "properties": {
-        "name": "Coed-Ysgarlad",
-        "province": "Albion",
-        "estate": "",
-        "population": 250,
-        "tags": [],
-        "notes": [],
-        "size_category": 1,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -17.372396865141592,
-          57.890259680575994
-        ]
-      },
-      "properties": {
-        "name": "Sumpfspitze",
-        "province": "Albion",
+        "name": "Maharek",
+        "province": "Araby",
         "estate": "",
         "population": 782,
         "tags": [],
@@ -456,15 +435,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -16.58110263922159,
-          58.655813504319994
+          -12.188802575359999,
+          25.9827082976
         ]
       },
       "properties": {
-        "name": "Blóðströnd (Losteriksson's Third Landing)",
-        "province": "Albion",
+        "name": "Kaman Sala",
+        "province": "Araby",
         "estate": "",
-        "population": 339,
+        "population": 318,
         "tags": [],
         "notes": [],
         "size_category": 2,
@@ -481,15 +460,15 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -17.212705947701593,
-          60.05351079248
+          -17.354410991039998,
+          26.786238169599994
         ]
       },
       "properties": {
-        "name": "Skeljavik (Losteriksson's First Landing)",
-        "province": "Albion",
+        "name": "Melrhir Oasis",
+        "province": "Araby",
         "estate": "",
-        "population": 97,
+        "population": 101,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -506,15 +485,40 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -16.516443388341592,
-          59.261047474399994
+          -11.265625336639998,
+          25.977499107199996
         ]
       },
       "properties": {
-        "name": "Hrafnberg (Losteriksson's Second Landing)",
-        "province": "Albion",
+        "name": "Istrabul",
+        "province": "Araby",
         "estate": "",
-        "population": 155,
+        "population": 581,
+        "tags": [],
+        "notes": [],
+        "size_category": 2,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.12166641024,
+          27.023828713599997
+        ]
+      },
+      "properties": {
+        "name": "El-Kabbath",
+        "province": "Araby",
+        "estate": "",
+        "population": 20,
         "tags": [],
         "notes": [],
         "size_category": 1,
@@ -531,18 +535,143 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -17.456102743541592,
-          60.44878235711999
+          -5.807698405568,
+          27.837943254399995
         ]
       },
       "properties": {
-        "name": "Dwimmurvik (Losteriksson's Fourth Landing)",
-        "province": "Albion",
+        "name": "Mina Irq",
+        "province": "Araby",
         "estate": "",
-        "population": 25,
+        "population": 151,
         "tags": [],
         "notes": [],
         "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.966320474559999,
+          29.9461722752
+        ]
+      },
+      "properties": {
+        "name": "Hettasha",
+        "province": "Araby",
+        "estate": "",
+        "population": 440,
+        "tags": [],
+        "notes": [],
+        "size_category": 2,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.524271852159999,
+          29.4913395872
+        ]
+      },
+      "properties": {
+        "name": "Chayuk",
+        "province": "Araby",
+        "estate": "",
+        "population": 56,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.6108189798399986,
+          28.8818240512
+        ]
+      },
+      "properties": {
+        "name": "Tirzor",
+        "province": "Araby",
+        "estate": "",
+        "population": 36,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.391796309759999,
+          26.729203135999995
+        ]
+      },
+      "properties": {
+        "name": "Djebellna",
+        "province": "Araby",
+        "estate": "",
+        "population": 100,
+        "tags": [],
+        "notes": [],
+        "size_category": 1,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.9776892649599995,
+          32.638329484799996
+        ]
+      },
+      "properties": {
+        "name": "Rhothira",
+        "province": "Araby",
+        "estate": "",
+        "population": 358,
+        "tags": [],
+        "notes": [],
+        "size_category": 2,
         "wiki": {
           "title": null,
           "url": null,

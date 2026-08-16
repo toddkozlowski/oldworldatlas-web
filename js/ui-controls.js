@@ -51,6 +51,8 @@ class UIControls {
         this.initializeSettlementToggle();
         this.initializePOIToggle();
         this.initializeRegionToggle();
+        this.initializeGreenskinTribeToggle();
+        this.initializeNorthmenTribeToggle();
         this.initializeWaterToggle();
         this.initializePublishedCanonOnlyToggle();
         this.initializeGridControls();
@@ -338,6 +340,26 @@ class UIControls {
                 if (layer) {
                     layer.setVisible(e.target.checked);
                 }
+            });
+        }
+    }
+
+    initializeGreenskinTribeToggle() {
+        const cb = document.getElementById('greenskin-tribes-checkbox');
+        if (cb) {
+            cb.addEventListener('change', (e) => {
+                const layer = mapManager.getGreenskinTribeLayer();
+                if (layer) layer.setVisible(e.target.checked);
+            });
+        }
+    }
+
+    initializeNorthmenTribeToggle() {
+        const cb = document.getElementById('northmen-tribes-checkbox');
+        if (cb) {
+            cb.addEventListener('change', (e) => {
+                const layer = mapManager.getNorthmenTribeLayer();
+                if (layer) layer.setVisible(e.target.checked);
             });
         }
     }

@@ -357,6 +357,56 @@
       "textStrokeWidth": 0
     }
   },
+  "tribes": {
+    "Major Greenskin Tribe": {
+      "minFontSize": 10,
+      "maxFontSize": 16,
+      "minFontZoom": 0.006,
+      "maxFontZoom": 0.0015,
+      "minZoomLevel": 0.006,
+      "maxZoomLevel": 0,
+      "textFont": "italic Arial, sans-serif",
+      "textFillColor": "rgba(175, 28, 28, 0.82)",
+      "textStrokeColor": "rgba(255, 255, 255, 0.80)",
+      "textStrokeWidth": 1.5
+    },
+    "Minor Greenskin Tribe": {
+      "minFontSize": 7,
+      "maxFontSize": 11,
+      "minFontZoom": 0.005,
+      "maxFontZoom": 0.001,
+      "minZoomLevel": 0.005,
+      "maxZoomLevel": 0,
+      "textFont": "italic Arial, sans-serif",
+      "textFillColor": "rgba(175, 28, 28, 0.62)",
+      "textStrokeColor": "rgba(255, 255, 255, 0.75)",
+      "textStrokeWidth": 1.5
+    },
+    "Major Northmen Tribe": {
+      "minFontSize": 8,
+      "maxFontSize": 24,
+      "minFontZoom": 0.015,
+      "maxFontZoom": 0.003,
+      "minZoomLevel": 0.02,
+      "maxZoomLevel": 0.0015,
+      "textFont": "italic bold Arial, sans-serif",
+      "textFillColor": "rgba(0, 0, 0, 0.2)",
+      "textStrokeColor": "#ffffff00",
+      "textStrokeWidth": 0
+    },
+    "Minor Northmen Tribe": {
+      "minFontSize": 7,
+      "maxFontSize": 18,
+      "minFontZoom": 0.015,
+      "maxFontZoom": 0.003,
+      "minZoomLevel": 0.02,
+      "maxZoomLevel": 0.0015,
+      "textFont": "italic bold Arial, sans-serif",
+      "textFillColor": "rgba(0, 0, 0, 0.15)",
+      "textStrokeColor": "#ffffff00",
+      "textStrokeWidth": 0
+    }
+  },
   "water": {
     "Ocean": {
       "minFontSize": 28,
