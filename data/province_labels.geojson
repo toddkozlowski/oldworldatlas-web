@@ -6,8 +6,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          3.15085933184,
-          52.88477026015999
+          3.7032866220800007,
+          52.84057598592
         ]
       },
       "properties": {
@@ -2122,52 +2122,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -26.0529080896,
-          37.7500243552
-        ]
-      },
-      "properties": {
-        "name": "LA ISLA ATALAYA",
-        "province_type": "Province",
-        "formal_title": "",
-        "part_of": "",
-        "population": 0,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -25.9569739168,
-          39.817964419199996
-        ]
-      },
-      "properties": {
-        "name": "LA ISLA DE SANGRE",
-        "province_type": "Province",
-        "formal_title": "",
-        "part_of": "",
-        "population": 0,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -17.07104573664,
           43.319468780159994
         ]
@@ -2283,12 +2237,35 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -8.940530192767998,
-          25.126627916799997
+          -7.916698530079999,
+          23.653487776
         ]
       },
       "properties": {
         "name": "ZANDRI",
+        "province_type": "Province",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.3358093580799992,
+          22.466347241599994
+        ]
+      },
+      "properties": {
+        "name": "KHEMRI",
         "province_type": "Province",
         "formal_title": "",
         "part_of": "",
@@ -2335,6 +2312,374 @@
       },
       "properties": {
         "name": "The Wheatlands",
+        "province_type": "Grand-Province",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.3014952032,
+          24.102461875199996
+        ]
+      },
+      "properties": {
+        "name": "EATAINE",
+        "province_type": "Grand-Province",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.38467590399999,
+          27.549606863999998
+        ]
+      },
+      "properties": {
+        "name": "SAPHERY",
+        "province_type": "Grand-Province",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.93752916479999,
+          32.0426806176
+        ]
+      },
+      "properties": {
+        "name": "YVRESSE",
+        "province_type": "Grand-Province",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.27982167359999,
+          37.21339897599999
+        ]
+      },
+      "properties": {
+        "name": "COTHIQUE",
+        "province_type": "Grand-Province",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.3309561856,
+          39.43783880319999
+        ]
+      },
+      "properties": {
+        "name": "CHRACE",
+        "province_type": "Grand-Province",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.7711607616,
+          34.9153005664
+        ]
+      },
+      "properties": {
+        "name": "AVELORN",
+        "province_type": "Grand-Province",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.324894646400004,
+          34.37024175999999
+        ]
+      },
+      "properties": {
+        "name": "ELLYRION",
+        "province_type": "Grand-Province",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.5606000096,
+          38.244594623999994
+        ]
+      },
+      "properties": {
+        "name": "NAGARYTHE",
+        "province_type": "Grand-Province",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.77377780159999,
+          30.260181782399997
+        ]
+      },
+      "properties": {
+        "name": "TIRANOC",
+        "province_type": "Grand-Province",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.9436190368,
+          24.721177513599994
+        ]
+      },
+      "properties": {
+        "name": "CALEDOR",
+        "province_type": "Grand-Province",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.5184522048,
+          55.35450676735999
+        ]
+      },
+      "properties": {
+        "name": "KAROND KAR",
+        "province_type": "Grand-Province",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.33096035839998,
+          43.312839665279995
+        ]
+      },
+      "properties": {
+        "name": "CLAR KAROND",
+        "province_type": "Grand-Province",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.0809597664,
+          52.979506459199996
+        ]
+      },
+      "properties": {
+        "name": "HAG GRAEF",
+        "province_type": "Grand-Province",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.81012560639999,
+          57.604506653023996
+        ]
+      },
+      "properties": {
+        "name": "NAGGAROND",
+        "province_type": "Grand-Province",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.76845354559998,
+          56.83367336032
+        ]
+      },
+      "properties": {
+        "name": "HAR GANETH",
+        "province_type": "Grand-Province",
+        "formal_title": "",
+        "part_of": "",
+        "population": 0,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.01845636799999,
+          59.66700682390399
+        ]
+      },
+      "properties": {
+        "name": "GHROND",
         "province_type": "Grand-Province",
         "formal_title": "",
         "part_of": "",

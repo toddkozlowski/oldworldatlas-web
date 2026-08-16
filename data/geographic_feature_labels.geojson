@@ -300,8 +300,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.895008945919999,
-          52.18609092351999
+          -1.9023746291199997,
+          52.179646125759994
         ]
       },
       "properties": {
@@ -972,8 +972,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          0.2880964105600009,
-          57.50730137475199
+          0.3558048582400003,
+          57.586728487871994
         ]
       },
       "properties": {
@@ -1497,8 +1497,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -10.73493031264,
-          56.314599592
+          -10.641180464,
+          56.25209963456
         ]
       },
       "properties": {
@@ -2190,6 +2190,363 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          0.40692739072,
+          56.964952222559994
+        ]
+      },
+      "properties": {
+        "name": "Soldersø",
+        "type": "Lake",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.7254940643200003,
+          56.73017063296
+        ]
+      },
+      "properties": {
+        "name": "Trolvedsø",
+        "type": "Lake",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.30564907168000044,
+          56.75272803776
+        ]
+      },
+      "properties": {
+        "name": "Ammensø",
+        "type": "Lake",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.2987831468800004,
+          56.89446814809599
+        ]
+      },
+      "properties": {
+        "name": "Ormsdeep",
+        "type": "Lake",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.5272982169599996,
+          57.09303581712
+        ]
+      },
+      "properties": {
+        "name": "Lützelsee",
+        "type": "Lake",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.101910815360001,
+          52.88489996479999
+        ]
+      },
+      "properties": {
+        "name": "Kratersee",
+        "type": "Lake",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.416619919039999,
+          45.48385273344
+        ]
+      },
+      "properties": {
+        "name": "Mirror Pools of Ithorien",
+        "type": "Lake",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.34403149279999995,
+          42.98513327807999
+        ]
+      },
+      "properties": {
+        "name": "Crystal Mere",
+        "type": "Lake",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.4456527151999994,
+          56.04439471999999
+        ]
+      },
+      "properties": {
+        "name": "Tarn of Tears",
+        "type": "Lake",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9164138873599994,
+          44.092933256639995
+        ]
+      },
+      "properties": {
+        "name": "Ellsee",
+        "type": "Lake",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.669317424639999,
+          51.56264552928
+        ]
+      },
+      "properties": {
+        "name": "Luisksee",
+        "type": "Lake",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.1038934336,
+          51.82781029951999
+        ]
+      },
+      "properties": {
+        "name": "Volensee",
+        "type": "Lake",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.77980179744,
+          52.290006570239996
+        ]
+      },
+      "properties": {
+        "name": "Felsensee",
+        "type": "Lake",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.06717194784,
+          52.348933611199996
+        ]
+      },
+      "properties": {
+        "name": "Zhylweiher",
+        "type": "Lake",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.604973926720001,
+          52.00642706687999
+        ]
+      },
+      "properties": {
+        "name": "Ziegelsee",
+        "type": "Lake",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.496330449599999,
+          53.091027243839996
+        ]
+      },
+      "properties": {
+        "name": "Grysee",
+        "type": "Lake",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.690452883520001,
+          50.99036870303999
+        ]
+      },
+      "properties": {
+        "name": "Eggersee",
+        "type": "Lake",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -8.210536935295998,
           40.718641491199996
         ]
@@ -2610,6 +2967,27 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          2.9459876147199995,
+          43.56759218112
+        ]
+      },
+      "properties": {
+        "name": "Geltensumpf",
+        "type": "Small Marsh",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -1.1321884767999995,
           57.477818407327995
         ]
@@ -2778,6 +3156,48 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -12.080715550399999,
+          56.40506901599999
+        ]
+      },
+      "properties": {
+        "name": "DRAGON'S MAW",
+        "type": "Small Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.0545092256,
+          57.770773560703994
+        ]
+      },
+      "properties": {
+        "name": "Manann's Teeth",
+        "type": "Small Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -3.7016694275199993,
           34.677107884799995
         ]
@@ -2883,6 +3303,111 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -16.455698568,
+          27.807901139199995
+        ]
+      },
+      "properties": {
+        "name": "The Pirate Coast",
+        "type": "Medium Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7843566624,
+          21.746503993599998
+        ]
+      },
+      "properties": {
+        "name": "Shark Straits",
+        "type": "Medium Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -53.29730820799999,
+          32.727171036799994
+        ]
+      },
+      "properties": {
+        "name": "Elaranna Bay",
+        "type": "Medium Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.7708736192,
+          24.985823990399997
+        ]
+      },
+      "properties": {
+        "name": "Bay of Tears",
+        "type": "Medium Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.906499977599985,
+          22.908697827199997
+        ]
+      },
+      "properties": {
+        "name": "Straits of Lothern",
+        "type": "Medium Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           3.1183951881600014,
           58.43286041951039
         ]
@@ -2967,8 +3492,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -15.690696575359999,
-          27.9157100256
+          -19.5803708656,
+          29.170713567999996
         ]
       },
       "properties": {
@@ -2988,13 +3513,202 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -33.0097591136,
-          24.877033129599994
+          -32.749341603199994,
+          24.585365728
         ]
       },
       "properties": {
         "name": "BAY OF CORSAIRS",
         "type": "Large Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9867901344,
+          15.983970144
+        ]
+      },
+      "properties": {
+        "name": "Gulf of Fear",
+        "type": "Large Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.163872832,
+          21.348554054399994
+        ]
+      },
+      "properties": {
+        "name": "Bitter Sea",
+        "type": "Large Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.7519852256,
+          31.081910563199997
+        ]
+      },
+      "properties": {
+        "name": "SEA OF DUSK",
+        "type": "Large Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.50761003519999,
+          29.107902214399996
+        ]
+      },
+      "properties": {
+        "name": "SEA OF DREAMS",
+        "type": "Large Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.02784603519999,
+          28.110261734399995
+        ]
+      },
+      "properties": {
+        "name": "Sea of Storms",
+        "type": "Large Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.48660738528,
+          6.035018617599998
+        ]
+      },
+      "properties": {
+        "name": "GULF OF MEDES",
+        "type": "Major Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.028190787199996,
+          20.2655483168
+        ]
+      },
+      "properties": {
+        "name": "SEA OF DREAD",
+        "type": "Major Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.87580176959999,
+          57.391913098816
+        ]
+      },
+      "properties": {
+        "name": "SEA OF CHILL",
+        "type": "Major Sea",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.3423606944,
+          52.78226701119999
+        ]
+      },
+      "properties": {
+        "name": "SEA OF MALICE",
+        "type": "Ocean",
         "description": null,
         "wiki": {
           "title": null,
@@ -3429,8 +4143,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.9942098710399991,
-          56.878534361919996
+          -1.0844398403199995,
+          56.637307887039995
         ]
       },
       "properties": {
@@ -4395,6 +5109,489 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          10.5094856192,
+          48.389378976959996
+        ]
+      },
+      "properties": {
+        "name": "The Unclean Wood",
+        "type": "Forest Labels",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.4183405216,
+          47.52479515295999
+        ]
+      },
+      "properties": {
+        "name": "Forsaken Forest",
+        "type": "Forest Labels",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.14715830528,
+          45.838442288959996
+        ]
+      },
+      "properties": {
+        "name": "Notnam Forest",
+        "type": "Forest Labels",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.26366790496,
+          43.637032299519994
+        ]
+      },
+      "properties": {
+        "name": "Martinswald",
+        "type": "Forest Labels",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.156758568320001,
+          43.416061278399994
+        ]
+      },
+      "properties": {
+        "name": "Aschwald",
+        "type": "Forest Labels",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.0759502636800002,
+          42.27621917759999
+        ]
+      },
+      "properties": {
+        "name": "Brenzwald",
+        "type": "Forest Labels",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.4636373942399994,
+          46.18124150015999
+        ]
+      },
+      "properties": {
+        "name": "Deep Forests of Durthu",
+        "type": "Forest Labels",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.23554327615999932,
+          56.379508449919996
+        ]
+      },
+      "properties": {
+        "name": "Golden Wood",
+        "type": "Forest Labels",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.712471788479999,
+          56.885900167647996
+        ]
+      },
+      "properties": {
+        "name": "Silver Wood",
+        "type": "Forest Labels",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.9316013887999997,
+          56.14012357087999
+        ]
+      },
+      "properties": {
+        "name": "Wishing Wood",
+        "type": "Forest Labels",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.840215901439999,
+          47.006566127679996
+        ]
+      },
+      "properties": {
+        "name": "Wailing Woods",
+        "type": "Forest Labels",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3205593673599996,
+          44.523754482559994
+        ]
+      },
+      "properties": {
+        "name": "Eppiswald",
+        "type": "Forest Labels",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.221600872640001,
+          44.26984828511999
+        ]
+      },
+      "properties": {
+        "name": "Morgenwald",
+        "type": "Forest Labels",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3113522633600003,
+          43.17214951488
+        ]
+      },
+      "properties": {
+        "name": "Tapfwald",
+        "type": "Forest Labels",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.5787657724800006,
+          42.47693386976
+        ]
+      },
+      "properties": {
+        "name": "Geistenwald",
+        "type": "Forest Labels",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9983100271999998,
+          43.69879726399999
+        ]
+      },
+      "properties": {
+        "name": "Ziertwald",
+        "type": "Forest Labels",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.6519554035200008,
+          44.30296410272
+        ]
+      },
+      "properties": {
+        "name": "Dietenwald",
+        "type": "Forest Labels",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.81835515584,
+          44.77635523167999
+        ]
+      },
+      "properties": {
+        "name": "Dämulwald",
+        "type": "Forest Labels",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.75845924928,
+          45.263334890879996
+        ]
+      },
+      "properties": {
+        "name": "Marschwald",
+        "type": "Forest Labels",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.077468929919999,
+          45.3740114576
+        ]
+      },
+      "properties": {
+        "name": "Habichtwald",
+        "type": "Forest Labels",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.501947912320001,
+          45.501615267519995
+        ]
+      },
+      "properties": {
+        "name": "Finnwald",
+        "type": "Forest Labels",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.40819878304,
+          44.83885536416
+        ]
+      },
+      "properties": {
+        "name": "Obernwald",
+        "type": "Forest Labels",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.09407174720000008,
+          55.35751815551999
+        ]
+      },
+      "properties": {
+        "name": "Elsterwald",
+        "type": "Forest Labels",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           3.7959914819200002,
           55.499611251519994
         ]
@@ -4542,8 +5739,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.2140566656,
-          48.043685654399994
+          13.2766649728,
+          47.80982503775999
         ]
       },
       "properties": {
@@ -4899,8 +6096,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          11.5473905504,
-          49.2676441024
+          11.531764729599997,
+          49.27806055775999
         ]
       },
       "properties": {
@@ -4983,8 +6180,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          6.4597339232,
-          63.90681325855999
+          6.14723343584,
+          63.815667830079995
         ]
       },
       "properties": {
@@ -5025,8 +6222,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          3.9333002096000005,
-          65.13688427839999
+          5.467154374720001,
+          64.50667621375999
         ]
       },
       "properties": {
@@ -5193,8 +6390,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -23.806034610879998,
-          25.230958758399996
+          -27.545617702399998,
+          22.376793276799997
         ]
       },
       "properties": {
@@ -5235,7 +6432,28 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.413905134218407,
+          3.9545252099200003,
+          65.45629236927999
+        ]
+      },
+      "properties": {
+        "name": "Jagged Tooth Mountains",
+        "type": "Mountain Ranges",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.4139051232,
           51.49771706687999
         ]
       },
@@ -5256,7 +6474,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.769740468618405,
+          16.769740457599998,
           60.144552649792
         ]
       },
@@ -5277,7 +6495,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.983932056138407,
+          9.98393204512,
           61.99049896895999
         ]
       },
@@ -5298,7 +6516,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          7.878749256458406,
+          7.878749245439999,
           44.25032082271999
         ]
       },
@@ -5319,7 +6537,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.339685862538406,
+          4.33968585152,
           41.90136174048
         ]
       },
@@ -5340,8 +6558,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          2.2133846618984077,
-          41.61620495168
+          2.2520539625600002,
+          41.67881290879999
         ]
       },
       "properties": {
@@ -5361,7 +6579,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.7876040628584062,
+          1.7876040518399994,
           41.95604896256
         ]
       },
@@ -5382,7 +6600,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          0.17302074957840752,
+          0.1730207385600008,
           40.693027887999996
         ]
       },
@@ -5403,7 +6621,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.306146193461593,
+          -1.3061462044799999,
           38.92219546879999
         ]
       },
@@ -5424,7 +6642,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.4884375947415927,
+          -2.4884376057599993,
           37.87011404799999
         ]
       },
@@ -5445,7 +6663,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.64103174861841,
+          13.6410317376,
           44.45628128863999
         ]
       },
@@ -5466,7 +6684,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.174865239818407,
+          14.174865228799998,
           40.35844417919999
         ]
       },
@@ -5487,7 +6705,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.891009873418408,
+          13.891009862399999,
           36.53552856959999
         ]
       },
@@ -5508,7 +6726,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.1439431019415927,
+          -1.1439431129599995,
           49.08972486943999
         ]
       },
@@ -5529,7 +6747,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.3278721966615925,
+          -3.327872207679999,
           49.892586263679995
         ]
       },
@@ -5550,8 +6768,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -5.125102048181593,
-          52.533188066879994
+          -5.0665084694399996,
+          52.43422972799999
         ]
       },
       "properties": {
@@ -5571,7 +6789,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          5.651712360778407,
+          5.65171234976,
           62.70314457215999
         ]
       },
@@ -5592,7 +6810,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          0.32551314701840756,
+          0.3255131360000008,
           47.84123894144
         ]
       },
@@ -5613,7 +6831,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.9634838635415929,
+          -0.9634838745599996,
           48.500469163199995
         ]
       },
@@ -5634,49 +6852,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.3271068833815929,
-          49.33955526047999
-        ]
-      },
-      "properties": {
-        "name": "Dragon Peak",
-        "type": "Mountain Passes",
-        "description": null,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.2616832328215928,
-          49.180755471679994
-        ]
-      },
-      "properties": {
-        "name": "Claw Peak",
-        "type": "Mountain Passes",
-        "description": null,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.96915653901841,
+          16.969156528,
           43.352114790399995
         ]
       },
@@ -5697,28 +6873,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.8752842216215933,
-          49.807003081279994
-        ]
-      },
-      "properties": {
-        "name": "Mount Taurig",
-        "type": "Mountain Passes",
-        "description": null,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -4.059319546421593,
+          -4.059319557439999,
           50.50858563135999
         ]
       },
@@ -5739,12 +6894,201 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -4.724073680501592,
-          51.31328792127999
+          -4.799571944319999,
+          51.23594824768
         ]
       },
       "properties": {
         "name": "Mont d'Or",
+        "type": "Mountain Passes",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.3712504454399994,
+          41.57063398783999
+        ]
+      },
+      "properties": {
+        "name": "Novalone Pass",
+        "type": "Mountain Passes",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.9894261238399995,
+          42.875319833599995
+        ]
+      },
+      "properties": {
+        "name": "Pinetop Pass",
+        "type": "Mountain Passes",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.689053904,
+          41.0014991296
+        ]
+      },
+      "properties": {
+        "name": "Tramoto Pass",
+        "type": "Mountain Passes",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.96989556832,
+          15.318032214399993
+        ]
+      },
+      "properties": {
+        "name": "Charnal Valley",
+        "type": "Mountain Passes",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.719895155840001,
+          9.047197958399996
+        ]
+      },
+      "properties": {
+        "name": "Golden Pass",
+        "type": "Mountain Passes",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.8780131616,
+          35.393844172799994
+        ]
+      },
+      "properties": {
+        "name": "The Lost Pass (Nar Kadrin)",
+        "type": "Mountain Passes",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.088927609599997,
+          41.66833974048
+        ]
+      },
+      "properties": {
+        "name": "Blizzard Gap",
+        "type": "Mountain Passes",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4321337312,
+          48.450841647359994
+        ]
+      },
+      "properties": {
+        "name": "King's Way",
+        "type": "Mountain Passes",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.473237870719999,
+          50.8648578464
+        ]
+      },
+      "properties": {
+        "name": "The Crooked Cooridor",
         "type": "Mountain Passes",
         "description": null,
         "wiki": {
@@ -6810,8 +8154,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.5579857046400007,
-          44.56839265823999
+          1.3304979443200007,
+          44.25435812032
         ]
       },
       "properties": {
@@ -6915,8 +8259,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          5.49268920992,
-          43.31212917792
+          4.503844664960001,
+          42.72839790911999
         ]
       },
       "properties": {
@@ -6984,6 +8328,174 @@
       },
       "properties": {
         "name": "Dreihügel",
+        "type": "Minor Hills",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.08032731392,
+          42.005006425279994
+        ]
+      },
+      "properties": {
+        "name": "Tierhügel",
+        "type": "Minor Hills",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.4967185539200007,
+          50.038224969919995
+        ]
+      },
+      "properties": {
+        "name": "Verloen Range",
+        "type": "Minor Hills",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9262705648000003,
+          44.829874761919996
+        ]
+      },
+      "properties": {
+        "name": "Salmhügel",
+        "type": "Minor Hills",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.2449441686400005,
+          46.512935998719996
+        ]
+      },
+      "properties": {
+        "name": "Dotternhügel",
+        "type": "Minor Hills",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.30571140512,
+          45.91815585503999
+        ]
+      },
+      "properties": {
+        "name": "Haigenhügel",
+        "type": "Minor Hills",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.9199681129600004,
+          44.99831225312
+        ]
+      },
+      "properties": {
+        "name": "Raggel Hills",
+        "type": "Minor Hills",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.61875459328,
+          44.13084499519999
+        ]
+      },
+      "properties": {
+        "name": "Raggel Hills",
+        "type": "Minor Hills",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.8062544464000005,
+          43.74542792
+        ]
+      },
+      "properties": {
+        "name": "Zemen Hills",
         "type": "Minor Hills",
         "description": null,
         "wiki": {
@@ -7503,8 +9015,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          7.41216034592,
-          49.044952087999995
+          7.125702134719999,
+          48.748077421439994
         ]
       },
       "properties": {
@@ -7608,8 +9120,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.1363272976000003,
-          56.69173394943999
+          0.8435406902400007,
+          56.82247517631999
         ]
       },
       "properties": {
@@ -7629,29 +9141,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          0.4973836867200002,
-          56.842421684479994
-        ]
-      },
-      "properties": {
-        "name": "Enchanted Hills",
-        "type": "Hills",
-        "description": null,
-        "wiki": {
-          "title": null,
-          "url": null,
-          "description": null,
-          "image": null
-        }
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -0.1837797471999991,
-          55.78818832191999
+          -0.3403008652799993,
+          55.839748104319995
         ]
       },
       "properties": {
@@ -8070,8 +9561,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          2.9107541631999996,
-          41.010270383999995
+          3.317004324160001,
+          41.062353535999996
         ]
       },
       "properties": {
@@ -8385,6 +9876,90 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          7.63541651424,
+          48.96447674784
+        ]
+      },
+      "properties": {
+        "name": "Broken Spine",
+        "type": "Hills",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.03644713824,
+          28.672220652799997
+        ]
+      },
+      "properties": {
+        "name": "Wyvern Cliffs",
+        "type": "Hills",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.6417565036799995,
+          48.05376130688
+        ]
+      },
+      "properties": {
+        "name": "Hills of the Dead",
+        "type": "Hills",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.485273055359999,
+          42.03308721727999
+        ]
+      },
+      "properties": {
+        "name": "Cornalina Hills",
+        "type": "Hills",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           0.21419259712000016,
           49.5432550848
         ]
@@ -8490,7 +10065,238 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          4.244791077258406,
+          1.7103497977600004,
+          45.065832532799995
+        ]
+      },
+      "properties": {
+        "name": "Bear Valley (Berozdalaz)",
+        "type": "Minor Lowlands",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.9903685968,
+          48.85793357567999
+        ]
+      },
+      "properties": {
+        "name": "Morr's Heath",
+        "type": "Minor Lowlands",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.2079741452800001,
+          50.645616745599995
+        ]
+      },
+      "properties": {
+        "name": "Lauental",
+        "type": "Minor Lowlands",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.006111521600000152,
+          55.80409648224
+        ]
+      },
+      "properties": {
+        "name": "Vale of Khaine",
+        "type": "Minor Lowlands",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.7813510787200004,
+          56.35468217664
+        ]
+      },
+      "properties": {
+        "name": "Dell of Desire",
+        "type": "Minor Lowlands",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.2751382185599998,
+          57.054096663775994
+        ]
+      },
+      "properties": {
+        "name": "Vale of Despair",
+        "type": "Minor Lowlands",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.13972165407999948,
+          56.646544222719996
+        ]
+      },
+      "properties": {
+        "name": "Vale of Memories",
+        "type": "Minor Lowlands",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.6372606396800014,
+          43.278544253119996
+        ]
+      },
+      "properties": {
+        "name": "Plains of Meik",
+        "type": "Minor Lowlands",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.7700562726400008,
+          47.22287478336
+        ]
+      },
+      "properties": {
+        "name": "Grauental",
+        "type": "Minor Lowlands",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.353385532159999,
+          45.1614026224
+        ]
+      },
+      "properties": {
+        "name": "Oggeltal",
+        "type": "Minor Lowlands",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.05115312384,
+          44.41654458304
+        ]
+      },
+      "properties": {
+        "name": "Vale of the Upper Reik",
+        "type": "Minor Lowlands",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.2447910662399995,
           42.18973751488
         ]
       },
@@ -8511,7 +10317,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          11.77770994381841,
+          11.7777099328,
           52.98530658463999
         ]
       },
@@ -8532,7 +10338,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          9.943853672458406,
+          9.94385366144,
           44.98729961152
         ]
       },
@@ -8553,7 +10359,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.990990740618407,
+          1.9909907296000005,
           42.70500293791999
         ]
       },
@@ -8574,7 +10380,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.1198730234984073,
+          1.1198730124800007,
           62.717604276479996
         ]
       },
@@ -8595,7 +10401,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -8.304606150901593,
+          -8.304606161919999,
           34.295727232
         ]
       },
@@ -8616,7 +10422,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          20.844251572618408,
+          20.8442515616,
           33.3211727776
         ]
       },
@@ -8637,7 +10443,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -1.9400225713815922,
+          -1.9400225823999988,
           65.85302052928
         ]
       },
@@ -8658,7 +10464,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -6.516508101173592,
+          -6.516508112191999,
           53.74076907231999
         ]
       },
@@ -8679,7 +10485,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          0.5536676346984067,
+          0.55366762368,
           48.85974664
         ]
       },
@@ -8700,7 +10506,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          1.5623660916584063,
+          1.5623660806399997,
           72.07335084415999
         ]
       },
@@ -8721,7 +10527,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.084261970058407,
+          8.08426195904,
           71.5900366976
         ]
       },
@@ -8742,7 +10548,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.18967716301841,
+          16.189677151999998,
           50.34976343744
         ]
       },
@@ -8763,7 +10569,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          24.04671689741841,
+          24.0467168864,
           52.84732640352
         ]
       },
@@ -8784,7 +10590,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          21.683939457418408,
+          21.683939446399997,
           46.748835131199996
         ]
       },
@@ -8805,8 +10611,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          3.161994862538407,
-          67.32444475295999
+          4.164598940800001,
+          67.933820432
         ]
       },
       "properties": {
@@ -8826,7 +10632,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          8.703206385738406,
+          8.70320637472,
           58.46760426839679
         ]
       },
@@ -8847,7 +10653,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          7.546956385418407,
+          7.5469563744,
           56.22281264192
         ]
       },
@@ -8868,12 +10674,306 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.923542807818407,
+          13.9235427968,
           53.138952145599994
         ]
       },
       "properties": {
         "name": "The Oberveldt",
+        "type": "Lowlands",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.24377241024,
+          49.62276787999999
+        ]
+      },
+      "properties": {
+        "name": "Vale of Darkness",
+        "type": "Lowlands",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.71528475808,
+          42.62284406304
+        ]
+      },
+      "properties": {
+        "name": "Vale of Aulen",
+        "type": "Lowlands",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.5916607942399996,
+          40.9929116672
+        ]
+      },
+      "properties": {
+        "name": "Yetzin Valley",
+        "type": "Lowlands",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.0824489353599995,
+          40.5766507936
+        ]
+      },
+      "properties": {
+        "name": "Brenheimer Vale",
+        "type": "Lowlands",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.0220303977599987,
+          42.27531527104
+        ]
+      },
+      "properties": {
+        "name": "The Meadow Glades",
+        "type": "Lowlands",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.4465094185599994,
+          47.173753658239995
+        ]
+      },
+      "properties": {
+        "name": "The Wild Heath",
+        "type": "Lowlands",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.7808704572800007,
+          45.018876127359995
+        ]
+      },
+      "properties": {
+        "name": "Plain of Köfer",
+        "type": "Lowlands",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.9792506217600006,
+          45.744711869759996
+        ]
+      },
+      "properties": {
+        "name": "Merogen Plain",
+        "type": "Lowlands",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.69294558976,
+          44.61587488383999
+        ]
+      },
+      "properties": {
+        "name": "Vale of Teger",
+        "type": "Lowlands",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.09448277952,
+          44.09475157215999
+        ]
+      },
+      "properties": {
+        "name": "Ell Valley",
+        "type": "Lowlands",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.53090108448,
+          42.17414705215999
+        ]
+      },
+      "properties": {
+        "name": "Upper Söllthal",
+        "type": "Lowlands",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.3176559980799993,
+          42.57710015968
+        ]
+      },
+      "properties": {
+        "name": "Sonnental",
+        "type": "Lowlands",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.12029057888,
+          43.909999127679995
+        ]
+      },
+      "properties": {
+        "name": "Vale of Staffel",
+        "type": "Lowlands",
+        "description": null,
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        }
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.5760575536000005,
+          66.72548675456
+        ]
+      },
+      "properties": {
+        "name": "Ejsgard",
         "type": "Lowlands",
         "description": null,
         "wiki": {
