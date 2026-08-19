@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bögenhafen — Atlas of the Old World</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@main/dist/en/v7.0.0/legacy/ol.css" type="text/css">
+    <link rel="stylesheet" href="../shared/city-map.css">
+</head>
+<body>
+    <div id="map"></div>
+    <div class="city-title">Bögenhafen</div>
+
+    <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@main/dist/en/v7.0.0/legacy/ol.js"></script>
+    <script src="../shared/city-map.js"></script>
+    <script>
+        initCityMap({
+            image: 'bogenhafen.png',
+            geojson: 'locations.geojson',
+            imageWidth: 6890,
+            imageHeight: 6400,
+            svgWidth: 349.99988,
+            svgHeight: 325.129,
+        });
+    </script>
+</body>
+</html>
