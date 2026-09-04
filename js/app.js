@@ -93,6 +93,13 @@ async function initializeApp() {
         mapManager.getSkavendomSource().addFeatures(skavendomFeatures);
         console.log(`Loaded ${skavendomFeatures.length} skavendom settlements`);
 
+        // Load city-scale map overlays (basemap image + location markers),
+        // shown once zoomed in close enough to a city that has one.
+        await cityOverlayManager.load(mapManager.getMap());
+        mapManager.getMap().on('moveend', () => cityOverlayManager.update(mapManager.getMap()));
+        cityOverlayManager.update(mapManager.getMap());
+        console.log(`Loaded ${CITY_OVERLAYS_CONFIG.length} city overlay(s)`);
+
         // Initialize UI controls
         uiControls.initialize(mapManager.getMap());
 

@@ -33,6 +33,17 @@ class MapManager {
         this.greenskinTribeSource = null;
         this.northmenTribeVectorLayer = null;
         this.northmenTribeSource = null;
+
+        // Base (non-city-overlay) resolution limits and view options, needed to
+        // rebuild the view when a city overlay temporarily relaxes minResolution.
+        this.baseMinResolution = null;
+        this.baseMaxResolution = null;
+        this.bufferedExtent = null;
+        this.currentMinResolution = null;
+        this.resolutionChangeListeners = [];
+        this.boundResolutionChangeHandler = () => {
+            this.resolutionChangeListeners.forEach((listener) => listener());
+        };
     }
 
     /**
@@ -72,6 +83,11 @@ class MapManager {
             coordinateFormat: coordinateFormat
         });
 
+        this.baseMinResolution = tileResolutions[tileResolutions.length - 1];
+        this.baseMaxResolution = tileResolutions[2];
+        this.bufferedExtent = bufferedExtent;
+        this.currentMinResolution = this.baseMinResolution;
+
         this.gridSource = new ol.source.Vector();  // Grid overlay
         this.allSettlementLabelsSource = new ol.source.Vector();  // Combined labels for all settlement types
         this.settlementSource = new ol.source.Vector();
@@ -110,16 +126,14 @@ class MapManager {
                 this.createGreenskinTribeLayer(),  // [12]
                 this.createNorthmenTribeLayer()    // [13]
             ],
-            view: new ol.View({
+            view: this.buildView({
                 center: this.isMobilePortrait() ? imageCenter : [2.7, imageCenter[1]],
                 resolution: this.isMobilePortrait() ? 0.0075 : 0.018, // Resolution for desktop: 0.075015, for mobile portrait: 0.020
-                maxResolution: tileResolutions[2],
-                minResolution: tileResolutions[tileResolutions.length - 1],
-                extent: bufferedExtent,
-                enableRotation: false,  // Disable rotation for better mobile performance
-                constrainRotation: false
+                minResolution: this.baseMinResolution,
             })
         });
+
+        this.bindResolutionListener();
 
         // Store references to layers for visibility control
         this.gridVectorLayer = this.map.getLayers().item(1);
@@ -144,6 +158,77 @@ class MapManager {
 
 
         return this.map;
+    }
+
+    /**
+     * Build a view with the standard base map/rotation/extent options, plus
+     * whatever caller-supplied options (center, resolution, minResolution).
+     * Pulled out so the view can be rebuilt with a different minResolution
+     * (see setMinResolutionOverride) without duplicating its fixed options.
+     * @private
+     * @param {object} options - center, resolution, minResolution
+     * @returns {ol.View}
+     */
+    buildView(options) {
+        return new ol.View({
+            center: options.center,
+            resolution: options.resolution,
+            maxResolution: this.baseMaxResolution,
+            minResolution: options.minResolution,
+            extent: this.bufferedExtent,
+            enableRotation: false,  // Disable rotation for better mobile performance
+            constrainRotation: false
+        });
+    }
+
+    /**
+     * (Re)attach the internal 'change:resolution' dispatcher to whichever
+     * view is currently active. Must be called again after any setView(),
+     * since OL view listeners don't carry over to a replacement view.
+     * @private
+     */
+    bindResolutionListener() {
+        // The previous view (if any) is discarded by setView() and holds no
+        // other references, so its listener simply stops firing; no need to
+        // explicitly unbind it.
+        this.map.getView().on('change:resolution', this.boundResolutionChangeHandler);
+    }
+
+    /**
+     * Subscribe to view resolution changes. Survives view swaps triggered by
+     * setMinResolutionOverride (unlike listening on getView() directly).
+     * @param {function} callback
+     */
+    onResolutionChange(callback) {
+        this.resolutionChangeListeners.push(callback);
+    }
+
+    /**
+     * Relax or restore the view's minResolution (how far in the user is
+     * allowed to zoom). Used to let city overlays be viewed at their native
+     * detail, which is finer than the continent tile pyramid's normal floor.
+     * OL's View has no live setter for minResolution, so this rebuilds the
+     * view in place, preserving current center/resolution/rotation.
+     * @param {number|null} minResolution - null (or omitted) resets to the base map's normal minResolution
+     */
+    setMinResolutionOverride(minResolution) {
+        const targetMinResolution = minResolution ?? this.baseMinResolution;
+        if (targetMinResolution === this.currentMinResolution) {
+            return;
+        }
+        this.currentMinResolution = targetMinResolution;
+
+        const oldView = this.map.getView();
+        const newView = this.buildView({
+            center: oldView.getCenter(),
+            // Keep current resolution, but pull it back within the new floor
+            // when restoring the normal (coarser) limit after zooming deep.
+            resolution: Math.max(oldView.getResolution(), targetMinResolution),
+            minResolution: targetMinResolution,
+        });
+
+        this.map.setView(newView);
+        this.bindResolutionListener();
     }
 
     /**
@@ -564,7 +649,7 @@ class MapManager {
      */
     setupEventListeners() {
         // Update styles on zoom change
-        this.map.getView().on('change:resolution', () => {
+        this.onResolutionChange(() => {
             this.allSettlementLabelsSource.changed();
             this.settlementSource.changed();
             this.settlementMarkersOnlySource.changed();

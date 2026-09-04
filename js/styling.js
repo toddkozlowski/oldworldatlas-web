@@ -223,12 +223,27 @@ function constructFontString(fontConfig, fontSize) {
 }
 
 /**
- * Get interpolated font size based on zoom level
+ * Get interpolated font size based on zoom level.
+ *
+ * Normally a single (minFontZoom, maxFontZoom) -> (minFontSize, maxFontSize)
+ * interpolation. Configs may optionally add deepMaxFontZoom/deepMaxFontSize
+ * for a second segment that only kicks in beyond maxFontZoom (i.e. only at
+ * extreme close zoom) - letting labels keep growing past their normal cap
+ * without changing sizes at any resolution the normal range already covers.
  * @param {Object} config - Style configuration with min/max font settings
  * @param {number} currentResolution - Current map resolution
  * @returns {number} Interpolated font size
  */
 function getInterpolatedFontSize(config, currentResolution) {
+    if (config.deepMaxFontZoom !== undefined && currentResolution <= config.maxFontZoom) {
+        return Math.round(lerp(
+            currentResolution,
+            config.maxFontZoom,
+            config.deepMaxFontZoom,
+            config.maxFontSize,
+            config.deepMaxFontSize
+        ));
+    }
     return Math.round(lerp(
         currentResolution,
         config.minFontZoom,
@@ -239,19 +254,62 @@ function getInterpolatedFontSize(config, currentResolution) {
 }
 
 /**
- * Get interpolated dot radius based on zoom level
+ * Get interpolated dot radius based on zoom level. See getInterpolatedFontSize
+ * for the optional deep-zoom second segment (marker.deepMaxRadiusZoom/deepMaxRadius).
  * @param {Object} config - Style configuration with min/max radius settings
  * @param {number} currentResolution - Current map resolution
  * @returns {number} Interpolated radius
  */
 function getInterpolatedRadius(config, currentResolution) {
     const marker = config.marker || {};
+    if (marker.deepMaxRadiusZoom !== undefined && currentResolution <= marker.maxRadiusZoom) {
+        return lerp(
+            currentResolution,
+            marker.maxRadiusZoom,
+            marker.deepMaxRadiusZoom,
+            marker.maxRadius || 0,
+            marker.deepMaxRadius
+        );
+    }
     return lerp(
         currentResolution,
         marker.minRadiusZoom || 0,
         marker.maxRadiusZoom || 0,
         marker.minRadius || 0,
         marker.maxRadius || 0
+    );
+}
+
+/**
+ * Get interpolated icon display height (px), for POI types with a
+ * config.icon image marker instead of a plain dot. Interpolates
+ * config.iconMinSize -> config.iconMaxSize (pixel heights) over
+ * config.iconMinZoom -> config.iconMaxZoom - its own zoom breakpoints,
+ * independent of the dot marker's marker.minRadiusZoom/maxRadiusZoom (falls
+ * back to those if icon-specific ones aren't given). Divide the result by
+ * config.iconHeight (the source image's natural pixel height) to get an
+ * ol.style.Icon scale factor.
+ *
+ * Interpolates over log(resolution) rather than raw resolution: resolution
+ * shrinks by a constant factor per zoom step (each zoom-in step roughly
+ * halves it), so a plain linear lerp over resolution front-loads almost all
+ * the growth into the first couple of zoom-in steps and then barely changes
+ * for the rest. Log-space makes each zoom step contribute a roughly equal
+ * share of growth instead.
+ * @param {Object} config - Style configuration with iconMinSize/iconMaxSize
+ * @param {number} currentResolution - Current map resolution
+ * @returns {number} Interpolated icon height in pixels
+ */
+function getInterpolatedIconSize(config, currentResolution) {
+    const marker = config.marker || {};
+    const minZoom = config.iconMinZoom !== undefined ? config.iconMinZoom : (marker.minRadiusZoom || 0);
+    const maxZoom = config.iconMaxZoom !== undefined ? config.iconMaxZoom : (marker.maxRadiusZoom || 0);
+    return lerp(
+        Math.log(currentResolution),
+        Math.log(minZoom),
+        Math.log(maxZoom),
+        config.iconMinSize || 0,
+        config.iconMaxSize || 0
     );
 }
 
@@ -332,8 +390,11 @@ function createPOIStyle(feature, currentResolution) {
         return null;
     }
     
-    const config = STYLES_CONFIG.poi.default;
-    
+    const poiType = feature.get('type');
+    const typeOverrides = STYLES_CONFIG.poi[poiType];
+    const config = typeOverrides ? { ...STYLES_CONFIG.poi.default, ...typeOverrides } : STYLES_CONFIG.poi.default;
+    const isPeak = poiType === 'Peaks';
+
     // Early exit for performance - don't even check visibility if way out of range
     if (currentResolution > config.minZoomLevel * 2) {
         return null;
@@ -368,14 +429,34 @@ function createPOIStyle(feature, currentResolution) {
                 })
             });
         } else {
-            const imageCacheKey = `poi_img_${currentResolution.toFixed(4)}`;
+            const imageCacheKey = `poi_img_${poiType}_${currentResolution.toFixed(4)}`;
             imageStyle = getCachedStyle(STYLE_CACHE.poi, imageCacheKey, () => {
+                if (isPeak) {
+                    // Dark triangle, like a peak symbol on a topographic map
+                    return new ol.style.RegularShape({
+                        points: 3,
+                        radius: radius,
+                        angle: 0, // one point faces up
+                        fill: new ol.style.Fill({ color: config.color }),
+                        stroke: new ol.style.Stroke({
+                            color: config.strokeColor,
+                            width: config.strokeWidth
+                        })
+                    });
+                }
+                if (config.icon) {
+                    const iconHeight = getInterpolatedIconSize(config, currentResolution);
+                    return new ol.style.Icon({
+                        src: config.icon,
+                        scale: iconHeight / config.iconHeight,
+                    });
+                }
                 return new ol.style.Circle({
                     radius: radius,
                     fill: new ol.style.Fill({ color: config.color }),
-                    stroke: new ol.style.Stroke({ 
-                        color: config.strokeColor, 
-                        width: config.strokeWidth 
+                    stroke: new ol.style.Stroke({
+                        color: config.strokeColor,
+                        width: config.strokeWidth
                     })
                 });
             });
@@ -761,18 +842,25 @@ function createDwarfSettlementStyle(feature, currentResolution) {
         } else {
             const imageCacheKey = `dwarf_img_${dwarfType}_${currentResolution.toFixed(4)}`;
             imageStyle = getCachedStyle(STYLE_CACHE.settlements, imageCacheKey, () => {
+                if (config.icon) {
+                    const iconHeight = getInterpolatedIconSize(config, currentResolution);
+                    return new ol.style.Icon({
+                        src: config.icon,
+                        scale: iconHeight / config.iconHeight,
+                    });
+                }
                 return new ol.style.Circle({
                     radius: radius,
                     fill: new ol.style.Fill({ color: config.color }),
-                    stroke: new ol.style.Stroke({ 
-                        color: config.strokeColor, 
-                        width: config.strokeWidth 
+                    stroke: new ol.style.Stroke({
+                        color: config.strokeColor,
+                        width: config.strokeWidth
                     })
                 });
             });
         }
     }
-    
+
     // Create style with feature-specific text (not cached)
     // Set zIndex based on settlement type for decluttering priority
     // Highlighted features get maximum zIndex
@@ -1028,12 +1116,19 @@ function createDwarfSettlementMarkerOnlyStyle(feature, currentResolution) {
     } else {
         const imageCacheKey = `dwarf_marker_${dwarfType}_${currentResolution.toFixed(4)}`;
         imageStyle = getCachedStyle(STYLE_CACHE.settlements, imageCacheKey, () => {
+            if (config.icon) {
+                const iconHeight = getInterpolatedIconSize(config, currentResolution);
+                return new ol.style.Icon({
+                    src: config.icon,
+                    scale: iconHeight / config.iconHeight,
+                });
+            }
             return new ol.style.Circle({
                 radius: radius,
                 fill: new ol.style.Fill({ color: config.color }),
-                stroke: new ol.style.Stroke({ 
-                    color: config.strokeColor, 
-                    width: config.strokeWidth 
+                stroke: new ol.style.Stroke({
+                    color: config.strokeColor,
+                    width: config.strokeWidth
                 })
             });
         });

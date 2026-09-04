@@ -14,17 +14,21 @@
         "textOffsetY": -8,
         "enableDecluttering": true,
         "minFontSize": 3,
-        "maxFontSize": 10,
-        "minFontZoom": 0.010,
-        "maxFontZoom": 0.0005,
+        "maxFontSize": 9,
+        "minFontZoom": 0.01,
+        "maxFontZoom": 0.0015,
+        "deepMaxFontSize": 16,
+        "deepMaxFontZoom": 0.00002,
         "minZoomLevel": 0.005,
         "maxZoomLevel": 0.00001,
         "marker": {
           "type": "circle",
           "minRadius": 0.5,
-          "maxRadius": 3,
+          "maxRadius": 2.4444,
           "minRadiusZoom": 0.005,
-          "maxRadiusZoom": 0.0005
+          "maxRadiusZoom": 0.0015,
+          "deepMaxRadius": 5,
+          "deepMaxRadiusZoom": 0.00002
         }
       },
       "2": {
@@ -40,17 +44,21 @@
         "textOffsetY": -8,
         "enableDecluttering": true,
         "minFontSize": 3,
-        "maxFontSize": 12,
-        "minFontZoom": 0.010,
-        "maxFontZoom": 0.0005,
+        "maxFontSize": 11,
+        "minFontZoom": 0.01,
+        "maxFontZoom": 0.0015,
+        "deepMaxFontSize": 18,
+        "deepMaxFontZoom": 0.00002,
         "minZoomLevel": 0.007,
         "maxZoomLevel": 0.00001,
         "marker": {
           "type": "circle",
           "minRadius": 0.5,
-          "maxRadius": 4,
+          "maxRadius": 3.4615,
           "minRadiusZoom": 0.007,
-          "maxRadiusZoom": 0.0005
+          "maxRadiusZoom": 0.0015,
+          "deepMaxRadius": 6,
+          "deepMaxRadiusZoom": 0.00002
         }
       },
       "3": {
@@ -67,16 +75,20 @@
         "enableDecluttering": true,
         "minFontSize": 6,
         "maxFontSize": 14,
-        "minFontZoom": 0.020,
-        "maxFontZoom": 0.0005,
+        "minFontZoom": 0.02,
+        "maxFontZoom": 0.0015,
+        "deepMaxFontSize": 22,
+        "deepMaxFontZoom": 0.00002,
         "minZoomLevel": 0.017,
         "maxZoomLevel": 0.00001,
         "marker": {
           "type": "circle",
           "minRadius": 3,
-          "maxRadius": 5,
-          "minRadiusZoom": 0.020,
-          "maxRadiusZoom": 0.0005
+          "maxRadius": 4.8974,
+          "minRadiusZoom": 0.02,
+          "maxRadiusZoom": 0.0015,
+          "deepMaxRadius": 8,
+          "deepMaxRadiusZoom": 0.00002
         }
       },
       "4": {
@@ -93,16 +105,20 @@
         "enableDecluttering": true,
         "minFontSize": 9,
         "maxFontSize": 16,
-        "minFontZoom": 0.030,
-        "maxFontZoom": 0.0005,
-        "minZoomLevel": 0.030,
+        "minFontZoom": 0.03,
+        "maxFontZoom": 0.0015,
+        "deepMaxFontSize": 26,
+        "deepMaxFontZoom": 0.00002,
+        "minZoomLevel": 0.03,
         "maxZoomLevel": 0.00001,
         "marker": {
           "type": "circle",
           "minRadius": 2,
-          "maxRadius": 6,
-          "minRadiusZoom": 0.050,
-          "maxRadiusZoom": 0.0005
+          "maxRadius": 5.9192,
+          "minRadiusZoom": 0.05,
+          "maxRadiusZoom": 0.0015,
+          "deepMaxRadius": 10,
+          "deepMaxRadiusZoom": 0.00002
         }
       },
       "5": {
@@ -119,16 +135,20 @@
         "enableDecluttering": true,
         "minFontSize": 12,
         "maxFontSize": 20,
-        "minFontZoom": 0.030,
-        "maxFontZoom": 0.0005,
-        "minZoomLevel": 0.030,
+        "minFontZoom": 0.03,
+        "maxFontZoom": 0.0015,
+        "deepMaxFontSize": 32,
+        "deepMaxFontZoom": 0.00002,
+        "minZoomLevel": 0.03,
         "maxZoomLevel": 0.00001,
         "marker": {
           "type": "circle",
           "minRadius": 2,
-          "maxRadius": 8,
-          "minRadiusZoom": 0.050,
-          "maxRadiusZoom": 0.0005
+          "maxRadius": 7.8788,
+          "minRadiusZoom": 0.05,
+          "maxRadiusZoom": 0.0015,
+          "deepMaxRadius": 13,
+          "deepMaxRadiusZoom": 0.00002
         }
       },
       "6": {
@@ -145,16 +165,20 @@
         "enableDecluttering": true,
         "minFontSize": 15,
         "maxFontSize": 24,
-        "minFontZoom": 0.030,
-        "maxFontZoom": 0.0005,
-        "minZoomLevel": 0.030,
-        "maxZoomLevel": 0.0007,
+        "minFontZoom": 0.03,
+        "maxFontZoom": 0.0015,
+        "deepMaxFontSize": 38,
+        "deepMaxFontZoom": 0.00002,
+        "minZoomLevel": 0.03,
+        "maxZoomLevel": 0.00001,
         "marker": {
           "type": "circle",
           "minRadius": 3,
-          "maxRadius": 8,
-          "minRadiusZoom": 0.050,
-          "maxRadiusZoom": 0.0007
+          "maxRadius": 7.9189,
+          "minRadiusZoom": 0.05,
+          "maxRadiusZoom": 0.0015,
+          "deepMaxRadius": 14,
+          "deepMaxRadiusZoom": 0.00002
         }
       }
     }
@@ -174,7 +198,7 @@
       "enableDecluttering": true,
       "minFontSize": 6,
       "maxFontSize": 14,
-      "minFontZoom": 0.020,
+      "minFontZoom": 0.02,
       "maxFontZoom": 0.0005,
       "minZoomLevel": 0.017,
       "maxZoomLevel": 0.00001,
@@ -182,9 +206,15 @@
         "type": "circle",
         "minRadius": 3,
         "maxRadius": 5,
-        "minRadiusZoom": 0.020,
+        "minRadiusZoom": 0.02,
         "maxRadiusZoom": 0.0005
-      }
+      },
+      "icon": "images/icons/grung.png",
+      "iconHeight": 321,
+      "iconMinSize": 7.875,
+      "iconMaxSize": 34.65,
+      "iconMinZoom": 0.005,
+      "iconMaxZoom": 0.00005
     },
     "Kazad": {
       "label": "Fortress",
@@ -200,7 +230,7 @@
       "enableDecluttering": true,
       "minFontSize": 6,
       "maxFontSize": 14,
-      "minFontZoom": 0.020,
+      "minFontZoom": 0.02,
       "maxFontZoom": 0.0005,
       "minZoomLevel": 0.017,
       "maxZoomLevel": 0.00001,
@@ -208,9 +238,15 @@
         "type": "circle",
         "minRadius": 3,
         "maxRadius": 5,
-        "minRadiusZoom": 0.020,
+        "minRadiusZoom": 0.02,
         "maxRadiusZoom": 0.0005
-      }
+      },
+      "icon": "images/icons/khazid.png",
+      "iconHeight": 321,
+      "iconMinSize": 11.25,
+      "iconMaxSize": 49.5,
+      "iconMinZoom": 0.005,
+      "iconMaxZoom": 0.00005
     },
     "Khazid": {
       "label": "Town",
@@ -226,7 +262,7 @@
       "enableDecluttering": true,
       "minFontSize": 6,
       "maxFontSize": 14,
-      "minFontZoom": 0.020,
+      "minFontZoom": 0.02,
       "maxFontZoom": 0.0005,
       "minZoomLevel": 0.017,
       "maxZoomLevel": 0.00001,
@@ -234,9 +270,15 @@
         "type": "circle",
         "minRadius": 3,
         "maxRadius": 5,
-        "minRadiusZoom": 0.020,
+        "minRadiusZoom": 0.02,
         "maxRadiusZoom": 0.0005
-      }
+      },
+      "icon": "images/icons/khazid.png",
+      "iconHeight": 321,
+      "iconMinSize": 11.25,
+      "iconMaxSize": 49.5,
+      "iconMinZoom": 0.005,
+      "iconMaxZoom": 0.00005
     },
     "Karak": {
       "label": "Great Hold",
@@ -252,17 +294,23 @@
       "enableDecluttering": true,
       "minFontSize": 9,
       "maxFontSize": 16,
-      "minFontZoom": 0.030,
+      "minFontZoom": 0.03,
       "maxFontZoom": 0.0005,
-      "minZoomLevel": 0.030,
+      "minZoomLevel": 0.03,
       "maxZoomLevel": 0.00001,
       "marker": {
         "type": "circle",
         "minRadius": 2,
         "maxRadius": 6,
-        "minRadiusZoom": 0.050,
+        "minRadiusZoom": 0.05,
         "maxRadiusZoom": 0.0005
-      }
+      },
+      "icon": "images/icons/karak.png",
+      "iconHeight": 321,
+      "iconMinSize": 12.65625,
+      "iconMaxSize": 55.6875,
+      "iconMinZoom": 0.005,
+      "iconMaxZoom": 0.00005
     }
   },
   "woodElfSettlements": {
@@ -280,7 +328,7 @@
       "enableDecluttering": true,
       "minFontSize": 6,
       "maxFontSize": 14,
-      "minFontZoom": 0.020,
+      "minFontZoom": 0.02,
       "maxFontZoom": 0.0005,
       "minZoomLevel": 0.017,
       "maxZoomLevel": 0.00001,
@@ -288,7 +336,7 @@
         "type": "circle",
         "minRadius": 3,
         "maxRadius": 5,
-        "minRadiusZoom": 0.020,
+        "minRadiusZoom": 0.02,
         "maxRadiusZoom": 0.0005
       }
     }
@@ -306,17 +354,37 @@
       "enableDecluttering": true,
       "minFontSize": 6,
       "maxFontSize": 14,
-      "minFontZoom": 0.020,
+      "minFontZoom": 0.02,
       "maxFontZoom": 0.0005,
-      "minZoomLevel": 0.020,
+      "minZoomLevel": 0.02,
       "maxZoomLevel": 0.00001,
       "marker": {
         "type": "circle",
         "minRadius": 3,
         "maxRadius": 5,
-        "minRadiusZoom": 0.020,
+        "minRadiusZoom": 0.02,
         "maxRadiusZoom": 0.0005
       }
+    },
+    "Peaks": {
+      "color": "rgba(45, 45, 45, 1)",
+      "textFont": "italic Arial, sans-serif"
+    },
+    "Forts and Castles": {
+      "icon": "images/icons/castle.png",
+      "iconHeight": 249,
+      "iconMinSize": 7.5,
+      "iconMaxSize": 33,
+      "iconMinZoom": 0.005,
+      "iconMaxZoom": 0.00005
+    },
+    "Chaos Shrines": {
+      "icon": "images/icons/chaos_star.png",
+      "iconHeight": 446,
+      "iconMinSize": 9.75,
+      "iconMaxSize": 42.9,
+      "iconMinZoom": 0.005,
+      "iconMaxZoom": 0.00005
     }
   },
   "provinces": {
@@ -325,7 +393,7 @@
       "maxFontSize": 48,
       "minFontZoom": 0.03,
       "maxFontZoom": 0.015,
-      "minZoomLevel": 100.0,
+      "minZoomLevel": 100,
       "maxZoomLevel": 0.015,
       "textFont": "bold Arial, bold sans-serif",
       "textFillColor": "rgba(0, 0, 0, 0.2)",
@@ -412,9 +480,9 @@
       "minFontSize": 28,
       "maxFontSize": 40,
       "minFontZoom": 0.0375,
-      "maxFontZoom": 0.010,
-      "minZoomLevel": 100.0,
-      "maxZoomLevel": 0.010,
+      "maxFontZoom": 0.01,
+      "minZoomLevel": 100,
+      "maxZoomLevel": 0.01,
       "textFont": "italic Arial, sans-serif",
       "textFillColor": "#0066cc",
       "textStrokeColor": "#fff",
@@ -425,7 +493,7 @@
       "maxFontSize": 30,
       "minFontZoom": 0.02,
       "maxFontZoom": 0.01,
-      "minZoomLevel": 100.0,
+      "minZoomLevel": 100,
       "maxZoomLevel": 0,
       "textFont": "italic Arial, sans-serif",
       "textFillColor": "#0066cc",
@@ -435,7 +503,7 @@
     "Large Sea": {
       "minFontSize": 18,
       "maxFontSize": 32,
-      "minFontZoom": 0.010,
+      "minFontZoom": 0.01,
       "maxFontZoom": 0.005,
       "minZoomLevel": 0.03,
       "maxZoomLevel": 0,
@@ -507,9 +575,9 @@
     "Mountain Ranges": {
       "minFontSize": 14,
       "maxFontSize": 26,
-      "minFontZoom": 0.010,
+      "minFontZoom": 0.01,
       "maxFontZoom": 0.003,
-      "minZoomLevel": 0.030,
+      "minZoomLevel": 0.03,
       "maxZoomLevel": 0,
       "textFont": "italic Arial, sans-serif",
       "textFillColor": "rgba(75, 46, 16, 0.85)",

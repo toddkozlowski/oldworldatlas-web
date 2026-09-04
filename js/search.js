@@ -52,99 +52,101 @@ class SearchManager {
     }
 
     /**
-     * Build searchable index of all settlement and POI features
+     * Build searchable index of all features
      */
     buildFeatureIndex() {
         this.allFeatures = [];
 
-        // Get settlement features
+        // Helper: push a feature entry with a pre-built label string
+        const push = (feature, name, label, coord) => {
+            if (!name) return;
+            this.allFeatures.push({
+                feature,
+                name,
+                normalizedName: this.normalizeString(name),
+                label,
+                coordinate: coord
+            });
+        };
+
+        // Settlements
         const settlementSource = mapManager.getSettlementSource();
-        
         if (settlementSource) {
-            const settlements = settlementSource.getFeatures();
-            settlements.forEach(feature => {
-                const name = feature.get('name');
-                const sizeCategory = feature.get('sizeCategory');
-                const province = feature.get('province');
-                const coord = feature.getGeometry().getCoordinates();
-                if (name) {
-                    const categoryLabel = getSizeCategoryLabel(sizeCategory);
-                    const details = province ? `${categoryLabel} (${province})` : categoryLabel;
-                    this.allFeatures.push({
-                        feature: feature,
-                        name: name,
-                        normalizedName: this.normalizeString(name),
-                        type: 'Settlement',
-                        details: details,
-                        coordinate: coord
-                    });
-                }
+            settlementSource.getFeatures().forEach(f => {
+                const name = f.get('name');
+                const sizeCategory = f.get('sizeCategory');
+                const province = f.get('province');
+                const categoryLabel = getSizeCategoryLabel(sizeCategory);
+                push(f, name, province ? `${categoryLabel} (${province})` : categoryLabel, f.getGeometry().getCoordinates());
             });
         }
 
-        // Get dwarf settlement features
+        // Dwarf settlements
         const dwarfSettlementSource = mapManager.getDwarfSettlementSource();
-        
         if (dwarfSettlementSource) {
-            const dwarfSettlements = dwarfSettlementSource.getFeatures();
-            dwarfSettlements.forEach(feature => {
-                const name = feature.get('name');
-                const dwarfHoldType = feature.get('dwarfHoldType');
-                const coord = feature.getGeometry().getCoordinates();
-                if (name) {
-                    this.allFeatures.push({
-                        feature: feature,
-                        name: name,
-                        normalizedName: this.normalizeString(name),
-                        type: 'Dwarf Settlement',
-                        details: dwarfHoldType || 'Khazid (Town)',
-                        coordinate: coord
-                    });
-                }
+            dwarfSettlementSource.getFeatures().forEach(f => {
+                const name = f.get('name');
+                push(f, name, `Dwarf Settlement — ${f.get('dwarfHoldType') || 'Khazid (Town)'}`, f.getGeometry().getCoordinates());
             });
         }
 
-        // Get wood elf settlement features
+        // Wood Elf settlements
         const woodElfSettlementSource = mapManager.getWoodElfSettlementSource();
-
         if (woodElfSettlementSource) {
-            const woodElfSettlements = woodElfSettlementSource.getFeatures();
-            woodElfSettlements.forEach(feature => {
-                const name = feature.get('name');
-                const settlementType = feature.get('settlementType');
-                const coord = feature.getGeometry().getCoordinates();
-                if (name) {
-                    this.allFeatures.push({
-                        feature: feature,
-                        name: name,
-                        normalizedName: this.normalizeString(name),
-                        type: 'Wood Elf Settlement',
-                        details: settlementType || 'Settlement',
-                        coordinate: coord
-                    });
-                }
+            woodElfSettlementSource.getFeatures().forEach(f => {
+                const name = f.get('name');
+                push(f, name, `Wood Elf Settlement — ${f.get('settlementType') || 'Settlement'}`, f.getGeometry().getCoordinates());
             });
         }
 
-        // Get POI features
+        // POIs
         const poiSource = mapManager.getPOISource();
-        
         if (poiSource) {
-            const pois = poiSource.getFeatures();
-            pois.forEach(feature => {
-                const name = feature.get('name');
-                const type = feature.get('type');
-                const coord = feature.getGeometry().getCoordinates();
-                if (name) {
-                    this.allFeatures.push({
-                        feature: feature,
-                        name: name,
-                        normalizedName: this.normalizeString(name),
-                        type: 'POI',
-                        details: type || 'Point of Interest',
-                        coordinate: coord
-                    });
-                }
+            poiSource.getFeatures().forEach(f => {
+                const name = f.get('name');
+                push(f, name, `POI — ${f.get('type') || 'Point of Interest'}`, f.getGeometry().getCoordinates());
+            });
+        }
+
+        // Province / region labels
+        const provinceLayer = mapManager.getProvinceLayer();
+        if (provinceLayer) {
+            const provinceTypeDisplay = {
+                'Nation': 'Nation-State', 'Nation-State': 'Nation-State',
+                'Major Division': 'Grand Province', 'Grand-Province': 'Grand Province',
+                'Minor Division': 'Province', 'Province': 'Province'
+            };
+            provinceLayer.getSource().getFeatures().forEach(f => {
+                const name = f.get('name');
+                const raw = f.get('provinceType') || '';
+                const label = provinceTypeDisplay[raw] || raw;
+                push(f, name, label, f.getGeometry().getCoordinates());
+            });
+        }
+
+        // Geographic feature labels (seas, lakes, hills, forests, etc.)
+        const waterLayer = mapManager.getWaterLayer();
+        if (waterLayer) {
+            waterLayer.getSource().getFeatures().forEach(f => {
+                const name = f.get('name');
+                const label = (f.get('waterbodyType') || '').replace(/ Labels$/, '');
+                push(f, name, label, f.getGeometry().getCoordinates());
+            });
+        }
+
+        // Greenskin tribe labels
+        const greenskinLayer = mapManager.getGreenskinTribeLayer();
+        if (greenskinLayer) {
+            greenskinLayer.getSource().getFeatures().forEach(f => {
+                push(f, f.get('name'), 'Greenskin Tribe', f.getGeometry().getCoordinates());
+            });
+        }
+
+        // Northmen tribe labels
+        const northmenLayer = mapManager.getNorthmenTribeLayer();
+        if (northmenLayer) {
+            northmenLayer.getSource().getFeatures().forEach(f => {
+                push(f, f.get('name'), 'Northmen Tribe', f.getGeometry().getCoordinates());
             });
         }
 
@@ -214,12 +216,9 @@ class SearchManager {
         matches.forEach(item => {
             const div = document.createElement('div');
             div.className = 'autocomplete-item';
-            // For settlements, just show the details (category + province)
-            // For POIs, show type prefix
-            const detailsText = item.type === 'Settlement' ? item.details : `${item.type} - ${item.details}`;
             div.innerHTML = `
                 <div class="autocomplete-name">${this.highlightMatch(item.name, this.searchInput.value)}</div>
-                <div class="autocomplete-details">${detailsText}</div>
+                <div class="autocomplete-details">${item.label}</div>
             `;
             div.addEventListener('click', () => this.selectFeature(item));
             this.dropdown.appendChild(div);

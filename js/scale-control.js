@@ -31,8 +31,10 @@ class ScaleControl {
         this.map = map;
         this.createScaleElement();
         
-        // Update scale on view changes
-        this.map.getView().on('change:resolution', () => {
+        // Update scale on view changes. Routed through mapManager (rather than
+        // binding to this.map.getView() directly) so it keeps firing after a
+        // city overlay swaps in a view with a relaxed minResolution.
+        mapManager.onResolutionChange(() => {
             this.updateScale();
         });
         

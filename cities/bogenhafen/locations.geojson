@@ -14,8 +14,8 @@
         "name": "Haagen Herenhuis",
         "opacity": 1.0,
         "source_id": "text2",
-        "geo_lon": -1.4092308892765133,
-        "geo_lat": 50.25643428380078
+        "geo_lon": -1.4328718010152417,
+        "geo_lat": 50.3000066899876
       }
     },
     {
@@ -31,8 +31,8 @@
         "name": "Kleinwald Manor",
         "opacity": 1.0,
         "source_id": "text3",
-        "geo_lon": -1.3831890970399674,
-        "geo_lat": 50.263536001258714
+        "geo_lon": -1.4322216475883105,
+        "geo_lat": 50.30028426578227
       }
     },
     {
@@ -48,8 +48,8 @@
         "name": "Teugen House",
         "opacity": 0.5,
         "source_id": "text4",
-        "geo_lon": -1.3794127838170815,
-        "geo_lat": 50.272434080202025
+        "geo_lon": -1.4321273690163625,
+        "geo_lat": 50.30063205367278
       }
     },
     {
@@ -65,8 +65,8 @@
         "name": "Ruggbroder House",
         "opacity": 0.5,
         "source_id": "text5",
-        "geo_lon": -1.426239505352965,
-        "geo_lat": 50.258390108893785
+        "geo_lon": -1.4332964342328411,
+        "geo_lat": 50.30008313483459
       }
     },
     {
@@ -82,8 +82,8 @@
         "name": "Saponatheim Estate",
         "opacity": 0.5,
         "source_id": "text6",
-        "geo_lon": -1.4340440186683556,
-        "geo_lat": 50.26455444080072
+        "geo_lon": -1.4334912799266952,
+        "geo_lat": 50.30032407223287
       }
     },
     {
@@ -99,8 +99,8 @@
         "name": "Steinhager Mansion",
         "opacity": 0.5,
         "source_id": "text7",
-        "geo_lon": -1.4334566912913487,
-        "geo_lat": 50.27179085269186
+        "geo_lon": -1.4334766168457742,
+        "geo_lat": 50.30060691265748
       }
     },
     {
@@ -116,8 +116,8 @@
         "name": "Magirius's Townhouse",
         "opacity": 0.5,
         "source_id": "text8",
-        "geo_lon": -1.4087005405766397,
-        "geo_lat": 50.2794560387498
+        "geo_lon": -1.4328585604509378,
+        "geo_lat": 50.300906512032405
       }
     },
     {
@@ -133,8 +133,8 @@
         "name": "High Temple of Sigmar",
         "opacity": 0.5,
         "source_id": "text9",
-        "geo_lon": -1.4078613263300137,
-        "geo_lat": 50.29065903634998
+        "geo_lon": -1.4328376088200587,
+        "geo_lat": 50.30134438934588
       }
     },
     {
@@ -150,8 +150,8 @@
         "name": "Temple of Myrmidia",
         "opacity": 0.5,
         "source_id": "text10",
-        "geo_lon": -1.3836087041632803,
-        "geo_lat": 50.28851494264155
+        "geo_lon": -1.43223212340375,
+        "geo_lat": 50.30126058588306
       }
     },
     {
@@ -167,8 +167,8 @@
         "name": "Temple of Handrich",
         "opacity": 0.5,
         "source_id": "text11",
-        "geo_lon": -1.4301837840208074,
-        "geo_lat": 50.28545957582646
+        "geo_lon": -1.4333949061916593,
+        "geo_lat": 50.30114116464774
       }
     },
     {
@@ -184,8 +184,8 @@
         "name": "Temple of Ulric",
         "opacity": 0.5,
         "source_id": "text12",
-        "geo_lon": -1.3847834815129256,
-        "geo_lat": 50.29944990669251
+        "geo_lon": -1.4322614526262865,
+        "geo_lat": 50.30168798691021
       }
     },
     {
@@ -201,8 +201,8 @@
         "name": "Temple of Bögenauer",
         "opacity": 0.5,
         "source_id": "text13",
-        "geo_lon": -1.4267431470661385,
-        "geo_lat": 50.297895430170215
+        "geo_lon": -1.433309008036625,
+        "geo_lat": 50.30162722906417
       }
     },
     {
@@ -218,8 +218,8 @@
         "name": "Temple of Verena",
         "opacity": 0.5,
         "source_id": "text14",
-        "geo_lon": -1.439918471242571,
-        "geo_lat": 50.29355360833479
+        "geo_lon": -1.4336379401656594,
+        "geo_lat": 50.30145752579824
       }
     },
     {
@@ -235,8 +235,8 @@
         "name": "Temple of Shallya",
         "opacity": 0.5,
         "source_id": "text15",
-        "geo_lon": -1.4085326977273145,
-        "geo_lat": 50.312153800609124
+        "geo_lon": -1.432854370124762,
+        "geo_lat": 50.3021845278484
       }
     },
     {
@@ -252,8 +252,8 @@
         "name": "Bögenhafen Rathaus (Town Hall)",
         "opacity": 0.5,
         "source_id": "text16",
-        "geo_lon": -1.4515831060403122,
-        "geo_lat": 50.30357731132637
+        "geo_lon": -1.433929156769293,
+        "geo_lat": 50.30184930952378
       }
     },
     {
@@ -269,8 +269,8 @@
         "name": "Golden Trout Club",
         "opacity": 0.5,
         "source_id": "text18",
-        "geo_lon": -1.4845633771937248,
-        "geo_lat": 50.2984314490796
+        "geo_lon": -1.4347525346734227,
+        "geo_lat": 50.30164817975329
       }
     },
     {
@@ -286,8 +286,8 @@
         "name": "Merchant's Guild",
         "opacity": 0.5,
         "source_id": "text19",
-        "geo_lon": -1.4618213218100515,
-        "geo_lat": 50.29017662174099
+        "geo_lon": -1.4341847617218204,
+        "geo_lat": 50.301325533819835
       }
     },
     {
@@ -303,8 +303,8 @@
         "name": "The Wolf's Tail",
         "opacity": 0.5,
         "source_id": "text20",
-        "geo_lon": -1.3746294134982446,
-        "geo_lat": 50.29746660179072
+        "geo_lon": -1.4320079484873596,
+        "geo_lat": 50.3016104679949
       }
     },
     {
@@ -320,8 +320,8 @@
         "name": "Journey's End Inn",
         "opacity": 0.5,
         "source_id": "text21",
-        "geo_lon": -1.3551601805112146,
-        "geo_lat": 50.291570303433005
+        "geo_lon": -1.43152188407093,
+        "geo_lat": 50.30138000688293
       }
     },
     {
@@ -337,8 +337,8 @@
         "name": "Jeweller's Guild",
         "opacity": 0.5,
         "source_id": "text22",
-        "geo_lon": -1.3412295729432517,
-        "geo_lat": 50.28224340213382
+        "geo_lon": -1.4311740957095425,
+        "geo_lat": 50.301015458158595
       }
     },
     {
@@ -354,8 +354,8 @@
         "name": "Tailors' and Weavers' Guild",
         "opacity": 0.5,
         "source_id": "text23",
-        "geo_lon": -1.3496214136356495,
-        "geo_lat": 50.271951641498504
+        "geo_lon": -1.4313836044843173,
+        "geo_lat": 50.30061319720499
       }
     },
     {
@@ -371,8 +371,8 @@
         "name": "The Crossed Pikes",
         "opacity": 0.5,
         "source_id": "text24",
-        "geo_lon": -1.3587685377195773,
-        "geo_lat": 50.260909450775856
+        "geo_lon": -1.4316119694914455,
+        "geo_lat": 50.30018160514534
       }
     },
     {
@@ -388,8 +388,8 @@
         "name": "Main Guard Barracks",
         "opacity": 0.5,
         "source_id": "text25",
-        "geo_lon": -1.3658178525173361,
-        "geo_lat": 50.24868801363366
+        "geo_lon": -1.4317879610718887,
+        "geo_lat": 50.29970392138126
       }
     },
     {
@@ -405,8 +405,8 @@
         "name": "Metalworkers' Guild",
         "opacity": 0.5,
         "source_id": "text26",
-        "geo_lon": -1.3583490531918954,
-        "geo_lat": 50.32759140542032
+        "geo_lon": -1.4316014967367003,
+        "geo_lat": 50.302787917866176
       }
     },
     {
@@ -422,8 +422,8 @@
         "name": "Masons' Guild",
         "opacity": 0.5,
         "source_id": "text27",
-        "geo_lon": -1.3828534113413171,
-        "geo_lat": 50.33327328657647
+        "geo_lon": -1.4322132669359589,
+        "geo_lat": 50.3030099983258
       }
     },
     {
@@ -439,8 +439,8 @@
         "name": "Carpenters' Guild",
         "opacity": 0.5,
         "source_id": "text28",
-        "geo_lon": -1.3784896575762262,
-        "geo_lat": 50.34704921710713
+        "geo_lon": -1.4321043224578334,
+        "geo_lat": 50.303548440595144
       }
     },
     {
@@ -456,8 +456,8 @@
         "name": "The Half-Measure Tavern",
         "opacity": 0.5,
         "source_id": "text29",
-        "geo_lon": -1.4066864452456038,
-        "geo_lat": 50.357448167067616
+        "geo_lon": -1.432808277007704,
+        "geo_lat": 50.30395489112153
       }
     },
     {
@@ -473,8 +473,8 @@
         "name": "Stevedores' Guild",
         "opacity": 0.5,
         "source_id": "text30",
-        "geo_lon": -1.4715558958666175,
-        "geo_lat": 50.324536014510706
+        "geo_lon": -1.4344277928705642,
+        "geo_lat": 50.30266849568911
       }
     },
     {
@@ -490,8 +490,8 @@
         "name": "Town Courts",
         "opacity": 0.5,
         "source_id": "text31",
-        "geo_lon": -1.4520866345882877,
-        "geo_lat": 50.315262741606446
+        "geo_lon": -1.4339417277478204,
+        "geo_lat": 50.30230604306961
       }
     },
     {
@@ -507,8 +507,8 @@
         "name": "Kringler's Ferry",
         "opacity": 0.5,
         "source_id": "text32",
-        "geo_lon": -1.5618529251822395,
-        "geo_lat": 50.300897192684914
+        "geo_lon": -1.4366821278455921,
+        "geo_lat": 50.301744555136395
       }
     },
     {
@@ -524,8 +524,8 @@
         "name": "Chapel of Morr",
         "opacity": 0.5,
         "source_id": "text33",
-        "geo_lon": -1.3205854211500792,
-        "geo_lat": 50.36420214266467
+        "geo_lon": -1.4306586985390057,
+        "geo_lat": 50.304218875172516
       }
     },
     {
@@ -541,8 +541,8 @@
         "name": "Garden of Morr",
         "opacity": 0.5,
         "source_id": "text34",
-        "geo_lon": -1.3419847431695842,
-        "geo_lat": 50.3677399234864
+        "geo_lon": -1.431192949116639,
+        "geo_lat": 50.304357151910324
       }
     },
     {
@@ -558,8 +558,8 @@
         "name": "The East Gate",
         "opacity": 0.5,
         "source_id": "text35",
-        "geo_lon": -1.3289772618424769,
-        "geo_lat": 50.30239806490682
+        "geo_lon": -1.4308682073137806,
+        "geo_lat": 50.301803217819355
       }
     },
     {
@@ -575,8 +575,8 @@
         "name": "The West Gate",
         "opacity": 0.5,
         "source_id": "text36",
-        "geo_lon": -1.5247606551072908,
-        "geo_lat": 50.258175709763115
+        "geo_lon": -1.4357560907171627,
+        "geo_lat": 50.30007475488855
       }
     },
     {
@@ -592,8 +592,8 @@
         "name": "Shrine to Taal",
         "opacity": 0.5,
         "source_id": "text37",
-        "geo_lon": -1.5302993088176577,
-        "geo_lat": 50.24986727812411
+        "geo_lon": -1.435894367478519,
+        "geo_lat": 50.29975001379201
       }
     },
     {
@@ -609,8 +609,8 @@
         "name": "Water Gate",
         "opacity": 0.5,
         "source_id": "text38",
-        "geo_lon": -1.545740436016515,
-        "geo_lat": 50.26777063256425
+        "geo_lon": -1.4362798671274228,
+        "geo_lat": 50.30044977942833
       }
     },
     {
@@ -626,8 +626,8 @@
         "name": "Postern Gate",
         "opacity": 0.5,
         "source_id": "text39",
-        "geo_lon": -1.3759719205320171,
-        "geo_lat": 50.246865515609414
+        "geo_lon": -1.4320414652108155,
+        "geo_lat": 50.29963268771978
       }
     },
     {
@@ -643,8 +643,8 @@
         "name": "Teamsters' Guild",
         "opacity": 0.5,
         "source_id": "text40",
-        "geo_lon": -1.4886754892804588,
-        "geo_lat": 50.315262741606446
+        "geo_lon": -1.4348551967229786,
+        "geo_lat": 50.30230604306961
       }
     },
     {
@@ -660,8 +660,8 @@
         "name": "Cartwrights' Guild",
         "opacity": 0.5,
         "source_id": "text41",
-        "geo_lon": -1.427666160141796,
-        "geo_lat": 50.311135324925324
+        "geo_lon": -1.4333320517698978,
+        "geo_lat": 50.302144719985165
       }
     },
     {
@@ -677,8 +677,8 @@
         "name": "Furlohnstrasse",
         "opacity": 0.5,
         "source_id": "text46",
-        "geo_lon": -1.4500863293906012,
-        "geo_lat": 50.325631210962726
+        "geo_lon": -1.4338917885859004,
+        "geo_lat": 50.302711302239395
       }
     },
     {
@@ -694,8 +694,8 @@
         "name": "Schaffenfest",
         "opacity": 0.5,
         "source_id": "text58",
-        "geo_lon": -1.3158858590907068,
-        "geo_lat": 50.275596631523364
+        "geo_lon": -1.4305413703478342,
+        "geo_lat": 50.30075566429252
       }
     },
     {
@@ -711,8 +711,8 @@
         "name": "Livestock Auction Yard",
         "opacity": 0.5,
         "source_id": "text59",
-        "geo_lon": -1.3069903766851358,
-        "geo_lat": 50.309044811422744
+        "geo_lon": -1.4303192877692754,
+        "geo_lat": 50.30206301074367
       }
     },
     {
@@ -728,8 +728,8 @@
         "name": "Jousting Field",
         "opacity": 0.5,
         "source_id": "text60",
-        "geo_lon": -1.3969516354282092,
-        "geo_lat": 50.24107639573432
+        "geo_lon": -1.4325652399730093,
+        "geo_lat": 50.29940641575679
       }
     }
   ]

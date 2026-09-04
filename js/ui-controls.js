@@ -839,6 +839,26 @@ class UIControls {
             return;
         }
 
+        // Handle city-scale location markers (from a city overlay's own geojson)
+        if (featureType === 'city-location') {
+            const cityName = feature.get('cityName');
+            const cityPageUrl = feature.get('cityPageUrl');
+            let html = `<div class="settlement-popup">
+                <div class="settlement-popup-header">
+                    <h2 class="settlement-popup-title">${this.escapeHtml(name)}</h2>
+                    <p class="settlement-popup-subtitle">${this.escapeHtml(cityName)}</p>
+                </div>`;
+            if (cityPageUrl) {
+                html += `<a href="${this.escapeHtml(cityPageUrl)}" target="_blank" class="settlement-popup-wiki-link">View city map</a>`;
+            }
+            html += '</div>';
+
+            this.popupElement.innerHTML = html;
+            this.popupOverlay.setPosition(coordinate);
+            this.popupElement.style.display = 'block';
+            return;
+        }
+
         // Handle POI features
         if (featureType === 'poi') {
             const poiType = feature.get('type');
@@ -866,6 +886,21 @@ class UIControls {
                 <div class="settlement-popup-header">
                     <h2 class="settlement-popup-title">${this.escapeHtml(name)}</h2>
                     <p class="settlement-popup-subtitle">${this.escapeHtml(displayType)}</p>
+                </div>
+            </div>`;
+            this.popupElement.innerHTML = html;
+            this.popupOverlay.setPosition(coordinate);
+            this.popupElement.style.display = 'block';
+            return;
+        }
+
+        // Handle tribe features
+        if (featureType === 'greenskin-tribe' || featureType === 'northmen-tribe') {
+            const provinceType = feature.get('provinceType') || '';
+            const html = `<div class="settlement-popup">
+                <div class="settlement-popup-header">
+                    <h2 class="settlement-popup-title">${this.escapeHtml(name)}</h2>
+                    <p class="settlement-popup-subtitle">${this.escapeHtml(provinceType)}</p>
                 </div>
             </div>`;
             this.popupElement.innerHTML = html;
