@@ -748,7 +748,8 @@ class UIControls {
 
         // Handle dwarf settlement features
         if (featureType === 'dwarf') {
-            const dwarfHoldType = feature.get('dwarfHoldType');
+            const isFallenKarak = feature.get('dwarfType') === 'Karak' && feature.get('isFallen') === true;
+            const dwarfHoldType = isFallenKarak ? `Fallen ${feature.get('dwarfHoldType')}` : feature.get('dwarfHoldType');
             const sourceTag = feature.get('sourceTag');
             const wikiTitle = feature.get('wikiTitle');
             const wikiUrl = feature.get('wikiUrl');

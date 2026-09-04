@@ -240,12 +240,14 @@ class DwarfSettlementDataManager {
             const typeCode = this.getTypeCode(holdType);
             const sourceTag = this.getSourceFromTags(feature.properties.tags);
             const wiki = feature.properties.wiki || {};
-            
+            const isFallen = (feature.properties.notes || []).includes('fallen');
+
             return new ol.Feature({
                 geometry: new ol.geom.Point(coords),
                 name: feature.properties.name,
                 dwarfType: typeCode,
                 dwarfHoldType: holdType,
+                isFallen: isFallen,
                 sourceTag: sourceTag,
                 wikiTitle: wiki.title,
                 wikiUrl: wiki.url,

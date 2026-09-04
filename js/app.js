@@ -8,6 +8,9 @@ async function initializeApp() {
         await loadStylesConfig();
         console.log('Styles configuration loaded');
 
+        // Populate the topographic key panel's icon legend column
+        buildMapKeyLegend();
+
         // Initialize map
         mapManager.initialize();
         mapManager.setupEventListeners();

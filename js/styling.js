@@ -840,12 +840,14 @@ function createDwarfSettlementStyle(feature, currentResolution) {
                 })
             });
         } else {
-            const imageCacheKey = `dwarf_img_${dwarfType}_${currentResolution.toFixed(4)}`;
+            const isFallen = feature.get('isFallen') === true && !!config.fallenIcon;
+            const iconSrc = isFallen ? config.fallenIcon : config.icon;
+            const imageCacheKey = `dwarf_img_${dwarfType}_${isFallen}_${currentResolution.toFixed(4)}`;
             imageStyle = getCachedStyle(STYLE_CACHE.settlements, imageCacheKey, () => {
-                if (config.icon) {
+                if (iconSrc) {
                     const iconHeight = getInterpolatedIconSize(config, currentResolution);
                     return new ol.style.Icon({
-                        src: config.icon,
+                        src: iconSrc,
                         scale: iconHeight / config.iconHeight,
                     });
                 }
@@ -939,6 +941,13 @@ function createWoodElfSettlementStyle(feature, currentResolution) {
         } else {
             const imageCacheKey = `woodelf_img_${currentResolution.toFixed(4)}`;
             imageStyle = getCachedStyle(STYLE_CACHE.settlements, imageCacheKey, () => {
+                if (config.icon) {
+                    const iconHeight = getInterpolatedIconSize(config, currentResolution);
+                    return new ol.style.Icon({
+                        src: config.icon,
+                        scale: iconHeight / config.iconHeight,
+                    });
+                }
                 return new ol.style.Circle({
                     radius: radius,
                     fill: new ol.style.Fill({ color: config.color }),
@@ -1047,6 +1056,13 @@ function createWoodElfSettlementMarkerOnlyStyle(feature, currentResolution) {
     } else {
         const imageCacheKey = `woodelf_marker_${currentResolution.toFixed(4)}`;
         imageStyle = getCachedStyle(STYLE_CACHE.settlements, imageCacheKey, () => {
+            if (config.icon) {
+                const iconHeight = getInterpolatedIconSize(config, currentResolution);
+                return new ol.style.Icon({
+                    src: config.icon,
+                    scale: iconHeight / config.iconHeight,
+                });
+            }
             return new ol.style.Circle({
                 radius: radius,
                 fill: new ol.style.Fill({ color: config.color }),
@@ -1114,12 +1130,14 @@ function createDwarfSettlementMarkerOnlyStyle(feature, currentResolution) {
             })
         });
     } else {
-        const imageCacheKey = `dwarf_marker_${dwarfType}_${currentResolution.toFixed(4)}`;
+        const isFallen = feature.get('isFallen') === true && !!config.fallenIcon;
+        const iconSrc = isFallen ? config.fallenIcon : config.icon;
+        const imageCacheKey = `dwarf_marker_${dwarfType}_${isFallen}_${currentResolution.toFixed(4)}`;
         imageStyle = getCachedStyle(STYLE_CACHE.settlements, imageCacheKey, () => {
-            if (config.icon) {
+            if (iconSrc) {
                 const iconHeight = getInterpolatedIconSize(config, currentResolution);
                 return new ol.style.Icon({
-                    src: config.icon,
+                    src: iconSrc,
                     scale: iconHeight / config.iconHeight,
                 });
             }

@@ -1303,13 +1303,60 @@
         }
 
         .topo-key-panel.active {
-            display: block;
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
         }
 
-        .topo-key-panel img {
+        /* Direct child only, so it doesn't also apply to the small icons in .map-key-legend */
+        .topo-key-panel > img {
             display: block;
             height: 350px;
             width: auto;
+            flex-shrink: 0;
+        }
+
+        .map-key-legend {
+            display: flex;
+            flex-direction: column;
+            gap: 3px;
+            max-height: 350px;
+            overflow-y: auto;
+            padding-right: 6px;
+            font-family: Arial, sans-serif;
+        }
+
+        .map-key-legend-section-title {
+            font-size: 11px;
+            font-weight: 700;
+            color: #555;
+            text-transform: uppercase;
+            letter-spacing: 0.03em;
+            margin: 7px 0 2px;
+        }
+
+        .map-key-legend-section-title:first-child {
+            margin-top: 0;
+        }
+
+        .map-key-legend-row {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            white-space: nowrap;
+        }
+
+        .map-key-legend-swatch {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 34px;
+            flex-shrink: 0;
+        }
+
+        .map-key-legend-label {
+            font-size: 12px;
+            color: #222;
         }
 
         /* Measurement buttons */
@@ -1988,6 +2035,7 @@
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 10h-8.35A5.99 5.99 0 0 0 7 6c-3.31 0-6 2.69-6 6s2.69 6 6 6a5.99 5.99 0 0 0 5.65-4H13l2 2 2-2 2 2 3-3-1-2zm-14 2c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z"/></svg>
     </button>
     <div class="topo-key-panel" id="topo-key-panel">
+        <div class="map-key-legend" id="map-key-legend"></div>
         <img src="images/topographic_scale.png" alt="Topographic Scale">
     </div>
 
@@ -2282,7 +2330,7 @@
     <!-- Title box - top right -->
     <div class="title-container">
         <h1>Atlas of the Old World</h1>
-        <p class="title-subheader">An unofficial, fan-made map of the Warhammer world. Updated 28.06.2026 @toddkozlowski</p>
+        <p class="title-subheader">An unofficial, fan-made map of the Warhammer world. Updated 04.09.2026 @toddkozlowski</p>
         <button id="about-button" class="about-button">About</button>
         <button id="feedback-button" class="about-button">Suggest a correction or addition</button>
         <button id="changelog-button" class="changelog-button">
@@ -2388,6 +2436,7 @@
     <!-- Load scripts in order -->
     <script src="js/utils.js?v=14"></script>
     <script src="js/styling.js?v=14"></script>
+    <script src="js/map-key-legend.js?v=14"></script>
     <script src="js/search.js?v=14"></script>
     <script src="js/settlement-data.js?v=14"></script>
     <script src="js/dwarf-settlement-data.js?v=14"></script>

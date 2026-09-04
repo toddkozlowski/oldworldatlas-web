@@ -306,6 +306,7 @@
         "maxRadiusZoom": 0.0005
       },
       "icon": "images/icons/karak.png",
+      "fallenIcon": "images/icons/karak-fallen.png",
       "iconHeight": 321,
       "iconMinSize": 12.65625,
       "iconMaxSize": 55.6875,
@@ -338,7 +339,13 @@
         "maxRadius": 5,
         "minRadiusZoom": 0.02,
         "maxRadiusZoom": 0.0005
-      }
+      },
+      "icon": "images/icons/glade.png",
+      "iconHeight": 325,
+      "iconMinSize": 11.25,
+      "iconMaxSize": 49.5,
+      "iconMinZoom": 0.005,
+      "iconMaxZoom": 0.00005
     }
   },
   "poi": {
