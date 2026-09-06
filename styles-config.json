@@ -243,8 +243,8 @@
       },
       "icon": "images/icons/khazid.png",
       "iconHeight": 321,
-      "iconMinSize": 11.25,
-      "iconMaxSize": 49.5,
+      "iconMinSize": 9,
+      "iconMaxSize": 39.6,
       "iconMinZoom": 0.005,
       "iconMaxZoom": 0.00005
     },
@@ -275,8 +275,8 @@
       },
       "icon": "images/icons/khazid.png",
       "iconHeight": 321,
-      "iconMinSize": 11.25,
-      "iconMaxSize": 49.5,
+      "iconMinSize": 9,
+      "iconMaxSize": 39.6,
       "iconMinZoom": 0.005,
       "iconMaxZoom": 0.00005
     },
@@ -388,10 +388,11 @@
     "Chaos Shrines": {
       "icon": "images/icons/chaos_star.png",
       "iconHeight": 446,
-      "iconMinSize": 9.75,
-      "iconMaxSize": 42.9,
+      "iconMinSize": 19.5,
+      "iconMaxSize": 85.8,
       "iconMinZoom": 0.005,
-      "iconMaxZoom": 0.00005
+      "iconMaxZoom": 0.00005,
+      "textOffsetY": -6
     }
   },
   "provinces": {

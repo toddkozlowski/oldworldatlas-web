@@ -106,6 +106,9 @@ async function initializeApp() {
         // Initialize UI controls
         uiControls.initialize(mapManager.getMap());
 
+        // Initialize the Visual Options panel (simple/large icons, label font, text outline)
+        initVisualOptions();
+
         // Initialize measurement tool
         measurementTool.initialize(mapManager.getMap());
 

@@ -649,20 +649,29 @@ class MapManager {
      */
     setupEventListeners() {
         // Update styles on zoom change
-        this.onResolutionChange(() => {
-            this.allSettlementLabelsSource.changed();
-            this.settlementSource.changed();
-            this.settlementMarkersOnlySource.changed();
-            this.dwarfSettlementSource.changed();
-            this.dwarfSettlementMarkersOnlySource.changed();
-            this.woodElfSettlementSource.changed();
-            this.woodElfSettlementMarkersOnlySource.changed();
-            this.poiSource.changed();
-            this.provinceSource.changed();
-            this.waterSource.changed();
-            this.greenskinTribeSource.changed();
-            this.northmenTribeSource.changed();
-        });
+        this.onResolutionChange(() => this.refreshAllStyles());
+    }
+
+    /**
+     * Force every feature layer to re-evaluate its style function. Needed
+     * whenever something a style function reads changes without OL knowing
+     * about it - map resolution (handled automatically via
+     * onResolutionChange) as well as external toggles like the visual
+     * options panel (simple icons, large icons, font, text outline).
+     */
+    refreshAllStyles() {
+        this.allSettlementLabelsSource.changed();
+        this.settlementSource.changed();
+        this.settlementMarkersOnlySource.changed();
+        this.dwarfSettlementSource.changed();
+        this.dwarfSettlementMarkersOnlySource.changed();
+        this.woodElfSettlementSource.changed();
+        this.woodElfSettlementMarkersOnlySource.changed();
+        this.poiSource.changed();
+        this.provinceSource.changed();
+        this.waterSource.changed();
+        this.greenskinTribeSource.changed();
+        this.northmenTribeSource.changed();
     }
 
     /**

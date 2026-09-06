@@ -1465,7 +1465,15 @@
             top: 0;
             left: -280px;
             width: 300px;
-            height: 100%;
+            /* height:100% plus padding, under this element's content-box
+               sizing (unchanged here to avoid narrowing every existing
+               section's 300px content width), used to render ~90px taller
+               than the viewport - pushing content near the bottom outside
+               the browser's hit-testable viewport entirely, unreachable no
+               matter how far the panel's own internal scroll goes. Subtract
+               the vertical padding back out so the total rendered height
+               matches the viewport exactly. */
+            height: calc(100% - 90px);
             background: rgba(255, 255, 255, 0.3);
             box-shadow: 2px 0 8px rgba(0,0,0,0.2);
             z-index: 10000;
@@ -2316,8 +2324,44 @@
                 </div>
             </div>
         </div>
+
+        <div class="side-panel-section">
+            <div class="side-panel-section-title">Visual Options</div>
+            <div class="filter-group">
+                <div class="toggle-item">
+                    <input type="checkbox" id="visual-simple-icons">
+                    <label for="visual-simple-icons">Simple Icons</label>
+                </div>
+                <div class="toggle-item">
+                    <input type="checkbox" id="visual-large-icons">
+                    <label for="visual-large-icons">Large Icons</label>
+                </div>
+            </div>
+            <div style="margin-top: 6px;">
+                <div style="margin-bottom: 6px; font-size: 13px; font-weight: 600;">Label Font</div>
+                <div class="units-toggle">
+                    <button id="visual-font-sans" class="active">Sans-serif</button>
+                    <button id="visual-font-serif">Serif</button>
+                </div>
+            </div>
+            <div style="margin-top: 10px;">
+                <div style="margin-bottom: 6px; font-size: 13px; font-weight: 600;">Text Outline</div>
+                <div class="grid-toggle">
+                    <button id="visual-outline-thick" class="active">Thick</button>
+                    <button id="visual-outline-thin">Thin</button>
+                    <button id="visual-outline-off">Off</button>
+                </div>
+            </div>
+            <div style="margin-top: 10px;">
+                <div style="margin-bottom: 6px; font-size: 13px; font-weight: 600;">Text Color</div>
+                <div class="units-toggle">
+                    <button id="visual-text-color-dark" class="active">Dark</button>
+                    <button id="visual-text-color-light">Light</button>
+                </div>
+            </div>
+        </div>
     </div>
-    
+
     <!-- Search bar - top left -->
     <div class="search-container" id="search-container">
         <div class="search-input-wrapper">
@@ -2437,6 +2481,7 @@
     <script src="js/utils.js?v=14"></script>
     <script src="js/styling.js?v=14"></script>
     <script src="js/map-key-legend.js?v=14"></script>
+    <script src="js/visual-options.js?v=14"></script>
     <script src="js/search.js?v=14"></script>
     <script src="js/settlement-data.js?v=14"></script>
     <script src="js/dwarf-settlement-data.js?v=14"></script>

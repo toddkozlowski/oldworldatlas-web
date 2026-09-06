@@ -211,7 +211,14 @@ function constructFontString(fontConfig, fontSize) {
     
     // Remaining parts are the font family
     fontFamily = parts.join(' ');
-    
+
+    // Visual Options: "Label Font" override replaces the configured family
+    // with a generic serif stack, applied everywhere since every label
+    // style funnels through this function.
+    if (typeof getLabelFontMode === 'function' && getLabelFontMode() === 'serif') {
+        fontFamily = "'Times New Roman', Georgia, serif";
+    }
+
     // Construct proper CSS font string
     let result = '';
     if (fontStyle !== 'normal') result += fontStyle + ' ';
@@ -304,13 +311,178 @@ function getInterpolatedIconSize(config, currentResolution) {
     const marker = config.marker || {};
     const minZoom = config.iconMinZoom !== undefined ? config.iconMinZoom : (marker.minRadiusZoom || 0);
     const maxZoom = config.iconMaxZoom !== undefined ? config.iconMaxZoom : (marker.maxRadiusZoom || 0);
-    return lerp(
+    const size = lerp(
         Math.log(currentResolution),
         Math.log(minZoom),
         Math.log(maxZoom),
         config.iconMinSize || 0,
         config.iconMaxSize || 0
     );
+    // Visual Options: "Large Icons" doubles icon size at every zoom level.
+    const isLarge = typeof isLargeIconsEnabled === 'function' && isLargeIconsEnabled();
+    return isLarge ? size * 2 : size;
+}
+
+/**
+ * Half-height (px) of a feature's current marker - the distance from the
+ * feature point up to the marker's top edge - for an icon (default OL
+ * center anchor, so half its rendered height) or a dot/triangle (its
+ * radius; a RegularShape triangle's top vertex is also exactly `radius`
+ * above center). Used to keep label text clear of the marker regardless of
+ * how big it's currently rendered.
+ * @param {Object} config - Style configuration
+ * @param {number} currentResolution - Current map resolution
+ * @returns {number}
+ */
+function getMarkerHalfHeight(config, currentResolution) {
+    if (configUsesIcon(config)) {
+        return getInterpolatedIconSize(config, currentResolution) / 2;
+    }
+    return getInterpolatedRadius(config, currentResolution);
+}
+
+/**
+ * Whether a config with an `icon` should actually render it, honoring the
+ * Visual Options "Simple Icons" toggle (falls back to the plain dot/shape
+ * when enabled).
+ * @param {Object} config
+ * @returns {boolean}
+ */
+function configUsesIcon(config) {
+    return !!config.icon && !(typeof isSimpleIconsEnabled === 'function' && isSimpleIconsEnabled());
+}
+
+/**
+ * Cache-key suffix covering the Visual Options that affect a marker's
+ * cached image (Simple Icons, Large Icons) - without this, switching
+ * either toggle would keep reusing a stale cached Circle/Icon style.
+ * @returns {string}
+ */
+function getVisualOptionsCacheSuffix() {
+    const simple = typeof isSimpleIconsEnabled === 'function' && isSimpleIconsEnabled();
+    const large = typeof isLargeIconsEnabled === 'function' && isLargeIconsEnabled();
+    return `${simple}_${large}`;
+}
+
+/**
+ * Compute the vertical text offset (px, negative = above the feature point)
+ * for a label, so it clears the marker below it - regardless of the
+ * marker's current rendered size, and regardless of whether the label
+ * itself wraps to two lines.
+ *
+ * config.textOffsetY is treated as the desired gap beyond the marker's top
+ * edge (rather than a fixed offset from the feature's center point, so a
+ * large icon gets proportionally more clearance than a small dot; at a
+ * small marker size this is close to the original fixed-offset behavior).
+ *
+ * config.textOffsetY itself is also scaled by how large the current font
+ * is relative to the tier's maxFontSize - it was tuned by eye against
+ * roughly-max-size text, so using it unscaled at low zoom (where fontSize
+ * can be a fraction of that, e.g. 3px vs a 10px max) leaves a gap that
+ * reads as oversized relative to the tiny label sitting in it.
+ *
+ * Text keeps the default 'middle' baseline (small/single-line labels
+ * already looked right with it), so a two-line label needs one explicit
+ * extra line-height of clearance added on top - otherwise the second line
+ * would hang down past the (vertically centered) anchor point and back
+ * into the marker.
+ * @param {Object} config - Style configuration with textOffsetY
+ * @param {Object} markerConfig - Style configuration for the marker (icon/dot) sizing - usually the same object as config, but separate for POI where the marker can belong to a type override
+ * @param {number} currentResolution - Current map resolution
+ * @param {number} fontSize - current interpolated font size (px), for sizing the multiline compensation
+ * @param {boolean} isMultiline - whether the label text wraps to two (or more) lines
+ * @returns {number}
+ */
+function getLabelOffsetY(config, markerConfig, currentResolution, fontSize, isMultiline) {
+    const referenceFontSize = config.maxFontSize || fontSize || 1;
+    const scaledBaseOffset = config.textOffsetY * (fontSize / referenceFontSize);
+    let offset = scaledBaseOffset - getMarkerHalfHeight(markerConfig, currentResolution);
+    if (isMultiline) {
+        offset -= Math.round(fontSize * 1.15);
+    }
+    return offset;
+}
+
+/**
+ * Apply the Visual Options "Text Outline" setting to a configured text
+ * stroke width: 'thick' leaves it as configured (the default look),
+ * 'thin' scales it down, and 'off' removes it entirely.
+ * @param {number} baseWidth - config.textStrokeWidth (or a highlighted variant of it)
+ * @returns {number}
+ */
+function getEffectiveTextStrokeWidth(baseWidth) {
+    const mode = typeof getTextOutlineMode === 'function' ? getTextOutlineMode() : 'thick';
+    if (mode === 'off') {
+        return 0;
+    }
+    if (mode === 'thin') {
+        return baseWidth * 0.4;
+    }
+    return baseWidth;
+}
+
+/**
+ * Build the ol.style.Stroke for a label's text outline, honoring the Visual
+ * Options "Text Outline" setting - returns undefined (no stroke at all)
+ * when it computes to 0, rather than a zero-width ol.style.Stroke. Canvas
+ * can still render a hairline for a 0-width stroke (some browsers clamp a
+ * requested 0 up to a 1px minimum), so actually omitting the stroke is the
+ * only way "Off" reliably means no outline.
+ * @param {string} color - config.textStrokeColor
+ * @param {number} baseWidth - config.textStrokeWidth (or a highlighted variant of it)
+ * @returns {ol.style.Stroke|undefined}
+ */
+function buildTextStroke(color, baseWidth) {
+    const width = getEffectiveTextStrokeWidth(baseWidth);
+    if (width <= 0) {
+        return undefined;
+    }
+    return new ol.style.Stroke({ color: color, width: width });
+}
+
+/**
+ * Whether a config's label uses the atlas' plain default black text
+ * (#000) - as opposed to a type's own deliberate color (dwarf holds'
+ * brown, wood elf's green, water's blue, provinces'/tribes' faded or red
+ * text). The Visual Options "Text Color" toggle only swaps labels in this
+ * first group, so intentionally-colored labels aren't touched.
+ * @param {Object} config
+ * @returns {boolean}
+ */
+function usesDefaultBlackText(config) {
+    return config.textFillColor === '#000';
+}
+
+/**
+ * Apply the Visual Options "Text Color" setting to a label's fill color:
+ * default-black labels become white when the mode is 'light', otherwise
+ * unchanged.
+ * @param {Object} config
+ * @returns {string}
+ */
+function getEffectiveTextFillColor(config) {
+    const mode = typeof getTextColorMode === 'function' ? getTextColorMode() : 'dark';
+    if (mode === 'light' && usesDefaultBlackText(config)) {
+        return '#fff';
+    }
+    return config.textFillColor;
+}
+
+/**
+ * Apply the Visual Options "Text Color" setting to a label's outline
+ * color: default-black labels get a black outline (instead of their usual
+ * white one) when switched to white fill, so the outline stays visible
+ * against the now-white text. Width still separately follows "Text
+ * Outline" thick/thin/off via buildTextStroke - only the color changes here.
+ * @param {Object} config
+ * @returns {string}
+ */
+function getEffectiveTextStrokeColor(config) {
+    const mode = typeof getTextColorMode === 'function' ? getTextColorMode() : 'dark';
+    if (mode === 'light' && usesDefaultBlackText(config)) {
+        return '#000';
+    }
+    return config.textStrokeColor;
 }
 
 /**
@@ -429,7 +601,7 @@ function createPOIStyle(feature, currentResolution) {
                 })
             });
         } else {
-            const imageCacheKey = `poi_img_${poiType}_${currentResolution.toFixed(4)}`;
+            const imageCacheKey = `poi_img_${poiType}_${getVisualOptionsCacheSuffix()}_${currentResolution.toFixed(4)}`;
             imageStyle = getCachedStyle(STYLE_CACHE.poi, imageCacheKey, () => {
                 if (isPeak) {
                     // Dark triangle, like a peak symbol on a topographic map
@@ -444,7 +616,7 @@ function createPOIStyle(feature, currentResolution) {
                         })
                     });
                 }
-                if (config.icon) {
+                if (configUsesIcon(config)) {
                     const iconHeight = getInterpolatedIconSize(config, currentResolution);
                     return new ol.style.Icon({
                         src: config.icon,
@@ -475,20 +647,14 @@ function createPOIStyle(feature, currentResolution) {
     // Add text if visible (feature-specific, so not cached)
     if (showLabel) {
         const fontConfig = isHighlighted ? 'bold ' + config.textFont : config.textFont;
-            const poiLabelText = formatPOILabelText(feature.get('name'));
-            const multilineOffsetY = poiLabelText.includes('\n')
-                ? config.textOffsetY - Math.max(3, Math.round(fontSize * 0.35))
-                : config.textOffsetY;
+        const poiLabelText = formatPOILabelText(feature.get('name'));
 
         style.setText(new ol.style.Text({
-                text: poiLabelText,
-                offsetY: multilineOffsetY,
+            text: poiLabelText,
+            offsetY: getLabelOffsetY(config, config, currentResolution, fontSize, poiLabelText.includes('\n')),
             font: constructFontString(fontConfig, fontSize),
-            fill: new ol.style.Fill({ color: isHighlighted ? '#d32f2f' : config.textFillColor }),
-            stroke: new ol.style.Stroke({ 
-                color: config.textStrokeColor, 
-                width: isHighlighted ? config.textStrokeWidth * 1.3 : config.textStrokeWidth 
-            })
+            fill: new ol.style.Fill({ color: isHighlighted ? '#d32f2f' : getEffectiveTextFillColor(config) }),
+            stroke: buildTextStroke(getEffectiveTextStrokeColor(config), isHighlighted ? config.textStrokeWidth * 1.3 : config.textStrokeWidth)
         }));
     }
     
@@ -570,22 +736,20 @@ function createSettlementStyle(feature, currentResolution) {
         image: imageStyle,
         zIndex: isHighlighted ? 9999 : getSettlementDeclutterPriority(feature)
     });
-    
+
     // Add text if visible (feature-specific, so not cached)
     if (showLabel) {
         const fontConfig = isHighlighted ? 'bold ' + config.textFont : config.textFont;
+        const labelText = formatLabelText(feature.get('name'));
         style.setText(new ol.style.Text({
-            text: formatLabelText(feature.get('name')),
-            offsetY: config.textOffsetY,
+            text: labelText,
+            offsetY: getLabelOffsetY(config, config, currentResolution, fontSize, labelText.includes('\n')),
             font: constructFontString(fontConfig, fontSize),
-            fill: new ol.style.Fill({ color: isHighlighted ? '#d32f2f' : config.textFillColor }),
-            stroke: new ol.style.Stroke({ 
-                color: config.textStrokeColor, 
-                width: isHighlighted ? config.textStrokeWidth * 1.3 : config.textStrokeWidth 
-            })
+            fill: new ol.style.Fill({ color: isHighlighted ? '#d32f2f' : getEffectiveTextFillColor(config) }),
+            stroke: buildTextStroke(getEffectiveTextStrokeColor(config), isHighlighted ? config.textStrokeWidth * 1.3 : config.textStrokeWidth)
         }));
     }
-    
+
     return style;
 }
 
@@ -702,11 +866,8 @@ function createProvinceStyle(feature, currentResolution) {
         text: new ol.style.Text({
             text: formatLabelText(feature.get('name')),
             font: constructFontString(config.textFont, fontSize),
-            fill: new ol.style.Fill({ color: config.textFillColor }),
-            stroke: new ol.style.Stroke({ 
-                color: config.textStrokeColor, 
-                width: config.textStrokeWidth 
-            })
+            fill: new ol.style.Fill({ color: getEffectiveTextFillColor(config) }),
+            stroke: buildTextStroke(getEffectiveTextStrokeColor(config), config.textStrokeWidth)
         })
     });
 }
@@ -736,11 +897,8 @@ function createTribeStyle(feature, currentResolution) {
         text: new ol.style.Text({
             text: labelText,
             font: constructFontString(config.textFont, fontSize),
-            fill: new ol.style.Fill({ color: config.textFillColor }),
-            stroke: new ol.style.Stroke({
-                color: config.textStrokeColor,
-                width: config.textStrokeWidth
-            })
+            fill: new ol.style.Fill({ color: getEffectiveTextFillColor(config) }),
+            stroke: buildTextStroke(getEffectiveTextStrokeColor(config), config.textStrokeWidth)
         })
     });
 }
@@ -778,11 +936,8 @@ function createWaterStyle(feature, currentResolution) {
         text: new ol.style.Text({
             text: formatWaterLabelText(feature.get('name')),
             font: constructFontString(config.textFont, fontSize),
-            fill: new ol.style.Fill({ color: config.textFillColor }),
-            stroke: new ol.style.Stroke({ 
-                color: config.textStrokeColor, 
-                width: config.textStrokeWidth 
-            })
+            fill: new ol.style.Fill({ color: getEffectiveTextFillColor(config) }),
+            stroke: buildTextStroke(getEffectiveTextStrokeColor(config), config.textStrokeWidth)
         })
     });
 }
@@ -841,8 +996,8 @@ function createDwarfSettlementStyle(feature, currentResolution) {
             });
         } else {
             const isFallen = feature.get('isFallen') === true && !!config.fallenIcon;
-            const iconSrc = isFallen ? config.fallenIcon : config.icon;
-            const imageCacheKey = `dwarf_img_${dwarfType}_${isFallen}_${currentResolution.toFixed(4)}`;
+            const iconSrc = configUsesIcon(config) ? (isFallen ? config.fallenIcon : config.icon) : null;
+            const imageCacheKey = `dwarf_img_${dwarfType}_${isFallen}_${getVisualOptionsCacheSuffix()}_${currentResolution.toFixed(4)}`;
             imageStyle = getCachedStyle(STYLE_CACHE.settlements, imageCacheKey, () => {
                 if (iconSrc) {
                     const iconHeight = getInterpolatedIconSize(config, currentResolution);
@@ -874,18 +1029,16 @@ function createDwarfSettlementStyle(feature, currentResolution) {
     // Add text if visible (feature-specific, so not cached)
     if (showLabel) {
         const fontConfig = isHighlighted ? 'bold ' + config.textFont : config.textFont;
+        const labelText = formatLabelText(feature.get('name'));
         style.setText(new ol.style.Text({
-            text: formatLabelText(feature.get('name')),
-            offsetY: config.textOffsetY,
+            text: labelText,
+            offsetY: getLabelOffsetY(config, config, currentResolution, fontSize, labelText.includes('\n')),
             font: constructFontString(fontConfig, fontSize),
-            fill: new ol.style.Fill({ color: isHighlighted ? '#d32f2f' : config.textFillColor }),
-            stroke: new ol.style.Stroke({ 
-                color: config.textStrokeColor, 
-                width: isHighlighted ? config.textStrokeWidth * 1.3 : config.textStrokeWidth 
-            })
+            fill: new ol.style.Fill({ color: isHighlighted ? '#d32f2f' : getEffectiveTextFillColor(config) }),
+            stroke: buildTextStroke(getEffectiveTextStrokeColor(config), isHighlighted ? config.textStrokeWidth * 1.3 : config.textStrokeWidth)
         }));
     }
-    
+
     return style;
 }
 
@@ -939,9 +1092,9 @@ function createWoodElfSettlementStyle(feature, currentResolution) {
                 })
             });
         } else {
-            const imageCacheKey = `woodelf_img_${currentResolution.toFixed(4)}`;
+            const imageCacheKey = `woodelf_img_${getVisualOptionsCacheSuffix()}_${currentResolution.toFixed(4)}`;
             imageStyle = getCachedStyle(STYLE_CACHE.settlements, imageCacheKey, () => {
-                if (config.icon) {
+                if (configUsesIcon(config)) {
                     const iconHeight = getInterpolatedIconSize(config, currentResolution);
                     return new ol.style.Icon({
                         src: config.icon,
@@ -967,15 +1120,13 @@ function createWoodElfSettlementStyle(feature, currentResolution) {
 
     if (showLabel) {
         const fontConfig = isHighlighted ? 'bold ' + config.textFont : config.textFont;
+        const labelText = formatLabelText(feature.get('name'));
         style.setText(new ol.style.Text({
-            text: formatLabelText(feature.get('name')),
-            offsetY: config.textOffsetY,
+            text: labelText,
+            offsetY: getLabelOffsetY(config, config, currentResolution, fontSize, labelText.includes('\n')),
             font: constructFontString(fontConfig, fontSize),
-            fill: new ol.style.Fill({ color: isHighlighted ? '#d32f2f' : config.textFillColor }),
-            stroke: new ol.style.Stroke({
-                color: config.textStrokeColor,
-                width: isHighlighted ? config.textStrokeWidth * 1.3 : config.textStrokeWidth
-            })
+            fill: new ol.style.Fill({ color: isHighlighted ? '#d32f2f' : getEffectiveTextFillColor(config) }),
+            stroke: buildTextStroke(getEffectiveTextStrokeColor(config), isHighlighted ? config.textStrokeWidth * 1.3 : config.textStrokeWidth)
         }));
     }
 
@@ -1054,9 +1205,9 @@ function createWoodElfSettlementMarkerOnlyStyle(feature, currentResolution) {
             })
         });
     } else {
-        const imageCacheKey = `woodelf_marker_${currentResolution.toFixed(4)}`;
+        const imageCacheKey = `woodelf_marker_${getVisualOptionsCacheSuffix()}_${currentResolution.toFixed(4)}`;
         imageStyle = getCachedStyle(STYLE_CACHE.settlements, imageCacheKey, () => {
-            if (config.icon) {
+            if (configUsesIcon(config)) {
                 const iconHeight = getInterpolatedIconSize(config, currentResolution);
                 return new ol.style.Icon({
                     src: config.icon,
@@ -1131,8 +1282,8 @@ function createDwarfSettlementMarkerOnlyStyle(feature, currentResolution) {
         });
     } else {
         const isFallen = feature.get('isFallen') === true && !!config.fallenIcon;
-        const iconSrc = isFallen ? config.fallenIcon : config.icon;
-        const imageCacheKey = `dwarf_marker_${dwarfType}_${isFallen}_${currentResolution.toFixed(4)}`;
+        const iconSrc = configUsesIcon(config) ? (isFallen ? config.fallenIcon : config.icon) : null;
+        const imageCacheKey = `dwarf_marker_${dwarfType}_${isFallen}_${getVisualOptionsCacheSuffix()}_${currentResolution.toFixed(4)}`;
         imageStyle = getCachedStyle(STYLE_CACHE.settlements, imageCacheKey, () => {
             if (iconSrc) {
                 const iconHeight = getInterpolatedIconSize(config, currentResolution);
