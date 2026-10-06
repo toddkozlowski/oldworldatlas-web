@@ -101,12 +101,14 @@ function buildMapKeyLegend() {
 
     // POI icons
     const poiDefault = STYLES_CONFIG.poi.default;
-    const castleConfig = { ...poiDefault, ...STYLES_CONFIG.poi['Forts and Castles'] };
-    const chaosConfig = { ...poiDefault, ...STYLES_CONFIG.poi['Chaos Shrines'] };
-    const peakConfig = { ...poiDefault, ...STYLES_CONFIG.poi['Peaks'] };
+    const castleConfig = { ...poiDefault, ...STYLES_CONFIG.poi['Fortification'] };
+    const chaosConfig = { ...poiDefault, ...STYLES_CONFIG.poi['Chaos Shrine'] };
+    const peakConfig = { ...poiDefault, ...STYLES_CONFIG.poi['Mountain Peak'] };
+    const monolithConfig = { ...poiDefault, ...STYLES_CONFIG.poi['Ancient Monoliths'] };
     const poiRows = [
         { label: 'Fort / Castle', swatch: mapKeySwatchForConfig(castleConfig, res) },
         { label: 'Chaos Shrine', swatch: mapKeySwatchForConfig(chaosConfig, res) },
+        { label: 'Ancient Monoliths', swatch: mapKeySwatchForConfig(monolithConfig, res) },
         {
             label: 'Peak',
             swatch: mapKeyTriangleSwatch(getInterpolatedRadius(peakConfig, res), peakConfig.color, peakConfig.strokeColor, peakConfig.strokeWidth),

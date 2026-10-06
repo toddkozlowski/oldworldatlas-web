@@ -2,50 +2,21 @@
  * Settlement data management for Old World Atlas
  */
 
-// Source tag mapping
-const SOURCE_TAG_MAP = {
-    '2eSH': 'WFRP2e Sigmar\'s Heirs',
-    '4eAotE1': 'WFRP4e Archives of the Empire Vol. 1',
-    '4eAotE2': 'WFRP4e Archives of the Empire Vol. 2',
-    '4eAotE3': 'WFRP4e Archives of the Empire Vol. 3',
-    '4eEiS': 'WFRP4e Enemy in Shadows',
-    '4ePBtTC': 'WFRP4e Power Behind the Throne Companion',
-    '4eSCoSaS': 'WFRP4e Salzenmund: City of Salt and Silver',
-    '4eCRB': 'WFRP4e Core Rulebook',
-    '4eDotRC': 'WFRP4e Death on the Reik Companion',
-    'NCC': 'WFB Nemesis Crown Campaign',
-    'AmbChron': 'The Ambassor Chronicles (Black Library)',
-    'G&T': 'Gotrek & Felix (Black Library)',
-    'G&FT': 'Gotrek & Felix (Black Library)',
-    'TOW': 'Warhammer: The Old World',
-    '1eMSDtR': 'WFRP1e Marienburg: Sold Down the River',
-    '4eLoSaS': 'WFRP4e Lords of Stone and Steel',
-    '4eTHRC': 'WFRP4e The Horned Rat Companion',
-    '4eMCotWW': 'WFRP4e Middenheim: City of the White Wolf',
-    '1eDSaS': 'WFRP1e Dwarfs: Stone and Steel',
-    'TWW3': 'Total War: Warhammer 3',
-    '2eKAAotDC': 'WFRP2e Karaz Azgal: Adventures of the Dragon Crag',
-    'AndyLaw': 'Andy Law (LawHammer)',
-    'MA': 'MadAlfred',
-    'MadAlfred': 'MadAlfred',
-    '4eStarter': 'WFRP4e Starter Set',
-    '4eUA1': 'WFRP4e Ubersreik Adventures 1',
-    '4eUA2': 'WFRP4e Ubersreik Adventures 2',
-    '2eKotG': 'WFRP2e Knights of the Grail',
-    'BretProj': 'Brettonia Project (Fan)',
-    '1eCRB': 'WFRP1e Core Rulebook',
-    'MoWC': 'Man o\' War: Corsair (WFB)',
-    '1eDDS': 'WFRP1e Death\'s Dark Shadow',
-    'TVS': 'The Voyage South (Black Library)',
-    'WDM': 'White Dwarf Magazine',
-    'BrainCraig': 'Brain Craig (Black Library)',
-    'WHMonthly': 'Warhammer Monthly (Black Library)',
-    'WFB6e': 'Warhammer Fantasy Battles 6th Edition',
-    'WFB7e': 'Warhammer Fantasy Battles 7th Edition',
-    'WFB8e': 'Warhammer Fantasy Battles 8th Edition',
-    'Archaon': 'Archaon: Everchosen (Black Library)',
-    'RedDuke': 'Red Duke (Black Library)',
-    'KniErrant': 'The Knight Errant (Black Library)',
+// Settlement `region` values -> region filter keys (see UIControls.settlementRegionConfig).
+// Westerland has no toggle of its own and shares the Albion one.
+const SETTLEMENT_REGION_KEYS = {
+    'Empire': 'empire',
+    'Bretonnia': 'bretonnia',
+    'Kislev': 'kislev',
+    'Norsca': 'norsca',
+    'Tilea': 'tilea',
+    'Estalia': 'estalia',
+    'Border Princes': 'border-princes',
+    'Albion': 'albion',
+    'Westerland': 'albion',
+    'Araby': 'araby',
+    'Dawi-Zharr': 'dawi-zharr',
+    'Nehekhara': 'nehekhara'
 };
 
 class SettlementDataManager {
@@ -65,7 +36,8 @@ class SettlementDataManager {
             'border-princes',
             'albion',
             'araby',
-            'dawi-zharr'
+            'dawi-zharr',
+            'nehekhara'
         ]);
     }
 
@@ -90,19 +62,13 @@ class SettlementDataManager {
             );
             
             // Combine all features from all datasets and annotate each feature with a normalized region key.
-            this.rawFeatures = datasets.flatMap((data, index) => {
-                const regionGroup = this.getRegionFromPath(paths[index]);
-                return data.features.map(feature => {
-                    const nextProps = {
-                        ...feature.properties,
-                        region_group: regionGroup || this.getRegionFromProvince(feature.properties?.province)
-                    };
-                    return {
-                        ...feature,
-                        properties: nextProps
-                    };
-                });
-            });
+            this.rawFeatures = datasets.flatMap(data => data.features.map(feature => ({
+                ...feature,
+                properties: {
+                    ...feature.properties,
+                    region_group: SETTLEMENT_REGION_KEYS[feature.properties?.region] || null
+                }
+            })));
             
             this.filterAndIndexSettlements();
             return this.filteredFeatures;
@@ -153,16 +119,8 @@ class SettlementDataManager {
         }
 
         // Check Published Canon Only filter
-        if (this.publishedCanonOnly) {
-            const source = this.getSourceFromTags(props.tags);
-            // Hide settlements without a source tag, or with 'AndyLaw' or 'MadAlfred' as the only source (since they are mostly fan creations and not official canon)
-            if (!source || source === 'AndyLaw' || source === 'MadAlfred') {
-                    return false;
-                    
-
-            //if (!source || source === 'AndyLaw') {
-            //    return false;
-            }
+        if (this.publishedCanonOnly && !isCanonSource(props.source)) {
+            return false;
         }
 
         const sizeCategory = Number(props.size_category);
@@ -170,91 +128,11 @@ class SettlementDataManager {
             return false;
         }
 
-        const regionGroup = props.region_group || this.getRegionFromProvince(props.province);
-        if (!regionGroup || !this.enabledRegions.has(regionGroup)) {
+        if (!props.region_group || !this.enabledRegions.has(props.region_group)) {
             return false;
         }
 
         return true;
-    }
-
-    /**
-     * Get normalized region key from settlement file path.
-     * @private
-     * @param {string} path - Data file path
-     * @returns {string|null}
-     */
-    getRegionFromPath(path) {
-        if (!path) {
-            return null;
-        }
-
-        const normalized = path.toLowerCase();
-        if (normalized.includes('settlements_empire')) return 'empire';
-        if (normalized.includes('settlements_bretonnia')) return 'bretonnia';
-        if (normalized.includes('settlements_kislev')) return 'kislev';
-        if (normalized.includes('settlements_norsca')) return 'norsca';
-        if (normalized.includes('settlements_tilea')) return 'tilea';
-        if (normalized.includes('settlements_estalia')) return 'estalia';
-        if (normalized.includes('settlements_border_princes')) return 'border-princes';
-        if (normalized.includes('settlements_westerland')) return 'albion';
-        if (normalized.includes('settlements_albion')) return 'albion';
-        if (normalized.includes('settlements_araby')) return 'araby';
-        if (normalized.includes('settlements_dawi_zharr')) return 'dawi-zharr';
-        return null;
-    }
-
-    /**
-     * Infer normalized region key from province text.
-     * @private
-     * @param {string} province - Province name
-     * @returns {string|null}
-     */
-    getRegionFromProvince(province) {
-        if (!province || typeof province !== 'string') {
-            return null;
-        }
-
-        const normalized = province.toLowerCase();
-        if (normalized.includes('empire')) return 'empire';
-        if (normalized.includes('breton')) return 'bretonnia';
-        if (normalized.includes('kislev')) return 'kislev';
-        if (normalized.includes('norsca')) return 'norsca';
-        if (normalized.includes('tilea')) return 'tilea';
-        if (normalized.includes('estalia')) return 'estalia';
-        if (normalized.includes('border')) return 'border-princes';
-        if (normalized.includes('albion')) return 'albion';
-        if (normalized.includes('araby')) return 'araby';
-        if (normalized.includes('dawi')) return 'dawi-zharr';
-        return null;
-    }
-
-    /**
-     * Extract source tag from tags array
-     * @private
-     * @param {array} tags - Array of tags
-     * @returns {string|null} - Source shorthand or null
-     */
-    getSourceFromTags(tags) {
-        if (!tags || !Array.isArray(tags)) {
-            return null;
-        }
-
-        for (const tag of tags) {
-            if (tag.startsWith('source:')) {
-                return tag.substring(7); // Remove 'source:' prefix
-            }
-        }
-        return null;
-    }
-
-    /**
-     * Get full source name from shorthand
-     * @param {string} sourceShorthand - Source shorthand
-     * @returns {string} - Full source name or original if not found
-     */
-    getFullSourceName(sourceShorthand) {
-        return SOURCE_TAG_MAP[sourceShorthand] || sourceShorthand;
     }
 
     /**
@@ -307,7 +185,7 @@ class SettlementDataManager {
             name: feature.properties.name,
             sizeCategory: feature.properties.size_category,
             population: feature.properties.population || 0,
-            province: feature.properties.province || 'Unknown',
+            province: feature.properties.province || feature.properties.region || 'Unknown',
             coordinates: coords,
             notes: feature.properties.notes || []
         };
@@ -366,16 +244,18 @@ class SettlementDataManager {
     getOLFeatures() {
         return this.filteredFeatures.map(feature => {
             const coords = feature.geometry.coordinates;
-            const sourceTag = this.getSourceFromTags(feature.properties.tags);
             const wiki = feature.properties.wiki || {};
             return new ol.Feature({
                 geometry: new ol.geom.Point(coords),
                 name: feature.properties.name,
+                settlementType: feature.properties.type,
                 sizeCategory: feature.properties.size_category,
                 population: feature.properties.population,
+                populationEstimated: feature.properties.population_estimated === true,
                 province: feature.properties.province,
+                region: feature.properties.region,
                 regionGroup: feature.properties.region_group,
-                sourceTag: sourceTag,
+                source: feature.properties.source,
                 wikiTitle: wiki.title,
                 wikiUrl: wiki.url,
                 wikiDescription: wiki.description,

@@ -8,6 +8,7 @@ class POIDataManager {
         this.filteredFeatures = [];
         this.poiMap = new Map(); // For quick lookup by name
         this.enabledTypes = new Set();
+        this.publishedCanonOnly = false;
     }
 
     /**
@@ -52,6 +53,10 @@ class POIDataManager {
 
         const [lon, lat] = coords;
         if (!isWithinBounds(lon, lat)) {
+            return false;
+        }
+
+        if (this.publishedCanonOnly && !isCanonSource(feature.properties?.source)) {
             return false;
         }
 
@@ -115,6 +120,17 @@ class POIDataManager {
     }
 
     /**
+     * Set Published Canon Only filter state
+     * @param {boolean} enabled
+     */
+    setPublishedCanonOnly(enabled) {
+        if (this.publishedCanonOnly !== enabled) {
+            this.publishedCanonOnly = enabled;
+            this.filterAndIndexPOIs();
+        }
+    }
+
+    /**
      * Get POI by name
      * @param {string} name - POI name
      * @returns {object|null}
@@ -140,10 +156,18 @@ class POIDataManager {
     getOLFeatures() {
         return this.filteredFeatures.map(feature => {
             const coords = feature.geometry.coordinates;
+            const wiki = feature.properties.wiki || {};
             return new ol.Feature({
                 geometry: new ol.geom.Point(coords),
                 name: feature.properties.name,
                 type: feature.properties.type,
+                province: feature.properties.province,
+                region: feature.properties.region,
+                source: feature.properties.source,
+                wikiTitle: wiki.title,
+                wikiUrl: wiki.url,
+                wikiDescription: wiki.description,
+                wikiImage: wiki.image,
                 featureType: 'poi' // Identify as POI for styling
             });
         });

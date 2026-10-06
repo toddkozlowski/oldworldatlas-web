@@ -21,9 +21,10 @@ class WaterData {
             }
             const data = await response.json();
             
-            this.waterLabels = data.features.map(feature => ({
+            this.waterLabels = data.features.filter(isFeatureOnMap).map(feature => ({
                 name: feature.properties.name,
                 waterbodyType: feature.properties.type,
+                wiki: feature.properties.wiki || {},
                 coordinates: feature.geometry.coordinates
             }));
 
@@ -33,7 +34,11 @@ class WaterData {
                     geometry: new ol.geom.Point(water.coordinates),
                     name: water.name,
                     featureType: 'water',
-                    waterbodyType: water.waterbodyType
+                    waterbodyType: water.waterbodyType,
+                    wikiTitle: water.wiki.title,
+                    wikiUrl: water.wiki.url,
+                    wikiDescription: water.wiki.description,
+                    wikiImage: water.wiki.image
                 });
                 return feature;
             });

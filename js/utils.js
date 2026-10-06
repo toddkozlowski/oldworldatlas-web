@@ -3,23 +3,28 @@
  */
 
 // Shared base map configuration for the current tile set.
-const IMAGE_BOUNDS = [-25, 25, 25, 75];
+// Tiles are 256 px, numbered TMS-style from the bottom-left origin. The resolution at
+// zoom z is (tile span / 256) / 2^z, and a resolutions list's index must equal the tile
+// folder z, because the tile URL uses tileCoord[0] as z.
+const IMAGE_BOUNDS = [-65, 0, 25, 90];
 const MAP_TILE_DIRECTORY = 'map_tiles';
-const MAP_TILE_VERSION = '12';
-const MAP_VIEW_BUFFER_FACTOR = 0.5;
-const MAP_TILE_SCALE_ADJUSTMENT = 0.97655;
-const MAP_TILE_BASE_PIXELS = 250;
-const MAP_TILE_ZOOM_LEVELS = 10;
+const MAP_TILE_VERSION = '13';
+const MAP_TILE_SIZE = 256;
+const MAP_TILE_BASE_MAX_ZOOM = 6;    // z1-6 cover the whole extent
+const MAP_TILE_DETAIL_MAX_ZOOM = 8;  // z7-8 only exist inside MAP_TILE_DETAIL_EXTENT
+const MAP_TILE_DETAIL_EXTENT = [-25.625, 29.53125, 15.15625, 70.3125];
+const MAP_VIEW_MIN_ZOOM = 2;         // furthest zoom-out (z1 is the coarsest rendered level)
+const MAP_VIEW_MAX_ZOOM = 10;        // deepest zoom; past z8 the z8 tiles are enlarged
+const MAP_VIEW_DEFAULT_CENTER = [0, 50];
+const MAP_VIEW_BUFFER_FACTOR = 0.25;
+
+// Rat-mode tiles were rendered on the previous tile grid and only cover its area.
+const RAT_MODE_TILE_DIRECTORY = 'ratmode_tiles';
+const RAT_MODE_TILE_BOUNDS = [-25, 25, 25, 75];
+const RAT_MODE_TILE_MAX_ZOOM = 6;
 
 function getImageExtent() {
     return [...IMAGE_BOUNDS];
-}
-
-function getImageCenter() {
-    return [
-        (IMAGE_BOUNDS[0] + IMAGE_BOUNDS[2]) / 2,
-        (IMAGE_BOUNDS[1] + IMAGE_BOUNDS[3]) / 2
-    ];
 }
 
 function getBufferedImageBounds(bufferFactor = MAP_VIEW_BUFFER_FACTOR) {
@@ -36,13 +41,33 @@ function getBufferedImageBounds(bufferFactor = MAP_VIEW_BUFFER_FACTOR) {
     ];
 }
 
-function getTileResolutions(levelCount = MAP_TILE_ZOOM_LEVELS) {
-    const width = IMAGE_BOUNDS[2] - IMAGE_BOUNDS[0];
-    const height = IMAGE_BOUNDS[3] - IMAGE_BOUNDS[1];
-    const baseSpan = Math.max(width, height);
-    const baseResolution = (baseSpan / MAP_TILE_BASE_PIXELS) * MAP_TILE_SCALE_ADJUSTMENT;
+/**
+ * Map units per pixel at tile zoom level z
+ * @param {number} z - Tile zoom level
+ * @returns {number}
+ */
+function getTileResolution(z) {
+    const span = Math.max(IMAGE_BOUNDS[2] - IMAGE_BOUNDS[0], IMAGE_BOUNDS[3] - IMAGE_BOUNDS[1]);
+    return span / (MAP_TILE_SIZE * 2 ** z);
+}
 
-    return Array.from({ length: levelCount }, (_, index) => baseResolution / (2 ** index));
+/**
+ * Tile grid resolutions for z0..maxZoom (index == z)
+ * @param {number} maxZoom - Deepest tile zoom level
+ * @returns {number[]}
+ */
+function getTileResolutions(maxZoom = MAP_TILE_DETAIL_MAX_ZOOM) {
+    return Array.from({ length: maxZoom + 1 }, (_, z) => getTileResolution(z));
+}
+
+/**
+ * Tile grid resolutions for the rat-mode tiles, which use the previous grid
+ * (50 map units at 250 px, with its 0.97655 scale correction)
+ * @returns {number[]}
+ */
+function getRatModeTileResolutions() {
+    const baseResolution = ((RAT_MODE_TILE_BOUNDS[2] - RAT_MODE_TILE_BOUNDS[0]) / 250) * 0.97655;
+    return Array.from({ length: RAT_MODE_TILE_MAX_ZOOM + 1 }, (_, z) => baseResolution / (2 ** z));
 }
 
 /**
@@ -67,6 +92,26 @@ function isValidCoordinate(coords) {
            typeof coords[1] === 'number' &&
            !isNaN(coords[0]) && 
            !isNaN(coords[1]);
+}
+
+/**
+ * Validate a GeoJSON point feature's coordinates and check it lies within the map image
+ * @param {object} feature - GeoJSON feature
+ * @returns {boolean}
+ */
+function isFeatureOnMap(feature) {
+    const coords = feature?.geometry?.coordinates;
+    return isValidCoordinate(coords) && isWithinBounds(coords[0], coords[1]);
+}
+
+/**
+ * Whether a feature's `source` counts as published canon: any non-empty source
+ * that doesn't mention "unofficial" (e.g. "Andy Law (unofficial)")
+ * @param {string|null} source - Source title from the GeoJSON `source` property
+ * @returns {boolean}
+ */
+function isCanonSource(source) {
+    return typeof source === 'string' && source.trim() !== '' && !/unofficial/i.test(source);
 }
 
 /**

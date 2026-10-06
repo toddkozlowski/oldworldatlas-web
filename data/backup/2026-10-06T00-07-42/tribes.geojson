@@ -1,0 +1,4869 @@
+{
+  "type": "FeatureCollection",
+  "name": "tribes",
+  "schema_version": 2,
+  "features": [
+    {
+      "type": "Feature",
+      "id": "text1415",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.220745,
+          49.993122
+        ]
+      },
+      "properties": {
+        "id": "text1415",
+        "name": "Blackclaw Goblins",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": false,
+        "type": null,
+        "group": "Greenskins",
+        "size": "Minor",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text1416",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.293973,
+          51.924111
+        ]
+      },
+      "properties": {
+        "id": "text1416",
+        "name": "Wolfskull Goblins",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": false,
+        "type": null,
+        "group": "Greenskins",
+        "size": "Minor",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text1417",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.455367,
+          52.159788
+        ]
+      },
+      "properties": {
+        "id": "text1417",
+        "name": "Ripspine Orcs",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": false,
+        "type": null,
+        "group": "Greenskins",
+        "size": "Minor",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text1433",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.003304,
+          51.141559
+        ]
+      },
+      "properties": {
+        "id": "text1433",
+        "name": "Spiderclaw Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Forest Goblin",
+        "group": "Greenskins",
+        "size": "Minor",
+        "source": "Warhammer Armies: The Empire (8th Edition), pg. 14-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text1468",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.544168,
+          48.433225
+        ]
+      },
+      "properties": {
+        "id": "text1468",
+        "name": "Twisted Maw Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Goblin",
+        "group": "Greenskins",
+        "size": "Minor",
+        "source": "Death On The Reik (Supplement) pg. 27"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text1469",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.259115,
+          55.368122
+        ]
+      },
+      "properties": {
+        "id": "text1469",
+        "name": "Deff Bats Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": false,
+        "type": null,
+        "group": "Greenskins",
+        "size": "Minor",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text1471",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.065971,
+          50.796614
+        ]
+      },
+      "properties": {
+        "id": "text1471",
+        "name": "Bonecracker Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Orcs",
+        "group": "Greenskins",
+        "size": "Minor",
+        "source": "Skarok and a Hard Place, pg. 13"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text1472",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.724774,
+          44.539455
+        ]
+      },
+      "properties": {
+        "id": "text1472",
+        "name": "Madcraw Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": false,
+        "type": null,
+        "group": "Greenskins",
+        "size": "Minor",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text1474",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.555056,
+          50.992805
+        ]
+      },
+      "properties": {
+        "id": "text1474",
+        "name": "Twisted Maw Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Goblin",
+        "group": "Greenskins",
+        "size": "Minor",
+        "source": "Death On The Reik (Supplement) pg. 27"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text1477",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.821275,
+          49.314268
+        ]
+      },
+      "properties": {
+        "id": "text1477",
+        "name": "Sliced Gizzard Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": false,
+        "type": null,
+        "group": "Greenskins",
+        "size": "Minor",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text1478",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.254116,
+          49.319331
+        ]
+      },
+      "properties": {
+        "id": "text1478",
+        "name": "Gong-Tongue Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": false,
+        "type": null,
+        "group": "Greenskins",
+        "size": "Minor",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text752",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.668116,
+          33.905234
+        ]
+      },
+      "properties": {
+        "id": "text752",
+        "name": "Bog Creepers Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Goblin",
+        "group": "Greenskins",
+        "size": "Minor",
+        "source": "White Dwarf 377 (UK), pg. 50"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text778",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.693362,
+          45.285231
+        ]
+      },
+      "properties": {
+        "id": "text778",
+        "name": "Bloodied Nose Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Goblin",
+        "group": "Greenskins",
+        "size": "Minor",
+        "source": "Warhammer Fantasy Roleplay 4e: Tribes and Tribulations"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text779",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.526042,
+          35.474895
+        ]
+      },
+      "properties": {
+        "id": "text779",
+        "name": "Flying Goblins Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Goblin",
+        "group": "Greenskins",
+        "size": "Minor",
+        "source": "Warhammer Armies: Orcs & Goblins (6th Edition), pg. 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text780",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.130018,
+          38.888124
+        ]
+      },
+      "properties": {
+        "id": "text780",
+        "name": "Grey Hag Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Goblin",
+        "group": "Greenskins",
+        "size": "Minor",
+        "source": "White Dwarf 276 (UK): The History of the Damned, pg. 68"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text781",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.149049,
+          44.42713
+        ]
+      },
+      "properties": {
+        "id": "text781",
+        "name": "Long Ears Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Goblin",
+        "group": "Greenskins",
+        "size": "Minor",
+        "source": "Lords of Stone and Steel: Threats to Karak Norn, pg. 27"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text782",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.565104,
+          51.795205
+        ]
+      },
+      "properties": {
+        "id": "text782",
+        "name": "Red Eyez Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Goblin",
+        "group": "Greenskins",
+        "size": "Minor",
+        "source": "Warhammer the Old World Roleplaying Game Gamemaster's Guide, pg. 152"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text783",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.989584,
+          46.808225
+        ]
+      },
+      "properties": {
+        "id": "text783",
+        "name": "Red Face Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Goblin",
+        "group": "Greenskins",
+        "size": "Minor",
+        "source": "Warhammer Armies: Orcs & Goblins (7th Edition), pg. 14"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text784",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.090123,
+          45.843184
+        ]
+      },
+      "properties": {
+        "id": "text784",
+        "name": "Red Nails Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Goblin",
+        "group": "Greenskins",
+        "size": "Minor",
+        "source": "Lords of Stone and Steel: Threats to Karak Norn, pg. 27"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text785",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.817379,
+          34.818579
+        ]
+      },
+      "properties": {
+        "id": "text785",
+        "name": "Rusty Nail Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Goblin",
+        "group": "Greenskins",
+        "size": "Minor",
+        "source": "Warhammer Armies: Orcs & Goblins (8th Edition): Domains of the Greenskins, pg. 12"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text786",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.786458,
+          44.763955
+        ]
+      },
+      "properties": {
+        "id": "text786",
+        "name": "Snipped Finger Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Goblin",
+        "group": "Greenskins",
+        "size": "Minor",
+        "source": "Lords of Stone and Steel: Threats to Karak Norn, pg. 27"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text787",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.729166,
+          46.597288
+        ]
+      },
+      "properties": {
+        "id": "text787",
+        "name": "Slit Nose Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Goblin",
+        "group": "Greenskins",
+        "size": "Minor",
+        "source": "Lords of Stone and Steel: Threats to Karak Norn, pg. 27"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text788",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.048479,
+          45.719142
+        ]
+      },
+      "properties": {
+        "id": "text788",
+        "name": "Teef-robberz Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Goblin",
+        "group": "Greenskins",
+        "size": "Minor",
+        "source": "Warhammer Armies: Orcs & Goblins (8th Edition): Goblin Wolf Chariots, pg. 46"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text790",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.040963,
+          36.604762
+        ]
+      },
+      "properties": {
+        "id": "text790",
+        "name": "Crookhoodz",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Night Goblins",
+        "group": "Greenskins",
+        "size": "Minor",
+        "source": "Warhammer: Nagash pg. 139"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text791",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.627926,
+          41.362998
+        ]
+      },
+      "properties": {
+        "id": "text791",
+        "name": "Black Fangs Goblins",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": false,
+        "type": null,
+        "group": "Greenskins",
+        "size": "Minor",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text792",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.136265,
+          41.241465
+        ]
+      },
+      "properties": {
+        "id": "text792",
+        "name": "Sharp Nose Goblins",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": false,
+        "type": null,
+        "group": "Greenskins",
+        "size": "Minor",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text1486",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.403306,
+          49.023904
+        ]
+      },
+      "properties": {
+        "id": "text1486",
+        "name": "Mad Dog Goblins",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": false,
+        "type": null,
+        "group": "Greenskins",
+        "size": "Minor",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text1487",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.941406,
+          49.249632
+        ]
+      },
+      "properties": {
+        "id": "text1487",
+        "name": "Bloodspike Goblins",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": false,
+        "type": null,
+        "group": "Greenskins",
+        "size": "Minor",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text1488",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.505208,
+          48.749632
+        ]
+      },
+      "properties": {
+        "id": "text1488",
+        "name": "Bleeding Moon Goblins",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": false,
+        "type": null,
+        "group": "Greenskins",
+        "size": "Minor",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text1489",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.117188,
+          48.701455
+        ]
+      },
+      "properties": {
+        "id": "text1489",
+        "name": "Poisoned Skull Night Goblins",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": false,
+        "type": null,
+        "group": "Greenskins",
+        "size": "Minor",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text1490",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.393229,
+          48.631142
+        ]
+      },
+      "properties": {
+        "id": "text1490",
+        "name": "Black Fang Orcs",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Orcs",
+        "group": "Greenskins",
+        "size": "Minor",
+        "source": "Warhammer Quest (Video Game)"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text1491",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.335937,
+          49.430621
+        ]
+      },
+      "properties": {
+        "id": "text1491",
+        "name": "Red Maw Orcs",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": false,
+        "type": null,
+        "group": "Greenskins",
+        "size": "Minor",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text1494",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.898562,
+          46.947188
+        ]
+      },
+      "properties": {
+        "id": "text1494",
+        "name": "Grinning Moon Goblins",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": false,
+        "type": null,
+        "group": "Greenskins",
+        "size": "Minor",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text1495",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.674479,
+          47.256142
+        ]
+      },
+      "properties": {
+        "id": "text1495",
+        "name": "Poison Toad Goblins",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": false,
+        "type": null,
+        "group": "Greenskins",
+        "size": "Minor",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text1496",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.914063,
+          47.553017
+        ]
+      },
+      "properties": {
+        "id": "text1496",
+        "name": "Lesser Maw Night Goblins",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": false,
+        "type": null,
+        "group": "Greenskins",
+        "size": "Minor",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text1497",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.157552,
+          48.241819
+        ]
+      },
+      "properties": {
+        "id": "text1497",
+        "name": "Flathead Goblins",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": false,
+        "type": null,
+        "group": "Greenskins",
+        "size": "Minor",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text1498",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.596354,
+          48.1676
+        ]
+      },
+      "properties": {
+        "id": "text1498",
+        "name": "Feathered Goblins",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": false,
+        "type": null,
+        "group": "Greenskins",
+        "size": "Minor",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text1500",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.949147,
+          48.461686
+        ]
+      },
+      "properties": {
+        "id": "text1500",
+        "name": "Bloody Tusk Goblins",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": false,
+        "type": null,
+        "group": "Greenskins",
+        "size": "Minor",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text1501",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.266927,
+          46.607705
+        ]
+      },
+      "properties": {
+        "id": "text1501",
+        "name": "Teef-Rustlaz Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": false,
+        "type": null,
+        "group": "Greenskins",
+        "size": "Minor",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text1503",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.008994,
+          44.782523
+        ]
+      },
+      "properties": {
+        "id": "text1503",
+        "name": "Scarred Legs Goblins",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": false,
+        "type": null,
+        "group": "Greenskins",
+        "size": "Minor",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text2641",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.30106,
+          43.986414
+        ]
+      },
+      "properties": {
+        "id": "text2641",
+        "name": "Slit Nose Goblins",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": false,
+        "type": null,
+        "group": "Greenskins",
+        "size": "Minor",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text2642",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.754185,
+          45.45907
+        ]
+      },
+      "properties": {
+        "id": "text2642",
+        "name": "Wolf-Ears Goblins",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": false,
+        "type": null,
+        "group": "Greenskins",
+        "size": "Minor",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text2643",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.627712,
+          42.755115
+        ]
+      },
+      "properties": {
+        "id": "text2643",
+        "name": "Snaggle-Tooth Goblins",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": false,
+        "type": null,
+        "group": "Greenskins",
+        "size": "Minor",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text2644",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.705051,
+          42.001971
+        ]
+      },
+      "properties": {
+        "id": "text2644",
+        "name": "Blood-Axe Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": false,
+        "type": null,
+        "group": "Greenskins",
+        "size": "Minor",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text2645",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.826372,
+          43.202581
+        ]
+      },
+      "properties": {
+        "id": "text2645",
+        "name": "Fanged Maws Forest Goblins",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": false,
+        "type": null,
+        "group": "Greenskins",
+        "size": "Minor",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text2646",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.93144,
+          42.482582
+        ]
+      },
+      "properties": {
+        "id": "text2646",
+        "name": "Knobby Knees Goblins",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": false,
+        "type": null,
+        "group": "Greenskins",
+        "size": "Minor",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text2647",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.143226,
+          45.340778
+        ]
+      },
+      "properties": {
+        "id": "text2647",
+        "name": "Four Fingers Goblins",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": false,
+        "type": null,
+        "group": "Greenskins",
+        "size": "Minor",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text2651",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.704424,
+          45.420204
+        ]
+      },
+      "properties": {
+        "id": "text2651",
+        "name": "Bloody Ears Goblins",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": false,
+        "type": null,
+        "group": "Greenskins",
+        "size": "Minor",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text2652",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.576821,
+          45.447549
+        ]
+      },
+      "properties": {
+        "id": "text2652",
+        "name": "Warty Nose Goblins",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": false,
+        "type": null,
+        "group": "Greenskins",
+        "size": "Minor",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text2653",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.462236,
+          44.558225
+        ]
+      },
+      "properties": {
+        "id": "text2653",
+        "name": "Clawed Hands Goblins",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": false,
+        "type": null,
+        "group": "Greenskins",
+        "size": "Minor",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text2654",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.838091,
+          42.676539
+        ]
+      },
+      "properties": {
+        "id": "text2654",
+        "name": "Sawtooth Orcs",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": false,
+        "type": null,
+        "group": "Greenskins",
+        "size": "Minor",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text2655",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.453965,
+          43.977217
+        ]
+      },
+      "properties": {
+        "id": "text2655",
+        "name": "Howling Moon Goblins",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": false,
+        "type": null,
+        "group": "Greenskins",
+        "size": "Minor",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text789",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.716146,
+          54.209267
+        ]
+      },
+      "properties": {
+        "id": "text789",
+        "name": "Da Krawlas Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Forest Goblin",
+        "group": "Greenskins",
+        "size": "Minor",
+        "source": "White Dwarf 377 (UK), pg. 49"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text2681",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.86933,
+          44.624352
+        ]
+      },
+      "properties": {
+        "id": "text2681",
+        "name": "Harboth's Black Mountain Boyz",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": false,
+        "type": null,
+        "group": "Greenskins",
+        "size": "Minor",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text833",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.437323,
+          50.459978
+        ]
+      },
+      "properties": {
+        "id": "text833",
+        "name": "Shadowweb Goblins",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": false,
+        "type": null,
+        "group": "Greenskins",
+        "size": "Minor",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text834",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.113263,
+          50.518903
+        ]
+      },
+      "properties": {
+        "id": "text834",
+        "name": "Poisonblade Goblins",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": false,
+        "type": null,
+        "group": "Greenskins",
+        "size": "Minor",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text835",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.728161,
+          50.623864
+        ]
+      },
+      "properties": {
+        "id": "text835",
+        "name": "Blackweb Goblins",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": false,
+        "type": null,
+        "group": "Greenskins",
+        "size": "Minor",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text836",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.065248,
+          51.196547
+        ]
+      },
+      "properties": {
+        "id": "text836",
+        "name": "Rotbone Goblins",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": false,
+        "type": null,
+        "group": "Greenskins",
+        "size": "Minor",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text1102",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.295328,
+          31.874831
+        ]
+      },
+      "properties": {
+        "id": "text1102",
+        "name": "Beard Burners Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Night Goblins",
+        "group": "Greenskins",
+        "size": "Minor",
+        "source": "White Dwarf 377 (UK), pg. 51"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text1103",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.379232,
+          48.857545
+        ]
+      },
+      "properties": {
+        "id": "text1103",
+        "name": "Bad Skulls Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Orcs",
+        "group": "Greenskins",
+        "size": "Minor",
+        "source": "White Dwarf 283 (UK), pg. 13-15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text1104",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.19336,
+          28.63863
+        ]
+      },
+      "properties": {
+        "id": "text1104",
+        "name": "Boneklubbers Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Savage Orcs",
+        "group": "Greenskins",
+        "size": "Minor",
+        "source": "Warhammer Armies: Orcs & Goblins (8th Edition), pg. 40"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text1106",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.493905,
+          34.744101
+        ]
+      },
+      "properties": {
+        "id": "text1106",
+        "name": "Crookblades Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Night Goblins",
+        "group": "Greenskins",
+        "size": "Minor",
+        "source": "Warhammer: Nagash, pg. 135"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text1108",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.706474,
+          53.327075
+        ]
+      },
+      "properties": {
+        "id": "text1108",
+        "name": "Forest Scuttlers Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Forest Goblin",
+        "group": "Greenskins",
+        "size": "Minor",
+        "source": "Warhammer Armies: Orcs & Goblins (5th Edition), pg. 103"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text1109",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.660438,
+          54.354244
+        ]
+      },
+      "properties": {
+        "id": "text1109",
+        "name": "Gaping Maw Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Forest Goblin",
+        "group": "Greenskins",
+        "size": "Minor",
+        "source": "Warhammer Armies: Orcs & Goblins (5th Edition), pg. 103"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text1110",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.529983,
+          52.774995
+        ]
+      },
+      "properties": {
+        "id": "text1110",
+        "name": "Headsplittaz Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Orcs",
+        "group": "Greenskins",
+        "size": "Minor",
+        "source": "Warhammer Armies: Orcs & Goblins (8th Edition), pg. 8"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text1111",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.033541,
+          52.452744
+        ]
+      },
+      "properties": {
+        "id": "text1111",
+        "name": "Horned Skull Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Forest Goblin",
+        "group": "Greenskins",
+        "size": "Minor",
+        "source": "Warhammer Armies: Orcs & Goblins (5th Edition), pg. 103"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text1114",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.928642,
+          56.11833
+        ]
+      },
+      "properties": {
+        "id": "text1114",
+        "name": "Leerin' Moon Goblins",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Night Goblins",
+        "group": "Greenskins",
+        "size": "Minor",
+        "source": "White Dwarf 377 (UK), pg. 48"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text1117",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.695878,
+          38.521567
+        ]
+      },
+      "properties": {
+        "id": "text1117",
+        "name": "Orcs of the Great Slaughter",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Orcs",
+        "group": "Greenskins",
+        "size": "Minor",
+        "source": "Warhammer Armies: Orcs & Goblins (6th Edition), pg. 5"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text1118",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.469495,
+          51.65878
+        ]
+      },
+      "properties": {
+        "id": "text1118",
+        "name": "Rootgrubba Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Forest Goblin",
+        "group": "Greenskins",
+        "size": "Minor",
+        "source": "Warhammer Armies: Orcs & Goblins (7th Edition), pg. 45"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text1121",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.481698,
+          42.06425
+        ]
+      },
+      "properties": {
+        "id": "text1121",
+        "name": "Skullsplittas Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Orcs",
+        "group": "Greenskins",
+        "size": "Minor",
+        "source": "Warhammer Armies: Orcs & Goblins (8th Edition), pg. 9"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text611",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.609027,
+          25.589642
+        ]
+      },
+      "properties": {
+        "id": "text611",
+        "name": "Red Shield Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Orcs",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": "Warhammer Armies: Orcs & Goblins (6th Edition), pg. 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text612",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.760417,
+          25.834269
+        ]
+      },
+      "properties": {
+        "id": "text612",
+        "name": "Top-knotz Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Savage Orcs",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": "Warhammer Armies: Orcs & Goblins (8th Edition), pg. 11"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text613",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.104166,
+          25.136353
+        ]
+      },
+      "properties": {
+        "id": "text613",
+        "name": "Vulchaz Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": null,
+        "group": "Greenskins",
+        "size": "Major",
+        "source": "Warhammer Fantasy Roleplay 4e: Tribes and Tribulations"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text614",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.932292,
+          28.776979
+        ]
+      },
+      "properties": {
+        "id": "text614",
+        "name": "Bloody Handz Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Orcs",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": "Warhammer Armies: Orcs & Goblins (6th Edition), pg. 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text615",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.442708,
+          28.532185
+        ]
+      },
+      "properties": {
+        "id": "text615",
+        "name": "Rusty Daggaz Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": false,
+        "type": null,
+        "group": "Greenskins",
+        "size": "Major",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text616",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.880209,
+          29.844686
+        ]
+      },
+      "properties": {
+        "id": "text616",
+        "name": "Skull Crag Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Goblin",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": "Warhammer Armies: Orcs & Goblins (7th Edition), pg. 77"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text617",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.760416,
+          31.766562
+        ]
+      },
+      "properties": {
+        "id": "text617",
+        "name": "Night Goblins of Spitepeak",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Night Goblins",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text618",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.255208,
+          33.125937
+        ]
+      },
+      "properties": {
+        "id": "text618",
+        "name": "Skull-takerz Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Orcs",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text619",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.828125,
+          31.370728
+        ]
+      },
+      "properties": {
+        "id": "text619",
+        "name": "Teef Snatchaz Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": null,
+        "group": "Greenskins",
+        "size": "Major",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text620",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.625001,
+          37.594687
+        ]
+      },
+      "properties": {
+        "id": "text620",
+        "name": "Scabby Eye Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Goblin",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": "Warhammer Armies: Orcs & Goblins (7th Edition), pg. 77"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text621",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.666667,
+          35.110311
+        ]
+      },
+      "properties": {
+        "id": "text621",
+        "name": "Da Howlaz Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": false,
+        "type": null,
+        "group": "Greenskins",
+        "size": "Major",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text622",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.307292,
+          35.506145
+        ]
+      },
+      "properties": {
+        "id": "text622",
+        "name": "Broken Tooth Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Orcs",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": "Warhammer Rulebook (6th Edition), pg. 175"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text623",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.291666,
+          35.860312
+        ]
+      },
+      "properties": {
+        "id": "text623",
+        "name": "Crooked Moon Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Night Goblins",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": "Warhammer Armies: Orcs & Goblins (6th Edition), pg. 5"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text624",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.072917,
+          37.276977
+        ]
+      },
+      "properties": {
+        "id": "text624",
+        "name": "Broken Tooth Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Orcs",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": "Warhammer Rulebook (6th Edition), pg. 175"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text625",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.494793,
+          34.70927
+        ]
+      },
+      "properties": {
+        "id": "text625",
+        "name": "Stone Fangz Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Savage Orcs",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": "Warhammer Armies: Orcs & Goblins (8th Edition), pg. 14"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text626",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.052085,
+          37.219686
+        ]
+      },
+      "properties": {
+        "id": "text626",
+        "name": "Moonhowlaz Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Goblin",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": "Warhammer: Nagash pg. 139"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text627",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.874999,
+          39.875936
+        ]
+      },
+      "properties": {
+        "id": "text627",
+        "name": "Tusked Sunz",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": null,
+        "group": "Greenskins",
+        "size": "Major",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text628",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.078126,
+          43.558228
+        ]
+      },
+      "properties": {
+        "id": "text628",
+        "name": "Drippin' Fangz Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Goblin",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": "Warhammer Armies: Orcs & Goblins (8th Edition), pg. 46"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text629",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.21875,
+          49.05302
+        ]
+      },
+      "properties": {
+        "id": "text629",
+        "name": "Ironskinz Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Orcs",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text630",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.661459,
+          46.500936
+        ]
+      },
+      "properties": {
+        "id": "text630",
+        "name": "Red Face Goblins",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": false,
+        "type": null,
+        "group": "Greenskins",
+        "size": "Major",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text631",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.630207,
+          53.776979
+        ]
+      },
+      "properties": {
+        "id": "text631",
+        "name": "Red Eye Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Night Goblins",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": "Warhammer Armies: Orcs & Goblins (5th Edition), pg. 102"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text632",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.604167,
+          53.86552
+        ]
+      },
+      "properties": {
+        "id": "text632",
+        "name": "Creeping Death Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Forest Goblin",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": "Warhammer Armies: Orcs & Goblins (7th Edition), pg. 77"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text633",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.453125,
+          48.641562
+        ]
+      },
+      "properties": {
+        "id": "text633",
+        "name": "Crooked Eye Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Orcs",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": "White Dwarf 267 (UK), pg. 37"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text634",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.802084,
+          53.662395
+        ]
+      },
+      "properties": {
+        "id": "text634",
+        "name": "Gloomfangs Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Forest Goblin",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": "Warhammer Armies: Orcs & Goblins (7th Edition), pg. 77"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text635",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.114584,
+          55.948854
+        ]
+      },
+      "properties": {
+        "id": "text635",
+        "name": "Bloodfeathers Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Forest Goblin",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": "Warhammer Fantasy Roleplay 4e: Tribes and Tribulations"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text636",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.723959,
+          53.214478
+        ]
+      },
+      "properties": {
+        "id": "text636",
+        "name": "Cluster-eye Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Forest Goblin",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": "White Dwarf 377 (UK), pg. 48"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text637",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.088542,
+          53.542603
+        ]
+      },
+      "properties": {
+        "id": "text637",
+        "name": "Bad Axes Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": false,
+        "type": null,
+        "group": "Greenskins",
+        "size": "Major",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text638",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.239583,
+          50.610312
+        ]
+      },
+      "properties": {
+        "id": "text638",
+        "name": "Skullsmasherz Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Orcs",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": "Warhammer Fantasy Roleplay 4e: Tribes and Tribulations"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text639",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.859375,
+          46.157186
+        ]
+      },
+      "properties": {
+        "id": "text639",
+        "name": "Deff Grindaz Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Orcs",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": "Warhammer Fantasy Roleplay 4e: Tribes and Tribulations"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text640",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.401042,
+          42.261353
+        ]
+      },
+      "properties": {
+        "id": "text640",
+        "name": "Necksnappers Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Orcs",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": "Warhammer Armies: Orcs & Goblins (8th Edition), pg. 10"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text641",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.177083,
+          39.625937
+        ]
+      },
+      "properties": {
+        "id": "text641",
+        "name": "Broken Nose Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Goblin",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": "Warhammer Armies: Orcs & Goblins (7th Edition), pg. 15"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text642",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.144289,
+          36.221691
+        ]
+      },
+      "properties": {
+        "id": "text642",
+        "name": "Blue Face Orcs",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": false,
+        "type": null,
+        "group": "Greenskins",
+        "size": "Major",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text643",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.34375,
+          42.672811
+        ]
+      },
+      "properties": {
+        "id": "text643",
+        "name": "Black Venom Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Forest Goblin",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": "Warhammer Fantasy Roleplay 4e: Tribes and Tribulations"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text644",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.515626,
+          42.287394
+        ]
+      },
+      "properties": {
+        "id": "text644",
+        "name": "Bloody Spearz Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Night Goblins",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": "Warhammer Armies: Orcs & Goblins (6th Edition), pg. 3-4"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text645",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.557292,
+          57.672812
+        ]
+      },
+      "properties": {
+        "id": "text645",
+        "name": "Da Bonerattlaz Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Orcs",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": "Warhammer Armies: Orcs & Goblins (8th Edition), pg. 38"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text646",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.703125,
+          56.964478
+        ]
+      },
+      "properties": {
+        "id": "text646",
+        "name": "Reavaz Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Goblin",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": "Warhammer Armies: Orcs & Goblins (7th Edition), pg. 77"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text647",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.697917,
+          25.287393
+        ]
+      },
+      "properties": {
+        "id": "text647",
+        "name": "Bone Nose Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Savage Orcs",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": "Warhammer Armies: Orcs & Goblins (6th Edition), pg. 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text648",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.416667,
+          26.792603
+        ]
+      },
+      "properties": {
+        "id": "text648",
+        "name": "Bloody Sunz Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Orcs",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": "Warhammer Armies: Orcs & Goblins (7th Edition), pg. 77"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text649",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.046875,
+          30.568644
+        ]
+      },
+      "properties": {
+        "id": "text649",
+        "name": "One Eye Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Goblin",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": "Warhammer Armies: Orcs & Goblins (6th Edition), pg. 5"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text650",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.036458,
+          25.370728
+        ]
+      },
+      "properties": {
+        "id": "text650",
+        "name": "Burnin' Face Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Night Goblins",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": "Warhammer Armies: Orcs & Goblins (7th Edition), pg. 77"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text651",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.130207,
+          26.099894
+        ]
+      },
+      "properties": {
+        "id": "text651",
+        "name": "Red Fang Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Orcs",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": "Warhammer Armies: Orcs & Goblins (6th Edition), pg. 5"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text652",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.864584,
+          31.256145
+        ]
+      },
+      "properties": {
+        "id": "text652",
+        "name": "Skullsplittaz",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": false,
+        "type": null,
+        "group": "Greenskins",
+        "size": "Major",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text653",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.166668,
+          33.605103
+        ]
+      },
+      "properties": {
+        "id": "text653",
+        "name": "Red Hoods Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": null,
+        "group": "Greenskins",
+        "size": "Major",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text654",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.885417,
+          33.297812
+        ]
+      },
+      "properties": {
+        "id": "text654",
+        "name": "Bork's Rok 'ard Boyz",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Orcs",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": "Warhammer Fantasy Roleplay 4e: Tribes and Tribulations"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text655",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.535989,
+          38.273093
+        ]
+      },
+      "properties": {
+        "id": "text655",
+        "name": "Broken Axe Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Goblin",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": "Warhammer Armies: Orcs & Goblins (6th Edition), pg. 5"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text656",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.064583,
+          43.900481
+        ]
+      },
+      "properties": {
+        "id": "text656",
+        "name": "Stone Snakes Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Savage Orcs",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": "Warhammer Fantasy Roleplay 4e: Tribes and Tribulations"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text657",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.396039,
+          42.736702
+        ]
+      },
+      "properties": {
+        "id": "text657",
+        "name": "Moonbatz Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Night Goblins",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": "White Dwarf 377 (UK), pg. 48"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text658",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.549978,
+          41.689189
+        ]
+      },
+      "properties": {
+        "id": "text658",
+        "name": "DogBoyz Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": false,
+        "type": null,
+        "group": "Greenskins",
+        "size": "Major",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text673",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.332792,
+          38.096313
+        ]
+      },
+      "properties": {
+        "id": "text673",
+        "name": "Magrabb's Mangy Marauderz",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": false,
+        "type": null,
+        "group": "Greenskins",
+        "size": "Major",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text682",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.178539,
+          34.789114
+        ]
+      },
+      "properties": {
+        "id": "text682",
+        "name": "Magrabb's Mangy Marauderz",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": false,
+        "type": null,
+        "group": "Greenskins",
+        "size": "Major",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text683",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.679406,
+          56.621039
+        ]
+      },
+      "properties": {
+        "id": "text683",
+        "name": "'Ead Krumpa Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": false,
+        "type": null,
+        "group": "Greenskins",
+        "size": "Major",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text684",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.370045,
+          54.168262
+        ]
+      },
+      "properties": {
+        "id": "text684",
+        "name": "Steel Fangz Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": false,
+        "type": null,
+        "group": "Greenskins",
+        "size": "Major",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text685",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.484002,
+          50.161324
+        ]
+      },
+      "properties": {
+        "id": "text685",
+        "name": "Ironclad Skullz",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": false,
+        "type": null,
+        "group": "Greenskins",
+        "size": "Major",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text686",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.09794,
+          52.208988
+        ]
+      },
+      "properties": {
+        "id": "text686",
+        "name": "Blackcaps Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Night Goblins",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": "White Dwarf 376 (UK), pg. 32"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text687",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.440662,
+          53.291744
+        ]
+      },
+      "properties": {
+        "id": "text687",
+        "name": "Itchy Scabs Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Orcs",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": "Warhammer Armies: Orcs & Goblins (8th Edition), pg. 9"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text688",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.302733,
+          43.211821
+        ]
+      },
+      "properties": {
+        "id": "text688",
+        "name": "Yellow Eye Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Goblin",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": "Warhammer Armies: Orcs & Goblins (6th Edition), pg. 5"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text689",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.456673,
+          40.423876
+        ]
+      },
+      "properties": {
+        "id": "text689",
+        "name": "Gutrippaz Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Orcs",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": "Warhammer Rulebook (8th Edition): Domains of the Greenskins, pg. 12"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text690",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.308775,
+          41.782646
+        ]
+      },
+      "properties": {
+        "id": "text690",
+        "name": "Ratskinz Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Savage Orcs",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": "Warhammer Fantasy Roleplay 4e: Tribes and Tribulations"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text691",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.145009,
+          40.458889
+        ]
+      },
+      "properties": {
+        "id": "text691",
+        "name": "Shifties Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Night Goblins",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": "White Dwarf 377 (UK), pg. 50"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text692",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.155559,
+          39.893547
+        ]
+      },
+      "properties": {
+        "id": "text692",
+        "name": "Red Helm Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": null,
+        "group": "Greenskins",
+        "size": "Major",
+        "source": "Warhammer Fantasy Roleplay 4e: Tribes and Tribulations"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text693",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.88866,
+          38.40567
+        ]
+      },
+      "properties": {
+        "id": "text693",
+        "name": "Iron 'ead Boyz",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Orcs",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": "Warhammer Fantasy Roleplay 4e: Tribes and Tribulations"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text694",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.06838,
+          56.084888
+        ]
+      },
+      "properties": {
+        "id": "text694",
+        "name": "Bitter-Eye Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Forest Goblin",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": "Warhammer Armies: Beastmen (7th Edition)"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text695",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.345761,
+          54.875369
+        ]
+      },
+      "properties": {
+        "id": "text695",
+        "name": "Bloody Fangz",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": false,
+        "type": null,
+        "group": "Greenskins",
+        "size": "Major",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text494",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.072917,
+          33.907186
+        ]
+      },
+      "properties": {
+        "id": "text494",
+        "name": "Blacktooth Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": false,
+        "type": null,
+        "group": "Greenskins",
+        "size": "Major",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text518",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.226563,
+          43.727497
+        ]
+      },
+      "properties": {
+        "id": "text518",
+        "name": "Black Mountain Boyz",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Orcs",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": "Warhammer Fantasy Roleplay 4e: Tribes and Tribulations"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text524",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.776042,
+          54.896767
+        ]
+      },
+      "properties": {
+        "id": "text524",
+        "name": "Blackweb Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Forest Goblin",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text698",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.09143,
+          26.252273
+        ]
+      },
+      "properties": {
+        "id": "text698",
+        "name": "Bloody Tusks Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Orcs",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": "Warhammer Armies: Orcs & Goblins (7th Edition), pg. 76"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text699",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.145834,
+          58.183226
+        ]
+      },
+      "properties": {
+        "id": "text699",
+        "name": "Ironclaw Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Orcs",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": "Warhammer Rulebook (6th Edition), pg. 175"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text700",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.291668,
+          58.672809
+        ]
+      },
+      "properties": {
+        "id": "text700",
+        "name": "Bone Clubz Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Savage Orcs",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": "Warhammer Armies: Orcs & Goblins (8th Edition), pg. 40"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text701",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.536459,
+          58.683226
+        ]
+      },
+      "properties": {
+        "id": "text701",
+        "name": "Stone Axe Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": false,
+        "type": null,
+        "group": "Greenskins",
+        "size": "Major",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text702",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.484375,
+          45.625934
+        ]
+      },
+      "properties": {
+        "id": "text702",
+        "name": "Gorehoundz Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": false,
+        "type": null,
+        "group": "Greenskins",
+        "size": "Major",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text703",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.28125,
+          37.219686
+        ]
+      },
+      "properties": {
+        "id": "text703",
+        "name": "Grimlot's Grindaz",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Orcs",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": "Warhammer Fantasy Roleplay 4e: Tribes and Tribulations"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text704",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.494792,
+          56.417601
+        ]
+      },
+      "properties": {
+        "id": "text704",
+        "name": "Webbed Skullz Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": null,
+        "group": "Greenskins",
+        "size": "Major",
+        "source": "Warhammer Fantasy Roleplay 4e: Tribes and Tribulations"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text705",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.364583,
+          52.672809
+        ]
+      },
+      "properties": {
+        "id": "text705",
+        "name": "Moonjaw Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Forest Goblin",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": "Warhammer Armies: Orcs & Goblins (7th Edition), pg. 77"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text706",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.137948,
+          49.107358
+        ]
+      },
+      "properties": {
+        "id": "text706",
+        "name": "Black Fang Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": false,
+        "type": null,
+        "group": "Greenskins",
+        "size": "Major",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text707",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.891036,
+          49.932987
+        ]
+      },
+      "properties": {
+        "id": "text707",
+        "name": "Bone Crusher Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Orcs",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text708",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.649063,
+          38.035742
+        ]
+      },
+      "properties": {
+        "id": "text708",
+        "name": "Gutstabba Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Orcs",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": "Warhammer Armies: Orcs & Goblins (8th Edition), pg. 67"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text709",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.638021,
+          38.349895
+        ]
+      },
+      "properties": {
+        "id": "text709",
+        "name": "Ironclaw Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Orcs",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": "Warhammer Rulebook (6th Edition), pg. 175"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text711",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.352699,
+          44.408715
+        ]
+      },
+      "properties": {
+        "id": "text711",
+        "name": "Moonfang Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Orcs",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": "Warhammer Online: Age of Reckoning (PC Game)"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text712",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.890847,
+          29.581567
+        ]
+      },
+      "properties": {
+        "id": "text712",
+        "name": "Red Cloud Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Goblin",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": "Warhammer Armies: Orcs & Goblins (7th Edition), pg. 14"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text713",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.351824,
+          36.732762
+        ]
+      },
+      "properties": {
+        "id": "text713",
+        "name": "Red Fangs Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": false,
+        "type": null,
+        "group": "Greenskins",
+        "size": "Major",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text714",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.125,
+          48.032184
+        ]
+      },
+      "properties": {
+        "id": "text714",
+        "name": "Red Maw Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Orcs",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": "Warhammer Fantasy Roleplay 4e: Archives of the Empire Vol. I"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text715",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.887353,
+          55.641399
+        ]
+      },
+      "properties": {
+        "id": "text715",
+        "name": "Red Tusk Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Orcs",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text716",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.791812,
+          56.583288
+        ]
+      },
+      "properties": {
+        "id": "text716",
+        "name": "Shiny Moon Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Night Goblins",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": "Warhammer Fantasy Roleplay 4e: Salzenmund - City of Salt and Silver"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text717",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.607909,
+          45.005336
+        ]
+      },
+      "properties": {
+        "id": "text717",
+        "name": "White Orcs Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Orcs",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": "Warhammer Armies: Orcs & Goblins (6th Edition), pg. 5"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text718",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -22.239584,
+          25.95927
+        ]
+      },
+      "properties": {
+        "id": "text718",
+        "name": "White Skullz Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Savage Orcs",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": "Orcs & Goblins Collectors’ Guide, pg. 4"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text719",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.37805,
+          34.321395
+        ]
+      },
+      "properties": {
+        "id": "text719",
+        "name": "Yellow Eye Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Goblin",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": "Warhammer Armies: Orcs & Goblins (6th Edition), pg. 5"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text723",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.840493,
+          39.349841
+        ]
+      },
+      "properties": {
+        "id": "text723",
+        "name": "Yellow Eye Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Goblin",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": "Warhammer Armies: Orcs & Goblins (6th Edition), pg. 5"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text724",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.098959,
+          43.907183
+        ]
+      },
+      "properties": {
+        "id": "text724",
+        "name": "Black Spider Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Forest Goblin",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": "White Dwarf 267 (UK), pg. 38"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text725",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.504788,
+          55.884469
+        ]
+      },
+      "properties": {
+        "id": "text725",
+        "name": "Black Sunz",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": false,
+        "type": null,
+        "group": "Greenskins",
+        "size": "Major",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text726",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.055892,
+          38.468229
+        ]
+      },
+      "properties": {
+        "id": "text726",
+        "name": "Blue Face Orcs",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": false,
+        "type": null,
+        "group": "Greenskins",
+        "size": "Major",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text745",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.75,
+          30.818645
+        ]
+      },
+      "properties": {
+        "id": "text745",
+        "name": "Goretusk Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Orcs",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": "Warhammer Fantasy Roleplay 4e: Tribes and Tribulations"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text747",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.188983,
+          42.990978
+        ]
+      },
+      "properties": {
+        "id": "text747",
+        "name": "Crookedhoodz Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": false,
+        "type": null,
+        "group": "Greenskins",
+        "size": "Major",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text748",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.657733,
+          42.636812
+        ]
+      },
+      "properties": {
+        "id": "text748",
+        "name": "Bloodpeakz Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Goblin",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": "Warhammer: Nagash pg. 135"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text749",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.173263,
+          43.793496
+        ]
+      },
+      "properties": {
+        "id": "text749",
+        "name": "Evil Eye Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Goblin",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": "Warhammer Armies: Orcs & Goblins (8th Edition)"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text750",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.307778,
+          53.027005
+        ]
+      },
+      "properties": {
+        "id": "text750",
+        "name": "Madmoonz Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Night Goblins",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": "Warhammer: Nagash pg. 135"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text751",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.653539,
+          52.327264
+        ]
+      },
+      "properties": {
+        "id": "text751",
+        "name": "Red Venom Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Forest Goblin",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": "Warhammer Armies: Orcs & Goblins (8th Edition), pg. 69"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text1101",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.572214,
+          11.437038
+        ]
+      },
+      "properties": {
+        "id": "text1101",
+        "name": "Arachnos Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Forest Goblin",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": "Total War: Warhammer"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text1105",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.778167,
+          35.74917
+        ]
+      },
+      "properties": {
+        "id": "text1105",
+        "name": "Moonclaw Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Night Goblins",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": "Warhammer: Nagash pg. 138"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text1107",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.281524,
+          4.430203
+        ]
+      },
+      "properties": {
+        "id": "text1107",
+        "name": "Eadhuntaz Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Savage Orcs",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": "Warhammer Armies: Orcs & Goblins (8th Edition), pg. 41"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text1112",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.123047,
+          57.015259
+        ]
+      },
+      "properties": {
+        "id": "text1112",
+        "name": "Ironback Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Orcs",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": "White Dwarf 325 pg. 118"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text1113",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.644153,
+          54.932149
+        ]
+      },
+      "properties": {
+        "id": "text1113",
+        "name": "Krimson Killerz Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Orcs",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": "White Dwarf 377 (UK), pg. 51"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text1115",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.669922,
+          32.137003
+        ]
+      },
+      "properties": {
+        "id": "text1115",
+        "name": "Oozy-Eye Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Goblin",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": "White Dwarf 377 (UK), pg. 51"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text1116",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.230917,
+          60.485461
+        ]
+      },
+      "properties": {
+        "id": "text1116",
+        "name": "Open Maw Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Savage Orcs",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": "Orcs & Goblins Collectors’ Guide, pg. 5"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text1119",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.655925,
+          26.517862
+        ]
+      },
+      "properties": {
+        "id": "text1119",
+        "name": "Shrunken Headz",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Savage Orcs",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": "White Dwarf 376 (UK), pg. 33"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text1120",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.759766,
+          28.462848
+        ]
+      },
+      "properties": {
+        "id": "text1120",
+        "name": "Stabby Tribe",
+        "category": "tribe",
+        "dataset": "greenskin_tribes",
+        "in_gazetteer": true,
+        "type": "Savage Orcs",
+        "group": "Greenskins",
+        "size": "Major",
+        "source": "White Dwarf 377 (UK), pg. 50"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text1467",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.067303,
+          61.899158
+        ]
+      },
+      "properties": {
+        "id": "text1467",
+        "name": "Fjaergard",
+        "category": "tribe",
+        "dataset": "norscan_tribes",
+        "in_gazetteer": true,
+        "type": "Norscan",
+        "group": "Northmen",
+        "size": "Minor",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text869",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.210747,
+          61.597165
+        ]
+      },
+      "properties": {
+        "id": "text869",
+        "name": "Blodighånd",
+        "category": "tribe",
+        "dataset": "norscan_tribes",
+        "in_gazetteer": true,
+        "type": "Norscan",
+        "group": "Northmen",
+        "size": "Minor",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text870",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.50148,
+          62.812504
+        ]
+      },
+      "properties": {
+        "id": "text870",
+        "name": "Iron Wolves",
+        "category": "tribe",
+        "dataset": "norscan_tribes",
+        "in_gazetteer": true,
+        "type": "Kurgan",
+        "group": "Northmen",
+        "size": "Minor",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text871",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.56083,
+          64.506614
+        ]
+      },
+      "properties": {
+        "id": "text871",
+        "name": "Icehorn Tribe",
+        "category": "tribe",
+        "dataset": "norscan_tribes",
+        "in_gazetteer": false,
+        "type": null,
+        "group": "Northmen",
+        "size": "Minor",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text872",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.486432,
+          61.396449
+        ]
+      },
+      "properties": {
+        "id": "text872",
+        "name": "Snaegr",
+        "category": "tribe",
+        "dataset": "norscan_tribes",
+        "in_gazetteer": true,
+        "type": "Norscan",
+        "group": "Northmen",
+        "size": "Minor",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text873",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.949973,
+          70.438116
+        ]
+      },
+      "properties": {
+        "id": "text873",
+        "name": "Skullrage",
+        "category": "tribe",
+        "dataset": "norscan_tribes",
+        "in_gazetteer": false,
+        "type": null,
+        "group": "Northmen",
+        "size": "Minor",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text874",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.440652,
+          65.943324
+        ]
+      },
+      "properties": {
+        "id": "text874",
+        "name": "Sortsvinaer",
+        "category": "tribe",
+        "dataset": "norscan_tribes",
+        "in_gazetteer": true,
+        "type": "Norscan",
+        "group": "Northmen",
+        "size": "Minor",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text875",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.049207,
+          72.691459
+        ]
+      },
+      "properties": {
+        "id": "text875",
+        "name": "Tribe of the Crow",
+        "category": "tribe",
+        "dataset": "norscan_tribes",
+        "in_gazetteer": false,
+        "type": null,
+        "group": "Northmen",
+        "size": "Minor",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text876",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -12.501511,
+          69.015975
+        ]
+      },
+      "properties": {
+        "id": "text876",
+        "name": "Tribe of the Mighty Serpent",
+        "category": "tribe",
+        "dataset": "norscan_tribes",
+        "in_gazetteer": false,
+        "type": null,
+        "group": "Northmen",
+        "size": "Minor",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text877",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.749595,
+          61.852283
+        ]
+      },
+      "properties": {
+        "id": "text877",
+        "name": "Ursfjordings",
+        "category": "tribe",
+        "dataset": "norscan_tribes",
+        "in_gazetteer": true,
+        "type": "Norscan",
+        "group": "Northmen",
+        "size": "Minor",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text1086",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.955482,
+          61.414945
+        ]
+      },
+      "properties": {
+        "id": "text1086",
+        "name": "Goromadny",
+        "category": "tribe",
+        "dataset": "norscan_tribes",
+        "in_gazetteer": true,
+        "type": "Norscan",
+        "group": "Northmen",
+        "size": "Minor",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text1087",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.557324,
+          64.068627
+        ]
+      },
+      "properties": {
+        "id": "text1087",
+        "name": "Naglfarlings",
+        "category": "tribe",
+        "dataset": "norscan_tribes",
+        "in_gazetteer": true,
+        "type": "Norscan",
+        "group": "Northmen",
+        "size": "Minor",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text1088",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.995063,
+          63.752133
+        ]
+      },
+      "properties": {
+        "id": "text1088",
+        "name": "Helspire Tribe",
+        "category": "tribe",
+        "dataset": "norscan_tribes",
+        "in_gazetteer": true,
+        "type": "Norscan",
+        "group": "Northmen",
+        "size": "Minor",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text1089",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.375514,
+          64.108908
+        ]
+      },
+      "properties": {
+        "id": "text1089",
+        "name": "Vanaheimlings",
+        "category": "tribe",
+        "dataset": "norscan_tribes",
+        "in_gazetteer": true,
+        "type": "Norscan",
+        "group": "Northmen",
+        "size": "Minor",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text1437",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.946592,
+          61.090382
+        ]
+      },
+      "properties": {
+        "id": "text1437",
+        "name": "Bjornlings",
+        "category": "tribe",
+        "dataset": "norscan_tribes",
+        "in_gazetteer": true,
+        "type": "Norscan",
+        "group": "Northmen",
+        "size": "Major",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text1443",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.505209,
+          65.042602
+        ]
+      },
+      "properties": {
+        "id": "text1443",
+        "name": "Graelings",
+        "category": "tribe",
+        "dataset": "norscan_tribes",
+        "in_gazetteer": true,
+        "type": "Norscan",
+        "group": "Northmen",
+        "size": "Major",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text1446",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.760417,
+          65.485311
+        ]
+      },
+      "properties": {
+        "id": "text1446",
+        "name": "Vargs",
+        "category": "tribe",
+        "dataset": "norscan_tribes",
+        "in_gazetteer": true,
+        "type": "Norscan",
+        "group": "Northmen",
+        "size": "Major",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text1447",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.083334,
+          66.089477
+        ]
+      },
+      "properties": {
+        "id": "text1447",
+        "name": "Aeslings",
+        "category": "tribe",
+        "dataset": "norscan_tribes",
+        "in_gazetteer": true,
+        "type": "Norscan",
+        "group": "Northmen",
+        "size": "Major",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text1459",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.286458,
+          62.370726
+        ]
+      },
+      "properties": {
+        "id": "text1459",
+        "name": "Sarls",
+        "category": "tribe",
+        "dataset": "norscan_tribes",
+        "in_gazetteer": true,
+        "type": "Norscan",
+        "group": "Northmen",
+        "size": "Major",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text1460",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.755208,
+          60.399372
+        ]
+      },
+      "properties": {
+        "id": "text1460",
+        "name": "Skaelings",
+        "category": "tribe",
+        "dataset": "norscan_tribes",
+        "in_gazetteer": true,
+        "type": "Norscan",
+        "group": "Northmen",
+        "size": "Major",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text1461",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -11.760417,
+          70.558228
+        ]
+      },
+      "properties": {
+        "id": "text1461",
+        "name": "Aghols",
+        "category": "tribe",
+        "dataset": "norscan_tribes",
+        "in_gazetteer": true,
+        "type": "Hung",
+        "group": "Northmen",
+        "size": "Major",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text1462",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.955592,
+          71.451866
+        ]
+      },
+      "properties": {
+        "id": "text1462",
+        "name": "Kvelligs",
+        "category": "tribe",
+        "dataset": "norscan_tribes",
+        "in_gazetteer": true,
+        "type": "Norscan",
+        "group": "Northmen",
+        "size": "Major",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text1463",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.920901,
+          66.786833
+        ]
+      },
+      "properties": {
+        "id": "text1463",
+        "name": "Hastlings",
+        "category": "tribe",
+        "dataset": "norscan_tribes",
+        "in_gazetteer": true,
+        "type": "Norscan",
+        "group": "Northmen",
+        "size": "Major",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text1464",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.385417,
+          69.313435
+        ]
+      },
+      "properties": {
+        "id": "text1464",
+        "name": "Gharhars",
+        "category": "tribe",
+        "dataset": "norscan_tribes",
+        "in_gazetteer": true,
+        "type": "Kurgan",
+        "group": "Northmen",
+        "size": "Major",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text1465",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.898215,
+          65.842889
+        ]
+      },
+      "properties": {
+        "id": "text1465",
+        "name": "Dolgans",
+        "category": "tribe",
+        "dataset": "norscan_tribes",
+        "in_gazetteer": true,
+        "type": "Kurgan",
+        "group": "Northmen",
+        "size": "Major",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text1466",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.358355,
+          70.358059
+        ]
+      },
+      "properties": {
+        "id": "text1466",
+        "name": "Tong",
+        "category": "tribe",
+        "dataset": "norscan_tribes",
+        "in_gazetteer": true,
+        "type": "Tong",
+        "group": "Northmen",
+        "size": "Major",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text866",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.211147,
+          63.484301
+        ]
+      },
+      "properties": {
+        "id": "text866",
+        "name": "Baersonlings",
+        "category": "tribe",
+        "dataset": "norscan_tribes",
+        "in_gazetteer": true,
+        "type": "Norscan",
+        "group": "Northmen",
+        "size": "Major",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text868",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.92728,
+          62.489932
+        ]
+      },
+      "properties": {
+        "id": "text868",
+        "name": "Schwarzvolf",
+        "category": "tribe",
+        "dataset": "norscan_tribes",
+        "in_gazetteer": true,
+        "type": "Norscan",
+        "group": "Northmen",
+        "size": "Major",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text887",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.233402,
+          68.515999
+        ]
+      },
+      "properties": {
+        "id": "text887",
+        "name": "Tahmaks",
+        "category": "tribe",
+        "dataset": "norscan_tribes",
+        "in_gazetteer": true,
+        "type": "Kurgan",
+        "group": "Northmen",
+        "size": "Major",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text888",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -45.893051,
+          72.561698
+        ]
+      },
+      "properties": {
+        "id": "text888",
+        "name": "Mung",
+        "category": "tribe",
+        "dataset": "norscan_tribes",
+        "in_gazetteer": true,
+        "type": "Hung",
+        "group": "Northmen",
+        "size": "Major",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text889",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -26.50654,
+          70.484571
+        ]
+      },
+      "properties": {
+        "id": "text889",
+        "name": "Aghols",
+        "category": "tribe",
+        "dataset": "norscan_tribes",
+        "in_gazetteer": true,
+        "type": "Hung",
+        "group": "Northmen",
+        "size": "Major",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text890",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.132208,
+          72.538305
+        ]
+      },
+      "properties": {
+        "id": "text890",
+        "name": "Tongs",
+        "category": "tribe",
+        "dataset": "norscan_tribes",
+        "in_gazetteer": false,
+        "type": null,
+        "group": "Northmen",
+        "size": "Major",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text891",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.159081,
+          74.202952
+        ]
+      },
+      "properties": {
+        "id": "text891",
+        "name": "Tongs",
+        "category": "tribe",
+        "dataset": "norscan_tribes",
+        "in_gazetteer": false,
+        "type": null,
+        "group": "Northmen",
+        "size": "Major",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text892",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          52.097567,
+          73.790473
+        ]
+      },
+      "properties": {
+        "id": "text892",
+        "name": "Avags",
+        "category": "tribe",
+        "dataset": "norscan_tribes",
+        "in_gazetteer": true,
+        "type": "Kurgan",
+        "group": "Northmen",
+        "size": "Major",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text893",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          64.701737,
+          75.727973
+        ]
+      },
+      "properties": {
+        "id": "text893",
+        "name": "Wei-Tu",
+        "category": "tribe",
+        "dataset": "norscan_tribes",
+        "in_gazetteer": true,
+        "type": "Hung",
+        "group": "Northmen",
+        "size": "Major",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text7179",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.293825,
+          7.516555
+        ]
+      },
+      "properties": {
+        "id": "text7179",
+        "name": "Zamesi",
+        "category": "tribe",
+        "dataset": "araby_tribes",
+        "in_gazetteer": true,
+        "type": null,
+        "group": "Araby",
+        "size": "Major",
+        "source": "Warhammer Armies: Tomb Kings (6th Edition)"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text7180",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -10.390886,
+          14.801234
+        ]
+      },
+      "properties": {
+        "id": "text7180",
+        "name": "TURJUK",
+        "category": "tribe",
+        "dataset": "araby_tribes",
+        "in_gazetteer": false,
+        "type": null,
+        "group": "Araby",
+        "size": "Major",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text7181",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -14.172137,
+          10.144981
+        ]
+      },
+      "properties": {
+        "id": "text7181",
+        "name": "KHALID",
+        "category": "tribe",
+        "dataset": "araby_tribes",
+        "in_gazetteer": false,
+        "type": null,
+        "group": "Araby",
+        "size": "Major",
+        "source": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text7188",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.119665,
+          2.878683
+        ]
+      },
+      "properties": {
+        "id": "text7188",
+        "name": "Athiopos",
+        "category": "tribe",
+        "dataset": "araby_tribes",
+        "in_gazetteer": true,
+        "type": null,
+        "group": "Araby",
+        "size": "Major",
+        "source": "Warhammer Armies: Tomb Kings (6th Edition)"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text7192",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -25.468127,
+          20.388419
+        ]
+      },
+      "properties": {
+        "id": "text7192",
+        "name": "Tuareg",
+        "category": "tribe",
+        "dataset": "araby_tribes",
+        "in_gazetteer": true,
+        "type": null,
+        "group": "Araby",
+        "size": "Major",
+        "source": "Town Cryer 20"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text7201",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -13.523819,
+          25.037508
+        ]
+      },
+      "properties": {
+        "id": "text7201",
+        "name": "Malaluk",
+        "category": "tribe",
+        "dataset": "araby_tribes",
+        "in_gazetteer": true,
+        "type": null,
+        "group": "Araby",
+        "size": "Major",
+        "source": "Warhammer Armies: Tomb Kings (6th Edition)"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text904",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.76077,
+          20.518626
+        ]
+      },
+      "properties": {
+        "id": "text904",
+        "name": "Bani-al-Akhtar",
+        "category": "tribe",
+        "dataset": "araby_tribes",
+        "in_gazetteer": true,
+        "type": null,
+        "group": "Araby",
+        "size": "Major",
+        "source": "Time of Legends: Nagash Immortal (Novel) by Mike Lee"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text905",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -20.492458,
+          26.884688
+        ]
+      },
+      "properties": {
+        "id": "text905",
+        "name": "Bermini",
+        "category": "tribe",
+        "dataset": "araby_tribes",
+        "in_gazetteer": true,
+        "type": null,
+        "group": "Araby",
+        "size": "Major",
+        "source": "Gotrek and Felix: Two Crowns of Ras Karim (Novel) by Nathan Long"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text906",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -31.213,
+          10.801001
+        ]
+      },
+      "properties": {
+        "id": "text906",
+        "name": "Muktarhin",
+        "category": "tribe",
+        "dataset": "araby_tribes",
+        "in_gazetteer": true,
+        "type": null,
+        "group": "Araby",
+        "size": "Major",
+        "source": "Town Cryer 20"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text907",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.756587,
+          16.969771
+        ]
+      },
+      "properties": {
+        "id": "text907",
+        "name": "Qu'rashi",
+        "category": "tribe",
+        "dataset": "araby_tribes",
+        "in_gazetteer": true,
+        "type": null,
+        "group": "Araby",
+        "size": "Major",
+        "source": "Warhammer Fantasy Roleplay 2e: The Thousand Thrones"
+      }
+    }
+  ]
+}

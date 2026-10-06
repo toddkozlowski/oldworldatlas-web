@@ -7,6 +7,7 @@ class WoodElfSettlementDataManager {
         this.rawFeatures = [];
         this.filteredFeatures = [];
         this.settlementMap = new Map(); // For quick lookup by name
+        this.publishedCanonOnly = false;
     }
 
     /**
@@ -67,25 +68,23 @@ class WoodElfSettlementDataManager {
             return false;
         }
 
+        // Check Published Canon Only filter
+        if (this.publishedCanonOnly && !isCanonSource(feature.properties.source)) {
+            return false;
+        }
+
         return true;
     }
 
     /**
-     * Extract source tag from tags array
-     * @private
-     * @param {array} tags - Array of tags
-     * @returns {string|null} - Source shorthand or null
+     * Set Published Canon Only filter state
+     * @param {boolean} enabled
      */
-    getSourceFromTags(tags) {
-        if (!tags || !Array.isArray(tags)) {
-            return null;
+    setPublishedCanonOnly(enabled) {
+        if (this.publishedCanonOnly !== enabled) {
+            this.publishedCanonOnly = enabled;
+            this.filterAndIndexSettlements();
         }
-        for (const tag of tags) {
-            if (tag.startsWith('source:')) {
-                return tag.substring(7); // Remove 'source:' prefix
-            }
-        }
-        return null;
     }
 
     /**
@@ -97,7 +96,7 @@ class WoodElfSettlementDataManager {
         const coords = feature.geometry.coordinates;
         return {
             name: feature.properties.name,
-            settlementType: feature.properties.settlement_type || '',
+            settlementType: feature.properties.type || '',
             coordinates: coords,
             notes: feature.properties.notes || []
         };
@@ -128,15 +127,14 @@ class WoodElfSettlementDataManager {
     getOLFeatures() {
         return this.filteredFeatures.map(feature => {
             const coords = feature.geometry.coordinates;
-            const sourceTag = this.getSourceFromTags(feature.properties.tags);
             const wiki = feature.properties.wiki || {};
 
             return new ol.Feature({
                 geometry: new ol.geom.Point(coords),
                 name: feature.properties.name,
                 elfType: 'default',
-                settlementType: feature.properties.settlement_type || '',
-                sourceTag: sourceTag,
+                settlementType: feature.properties.type || '',
+                source: feature.properties.source,
                 wikiTitle: wiki.title,
                 wikiUrl: wiki.url,
                 wikiDescription: wiki.description,

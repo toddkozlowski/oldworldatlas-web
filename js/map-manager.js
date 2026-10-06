@@ -23,6 +23,8 @@ class MapManager {
         this.woodElfSettlementMarkersOnlySource = null;
         this.poiVectorLayer = null;
         this.poiSource = null;
+        this.poiMarkersOnlyLayer = null;  // POI marker-only layer (no declutter)
+        this.poiMarkersOnlySource = null;
         this.provinceVectorLayer = null;
         this.provinceSource = null;
         this.waterVectorLayer = null;
@@ -33,6 +35,8 @@ class MapManager {
         this.greenskinTribeSource = null;
         this.northmenTribeVectorLayer = null;
         this.northmenTribeSource = null;
+        this.arabyTribeVectorLayer = null;
+        this.arabyTribeSource = null;
 
         // Base (non-city-overlay) resolution limits and view options, needed to
         // rebuild the view when a city overlay temporarily relaxes minResolution.
@@ -60,9 +64,7 @@ class MapManager {
      * @returns {ol.Map}
      */
     initialize() {
-        const imageBounds = getImageExtent();
-        const imageCenter = getImageCenter();
-        const tileResolutions = getTileResolutions();
+        const defaultCenter = MAP_VIEW_DEFAULT_CENTER;
         const bufferedExtent = getBufferedImageBounds();
 
         // Custom coordinate format function
@@ -83,8 +85,8 @@ class MapManager {
             coordinateFormat: coordinateFormat
         });
 
-        this.baseMinResolution = tileResolutions[tileResolutions.length - 1];
-        this.baseMaxResolution = tileResolutions[2];
+        this.baseMinResolution = getTileResolution(MAP_VIEW_MAX_ZOOM);
+        this.baseMaxResolution = getTileResolution(MAP_VIEW_MIN_ZOOM);
         this.bufferedExtent = bufferedExtent;
         this.currentMinResolution = this.baseMinResolution;
 
@@ -97,10 +99,12 @@ class MapManager {
         this.woodElfSettlementSource = new ol.source.Vector();  // Wood Elf settlements
         this.woodElfSettlementMarkersOnlySource = new ol.source.Vector();  // Wood Elf markers only
         this.poiSource = new ol.source.Vector();
+        this.poiMarkersOnlySource = new ol.source.Vector();  // Markers only (no labels)
         this.provinceSource = new ol.source.Vector();
         this.waterSource = new ol.source.Vector();
         this.greenskinTribeSource = new ol.source.Vector();
         this.northmenTribeSource = new ol.source.Vector();
+        this.arabyTribeSource = new ol.source.Vector();
 
         this.map = new ol.Map({
             controls: ol.control.defaults.defaults().extend([mousePositionControl]),
@@ -121,13 +125,15 @@ class MapManager {
                 this.createDwarfSettlementLayer(),              // Dwarf labels + markers
                 this.createWoodElfSettlementMarkersOnlyLayer(),  // Wood Elf markers only
                 this.createWoodElfSettlementLayer(),             // Wood Elf labels + markers
+                this.createPOIMarkersOnlyLayer(),  // POI markers only, always visible
                 this.createPOILayer(),
-                this.createSkavendomLayer(),   // [11] rat-mode-only invisible click targets
-                this.createGreenskinTribeLayer(),  // [12]
-                this.createNorthmenTribeLayer()    // [13]
+                this.createSkavendomLayer(),   // rat-mode-only invisible click targets
+                this.createGreenskinTribeLayer(),
+                this.createNorthmenTribeLayer(),
+                this.createArabyTribeLayer()
             ],
             view: this.buildView({
-                center: this.isMobilePortrait() ? imageCenter : [2.7, imageCenter[1]],
+                center: this.isMobilePortrait() ? defaultCenter : [2.7, defaultCenter[1]],
                 resolution: this.isMobilePortrait() ? 0.0075 : 0.018, // Resolution for desktop: 0.075015, for mobile portrait: 0.020
                 minResolution: this.baseMinResolution,
             })
@@ -145,16 +151,19 @@ class MapManager {
         this.dwarfSettlementVectorLayer = this.map.getLayers().item(7);
         this.woodElfSettlementMarkersOnlyLayer = this.map.getLayers().item(8);
         this.woodElfSettlementVectorLayer = this.map.getLayers().item(9);
-        this.poiVectorLayer = this.map.getLayers().item(10);
-        this.skavendomVectorLayer = this.map.getLayers().item(11);
-        this.greenskinTribeVectorLayer = this.map.getLayers().item(12);
-        this.northmenTribeVectorLayer = this.map.getLayers().item(13);
+        this.poiMarkersOnlyLayer = this.map.getLayers().item(10);
+        this.poiVectorLayer = this.map.getLayers().item(11);
+        this.skavendomVectorLayer = this.map.getLayers().item(12);
+        this.greenskinTribeVectorLayer = this.map.getLayers().item(13);
+        this.northmenTribeVectorLayer = this.map.getLayers().item(14);
+        this.arabyTribeVectorLayer = this.map.getLayers().item(15);
 
         const desktopPOICheckbox = document.getElementById('poi-checkbox');
         const mobilePOICheckbox = document.getElementById('mobile-poi-checkbox');
         const isPOIVisibleByDefault = desktopPOICheckbox?.checked ?? mobilePOICheckbox?.checked ?? false;
 
         this.poiVectorLayer.setVisible(isPOIVisibleByDefault);
+        this.poiMarkersOnlyLayer.setVisible(isPOIVisibleByDefault);
 
 
         return this.map;
@@ -232,38 +241,48 @@ class MapManager {
     }
 
     /**
-     * Create tile layer for base map
+     * Create the base map tile layers:
+     * - base: z0-6 over the whole extent; OpenLayers enlarges z6 when zoomed further in
+     * - detail: z7-8, which only exist inside the detail box, drawn on top once zoomed past z6
+     * - rat mode: its own tiles on the previous grid, shown instead of the other two
      * @private
-     * @returns {ol.layer.Tile|ol.layer.Group}
+     * @returns {ol.layer.Group}
      */
     createTileLayer() {
-        const fullExtent = getImageExtent();
-        const tileResolutions = getTileResolutions();
+        const tileUrlFor = (directory) => (tileCoord) =>
+            `https://raw.githubusercontent.com/toddkozlowski/oldworldatlas-repository/main/${directory}` +
+            `/${tileCoord[0]}/${tileCoord[1]}/${-1 - tileCoord[2]}.png?v=${MAP_TILE_VERSION}`;
 
-        this.activeTileDirectory = MAP_TILE_DIRECTORY;
-
-        // Arrow function closes over `this` so it always reads the current activeTileDirectory
-        this.tileUrlFunction = (tileCoord) =>
-            `https://raw.githubusercontent.com/toddkozlowski/oldworldatlas-repository/main/${this.activeTileDirectory}/{z}/{x}/{y}.png?v=${MAP_TILE_VERSION}`
-                .replace('{z}', String(tileCoord[0]))
-                .replace('{x}', String(tileCoord[1]))
-                .replace('{y}', String(-1 - tileCoord[2]));
-
-        this.tileSource = new ol.source.TileImage({
+        const createSource = (directory, extent, resolutions) => new ol.source.TileImage({
             attributions: '',
             crossOrigin: 'anonymous',
             tileGrid: new ol.tilegrid.TileGrid({
-                extent: fullExtent,
-                origin: [fullExtent[0], fullExtent[1]],
-                resolutions: tileResolutions,
-                tileSize: [256, 256]
+                extent: extent,
+                origin: [extent[0], extent[1]],
+                resolutions: resolutions,
+                tileSize: [MAP_TILE_SIZE, MAP_TILE_SIZE]
             }),
-            tileUrlFunction: this.tileUrlFunction
+            tileUrlFunction: tileUrlFor(directory)
         });
 
-        this.tileLayer = new ol.layer.Tile({
+        this.baseTileLayer = new ol.layer.Tile({
+            source: createSource(MAP_TILE_DIRECTORY, IMAGE_BOUNDS, getTileResolutions(MAP_TILE_BASE_MAX_ZOOM))
+        });
+
+        this.detailTileLayer = new ol.layer.Tile({
+            extent: MAP_TILE_DETAIL_EXTENT,
+            maxResolution: getTileResolution(MAP_TILE_BASE_MAX_ZOOM),  // only drawn when zoomed in past z6
+            source: createSource(MAP_TILE_DIRECTORY, IMAGE_BOUNDS, getTileResolutions(MAP_TILE_DETAIL_MAX_ZOOM))
+        });
+
+        this.ratModeTileLayer = new ol.layer.Tile({
+            visible: false,
+            source: createSource(RAT_MODE_TILE_DIRECTORY, RAT_MODE_TILE_BOUNDS, getRatModeTileResolutions())
+        });
+
+        this.tileLayer = new ol.layer.Group({
             title: 'Map Tiles',
-            source: this.tileSource
+            layers: [this.baseTileLayer, this.detailTileLayer, this.ratModeTileLayer]
         });
 
         return this.tileLayer;
@@ -274,10 +293,9 @@ class MapManager {
     }
 
     setRatMode(ratMode) {
-        this.activeTileDirectory = ratMode ? 'ratmode_tiles' : MAP_TILE_DIRECTORY;
-        // Passing directory as the cache key causes OL to clear its tile cache
-        // and fire a source change event, triggering a full re-render
-        this.tileSource.setTileUrlFunction(this.tileUrlFunction, this.activeTileDirectory);
+        this.baseTileLayer.setVisible(!ratMode);
+        this.detailTileLayer.setVisible(!ratMode);
+        this.ratModeTileLayer.setVisible(ratMode);
     }
 
     /**
@@ -446,6 +464,24 @@ class MapManager {
         });
     }
 
+    /**
+     * Create POI markers-only vector layer (no labels, no declutter) - keeps
+     * a POI's icon/dot visible even when its label gets decluttered away by
+     * the combined settlement/POI label layer.
+     * @private
+     * @returns {ol.layer.Vector}
+     */
+    createPOIMarkersOnlyLayer() {
+        return new ol.layer.Vector({
+            title: 'POI Markers',
+            source: this.poiMarkersOnlySource,
+            updateWhileAnimating: false,
+            updateWhileInteracting: false,
+            renderBuffer: 100,
+            style: (feature) => createPOIMarkerOnlyStyle(feature, this.map.getView().getResolution())
+        });
+    }
+
     createSkavendomLayer() {
         this.skavendomSource = new ol.source.Vector();
         return new ol.layer.Vector({
@@ -487,10 +523,32 @@ class MapManager {
         });
     }
 
-    addGreenskinTribeFeatures(features) { this.greenskinTribeSource.addFeatures(features); }
-    addNorthmenTribeFeatures(features)  { this.northmenTribeSource.addFeatures(features); }
+    createArabyTribeLayer() {
+        return new ol.layer.Vector({
+            title: 'Araby Tribes',
+            source: this.arabyTribeSource,
+            updateWhileAnimating: false,
+            updateWhileInteracting: false,
+            style: (feature) => createTribeStyle(feature, this.map.getView().getResolution())
+        });
+    }
+
+    /**
+     * Replace the features in all tribe layers with the current tribeData features
+     * @param {TribeData} tribes - Tribe data manager
+     */
+    setTribeFeatures(tribes) {
+        this.greenskinTribeSource.clear();
+        this.greenskinTribeSource.addFeatures(tribes.getGreenskinTribeFeatures());
+        this.northmenTribeSource.clear();
+        this.northmenTribeSource.addFeatures(tribes.getNorthmenTribeFeatures());
+        this.arabyTribeSource.clear();
+        this.arabyTribeSource.addFeatures(tribes.getArabyTribeFeatures());
+    }
+
     getGreenskinTribeLayer() { return this.greenskinTribeVectorLayer; }
     getNorthmenTribeLayer()  { return this.northmenTribeVectorLayer; }
+    getArabyTribeLayer()     { return this.arabyTribeVectorLayer; }
 
     /**
      * Create province labels vector layer
@@ -625,6 +683,8 @@ class MapManager {
      */
     addPOIFeatures(features) {
         this.poiSource.addFeatures(features);
+        // Also add to marker-only layer for always-visible markers
+        this.poiMarkersOnlySource.addFeatures(features);
         this.refreshCombinedSettlementLabels();
     }
 
@@ -668,10 +728,12 @@ class MapManager {
         this.woodElfSettlementSource.changed();
         this.woodElfSettlementMarkersOnlySource.changed();
         this.poiSource.changed();
+        this.poiMarkersOnlySource.changed();
         this.provinceSource.changed();
         this.waterSource.changed();
         this.greenskinTribeSource.changed();
         this.northmenTribeSource.changed();
+        this.arabyTribeSource.changed();
     }
 
     /**
@@ -735,7 +797,15 @@ class MapManager {
     getPOILayer() {
         return this.poiVectorLayer;
     }
-    
+
+    /**
+     * Get POI markers-only layer (always visible, no decluttering)
+     * @returns {ol.layer.Vector}
+     */
+    getPOIMarkersOnlyLayer() {
+        return this.poiMarkersOnlyLayer;
+    }
+
     /**
      * Get settlement markers only layer (always visible, no decluttering)
      * @returns {ol.layer.Vector}

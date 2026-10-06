@@ -1,0 +1,82 @@
+{
+  "schema_version": 2,
+  "generated": "2026-10-06T00:43:44",
+  "files": {
+    "settlements_empire.geojson": {
+      "features": 3694,
+      "in_gazetteer": 1470
+    },
+    "settlements_bretonnia.geojson": {
+      "features": 1567,
+      "in_gazetteer": 163
+    },
+    "settlements_kislev.geojson": {
+      "features": 467,
+      "in_gazetteer": 90
+    },
+    "settlements_norsca.geojson": {
+      "features": 572,
+      "in_gazetteer": 40
+    },
+    "settlements_westerland.geojson": {
+      "features": 119,
+      "in_gazetteer": 30
+    },
+    "settlements_araby.geojson": {
+      "features": 345,
+      "in_gazetteer": 42
+    },
+    "settlements_tilea.geojson": {
+      "features": 655,
+      "in_gazetteer": 142
+    },
+    "settlements_estalia.geojson": {
+      "features": 308,
+      "in_gazetteer": 52
+    },
+    "settlements_border_princes.geojson": {
+      "features": 70,
+      "in_gazetteer": 63
+    },
+    "settlements_albion.geojson": {
+      "features": 20,
+      "in_gazetteer": 1
+    },
+    "settlements_karaz_ankor.geojson": {
+      "features": 308,
+      "in_gazetteer": 178
+    },
+    "settlements_wood_elves.geojson": {
+      "features": 76,
+      "in_gazetteer": 75
+    },
+    "settlements_nehekhara.geojson": {
+      "features": 29,
+      "in_gazetteer": 11
+    },
+    "settlements_dawi_zharr.geojson": {
+      "features": 1,
+      "in_gazetteer": 1
+    },
+    "settlements_skavendom.geojson": {
+      "features": 29,
+      "in_gazetteer": 20
+    },
+    "points_of_interest.geojson": {
+      "features": 1291,
+      "in_gazetteer": 401
+    },
+    "region_labels.geojson": {
+      "features": 129,
+      "in_gazetteer": 98
+    },
+    "tribes.geojson": {
+      "features": 221,
+      "in_gazetteer": 153
+    },
+    "geographic_features.geojson": {
+      "features": 577,
+      "in_gazetteer": 560
+    }
+  }
+}

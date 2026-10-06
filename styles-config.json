@@ -373,11 +373,11 @@
         "maxRadiusZoom": 0.0005
       }
     },
-    "Peaks": {
+    "Mountain Peak": {
       "color": "rgba(45, 45, 45, 1)",
       "textFont": "italic Arial, sans-serif"
     },
-    "Forts and Castles": {
+    "Fortification": {
       "icon": "images/icons/castle.png",
       "iconHeight": 249,
       "iconMinSize": 7.5,
@@ -385,7 +385,7 @@
       "iconMinZoom": 0.005,
       "iconMaxZoom": 0.00005
     },
-    "Chaos Shrines": {
+    "Chaos Shrine": {
       "icon": "images/icons/chaos_star.png",
       "iconHeight": 446,
       "iconMinSize": 19.5,
@@ -393,6 +393,22 @@
       "iconMinZoom": 0.005,
       "iconMaxZoom": 0.00005,
       "textOffsetY": -6
+    },
+    "Chaos Fortress": {
+      "icon": "images/icons/chaos_fortress.png",
+      "iconHeight": 571,
+      "iconMinSize": 22.5,
+      "iconMaxSize": 90,
+      "iconMinZoom": 0.005,
+      "iconMaxZoom": 0.00005
+    },
+    "Ancient Monoliths": {
+      "icon": "images/icons/ancient_monoliths.png",
+      "iconHeight": 216,
+      "iconMinSize": 6,
+      "iconMaxSize": 26,
+      "iconMinZoom": 0.005,
+      "iconMaxZoom": 0.00005
     }
   },
   "provinces": {
@@ -427,6 +443,18 @@
       "maxFontZoom": 0.003,
       "minZoomLevel": 0.02,
       "maxZoomLevel": 0.0015,
+      "textFont": "bold Arial, bold sans-serif",
+      "textFillColor": "rgba(0, 0, 0, 0.2)",
+      "textStrokeColor": "#ffffff00",
+      "textStrokeWidth": 0
+    },
+    "Sub-Province": {
+      "minFontSize": 6,
+      "maxFontSize": 16,
+      "minFontZoom": 0.008,
+      "maxFontZoom": 0.0015,
+      "minZoomLevel": 0.008,
+      "maxZoomLevel": 0.0008,
       "textFont": "bold Arial, bold sans-serif",
       "textFillColor": "rgba(0, 0, 0, 0.2)",
       "textStrokeColor": "#ffffff00",
@@ -479,6 +507,30 @@
       "maxZoomLevel": 0.0015,
       "textFont": "italic bold Arial, sans-serif",
       "textFillColor": "rgba(0, 0, 0, 0.15)",
+      "textStrokeColor": "#ffffff00",
+      "textStrokeWidth": 0
+    },
+    "Major Araby Tribe": {
+      "minFontSize": 8,
+      "maxFontSize": 24,
+      "minFontZoom": 0.015,
+      "maxFontZoom": 0.003,
+      "minZoomLevel": 0.02,
+      "maxZoomLevel": 0.0015,
+      "textFont": "italic bold Arial, sans-serif",
+      "textFillColor": "rgba(110, 60, 10, 0.25)",
+      "textStrokeColor": "#ffffff00",
+      "textStrokeWidth": 0
+    },
+    "Minor Araby Tribe": {
+      "minFontSize": 7,
+      "maxFontSize": 18,
+      "minFontZoom": 0.015,
+      "maxFontZoom": 0.003,
+      "minZoomLevel": 0.02,
+      "maxZoomLevel": 0.0015,
+      "textFont": "italic bold Arial, sans-serif",
+      "textFillColor": "rgba(110, 60, 10, 0.2)",
       "textStrokeColor": "#ffffff00",
       "textStrokeWidth": 0
     }
@@ -580,7 +632,7 @@
       "textStrokeColor": "#fff",
       "textStrokeWidth": 1.5
     },
-    "Mountain Ranges": {
+    "Mountain Range": {
       "minFontSize": 14,
       "maxFontSize": 26,
       "minFontZoom": 0.01,
@@ -592,7 +644,7 @@
       "textStrokeColor": "rgba(255, 255, 255, 0.80)",
       "textStrokeWidth": 2
     },
-    "Mountain Passes": {
+    "Mountain Pass": {
       "minFontSize": 10,
       "maxFontSize": 18,
       "minFontZoom": 0.008,
@@ -604,7 +656,7 @@
       "textStrokeColor": "rgba(255, 255, 255, 0.80)",
       "textStrokeWidth": 1.5
     },
-    "Hills": {
+    "Major Hills": {
       "minFontSize": 12,
       "maxFontSize": 24,
       "minFontZoom": 0.008,
@@ -616,7 +668,7 @@
       "textStrokeColor": "rgba(255, 255, 255, 0.80)",
       "textStrokeWidth": 2
     },
-    "Lowlands": {
+    "Lowland": {
       "minFontSize": 12,
       "maxFontSize": 24,
       "minFontZoom": 0.008,
@@ -640,7 +692,7 @@
       "textStrokeColor": "rgba(255, 255, 255, 0.75)",
       "textStrokeWidth": 1.5
     },
-    "Minor Lowlands": {
+    "Minor Lowland": {
       "minFontSize": 10,
       "maxFontSize": 16,
       "minFontZoom": 0.006,
@@ -652,7 +704,7 @@
       "textStrokeColor": "rgba(255, 255, 255, 0.75)",
       "textStrokeWidth": 1.5
     },
-    "Forest Labels": {
+    "Forest": {
       "minFontSize": 10,
       "maxFontSize": 20,
       "minFontZoom": 0.005,

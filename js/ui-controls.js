@@ -35,6 +35,7 @@ class UIControls {
             { id: 'settlement-region-albion', value: 'albion', label: 'Albion', kind: 'human' },
             { id: 'settlement-region-araby', value: 'araby', label: 'Araby', kind: 'human' },
             { id: 'settlement-region-dawi-zharr', value: 'dawi-zharr', label: 'Dawi-Zharr', kind: 'human' },
+            { id: 'settlement-region-nehekhara', value: 'nehekhara', label: 'Nehekhara', kind: 'human' },
             { id: 'settlement-region-karaz-ankor', value: 'karaz-ankor', label: 'The Karaz-Ankor', kind: 'dwarf' },
             { id: 'settlement-region-wood-elf-realms', value: 'wood-elf-realms', label: 'Wood Elf Realms', kind: 'woodelf' }
         ];
@@ -53,6 +54,7 @@ class UIControls {
         this.initializeRegionToggle();
         this.initializeGreenskinTribeToggle();
         this.initializeNorthmenTribeToggle();
+        this.initializeArabyTribeToggle();
         this.initializeWaterToggle();
         this.initializePublishedCanonOnlyToggle();
         this.initializeGridControls();
@@ -290,6 +292,14 @@ class UIControls {
             poiSource.addFeatures(poiFeatures);
         }
 
+        const poiMarkersLayer = mapManager.getPOIMarkersOnlyLayer();
+        if (poiMarkersLayer) {
+            const markersSource = poiMarkersLayer.getSource();
+            markersSource.clear();
+            markersSource.addFeatures(poiFeatures);
+            poiMarkersLayer.setVisible(parentEnabled);
+        }
+
         const poiLayer = mapManager.getPOILayer();
         if (poiLayer) {
             poiLayer.setVisible(parentEnabled);
@@ -359,6 +369,16 @@ class UIControls {
         if (cb) {
             cb.addEventListener('change', (e) => {
                 const layer = mapManager.getNorthmenTribeLayer();
+                if (layer) layer.setVisible(e.target.checked);
+            });
+        }
+    }
+
+    initializeArabyTribeToggle() {
+        const cb = document.getElementById('araby-tribes-checkbox');
+        if (cb) {
+            cb.addEventListener('change', (e) => {
+                const layer = mapManager.getArabyTribeLayer();
                 if (layer) layer.setVisible(e.target.checked);
             });
         }
@@ -435,12 +455,17 @@ class UIControls {
             const enabled = e.target.checked;
             settlementData.setPublishedCanonOnly(enabled);
             dwarfSettlementData.setPublishedCanonOnly(enabled);
-            
+            woodElfSettlementData.setPublishedCanonOnly(enabled);
+            poiData.setPublishedCanonOnly(enabled);
+            tribeData.setPublishedCanonOnly(enabled);
+
             // Update both checkboxes to stay in sync
             if (desktopCheckbox) desktopCheckbox.checked = enabled;
             if (mobileCheckbox) mobileCheckbox.checked = enabled;
-            
-            this.applySettlementFilters();
+
+            mapManager.setTribeFeatures(tribeData);
+            this.applyPOIFilters();
+            this.applySettlementFilters();  // Also rebuilds the search index
         };
         
         if (desktopCheckbox) {
@@ -710,9 +735,6 @@ class UIControls {
         // Handle skavendom features
         if (featureType === 'skavendom') {
             const settlementType = feature.get('settlementType') || 'Skaven Settlement';
-            const population = feature.get('population');
-            const majorClans = feature.get('majorClans') || [];
-            const minorClans = feature.get('minorClans') || [];
 
             let html = `<div class="settlement-popup skaven-popup">
                 <div class="settlement-popup-header">
@@ -720,25 +742,9 @@ class UIControls {
                     <p class="settlement-popup-subtitle">${this.escapeHtml(settlementType)} — Under-Empire</p>
                 </div>`;
 
-            if (population) {
-                html += `<div class="settlement-popup-field">
-                    <span class="settlement-popup-label">Population:</span>
-                    <span class="settlement-popup-value">${population.toLocaleString()}</span>
-                </div>`;
-            }
-            if (majorClans.length > 0) {
-                html += `<div class="settlement-popup-field">
-                    <span class="settlement-popup-label">Major Clans:</span>
-                    <span class="settlement-popup-value">${majorClans.map(c => this.escapeHtml(c)).join(', ')}</span>
-                </div>`;
-            }
-            if (minorClans.length > 0) {
-                html += `<div class="settlement-popup-field">
-                    <span class="settlement-popup-label">Minor Clans:</span>
-                    <span class="settlement-popup-value">${minorClans.map(c => this.escapeHtml(c)).join(', ')}</span>
-                </div>`;
-            }
-
+            html += this.buildPopulationHtml(feature);
+            html += this.buildWikiHtml(feature);
+            html += this.buildSourceHtml(feature.get('source'));
             html += '</div>';
             this.popupElement.innerHTML = html;
             this.popupOverlay.setPosition(coordinate);
@@ -750,14 +756,7 @@ class UIControls {
         if (featureType === 'dwarf') {
             const isFallenKarak = feature.get('dwarfType') === 'Karak' && feature.get('isFallen') === true;
             const dwarfHoldType = isFallenKarak ? `Fallen ${feature.get('dwarfHoldType')}` : feature.get('dwarfHoldType');
-            const sourceTag = feature.get('sourceTag');
-            const wikiTitle = feature.get('wikiTitle');
-            const wikiUrl = feature.get('wikiUrl');
-            const wikiDescription = feature.get('wikiDescription');
-            
-            // Check if settlement has wiki data
-            const hasWiki = wikiTitle && wikiTitle.trim() !== '';
-            
+
             // Build header with title and subtitle
             let html = `<div class="settlement-popup">
                 <div class="settlement-popup-header">
@@ -766,31 +765,11 @@ class UIControls {
                 </div>`;
             
             // Add wiki section if available
-            if (hasWiki) {
-                html += `<div class="settlement-popup-wiki">`;
-                
-                // Add wiki title
-                html += `<div class="settlement-popup-wiki-title">${this.escapeHtml(wikiTitle)}</div>`;
-                
-                // Add wiki description if available
-                if (wikiDescription && wikiDescription.trim() !== '') {
-                    html += `<div class="settlement-popup-wiki-description">${this.escapeHtml(wikiDescription)}</div>`;
-                }
-                
-                // Add wiki link if available
-                if (wikiUrl && wikiUrl.trim() !== '') {
-                    html += `<a href="${this.escapeHtml(wikiUrl)}" target="_blank" class="settlement-popup-wiki-link">Read on Wiki</a>`;
-                }
-                
-                html += `</div>`;
-            }
+            html += this.buildWikiHtml(feature);
             
             // Add source field at bottom as footnote if present
-            if (sourceTag) {
-                const fullSourceName = dwarfSettlementData.getFullSourceName(sourceTag);
-                html += `<div class="settlement-popup-source">Source: ${this.escapeHtml(fullSourceName)}</div>`;
-            }
-            
+            html += this.buildSourceHtml(feature.get('source'));
+
             html += '</div>';
             
             this.popupElement.innerHTML = html;
@@ -802,35 +781,15 @@ class UIControls {
         // Handle wood elf settlement features
         if (featureType === 'woodelf') {
             const settlementType = feature.get('settlementType');
-            const sourceTag = feature.get('sourceTag');
-            const wikiTitle = feature.get('wikiTitle');
-            const wikiUrl = feature.get('wikiUrl');
-            const wikiDescription = feature.get('wikiDescription');
-
-            const hasWiki = wikiTitle && wikiTitle.trim() !== '';
-
             let html = `<div class="settlement-popup">
                 <div class="settlement-popup-header">
                     <h2 class="settlement-popup-title">${this.escapeHtml(name)}</h2>
                     <p class="settlement-popup-subtitle">${this.escapeHtml(settlementType || 'Wood Elf Settlement')}</p>
                 </div>`;
 
-            if (hasWiki) {
-                html += `<div class="settlement-popup-wiki">`;
-                html += `<div class="settlement-popup-wiki-title">${this.escapeHtml(wikiTitle)}</div>`;
-                if (wikiDescription && wikiDescription.trim() !== '') {
-                    html += `<div class="settlement-popup-wiki-description">${this.escapeHtml(wikiDescription)}</div>`;
-                }
-                if (wikiUrl && wikiUrl.trim() !== '') {
-                    html += `<a href="${this.escapeHtml(wikiUrl)}" target="_blank" class="settlement-popup-wiki-link">Read on Wiki</a>`;
-                }
-                html += `</div>`;
-            }
+            html += this.buildWikiHtml(feature);
 
-            if (sourceTag) {
-                const fullSourceName = settlementData.getFullSourceName(sourceTag);
-                html += `<div class="settlement-popup-source">Source: ${this.escapeHtml(fullSourceName)}</div>`;
-            }
+            html += this.buildSourceHtml(feature.get('source'));
 
             html += '</div>';
 
@@ -863,16 +822,17 @@ class UIControls {
         // Handle POI features
         if (featureType === 'poi') {
             const poiType = feature.get('type');
+            const place = feature.get('province') || feature.get('region');
+            const subtitle = place ? `${poiType} in ${place}` : poiType;
             let html = `<div class="settlement-popup">
                 <div class="settlement-popup-header">
                     <h2 class="settlement-popup-title">${this.escapeHtml(name)}</h2>
-                </div>
-                <div class="settlement-popup-field">
-                    <span class="settlement-popup-label">Type:</span>
-                    <span class="settlement-popup-value">${this.escapeHtml(poiType)}</span>
-                </div>
-            </div>`;
-            
+                    <p class="settlement-popup-subtitle">${this.escapeHtml(subtitle)}</p>
+                </div>`;
+            html += this.buildWikiHtml(feature);
+            html += this.buildSourceHtml(feature.get('source'));
+            html += '</div>';
+
             this.popupElement.innerHTML = html;
             this.popupOverlay.setPosition(coordinate);
             this.popupElement.style.display = 'block';
@@ -881,14 +841,14 @@ class UIControls {
         
         // Handle water / geographic feature labels
         if (featureType === 'water') {
-            const waterbodyType = feature.get('waterbodyType') || '';
-            const displayType = waterbodyType.replace(/ Labels$/, '');
-            const html = `<div class="settlement-popup">
+            const displayType = feature.get('waterbodyType') || '';
+            let html = `<div class="settlement-popup">
                 <div class="settlement-popup-header">
                     <h2 class="settlement-popup-title">${this.escapeHtml(name)}</h2>
                     <p class="settlement-popup-subtitle">${this.escapeHtml(displayType)}</p>
-                </div>
-            </div>`;
+                </div>`;
+            html += this.buildWikiHtml(feature);
+            html += '</div>';
             this.popupElement.innerHTML = html;
             this.popupOverlay.setPosition(coordinate);
             this.popupElement.style.display = 'block';
@@ -896,14 +856,17 @@ class UIControls {
         }
 
         // Handle tribe features
-        if (featureType === 'greenskin-tribe' || featureType === 'northmen-tribe') {
-            const provinceType = feature.get('provinceType') || '';
-            const html = `<div class="settlement-popup">
+        if (featureType === 'greenskin-tribe' || featureType === 'northmen-tribe' || featureType === 'araby-tribe') {
+            const tribeType = feature.get('tribeType');
+            const subtitle = tribeType ? `${getTribeLabel(feature)} — ${tribeType}` : getTribeLabel(feature);
+            let html = `<div class="settlement-popup">
                 <div class="settlement-popup-header">
                     <h2 class="settlement-popup-title">${this.escapeHtml(name)}</h2>
-                    <p class="settlement-popup-subtitle">${this.escapeHtml(provinceType)}</p>
-                </div>
-            </div>`;
+                    <p class="settlement-popup-subtitle">${this.escapeHtml(subtitle)}</p>
+                </div>`;
+            html += this.buildWikiHtml(feature);
+            html += this.buildSourceHtml(feature.get('source'));
+            html += '</div>';
             this.popupElement.innerHTML = html;
             this.popupOverlay.setPosition(coordinate);
             this.popupElement.style.display = 'block';
@@ -912,11 +875,9 @@ class UIControls {
 
         // Handle province features
         if (featureType === 'province') {
-            const provinceType = feature.get('provinceType');
+            const localCategory = feature.get('localCategory');
             const formalTitle = feature.get('formalTitle');
             const population = feature.get('population');
-            const wikiUrl = feature.get('wikiUrl');
-            const wikiDescription = feature.get('wikiDescription');
             
             // Use formal title as the main title, fall back to name if formal title is empty
             const displayTitle = (formalTitle && formalTitle !== null && formalTitle.trim() !== '') 
@@ -924,7 +885,7 @@ class UIControls {
                 : name;
             
             // Build header with title and subtitle
-            const subtitle = provinceType || 'Region';
+            const subtitle = localCategory || 'Region';
             let html = `<div class="settlement-popup">
                 <div class="settlement-popup-header">
                     <h2 class="settlement-popup-title">${this.escapeHtml(displayTitle)}</h2>
@@ -940,24 +901,7 @@ class UIControls {
             }
             
             // Add wiki section if available
-            const hasWikiDescription = wikiDescription && wikiDescription !== null && wikiDescription.trim() !== '';
-            const hasWikiUrl = wikiUrl && wikiUrl !== null && wikiUrl.trim() !== '';
-            
-            if (hasWikiDescription || hasWikiUrl) {
-                html += `<div class="settlement-popup-wiki">`;
-                
-                // Add wiki description if available
-                if (hasWikiDescription) {
-                    html += `<div class="settlement-popup-wiki-description">${this.escapeHtml(wikiDescription)}</div>`;
-                }
-                
-                // Add wiki link if available
-                if (hasWikiUrl) {
-                    html += `<a href="${this.escapeHtml(wikiUrl)}" target="_blank" class="settlement-popup-wiki-link">Read on Wiki</a>`;
-                }
-                
-                html += `</div>`;
-            }
+            html += this.buildWikiHtml(feature);
             
             html += '</div>';
             
@@ -969,20 +913,12 @@ class UIControls {
         
         // Handle settlement features
         const sizeCategory = feature.get('sizeCategory');
-        const population = feature.get('population');
-        const province = feature.get('province');
-        const sourceTag = feature.get('sourceTag');
-        const wikiTitle = feature.get('wikiTitle');
-        const wikiUrl = feature.get('wikiUrl');
-        const wikiDescription = feature.get('wikiDescription');
-        const wikiImage = feature.get('wikiImage');
+        const place = feature.get('province') || feature.get('region');
         const sizeLabel = getSizeCategoryLabel(sizeCategory);
 
-        // Check if settlement has wiki data
-        const hasWiki = wikiTitle && wikiTitle.trim() !== '';
-
         // Build header with title and subtitle
-        const subtitle = province ? `${sizeLabel} in ${province}` : sizeLabel;
+        const typeLabel = feature.get('settlementType') || sizeLabel;
+        const subtitle = place ? `${typeLabel} in ${place}` : typeLabel;
         let html = `<div class="settlement-popup">
             <div class="settlement-popup-header">
                 <h2 class="settlement-popup-title">${this.escapeHtml(name)}</h2>
@@ -990,44 +926,75 @@ class UIControls {
             </div>`;
 
         // Add population field if present
-        if (population && population > 0) {
-            html += `<div class="settlement-popup-field">
-                <span class="settlement-popup-label">Population:</span>
-                <span class="settlement-popup-value">${population.toLocaleString()}</span>
-            </div>`;
-        }
+        html += this.buildPopulationHtml(feature);
 
         // Add wiki section if available
-        if (hasWiki) {
-            html += `<div class="settlement-popup-wiki">`;
-            
-            // Add wiki title
-            html += `<div class="settlement-popup-wiki-title">${this.escapeHtml(wikiTitle)}</div>`;
-            
-            // Add wiki description if available
-            if (wikiDescription && wikiDescription.trim() !== '') {
-                html += `<div class="settlement-popup-wiki-description">${this.escapeHtml(wikiDescription)}</div>`;
-            }
-            
-            // Add wiki link if available
-            if (wikiUrl && wikiUrl.trim() !== '') {
-                html += `<a href="${this.escapeHtml(wikiUrl)}" target="_blank" class="settlement-popup-wiki-link">Read on Wiki</a>`;
-            }
-            
-            html += `</div>`;
-        }
+        html += this.buildWikiHtml(feature);
 
         // Add source field at bottom as footnote if present
-        if (sourceTag) {
-            const fullSourceName = settlementData.getFullSourceName(sourceTag);
-            html += `<div class="settlement-popup-source">Source: ${this.escapeHtml(fullSourceName)}</div>`;
-        }
+        html += this.buildSourceHtml(feature.get('source'));
 
         html += '</div>';
 
         this.popupElement.innerHTML = html;
         this.popupOverlay.setPosition(coordinate);
         this.popupElement.style.display = 'block';
+    }
+
+    /**
+     * Build the population field; generated populations are shown as approximate
+     * @private
+     * @param {ol.Feature} feature
+     * @returns {string}
+     */
+    buildPopulationHtml(feature) {
+        const population = feature.get('population');
+        if (!population || population <= 0) {
+            return '';
+        }
+        const value = feature.get('populationEstimated')
+            ? `~${population.toLocaleString()} (estimated)`
+            : population.toLocaleString();
+        return `<div class="settlement-popup-field">
+            <span class="settlement-popup-label">Population:</span>
+            <span class="settlement-popup-value">${value}</span>
+        </div>`;
+    }
+
+    /**
+     * Build the wiki section (title, description, link) if the feature has wiki data
+     * @private
+     * @param {ol.Feature} feature
+     * @returns {string}
+     */
+    buildWikiHtml(feature) {
+        const wikiTitle = feature.get('wikiTitle');
+        const wikiUrl = feature.get('wikiUrl');
+        const wikiDescription = feature.get('wikiDescription');
+        const parts = [];
+        if (wikiTitle && wikiTitle.trim() !== '') {
+            parts.push(`<div class="settlement-popup-wiki-title">${this.escapeHtml(wikiTitle)}</div>`);
+        }
+        if (wikiDescription && wikiDescription.trim() !== '') {
+            parts.push(`<div class="settlement-popup-wiki-description">${this.escapeHtml(wikiDescription)}</div>`);
+        }
+        if (wikiUrl && wikiUrl.trim() !== '') {
+            parts.push(`<a href="${this.escapeHtml(wikiUrl)}" target="_blank" class="settlement-popup-wiki-link">Read on Wiki</a>`);
+        }
+        return parts.length > 0 ? `<div class="settlement-popup-wiki">${parts.join('')}</div>` : '';
+    }
+
+    /**
+     * Build the source footnote
+     * @private
+     * @param {string|null} source - Source title
+     * @returns {string}
+     */
+    buildSourceHtml(source) {
+        if (!source || source.trim() === '') {
+            return '';
+        }
+        return `<div class="settlement-popup-source">Source: ${this.escapeHtml(source)}</div>`;
     }
 
     /**

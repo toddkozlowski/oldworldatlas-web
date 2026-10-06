@@ -1,0 +1,1254 @@
+{
+  "type": "FeatureCollection",
+  "name": "settlements_nehekhara",
+  "schema_version": 2,
+  "features": [
+    {
+      "type": "Feature",
+      "id": "text339-4",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.558786,
+          25.528642
+        ]
+      },
+      "properties": {
+        "id": "text339-4",
+        "name": "Zandri",
+        "category": "settlement",
+        "dataset": "nehekhara",
+        "in_gazetteer": true,
+        "type": "Tomb City",
+        "region": "Nehekhara",
+        "province": null,
+        "estate": null,
+        "population": 143,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": "Warhammer Armies: Tomb Kings (6th Edition)",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": "https://warhammerfantasy.fandom.com/wiki/Zandri",
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Nehekhara"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text5424",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.641853,
+          15.387873
+        ]
+      },
+      "properties": {
+        "id": "text5424",
+        "name": "Lybaras",
+        "category": "settlement",
+        "dataset": "nehekhara",
+        "in_gazetteer": true,
+        "type": "Tomb City",
+        "region": "Nehekhara",
+        "province": null,
+        "estate": null,
+        "population": 107,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": "Warhammer Armies: Tomb Kings (6th Edition)",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": "https://warhammerfantasy.fandom.com/wiki/Lybaras",
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Nehekhara"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text5425",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.260581,
+          14.915069
+        ]
+      },
+      "properties": {
+        "id": "text5425",
+        "name": "Mahrak",
+        "category": "settlement",
+        "dataset": "nehekhara",
+        "in_gazetteer": true,
+        "type": "Tomb City",
+        "region": "Nehekhara",
+        "province": null,
+        "estate": null,
+        "population": 120,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": "Warhammer Armies: Tomb Kings (6th Edition)",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": "https://warhammerfantasy.fandom.com/wiki/Mahrak",
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Nehekhara"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text5426",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.668237,
+          22.143127
+        ]
+      },
+      "properties": {
+        "id": "text5426",
+        "name": "Lahmia",
+        "category": "settlement",
+        "dataset": "nehekhara",
+        "in_gazetteer": true,
+        "type": "Tomb City",
+        "region": "Nehekhara",
+        "province": null,
+        "estate": null,
+        "population": 120,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": "Warhammer Armies: Tomb Kings (6th Edition)",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": "https://warhammerfantasy.fandom.com/wiki/Lahmia",
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Nehekhara"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text7141",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.916618,
+          16.392862
+        ]
+      },
+      "properties": {
+        "id": "text7141",
+        "name": "Quatar",
+        "category": "settlement",
+        "dataset": "nehekhara",
+        "in_gazetteer": true,
+        "type": "Tomb City",
+        "region": "Nehekhara",
+        "province": null,
+        "estate": null,
+        "population": 78,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": "Warhammer Armies: Tomb Kings (6th Edition)",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": "https://warhammerfantasy.fandom.com/wiki/Quatar",
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Nehekhara"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text7163",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.945079,
+          19.432074
+        ]
+      },
+      "properties": {
+        "id": "text7163",
+        "name": "Khemri",
+        "category": "settlement",
+        "dataset": "nehekhara",
+        "in_gazetteer": true,
+        "type": "Tomb City",
+        "region": "Nehekhara",
+        "province": null,
+        "estate": null,
+        "population": 97,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": "Warhammer Armies: Tomb Kings (6th Edition)",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": "https://warhammerfantasy.fandom.com/wiki/Khemri",
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Nehekhara"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text7164",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.917735,
+          19.317491
+        ]
+      },
+      "properties": {
+        "id": "text7164",
+        "name": "Great Pyramid of Settra",
+        "category": "settlement",
+        "dataset": "nehekhara",
+        "in_gazetteer": false,
+        "type": null,
+        "region": "Nehekhara",
+        "province": null,
+        "estate": null,
+        "population": 290,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": null,
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Nehekhara"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text7165",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.079193,
+          19.394315
+        ]
+      },
+      "properties": {
+        "id": "text7165",
+        "name": "Black Pyramid of Nagash",
+        "category": "settlement",
+        "dataset": "nehekhara",
+        "in_gazetteer": false,
+        "type": null,
+        "region": "Nehekhara",
+        "province": null,
+        "estate": null,
+        "population": 133,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": null,
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Nehekhara"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text7166",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.244579,
+          11.802681
+        ]
+      },
+      "properties": {
+        "id": "text7166",
+        "name": "Bhagar",
+        "category": "settlement",
+        "dataset": "nehekhara",
+        "in_gazetteer": true,
+        "type": "Tomb City",
+        "region": "Nehekhara",
+        "province": null,
+        "estate": null,
+        "population": 212,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": "Warhammer Armies: Tomb Kings (6th Edition)",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": "https://warhammerfantasy.fandom.com/wiki/Bhagar",
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Nehekhara"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text7167",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.559579,
+          10.187694
+        ]
+      },
+      "properties": {
+        "id": "text7167",
+        "name": "Monument of Basth",
+        "category": "settlement",
+        "dataset": "nehekhara",
+        "in_gazetteer": false,
+        "type": null,
+        "region": "Nehekhara",
+        "province": null,
+        "estate": null,
+        "population": 227,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": null,
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Nehekhara"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text7168",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.618718,
+          9.300122
+        ]
+      },
+      "properties": {
+        "id": "text7168",
+        "name": "Idol of Shapesh",
+        "category": "settlement",
+        "dataset": "nehekhara",
+        "in_gazetteer": false,
+        "type": null,
+        "region": "Nehekhara",
+        "province": null,
+        "estate": null,
+        "population": 353,
+        "population_estimated": true,
+        "size_category": 2,
+        "trade": null,
+        "source": null,
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Nehekhara"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text7169",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.732887,
+          8.15476
+        ]
+      },
+      "properties": {
+        "id": "text7169",
+        "name": "Ka-Sabar",
+        "category": "settlement",
+        "dataset": "nehekhara",
+        "in_gazetteer": false,
+        "type": null,
+        "region": "Nehekhara",
+        "province": null,
+        "estate": null,
+        "population": 105,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": null,
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Nehekhara"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text7171",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.154039,
+          12.588908
+        ]
+      },
+      "properties": {
+        "id": "text7171",
+        "name": "Obelisk of Geheb",
+        "category": "settlement",
+        "dataset": "nehekhara",
+        "in_gazetteer": false,
+        "type": null,
+        "region": "Nehekhara",
+        "province": null,
+        "estate": null,
+        "population": 59,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": null,
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Nehekhara"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text7172",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.666667,
+          15.172812
+        ]
+      },
+      "properties": {
+        "id": "text7172",
+        "name": "Idol of Ptra",
+        "category": "settlement",
+        "dataset": "nehekhara",
+        "in_gazetteer": false,
+        "type": null,
+        "region": "Nehekhara",
+        "province": null,
+        "estate": null,
+        "population": 220,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": null,
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Nehekhara"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text7173",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.0,
+          18.620729
+        ]
+      },
+      "properties": {
+        "id": "text7173",
+        "name": "Khsar's Column",
+        "category": "settlement",
+        "dataset": "nehekhara",
+        "in_gazetteer": false,
+        "type": null,
+        "region": "Nehekhara",
+        "province": null,
+        "estate": null,
+        "population": 153,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": null,
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Nehekhara"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text7174",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.375,
+          22.079059
+        ]
+      },
+      "properties": {
+        "id": "text7174",
+        "name": "Sekhmet's Needle",
+        "category": "settlement",
+        "dataset": "nehekhara",
+        "in_gazetteer": false,
+        "type": null,
+        "region": "Nehekhara",
+        "province": null,
+        "estate": null,
+        "population": 81,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": null,
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Nehekhara"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text7175",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.473959,
+          23.745727
+        ]
+      },
+      "properties": {
+        "id": "text7175",
+        "name": "Mendai",
+        "category": "settlement",
+        "dataset": "nehekhara",
+        "in_gazetteer": false,
+        "type": null,
+        "region": "Nehekhara",
+        "province": null,
+        "estate": null,
+        "population": 83,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": null,
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Nehekhara"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text7176",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.869792,
+          16.52177
+        ]
+      },
+      "properties": {
+        "id": "text7176",
+        "name": "The Black Tower",
+        "category": "settlement",
+        "dataset": "nehekhara",
+        "in_gazetteer": false,
+        "type": null,
+        "region": "Nehekhara",
+        "province": null,
+        "estate": null,
+        "population": 218,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": null,
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Nehekhara"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text7177",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.613992,
+          10.416305
+        ]
+      },
+      "properties": {
+        "id": "text7177",
+        "name": "Gateway of Eternity",
+        "category": "settlement",
+        "dataset": "nehekhara",
+        "in_gazetteer": false,
+        "type": null,
+        "region": "Nehekhara",
+        "province": null,
+        "estate": null,
+        "population": 84,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": null,
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Nehekhara"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text7178",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.8125,
+          21.76656
+        ]
+      },
+      "properties": {
+        "id": "text7178",
+        "name": "Numas",
+        "category": "settlement",
+        "dataset": "nehekhara",
+        "in_gazetteer": true,
+        "type": "Tomb City",
+        "region": "Nehekhara",
+        "province": null,
+        "estate": null,
+        "population": 252,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": "Warhammer Armies: Tomb Kings (6th Edition)",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": "https://warhammerfantasy.fandom.com/wiki/Numas",
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Nehekhara"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text8902",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.942659,
+          16.502236
+        ]
+      },
+      "properties": {
+        "id": "text8902",
+        "name": "Springs of Eternal Life",
+        "category": "settlement",
+        "dataset": "nehekhara",
+        "in_gazetteer": false,
+        "type": null,
+        "region": "Nehekhara",
+        "province": null,
+        "estate": null,
+        "population": 71,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": null,
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Nehekhara"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text2949",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.248788,
+          8.695277
+        ]
+      },
+      "properties": {
+        "id": "text2949",
+        "name": "Rasetra",
+        "category": "settlement",
+        "dataset": "nehekhara",
+        "in_gazetteer": true,
+        "type": "Tomb City",
+        "region": "Nehekhara",
+        "province": null,
+        "estate": null,
+        "population": 249,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": "Warhammer Armies: Tomb Kings (6th Edition)",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": "https://warhammerfantasy.fandom.com/wiki/Rasetra",
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Nehekhara"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text2950",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.465787,
+          8.288869
+        ]
+      },
+      "properties": {
+        "id": "text2950",
+        "name": "Monument of Tahoth",
+        "category": "settlement",
+        "dataset": "nehekhara",
+        "in_gazetteer": false,
+        "type": null,
+        "region": "Nehekhara",
+        "province": null,
+        "estate": null,
+        "population": 227,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": null,
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Nehekhara"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text2951",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.877245,
+          7.794078
+        ]
+      },
+      "properties": {
+        "id": "text2951",
+        "name": "Eye of Usirian",
+        "category": "settlement",
+        "dataset": "nehekhara",
+        "in_gazetteer": false,
+        "type": null,
+        "region": "Nehekhara",
+        "province": null,
+        "estate": null,
+        "population": 313,
+        "population_estimated": true,
+        "size_category": 2,
+        "trade": null,
+        "source": null,
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Nehekhara"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text2952",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.169926,
+          9.882254
+        ]
+      },
+      "properties": {
+        "id": "text2952",
+        "name": "Temple of Skulls",
+        "category": "settlement",
+        "dataset": "nehekhara",
+        "in_gazetteer": false,
+        "type": null,
+        "region": "Nehekhara",
+        "province": null,
+        "estate": null,
+        "population": 126,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": null,
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Nehekhara"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text2953",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.68011,
+          11.591095
+        ]
+      },
+      "properties": {
+        "id": "text2953",
+        "name": "Idol of Neru",
+        "category": "settlement",
+        "dataset": "nehekhara",
+        "in_gazetteer": false,
+        "type": null,
+        "region": "Nehekhara",
+        "province": null,
+        "estate": null,
+        "population": 85,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": null,
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Nehekhara"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text8903",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.869883,
+          19.472391
+        ]
+      },
+      "properties": {
+        "id": "text8903",
+        "name": "Idol of Asaph",
+        "category": "settlement",
+        "dataset": "nehekhara",
+        "in_gazetteer": false,
+        "type": null,
+        "region": "Nehekhara",
+        "province": null,
+        "estate": null,
+        "population": 93,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": null,
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Nehekhara"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text908",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.589762,
+          31.178179
+        ]
+      },
+      "properties": {
+        "id": "text908",
+        "name": "Naqqara",
+        "category": "settlement",
+        "dataset": "nehekhara",
+        "in_gazetteer": true,
+        "type": "Tomb City",
+        "region": "Nehekhara",
+        "province": null,
+        "estate": null,
+        "population": 169,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": "Warhammer Armies: Tomb Kings (6th Edition)",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": "https://warhammerfantasy.fandom.com/wiki/Naqqara",
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Nehekhara"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text1015",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.777208,
+          14.046146
+        ]
+      },
+      "properties": {
+        "id": "text1015",
+        "name": "Beremas",
+        "category": "settlement",
+        "dataset": "nehekhara",
+        "in_gazetteer": true,
+        "type": "Tomb City",
+        "region": "Nehekhara",
+        "province": null,
+        "estate": null,
+        "population": 148,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": "Warhammer Armies: Tomb Kings (6th Edition)",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Nehekhara"
+      }
+    }
+  ]
+}

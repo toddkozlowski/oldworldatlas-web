@@ -1463,7 +1463,9 @@
         .side-panel {
             position: fixed;
             top: 0;
-            left: -280px;
+            left: 0;
+            /* Closed: slide the whole panel (and its shadow) off-screen */
+            transform: translateX(calc(-100% - 12px));
             width: 300px;
             /* height:100% plus padding, under this element's content-box
                sizing (unchanged here to avoid narrowing every existing
@@ -1477,14 +1479,14 @@
             background: rgba(255, 255, 255, 0.3);
             box-shadow: 2px 0 8px rgba(0,0,0,0.2);
             z-index: 10000;
-            transition: left 0.3s ease, background 0.3s ease;
+            transition: transform 0.3s ease, background 0.3s ease;
             overflow-y: auto;
             padding: 70px 20px 20px 20px;
             pointer-events: none;
         }
         
         .side-panel.active {
-            left: 0;
+            transform: none;
             background: rgba(255, 255, 255, 0.95);
             pointer-events: auto;
         }
@@ -2236,6 +2238,10 @@
                         <label for="settlement-region-dawi-zharr">Dawi-Zharr</label>
                     </div>
                     <div class="toggle-item sub-toggle-item">
+                        <input type="checkbox" id="settlement-region-nehekhara" checked>
+                        <label for="settlement-region-nehekhara">Nehekhara</label>
+                    </div>
+                    <div class="toggle-item sub-toggle-item">
                         <input type="checkbox" id="settlement-region-karaz-ankor" checked>
                         <label for="settlement-region-karaz-ankor">The Karaz-Ankor</label>
                     </div>
@@ -2271,6 +2277,10 @@
             <div class="toggle-item">
                 <input type="checkbox" id="northmen-tribes-checkbox" checked>
                 <label for="northmen-tribes-checkbox">Northmen Tribes</label>
+            </div>
+            <div class="toggle-item">
+                <input type="checkbox" id="araby-tribes-checkbox" checked>
+                <label for="araby-tribes-checkbox">Araby Tribes</label>
             </div>
             <div class="toggle-item">
                 <input type="checkbox" id="water-checkbox" checked>
@@ -2478,28 +2488,28 @@
     </div>
 
     <!-- Load scripts in order -->
-    <script src="js/utils.js?v=14"></script>
-    <script src="js/styling.js?v=14"></script>
-    <script src="js/map-key-legend.js?v=14"></script>
-    <script src="js/visual-options.js?v=14"></script>
-    <script src="js/search.js?v=14"></script>
-    <script src="js/settlement-data.js?v=14"></script>
-    <script src="js/dwarf-settlement-data.js?v=14"></script>
-    <script src="js/wood-elf-settlement-data.js?v=14"></script>
-    <script src="js/poi-data.js?v=14"></script>
-    <script src="js/province-data.js?v=14"></script>
-    <script src="js/water-data.js?v=14"></script>
-    <script src="js/grid-overlay.js?v=14"></script>
-    <script src="js/map-manager.js?v=14"></script>
-    <script src="js/city-data.js?v=14"></script>
-    <script src="js/measurement-tool.js?v=14"></script>
-    <script src="js/scale-control.js?v=14"></script>
-    <script src="js/ui-controls.js?v=14"></script>
-    <script src="js/about-modal.js?v=14"></script>
-    <script src="js/feedback-modal.js?v=14"></script>
-    <!-- <script src="js/new-user-popup.js?v=14"></script> -->
-    <script src="js/changelog-dropdown.js?v=14"></script>
-    <script src="js/app.js?v=14"></script>
+    <script src="js/utils.js?v=16"></script>
+    <script src="js/styling.js?v=16"></script>
+    <script src="js/map-key-legend.js?v=16"></script>
+    <script src="js/visual-options.js?v=16"></script>
+    <script src="js/search.js?v=16"></script>
+    <script src="js/settlement-data.js?v=16"></script>
+    <script src="js/dwarf-settlement-data.js?v=16"></script>
+    <script src="js/wood-elf-settlement-data.js?v=16"></script>
+    <script src="js/poi-data.js?v=16"></script>
+    <script src="js/province-data.js?v=16"></script>
+    <script src="js/water-data.js?v=16"></script>
+    <script src="js/grid-overlay.js?v=16"></script>
+    <script src="js/map-manager.js?v=16"></script>
+    <script src="js/city-data.js?v=16"></script>
+    <script src="js/measurement-tool.js?v=16"></script>
+    <script src="js/scale-control.js?v=16"></script>
+    <script src="js/ui-controls.js?v=16"></script>
+    <script src="js/about-modal.js?v=16"></script>
+    <script src="js/feedback-modal.js?v=16"></script>
+    <!-- <script src="js/new-user-popup.js?v=16"></script> -->
+    <script src="js/changelog-dropdown.js?v=16"></script>
+    <script src="js/app.js?v=16"></script>
     
     <!-- Mobile menu functionality -->
     <script>
@@ -2830,9 +2840,8 @@
             var exportHeight = 2160;
             var exportWidth = Math.round(exportHeight * aspect);
 
-            var tileResolutions = getTileResolutions();
             var exportRes = origRes * (origSize[0] / exportWidth);
-            var minRes = tileResolutions[tileResolutions.length - 1];
+            var minRes = getTileResolution(MAP_VIEW_MAX_ZOOM);
             if (exportRes < minRes) exportRes = minRes;
 
             var uiSelectors = [

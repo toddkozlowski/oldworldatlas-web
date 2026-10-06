@@ -1,0 +1,3275 @@
+{
+  "type": "FeatureCollection",
+  "name": "settlements_wood_elves",
+  "schema_version": 2,
+  "features": [
+    {
+      "type": "Feature",
+      "id": "copy_text_13442",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.66296,
+          56.701951
+        ]
+      },
+      "properties": {
+        "id": "copy_text_13442",
+        "name": "Tor Lithanel",
+        "category": "settlement",
+        "dataset": "wood_elves",
+        "in_gazetteer": true,
+        "type": "Hall",
+        "region": "Wood Elves",
+        "province": null,
+        "estate": null,
+        "population": 116,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": "Warhammer Fantasy Roleplay 4e: Archives of the Empire 4",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": "Tor Lithanel",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Tor_Lithanel",
+          "description": "Tor Lithanel, the \" City of Glass,\" is the capital city of the Wood Elf realm of the Eonir, located in the Ward of the Sun, at the centre of the Laurelorn Forest. It dates back to the original High Elven colonisation of Elthin Arvan, the Old World.",
+          "image": "https://static.wikia.nocookie.net/warhammerfb/images/d/d8/Laurelorn_Forest-Archives_of_the_Empire.png/revision/latest?cb=20201231135703"
+        },
+        "svg_layer": "Wood Elves"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "copy_text_13443",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.036721,
+          47.929188
+        ]
+      },
+      "properties": {
+        "id": "copy_text_13443",
+        "name": "Tower of the Eternal Wood",
+        "category": "settlement",
+        "dataset": "wood_elves",
+        "in_gazetteer": true,
+        "type": "Hall",
+        "region": "Wood Elves",
+        "province": null,
+        "estate": null,
+        "population": 145,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": "Warhammer Armies: Wood Elves (8th Edition)",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Wood Elves"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "copy_text_13444",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.105743,
+          43.010765
+        ]
+      },
+      "properties": {
+        "id": "copy_text_13444",
+        "name": "Tal Drost",
+        "category": "settlement",
+        "dataset": "wood_elves",
+        "in_gazetteer": true,
+        "type": "Hall",
+        "region": "Wood Elves",
+        "province": null,
+        "estate": null,
+        "population": 70,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": "Warhammer Armies: Wood Elves (8th Edition)",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Wood Elves"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "copy_text_13445",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.003394,
+          43.194214
+        ]
+      },
+      "properties": {
+        "id": "copy_text_13445",
+        "name": "Tal Cullon",
+        "category": "settlement",
+        "dataset": "wood_elves",
+        "in_gazetteer": true,
+        "type": "Hall",
+        "region": "Wood Elves",
+        "province": null,
+        "estate": null,
+        "population": 157,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": "Warhammer Armies: Wood Elves (8th Edition)",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Wood Elves"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "copy_text_13446",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.022589,
+          43.175175
+        ]
+      },
+      "properties": {
+        "id": "copy_text_13446",
+        "name": "Tal Mora",
+        "category": "settlement",
+        "dataset": "wood_elves",
+        "in_gazetteer": true,
+        "type": "Hall",
+        "region": "Wood Elves",
+        "province": null,
+        "estate": null,
+        "population": 133,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": "Warhammer Armies: Wood Elves (8th Edition)",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Wood Elves"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "copy_text_13447",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.125345,
+          42.317235
+        ]
+      },
+      "properties": {
+        "id": "copy_text_13447",
+        "name": "Tal Amara",
+        "category": "settlement",
+        "dataset": "wood_elves",
+        "in_gazetteer": true,
+        "type": "Hall",
+        "region": "Wood Elves",
+        "province": null,
+        "estate": null,
+        "population": 410,
+        "population_estimated": true,
+        "size_category": 2,
+        "trade": null,
+        "source": "Warhammer Armies: Wood Elves (8th Edition)",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Wood Elves"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "copy_text_13448",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.782471,
+          42.68542
+        ]
+      },
+      "properties": {
+        "id": "copy_text_13448",
+        "name": "Tal Stornos",
+        "category": "settlement",
+        "dataset": "wood_elves",
+        "in_gazetteer": true,
+        "type": "Hall",
+        "region": "Wood Elves",
+        "province": null,
+        "estate": null,
+        "population": 309,
+        "population_estimated": true,
+        "size_category": 2,
+        "trade": null,
+        "source": "Warhammer Armies: Wood Elves (8th Edition)",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Wood Elves"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "copy_text_13449",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.343947,
+          42.736363
+        ]
+      },
+      "properties": {
+        "id": "copy_text_13449",
+        "name": "Talrennic",
+        "category": "settlement",
+        "dataset": "wood_elves",
+        "in_gazetteer": true,
+        "type": "POI",
+        "region": "Wood Elves",
+        "province": null,
+        "estate": null,
+        "population": 162,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": "Warhammer Armies: Wood Elves (8th Edition)",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Wood Elves"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "copy_text_13450",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.798391,
+          43.582726
+        ]
+      },
+      "properties": {
+        "id": "copy_text_13450",
+        "name": "Glade of Eternal Midnight",
+        "category": "settlement",
+        "dataset": "wood_elves",
+        "in_gazetteer": true,
+        "type": "Glade",
+        "region": "Wood Elves",
+        "province": null,
+        "estate": null,
+        "population": 86,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": "Warhammer Armies: Wood Elves (8th Edition)",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Wood Elves"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "copy_text_13451",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.48578,
+          44.756753
+        ]
+      },
+      "properties": {
+        "id": "copy_text_13451",
+        "name": "Tal Dovar",
+        "category": "settlement",
+        "dataset": "wood_elves",
+        "in_gazetteer": true,
+        "type": "Hall",
+        "region": "Wood Elves",
+        "province": null,
+        "estate": null,
+        "population": 170,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": "Warhammer Armies: Wood Elves (8th Edition)",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Wood Elves"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "copy_text_13452",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.779576,
+          44.781067
+        ]
+      },
+      "properties": {
+        "id": "copy_text_13452",
+        "name": "Ystin Morai-Heg",
+        "category": "settlement",
+        "dataset": "wood_elves",
+        "in_gazetteer": true,
+        "type": "Temple",
+        "region": "Wood Elves",
+        "province": null,
+        "estate": null,
+        "population": 277,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": "Warhammer Armies: Wood Elves (8th Edition)",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Wood Elves"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "copy_text_13453",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.171723,
+          44.898006
+        ]
+      },
+      "properties": {
+        "id": "copy_text_13453",
+        "name": "Vaul's Anvil",
+        "category": "settlement",
+        "dataset": "wood_elves",
+        "in_gazetteer": true,
+        "type": "Temple",
+        "region": "Wood Elves",
+        "province": null,
+        "estate": null,
+        "population": 119,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": "Warhammer Armies: Wood Elves (8th Edition)",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": "Vaul's Anvil",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Vaul%27s_Anvil",
+          "description": "Vaul's Anvil is the fiercest and greatest of all volcanoes of the world of Mallus. It is located in the Dragon Spine Mountains in the kingdom of Caledor on the island-continent of Ulthuan. Named for Vaul, the god of smiths and artisans in the Elven Pantheon, its crater is home to a great temple dedicated to the smith god where the blind smith-priests of the Order of Vaul craft magical arms and armour for use by the armies of the High Elves.",
+          "image": "https://static.wikia.nocookie.net/warhammerfb/images/0/04/Templo_de_vaul.jpg/revision/latest?cb=20160221134157"
+        },
+        "svg_layer": "Wood Elves"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "copy_text_13454",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.653663,
+          45.342608
+        ]
+      },
+      "properties": {
+        "id": "copy_text_13454",
+        "name": "Tal Brianda",
+        "category": "settlement",
+        "dataset": "wood_elves",
+        "in_gazetteer": true,
+        "type": "Hall",
+        "region": "Wood Elves",
+        "province": null,
+        "estate": null,
+        "population": 92,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": "Warhammer Armies: Wood Elves (8th Edition)",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Wood Elves"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "copy_text_13455",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.568747,
+          45.89618
+        ]
+      },
+      "properties": {
+        "id": "copy_text_13455",
+        "name": "Halls of Anaereth",
+        "category": "settlement",
+        "dataset": "wood_elves",
+        "in_gazetteer": true,
+        "type": "Hall",
+        "region": "Wood Elves",
+        "province": null,
+        "estate": null,
+        "population": 73,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": "Warhammer Armies: Wood Elves (8th Edition)",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Wood Elves"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "copy_text_13456",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.161592,
+          46.486531
+        ]
+      },
+      "properties": {
+        "id": "copy_text_13456",
+        "name": "Tal Hakan",
+        "category": "settlement",
+        "dataset": "wood_elves",
+        "in_gazetteer": true,
+        "type": "Hall",
+        "region": "Wood Elves",
+        "province": null,
+        "estate": null,
+        "population": 135,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": "Warhammer Armies: Wood Elves (8th Edition)",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Wood Elves"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "copy_text_13457",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.501528,
+          46.809849
+        ]
+      },
+      "properties": {
+        "id": "copy_text_13457",
+        "name": "Waterfall Palace of the Naiad Court",
+        "category": "settlement",
+        "dataset": "wood_elves",
+        "in_gazetteer": true,
+        "type": "Hall",
+        "region": "Wood Elves",
+        "province": null,
+        "estate": null,
+        "population": 98,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": "Warhammer Armies: Wood Elves (8th Edition)",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Wood Elves"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "copy_text_13458",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.271106,
+          46.824586
+        ]
+      },
+      "properties": {
+        "id": "copy_text_13458",
+        "name": "Tal Silvoch",
+        "category": "settlement",
+        "dataset": "wood_elves",
+        "in_gazetteer": true,
+        "type": "Hall",
+        "region": "Wood Elves",
+        "province": null,
+        "estate": null,
+        "population": 71,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": "Warhammer Armies: Wood Elves (8th Edition)",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Wood Elves"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "copy_text_13459",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.682503,
+          46.623187
+        ]
+      },
+      "properties": {
+        "id": "copy_text_13459",
+        "name": "Feast Halls of the Wardance",
+        "category": "settlement",
+        "dataset": "wood_elves",
+        "in_gazetteer": true,
+        "type": "Hall",
+        "region": "Wood Elves",
+        "province": null,
+        "estate": null,
+        "population": 117,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": "Warhammer Armies: Wood Elves (8th Edition)",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Wood Elves"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "copy_text_13460",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.906784,
+          46.800026
+        ]
+      },
+      "properties": {
+        "id": "copy_text_13460",
+        "name": "Ystin Eldrazor",
+        "category": "settlement",
+        "dataset": "wood_elves",
+        "in_gazetteer": true,
+        "type": "Temple",
+        "region": "Wood Elves",
+        "province": null,
+        "estate": null,
+        "population": 402,
+        "population_estimated": true,
+        "size_category": 2,
+        "trade": null,
+        "source": "Warhammer Armies: Wood Elves (8th Edition)",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Wood Elves"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "copy_text_13461",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.172002,
+          46.109042
+        ]
+      },
+      "properties": {
+        "id": "copy_text_13461",
+        "name": "Tal Varigan",
+        "category": "settlement",
+        "dataset": "wood_elves",
+        "in_gazetteer": true,
+        "type": "Hall",
+        "region": "Wood Elves",
+        "province": null,
+        "estate": null,
+        "population": 136,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": "Warhammer Armies: Wood Elves (8th Edition)",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Wood Elves"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "copy_text_13462",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.655035,
+          45.999336
+        ]
+      },
+      "properties": {
+        "id": "copy_text_13462",
+        "name": "Threllock",
+        "category": "settlement",
+        "dataset": "wood_elves",
+        "in_gazetteer": true,
+        "type": "Hall",
+        "region": "Wood Elves",
+        "province": null,
+        "estate": null,
+        "population": 92,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": "Warhammer Armies: Wood Elves (8th Edition)",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Wood Elves"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "copy_text_13463",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.700063,
+          45.560513
+        ]
+      },
+      "properties": {
+        "id": "copy_text_13463",
+        "name": "Ystin Khaine",
+        "category": "settlement",
+        "dataset": "wood_elves",
+        "in_gazetteer": true,
+        "type": "Temple",
+        "region": "Wood Elves",
+        "province": null,
+        "estate": null,
+        "population": 173,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": "Warhammer Armies: Wood Elves (8th Edition)",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Wood Elves"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "copy_text_13464",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.083991,
+          45.270694
+        ]
+      },
+      "properties": {
+        "id": "copy_text_13464",
+        "name": "Crag Halls of Findol",
+        "category": "settlement",
+        "dataset": "wood_elves",
+        "in_gazetteer": true,
+        "type": "Hall",
+        "region": "Wood Elves",
+        "province": null,
+        "estate": null,
+        "population": 133,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": "Warhammer Armies: Wood Elves (8th Edition)",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Wood Elves"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "copy_text_13465",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.339685,
+          45.282155
+        ]
+      },
+      "properties": {
+        "id": "copy_text_13465",
+        "name": "Ystin Estreuth",
+        "category": "settlement",
+        "dataset": "wood_elves",
+        "in_gazetteer": true,
+        "type": "Temple",
+        "region": "Wood Elves",
+        "province": null,
+        "estate": null,
+        "population": 219,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": "Warhammer Armies: Wood Elves (8th Edition)",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Wood Elves"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "copy_text_13466",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.503426,
+          45.018533
+        ]
+      },
+      "properties": {
+        "id": "copy_text_13466",
+        "name": "Tal Jul-finel",
+        "category": "settlement",
+        "dataset": "wood_elves",
+        "in_gazetteer": true,
+        "type": "Hall",
+        "region": "Wood Elves",
+        "province": null,
+        "estate": null,
+        "population": 109,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": "Warhammer Armies: Wood Elves (8th Edition)",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Wood Elves"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "copy_text_13467",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.489248,
+          44.658306
+        ]
+      },
+      "properties": {
+        "id": "copy_text_13467",
+        "name": "The Sylamel Tree",
+        "category": "settlement",
+        "dataset": "wood_elves",
+        "in_gazetteer": true,
+        "type": "POI",
+        "region": "Wood Elves",
+        "province": null,
+        "estate": null,
+        "population": 91,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": "Warhammer Armies: Wood Elves (8th Edition)",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Wood Elves"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "copy_text_13468",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.914972,
+          45.337826
+        ]
+      },
+      "properties": {
+        "id": "copy_text_13468",
+        "name": "Tal Govorn",
+        "category": "settlement",
+        "dataset": "wood_elves",
+        "in_gazetteer": true,
+        "type": "Hall",
+        "region": "Wood Elves",
+        "province": null,
+        "estate": null,
+        "population": 121,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": "Warhammer Armies: Wood Elves (8th Edition)",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Wood Elves"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "copy_text_13469",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.616146,
+          44.933389
+        ]
+      },
+      "properties": {
+        "id": "copy_text_13469",
+        "name": "Tal Merion",
+        "category": "settlement",
+        "dataset": "wood_elves",
+        "in_gazetteer": true,
+        "type": "Hall",
+        "region": "Wood Elves",
+        "province": null,
+        "estate": null,
+        "population": 122,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": "Warhammer Armies: Wood Elves (8th Edition)",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Wood Elves"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "copy_text_13470",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.183957,
+          43.711889
+        ]
+      },
+      "properties": {
+        "id": "copy_text_13470",
+        "name": "The Cromlech of Cadai",
+        "category": "settlement",
+        "dataset": "wood_elves",
+        "in_gazetteer": true,
+        "type": "POI",
+        "region": "Wood Elves",
+        "province": null,
+        "estate": null,
+        "population": 146,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": "Warhammer Armies: Wood Elves (8th Edition)",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Wood Elves"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "copy_text_13471",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.621101,
+          43.759373
+        ]
+      },
+      "properties": {
+        "id": "copy_text_13471",
+        "name": "Ystin Drakira",
+        "category": "settlement",
+        "dataset": "wood_elves",
+        "in_gazetteer": true,
+        "type": "Temple",
+        "region": "Wood Elves",
+        "province": null,
+        "estate": null,
+        "population": 99,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": "Warhammer Armies: Wood Elves (8th Edition)",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Wood Elves"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "copy_text_13472",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.279293,
+          43.374585
+        ]
+      },
+      "properties": {
+        "id": "copy_text_13472",
+        "name": "Drune Fell",
+        "category": "settlement",
+        "dataset": "wood_elves",
+        "in_gazetteer": true,
+        "type": "POI",
+        "region": "Wood Elves",
+        "province": null,
+        "estate": null,
+        "population": 88,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": "Warhammer Armies: Wood Elves (8th Edition)",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Wood Elves"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "copy_text_13473",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.368127,
+          44.003446
+        ]
+      },
+      "properties": {
+        "id": "copy_text_13473",
+        "name": "Yn Edri Eternos (The Oak of Ages)",
+        "category": "settlement",
+        "dataset": "wood_elves",
+        "in_gazetteer": true,
+        "type": "POI",
+        "region": "Wood Elves",
+        "province": null,
+        "estate": null,
+        "population": 97,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": "Warhammer Armies: Wood Elves (8th Edition)",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Wood Elves"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "copy_text_13474",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.913786,
+          44.03773
+        ]
+      },
+      "properties": {
+        "id": "copy_text_13474",
+        "name": "Myrgan Stones",
+        "category": "settlement",
+        "dataset": "wood_elves",
+        "in_gazetteer": true,
+        "type": "POI",
+        "region": "Wood Elves",
+        "province": null,
+        "estate": null,
+        "population": 219,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": "Warhammer Armies: Wood Elves (8th Edition)",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Wood Elves"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "copy_text_13475",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.980468,
+          43.610369
+        ]
+      },
+      "properties": {
+        "id": "copy_text_13475",
+        "name": "Tal Eth Ayr",
+        "category": "settlement",
+        "dataset": "wood_elves",
+        "in_gazetteer": true,
+        "type": "Hall",
+        "region": "Wood Elves",
+        "province": null,
+        "estate": null,
+        "population": 142,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": "Warhammer Armies: Wood Elves (8th Edition)",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Wood Elves"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "copy_text_13476",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.60796,
+          43.48429
+        ]
+      },
+      "properties": {
+        "id": "copy_text_13476",
+        "name": "Yn Edryl Koiran (The King's Glade)",
+        "category": "settlement",
+        "dataset": "wood_elves",
+        "in_gazetteer": true,
+        "type": "POI",
+        "region": "Wood Elves",
+        "province": null,
+        "estate": null,
+        "population": 133,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": "Warhammer Armies: Wood Elves (8th Edition)",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Wood Elves"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "copy_text_13477",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.004018,
+          43.621831
+        ]
+      },
+      "properties": {
+        "id": "copy_text_13477",
+        "name": "Ystin Asuryan",
+        "category": "settlement",
+        "dataset": "wood_elves",
+        "in_gazetteer": true,
+        "type": "Temple",
+        "region": "Wood Elves",
+        "province": null,
+        "estate": null,
+        "population": 340,
+        "population_estimated": true,
+        "size_category": 2,
+        "trade": null,
+        "source": "Warhammer Armies: Wood Elves (8th Edition)",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Wood Elves"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "copy_text_13478",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.339685,
+          44.21457
+        ]
+      },
+      "properties": {
+        "id": "copy_text_13478",
+        "name": "Ystin Hoeth",
+        "category": "settlement",
+        "dataset": "wood_elves",
+        "in_gazetteer": true,
+        "type": "Temple",
+        "region": "Wood Elves",
+        "province": null,
+        "estate": null,
+        "population": 150,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": "Warhammer Armies: Wood Elves (8th Edition)",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Wood Elves"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "copy_text_13479",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.435883,
+          44.329188
+        ]
+      },
+      "properties": {
+        "id": "copy_text_13479",
+        "name": "Tears of Isha",
+        "category": "settlement",
+        "dataset": "wood_elves",
+        "in_gazetteer": true,
+        "type": "POI",
+        "region": "Wood Elves",
+        "province": null,
+        "estate": null,
+        "population": 113,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": "Warhammer Armies: Wood Elves (8th Edition)",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": "Tears of Isha",
+          "url": "https://warhammerfantasy.fandom.com/wiki/Tears_of_Isha",
+          "description": "The Tears of Isha are a number of powerful jewels said to allow communion with the goddess. It is said, in one of the oldest legends of the Elven Kingdoms, at the beginning of time, when the first of the Elves were born to Isha, the Earth Mother, and Kurnous, the Lord of Beasts, that Asuryan, the Lord of the Elven Gods passed judgement upon their children. He decreed that the Elves were to have prodigiously long lives, but in the end would grow weary of the world and die. \"Otherwise\", said Asuryan wisely \"they might begin to covet the thrones of the gods themselves.\" But the goddess Isha who loved her children above all others wept great tears of sorrow for their fate.",
+          "image": "https://static.wikia.nocookie.net/warhammerfb/images/6/6a/Isha.jpg/revision/latest?cb=20160208020149"
+        },
+        "svg_layer": "Wood Elves"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "copy_text_13480",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.62024,
+          44.492929
+        ]
+      },
+      "properties": {
+        "id": "copy_text_13480",
+        "name": "Druthandor Gate",
+        "category": "settlement",
+        "dataset": "wood_elves",
+        "in_gazetteer": true,
+        "type": "POI",
+        "region": "Wood Elves",
+        "province": null,
+        "estate": null,
+        "population": 92,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": "Warhammer Armies: Wood Elves (8th Edition)",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Wood Elves"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "copy_text_13481",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.628427,
+          45.360751
+        ]
+      },
+      "properties": {
+        "id": "copy_text_13481",
+        "name": "Bridge of Birds",
+        "category": "settlement",
+        "dataset": "wood_elves",
+        "in_gazetteer": true,
+        "type": "POI",
+        "region": "Wood Elves",
+        "province": null,
+        "estate": null,
+        "population": 232,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": "Warhammer Armies: Wood Elves (8th Edition)",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Wood Elves"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "copy_text_13482",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.53837,
+          46.351378
+        ]
+      },
+      "properties": {
+        "id": "copy_text_13482",
+        "name": "Council of Beasts",
+        "category": "settlement",
+        "dataset": "wood_elves",
+        "in_gazetteer": true,
+        "type": "POI",
+        "region": "Wood Elves",
+        "province": null,
+        "estate": null,
+        "population": 157,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": "Warhammer Armies: Wood Elves (8th Edition)",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Wood Elves"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "copy_text_13483",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.04715,
+          46.875345
+        ]
+      },
+      "properties": {
+        "id": "copy_text_13483",
+        "name": "The Summer Tree",
+        "category": "settlement",
+        "dataset": "wood_elves",
+        "in_gazetteer": true,
+        "type": "POI",
+        "region": "Wood Elves",
+        "province": null,
+        "estate": null,
+        "population": 144,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": "Warhammer Armies: Wood Elves (8th Edition)",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Wood Elves"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "copy_text_13484",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.335592,
+          46.642835
+        ]
+      },
+      "properties": {
+        "id": "copy_text_13484",
+        "name": "The Vaults of Winter",
+        "category": "settlement",
+        "dataset": "wood_elves",
+        "in_gazetteer": true,
+        "type": "POI",
+        "region": "Wood Elves",
+        "province": null,
+        "estate": null,
+        "population": 132,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": "Warhammer Armies: Wood Elves (8th Edition)",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Wood Elves"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "copy_text_13485",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.149487,
+          47.078383
+        ]
+      },
+      "properties": {
+        "id": "copy_text_13485",
+        "name": "Tal Esth",
+        "category": "settlement",
+        "dataset": "wood_elves",
+        "in_gazetteer": true,
+        "type": "Hall",
+        "region": "Wood Elves",
+        "province": null,
+        "estate": null,
+        "population": 126,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": "Warhammer Armies: Wood Elves (8th Edition)",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Wood Elves"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "copy_text_13486",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.689829,
+          47.625274
+        ]
+      },
+      "properties": {
+        "id": "copy_text_13486",
+        "name": "Ystin Lileath",
+        "category": "settlement",
+        "dataset": "wood_elves",
+        "in_gazetteer": true,
+        "type": "Temple",
+        "region": "Wood Elves",
+        "province": null,
+        "estate": null,
+        "population": 198,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": "Warhammer Armies: Wood Elves (8th Edition)",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Wood Elves"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "copy_text_13487",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.342743,
+          47.358378
+        ]
+      },
+      "properties": {
+        "id": "copy_text_13487",
+        "name": "Tal Enda Varian",
+        "category": "settlement",
+        "dataset": "wood_elves",
+        "in_gazetteer": true,
+        "type": "Hall",
+        "region": "Wood Elves",
+        "province": null,
+        "estate": null,
+        "population": 325,
+        "population_estimated": true,
+        "size_category": 2,
+        "trade": null,
+        "source": "Warhammer Armies: Wood Elves (8th Edition)",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Wood Elves"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "copy_text_13488",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.224892,
+          47.45171
+        ]
+      },
+      "properties": {
+        "id": "copy_text_13488",
+        "name": "Delliandra",
+        "category": "settlement",
+        "dataset": "wood_elves",
+        "in_gazetteer": true,
+        "type": "Hall",
+        "region": "Wood Elves",
+        "province": null,
+        "estate": null,
+        "population": 85,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": "Warhammer Armies: Wood Elves (8th Edition)",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Wood Elves"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "copy_text_13489",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.892132,
+          46.842598
+        ]
+      },
+      "properties": {
+        "id": "copy_text_13489",
+        "name": "Tal Valerin",
+        "category": "settlement",
+        "dataset": "wood_elves",
+        "in_gazetteer": true,
+        "type": "Hall",
+        "region": "Wood Elves",
+        "province": null,
+        "estate": null,
+        "population": 67,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": "Warhammer Armies: Wood Elves (8th Edition)",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Wood Elves"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "copy_text_13490",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.570793,
+          47.089845
+        ]
+      },
+      "properties": {
+        "id": "copy_text_13490",
+        "name": "Addaivoch (Tree of Woe)",
+        "category": "settlement",
+        "dataset": "wood_elves",
+        "in_gazetteer": true,
+        "type": "POI",
+        "region": "Wood Elves",
+        "province": null,
+        "estate": null,
+        "population": 326,
+        "population_estimated": true,
+        "size_category": 2,
+        "trade": null,
+        "source": "Warhammer Armies: Wood Elves (8th Edition)",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Wood Elves"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "copy_text_13491",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.707925,
+          47.405863
+        ]
+      },
+      "properties": {
+        "id": "copy_text_13491",
+        "name": "Tal Rond",
+        "category": "settlement",
+        "dataset": "wood_elves",
+        "in_gazetteer": true,
+        "type": "Hall",
+        "region": "Wood Elves",
+        "province": null,
+        "estate": null,
+        "population": 375,
+        "population_estimated": true,
+        "size_category": 2,
+        "trade": null,
+        "source": "Warhammer Armies: Wood Elves (8th Edition)",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Wood Elves"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "copy_text_13492",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.601493,
+          47.566329
+        ]
+      },
+      "properties": {
+        "id": "copy_text_13492",
+        "name": "Ystin Hukon",
+        "category": "settlement",
+        "dataset": "wood_elves",
+        "in_gazetteer": true,
+        "type": "Temple",
+        "region": "Wood Elves",
+        "province": null,
+        "estate": null,
+        "population": 91,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": "Warhammer Armies: Wood Elves (8th Edition)",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Wood Elves"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "copy_text_13493",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.251896,
+          47.943226
+        ]
+      },
+      "properties": {
+        "id": "copy_text_13493",
+        "name": "Tal Driacha",
+        "category": "settlement",
+        "dataset": "wood_elves",
+        "in_gazetteer": true,
+        "type": "Hall",
+        "region": "Wood Elves",
+        "province": null,
+        "estate": null,
+        "population": 230,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": "Warhammer Armies: Wood Elves (8th Edition)",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Wood Elves"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "copy_text_13494",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.618194,
+          42.768746
+        ]
+      },
+      "properties": {
+        "id": "copy_text_13494",
+        "name": "Coeth-mara",
+        "category": "settlement",
+        "dataset": "wood_elves",
+        "in_gazetteer": true,
+        "type": "Hall",
+        "region": "Wood Elves",
+        "province": null,
+        "estate": null,
+        "population": 265,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": "Warhammer Armies: Wood Elves (8th Edition)",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Wood Elves"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "copy_text_13495",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.253872,
+          42.197295
+        ]
+      },
+      "properties": {
+        "id": "copy_text_13495",
+        "name": "Tal Amere",
+        "category": "settlement",
+        "dataset": "wood_elves",
+        "in_gazetteer": true,
+        "type": "Hall",
+        "region": "Wood Elves",
+        "province": null,
+        "estate": null,
+        "population": 79,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": "Warhammer Armies: Wood Elves (8th Edition)",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Wood Elves"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "copy_text_13496",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.212787,
+          42.287348
+        ]
+      },
+      "properties": {
+        "id": "copy_text_13496",
+        "name": "Tyr Edrell",
+        "category": "settlement",
+        "dataset": "wood_elves",
+        "in_gazetteer": true,
+        "type": "Hall",
+        "region": "Wood Elves",
+        "province": null,
+        "estate": null,
+        "population": 180,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": "Warhammer Armies: Wood Elves (8th Edition)",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Wood Elves"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "copy_text_13497",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.599623,
+          42.853891
+        ]
+      },
+      "properties": {
+        "id": "copy_text_13497",
+        "name": "Tyr Vanna",
+        "category": "settlement",
+        "dataset": "wood_elves",
+        "in_gazetteer": true,
+        "type": "Hall",
+        "region": "Wood Elves",
+        "province": null,
+        "estate": null,
+        "population": 65,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": "Warhammer Armies: Wood Elves (8th Edition)",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Wood Elves"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "copy_text_13498",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.591436,
+          45.773375
+        ]
+      },
+      "properties": {
+        "id": "copy_text_13498",
+        "name": "Eyrie of the Hawk Lords",
+        "category": "settlement",
+        "dataset": "wood_elves",
+        "in_gazetteer": true,
+        "type": "POI",
+        "region": "Wood Elves",
+        "province": null,
+        "estate": null,
+        "population": 85,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": "Warhammer Armies: Wood Elves (8th Edition)",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Wood Elves"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "copy_text_13499",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.359345,
+          46.837052
+        ]
+      },
+      "properties": {
+        "id": "copy_text_13499",
+        "name": "Chasm Glade of Beithir Seun",
+        "category": "settlement",
+        "dataset": "wood_elves",
+        "in_gazetteer": true,
+        "type": "Glade",
+        "region": "Wood Elves",
+        "province": null,
+        "estate": null,
+        "population": 160,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": "Warhammer Armies: Wood Elves (8th Edition)",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Wood Elves"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "copy_text_13500",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.917003,
+          47.019127
+        ]
+      },
+      "properties": {
+        "id": "copy_text_13500",
+        "name": "Glade of Eternal Moonlight",
+        "category": "settlement",
+        "dataset": "wood_elves",
+        "in_gazetteer": true,
+        "type": "Glade",
+        "region": "Wood Elves",
+        "province": null,
+        "estate": null,
+        "population": 106,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": "Warhammer Armies: Wood Elves (8th Edition)",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Wood Elves"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "copy_text_13501",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.099454,
+          56.35089
+        ]
+      },
+      "properties": {
+        "id": "copy_text_13501",
+        "name": "Fountain of Lebin",
+        "category": "settlement",
+        "dataset": "wood_elves",
+        "in_gazetteer": true,
+        "type": "POI",
+        "region": "Wood Elves",
+        "province": null,
+        "estate": null,
+        "population": 150,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": "Warhammer Fantasy Roleplay 4e: Archives of the Empire 3",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Wood Elves"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "copy_text_13502",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.613077,
+          55.869583
+        ]
+      },
+      "properties": {
+        "id": "copy_text_13502",
+        "name": "Pass of Stone",
+        "category": "settlement",
+        "dataset": "wood_elves",
+        "in_gazetteer": true,
+        "type": "Hall",
+        "region": "Wood Elves",
+        "province": null,
+        "estate": null,
+        "population": 412,
+        "population_estimated": true,
+        "size_category": 2,
+        "trade": null,
+        "source": "Warhammer Fantasy Roleplay 4e: Archives of the Empire 6",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Wood Elves"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "copy_text_13503",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.512786,
+          56.128292
+        ]
+      },
+      "properties": {
+        "id": "copy_text_13503",
+        "name": "Rainbow Falls",
+        "category": "settlement",
+        "dataset": "wood_elves",
+        "in_gazetteer": true,
+        "type": "POI",
+        "region": "Wood Elves",
+        "province": null,
+        "estate": null,
+        "population": 384,
+        "population_estimated": true,
+        "size_category": 2,
+        "trade": null,
+        "source": "Warhammer Fantasy Roleplay 4e: Archives of the Empire 5",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Wood Elves"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "copy_text_13504",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.154675,
+          57.401545
+        ]
+      },
+      "properties": {
+        "id": "copy_text_13504",
+        "name": "Farinar's Rock",
+        "category": "settlement",
+        "dataset": "wood_elves",
+        "in_gazetteer": true,
+        "type": "POI",
+        "region": "Wood Elves",
+        "province": null,
+        "estate": null,
+        "population": 105,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": "Warhammer Fantasy Roleplay 4e: Archives of the Empire 2",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Wood Elves"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "copy_text_13505",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.318005,
+          57.383882
+        ]
+      },
+      "properties": {
+        "id": "copy_text_13505",
+        "name": "Tower of Se-Athil",
+        "category": "settlement",
+        "dataset": "wood_elves",
+        "in_gazetteer": true,
+        "type": "Hall",
+        "region": "Wood Elves",
+        "province": null,
+        "estate": null,
+        "population": 299,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": "Warhammer Fantasy Roleplay 4e: Archives of the Empire 1",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Wood Elves"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "copy_text_13506",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.980631,
+          55.437134
+        ]
+      },
+      "properties": {
+        "id": "copy_text_13506",
+        "name": "Drachenhohle",
+        "category": "settlement",
+        "dataset": "wood_elves",
+        "in_gazetteer": true,
+        "type": "POI",
+        "region": "Wood Elves",
+        "province": null,
+        "estate": null,
+        "population": 86,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": "Warhammer Fantasy Roleplay 4e: Archives of the Empire 9",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Wood Elves"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "copy_text_13507",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.863167,
+          46.894638
+        ]
+      },
+      "properties": {
+        "id": "copy_text_13507",
+        "name": "Locrimere",
+        "category": "settlement",
+        "dataset": "wood_elves",
+        "in_gazetteer": true,
+        "type": "Ruins",
+        "region": "Wood Elves",
+        "province": null,
+        "estate": null,
+        "population": 141,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": "Warhammer Armies: Wood Elves (8th Edition)",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Wood Elves"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "copy_text_13508",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.689506,
+          45.246562
+        ]
+      },
+      "properties": {
+        "id": "copy_text_13508",
+        "name": "The Chains of Vaul",
+        "category": "settlement",
+        "dataset": "wood_elves",
+        "in_gazetteer": true,
+        "type": "POI",
+        "region": "Wood Elves",
+        "province": null,
+        "estate": null,
+        "population": 97,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": "Warhammer Armies: Wood Elves (8th Edition)",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Wood Elves"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "copy_text_13509",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.399482,
+          43.66478
+        ]
+      },
+      "properties": {
+        "id": "copy_text_13509",
+        "name": "Cerura Carn",
+        "category": "settlement",
+        "dataset": "wood_elves",
+        "in_gazetteer": true,
+        "type": "POI",
+        "region": "Wood Elves",
+        "province": null,
+        "estate": null,
+        "population": 315,
+        "population_estimated": true,
+        "size_category": 2,
+        "trade": null,
+        "source": "Warhammer Armies: Wood Elves (8th Edition)",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Wood Elves"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "copy_text_13510",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.328127,
+          47.796935
+        ]
+      },
+      "properties": {
+        "id": "copy_text_13510",
+        "name": "Glade of the Lost",
+        "category": "settlement",
+        "dataset": "wood_elves",
+        "in_gazetteer": true,
+        "type": "Glade",
+        "region": "Wood Elves",
+        "province": null,
+        "estate": null,
+        "population": 195,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": "Warhammer Armies: Wood Elves (8th Edition)",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Wood Elves"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "copy_text_13511",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.454725,
+          43.029487
+        ]
+      },
+      "properties": {
+        "id": "copy_text_13511",
+        "name": "Halls of Equos",
+        "category": "settlement",
+        "dataset": "wood_elves",
+        "in_gazetteer": true,
+        "type": "Hall",
+        "region": "Wood Elves",
+        "province": null,
+        "estate": null,
+        "population": 273,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": "Warhammer Armies: Wood Elves (8th Edition)",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Wood Elves"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "copy_text_13512",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.589256,
+          46.441648
+        ]
+      },
+      "properties": {
+        "id": "copy_text_13512",
+        "name": "Eomain Tarn",
+        "category": "settlement",
+        "dataset": "wood_elves",
+        "in_gazetteer": true,
+        "type": "POI",
+        "region": "Wood Elves",
+        "province": null,
+        "estate": null,
+        "population": 575,
+        "population_estimated": true,
+        "size_category": 2,
+        "trade": null,
+        "source": "Warhammer Armies: Wood Elves (8th Edition)",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Wood Elves"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "copy_text_13513",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.92806,
+          43.655883
+        ]
+      },
+      "properties": {
+        "id": "copy_text_13513",
+        "name": "The Western Sentinels",
+        "category": "settlement",
+        "dataset": "wood_elves",
+        "in_gazetteer": true,
+        "type": "POI",
+        "region": "Wood Elves",
+        "province": null,
+        "estate": null,
+        "population": 307,
+        "population_estimated": true,
+        "size_category": 2,
+        "trade": null,
+        "source": "Warhammer Armies: Wood Elves (6th Edition)",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Wood Elves"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "copy_text_13514",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.310986,
+          48.084198
+        ]
+      },
+      "properties": {
+        "id": "copy_text_13514",
+        "name": "The Northern Sentinels",
+        "category": "settlement",
+        "dataset": "wood_elves",
+        "in_gazetteer": true,
+        "type": "POI",
+        "region": "Wood Elves",
+        "province": null,
+        "estate": null,
+        "population": 147,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": "Warhammer Armies: Wood Elves (6th Edition)",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Wood Elves"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "copy_text_13515",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.224374,
+          56.708816
+        ]
+      },
+      "properties": {
+        "id": "copy_text_13515",
+        "name": "Ruins of Kor Immarmor",
+        "category": "settlement",
+        "dataset": "wood_elves",
+        "in_gazetteer": true,
+        "type": "POI",
+        "region": "Wood Elves",
+        "province": null,
+        "estate": null,
+        "population": 120,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": "Warhammer Fantasy Roleplay 4e: Archives of the Empire 7",
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Wood Elves"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text523",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.40444,
+          40.674724
+        ]
+      },
+      "properties": {
+        "id": "text523",
+        "name": "Sith Fascoluinne",
+        "category": "settlement",
+        "dataset": "wood_elves",
+        "in_gazetteer": false,
+        "type": null,
+        "region": "Wood Elves",
+        "province": null,
+        "estate": null,
+        "population": 103,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": null,
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Wood Elves"
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "text1045",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.697727,
+          51.517647
+        ]
+      },
+      "properties": {
+        "id": "text1045",
+        "name": "The Wytherglade",
+        "category": "settlement",
+        "dataset": "wood_elves",
+        "in_gazetteer": false,
+        "type": null,
+        "region": "Wood Elves",
+        "province": null,
+        "estate": null,
+        "population": 61,
+        "population_estimated": true,
+        "size_category": 1,
+        "trade": null,
+        "source": null,
+        "tags": [],
+        "notes": [],
+        "history": {
+          "province_2512": null,
+          "province_2276": null,
+          "ruler_2515": null,
+          "ruler_2512": null,
+          "ruler_2276": null
+        },
+        "wiki": {
+          "title": null,
+          "url": null,
+          "description": null,
+          "image": null
+        },
+        "svg_layer": "Wood Elves"
+      }
+    }
+  ]
+}

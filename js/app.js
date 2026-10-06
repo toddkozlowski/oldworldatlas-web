@@ -25,6 +25,7 @@ async function initializeApp() {
             'data/settlements_empire.geojson',
             'data/settlements_estalia.geojson',
             'data/settlements_kislev.geojson',
+            'data/settlements_nehekhara.geojson',
             'data/settlements_norsca.geojson',
             'data/settlements_tilea.geojson',
             'data/settlements_westerland.geojson',
@@ -59,22 +60,21 @@ async function initializeApp() {
         const olPOIFeatures = poiData.getOLFeatures();
         mapManager.addPOIFeatures(olPOIFeatures);
 
-        // Load province labels
-        const provinceFeatures = await provinceData.loadProvinces('data/province_labels.geojson');
-        console.log(`Loaded ${provinceFeatures.length} province labels`);
+        // Load region labels
+        const provinceFeatures = await provinceData.loadProvinces('data/region_labels.geojson');
+        console.log(`Loaded ${provinceFeatures.length} region labels`);
 
-        // Add province labels to map
+        // Add region labels to map
         const olProvinceFeatures = provinceData.getOLFeatures();
         mapManager.addProvinceFeatures(olProvinceFeatures);
 
-        // Add tribe labels to their own layers
-        mapManager.addGreenskinTribeFeatures(provinceData.getGreenskinTribeFeatures());
-        mapManager.addNorthmenTribeFeatures(provinceData.getNorthmenTribeFeatures());
-        console.log(`Loaded ${provinceData.getGreenskinTribeFeatures().length} greenskin tribe labels`);
-        console.log(`Loaded ${provinceData.getNorthmenTribeFeatures().length} northmen tribe labels`);
+        // Load tribe labels into their own layers (greenskin, northmen, araby)
+        const tribeFeatures = await tribeData.loadTribes('data/tribes.geojson');
+        mapManager.setTribeFeatures(tribeData);
+        console.log(`Loaded ${tribeFeatures.length} tribe labels`);
 
         // Load water labels
-        const waterFeatures = await waterData.loadWaterLabels('data/geographic_feature_labels.geojson');
+        const waterFeatures = await waterData.loadWaterLabels('data/geographic_features.geojson');
         console.log(`Loaded ${waterFeatures.length} water labels`);
 
         // Add water labels to map
@@ -84,15 +84,22 @@ async function initializeApp() {
         // Load skavendom settlement data (layer stays invisible until rat mode enabled)
         const skavendomResponse = await fetch('data/settlements_skavendom.geojson');
         const skavendomGeoJSON = await skavendomResponse.json();
-        const skavendomFeatures = skavendomGeoJSON.features.map(f => new ol.Feature({
-            geometry: new ol.geom.Point(f.geometry.coordinates),
-            name: f.properties.name,
-            featureType: 'skavendom',
-            settlementType: f.properties.settlement_type,
-            population: f.properties.population,
-            majorClans: f.properties.major_clans || [],
-            minorClans: f.properties.minor_clans || []
-        }));
+        const skavendomFeatures = skavendomGeoJSON.features.map(f => {
+            const wiki = f.properties.wiki || {};
+            return new ol.Feature({
+                geometry: new ol.geom.Point(f.geometry.coordinates),
+                name: f.properties.name,
+                featureType: 'skavendom',
+                settlementType: f.properties.type,
+                population: f.properties.population,
+                populationEstimated: f.properties.population_estimated === true,
+                source: f.properties.source,
+                wikiTitle: wiki.title,
+                wikiUrl: wiki.url,
+                wikiDescription: wiki.description,
+                wikiImage: wiki.image
+            });
+        });
         mapManager.getSkavendomSource().addFeatures(skavendomFeatures);
         console.log(`Loaded ${skavendomFeatures.length} skavendom settlements`);
 

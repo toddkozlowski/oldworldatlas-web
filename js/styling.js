@@ -565,7 +565,7 @@ function createPOIStyle(feature, currentResolution) {
     const poiType = feature.get('type');
     const typeOverrides = STYLES_CONFIG.poi[poiType];
     const config = typeOverrides ? { ...STYLES_CONFIG.poi.default, ...typeOverrides } : STYLES_CONFIG.poi.default;
-    const isPeak = poiType === 'Peaks';
+    const isPeak = poiType === 'Mountain Peak';
 
     // Early exit for performance - don't even check visibility if way out of range
     if (currentResolution > config.minZoomLevel * 2) {
@@ -659,6 +659,82 @@ function createPOIStyle(feature, currentResolution) {
     }
     
     return style;
+}
+
+/**
+ * Create an OpenLayers Style object for a POI marker only (no label)
+ * Used for the always-visible marker layer underneath the decluttered
+ * combined settlement/POI label layer, so a POI's icon stays visible
+ * even when its label gets decluttered away. Only POI types with a
+ * dedicated icon get one; the rest (dots, peaks) declutter with their label.
+ * @param {OL.Feature} feature - OpenLayers feature
+ * @param {number} currentResolution - Current map resolution
+ * @returns {OL.style.Style}
+ */
+function createPOIMarkerOnlyStyle(feature, currentResolution) {
+    if (!STYLES_CONFIG) {
+        return null;
+    }
+
+    const poiType = feature.get('type');
+    const typeOverrides = STYLES_CONFIG.poi[poiType];
+    const config = typeOverrides ? { ...STYLES_CONFIG.poi.default, ...typeOverrides } : STYLES_CONFIG.poi.default;
+
+    // POIs without a dedicated icon are drawn (and decluttered) by the combined label layer only
+    if (!config.icon) {
+        return null;
+    }
+
+    // Early exit for performance
+    if (currentResolution > config.minZoomLevel * 2) {
+        return null;
+    }
+
+    const showDotVisible = shouldShowDot(config, currentResolution);
+    if (!showDotVisible) {
+        return null;
+    }
+
+    const radius = getInterpolatedRadius(config, currentResolution);
+    const isHighlighted = feature.get('highlighted') === true;
+
+    let imageStyle = null;
+    if (isHighlighted) {
+        // Don't cache highlighted styles - create fresh red circle
+        imageStyle = new ol.style.Circle({
+            radius: radius * 1.3,  // Slightly larger
+            fill: new ol.style.Fill({ color: '#f44336' }),  // Red
+            stroke: new ol.style.Stroke({
+                color: '#d32f2f',
+                width: config.strokeWidth * 1.5
+            })
+        });
+    } else {
+        const imageCacheKey = `poi_marker_${poiType}_${getVisualOptionsCacheSuffix()}_${currentResolution.toFixed(4)}`;
+        imageStyle = getCachedStyle(STYLE_CACHE.poi, imageCacheKey, () => {
+            if (configUsesIcon(config)) {
+                const iconHeight = getInterpolatedIconSize(config, currentResolution);
+                return new ol.style.Icon({
+                    src: config.icon,
+                    scale: iconHeight / config.iconHeight,
+                });
+            }
+            return new ol.style.Circle({
+                radius: radius,
+                fill: new ol.style.Fill({ color: config.color }),
+                stroke: new ol.style.Stroke({
+                    color: config.strokeColor,
+                    width: config.strokeWidth
+                })
+            });
+        });
+    }
+
+    // Return style with only the marker (no text)
+    return new ol.style.Style({
+        image: imageStyle,
+        zIndex: isHighlighted ? 9999 : 0
+    });
 }
 
 /**
@@ -835,18 +911,8 @@ function createProvinceStyle(feature, currentResolution) {
         return null;
     }
     
-    const provinceType = feature.get('provinceType');
-
-    // Support both legacy and current province type naming schemes.
-    // This keeps older GeoJSON exports rendering without requiring data rewrites.
-    const provinceTypeAliases = {
-        'Nation': 'Nation-State',
-        'Major Division': 'Grand-Province',
-        'Minor Division': 'Province'
-    };
-
-    const normalizedProvinceType = provinceTypeAliases[provinceType] || provinceType;
-    const config = STYLES_CONFIG.provinces[normalizedProvinceType];
+    // Keyed by svg_layer (Nation-State, Grand-Province, Province, Sub-Province)
+    const config = STYLES_CONFIG.provinces[feature.get('provinceStyleKey')];
     
     if (!config) {
         return null;
@@ -864,7 +930,7 @@ function createProvinceStyle(feature, currentResolution) {
     // The font size calculation is lightweight, so we create fresh styles
     return new ol.style.Style({
         text: new ol.style.Text({
-            text: formatLabelText(feature.get('name')),
+            text: formatLabelText(feature.get('label') || feature.get('name')),
             font: constructFontString(config.textFont, fontSize),
             fill: new ol.style.Fill({ color: getEffectiveTextFillColor(config) }),
             stroke: buildTextStroke(getEffectiveTextStrokeColor(config), config.textStrokeWidth)
@@ -873,7 +939,7 @@ function createProvinceStyle(feature, currentResolution) {
 }
 
 /**
- * Create an OpenLayers Style object for a tribe label (greenskin or northmen)
+ * Create an OpenLayers Style object for a tribe label (greenskin, northmen or araby)
  * @param {OL.Feature} feature - OpenLayers feature
  * @param {number} currentResolution - Current map resolution
  * @returns {OL.style.Style}
@@ -881,16 +947,15 @@ function createProvinceStyle(feature, currentResolution) {
 function createTribeStyle(feature, currentResolution) {
     if (!STYLES_CONFIG) return null;
 
-    const provinceType = feature.get('provinceType');
-    const config = STYLES_CONFIG.tribes[provinceType];
+    const config = STYLES_CONFIG.tribes[getTribeLabel(feature)];
 
     if (!config) return null;
     if (!shouldShowLabel(config, currentResolution)) return null;
 
     const fontSize = getInterpolatedFontSize(config, currentResolution);
-    const isNorthmen = provinceType === 'Major Northmen Tribe' || provinceType === 'Minor Northmen Tribe';
+    const isGreenskin = feature.get('tribeGroup') === 'Greenskins';
     const rawName = feature.get('name') || '';
-    const labelText = isNorthmen
+    const labelText = !isGreenskin
         ? formatLabelText(rawName.toUpperCase())
         : formatWaterLabelText(rawName);
     return new ol.style.Style({

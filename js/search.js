@@ -75,9 +75,9 @@ class SearchManager {
             settlementSource.getFeatures().forEach(f => {
                 const name = f.get('name');
                 const sizeCategory = f.get('sizeCategory');
-                const province = f.get('province');
-                const categoryLabel = getSizeCategoryLabel(sizeCategory);
-                push(f, name, province ? `${categoryLabel} (${province})` : categoryLabel, f.getGeometry().getCoordinates());
+                const place = f.get('province') || f.get('region');
+                const categoryLabel = f.get('settlementType') || getSizeCategoryLabel(sizeCategory);
+                push(f, name, place ? `${categoryLabel} (${place})` : categoryLabel, f.getGeometry().getCoordinates());
             });
         }
 
@@ -111,44 +111,37 @@ class SearchManager {
         // Province / region labels
         const provinceLayer = mapManager.getProvinceLayer();
         if (provinceLayer) {
-            const provinceTypeDisplay = {
-                'Nation': 'Nation-State', 'Nation-State': 'Nation-State',
-                'Major Division': 'Grand Province', 'Grand-Province': 'Grand Province',
-                'Minor Division': 'Province', 'Province': 'Province'
-            };
             provinceLayer.getSource().getFeatures().forEach(f => {
-                const name = f.get('name');
-                const raw = f.get('provinceType') || '';
-                const label = provinceTypeDisplay[raw] || raw;
-                push(f, name, label, f.getGeometry().getCoordinates());
+                push(f, f.get('name'), f.get('localCategory') || 'Region', f.getGeometry().getCoordinates());
             });
         }
 
-        // Geographic feature labels (seas, lakes, hills, forests, etc.)
+        // Geographic feature labels (seas, lakes, hills, forests, etc.).
+        // Large features are labelled more than once on the map, so index each name/type once.
         const waterLayer = mapManager.getWaterLayer();
         if (waterLayer) {
+            const seen = new Set();
             waterLayer.getSource().getFeatures().forEach(f => {
                 const name = f.get('name');
-                const label = (f.get('waterbodyType') || '').replace(/ Labels$/, '');
+                const label = f.get('waterbodyType') || '';
+                const key = `${name}|${label}`;
+                if (seen.has(key)) return;
+                seen.add(key);
                 push(f, name, label, f.getGeometry().getCoordinates());
             });
         }
 
-        // Greenskin tribe labels
-        const greenskinLayer = mapManager.getGreenskinTribeLayer();
-        if (greenskinLayer) {
-            greenskinLayer.getSource().getFeatures().forEach(f => {
-                push(f, f.get('name'), 'Greenskin Tribe', f.getGeometry().getCoordinates());
+        // Tribe labels
+        [
+            mapManager.getGreenskinTribeLayer(),
+            mapManager.getNorthmenTribeLayer(),
+            mapManager.getArabyTribeLayer()
+        ].forEach(layer => {
+            if (!layer) return;
+            layer.getSource().getFeatures().forEach(f => {
+                push(f, f.get('name'), getTribeLabel(f), f.getGeometry().getCoordinates());
             });
-        }
-
-        // Northmen tribe labels
-        const northmenLayer = mapManager.getNorthmenTribeLayer();
-        if (northmenLayer) {
-            northmenLayer.getSource().getFeatures().forEach(f => {
-                push(f, f.get('name'), 'Northmen Tribe', f.getGeometry().getCoordinates());
-            });
-        }
+        });
 
         console.log('Search indexed', this.allFeatures.length, 'features');
     }
@@ -280,7 +273,8 @@ class SearchManager {
         const woodElfSettlementLayer = mapManager.getWoodElfSettlementLayer();
         const woodElfSettlementMarkersLayer = mapManager.getWoodElfSettlementMarkersOnlyLayer();
         const poiLayer = mapManager.getPOILayer();
-        
+        const poiMarkersLayer = mapManager.getPOIMarkersOnlyLayer();
+
         if (settlementLayer) settlementLayer.changed();
         if (settlementMarkersLayer) settlementMarkersLayer.changed();
         if (dwarfSettlementLayer) dwarfSettlementLayer.changed();
@@ -288,6 +282,7 @@ class SearchManager {
         if (woodElfSettlementLayer) woodElfSettlementLayer.changed();
         if (woodElfSettlementMarkersLayer) woodElfSettlementMarkersLayer.changed();
         if (poiLayer) poiLayer.changed();
+        if (poiMarkersLayer) poiMarkersLayer.changed();
         
         // Show feature through UI controls (zoom, center, popup)
         if (window.uiControls) {
@@ -312,11 +307,13 @@ class SearchManager {
             const settlementLayer = mapManager.getSettlementLayer();
             const settlementMarkersLayer = mapManager.getSettlementMarkersOnlyLayer();
             const poiLayer = mapManager.getPOILayer();
-            
+            const poiMarkersLayer = mapManager.getPOIMarkersOnlyLayer();
+
             if (settlementLayer) settlementLayer.changed();
             if (settlementMarkersLayer) settlementMarkersLayer.changed();
             if (poiLayer) poiLayer.changed();
-            
+            if (poiMarkersLayer) poiMarkersLayer.changed();
+
             this.selectedFeature = null;
         }
         
