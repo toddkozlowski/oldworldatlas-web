@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Atlas of the Old World</title>
+    <title>[TEST] Atlas of the Old World</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
     <meta http-equiv='imagetoolbar' content='no'/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
@@ -36,6 +36,7 @@
             font-family: 'Lucida Grande', Geneva, Arial, Verdana, sans-serif; 
         }
         body { margin: 0; background: #262626; }
+
         #header { display: none; }
         #subheader { display: none; }
         #map { height: 100%; border: none; }
@@ -124,6 +125,25 @@
             font-weight: 600;
         }
         
+        @font-face {
+            font-family: 'HelpMe';
+            src: url('images/HelpMe.ttf') format('truetype');
+        }
+
+        .rat-mode-font > h1,
+        .rat-mode-font > p,
+        .rat-mode-font > button {
+            font-family: 'HelpMe', cursive !important;
+        }
+
+        .rat-mode-font > h1 { font-size: 16pt !important; }
+        @media (min-width: 768px) {
+            .rat-mode-font > h1 { font-size: 19.2pt !important; }
+        }
+        @media (min-width: 1024px) {
+            .rat-mode-font > h1 { font-size: 22.4pt !important; }
+        }
+
         /* Title box */
         .title-container { 
             position: absolute; 
@@ -1082,7 +1102,263 @@
             border-radius: 4px !important;
             margin: 2px 0 !important;
         }
-        
+
+        /* Topographic key button */
+        .screenshot-button {
+            position: absolute;
+            right: 10px;
+            bottom: 225px;
+            z-index: 10;
+            width: 36px;
+            height: 36px;
+            background: rgba(255, 255, 255, 0.9);
+            border: none;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .screenshot-button:hover {
+            background: rgba(255, 255, 255, 1);
+        }
+
+        .screenshot-button svg {
+            width: 18px;
+            height: 18px;
+            fill: #333;
+        }
+
+        .screenshot-button.exporting {
+            pointer-events: none;
+            opacity: 0.5;
+        }
+
+        #export-dialog-overlay {
+            display: none;
+            position: fixed;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: 30000;
+        }
+
+        #export-dialog {
+            display: none;
+            position: fixed;
+            top: 50%; left: 50%;
+            transform: translate(-50%, -50%);
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+            z-index: 30001;
+            padding: 24px 28px;
+            max-width: 380px;
+            width: 90%;
+            font-family: 'Lucida Grande', Geneva, Arial, Verdana, sans-serif;
+        }
+
+        #export-dialog h3 {
+            margin: 0 0 12px;
+            font-size: 16px;
+            color: #333;
+        }
+
+        #export-dialog p {
+            margin: 0 0 8px;
+            font-size: 13px;
+            color: #555;
+            line-height: 1.5;
+        }
+
+        #export-dialog .export-warning {
+            color: #b8860b;
+            font-style: italic;
+        }
+
+        #export-dialog .export-dialog-options {
+            margin-top: 12px;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        #export-dialog .export-dialog-options label {
+            font-size: 13px;
+            color: #444;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        #export-dialog .export-dialog-buttons {
+            display: flex;
+            gap: 10px;
+            justify-content: flex-end;
+            margin-top: 18px;
+        }
+
+        #export-dialog .export-dialog-buttons button {
+            padding: 8px 20px;
+            border: none;
+            border-radius: 4px;
+            font-size: 13px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+
+        #export-dialog-cancel {
+            background: #e0e0e0;
+            color: #333;
+        }
+
+        #export-dialog-cancel:hover {
+            background: #d0d0d0;
+        }
+
+        #export-dialog-ok {
+            background: rgba(24, 19, 150, 0.9);
+            color: white;
+        }
+
+        #export-dialog-ok:hover {
+            background: rgba(24, 19, 150, 1);
+        }
+
+        #export-preparing-overlay {
+            display: none;
+            position: fixed;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            background: rgba(0, 0, 0, 0.6);
+            z-index: 40000;
+            cursor: wait;
+        }
+
+        #export-preparing-box {
+            position: absolute;
+            top: 50%; left: 50%;
+            transform: translate(-50%, -50%);
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+            padding: 28px 32px;
+            text-align: center;
+            max-width: 340px;
+            font-family: 'Lucida Grande', Geneva, Arial, Verdana, sans-serif;
+        }
+
+        #export-preparing-box p {
+            margin: 0;
+            font-size: 14px;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        #export-preparing-box p:first-child {
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+
+        .topo-key-button {
+            position: absolute;
+            right: 10px;
+            bottom: 185px;
+            z-index: 10;
+            width: 36px;
+            height: 36px;
+            background: rgba(255, 255, 255, 0.9);
+            border: none;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .topo-key-button:hover {
+            background: rgba(255, 255, 255, 1);
+        }
+
+        .topo-key-button svg {
+            width: 18px;
+            height: 18px;
+            fill: #333;
+        }
+
+        .topo-key-panel {
+            display: none;
+            position: absolute;
+            right: 54px;
+            bottom: 105px;
+            z-index: 10;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 4px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+            padding: 10px;
+        }
+
+        .topo-key-panel.active {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+        }
+
+        /* Direct child only, so it doesn't also apply to the small icons in .map-key-legend */
+        .topo-key-panel > img {
+            display: block;
+            height: 350px;
+            width: auto;
+            flex-shrink: 0;
+        }
+
+        .map-key-legend {
+            display: flex;
+            flex-direction: column;
+            gap: 3px;
+            max-height: 350px;
+            overflow-y: auto;
+            padding-right: 6px;
+            font-family: Arial, sans-serif;
+        }
+
+        .map-key-legend-section-title {
+            font-size: 11px;
+            font-weight: 700;
+            color: #555;
+            text-transform: uppercase;
+            letter-spacing: 0.03em;
+            margin: 7px 0 2px;
+        }
+
+        .map-key-legend-section-title:first-child {
+            margin-top: 0;
+        }
+
+        .map-key-legend-row {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            white-space: nowrap;
+        }
+
+        .map-key-legend-swatch {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 34px;
+            flex-shrink: 0;
+        }
+
+        .map-key-legend-label {
+            font-size: 12px;
+            color: #222;
+        }
+
         /* Measurement buttons */
         .measurement-controls {
             position: absolute;
@@ -1187,20 +1463,30 @@
         .side-panel {
             position: fixed;
             top: 0;
-            left: -280px;
+            left: 0;
+            /* Closed: slide the whole panel (and its shadow) off-screen */
+            transform: translateX(calc(-100% - 12px));
             width: 300px;
-            height: 100%;
+            /* height:100% plus padding, under this element's content-box
+               sizing (unchanged here to avoid narrowing every existing
+               section's 300px content width), used to render ~90px taller
+               than the viewport - pushing content near the bottom outside
+               the browser's hit-testable viewport entirely, unreachable no
+               matter how far the panel's own internal scroll goes. Subtract
+               the vertical padding back out so the total rendered height
+               matches the viewport exactly. */
+            height: calc(100% - 90px);
             background: rgba(255, 255, 255, 0.3);
             box-shadow: 2px 0 8px rgba(0,0,0,0.2);
             z-index: 10000;
-            transition: left 0.3s ease, background 0.3s ease;
+            transition: transform 0.3s ease, background 0.3s ease;
             overflow-y: auto;
             padding: 70px 20px 20px 20px;
             pointer-events: none;
         }
         
         .side-panel.active {
-            left: 0;
+            transform: none;
             background: rgba(255, 255, 255, 0.95);
             pointer-events: auto;
         }
@@ -1238,6 +1524,75 @@
         
         .side-panel-section .toggle-item label {
             font-size: 14px;
+        }
+
+        .filter-group {
+            padding: 4px 0;
+        }
+
+        .filter-parent-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 8px;
+        }
+
+        .filter-expand-btn {
+            width: 22px;
+            height: 22px;
+            border: 1px solid #c7c7c7;
+            background: #fff;
+            border-radius: 4px;
+            color: #444;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0;
+            line-height: 1;
+            font-size: 11px;
+            transition: transform 0.2s ease, background 0.2s ease;
+        }
+
+        .filter-expand-btn:hover {
+            background: #f3f3f3;
+        }
+
+        .filter-expand-btn .arrow {
+            display: inline-block;
+            transform: rotate(0deg);
+            transition: transform 0.2s ease;
+        }
+
+        .filter-expand-btn[aria-expanded="true"] .arrow {
+            transform: rotate(180deg);
+        }
+
+        .filter-subpanel {
+            display: none;
+            margin: 6px 0 6px 18px;
+            padding-left: 12px;
+            border-left: 2px solid #e5e5e5;
+        }
+
+        .filter-subpanel.expanded {
+            display: block;
+        }
+
+        .subfilter-title {
+            margin: 8px 0 4px;
+            font-size: 12px;
+            font-weight: 600;
+            color: #666;
+            letter-spacing: 0.02em;
+        }
+
+        .sub-toggle-item {
+            padding: 4px 0;
+        }
+
+        .sub-toggle-item label {
+            font-size: 13px;
         }
         
         /* Units toggle */
@@ -1330,6 +1685,13 @@
             color: #666;
             font-weight: 600;
             min-width: 20px;
+        }
+
+        .grid-perf-warning {
+            display: none;
+            margin-top: 6px;
+            font-size: 11px;
+            color: #b8860b;
         }
         
         /* Search bar container */
@@ -1574,6 +1936,12 @@
             .ol-zoom {
                 display: none !important;
             }
+
+            .topo-key-button,
+            .topo-key-panel,
+            .screenshot-button {
+                display: none !important;
+            }
             
             /* Hide desktop UI elements */
             .title-container {
@@ -1662,11 +2030,47 @@
     <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@main/dist/en/v7.0.0/legacy/ol.js"></script>
     <script src="https://unpkg.com/ol-layerswitcher@4.1.1"></script>
     <link rel="stylesheet" href="https://unpkg.com/ol-layerswitcher@4.1.1/src/ol-layerswitcher.css" />
+
+    <!-- TEST BUILD: generated from index.html by tools/sync-test-page.py -->
+    <meta name="robots" content="noindex, nofollow" />
+    <script>window.ATLAS_TEST_BUILD = true;</script>
+    <style>
+        .test-build-badge {
+            position: fixed;
+            bottom: 32px;
+            left: 10px;
+            z-index: 10000;
+            padding: 3px 10px;
+            border-radius: 4px;
+            background: #b8860b;
+            color: #fff;
+            font: bold 12px/1.4 'Lucida Grande', Geneva, Arial, Verdana, sans-serif;
+            letter-spacing: 0.08em;
+            pointer-events: none;
+            opacity: 0.85;
+        }
+    </style>
 </head>
 <body>
+    <div class="test-build-badge" title="Test build - features here may be unfinished">TEST BUILD</div>
+
     <div id="header"><h1>Old-World-Atlas</h1></div>
     <div id="map" class="map"></div>
-    
+
+    <!-- Screenshot button -->
+    <button class="screenshot-button" id="screenshot-button" title="Export map screenshot">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 2L7.17 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2h-3.17L15 2H9zm3 15c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.65 0-3 1.35-3 3s1.35 3 3 3 3-1.35 3-3-1.35-3-3-3z"/></svg>
+    </button>
+
+    <!-- Topographic key button and panel -->
+    <button class="topo-key-button" id="topo-key-button" title="Topographic key">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 10h-8.35A5.99 5.99 0 0 0 7 6c-3.31 0-6 2.69-6 6s2.69 6 6 6a5.99 5.99 0 0 0 5.65-4H13l2 2 2-2 2 2 3-3-1-2zm-14 2c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z"/></svg>
+    </button>
+    <div class="topo-key-panel" id="topo-key-panel">
+        <div class="map-key-legend" id="map-key-legend"></div>
+        <img src="images/topographic_scale.png" alt="Topographic Scale">
+    </div>
+
     <!-- Measurement controls - adjacent to search bar -->
     <div class="measurement-controls">
         <button id="measure-button" class="measure-button" title="Measure distances">
@@ -1713,7 +2117,7 @@
         <div class="mobile-dropdown-item">
             <div class="toggle-item">
                 <input type="checkbox" id="mobile-water-checkbox" checked>
-                <label for="mobile-water-checkbox">Water</label>
+                <label for="mobile-water-checkbox">Geographic Labels</label>
             </div>
         </div>
         <div class="mobile-dropdown-item">
@@ -1734,11 +2138,25 @@
             <div class="grid-toggle">
                 <button id="mobile-grid-off" class="active">Off</button>
                 <button id="mobile-grid-square">Square</button>
+                <button id="mobile-grid-hex">Hex</button>
             </div>
             <div class="grid-size-control">
                 <label for="mobile-grid-size">Size:</label>
                 <input type="number" id="mobile-grid-size" min="10" max="1000" value="100">
                 <span id="mobile-grid-unit-label">mi</span>
+            </div>
+            <div class="grid-perf-warning" id="mobile-grid-perf-warning">Zoom in to see the grid at this size.</div>
+            <div class="grid-size-control">
+                <label for="mobile-grid-line-width">Width:</label>
+                <input type="number" id="mobile-grid-line-width" min="0.5" max="5" step="0.5" value="1">
+                <span>px</span>
+            </div>
+            <div class="grid-size-control">
+                <label for="mobile-grid-line-style">Style:</label>
+                <div class="grid-toggle" style="flex: 1;">
+                    <button id="mobile-grid-style-dashed" class="active">Dashed</button>
+                    <button id="mobile-grid-style-solid">Solid</button>
+                </div>
             </div>
         </div>
         <div class="mobile-dropdown-item">
@@ -1763,21 +2181,132 @@
     <div class="side-panel" id="side-panel">
         <div class="side-panel-section">
             <div class="side-panel-section-title">Filters</div>
-            <div class="toggle-item">
-                <input type="checkbox" id="settlement-checkbox" checked>
-                <label for="settlement-checkbox">Settlements</label>
+            <div class="filter-group">
+                <div class="filter-parent-row">
+                    <div class="toggle-item">
+                        <input type="checkbox" id="settlement-checkbox" checked>
+                        <label for="settlement-checkbox">Settlements</label>
+                    </div>
+                    <button id="settlement-expand-toggle" class="filter-expand-btn" type="button" aria-expanded="false" aria-controls="settlement-subfilters-panel" title="Expand settlement filters">
+                        <span class="arrow">▼</span>
+                    </button>
+                </div>
+                <div id="settlement-subfilters-panel" class="filter-subpanel" role="group" aria-label="Settlement Filters">
+                    <div class="subfilter-title">By Size</div>
+                    <div class="toggle-item sub-toggle-item">
+                        <input type="checkbox" id="settlement-size-villages" checked>
+                        <label for="settlement-size-villages">Villages</label>
+                    </div>
+                    <div class="toggle-item sub-toggle-item">
+                        <input type="checkbox" id="settlement-size-small-towns" checked>
+                        <label for="settlement-size-small-towns">Small Towns</label>
+                    </div>
+                    <div class="toggle-item sub-toggle-item">
+                        <input type="checkbox" id="settlement-size-towns" checked>
+                        <label for="settlement-size-towns">Towns</label>
+                    </div>
+                    <div class="toggle-item sub-toggle-item">
+                        <input type="checkbox" id="settlement-size-large-towns" checked>
+                        <label for="settlement-size-large-towns">Large Towns</label>
+                    </div>
+                    <div class="toggle-item sub-toggle-item">
+                        <input type="checkbox" id="settlement-size-cities" checked>
+                        <label for="settlement-size-cities">Cities</label>
+                    </div>
+                    <div class="toggle-item sub-toggle-item">
+                        <input type="checkbox" id="settlement-size-metropolises" checked>
+                        <label for="settlement-size-metropolises">Metropolises</label>
+                    </div>
+
+                    <div class="subfilter-title">By Region</div>
+                    <div class="toggle-item sub-toggle-item">
+                        <input type="checkbox" id="settlement-region-empire" checked>
+                        <label for="settlement-region-empire">The Empire</label>
+                    </div>
+                    <div class="toggle-item sub-toggle-item">
+                        <input type="checkbox" id="settlement-region-bretonnia" checked>
+                        <label for="settlement-region-bretonnia">Bretonnia</label>
+                    </div>
+                    <div class="toggle-item sub-toggle-item">
+                        <input type="checkbox" id="settlement-region-kislev" checked>
+                        <label for="settlement-region-kislev">Kislev</label>
+                    </div>
+                    <div class="toggle-item sub-toggle-item">
+                        <input type="checkbox" id="settlement-region-norsca" checked>
+                        <label for="settlement-region-norsca">Norsca</label>
+                    </div>
+                    <div class="toggle-item sub-toggle-item">
+                        <input type="checkbox" id="settlement-region-tilea" checked>
+                        <label for="settlement-region-tilea">Tilea</label>
+                    </div>
+                    <div class="toggle-item sub-toggle-item">
+                        <input type="checkbox" id="settlement-region-estalia" checked>
+                        <label for="settlement-region-estalia">Estalia</label>
+                    </div>
+                    <div class="toggle-item sub-toggle-item">
+                        <input type="checkbox" id="settlement-region-border-princes" checked>
+                        <label for="settlement-region-border-princes">Border Princes</label>
+                    </div>
+                    <div class="toggle-item sub-toggle-item">
+                        <input type="checkbox" id="settlement-region-albion" checked>
+                        <label for="settlement-region-albion">Albion</label>
+                    </div>
+                    <div class="toggle-item sub-toggle-item">
+                        <input type="checkbox" id="settlement-region-araby" checked>
+                        <label for="settlement-region-araby">Araby</label>
+                    </div>
+                    <div class="toggle-item sub-toggle-item">
+                        <input type="checkbox" id="settlement-region-dawi-zharr" checked>
+                        <label for="settlement-region-dawi-zharr">Dawi-Zharr</label>
+                    </div>
+                    <div class="toggle-item sub-toggle-item">
+                        <input type="checkbox" id="settlement-region-nehekhara" checked>
+                        <label for="settlement-region-nehekhara">Nehekhara</label>
+                    </div>
+                    <div class="toggle-item sub-toggle-item">
+                        <input type="checkbox" id="settlement-region-karaz-ankor" checked>
+                        <label for="settlement-region-karaz-ankor">The Karaz-Ankor</label>
+                    </div>
+                    <div class="toggle-item sub-toggle-item">
+                        <input type="checkbox" id="settlement-region-wood-elf-realms" checked>
+                        <label for="settlement-region-wood-elf-realms">Wood Elf Realms</label>
+                    </div>
+                </div>
             </div>
-            <div class="toggle-item">
-                <input type="checkbox" id="poi-checkbox" checked>
-                <label for="poi-checkbox">Points of Interest</label>
+
+            <div class="filter-group">
+                <div class="filter-parent-row">
+                    <div class="toggle-item">
+                        <input type="checkbox" id="poi-checkbox" checked>
+                        <label for="poi-checkbox">Points of Interest</label>
+                    </div>
+                    <button id="poi-expand-toggle" class="filter-expand-btn" type="button" aria-expanded="false" aria-controls="poi-subfilters-panel" title="Expand POI filters">
+                        <span class="arrow">▼</span>
+                    </button>
+                </div>
+                <div id="poi-subfilters-panel" class="filter-subpanel" role="group" aria-label="POI Filters">
+                    <div id="poi-subfilters-container"></div>
+                </div>
             </div>
             <div class="toggle-item">
                 <input type="checkbox" id="region-checkbox" checked>
                 <label for="region-checkbox">Regions</label>
             </div>
             <div class="toggle-item">
+                <input type="checkbox" id="greenskin-tribes-checkbox" checked>
+                <label for="greenskin-tribes-checkbox">Greenskin Tribes</label>
+            </div>
+            <div class="toggle-item">
+                <input type="checkbox" id="northmen-tribes-checkbox" checked>
+                <label for="northmen-tribes-checkbox">Northmen Tribes</label>
+            </div>
+            <div class="toggle-item">
+                <input type="checkbox" id="araby-tribes-checkbox" checked>
+                <label for="araby-tribes-checkbox">Araby Tribes</label>
+            </div>
+            <div class="toggle-item">
                 <input type="checkbox" id="water-checkbox" checked>
-                <label for="water-checkbox">Water</label>
+                <label for="water-checkbox">Geographic Labels</label>
             </div>
             <div class="toggle-item">
                 <input type="checkbox" id="published-canon-only-checkbox">
@@ -1795,20 +2324,76 @@
                 </div>
             </div>
             <div style="padding: 8px 0; margin-top: 12px;">
+                <div style="margin-bottom: 8px; font-size: 13px; font-weight: 600;">Map Mode</div>
+                <div class="units-toggle">
+                    <button id="ratmode-toggle" title="Toggle Skaven rat mode">Rat Mode [BETA] 🐀</button>
+                </div>
+            </div>
+            <div style="padding: 8px 0; margin-top: 12px;">
                 <div style="margin-bottom: 8px; font-size: 13px; font-weight: 600;">Grid Overlay</div>
                 <div class="grid-toggle">
                     <button id="grid-off" class="active">Off</button>
                     <button id="grid-square">Square</button>
+                    <button id="grid-hex">Hex</button>
                 </div>
                 <div class="grid-size-control">
                     <label for="grid-size">Size:</label>
                     <input type="number" id="grid-size" min="10" max="1000" value="100">
                     <span id="grid-unit-label">mi</span>
                 </div>
+                <div class="grid-perf-warning" id="grid-perf-warning">Zoom in to see the grid at this size.</div>
+                <div class="grid-size-control">
+                    <label for="grid-line-width">Width:</label>
+                    <input type="number" id="grid-line-width" min="0.5" max="5" step="0.5" value="1">
+                    <span>px</span>
+                </div>
+                <div class="grid-size-control">
+                    <label for="grid-line-style">Style:</label>
+                    <div class="grid-toggle" style="flex: 1;">
+                        <button id="grid-style-dashed" class="active">Dashed</button>
+                        <button id="grid-style-solid">Solid</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="side-panel-section">
+            <div class="side-panel-section-title">Visual Options</div>
+            <div class="filter-group">
+                <div class="toggle-item">
+                    <input type="checkbox" id="visual-simple-icons">
+                    <label for="visual-simple-icons">Simple Icons</label>
+                </div>
+                <div class="toggle-item">
+                    <input type="checkbox" id="visual-large-icons">
+                    <label for="visual-large-icons">Large Icons</label>
+                </div>
+            </div>
+            <div style="margin-top: 6px;">
+                <div style="margin-bottom: 6px; font-size: 13px; font-weight: 600;">Label Font</div>
+                <div class="units-toggle">
+                    <button id="visual-font-sans" class="active">Sans-serif</button>
+                    <button id="visual-font-serif">Serif</button>
+                </div>
+            </div>
+            <div style="margin-top: 10px;">
+                <div style="margin-bottom: 6px; font-size: 13px; font-weight: 600;">Text Outline</div>
+                <div class="grid-toggle">
+                    <button id="visual-outline-thick" class="active">Thick</button>
+                    <button id="visual-outline-thin">Thin</button>
+                    <button id="visual-outline-off">Off</button>
+                </div>
+            </div>
+            <div style="margin-top: 10px;">
+                <div style="margin-bottom: 6px; font-size: 13px; font-weight: 600;">Text Color</div>
+                <div class="units-toggle">
+                    <button id="visual-text-color-dark" class="active">Dark</button>
+                    <button id="visual-text-color-light">Light</button>
+                </div>
             </div>
         </div>
     </div>
-    
+
     <!-- Search bar - top left -->
     <div class="search-container" id="search-container">
         <div class="search-input-wrapper">
@@ -1821,7 +2406,7 @@
     <!-- Title box - top right -->
     <div class="title-container">
         <h1>Atlas of the Old World</h1>
-        <p class="title-subheader">An unofficial, fan-made map of the Warhammer world. Beta version, 03.02.2026 @toddkozlowski</p>
+        <p class="title-subheader">An unofficial, fan-made map of the Warhammer world. Updated 25 Oct 2026 @toddkozlowski</p>
         <button id="about-button" class="about-button">About</button>
         <button id="feedback-button" class="about-button">Suggest a correction or addition</button>
         <button id="changelog-button" class="changelog-button">
@@ -1882,6 +2467,30 @@
         </div>
     </div>
 
+    <!-- Export confirmation dialog -->
+    <div id="export-dialog-overlay"></div>
+    <div id="export-dialog">
+        <h3>Export Map Screenshot</h3>
+        <p>This will start an automatic download of a 4K image (approximately 15 MB).</p>
+        <p class="export-warning" id="export-slow-warning" style="display: none;">At this zoom level, it may take up to 30 seconds to prepare the image.</p>
+        <div class="export-dialog-options">
+            <label><input type="checkbox" id="export-include-scale"> Include scale bar</label>
+            <label><input type="checkbox" id="export-include-topo"> Include topographic key</label>
+        </div>
+        <div class="export-dialog-buttons">
+            <button id="export-dialog-cancel">Cancel</button>
+            <button id="export-dialog-ok">OK</button>
+        </div>
+    </div>
+
+    <!-- Export preparing overlay -->
+    <div id="export-preparing-overlay">
+        <div id="export-preparing-box">
+            <p>Preparing image for download...</p>
+            <p>This may take up to a minute. Please wait.</p>
+        </div>
+    </div>
+
     <!-- Modal overlay -->
     <div id="modal-overlay"></div>
 
@@ -1903,6 +2512,8 @@
     <!-- Load scripts in order -->
     <script src="js/utils.js?v=17"></script>
     <script src="js/styling.js?v=17"></script>
+    <script src="js/map-key-legend.js?v=17"></script>
+    <script src="js/visual-options.js?v=17"></script>
     <script src="js/search.js?v=17"></script>
     <script src="js/settlement-data.js?v=17"></script>
     <script src="js/dwarf-settlement-data.js?v=17"></script>
@@ -1912,6 +2523,7 @@
     <script src="js/water-data.js?v=17"></script>
     <script src="js/grid-overlay.js?v=17"></script>
     <script src="js/map-manager.js?v=17"></script>
+    <script src="js/city-data.js?v=17"></script>
     <script src="js/measurement-tool.js?v=17"></script>
     <script src="js/scale-control.js?v=17"></script>
     <script src="js/ui-controls.js?v=17"></script>
@@ -1920,6 +2532,15 @@
     <!-- <script src="js/new-user-popup.js?v=17"></script> -->
     <script src="js/changelog-dropdown.js?v=17"></script>
     <script src="js/app.js?v=17"></script>
+    <!-- Test-only features (cache-busted on every load) -->
+    <script>
+        (function () {
+            var s = document.createElement('script');
+            s.src = 'js/test-features.js?t=' + Date.now();
+            document.body.appendChild(s);
+        })();
+    </script>
+
     
     <!-- Mobile menu functionality -->
     <script>
@@ -2171,6 +2792,340 @@
         window.getCurrentUnits = function() {
             return currentUnits;
         };
+
+        // Topographic key button
+        const topoKeyButton = document.getElementById('topo-key-button');
+        const topoKeyPanel = document.getElementById('topo-key-panel');
+        if (topoKeyButton && topoKeyPanel) {
+            topoKeyButton.addEventListener('click', function(e) {
+                e.stopPropagation();
+                topoKeyPanel.classList.toggle('active');
+            });
+            document.addEventListener('click', function(e) {
+                if (topoKeyPanel.classList.contains('active') &&
+                    !topoKeyPanel.contains(e.target) &&
+                    !topoKeyButton.contains(e.target)) {
+                    topoKeyPanel.classList.remove('active');
+                }
+            });
+        }
+
+        // Screenshot export
+        const screenshotBtn = document.getElementById('screenshot-button');
+        const exportDialogOverlay = document.getElementById('export-dialog-overlay');
+        const exportDialog = document.getElementById('export-dialog');
+        const exportSlowWarning = document.getElementById('export-slow-warning');
+        const exportDialogCancel = document.getElementById('export-dialog-cancel');
+        const exportDialogOk = document.getElementById('export-dialog-ok');
+
+        function closeExportDialog() {
+            exportDialogOverlay.style.display = 'none';
+            exportDialog.style.display = 'none';
+        }
+
+        // Preload topo key image for export
+        var topoKeyImg = new Image();
+        topoKeyImg.crossOrigin = 'anonymous';
+        topoKeyImg.src = 'images/topographic_scale.png';
+
+        var exportPreparingOverlay = document.getElementById('export-preparing-overlay');
+
+        function doExport() {
+            closeExportDialog();
+
+            var includeScale = document.getElementById('export-include-scale').checked;
+            var includeTopo = document.getElementById('export-include-topo').checked;
+
+            screenshotBtn.classList.add('exporting');
+            exportPreparingOverlay.style.display = 'block';
+
+            var map = mapManager.getMap();
+            var view = map.getView();
+            var mapEl = map.getTargetElement();
+
+            var origSize = map.getSize();
+            var origRes = view.getResolution();
+            var center = view.getCenter();
+
+            // Capture scale info before resizing (uses the current on-screen resolution)
+            var scaleInfo = null;
+            if (includeScale) {
+                var mapUnitsPerPixel = origRes;
+                var milesFor150px = mapUnitsPerPixel * 150 * 83.5;
+                var units = window.getCurrentUnits ? window.getCurrentUnits() : 'miles';
+                var scaleValues = [1, 2, 5, 10, 20, 50, 100, 200];
+                var testVal = units === 'kilometers' ? milesFor150px * 1.60934 : milesFor150px;
+                var displayValue = scaleValues[0];
+                for (var i = 0; i < scaleValues.length; i++) {
+                    if (scaleValues[i] <= testVal) displayValue = scaleValues[i];
+                    else break;
+                }
+                var valueInMiles = units === 'kilometers' ? displayValue / 1.60934 : displayValue;
+                var barWidthFraction = valueInMiles / milesFor150px;
+                var displayUnit = units === 'kilometers' ? 'km' : 'mi';
+                var segments = displayValue <= 2 ? displayValue : 5;
+                scaleInfo = { value: displayValue, unit: displayUnit, barFraction: barWidthFraction, segments: segments };
+            }
+
+            var aspect = origSize[0] / origSize[1];
+            var exportHeight = 2160;
+            var exportWidth = Math.round(exportHeight * aspect);
+
+            var exportRes = origRes * (origSize[0] / exportWidth);
+            var minRes = getTileResolution(MAP_VIEW_MAX_ZOOM);
+            if (exportRes < minRes) exportRes = minRes;
+
+            var uiSelectors = [
+                '.title-container', '.search-container', '.hamburger-button',
+                '.side-panel', '#mouse-position', '#attribution', '.scale-control',
+                '.ol-zoom', '.ol-attribution', '.topo-key-button', '.topo-key-panel',
+                '.measurement-controls', '.mobile-menu-button', '.mobile-title',
+                '.mobile-dropdown', '.screenshot-button', '#popup'
+            ];
+            var hiddenEls = [];
+            uiSelectors.forEach(function(sel) {
+                document.querySelectorAll(sel).forEach(function(el) {
+                    if (el.style.display !== 'none') {
+                        hiddenEls.push({ el: el, prev: el.style.display });
+                        el.style.display = 'none';
+                    }
+                });
+            });
+
+            mapEl.style.width = exportWidth + 'px';
+            mapEl.style.height = exportHeight + 'px';
+            map.setSize([exportWidth, exportHeight]);
+            view.setCenter(center);
+            view.setResolution(exportRes);
+
+            map.once('rendercomplete', function() {
+                try {
+                    var exportCanvas = document.createElement('canvas');
+                    exportCanvas.width = exportWidth;
+                    exportCanvas.height = exportHeight;
+                    var ctx = exportCanvas.getContext('2d');
+
+                    var viewportCanvases = mapEl.querySelectorAll('.ol-layer canvas');
+                    viewportCanvases.forEach(function(canvas) {
+                        if (canvas.width > 0) {
+                            var opacity = canvas.parentNode.style.opacity || 1;
+                            ctx.globalAlpha = parseFloat(opacity);
+                            var transform = canvas.style.transform;
+                            var match = transform.match(/matrix\(([^)]+)\)/);
+                            if (match) {
+                                var vals = match[1].split(',').map(Number);
+                                ctx.setTransform(vals[0], vals[1], vals[2], vals[3], vals[4], vals[5]);
+                            }
+                            ctx.drawImage(canvas, 0, 0);
+                            ctx.setTransform(1, 0, 0, 1, 0, 0);
+                            ctx.globalAlpha = 1;
+                        }
+                    });
+
+                    var margin = Math.round(exportHeight * 0.02);
+
+                    // Draw scale bar (bottom-right)
+                    if (scaleInfo) {
+                        var barMaxPx = Math.round(exportWidth * 0.12);
+                        var barW = Math.round(barMaxPx * scaleInfo.barFraction);
+                        var barH = Math.round(exportHeight * 0.006);
+                        var scaleFontSize = Math.round(exportHeight * 0.014);
+                        var scaleX = exportWidth - margin - barW;
+                        var scaleY = exportHeight - margin - scaleFontSize - 4 - barH;
+
+                        // Background
+                        ctx.fillStyle = 'rgba(255, 255, 255, 0.6)';
+                        ctx.fillRect(scaleX - 10, scaleY - 6, barW + 20, barH + scaleFontSize + 18);
+
+                        // Segments
+                        var segW = barW / scaleInfo.segments;
+                        for (var s = 0; s < scaleInfo.segments; s++) {
+                            ctx.fillStyle = s % 2 === 0 ? '#000' : '#fff';
+                            ctx.fillRect(scaleX + s * segW, scaleY, segW, barH);
+                        }
+                        ctx.strokeStyle = '#000';
+                        ctx.lineWidth = 1;
+                        ctx.strokeRect(scaleX, scaleY, barW, barH);
+
+                        // Ticks
+                        for (var t = 0; t <= scaleInfo.segments; t++) {
+                            var tx = scaleX + t * segW;
+                            ctx.beginPath();
+                            ctx.moveTo(tx, scaleY - 3);
+                            ctx.lineTo(tx, scaleY + barH + 3);
+                            ctx.stroke();
+                        }
+
+                        // Label
+                        ctx.font = '600 ' + scaleFontSize + 'px sans-serif';
+                        ctx.fillStyle = '#333';
+                        ctx.textAlign = 'right';
+                        var label = (scaleInfo.value < 10 ? scaleInfo.value.toFixed(1) : Math.round(scaleInfo.value)) + ' ' + scaleInfo.unit;
+                        ctx.fillText(label, scaleX + barW, scaleY + barH + scaleFontSize + 2);
+                        ctx.textAlign = 'left';
+                    }
+
+                    // Draw topographic key (bottom-right, above scale if present)
+                    if (includeTopo && topoKeyImg.complete && topoKeyImg.naturalWidth > 0) {
+                        var topoH = Math.round(exportHeight * 0.32);
+                        var topoW = Math.round(topoH * (topoKeyImg.naturalWidth / topoKeyImg.naturalHeight));
+                        var topoX = exportWidth - margin - topoW;
+                        var topoY = exportHeight - margin - topoH;
+                        if (scaleInfo) topoY -= (Math.round(exportHeight * 0.006) + Math.round(exportHeight * 0.014) + 24);
+
+                        ctx.fillStyle = 'rgba(255, 255, 255, 0.55)';
+                        ctx.fillRect(topoX - 8, topoY - 8, topoW + 16, topoH + 16);
+                        ctx.globalAlpha = 0.85;
+                        ctx.drawImage(topoKeyImg, topoX, topoY, topoW, topoH);
+                        ctx.globalAlpha = 1;
+                    }
+
+                    // Attribution text (bottom-left)
+                    var fontSize = Math.round(exportHeight * 0.012);
+                    ctx.font = fontSize + 'px sans-serif';
+                    var text = 'Map generated from atlasoftheoldworld.com @toddkozlowski. Credit to Andy Law and Games Workshop.';
+                    var textWidth = ctx.measureText(text).width;
+                    var padding = Math.round(fontSize * 0.6);
+                    ctx.fillStyle = 'rgba(255, 255, 255, 0.35)';
+                    ctx.fillRect(0, exportHeight - fontSize - padding * 2, textWidth + padding * 2, fontSize + padding * 2);
+                    ctx.fillStyle = 'rgba(0, 0, 0, 0.5)';
+                    ctx.fillText(text, padding, exportHeight - padding);
+
+                    exportCanvas.toBlob(function(blob) {
+                        var link = document.createElement('a');
+                        link.download = 'old-world-atlas-export.png';
+                        link.href = URL.createObjectURL(blob);
+                        link.click();
+                        URL.revokeObjectURL(link.href);
+                    }, 'image/png');
+                } catch (e) {
+                    console.error('Screenshot export failed:', e);
+                    alert('Export failed. This may be due to tile loading restrictions.');
+                } finally {
+                    mapEl.style.width = '';
+                    mapEl.style.height = '';
+                    map.setSize(origSize);
+                    view.setResolution(origRes);
+                    view.setCenter(center);
+
+                    hiddenEls.forEach(function(item) {
+                        item.el.style.display = item.prev;
+                    });
+
+                    exportPreparingOverlay.style.display = 'none';
+                    screenshotBtn.classList.remove('exporting');
+                }
+            });
+
+            map.renderSync();
+        }
+
+        if (screenshotBtn) {
+            screenshotBtn.addEventListener('click', function() {
+                if (screenshotBtn.classList.contains('exporting')) return;
+
+                // Show slow-export warning if zoomed out (Z > 1 means resolution > 0.01)
+                var res = mapManager.getMap().getView().getResolution();
+                exportSlowWarning.style.display = (res > 0.01) ? 'block' : 'none';
+
+                exportDialogOverlay.style.display = 'block';
+                exportDialog.style.display = 'block';
+            });
+
+            exportDialogCancel.addEventListener('click', closeExportDialog);
+            exportDialogOverlay.addEventListener('click', closeExportDialog);
+            exportDialogOk.addEventListener('click', doExport);
+        }
+
+        // Rat mode tile toggle
+        (function() {
+            var ratModeActive = false;
+            var savedState = null;
+
+            function getCb(id) { return document.getElementById(id); }
+
+            function saveState() {
+                return {
+                    settlement: !!getCb('settlement-checkbox')?.checked,
+                    humanRegions: uiControls.settlementRegionConfig
+                        .filter(function(r) { return r.kind === 'human'; })
+                        .map(function(r) { return { id: r.id, checked: !!getCb(r.id)?.checked }; }),
+                    woodElf:  !!getCb('settlement-region-wood-elf-realms')?.checked,
+                    karaz:    !!getCb('settlement-region-karaz-ankor')?.checked,
+                    poi:    !!getCb('poi-checkbox')?.checked,
+                    water:  !!getCb('water-checkbox')?.checked,
+                    region: !!getCb('region-checkbox')?.checked
+                };
+            }
+
+            function applyRatFilters() {
+                // Uncheck all human region sub-checkboxes
+                uiControls.settlementRegionConfig
+                    .filter(function(r) { return r.kind === 'human'; })
+                    .forEach(function(r) { var cb = getCb(r.id); if (cb) cb.checked = false; });
+                // Uncheck wood elves and Karaz-Ankor
+                var woodElfCb = getCb('settlement-region-wood-elf-realms');
+                if (woodElfCb) woodElfCb.checked = false;
+                var karazCb = getCb('settlement-region-karaz-ankor');
+                if (karazCb) karazCb.checked = false;
+                uiControls.applySettlementFilters();
+
+                var poiCb = getCb('poi-checkbox');
+                if (poiCb) { poiCb.checked = false; uiControls.applyPOIFilters(); }
+
+                var waterCb = getCb('water-checkbox');
+                if (waterCb) { waterCb.checked = false; waterCb.dispatchEvent(new Event('change')); }
+
+                var regionCb = getCb('region-checkbox');
+                if (regionCb) { regionCb.checked = false; regionCb.dispatchEvent(new Event('change')); }
+            }
+
+            function restoreState(s) {
+                if (!s) return;
+
+                var settlementCb = getCb('settlement-checkbox');
+                if (settlementCb) settlementCb.checked = s.settlement;
+
+                s.humanRegions.forEach(function(r) { var cb = getCb(r.id); if (cb) cb.checked = r.checked; });
+
+                var woodElfCb = getCb('settlement-region-wood-elf-realms');
+                if (woodElfCb) woodElfCb.checked = s.woodElf;
+                var karazCb = getCb('settlement-region-karaz-ankor');
+                if (karazCb) karazCb.checked = s.karaz;
+
+                uiControls.applySettlementFilters();
+
+                var poiCb = getCb('poi-checkbox');
+                if (poiCb) { poiCb.checked = s.poi; uiControls.applyPOIFilters(); }
+
+                var waterCb = getCb('water-checkbox');
+                if (waterCb) { waterCb.checked = s.water; waterCb.dispatchEvent(new Event('change')); }
+
+                var regionCb = getCb('region-checkbox');
+                if (regionCb) { regionCb.checked = s.region; regionCb.dispatchEvent(new Event('change')); }
+            }
+
+            var btn = document.getElementById('ratmode-toggle');
+            if (btn) {
+                btn.addEventListener('click', function() {
+                    ratModeActive = !ratModeActive;
+                    btn.classList.toggle('active', ratModeActive);
+                    mapManager.setRatMode(ratModeActive);
+                    mapManager.setSkavendomVisible(ratModeActive);
+                    var titleContainer = document.querySelector('.title-container');
+                    if (titleContainer) titleContainer.classList.toggle('rat-mode-font', ratModeActive);
+
+                    if (ratModeActive) {
+                        savedState = saveState();
+                        applyRatFilters();
+                    } else {
+                        restoreState(savedState);
+                        savedState = null;
+                    }
+                });
+            }
+        })();
+
         });
     </script>
 </body>
