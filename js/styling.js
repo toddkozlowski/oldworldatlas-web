@@ -382,10 +382,12 @@ function getVisualOptionsCacheSuffix() {
  * reads as oversized relative to the tiny label sitting in it.
  *
  * Text keeps the default 'middle' baseline (small/single-line labels
- * already looked right with it), so a two-line label needs one explicit
- * extra line-height of clearance added on top - otherwise the second line
- * would hang down past the (vertically centered) anchor point and back
- * into the marker.
+ * already looked right with it), so a two-line label needs extra clearance
+ * added on top - otherwise the second line would hang down past the
+ * (vertically centered) anchor point and back into the marker. Since the
+ * two-line block is centered on the anchor, only about half a line-height
+ * (~0.6 * fontSize) is needed for its lower line to sit where a single
+ * line would; a full line-height left a visibly doubled gap.
  * @param {Object} config - Style configuration with textOffsetY
  * @param {Object} markerConfig - Style configuration for the marker (icon/dot) sizing - usually the same object as config, but separate for POI where the marker can belong to a type override
  * @param {number} currentResolution - Current map resolution
@@ -398,7 +400,7 @@ function getLabelOffsetY(config, markerConfig, currentResolution, fontSize, isMu
     const scaledBaseOffset = config.textOffsetY * (fontSize / referenceFontSize);
     let offset = scaledBaseOffset - getMarkerHalfHeight(markerConfig, currentResolution);
     if (isMultiline) {
-        offset -= Math.round(fontSize * 1.15);
+        offset -= Math.round(fontSize * 0.6);
     }
     return offset;
 }
