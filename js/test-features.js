@@ -7,7 +7,7 @@
  *
  * Map data loads asynchronously; use whenAtlasReady() to run code once the
  * map exists. When a feature is ready to ship, move it into the shared js/
- * files and index.html, then run tools/sync-test-page.py.
+ * files and index.html, then run tools/sync-pages.py.
  */
 
 function whenAtlasReady(callback) {

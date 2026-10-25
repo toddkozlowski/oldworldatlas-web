@@ -1,0 +1,52 @@
+    <!-- Dev Mode Username Modal -->
+    <div id="dev-username-modal-overlay"></div>
+    <div id="dev-username-modal">
+        <div class="dev-modal-header">
+            <h1>Developer Mode</h1>
+            <p class="subtitle">Community Contributions to the Atlas</p>
+        </div>
+        <div class="dev-modal-body">
+            <p>Welcome to the developer mode! This is a special version of the Old World Atlas that allows members of the community to contribute by making suggestions and additions directly on the map.</p>
+            
+            <p><strong>How it works:</strong></p>
+            <ul style="margin: 0 0 15px 0; padding-left: 20px;">
+                <li>Right-click on the map to add a new location or point of interest</li>
+                <li>You can save multiple entries locally before submitting them</li>
+                <li>Your username will be associated with your suggestions</li>
+            </ul>
+
+            <p>Please enter a username to get started:</p>
+            
+            <div class="username-input-group">
+                <label for="dev-username-input">Editor Username:</label>
+                <input type="text" id="dev-username-input" placeholder="Enter your username..." autocomplete="off">
+            </div>
+        </div>
+        <div class="dev-modal-footer">
+            <button class="btn-continue" id="dev-continue-button" disabled>Continue</button>
+        </div>
+        <div class="dev-modal-footer-text">
+            <strong>Important:</strong> Your contributions are stored locally on your device. The data will persist across page refreshes, but will be lost if you clear your browser cache. No data is private - anyone with your username can view or edit your contributions. <strong>Please save multiple locations before sending</strong> to reduce spam. Thank you for helping improve the atlas!
+        </div>
+    </div>
+
+    <!-- Right-click popup for adding entries -->
+    <div class="dev-rclick-popup" id="dev-rclick-popup">
+        <div class="dev-popup-status" id="dev-popup-status" style="display: none;"></div>
+        <div class="dev-popup-field">
+            <label for="dev-popup-name">Name</label>
+            <input type="text" id="dev-popup-name" placeholder="Settlement or POI name">
+        </div>
+        <div class="dev-popup-field">
+            <label for="dev-popup-tags">Tags</label>
+            <textarea id="dev-popup-tags" placeholder="e.g. province:Middenland, source:SigmarsHeirs"></textarea>
+        </div>
+        <div class="dev-popup-coordinates" id="dev-popup-coordinates"></div>
+        <div class="dev-popup-buttons">
+            <button class="btn-save" id="dev-popup-save">Save</button>
+            <button class="btn-send" id="dev-popup-send">Send Now</button>
+        </div>
+    </div>
+
+    <!-- Send Saved Entries Button -->
+    <button class="dev-send-saved-button" id="dev-send-saved-button">Send Saved Entries</button>
