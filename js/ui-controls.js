@@ -508,8 +508,7 @@ class UIControls {
         let currentLineWidth = parseFloat(localStorage.getItem('grid_line_width')) || 1;
         let currentLineStyle = localStorage.getItem('grid_line_style') || 'dashed';
 
-        if (currentGridSize < 5) currentGridSize = 5;
-        if (currentGridSize > 1000) currentGridSize = 1000;
+        currentGridSize = GridOverlay.clampGridSize(currentGridSize);
         if (currentLineWidth < 0.5) currentLineWidth = 0.5;
         if (currentLineWidth > 5) currentLineWidth = 5;
 
@@ -546,8 +545,8 @@ class UIControls {
             if (mobileGridStyleDashedBtn) mobileGridStyleDashedBtn.classList.toggle('active', currentLineStyle === 'dashed');
             if (mobileGridStyleSolidBtn) mobileGridStyleSolidBtn.classList.toggle('active', currentLineStyle === 'solid');
 
-            // Performance warning for small grid sizes
-            const showWarning = currentGridType !== 'off' && currentGridSize < 20;
+            // Hint shown while the grid is hidden for being too dense at this zoom
+            const showWarning = currentGridType !== 'off' && gridOverlay.tooDense;
             if (gridPerfWarning) gridPerfWarning.style.display = showWarning ? 'block' : 'none';
             if (mobileGridPerfWarning) mobileGridPerfWarning.style.display = showWarning ? 'block' : 'none';
 
@@ -574,9 +573,7 @@ class UIControls {
         };
 
         const setGridSize = (size) => {
-            if (size < 5) size = 5;
-            if (size > 1000) size = 1000;
-            currentGridSize = size;
+            currentGridSize = GridOverlay.clampGridSize(size);
             updateGrid();
         };
 
@@ -605,7 +602,7 @@ class UIControls {
             });
             input.addEventListener('input', (e) => {
                 const value = parseInt(e.target.value);
-                if (!isNaN(value) && value >= 5 && value <= 1000) setGridSize(value);
+                if (!isNaN(value) && value >= GridOverlay.MIN_GRID_SIZE && value <= GridOverlay.MAX_GRID_SIZE) setGridSize(value);
             });
         };
         bindSizeInput(gridSizeInput);
@@ -640,6 +637,9 @@ class UIControls {
             updateUnitLabels();
             updateGrid();
         });
+
+        // The grid hides itself when zoomed out too far for its size
+        window.addEventListener('gridDensityChanged', updateGridUI);
 
         // Initialize UI
         updateGridUI();
