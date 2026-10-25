@@ -1,0 +1,339 @@
+/*
+ * Developer-mode styles for dev.html (community contributions).
+ * dev.html is generated from index.html by tools/sync-pages.py.
+ */
+
+.dev-badge {
+    position: fixed;
+    bottom: 72px;
+    left: 20px;
+    z-index: 10000;
+    padding: 3px 10px;
+    border-radius: 4px;
+    background: #ff6b6b;
+    color: #fff;
+    font: bold 12px/1.4 'Lucida Grande', Geneva, Arial, Verdana, sans-serif;
+    letter-spacing: 0.08em;
+    pointer-events: none;
+}
+
+
+/* Dev mode username modal overlay */
+#dev-username-modal-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0);
+    z-index: 30000;
+    transition: background 0.3s ease;
+}
+
+#dev-username-modal-overlay.active {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+/* Dev mode username modal dialog */
+#dev-username-modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.9);
+    width: 500px;
+    max-width: 90%;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+    z-index: 30001;
+    overflow: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+#dev-username-modal.active {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.dev-modal-header {
+    position: relative;
+    padding: 20px;
+    background: rgba(255, 107, 107, 0.1);
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.dev-modal-header h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+    font-weight: 600;
+}
+
+.dev-modal-header .subtitle {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #666;
+}
+
+.dev-modal-body {
+    padding: 30px;
+    overflow-y: auto;
+    max-height: 70vh;
+}
+
+.dev-modal-body p {
+    margin: 0 0 15px 0;
+    color: #333;
+    line-height: 1.6;
+}
+
+.dev-modal-body strong {
+    font-weight: 600;
+}
+
+.username-input-group {
+    margin: 20px 0;
+}
+
+.username-input-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #333;
+}
+
+.username-input-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: border-color 0.2s;
+}
+
+.username-input-group input:focus {
+    outline: none;
+    border-color: #ff6b6b;
+}
+
+.dev-modal-footer {
+    padding: 20px 30px;
+    background: #f5f5f5;
+    border-top: 1px solid #e0e0e0;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+.dev-modal-footer button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.dev-modal-footer .btn-continue {
+    background: #ff6b6b;
+    color: white;
+}
+
+.dev-modal-footer .btn-continue:hover:not(:disabled) {
+    background: #ff5252;
+}
+
+.dev-modal-footer .btn-continue:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+}
+
+.dev-modal-footer-text {
+    padding: 0 30px 20px 30px;
+    font-size: 11px;
+    color: #999;
+    line-height: 1.5;
+}
+
+.dev-modal-footer-text strong {
+    color: #666;
+}
+
+.dev-rclick-popup {
+    position: fixed;
+    background: white;
+    border: 2px solid #333;
+    border-radius: 6px;
+    padding: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    z-index: 25000;
+    font-size: 12px;
+    pointer-events: auto;
+    display: none;
+    min-width: 250px;
+}
+
+.dev-rclick-popup::before {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: white;
+    border: 2px solid #333;
+    border-right: none;
+    border-bottom: none;
+    transform: rotate(45deg);
+    left: calc(var(--arrow-left, 15px));
+    top: calc(var(--arrow-top, -7px));
+}
+
+.dev-rclick-popup.visible {
+    display: block;
+}
+
+.dev-popup-field {
+    margin-bottom: 10px;
+}
+
+.dev-popup-field label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 4px;
+    color: #333;
+}
+
+.dev-popup-field input[type="text"],
+.dev-popup-field textarea {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-family: inherit;
+    font-size: 11px;
+    box-sizing: border-box;
+    resize: none;
+}
+
+.dev-popup-field input[type="text"] {
+    height: 24px;
+}
+
+.dev-popup-field textarea {
+    height: 50px;
+}
+
+.dev-popup-field input[type="text"]:focus,
+.dev-popup-field textarea:focus {
+    outline: none;
+    border-color: #333;
+}
+
+.dev-popup-coordinates {
+    margin: 8px 0;
+    padding: 6px;
+    background: #f0f0f0;
+    border-radius: 3px;
+    font-size: 10px;
+    color: #666;
+    font-family: monospace;
+}
+
+.dev-popup-buttons {
+    display: flex;
+    gap: 8px;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.dev-popup-buttons button {
+    flex: 1;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 12px;
+    transition: all 0.2s;
+    min-height: 36px;
+}
+.dev-popup-buttons button:hover:not(:disabled) {
+    flex: 1;
+    padding: 6px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 11px;
+    font-weight: 600;
+    transition: all 0.2s;
+}
+
+.dev-popup-buttons .btn-save {
+    background: #ff69b4;
+    color: white;
+}
+
+.dev-popup-buttons .btn-save:hover {
+    background: #ff1493;
+}
+
+.dev-popup-buttons .btn-send {
+    background: #ffd700;
+    color: #333;
+}
+
+.dev-popup-buttons .btn-send:hover {
+    background: #ffed4e;
+}
+
+/* Saved entries button */
+.dev-send-saved-button {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    padding: 12px 16px;
+    background: #ff6b6b;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    z-index: 15000;
+    transition: all 0.2s;
+    opacity: 1;
+    pointer-events: auto;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+
+.dev-send-saved-button.active {
+    opacity: 1;
+    pointer-events: auto;
+    background: #ff6b6b;
+}
+
+.dev-send-saved-button:not(.active) {
+    opacity: 0.4;
+    pointer-events: none;
+    background: #ccc;
+}
+
+.dev-send-saved-button:hover:not(:disabled) {
+    background: #ff5252;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+
+@media (max-width: 768px) {
+    #dev-username-modal {
+        width: 90%;
+    }
+
+    .dev-modal-body {
+        padding: 20px;
+    }
+}
