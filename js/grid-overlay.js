@@ -1,9 +1,28 @@
 /**
  * Grid overlay for Old World Atlas
- * Provides square and hexagonal grid overlays with configurable size and style
+ * Provides square and hexagonal grid overlays with configurable size and style.
+ *
+ * To keep small grid sizes from generating an unbounded number of lines, the
+ * grid is only built for the visible part of the map (rebuilt after each pan or
+ * zoom), and is hidden entirely while its cells would be too small on screen to
+ * be useful. A hard minimum grid size and a feature cap act as further limits.
  */
 
 class GridOverlay {
+    // Hard limits on the grid size input (in the current distance unit)
+    static MIN_GRID_SIZE = 10;
+    static MAX_GRID_SIZE = 1000;
+
+    // Grid is hidden while one cell would be smaller than this on screen
+    static MIN_CELL_PIXELS = 16;
+
+    // Safety net: never add more line features than this in one pass
+    static MAX_FEATURES = 30000;
+
+    // Fraction of the view size added on each side, so short pans don't
+    // reveal ungridded edges before the grid is rebuilt
+    static VIEW_BUFFER = 0.25;
+
     constructor() {
         this.map = null;
         this.gridLayer = null;
@@ -13,6 +32,9 @@ class GridOverlay {
         this.gridUnit = 'miles';
         this.lineWidth = 1;
         this.lineStyle = 'dashed'; // 'solid' or 'dashed'
+
+        // True while the grid is on but hidden because it would be too dense
+        this.tooDense = false;
 
         // Map extent from the base map tiles
         this.mapExtent = getImageExtent();
@@ -27,27 +49,92 @@ class GridOverlay {
         this.gridLayer = gridLayer;
         this.gridSource = gridSource;
         this.gridLayer.setVisible(false);
+
+        // Rebuild the grid for the new view after every pan or zoom
+        this.map.on('moveend', () => {
+            if (this.gridType !== 'off') this.render();
+        });
+    }
+
+    static clampGridSize(size) {
+        return Math.min(GridOverlay.MAX_GRID_SIZE, Math.max(GridOverlay.MIN_GRID_SIZE, size));
     }
 
     updateGrid(gridType, gridSize, gridUnit) {
         this.gridType = gridType;
-        this.gridSize = gridSize;
+        this.gridSize = GridOverlay.clampGridSize(gridSize);
         this.gridUnit = gridUnit;
+        this.render();
+    }
 
+    /**
+     * Regenerate grid features for the current view.
+     */
+    render() {
         this.gridSource.clear();
 
-        if (gridType === 'off') {
+        if (this.gridType === 'off' || !this.map) {
+            this.gridLayer.setVisible(false);
+            this.setTooDense(false);
+            return;
+        }
+
+        const view = this.map.getView();
+        const resolution = view.getResolution();
+        const size = this.map.getSize();
+        if (!resolution || !size) {
             this.gridLayer.setVisible(false);
             return;
         }
 
-        if (gridType === 'square') {
-            this.generateSquareGrid();
-        } else if (gridType === 'hex') {
-            this.generateHexGrid();
+        // Skip drawing when cells would be too small on screen to be useful
+        const cellSize = this.distanceToMapUnits(this.gridSize, this.gridUnit);
+        const cellPixels = (this.gridType === 'hex' ? Math.sqrt(3) * cellSize : cellSize) / resolution;
+        if (cellPixels < GridOverlay.MIN_CELL_PIXELS) {
+            this.gridLayer.setVisible(false);
+            this.setTooDense(true);
+            return;
         }
 
+        const extent = this.getRenderExtent(view.calculateExtent(size));
+        if (!extent) {
+            this.gridLayer.setVisible(false);
+            this.setTooDense(false);
+            return;
+        }
+
+        const features = this.gridType === 'hex'
+            ? this.generateHexGrid(extent)
+            : this.generateSquareGrid(extent);
+
+        this.gridSource.addFeatures(features);
         this.gridLayer.setVisible(true);
+        this.setTooDense(false);
+    }
+
+    setTooDense(tooDense) {
+        if (this.tooDense === tooDense) return;
+        this.tooDense = tooDense;
+        window.dispatchEvent(new CustomEvent('gridDensityChanged', { detail: { tooDense } }));
+    }
+
+    /**
+     * The visible extent plus a buffer, clipped to the map extent.
+     * Returns null if the view doesn't overlap the map at all.
+     */
+    getRenderExtent(viewExtent) {
+        const [vMinX, vMinY, vMaxX, vMaxY] = viewExtent;
+        const bufX = (vMaxX - vMinX) * GridOverlay.VIEW_BUFFER;
+        const bufY = (vMaxY - vMinY) * GridOverlay.VIEW_BUFFER;
+        const [mMinX, mMinY, mMaxX, mMaxY] = this.mapExtent;
+
+        const minX = Math.max(mMinX, vMinX - bufX);
+        const minY = Math.max(mMinY, vMinY - bufY);
+        const maxX = Math.min(mMaxX, vMaxX + bufX);
+        const maxY = Math.min(mMaxY, vMaxY + bufY);
+
+        if (minX >= maxX || minY >= maxY) return null;
+        return [minX, minY, maxX, maxY];
     }
 
     updateLineStyle(lineWidth, lineStyle) {
@@ -64,101 +151,92 @@ class GridOverlay {
         }
     }
 
-    generateSquareGrid() {
+    generateSquareGrid(extent) {
         const cellSize = this.distanceToMapUnits(this.gridSize, this.gridUnit);
-        const [minX, minY, maxX, maxY] = this.mapExtent;
+        const [minX, minY, maxX, maxY] = extent;
 
         const features = [];
 
-        const startX = Math.floor(minX / cellSize) * cellSize;
-        const startY = Math.floor(minY / cellSize) * cellSize;
-        const endX = Math.ceil(maxX / cellSize) * cellSize;
-        const endY = Math.ceil(maxY / cellSize) * cellSize;
+        // Lines stay anchored to multiples of cellSize so they don't shift when panning
+        const startCol = Math.ceil(minX / cellSize);
+        const endCol = Math.floor(maxX / cellSize);
+        const startRow = Math.ceil(minY / cellSize);
+        const endRow = Math.floor(maxY / cellSize);
 
-        for (let x = startX; x <= endX; x += cellSize) {
+        for (let col = startCol; col <= endCol && features.length < GridOverlay.MAX_FEATURES; col++) {
+            const x = col * cellSize;
             features.push(new ol.Feature({
                 geometry: new ol.geom.LineString([[x, minY], [x, maxY]])
             }));
         }
 
-        for (let y = startY; y <= endY; y += cellSize) {
+        for (let row = startRow; row <= endRow && features.length < GridOverlay.MAX_FEATURES; row++) {
+            const y = row * cellSize;
             features.push(new ol.Feature({
                 geometry: new ol.geom.LineString([[minX, y], [maxX, y]])
             }));
         }
 
-        this.gridSource.addFeatures(features);
+        return features;
     }
 
     /**
      * Generate flat-top hexagonal grid.
      * Grid size = side length. Flat-top means top/bottom edges are horizontal.
      */
-    generateHexGrid() {
+    generateHexGrid(extent) {
         const side = this.distanceToMapUnits(this.gridSize, this.gridUnit);
-        const [minX, minY, maxX, maxY] = this.mapExtent;
+        const [minX, minY, maxX, maxY] = extent;
 
         // Flat-top hex geometry:
         //   width  = 2 * side
         //   height = sqrt(3) * side
         //   horizontal spacing between column centers = 1.5 * side
         //   vertical offset for odd columns = height / 2
-        const hexW = 2 * side;
         const hexH = Math.sqrt(3) * side;
         const colSpacing = 1.5 * side;
         const rowSpacing = hexH;
 
+        // One extra hex on each side so the lower edges along the bottom of the
+        // extent (drawn as the upper edges of the hexes below) are included
         const startCol = Math.floor((minX - side) / colSpacing);
         const endCol = Math.ceil((maxX + side) / colSpacing);
         const startRow = Math.floor((minY - hexH) / rowSpacing);
         const endRow = Math.ceil((maxY + hexH) / rowSpacing);
 
-        // Build a set of unique edge segments to avoid duplicate lines
-        const edgeSet = new Set();
+        // Vertex offsets of a flat-top hex, starting from the right, counter-clockwise
+        const offsets = [];
+        for (let i = 0; i < 6; i++) {
+            const angle = (Math.PI / 3) * i;
+            offsets.push([side * Math.cos(angle), side * Math.sin(angle)]);
+        }
+
         const features = [];
-
-        const roundCoord = (v) => Math.round(v * 1e6) / 1e6;
-
-        const addEdge = (x1, y1, x2, y2) => {
-            const rx1 = roundCoord(x1), ry1 = roundCoord(y1);
-            const rx2 = roundCoord(x2), ry2 = roundCoord(y2);
-            // Canonical ordering so each edge is stored once
-            const key = rx1 < rx2 || (rx1 === rx2 && ry1 < ry2)
-                ? `${rx1},${ry1}-${rx2},${ry2}`
-                : `${rx2},${ry2}-${rx1},${ry1}`;
-            if (edgeSet.has(key)) return;
-            edgeSet.add(key);
-            features.push(new ol.Feature({
-                geometry: new ol.geom.LineString([[x1, y1], [x2, y2]])
-            }));
-        };
 
         for (let col = startCol; col <= endCol; col++) {
             const cx = col * colSpacing;
             const yOffset = (col % 2 !== 0) ? hexH / 2 : 0;
 
             for (let row = startRow; row <= endRow; row++) {
+                if (features.length >= GridOverlay.MAX_FEATURES) return features;
+
                 const cy = row * rowSpacing + yOffset;
 
-                // 6 vertices of a flat-top hex, starting from the right
-                const verts = [];
-                for (let i = 0; i < 6; i++) {
-                    const angle = (Math.PI / 3) * i;
-                    verts.push([
-                        cx + side * Math.cos(angle),
-                        cy + side * Math.sin(angle)
-                    ]);
+                // Each edge is shared by two hexes, so every hex draws only its
+                // three upper edges (upper-right, top, upper-left); its lower edges
+                // are the upper edges of the neighbours below it. This yields each
+                // edge exactly once without needing to de-duplicate.
+                const points = [];
+                for (let i = 0; i <= 3; i++) {
+                    points.push([cx + offsets[i][0], cy + offsets[i][1]]);
                 }
-
-                for (let i = 0; i < 6; i++) {
-                    const [x1, y1] = verts[i];
-                    const [x2, y2] = verts[(i + 1) % 6];
-                    addEdge(x1, y1, x2, y2);
-                }
+                features.push(new ol.Feature({
+                    geometry: new ol.geom.LineString(points)
+                }));
             }
         }
 
-        this.gridSource.addFeatures(features);
+        return features;
     }
 
     static createGridStyle(lineWidth = 1, lineStyle = 'dashed') {
