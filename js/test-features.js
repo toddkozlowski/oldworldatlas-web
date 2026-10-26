@@ -26,14 +26,17 @@ function whenAtlasReady(callback) {
  *
  * On narrow screens the settlement/POI card is shown in a panel fixed to the
  * bottom of the screen instead of floating next to the feature on the map.
- * The selected feature is highlighted until the card is closed with its X
- * button (or by tapping an empty part of the map).
+ * Cards with a wiki description take up sheetHeightVh of the screen; shorter
+ * cards shrink to fit their content. The selected feature is centred in the
+ * part of the map left visible above the card, and stays highlighted until
+ * the card is closed with its X button (or by tapping an empty part of the map).
  */
 const MobileCardSheet = {
     mediaQuery: window.matchMedia('(max-width: 768px)'),
     sheetHeightVh: 40,
     sheet: null,
     body: null,
+    lastZoomRequest: null,  // {resolution, time} of the latest mapManager.zoomToFeature call
 
     initialize(map) {
         this.map = map;
@@ -53,7 +56,7 @@ const MobileCardSheet = {
                 left: 0;
                 right: 0;
                 bottom: 0;
-                height: ${this.sheetHeightVh}vh;
+                max-height: ${this.sheetHeightVh}vh;
                 z-index: 10001;
                 display: none;
                 flex-direction: column;
@@ -64,6 +67,9 @@ const MobileCardSheet = {
             }
             .mobile-card-sheet.open {
                 display: flex;
+            }
+            .mobile-card-sheet.full {
+                height: ${this.sheetHeightVh}vh;
             }
             .mobile-card-sheet-close {
                 position: absolute;
@@ -85,7 +91,9 @@ const MobileCardSheet = {
                 background: rgba(0, 0, 0, 0.15);
             }
             .mobile-card-sheet-body {
-                flex: 1;
+                flex: 1 1 auto;
+                min-height: 0;
+                padding-bottom: 12px;
                 overflow-y: auto;
                 -webkit-overflow-scrolling: touch;
                 overscroll-behavior: contain;
@@ -153,13 +161,22 @@ const MobileCardSheet = {
             originalHide();
             this.close();
         };
+
+        // Search selections zoom to the feature before its card is shown;
+        // remember the zoom so open() can redo it with the card accounted for.
+        const originalZoom = mapManager.zoomToFeature.bind(mapManager);
+        mapManager.zoomToFeature = (feature, zoomLevel) => {
+            originalZoom(feature, zoomLevel);
+            this.lastZoomRequest = { resolution: zoomLevel ?? 0.005, time: Date.now() };
+        };
     },
 
     open(feature, coordinate) {
         this.body.scrollTop = 0;
+        this.sheet.classList.toggle('full', !!this.body.querySelector('.settlement-popup-wiki-description'));
         this.sheet.classList.add('open');
         this.select(feature);
-        this.keepFeatureVisible(feature, coordinate);
+        this.centerFeature(feature, coordinate);
     },
 
     close() {
@@ -188,9 +205,9 @@ const MobileCardSheet = {
     },
 
     /**
-     * Pan the map if the feature would end up hidden behind the sheet.
+     * Centre the feature in the part of the map left visible above the sheet.
      */
-    keepFeatureVisible(feature, coordinate) {
+    centerFeature(feature, coordinate) {
         const geometry = feature.getGeometry();
         const featureCoordinate = geometry && geometry.getType() === 'Point'
             ? geometry.getCoordinates()
@@ -201,24 +218,24 @@ const MobileCardSheet = {
         }
 
         const view = this.map.getView();
-        const visibleHeight = size[1] * (1 - this.sheetHeightVh / 100);
+        const mapTop = this.map.getTargetElement().getBoundingClientRect().top;
+        const visibleHeight = Math.min(size[1], this.sheet.getBoundingClientRect().top - mapTop);
+        // How far above the map's centre the feature should sit, in pixels
+        const offsetPx = size[1] / 2 - visibleHeight / 2;
 
-        const pan = () => {
-            // Search selections zoom to the feature first; wait for that
-            if (view.getAnimating()) {
-                setTimeout(pan, 100);
-                return;
-            }
-            const pixel = this.map.getPixelFromCoordinate(featureCoordinate);
-            if (!pixel || (pixel[1] > 60 && pixel[1] < visibleHeight - 40)) {
-                return;
-            }
-            // Move the feature vertically to the middle of the visible area
-            const dy = pixel[1] - visibleHeight / 2;
-            const center = this.map.getCoordinateFromPixel([size[0] / 2, size[1] / 2 + dy]);
-            view.animate({ center, duration: 250 });
-        };
-        pan();
+        // A search selection has just started zooming to the feature: replace
+        // that animation with one that ends at the offset centre.
+        const zoom = this.lastZoomRequest;
+        const fromSearch = !!zoom && Date.now() - zoom.time < 100;
+        const resolution = fromSearch ? zoom.resolution : view.getResolution();
+        this.lastZoomRequest = null;
+
+        view.cancelAnimations();
+        view.animate({
+            center: [featureCoordinate[0], featureCoordinate[1] - offsetPx * resolution],
+            resolution,
+            duration: fromSearch ? 1000 : 250
+        });
     }
 };
 
